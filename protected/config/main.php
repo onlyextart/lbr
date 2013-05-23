@@ -85,5 +85,27 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
+                'menuadmin'=>array(
+                    'Меню'=>array(
+                        'Меню'=>'/administrator/menu/'
+                    ),
+                    'Каталог'=>array(
+                        'Каталог'=>'/administrator/banners/',
+                        'Производители'=>'/administration/makers/'
+                    ),
+                    'Пользователи'=>array(
+                        'Пользователи'=>'/administrator/users/',
+                        'Группы пользователей'=>'/administrator/user_groups/',
+                        'Роли'=>'/administrator/roles/',
+                        'Операции'=>'/administration/operations/'
+                    ),
+                    'Новости'=>'/administrator/news/',
+                    'Контакты'=>array(
+                        'Контакты'=>'/administrator/contacts/',
+                        'Регионы'=>'/administrator/regions/'
+                    ),
+                    'Разные страницы'=>'/administrator/pages/',
+                    'Поиск'=>'/administrator/search/'
+                ),
 	),
 );

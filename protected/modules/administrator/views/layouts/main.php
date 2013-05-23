@@ -1,5 +1,35 @@
-<?php
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Administrator panel</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu"><?
+            $menu = Yii::app()->params['menuadmin'];
+            echo returnMenu($menu);
+            ?>
+            </div>
+        </header>
+        <div class="wrapper">
+            <?php echo $content; ?>
+        </div>
+        <footer></footer>
+    </body>
+</html>
+<? 
+function returnMenu($arr){
+    $menu = '<ul class="nav">';
+    foreach ($arr as $key=>$link){
+        if (is_array($link)){
+            $menu .= '<li class="item parent"><span>'.$key.'</span>'.returnMenu($link).'</li>';
+        }else{
+            $menu .= '<li class="item"><a href="'.$link.'">'.$key.'</a></li>';
+        }
+    }
+    $menu .= '</ul>';
+    return $menu;
+}
 ?>
-<?php echo $content; ?>
