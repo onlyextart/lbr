@@ -7,8 +7,9 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
-
+	'name'=>'LBR',
+        'sourceLanguage' => 'ru',
+        'language' => 'ru',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -16,6 +17,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.*',
 	),
 
 	'modules'=>array(
@@ -86,26 +88,26 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
                 'menuadmin'=>array(
-                    'ĞœĞµĞ½Ñ'=>array(
-                        'ĞœĞµĞ½Ñ'=>'/administrator/menu/'
+                    'Ìåíş'=>array(
+                        'Ìåíş'=>'/administrator/menu/'
                     ),
-                    'ĞšĞ°Ñ‚Ğ°Ğ»Ğ¾Ğ³'=>array(
-                        'ĞšĞ°Ñ‚Ğ°Ğ»Ğ¾Ğ³'=>'/administrator/banners/',
-                        'ĞŸÑ€Ğ¾Ğ¸Ğ·Ğ²Ğ¾Ğ´Ğ¸Ñ‚ĞµĞ»Ğ¸'=>'/administration/makers/'
+                    'Êàòàëîã'=>array(
+                        'Êàòàëîã'=>'/administrator/banners/',
+                        'Ïğîèçâîäèòåëè'=>'/administration/makers/'
                     ),
-                    'ĞŸĞ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ğ¸'=>array(
-                        'ĞŸĞ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ğ¸'=>'/administrator/users/',
-                        'Ğ“Ñ€ÑƒĞ¿Ğ¿Ñ‹ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ĞµĞ¹'=>'/administrator/user_groups/',
-                        'Ğ Ğ¾Ğ»Ğ¸'=>'/administrator/roles/',
-                        'ĞĞ¿ĞµÑ€Ğ°Ñ†Ğ¸Ğ¸'=>'/administration/operations/'
+                    'Ïîëüçîâàòåëè'=>array(
+                        'Ïîëüçîâàòåëè'=>'/administrator/users/',
+                        'Ãğóïïû ïîëüçîâàòåëåé'=>'/administrator/user_groups/',
+                        'Ğîëè'=>'/administrator/roles/',
+                        'Îïåğàöèè'=>'/administration/operations/'
                     ),
-                    'ĞĞ¾Ğ²Ğ¾ÑÑ‚Ğ¸'=>'/administrator/news/',
-                    'ĞšĞ¾Ğ½Ñ‚Ğ°ĞºÑ‚Ñ‹'=>array(
-                        'ĞšĞ¾Ğ½Ñ‚Ğ°ĞºÑ‚Ñ‹'=>'/administrator/contacts/',
-                        'Ğ ĞµĞ³Ğ¸Ğ¾Ğ½Ñ‹'=>'/administrator/regions/'
+                    'Íîâîñòè'=>'/administrator/news/',
+                    'Êîíòàêòû'=>array(
+                        'Êîíòàêòû'=>'/administrator/contacts/',
+                        'Ğåãèîíû'=>'/administrator/regions/'
                     ),
-                    'Ğ Ğ°Ğ·Ğ½Ñ‹Ğµ ÑÑ‚Ñ€Ğ°Ğ½Ğ¸Ñ†Ñ‹'=>'/administrator/pages/',
-                    'ĞŸĞ¾Ğ¸ÑĞº'=>'/administrator/search/'
+                    'Ğàçíûå ñòğàíèöû'=>'/administrator/pages/',
+                    'Ïîèñê'=>'/administrator/search/'
                 ),
 	),
 );
