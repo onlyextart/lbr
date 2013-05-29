@@ -10,8 +10,8 @@ return array(
 	'name'=>'LBR',
         'sourceLanguage' => 'ru',
         'language' => 'ru',
-	// preloading 'log' component
-	'preload'=>array('log'),
+    // preloading 'log' component
+    'preload' => array('log'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -32,7 +32,7 @@ return array(
                 'users',
 	),
 
-	// application components
+// application components
 	'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication

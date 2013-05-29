@@ -67,10 +67,10 @@ class News extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'header' => 'Header',
-			'alias' => 'Alias',
-			'date' => 'Date',
-			'published' => 'Published',
+			'header' => 'Заголовок',
+			'alias' => 'Ссылка',
+			'date' => 'Дата',
+			'published' => 'Опубликована',
 		);
 	}
 
