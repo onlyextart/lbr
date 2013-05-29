@@ -5,9 +5,9 @@
  *
  * The followings are the available columns in table 'contacts':
  * @property integer $id
- * @property integer $name
+ * @property string $name
  * @property string $alias
- * @property boolean $published
+ * @property integer $published
  * @property string $domain
  * @property string $address
  * @property string $telephone
@@ -53,8 +53,9 @@ class Contacts extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name', 'numerical', 'integerOnly'=>true),
-			array('alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images', 'safe'),
+			array('published', 'numerical', 'integerOnly'=>true),
+			array('email, message_email', 'email'),
+			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images', 'safe', 'on'=>'search'),
@@ -111,7 +112,7 @@ class Contacts extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name);
+		$criteria->compare('name',$this->name,true);
 		$criteria->compare('alias',$this->alias,true);
 		$criteria->compare('published',$this->published);
 		$criteria->compare('domain',$this->domain,true);
@@ -128,4 +129,15 @@ class Contacts extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод возвращает все филиалы в виде массива, где:
+        //ключ - id контакта, а значение - имя контакта
+        static function getFilialsArray(){
+            $filialsArray = array();
+            $filialsModel = Contacts::model()->findAll();
+            foreach( $filialsModel as $filial ){
+                $filialsArray[$filial->id] = $filial->name;
+            }
+            return $filialsArray;
+        }
 }

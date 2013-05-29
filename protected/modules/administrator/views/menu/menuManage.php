@@ -1,11 +1,17 @@
 <?php
-
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * $menuModel модель меню
  */
 if($menuModel->isNewRecord){
-    $pageHeader = 'Создать новый пункт меню';
+    if( isset($_GET['rootId']) ){
+        $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
+        if( $rootModel !== null){
+            $pageHeader = 'Добавить новый пункт меню в "'.$rootModel->name.'"';
+        }
+        else{
+            $pageHeader = 'Добавить новый пункт меню';
+        }
+    }
 }
 else{
     $pageHeader = 'Редактирование пункта меню "'.$menuModel->name.'"';
@@ -14,30 +20,106 @@ else{
 <h2>
     <?php echo $pageHeader ?>
 </h2>
-<?php $form = $this->beginWidget('CActiveForm'); ?>
-<div class="row">
-    <?php echo $form->error($menuModel, 'name'); ?>
-    <?php echo $form->labelEx($menuModel, 'name'); ?>
-    <?php echo $form->textField($menuModel, 'name'); ?>
-</div>
-<div class="row">
-    <?php echo $form->error($menuModel, 'published'); ?>
-    <?php echo $form->labelEx($menuModel, 'published'); ?>
-    <?php echo $form->checkBox($menuModel, 'published'); ?>
-</div>
-<div class="section row">
-    <button class="button" name="buttonPressed" value="save">
-        <?php echo $menuModel->isNewRecord? 'Создать':'Сохранить'; ?>
-    </button>
-    <button class="button" name="buttonPressed" value="saveAndClose">
-        <?php echo $menuModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть'; ?>
-    </button>
-    <button class="button" name="buttonPressed" value="close">
-        Закрыть
-    </button>
+<style>
+    .admin_main_features{float:left; width:60%;}
+    .admin_additional_features{float:left; width:40%;}
+    .admin_additional_features_content{background:#EEEEEE;}
+</style>
+<div class="form">
+<?php $form = $this->beginWidget('CActiveForm', array(
+            'id'=>'menuItem_form',
+            'enableClientValidation'=>true,
+            'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function(form, data, hasError){
+                                if(!hasError){
+                                    $.ajax({
+                                            "type":"POST",
+                                            "url":$("#menuItem_form").attr("action"),
+                                            "data":form.serialize(),
+                                            "success":function(data){$("#test").html(data); setTimeout(menuTreeView.updateTree('.$menuModel->isNewRecord.'), 600);},
+                                    });
+                                }
+                            }'
+            ),
+        )
+    );?>
+    <div class="admin_main_features">
+        <div class="row">
+            <?php echo $form->error($menuModel, 'name'); ?>
+            <?php echo $form->labelEx($menuModel, 'name'); ?>
+            <?php echo $form->textField($menuModel, 'name', array('style'=>'width:95%',)); ?>
+        </div>
+        <div class="row">
+            <?php echo $form->error($menuModel, 'alias'); ?>
+            <?php echo $form->labelEx($menuModel, 'alias'); ?>
+            <?php echo $form->textField($menuModel, 'alias', array('style'=>'width:95%',)); ?>
+        </div>
+        <div class="row">
+            <?php echo $form->error($menuModel, 'icon'); ?>
+            <?php echo $form->labelEx($menuModel, 'icon'); ?>
+            <?php echo $form->textField($menuModel, 'icon', array('style'=>'width:95%',)); ?>
+        </div>
+        <div class="row">
+            <?php echo $form->error($menuModel, 'published'); ?>
+            <?php echo $form->labelEx($menuModel, 'published'); ?>
+            <?php echo $form->checkBox($menuModel, 'published'); ?>
+        </div>
+        <div class="row">
+            <?php echo $form->error($menuModel, 'type'); ?>
+            <?php echo $form->labelEx($menuModel, 'type'); ?>
+            <?php echo $form->dropDownList($menuModel, 'type', MenuItems::getMenuItemsType()); ?>
+        </div>
+        <div class="row">
+            <?php echo $form->error($menuModel, 'group_id'); ?>
+            <?php echo $form->labelEx($menuModel, 'group_id'); ?>
+            <?php echo $form->dropDownList($menuModel, 'group_id', MenuGroups::getGroupsArray()); ?>
+        </div>
+        <div class="row">
+        <?php
+            echo CHtml::submitButton($menuModel->isNewRecord? 'Создать':'Сохранить', 
+                $form->action,
+                array( 
+                    'complete'=>'setTimeout(menuTreeView.updateTree('.$menuModel->isNewRecord.'), 600)', 
+                    'liveEvents'=>false,
+                ),
+                array(
+                    'id'=>'saveMenuItem'.rand(),
+                )
+            );
+        ?>
+        </div>
+    </div>
+    <div class="admin_additional_features">
+        <label>Дополнительные параметры</label>
+        <h3>Мета теги и SEO текст</h3>
+        <div class="form admin_additional_features_content">
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_description'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_description'); ?>
+                <?php echo $form->textField($menuModel, 'meta_description', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_title'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_title'); ?>
+                <?php echo $form->textField($menuModel, 'meta_title', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_keywords'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_keywords'); ?>
+                <?php echo $form->textField($menuModel, 'meta_keywords', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'seo_text'); ?>
+                <?php echo $form->labelEx($menuModel, 'seo_text'); ?>
+                <?php echo $form->textarea($menuModel, 'seo_text', array('style'=>'width:95%', 'rows'=>6,)); ?>
+            </div>
+        </div>
+    </div>
 </div>
 <?php  $this->endWidget();?>
 <script>
+    $(".admin_additional_features").accordion({ header: "h3" , collapsible: true, active:false, heightStyle: "content"});
 <?php if(Yii::app()->user->hasFlash('saved')): ?>
     alert("<?php echo Yii::app()->user->getFlash('saved'); ?>");
 <?php endif; ?>

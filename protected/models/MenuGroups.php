@@ -40,7 +40,6 @@ class MenuGroups extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id', 'numerical', 'integerOnly'=>true),
 			array('name, description, color', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -67,9 +66,9 @@ class MenuGroups extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
-			'color' => 'Color',
+			'name' => 'Имя',
+			'description' => 'Описание',
+			'color' => 'Цвет',
 		);
 	}
 
@@ -93,4 +92,15 @@ class MenuGroups extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод возвращает все группы в виде массива, где:
+        // ключ - id группы, а значение - имя группы
+        static function getGroupsArray(){
+                $groups = MenuGroups::model()->findAll();
+                $groupsArray = array();
+                foreach( $groups as $group ){
+                    $groupsArray[$group->id] = $group->name;
+                }
+                return $groupsArray;
+        }
 }

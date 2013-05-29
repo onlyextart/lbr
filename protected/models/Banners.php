@@ -10,6 +10,8 @@
  * @property string $icon
  * @property integer $type
  * @property integer $published
+ * @property integer $level
+ * @property integer $root
  *
  * The followings are the available model relations:
  * @property BannerImages[] $bannerImages
@@ -44,11 +46,11 @@ class Banners extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('lft, rt, type, published', 'numerical', 'integerOnly'=>true),
+			array('lft, rt, type, published, level, root', 'numerical', 'integerOnly'=>true),
 			array('icon', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, lft, rt, icon, type, published', 'safe', 'on'=>'search'),
+			array('id, lft, rt, icon, type, published, level, root', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -78,6 +80,8 @@ class Banners extends CActiveRecord
 			'icon' => 'Icon',
 			'type' => 'Type',
 			'published' => 'Published',
+			'level' => 'Level',
+			'root' => 'Root',
 		);
 	}
 
@@ -98,6 +102,8 @@ class Banners extends CActiveRecord
 		$criteria->compare('icon',$this->icon,true);
 		$criteria->compare('type',$this->type);
 		$criteria->compare('published',$this->published);
+		$criteria->compare('level',$this->level);
+		$criteria->compare('root',$this->root);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -41,6 +41,7 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+                        'showScriptName'=>false,
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -50,6 +51,9 @@ return array(
 		
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/lbr.db',
+                        /*'initSQLs'=>array(
+                            'PRAGMA foreign_keys = ON',
+                        ),*/
 		),
 		// uncomment the following to use a MySQL database
 		/*
@@ -87,27 +91,29 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
+                'defaultRegionId'=>1,
                 'menuadmin'=>array(
-                    'Ìåíş'=>array(
-                        'Ìåíş'=>'/administrator/menu/'
+                    'ĞœĞµĞ½Ñ'=>array(
+                        'ĞœĞµĞ½Ñ'=>'/administrator/menu/',
+                        'Ğ“Ñ€ÑƒĞ¿Ğ¿Ñ‹ Ğ¼ĞµĞ½Ñ'=>'/administrator/menu/groups',
                     ),
-                    'Êàòàëîã'=>array(
-                        'Êàòàëîã'=>'/administrator/banners/',
-                        'Ïğîèçâîäèòåëè'=>'/administration/makers/'
+                    'ĞšĞ°Ñ‚Ğ°Ğ»Ğ¾Ğ³'=>array(
+                        'ĞšĞ°Ñ‚Ğ°Ğ»Ğ¾Ğ³'=>'/administrator/banners/',
+                        'ĞŸÑ€Ğ¾Ğ¸Ğ·Ğ²Ğ¾Ğ´Ğ¸Ñ‚ĞµĞ»Ğ¸'=>'/administration/makers/',
                     ),
-                    'Ïîëüçîâàòåëè'=>array(
-                        'Ïîëüçîâàòåëè'=>'/administrator/users/',
-                        'Ãğóïïû ïîëüçîâàòåëåé'=>'/administrator/user_groups/',
-                        'Ğîëè'=>'/administrator/roles/',
-                        'Îïåğàöèè'=>'/administration/operations/'
+                    'ĞŸĞ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ğ¸'=>array(
+                        'ĞŸĞ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ğ¸'=>'/administrator/users/',
+                        'Ğ“Ñ€ÑƒĞ¿Ğ¿Ñ‹ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ĞµĞ¹'=>'/administrator/user_groups/',
+                        'Ğ Ğ¾Ğ»Ğ¸'=>'/administrator/roles/',
+                        'ĞĞ¿ĞµÑ€Ğ°Ñ†Ğ¸Ğ¸'=>'/administration/operations/',
                     ),
-                    'Íîâîñòè'=>'/administrator/news/',
-                    'Êîíòàêòû'=>array(
-                        'Êîíòàêòû'=>'/administrator/contacts/',
-                        'Ğåãèîíû'=>'/administrator/regions/'
+                    'ĞĞ¾Ğ²Ğ¾ÑÑ‚Ğ¸'=>'/administrator/news/',
+                    'ĞšĞ¾Ğ½Ñ‚Ğ°ĞºÑ‚Ñ‹'=>array(
+                        'ĞšĞ¾Ğ½Ñ‚Ğ°ĞºÑ‚Ñ‹'=>'/administrator/contacts/',
+                        'Ğ ĞµĞ³Ğ¸Ğ¾Ğ½Ñ‹'=>'/administrator/regions/',
                     ),
-                    'Ğàçíûå ñòğàíèöû'=>'/administrator/pages/',
-                    'Ïîèñê'=>'/administrator/search/'
+                    'Ğ Ğ°Ğ·Ğ½Ñ‹Ğµ ÑÑ‚Ñ€Ğ°Ğ½Ğ¸Ñ†Ñ‹'=>'/administrator/pages/',
+                    'ĞŸĞ¾Ğ¸ÑĞº'=>'/administrator/search/',
                 ),
 	),
 );

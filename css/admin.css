@@ -8,13 +8,13 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 13px;
     color: rgb(51, 51, 51);
     background: rgb(255,255,255);
+    min-height: 700px;
 }
 header{
     
@@ -67,4 +67,14 @@ header .menu > ul.nav > li.parent ul.nav li.item a{
 
 footer{
     
+}
+.button_in_accordion_wrapper{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    list-style: none;
+}
+.button_in_accordion{
+    margin:0px 5px;
+    float: left;
 }

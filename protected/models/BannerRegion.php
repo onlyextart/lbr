@@ -43,6 +43,7 @@ class BannerRegion extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('banner_id, filial_id', 'numerical', 'integerOnly'=>true),
+			array('name', 'required'),
 			array('description, name', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

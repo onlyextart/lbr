@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <base href="/" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
         <title>Administrator panel</title>
     </head>
     <body>
