@@ -1,24 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "roles".
+ * This is the model class for table "AuthAssignment".
  *
- * The followings are the available columns in table 'roles':
- * @property integer $id
- * @property string $name
- * @property string $description
- * @property integer $operation_id
+ * The followings are the available columns in table 'AuthAssignment':
+ * @property string $itemname
+ * @property string $userid
+ * @property string $bizrule
+ * @property string $data
  *
  * The followings are the available model relations:
- * @property Operations $operation
- * @property UserGroups[] $userGroups
+ * @property AuthItem $itemname0
  */
-class Roles extends CActiveRecord
+class AuthAssignment extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Roles the static model class
+	 * @return AuthAssignment the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -30,7 +29,7 @@ class Roles extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'roles';
+		return 'AuthAssignment';
 	}
 
 	/**
@@ -41,11 +40,12 @@ class Roles extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('operation_id', 'numerical', 'integerOnly'=>true),
-			array('name, description', 'safe'),
+			array('itemname, userid', 'required'),
+			array('itemname, userid', 'length', 'max'=>64),
+			array('bizrule, data', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, description, operation_id', 'safe', 'on'=>'search'),
+			array('itemname, userid, bizrule, data', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,8 +57,7 @@ class Roles extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'operation' => array(self::BELONGS_TO, 'Operations', 'operation_id'),
-			'userGroups' => array(self::HAS_MANY, 'UserGroups', 'roles_id'),
+			'itemname0' => array(self::BELONGS_TO, 'AuthItem', 'itemname'),
 		);
 	}
 
@@ -68,10 +67,10 @@ class Roles extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
-			'operation_id' => 'Operation',
+			'itemname' => 'Itemname',
+			'userid' => 'Userid',
+			'bizrule' => 'Bizrule',
+			'data' => 'Data',
 		);
 	}
 
@@ -86,10 +85,10 @@ class Roles extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('description',$this->description,true);
-		$criteria->compare('operation_id',$this->operation_id);
+		$criteria->compare('itemname',$this->itemname,true);
+		$criteria->compare('userid',$this->userid,true);
+		$criteria->compare('bizrule',$this->bizrule,true);
+		$criteria->compare('data',$this->data,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

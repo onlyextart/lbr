@@ -7,9 +7,17 @@
     </head>
     <body>
         <header>
-            <div class="menu"><?
+            <div class="menu">
+                <a target="_blank" href="/" class="logo-link">ЛБР-агромаркет</a>
+            <?
             $menu = Yii::app()->params['menuadmin'];
             echo returnMenu($menu);
+            
+            if(!Yii::app()->user->isGuest){
+            ?>
+                <a href="/users/logout/" class="admin-logout">Выход</a>
+            <?
+            }
             ?>
             </div>
         </header>

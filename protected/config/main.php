@@ -29,6 +29,7 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1','*'),
 		),
                 'administrator',
+                'users',
 	),
 
 	// application components
@@ -43,13 +44,16 @@ return array(
 			'urlFormat'=>'path',
                         'showScriptName'=>false,
 			'rules'=>array(
+                                '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                                
 			),
 		),
 		
 		'db'=>array(
+                        'class'=>'CDbConnection',
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/lbr.db',
                         /*'initSQLs'=>array(
                             'PRAGMA foreign_keys = ON',
@@ -84,6 +88,10 @@ return array(
 				*/
 			),
 		),
+                'authManager'=>array(
+                    'class'=>'CDbAuthManager',
+                    'connectionID'=>'db',
+                ),
 	),
 
 	// application-level parameters that can be accessed
@@ -103,9 +111,9 @@ return array(
                     ),
                     'Пользователи'=>array(
                         'Пользователи'=>'/administrator/users/',
-                        'Группы пользователей'=>'/administrator/user_groups/',
-                        'Роли'=>'/administrator/roles/',
-                        'Операции'=>'/administration/operations/',
+                        'Группы пользователей'=>'/administrator/users/group/',
+                        'Роли'=>'/administrator/users/role/',
+                        'Операции'=>'/administrator/users/operation/'
                     ),
                     'Новости'=>'/administrator/news/',
                     'Контакты'=>array(

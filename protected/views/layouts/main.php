@@ -3,8 +3,20 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <?php
+        // Добавление css и javascript на страницу сайта
+//        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
+        Yii::app()->clientScript->registerCssFile('/css/main.css');
+        // Проверка на наличие Jquery
+        Yii::app()->clientScript->registerCoreScript('jquery');
+//        Yii::app()->clientScript->registerScriptFile('/js/ui/jquery-ui-1.9.2.custom.min.js');
+        Yii::app()->clientScript->registerScriptFile('/js/main.js');
+        ?>
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="<? echo Yii::app()->request->baseUrl;?>/css/ie.css" />
+            <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
+        <![endif]-->
 </head>
 <body>
     <header>
@@ -21,6 +33,7 @@
         </div>
         <div class="map">
             <a href="/company/contacts/">
+                <span>Агромаркеты</span>
                 <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
             </a>
         </div>

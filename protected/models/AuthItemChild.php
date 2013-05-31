@@ -1,22 +1,22 @@
 <?php
 
 /**
- * This is the model class for table "operations".
+ * This is the model class for table "AuthItemChild".
  *
- * The followings are the available columns in table 'operations':
- * @property integer $id
- * @property string $name
- * @property string $description
+ * The followings are the available columns in table 'AuthItemChild':
+ * @property string $parent
+ * @property string $child
  *
  * The followings are the available model relations:
- * @property Roles[] $roles
+ * @property AuthItem $child0
+ * @property AuthItem $parent0
  */
-class Operations extends CActiveRecord
+class AuthItemChild extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Operations the static model class
+	 * @return AuthItemChild the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -28,7 +28,7 @@ class Operations extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'operations';
+		return 'AuthItemChild';
 	}
 
 	/**
@@ -39,10 +39,11 @@ class Operations extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, description', 'safe'),
+			array('parent, child', 'required'),
+			array('parent, child', 'length', 'max'=>64),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, description', 'safe', 'on'=>'search'),
+			array('parent, child', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,7 +55,8 @@ class Operations extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'roles' => array(self::HAS_MANY, 'Roles', 'operation_id'),
+			'child0' => array(self::BELONGS_TO, 'AuthItem', 'child'),
+			'parent0' => array(self::BELONGS_TO, 'AuthItem', 'parent'),
 		);
 	}
 
@@ -64,9 +66,8 @@ class Operations extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
+			'parent' => 'Parent',
+			'child' => 'Child',
 		);
 	}
 
@@ -81,9 +82,8 @@ class Operations extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('description',$this->description,true);
+		$criteria->compare('parent',$this->parent,true);
+		$criteria->compare('child',$this->child,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

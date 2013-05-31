@@ -1,22 +1,26 @@
 <?php
 
 /**
- * This is the model class for table "user_groups".
+ * This is the model class for table "AuthItem".
  *
- * The followings are the available columns in table 'user_groups':
- * @property integer $id
+ * The followings are the available columns in table 'AuthItem':
  * @property string $name
+ * @property integer $type
  * @property string $description
+ * @property string $bizrule
+ * @property string $data
  *
  * The followings are the available model relations:
- * @property Users[] $users
+ * @property AuthAssignment[] $authAssignments
+ * @property AuthItemChild[] $authItemChildren
+ * @property AuthItemChild[] $authItemChildren1
  */
-class UserGroups extends CActiveRecord
+class AuthItem extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return UserGroups the static model class
+	 * @return AuthItem the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -28,7 +32,7 @@ class UserGroups extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'user_groups';
+		return 'AuthItem';
 	}
 
 	/**
@@ -39,10 +43,13 @@ class UserGroups extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, description', 'safe'),
+			array('name, type', 'required'),
+			array('type', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>64),
+			array('description, bizrule, data', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, description', 'safe', 'on'=>'search'),
+			array('name, type, description, bizrule, data', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,7 +61,9 @@ class UserGroups extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'users' => array(self::HAS_MANY, 'Users', 'group_id'),
+			'authAssignments' => array(self::HAS_MANY, 'AuthAssignment', 'itemname'),
+			'authItemChildren' => array(self::HAS_MANY, 'AuthItemChild', 'child'),
+			'authItemChildren1' => array(self::HAS_MANY, 'AuthItemChild', 'parent'),
 		);
 	}
 
@@ -64,9 +73,11 @@ class UserGroups extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
 			'name' => 'Name',
+			'type' => 'Type',
 			'description' => 'Description',
+			'bizrule' => 'Bizrule',
+			'data' => 'Data',
 		);
 	}
 
@@ -81,36 +92,38 @@ class UserGroups extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
+		$criteria->compare('type',$this->type);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('bizrule',$this->bizrule,true);
+		$criteria->compare('data',$this->data,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
         
-        static function getUserGroupsArray(){
-                $groups = UserGroups::model()->findAll();
-                $groupsArray = array();
-                foreach( $groups as $group ){
-                    $groupsArray[$group->id] = $group->name;
-                }
-                return $groupsArray;
-        }
+        public function primaryKey()
+	{
+            return(array('name'));
+	}
         
         protected function afterSave() {
             parent::afterSave();
+            if ($this->type=='2'){
                 $auth=Yii::app()->authManager;
-                $children = $auth->getAuthAssignments($this->id);
+                
+                $children = $auth->getItemChildren($this->name);
                 foreach ($children as $name=>$child){
-                    $auth->revoke($name, $this->id);
+                    $auth->removeItemChild($this->name, $name);
                 }
-                if (isset($_POST['Roles'])){
-                    foreach ($_POST['Roles']['name'] as $item){
-                        $auth->assign($item, $this->id);
+                if (isset($_POST['Operations'])){
+                    $role = $auth->getAuthItem($this->name);
+                    foreach ($_POST['Operations']['name'] as $item){
+                        $role->addChild($item);
                     }
                 }
+            }
             return true;
         }
 }

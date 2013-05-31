@@ -9,8 +9,8 @@
  * @property string $password
  * @property string $name
  * @property string $surname
- * @property integer $group_id
  * @property string $email
+ * @property integer $group_id
  *
  * The followings are the available model relations:
  * @property UserGroups $group
@@ -47,7 +47,7 @@ class Users extends CActiveRecord
 			array('login, password, name, surname, email', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, login, password, name, surname, group_id, email', 'safe', 'on'=>'search'),
+			array('id, login, password, name, surname, email, group_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,8 +74,8 @@ class Users extends CActiveRecord
 			'password' => 'Password',
 			'name' => 'Name',
 			'surname' => 'Surname',
-			'group_id' => 'Group',
 			'email' => 'Email',
+			'group_id' => 'Group',
 		);
 	}
 
@@ -95,11 +95,35 @@ class Users extends CActiveRecord
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('surname',$this->surname,true);
-		$criteria->compare('group_id',$this->group_id);
 		$criteria->compare('email',$this->email,true);
+		$criteria->compare('group_id',$this->group_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+        
+        protected function beforeSave() {
+            parent::beforeSave();
+            if (isset($_POST['User_password']) && $_POST['User_password']!=''){
+                $this->password = crypt($_POST['User_password'], Users::model()->blowfishSalt());
+            }
+            return true;
+        }
+
+        protected function blowfishSalt($cost = 13)
+        {
+            if (!is_numeric($cost) || $cost < 4 || $cost > 31) {
+                throw new Exception("cost parameter must be between 4 and 31");
+            }
+            $rand = array();
+            for ($i = 0; $i < 8; $i += 1) {
+                $rand[] = pack('S', mt_rand(0, 0xffff));
+            }
+            $rand[] = substr(microtime(), 2, 6);
+            $rand = sha1(implode('', $rand), true);
+            $salt = '$2a$' . sprintf('%02d', $cost) . '$';
+            $salt .= strtr(substr(base64_encode($rand), 0, 22), array('+' => '.'));
+            return $salt;
+        }
 }
