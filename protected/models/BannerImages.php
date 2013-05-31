@@ -20,10 +20,14 @@
  *
  * The followings are the available model relations:
  * @property Banners $banner
- * @property Regions $region
+ * @property Contacts $region
  */
 class BannerImages extends CActiveRecord
 {
+    
+        const DEFAULT_IMAGE_TYPE = 0;
+        const TIMETOBUY_IMAGE_TYPE = 1;
+    
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -50,7 +54,6 @@ class BannerImages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('sorting, banner_id', 'required'),
 			array('region_id, sorting, banner_id, type', 'numerical', 'integerOnly'=>true),
 			array('path, description, alt, title, top_left, top_right, bottom_left, bottom_right', 'safe'),
 			// The following rule is used by search().
@@ -68,7 +71,7 @@ class BannerImages extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'banner' => array(self::BELONGS_TO, 'Banners', 'banner_id'),
-			'region' => array(self::BELONGS_TO, 'Regions', 'region_id'),
+			'region' => array(self::BELONGS_TO, 'Contacts', 'region_id'),
 		);
 	}
 
@@ -123,4 +126,14 @@ class BannerImages extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод возвращает все типы изображений в виде массива, где:
+        // ключ - id типа, а значение - имя типа
+        static function getImageTypes()
+        {
+            $types = array();
+            $types[BannerImages::DEFAULT_IMAGE_TYPE] = 'Обычный';
+            $types[BannerImages::TIMETOBUY_IMAGE_TYPE] = 'Время покупать';
+            return $types;
+        }
 }

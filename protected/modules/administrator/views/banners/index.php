@@ -21,4 +21,4 @@ $this->widget('zii.widgets.grid.CGridView', array(
 ));
 
 ?>
-<a href="administrator/banners/createBanner/">Создать баннер</a>
+<a href="/administrator/banners/create/">Создать баннер</a>

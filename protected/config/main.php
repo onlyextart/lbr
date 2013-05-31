@@ -55,9 +55,9 @@ return array(
 		'db'=>array(
                         'class'=>'CDbConnection',
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/lbr.db',
-                        /*'initSQLs'=>array(
+                        'initSQLs'=>array(
                             'PRAGMA foreign_keys = ON',
-                        ),*/
+                        ),
 		),
 		// uncomment the following to use a MySQL database
 		/*

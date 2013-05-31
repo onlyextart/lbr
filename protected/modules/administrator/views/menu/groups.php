@@ -18,4 +18,4 @@ $this->widget('zii.widgets.grid.CGridView', array(
 ));
 
 ?>
-<a href="administrator/menu/createGroup/">Создать группу</a>
+<a href="/administrator/menu/createGroup/">Создать группу</a>
