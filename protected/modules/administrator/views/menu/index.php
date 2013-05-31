@@ -33,7 +33,7 @@
     this.updateTree = function( clearMenuFeaturesWrapper ){
         $.ajax({
             type: "POST",
-            url: 'administrator/menu/menuTree',
+            url: '/administrator/menu/menuTree',
             data: thisObject.getOpenItemsId()
         }).done(function ( data ) {
             $('.menuTreeViewWrapper').html( data );

@@ -158,7 +158,7 @@ class MenuItems extends CActiveRecord
             foreach( $roots as $i=>$menuItem ){
                 $newItemArray = array();
                 $newItemArray['id'] = $menuItem->id;
-                $menuItem->level == 1? $linkUrl = 'administrator/menu/updateMenu':$linkUrl = 'administrator/menu/updateMenuItem';
+                $menuItem->level == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
                 $newItemArray['text'] = CHtml::link( 
                     $menuItem->name, 
                     $linkUrl.'/id/'.$menuItem->id.'/ajax/true', 
@@ -166,7 +166,7 @@ class MenuItems extends CActiveRecord
                             'onclick'=>'menuTreeView.showForm(this); return false;' )
                 ).CHtml::link( 
                     '<img src="/images/deleteIcon.png" style="height:16px; float: right;">', 
-                    'administrator/menu/deleteMenuItem/id/'.$menuItem->id.'/ajax/true', 
+                    '/administrator/menu/deleteMenuItem/id/'.$menuItem->id.'/ajax/true', 
                     array ( 
                         'class'=>'menuTreeViewLink', 
                         'onclick'=>'if(confirm("Внимание! Пункт меню будет удален вместе со всеми дочерними пунктами. Продолжить?")){menuTreeView.deleteItem(this); return false;}else{return false;}',
@@ -174,7 +174,7 @@ class MenuItems extends CActiveRecord
                     )
                 ).CHtml::link( 
                     '<img src="/images/arrowUpIcon.png" style="height:16px; float: right;">', 
-                    'administrator/menu/sortItemUp/id/'.$menuItem->id.'/ajax/true', 
+                    '/administrator/menu/sortItemUp/id/'.$menuItem->id.'/ajax/true', 
                     array ( 
                         'class'=>'menuTreeViewLink',
                         'onclick'=>'menuTreeView.sortItem( this ); return false;',
@@ -182,7 +182,7 @@ class MenuItems extends CActiveRecord
                     )
                 ).CHtml::link( 
                     '<img src="/images/arrowDownIcon.png" style="height:16px; float: right;">', 
-                    'administrator/menu/sortItemDown/id/'.$menuItem->id.'/ajax/true', 
+                    '/administrator/menu/sortItemDown/id/'.$menuItem->id.'/ajax/true', 
                     array ( 
                         'class'=>'menuTreeViewLink',
                         'onclick'=>'menuTreeView.sortItem( this ); return false;',
@@ -190,7 +190,7 @@ class MenuItems extends CActiveRecord
                     )
                 ).CHtml::link( 
                     ($menuItem->published == 1)?'<img src="/images/publishedIcon.png" style="height:16px; float: right;">':'<img src="/images/unpublishedIcon.png" style="height:16px; float: right;">', 
-                    'administrator/menu/changePublishing/id/'.$menuItem->id.'/ajax/true', 
+                    '/administrator/menu/changePublishing/id/'.$menuItem->id.'/ajax/true', 
                     array ( 
                         'class'=>'menuTreeViewLink',
                         'onclick'=>'menuTreeView.changePublishing( this ); return false;',
@@ -206,7 +206,7 @@ class MenuItems extends CActiveRecord
                     'id'=>'addMenuItem',
                     'text' => CHtml::link( 
                             '<img src="/images/addIcon.png" style="height:16px;">', 
-                            'administrator/menu/createMenuItem/rootId/'.$menuItem->id.'/ajax/true', 
+                            '/administrator/menu/createMenuItem/rootId/'.$menuItem->id.'/ajax/true', 
                             array ( 
                                 'class'=>'menuTreeViewLink',
                                 'onclick'=>'menuTreeView.showForm(this); return false;',
