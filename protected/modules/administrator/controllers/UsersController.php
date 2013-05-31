@@ -31,7 +31,9 @@ class UsersController extends Controller
                         array(
                             'criteria'=>$criteria,
                             'sort'=>$sort,
-                            'pagination'=>false
+                            'pagination'=>array(
+                                'pageSize'=>'15'
+                            )
                         )
                 );
                 $this->render('user/users', array('data'=>$dataProvider));
@@ -276,7 +278,9 @@ class UsersController extends Controller
                         array(
                             'criteria'=>$criteria,
                             'sort'=>$sort,
-                            'pagination'=>false
+                            'pagination'=>array(
+                                'pageSize'=>'15'
+                            )
                         )
                 );
                 $this->render('operation/operations', array('data'=>$dataProvider));

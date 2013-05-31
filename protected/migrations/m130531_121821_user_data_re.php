@@ -1,6 +1,6 @@
 <?php
 
-class m130531_072807_inset_users_data extends CDbMigration
+class m130531_121821_user_data_re extends CDbMigration
 {
 	public function up()
 	{
@@ -12,10 +12,13 @@ class m130531_072807_inset_users_data extends CDbMigration
                 $this->truncateTable('users');
                 $this->truncateTable('user_groups');
                 $this->truncateTable('AuthItem');
-                $this->execute('insert into [user_groups] values(1, \'Administrator\', \'\');');
-                $this->execute('insert into [users] values(1, \'cheshenkov\', \'$2a$13$qrN1KygZga8kfN2gy.X0nOCAPc1qQ9G58072rit.ipYjlQlw.QnkS\', \'\', \'\', \'cheshenkov@lbr.ru\', 1);');
-                $this->execute('insert into [users] values(2, \'gutnikov\', \'$2a$13$fZTL4zlDlq3.JOabK9f88uvUFuBwPv1xWm60j/iL6s93kfRNdChx.\', \'\', \'\', \'gutnikov@lbr.ru\', 1);');
-                $this->execute('insert into [users] values(3, \'vasilian\', \'$2a$13$IeJbAvi1Nydq05723YiQ4.xHwv09RY7bF1b89x604raG0OSF8TeCO\', \'\', \'\', \'vasilian@lbr.ru\', 1);');
+                
+                $this->execute('insert into [user_groups] values(1, \'superAdmin\', \'\');');
+                
+                $this->execute('insert into [users] values(1, \'cheshenkov\', \'$2a$13$qrN1KygZga8kfN2gy.X0nOCAPc1qQ9G58072rit.ipYjlQlw.QnkS\', \'Чешенков\', \'Евгений\', \'cheshenkov@lbr.ru\', 1);');
+                $this->execute('insert into [users] values(2, \'gutnikov\', \'$2a$13$fZTL4zlDlq3.JOabK9f88uvUFuBwPv1xWm60j/iL6s93kfRNdChx.\', \'Олег\', \'Гутников\', \'gutnikov@lbr.ru\', 1);');
+                $this->execute('insert into [users] values(3, \'vasilian\', \'$2a$13$IeJbAvi1Nydq05723YiQ4.xHwv09RY7bF1b89x604raG0OSF8TeCO\', \'Юрий Петрович\', \'Василиян\', \'vasilian@lbr.ru\', 1);');
+                
                 $this->execute("insert into [AuthItem] values('createOperation', 0, '', '', '');");
                 $this->execute("insert into [AuthItem] values('editOperation', 0, '', '', '');");
                 $this->execute("insert into [AuthItem] values('deleteOperation', 0, '', '', '');");
@@ -66,6 +69,7 @@ class m130531_072807_inset_users_data extends CDbMigration
                 $this->execute("insert into [AuthAssignment] values('usersAdmin', '1', null, 'N;');");
                 $this->execute("insert into [AuthAssignment] values('usersReader', '1', null, 'N;');");
                 $this->execute("insert into [AuthAssignment] values('usersEditor', '1', null, 'N;');");
+                
                 $transaction->commit();
             }
             catch(Exception $e)
@@ -78,7 +82,7 @@ class m130531_072807_inset_users_data extends CDbMigration
 
 	public function down()
 	{
-		echo "m130531_072807_inset_users_data does not support migration down.\n";
+		echo "m130531_121821_user_data_re does not support migration down.\n";
 		return false;
 	}
 

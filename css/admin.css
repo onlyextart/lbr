@@ -14,13 +14,12 @@ body {
     font-size: 13px;
     color: rgb(51, 51, 51);
     background: rgb(255,255,255);
-    min-height: 700px;
 }
 p{
     margin: 1em 0;
 }
 h1, h2, h3, h4, h5, h6{
-    margin: .5em 0 1em;
+    margin: .5em 0 .8em;
 }
 input, textarea{
     min-height: 24px;
@@ -271,12 +270,37 @@ header .menu > ul.nav > li.parent ul.nav li.item a{
     text-shadow: 0 1px 0 white;
     font-weight: bold;
 }
+.left .list-view .pager{
+    margin: 0;
+    background: rgb(238, 238, 238);
+}
+.left .list-view .pager ul.yiiPager{
+    
+}
+.left .list-view .pager ul.yiiPager{
+    
+}
+.left .list-view .pager ul.yiiPager li{
+    margin: 0 5px;
+    line-height: 24px;
+}
+.left .list-view .pager ul.yiiPager li.previous, .left .list-view .pager ul.yiiPager li.next{
+    display: none;
+}
+.left .list-view .pager ul.yiiPager li a{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: rgb(65, 131, 196);
+}
+.left .list-view .pager ul.yiiPager li.selected a{
+    color: #777;
+}
 /* конец сортировака */
 
 /* начало левая панель */
 .left .list-view .items{
-    max-height: 440px;
-    overflow: auto;
     list-style: none;
     background: rgb(238, 238, 238);
 }

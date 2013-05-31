@@ -13,13 +13,17 @@
         'itemView'=>'user/_item', // представление для одной записи
         'ajaxUpdate'=>true, // отключаем ajax поведение
         'emptyText'=>'Нет пользователей',
-        'template'=>'{sorter} {items}',
+        'template'=>'{sorter} {items} {pager}',
         'sorterHeader'=>'',
         'itemsTagName'=>'ul',
         'sortableAttributes'=>array('id','name'),
         'pager'=>array(
             'class'=>'CLinkPager',
             'header'=>false,
+            'prevPageLabel'=>'<',
+            'nextPageLabel'=>'>',
+            'lastPageLabel'=>'>>',
+            'firstPageLabel'=>'<<'
         ),
     ));
     ?>
