@@ -7,11 +7,11 @@ class m130531_072807_inset_users_data extends CDbMigration
             $transaction=$this->getDbConnection()->beginTransaction();
             try
             {
-                $this->delete('user_groups');
-                $this->delete('users');
-                $this->delete('AuthItem');
                 $this->delete('AuthItemChild');
                 $this->delete('AuthAssignment');
+                $this->delete('users');
+                $this->delete('user_groups');
+                $this->delete('AuthItem');
                 $this->execute('
                     insert into [user_groups] values(1, \'Administrator\', \'\');
                     insert into [users] values(1, \'cheshenkov\', \'$2a$13$qrN1KygZga8kfN2gy.X0nOCAPc1qQ9G58072rit.ipYjlQlw.QnkS\', \'????????\', \'???????\', \'cheshenkov@lbr.ru\', 1);

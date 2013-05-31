@@ -8,11 +8,11 @@ class m130530_122210_revome_group_role_eq extends CDbMigration
             try
             {
             
+                $this->dropTable('AuthItemChild');
+                $this->dropTable('AuthAssignment');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('AuthItem');
-                $this->dropTable('AuthItemChild');
-                $this->dropTable('AuthAssignment');
                 
                 $this->createTable('user_groups',array(
                     'id' => 'pk',

@@ -7,12 +7,12 @@ class m130527_082624_users_restructuring extends CDbMigration
             $transaction=$this->getDbConnection()->beginTransaction();
             try
             {
+                $this->dropTable('operation_role_eq');
+                $this->dropTable('role_user_group_eq');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('roles');
                 $this->dropTable('operations');
-                $this->dropTable('operation_role_eq');
-                $this->dropTable('role_user_group_eq');
                 $this->createTable('operations', array(
                     'id' => 'pk',
                     'name' => 'text',

@@ -8,11 +8,11 @@ class m130530_112228_auth_RE extends CDbMigration
             try
             {
             
+                $this->dropTable('AuthItemChild');
+                $this->dropTable('AuthAssignment');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('AuthItem');
-                $this->dropTable('AuthItemChild');
-                $this->dropTable('AuthAssignment');
                 
                 $this->createTable('user_groups',array(
                     'id' => 'pk',

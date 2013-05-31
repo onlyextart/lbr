@@ -7,13 +7,14 @@ class m130527_085201_add_user_group_eq extends CDbMigration
             $transaction=$this->getDbConnection()->beginTransaction();
             try
             {
+                //$this->dropTable('user_group_eq');
+                $this->dropTable('operation_role_eq');
+                $this->dropTable('role_user_group_eq');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('roles');
                 $this->dropTable('operations');
-                $this->dropTable('operation_role_eq');
-                $this->dropTable('role_user_group_eq');
-                $this->dropTable('user_group_eq');
+                
                 $this->createTable('operations', array(
                     'id' => 'pk',
                     'name' => 'text',

@@ -8,13 +8,13 @@ class m130529_064724_auth_tables extends CDbMigration
             try
             {
             
+                $this->dropTable('operation_role_eq');
+                $this->dropTable('role_user_group_eq');
+                $this->dropTable('user_group_eq');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('roles');
                 $this->dropTable('operations');
-                $this->dropTable('operation_role_eq');
-                $this->dropTable('role_user_group_eq');
-                $this->dropTable('user_group_eq');
                 $this->createTable('users',array(
                     'id' => 'pk',
                     'login' => 'text',

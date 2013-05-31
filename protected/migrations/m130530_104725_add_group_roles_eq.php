@@ -8,11 +8,11 @@ class m130530_104725_add_group_roles_eq extends CDbMigration
             try
             {
             
+                $this->dropTable('AuthItemChild');
+                $this->dropTable('AuthAssignment');
                 $this->dropTable('users');
                 $this->dropTable('user_groups');
                 $this->dropTable('AuthItem');
-                $this->dropTable('AuthItemChild');
-                $this->dropTable('AuthAssignment');
                 
                 $this->createTable('user_groups',array(
                     'id' => 'pk',
