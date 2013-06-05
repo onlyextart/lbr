@@ -72,8 +72,8 @@ class BannerRegion extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'banner_id' => 'Banner',
-			'description' => 'Description',
-			'name' => 'Name',
+			'description' => 'Описание',
+			'name' => 'Заголовок',
 			'filial_id' => 'Filial',
 		);
 	}

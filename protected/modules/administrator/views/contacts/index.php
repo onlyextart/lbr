@@ -10,12 +10,9 @@ $this->widget('zii.widgets.grid.CGridView', array(
         array(
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',
-            //'deleteButtonUrl'=>'"administrator/contacts/deleteGroup/id/".$data->id',
-            //'updateButtonUrl'=>'"administrator/contacts/updateGroup/id/".$data->id',
-            
         ),
     ),
 ));
 
 ?>
-<a href="administrator/contacts/createContact/">Создать филиал</a>
+<a href="/administrator/contacts/createContact/">Создать филиал</a>

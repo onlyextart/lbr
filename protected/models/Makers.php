@@ -42,6 +42,7 @@ class Makers extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, description, logo, published', 'safe'),
+			array('name', 'required'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, description, logo, published', 'safe', 'on'=>'search'),

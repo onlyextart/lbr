@@ -25,11 +25,21 @@ class AdministratorModule extends CWebModule
                         // Добавление css и javascript на страницу админки
                         Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.css');
                         Yii::app()->clientScript->registerCssFile('/css/admin.css');
+                        Yii::app()->clientScript->registerCssFile('/css/alertify/alertify.core.css');
+                        Yii::app()->clientScript->registerCssFile('/css/alertify/alertify.default.css');
                         // Проверка на наличие Jquery
                         Yii::app()->clientScript->registerCoreScript('jquery');
                         Yii::app()->clientScript->registerScriptFile('/js/ui/jquery-ui-1.10.1.admin.min.js');
+                        Yii::app()->clientScript->registerScriptFile('/js/alertify.min.js');
                         Yii::app()->clientScript->registerScriptFile('/js/admin.js');
-                        return true;
+                        
+                        if(Yii::app()->user->isGuest){
+                            Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
+                            Yii::app()->request->redirect('/users/login/');
+                        }
+                        else{
+                            return true;
+                        }
 		}
 		else
 			return false;

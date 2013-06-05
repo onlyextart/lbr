@@ -152,7 +152,6 @@ class MenuItems extends CActiveRecord
         
         /*Метод для создания дерева меню. Принимает массив соделей корневых узлов.
          */
-        
         static function getMenuTree( $roots ){
             $levelArray = array();
             foreach( $roots as $i=>$menuItem ){
@@ -219,6 +218,28 @@ class MenuItems extends CActiveRecord
             }
             return $levelArray;
         }
+        
+        static function getMenuTreeForBanner( $roots, $bannerModel, $checkBoxNameAttr='MenuItem', $checkStatus = null ){
+            $levelArray = array();
+            foreach( $roots as $i=>$menuItem ){
+                $newItemArray = array();
+                $newItemArray['id'] = $menuItem->id;
+                $newItemArray['text'] = $menuItem->name.CHtml::checkBox( 
+                    $checkBoxNameAttr."[$menuItem->id]",
+                    $checkStatus( $menuItem->id ),
+                    array('class'=>'menuItemCheckBox')
+                        
+                );
+                $newItemArray['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $menuItem->id, $_REQUEST['OpenItems'] ) )?true:false;
+                $menuChildrens = $menuItem->children()->findAll();
+                if( count($menuChildrens) !== 0 ){
+                    $newItemArray['children'] = self::getMenuTreeForBanner( $menuChildrens, $bannerModel, $checkBoxNameAttr, $checkStatus );
+                }
+                $levelArray[] = $newItemArray;
+            }
+            return $levelArray;
+        }
+        
         
         //Метод возвращает все типы пунктов меню в виде массива, где:
         // ключ - id типа, а значение - имя типа

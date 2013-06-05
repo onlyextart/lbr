@@ -5,12 +5,12 @@
  *
  * The followings are the available columns in table 'makers_in_banner':
  * @property integer $id
- * @property integer $bannner_id
+ * @property integer $banner_id
  * @property integer $maker_id
  *
  * The followings are the available model relations:
  * @property Makers $maker
- * @property Banners $bannner
+ * @property Banners $banner
  */
 class MakersInBanner extends CActiveRecord
 {
@@ -40,10 +40,10 @@ class MakersInBanner extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, bannner_id, maker_id', 'numerical', 'integerOnly'=>true),
+			array('banner_id, maker_id', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, bannner_id, maker_id', 'safe', 'on'=>'search'),
+			array('id, banner_id, maker_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,7 +56,7 @@ class MakersInBanner extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'maker' => array(self::BELONGS_TO, 'Makers', 'maker_id'),
-			'bannner' => array(self::BELONGS_TO, 'Banners', 'bannner_id'),
+			'banner' => array(self::BELONGS_TO, 'Banners', 'banner_id'),
 		);
 	}
 
@@ -67,7 +67,7 @@ class MakersInBanner extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'bannner_id' => 'Bannner',
+			'banner_id' => 'Banner',
 			'maker_id' => 'Maker',
 		);
 	}
@@ -84,7 +84,7 @@ class MakersInBanner extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('bannner_id',$this->bannner_id);
+		$criteria->compare('banner_id',$this->banner_id);
 		$criteria->compare('maker_id',$this->maker_id);
 
 		return new CActiveDataProvider($this, array(

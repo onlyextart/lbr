@@ -1,4 +1,4 @@
-function OUploader(url, uploadCallback) {
+function OUploader(url, uploadCallback, postParams) {
     var fileInput = $('#file-field');
     // Событие при добавлении файлов в форму
     fileInput.bind({
@@ -43,16 +43,8 @@ function OUploader(url, uploadCallback) {
                         // var result = $.parseJSON(this.response);
                         // можно получить ответ с сервера после загрузки.
                         
-                        
-                        /*var uploadedImage = $(this.responseText);
-                        uploadedImage.draggable({ 
-                            //appendTo: "body",
-                            //helper: "clone"
-                            revert: true
-                        });
-
-                        imgList.append(uploadedImage);*/
                         var responseText = $(this.responseText);
+                        //console.log(responseText);
                         uploadCallback(responseText);
 
                     } 
@@ -81,6 +73,10 @@ function OUploader(url, uploadCallback) {
         var form = new FormData(); // Создаем объект формы.
         form.append('path', '/'); // Определяем корневой путь.
         form.append('Filedata', files); // Прикрепляем к форме все загружаемые файлы.
+        //Прикрепляем POST параметры
+        for( var param in postParams ){
+            form.append( param, postParams[param]);
+        }
         http.open('POST', url); // Открываем коннект до сервера.
         http.send(form); // И отправляем форму, в которой наши файлы. Через XHR.
     }

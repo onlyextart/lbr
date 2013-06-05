@@ -85,9 +85,7 @@ input, textarea{
     text-shadow: 0 1px 0 rgba(0,0,0,0.9);
 }
 /* начало кнопки */
-form .buttons{
-    margin-top: -42px;
-}
+
 form .buttons > *{
     margin: 0;
     border-radius: 0;

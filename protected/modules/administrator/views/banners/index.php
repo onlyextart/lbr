@@ -13,12 +13,16 @@ $this->widget('zii.widgets.grid.CGridView', array(
         array(
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',
-            //'deleteButtonUrl'=>'"administrator/banners/deleteBanner/id/".$data->id',
-            //'updateButtonUrl'=>'"administrator/banners/updateBanner/id/".$data->id',
-            
         ),
     ),
 ));
 
 ?>
-<a href="/administrator/banners/create/">Создать баннер</a>
+<a href="/administrator/banners/create/" class="btn btn-green">Создать баннер</a>
+<script>
+    $(function() {
+        <?php if(Yii::app()->user->hasFlash('saved')): ?>
+            alertify.success("<?php echo Yii::app()->user->getFlash('saved'); ?>");
+        <?php endif; ?>
+    });
+</script>

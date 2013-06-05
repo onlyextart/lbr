@@ -10,8 +10,8 @@ $this->widget('zii.widgets.grid.CGridView', array(
         array(
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',
-            'deleteButtonUrl'=>'"administrator/menu/deleteGroup/id/".$data->id',
-            'updateButtonUrl'=>'"administrator/menu/updateGroup/id/".$data->id',
+            'deleteButtonUrl'=>'"/administrator/menu/deleteGroup/id/".$data->id',
+            'updateButtonUrl'=>'"/administrator/menu/updateGroup/id/".$data->id',
             
         ),
     ),

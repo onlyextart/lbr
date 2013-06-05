@@ -107,7 +107,7 @@ return array(
                     ),
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',
-                        'Производители'=>'/administration/makers/',
+                        'Производители'=>'/administrator/makers/',
                     ),
                     'Пользователи'=>array(
                         'Пользователи'=>'/administrator/users/',

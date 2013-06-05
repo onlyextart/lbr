@@ -7,9 +7,13 @@
 <div>
     <input type="file" name="file" id="file-field" multiple="true" />
 </div>
-<div id="img-list"></div>
 <script>
     $(function(){
-        OUploader('<?php echo $this->url ?>', <?php echo $this->uploadCallback ?> );
+        OUploader('<?php echo $this->url ?>' <?php if($this->uploadCallback!==null){ 
+                                                        echo ', '.$this->uploadCallback;
+                                                    }
+                                                    else{
+                                                        echo ', function(){}';
+                                                    }?>, <?php echo $postParams ?>);
     })
 </script>

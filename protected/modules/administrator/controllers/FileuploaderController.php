@@ -1,22 +1,6 @@
 <?php
 class FileuploaderController extends Controller
 {
-    /*
-    'radioButton'=>'Pages[thumbnail]',
-    'description'=>'GalleryExhibits[description]',
-    'editButton'=>'true',
-    'editorRatio'=>'189/142',
-    'editorResize'=>'true',
-    'editorResizeWidth'=>'189',
-    'editorResizeHeight'=>'142',
-    'deleteButton'=>'true',
-    'hiddenInput'=>'GalleryExhibits[images]',
-    'uploadDir'=>'images/uploaded/',
-    'buildThumbnail'=>'true',
-    'thubnailWidth'=>'107',
-    'thubnailHeight'=>'81',
-    */
-    
     public $fileName;
     public $uploadDir;
     
@@ -130,7 +114,7 @@ class FileuploaderController extends Controller
     }
     
     public function actionDelete(){
-        $fullImagePath = $_SERVER['DOCUMENT_ROOT'].'/'.$_POST['path'];
+        $fullImagePath = $_SERVER['DOCUMENT_ROOT'].$_POST['path'];
         if (file_exists($fullImagePath)){
             unlink($fullImagePath);
             echo 'true';

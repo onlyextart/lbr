@@ -20,7 +20,12 @@
  */
 class Banners extends CActiveRecord
 {
-	/**
+	
+        const DEFAULT_BANNER_TYPE = 0;
+        const BIG_BANNER_TYPE = 1;
+        const DIECI_BANNER_TYPE = 2;
+    
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Banners the static model class
@@ -64,7 +69,7 @@ class Banners extends CActiveRecord
 		return array(
 			'bannerImages' => array(self::HAS_MANY, 'BannerImages', 'banner_id'),
 			'bannerRegions' => array(self::HAS_MANY, 'BannerRegion', 'banner_id'),
-			'makersInBanners' => array(self::HAS_MANY, 'MakersInBanner', 'bannner_id'),
+			'makersInBanners' => array(self::HAS_MANY, 'MakersInBanner', 'banner_id'),
 		);
 	}
 
@@ -77,9 +82,9 @@ class Banners extends CActiveRecord
 			'id' => 'ID',
 			'lft' => 'Lft',
 			'rt' => 'Rt',
-			'icon' => 'Icon',
-			'type' => 'Type',
-			'published' => 'Published',
+			'icon' => 'Иконка',
+			'type' => 'Тип',
+			'published' => 'Опубликован',
 			'level' => 'Level',
 			'root' => 'Root',
 		);
@@ -109,4 +114,48 @@ class Banners extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод проверяет назначен ли производитель данному баннеру
+        //Принимает единственный аргумент - ID производителя
+        public function hasMaker( $makerId ){
+                if( !$this->isNewRecord ){
+                    if(MakersInBanner::model()->find( 'maker_id='.$makerId.' AND banner_id='.$this->id ) !== null){
+                        return true;
+                    }
+                }
+                return false;
+        }
+        
+        
+        //Метод проверяет назначен ли данный баннер пункту меню для его отображения
+        //Принимает единственный аргумент - ID пункта меню
+        public function hasMenuItem( $menuItemId ){
+                if( !$this->isNewRecord ){
+                    if( MenuItemsContent::model()->find( 'page_id='.$this->id.' AND item_id='.$menuItemId ) !== null){
+                        return true;
+                    }
+                }
+                return false;
+        }
+        
+        //Метод проверяет назначен ли пункт меню в качестве ссылки для кнопки "КАТАЛОГ"
+        //Принимает единственный аргумент - ID пункта меню
+        public function hasMenuItemLink( $menuItemId ){
+                if( !$this->isNewRecord ){
+                    if( BannerLinks::model()->find( 'banner_id='.$this->id.' AND menu_item_id='.$menuItemId ) !== null ){
+                        return true;
+                    }
+                }
+                return false;
+        }
+        
+        //Метод возвращает все типы баннеров в виде массива, где:
+        //ключ - id типа, а значение - имя типа
+        static function getBannerTypes(){
+            $types = array();
+            $types[Banners::DEFAULT_BANNER_TYPE] = 'Обычный';
+            $types[Banners::BIG_BANNER_TYPE] = 'Большой';
+            $types[Banners::DIECI_BANNER_TYPE] = 'DIECI';
+            return $types;
+        }
 }
