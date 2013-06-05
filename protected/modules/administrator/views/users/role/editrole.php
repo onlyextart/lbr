@@ -6,7 +6,7 @@
 // Стартовые параметры
     $submit_text = 'Сохранить';
     $name = $model->name;
-    $delete_button = CHtml::submitButton('Удалить роль', array('id'=>'del_'.$model->name,'class'=>'btn del', 'formaction'=>'/administrator/users/deleterole/name/'.$model->name));
+    $delete_button = CHtml::link('Удалить роль', '/administrator/users/deleterole/name/'.$model->name, array('id'=>'del_'.$model->name,'class'=>'btn del', 'onclick'=>'return confirm("Внимание! Роль будет безвозвратно удалена. Продолжить?")'));
     $header_form = 'Редактирование роли '.$name;
     if ($model->isNewRecord){
         $submit_text = 'Создать';
@@ -15,17 +15,30 @@
         unset($delete_button);
     }
 ?>
+<div class="form">
 <div class="header-form">
 <?  // Заголовок формы
     echo $header_form; ?>
 </div>
-<?  $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->name)); ?>
+<?  $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->name,
+    'enableClientValidation'=>true,
+    'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+                                {     
+                                    if( hasError ){
+                                        return false;
+                                    }
+                                    else{
+                                        return true;
+                                    }
+                                }'
+    ),)); ?>
 
 <div class="buttons">
 <?  echo $delete_button; 
     echo CHtml::button('Закрыть роль',array('onclick'=>'$(".total .right").html(" ");','class'=>'btn'));
-    echo CHtml::submitButton($submit_text,array('id'=>'but_'.$name,'class'=>'btn btn-green'));
-?>
+    echo CHtml::submitButton($submit_text,array('id'=>'but_'.$name,'class'=>'btn btn-green')); ?>
 </div>
 
 <div class="name field">
@@ -84,7 +97,7 @@
     <span id="user" class="btn quick_but">User</span>
     <span id="manager" class="btn quick_but">Manager</span>
 </div>
-
+</div>
 <script>
     $( "#checkbox-selected, #checkbox-all" ).sortable({
         connectWith:".dropper"

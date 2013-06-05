@@ -6,7 +6,7 @@
 // Стартовые параметры
     $submit_text = 'Сохранить';
     $name = $model->name;
-    $delete_button = CHtml::submitButton('Удалить группу', array('id'=>'del_'.$model->id,'class'=>'btn del', 'formaction'=>'/administrator/users/deletegroup/id/'.$model->id));
+    $delete_button = CHtml::link('Удалить группу', '/administrator/users/deletegroup/id/'.$model->id, array('id'=>'del_'.$model->id,'class'=>'btn del', 'onclick'=>'return confirm("Внимание! Группа будет безвозвратно удалена. Продолжить?")'));
     $header_form = 'Редактирование группы '.$name;
     if ($model->isNewRecord){
         $submit_text = 'Создать';
@@ -15,14 +15,30 @@
         unset($delete_button);
     }
 ?>
+<div class="form">
 <div class="header-form">
 <?  // Заголовок формы
     echo $header_form; ?>
 </div>
-<?  $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->id)); ?>
+<?  $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->id,
+    'enableClientValidation'=>true,
+    'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+                                {     
+                                    if( hasError ){
+                                        return false;
+                                    }
+                                    else{
+                                        return true;
+                                    }
+                                }'
+    ),)); ?>
 
 <div class="buttons">
-<?  echo $delete_button; 
+    
+<?  
+    echo $delete_button; 
     echo CHtml::button('Закрыть группу',array('onclick'=>'$(".total .right").html(" ");','class'=>'btn'));
     echo CHtml::submitButton($submit_text,array('id'=>'but_'.$model->id,'class'=>'btn btn-green'));
 ?>
@@ -37,6 +53,11 @@
 <?  echo $form->error($model, 'description');
     echo $form->labelEx($model, 'description');
     echo $form->textarea($model, 'description'); ?>
+</div>
+<div class="level field">
+<?  echo $form->error($model, 'level');
+    echo $form->labelEx($model, 'level');
+    echo $form->textField($model,'level', array('id'=>'level')); ?>
 </div>
 <? $checked = array();
 if (isset($checkbox)){
@@ -79,14 +100,11 @@ if (isset($checkbox)){
 <div class="quick_buttons">
     <span id="select" class="btn quick_but">Выбрать все</span>
     <span id="clear" class="btn quick_but">Очистить</span>
-    <span id="edit" class="btn quick_but">Добавить edit</span>
-    <span id="read" class="btn quick_but">Добавить read</span>
-    <span id="create" class="btn quick_but">Добавить create</span>
-    <span id="delete" class="btn quick_but">Добавить delete</span>
-    <span id="user" class="btn quick_but">User</span>
-    <span id="manager" class="btn quick_but">Manager</span>
+    <span id="edit" class="btn quick_but">Добавить Editor</span>
+    <span id="read" class="btn quick_but">Добавить Reader</span>
+    <span id="admin" class="btn quick_but">Добавить Admin</span>
 </div>
-
+</div>
 <script>
     $( "#checkbox-selected, #checkbox-all" ).sortable({
         connectWith:".dropper"
@@ -100,36 +118,34 @@ if (isset($checkbox)){
                 $('#checkbox-all').append($('#checkbox-selected li'));
                 break;
             case 'edit':
-                addcheckbox ('edit');
+                addcheckbox ('Editor');
                 break;
             case 'read':
-                addcheckbox ('read');
+                addcheckbox ('Reader');
                 break;
-            case 'create':
-                addcheckbox ('create');
-                break;
-            case 'delete':
-                addcheckbox ('delete');
-                break;
-            case 'user':
-                $('#checkbox-all').append($('#checkbox-selected li'));
-                addcheckbox ('read');
-                break;
-            case 'manager':
-                $('#checkbox-all').append($('#checkbox-selected li'));
-                addcheckbox ('read');
-                addcheckbox ('edit');
-                addcheckbox ('create');
+            case 'admin':
+                addcheckbox ('Admin');
                 break;
         }
     })
     function addcheckbox (name){
         $('#checkbox-all li').each(function(){
-            regexp = new RegExp(name);
+            regexp = new RegExp(name, 'g');
             if (regexp.test($(this).text())){
                 $('#checkbox-selected').append($(this));
             }
         })
         return true;
     }
+    $( "#level" ).spinner({
+      spin: function( event, ui ) {
+        if ( ui.value > 10 ) {
+          $( this ).spinner( "value", <? echo Yii::app()->user->getState('level')+1; ?> );
+          return false;
+        } else if ( ui.value < <? echo Yii::app()->user->getState('level')+1; ?> ) {
+          $( this ).spinner( "value", 10 );
+          return false;
+        }
+      }
+    });
 </script>

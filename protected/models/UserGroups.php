@@ -39,14 +39,17 @@ class UserGroups extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, description', 'safe'),
+			array('name, description, level', 'safe'),
+                        array('name', 'required'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, description', 'safe', 'on'=>'search'),
+			array('id, name, description, level', 'safe', 'on'=>'search'),
+                        array('level', 'compare', 'compareValue'=>Yii::app()->user->getState('level'), 'operator'=>'>'),
+                        
 		);
 	}
 
-	/**
+        /**
 	 * @return array relational rules.
 	 */
 	public function relations()
@@ -65,8 +68,9 @@ class UserGroups extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
+			'name' => 'Название',
+			'description' => 'Описание',
+                        'level' => 'Уровень доступа',
 		);
 	}
 
@@ -84,19 +88,27 @@ class UserGroups extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('description',$this->description,true);
+                $criteria->compare('level',$this->level);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
         
-        static function getUserGroupsArray(){
-                $groups = UserGroups::model()->findAll();
+        static function getUserGroupsArray($only_id = false){
+                $groups = UserGroups::model()->findAll('level>='.Yii::app()->user->getState('level'));
                 $groupsArray = array();
+                $groups_id = array();
                 foreach( $groups as $group ){
                     $groupsArray[$group->id] = $group->name;
+                    array_push($groups_id, $group->id);
                 }
-                return $groupsArray;
+                if ($only_id){
+                    return $groups_id;
+                }else{
+                    return $groupsArray;
+                }
+               
         }
         
         protected function afterSave() {
@@ -112,5 +124,20 @@ class UserGroups extends CActiveRecord
                     }
                 }
             return true;
+        }
+        
+        static function userGroupsAccess($params){
+            if ($params){
+                if ($params['level']>Yii::app()->user->getState('level'))
+                    return true;
+            }
+            return false;
+        }
+
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.level ASC'
+                );
         }
 }

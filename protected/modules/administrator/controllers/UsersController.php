@@ -5,14 +5,16 @@ class UsersController extends Controller
         //User block
 	public function actionIndex()
 	{
-            
             if(Yii::app()->user->checkAccess('readUser'))
             {
                 $criteria = new CDbCriteria();
+//                if (isset($_GET['group_id'])){
+//                    $criteria->addCondition('group_id='.$_GET['group_id']);
+//                }
                 $sort = new CSort();
                 $sort->sortVar = 'sort';
                 // сортировка по умолчанию 
-                $sort->defaultOrder = 'id ASC';
+                $sort->defaultOrder = 'surname ASC';
                 $sort->attributes = array(
                                 'id'=>array(
                                     'id'=>'ID',
@@ -20,26 +22,31 @@ class UsersController extends Controller
                                     'desc'=>'id DESC',
                                     'default'=>'desc',
                                 ),
-                                'name'=>array(
-                                    'name'=>'Названию',
-                                    'asc'=>'name ASC',
-                                    'desc'=>'name DESC',
+                                'surname'=>array(
+                                    'surname'=>'Фамилии',
+                                    'asc'=>'surname ASC',
+                                    'desc'=>'surname DESC',
                                     'default'=>'desc',
                                 ),
+                                
                             );
                 $dataProvider = new CActiveDataProvider('Users', 
                         array(
                             'criteria'=>$criteria,
                             'sort'=>$sort,
                             'pagination'=>array(
-                                'pageSize'=>'15'
+                                'pageSize'=>'13'
                             )
                         )
                 );
-                $this->render('user/users', array('data'=>$dataProvider));
+                if ($id_item = Yii::app()->user->getFlash('saved_id')){
+                    $model = Users::model()->findByPk($id_item);
+                    $group = UserGroups::getUserGroupsArray();
+                    $view = $this->renderPartial('user/edituser', array('model'=>$model, 'group'=>$group), true, true);
+                }
+                $this->render('user/users', array('data'=>$dataProvider, 'view'=>$view));
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
 	}
         public function actionCreateUser()
@@ -51,41 +58,49 @@ class UsersController extends Controller
                 if (isset($_POST['Users'])){
                     $model->attributes = $_POST['Users'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->id);
+                        Yii::app()->user->setFlash('message', 'Пользователь '.$model->login.' создан успешно.');
                         $this->redirect('/administrator/users/');
                     }
                 }
-                $this->renderPartial('user/edituser', array('model'=>$model, 'group'=>$group));
+                $this->renderPartial('user/edituser', array('model'=>$model, 'group'=>$group), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionEditUser($id)
         {
-            if(Yii::app()->user->checkAccess('editUser'))
+            
+            $model = Users::model()->findByPk($id);
+            $params = array('group'=>$model->group_id, 'userid'=>$id);
+            if(Yii::app()->user->checkAccess('editUser', $params))
             {
-                $model = Users::model()->findByPk($id);
                 $group = UserGroups::getUserGroupsArray();
                 if (isset($_POST['Users'])){
                     $model->attributes = $_POST['Users'];
-                    $model->save();
-                    $this->redirect('/administrator/users/');
+                    if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->id);
+                        Yii::app()->user->setFlash('message', 'Пользователь '.$model->login.' сохранен успешно.');
+                        $this->redirect('/administrator/users/');
+                    }
                 }
-                $this->renderPartial('user/edituser', array('model'=>$model, 'group'=>$group));
+                $this->renderPartial('user/edituser', array('model'=>$model, 'group'=>$group), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionDeleteUser($id)
         {
-            if(Yii::app()->user->checkAccess('deleteUser'))
+            $model = Users::model()->findByPk($id);
+            $params = array('group'=>$model->group_id, 'userid'=>$id);
+            if(Yii::app()->user->checkAccess('deleteUser', $params) && $id != Yii::app()->user->getState('_id'))
             {
-                Users::model()->deleteByPk($id);
-                $this->redirect('/administrator/users/');
+                if(Users::model()->deleteByPk($id)){
+                    Yii::app()->user->setFlash('message', 'Пользователь удален успешно.');
+                    $this->redirect('/administrator/users/');
+                }
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         
@@ -98,7 +113,7 @@ class UsersController extends Controller
                 $sort = new CSort();
                 $sort->sortVar = 'sort';
                 // сортировка по умолчанию 
-                $sort->defaultOrder = 'id ASC';
+                $sort->defaultOrder = 'level ASC';
                 $sort->attributes = array(
                                 'id'=>array(
                                     'id'=>'ID',
@@ -120,10 +135,9 @@ class UsersController extends Controller
                             'pagination'=>false
                         )
                 );
-                $this->render('group/groups', array('data'=>$dataProvider));
+                $this->render('group/groups', array('data'=>$dataProvider, 'view'=>$view));
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionCreateGroup()
@@ -131,46 +145,61 @@ class UsersController extends Controller
             if(Yii::app()->user->checkAccess('createUserGroup'))
             {
                 $model = new UserGroups();
-                $role = AuthItem::model()->findAll('type=2');
+                $role = AuthItem::model()->with(array(
+                    'authAssignments'=>array(
+                     'select'=>false,
+                     'joinType'=>'INNER JOIN',
+                     'condition'=>'authAssignments.itemname=t.name AND authAssignments.userid='.Yii::app()->user->getId()
+                    ))
+                   )->findAll('type=2');
                 if (isset($_POST['UserGroups'])){
                     $model->attributes = $_POST['UserGroups'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('message', 'Группа '.$model->name.' создана успешно.');
                         $this->redirect('/administrator/users/group/');
                     }
                 }
-                $this->renderPartial('group/editgroup', array('model'=>$model, 'role'=>$role));
+                $this->renderPartial('group/editgroup', array('model'=>$model, 'role'=>$role), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionEditGroup($id)
         {
-            if(Yii::app()->user->checkAccess('editUserGroup'))
+            $model = UserGroups::model()->findByPk($id);
+            if(Yii::app()->user->checkAccess('editUserGroup', array('level'=>$model->level)))
             {
-                $model = UserGroups::model()->findByPk($id);
-                $role = AuthItem::model()->findAll('type=2');
+                $role = AuthItem::model()->with(array(
+                    'authAssignments'=>array(
+                     'select'=>false,
+                     'joinType'=>'INNER JOIN',
+                     'condition'=>'authAssignments.itemname=t.name AND authAssignments.userid='.Yii::app()->user->getId()
+                    ))
+                   )->findAll('type=2');
                 $checkbox = AuthAssignment::model()->findAll('userid='.$id);
                 if (isset($_POST['UserGroups'])){
+                    $_POST['UserGroups']['bizrule'] = 'return Yii::app()->user->getState("level")<$params["level"];';
                     $model->attributes = $_POST['UserGroups'];
-                    $model->save();
-                    $this->redirect('/administrator/users/group/');
+                    if($model->save()){
+                        Yii::app()->user->setFlash('message', 'Группа '.$model->name.' сохранена успешно.');
+                        $this->redirect('/administrator/users/group/');
+                    }
                 }
-                $this->renderPartial('group/editgroup', array('model'=>$model, 'role'=>$role,'checkbox'=>$checkbox));
+                $this->renderPartial('group/editgroup', array('model'=>$model, 'role'=>$role,'checkbox'=>$checkbox), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionDeleteGroup($id)
         {
-            if(Yii::app()->user->checkAccess('deleteUserGroup'))
+            $model = UserGroups::model()->findByPk($id);
+            if(Yii::app()->user->checkAccess('deleteUserGroup', array('level'=>$model->level)))
             {
+                Yii::app()->user->setFlash('message', 'Группа удалена успешно.');
                 UserGroups::model()->deleteByPk($id);
                 $this->redirect('/administrator/users/group/');
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         
@@ -200,10 +229,14 @@ class UsersController extends Controller
                             'pagination'=>false
                         )
                 );
-                $this->render('role/roles', array('data'=>$dataProvider));
+                if ($id_item = Yii::app()->user->getFlash('saved_id')){
+                    $model = AuthItem::model()->findByPk($id_item);
+                    $operation = AuthItem::model()->findAll('type=0');
+                    $view = $this->renderPartial('role/editrole', array('model'=>$model, 'operation'=>$operation), true, true);
+                }
+                $this->render('role/roles', array('data'=>$dataProvider, 'view'=>$view));
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionCreateRole()
@@ -216,13 +249,14 @@ class UsersController extends Controller
                     $_POST['AuthItem']['type'] = 2;
                     $model->attributes = $_POST['AuthItem'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->name);
+                        Yii::app()->user->setFlash('message', 'Роль '.$model->name.' создана успешно.');
                         $this->redirect('/administrator/users/role/');
                     }
                 }
-                $this->renderPartial('role/editrole', array('model'=>$model, 'operation'=>$operation));
+                $this->renderPartial('role/editrole', array('model'=>$model, 'operation'=>$operation), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionEditRole($name)
@@ -234,13 +268,14 @@ class UsersController extends Controller
                 if (isset($_POST['AuthItem'])){
                     $model->attributes = $_POST['AuthItem'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->name);
+                        Yii::app()->user->setFlash('message', 'Роль '.$model->name.' сохранена успешно.');
                         $this->redirect('/administrator/users/role/');
                     }
                 }
-                $this->renderPartial('role/editrole', array('model'=>$model, 'operation'=>$operation));
+                $this->renderPartial('role/editrole', array('model'=>$model, 'operation'=>$operation), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionDeleteRole($name)
@@ -248,10 +283,10 @@ class UsersController extends Controller
             if(Yii::app()->user->checkAccess('deleteRole'))
             {
                 Yii::app()->authManager->removeAuthItem($name);
+                Yii::app()->user->setFlash('message', 'Роль удалена успешно.');
                 $this->redirect('/administrator/users/role/');
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         
@@ -279,14 +314,17 @@ class UsersController extends Controller
                             'criteria'=>$criteria,
                             'sort'=>$sort,
                             'pagination'=>array(
-                                'pageSize'=>'15'
+                                'pageSize'=>'13'
                             )
                         )
                 );
-                $this->render('operation/operations', array('data'=>$dataProvider));
+                if ($id_item = Yii::app()->user->getFlash('saved_id')){
+                    $model = AuthItem::model()->findByPk($id_item);
+                    $view = $this->renderPartial('operation/editoperation', array('model'=>$model), true, true);
+                }
+                $this->render('operation/operations', array('data'=>$dataProvider, 'view'=>$view));
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionCreateOperation()
@@ -298,13 +336,14 @@ class UsersController extends Controller
                     $_POST['AuthItem']['type'] = 0;
                     $model->attributes = $_POST['AuthItem'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->name);
+                        Yii::app()->user->setFlash('message', 'Операция '.$model->name.' создана успешно.');
                         $this->redirect('/administrator/users/operation/');
                     }
                 }
-                $this->renderPartial('operation/editoperation', array('model'=>$model));
+                $this->renderPartial('operation/editoperation', array('model'=>$model), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionEditOperation($name)
@@ -315,13 +354,14 @@ class UsersController extends Controller
                 if (isset($_POST['AuthItem'])){
                     $model->attributes = $_POST['AuthItem'];
                     if($model->save()){
+                        Yii::app()->user->setFlash('saved_id', $model->name);
+                        Yii::app()->user->setFlash('message', 'Операция '.$model->name.' сохранена успешно.');
                         $this->redirect('/administrator/users/operation/');
                     }
                 }
-                $this->renderPartial('operation/editoperation', array('model'=>$model));
+                $this->renderPartial('operation/editoperation', array('model'=>$model), false, true);
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
         }
         public function actionDeleteOperation($name)
@@ -329,10 +369,10 @@ class UsersController extends Controller
             if(Yii::app()->user->checkAccess('deleteOperation'))
             {
                 Yii::app()->authManager->removeAuthItem($name);
+                Yii::app()->user->setFlash('message', 'Операция удалена успешно.');
                 $this->redirect('/administrator/users/operation/');
             }else{
-                Yii::app()->user->returnUrl = Yii::app()->request->requestUri;
-                $this->redirect('/users/login/');
+                throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
             }
-        }       
+        }   
 }

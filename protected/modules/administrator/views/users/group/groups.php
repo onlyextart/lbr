@@ -25,6 +25,10 @@
     ?>
     </div>
     <div class="right">
-
+        <? 
+        if ($mess = Yii::app()->user->getFlash('message')){
+            echo '<div class="message success">'.$mess.'</div>';
+        }
+        ?>
     </div>
 </div>

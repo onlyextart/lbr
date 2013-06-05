@@ -29,6 +29,18 @@
     ?>
     </div>
     <div class="right">
-
+        <? 
+        if ($mess = Yii::app()->user->getFlash('message')){
+            echo '<div class="message success">'.$mess.'</div>';
+        }
+        if ($view){
+            echo $view;
+        }
+        ?>
     </div>
 </div>
+<style>
+.left .list-view .pager ul.yiiPager li.page{
+    width: <? echo 100/$data->pagination->pageCount; ?>%;
+}
+</style>

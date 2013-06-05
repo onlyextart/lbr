@@ -119,6 +119,7 @@ header .map a span{
 .wrapper #content .form form .row{
     margin: .5em 0;
 }
+
 .wrapper #content .form form .row label{
     display: block;
     float: left;
@@ -136,6 +137,14 @@ header .map a span{
 .wrapper #content .form form .row input[type="text"], .wrapper #content .form form .row input[type="password"] {
     width: 66%;
     padding: 1% 2%;
+}
+.wrapper #content .form form .row.error input{
+    background: #FEE;
+    border-color: #C00;
+}
+.wrapper #content .form form .row.error .errorMessage{
+    color: red;
+    text-align: right;
 }
 .wrapper #content .form form:after, .wrapper #content .form form .row:after, .wrapper #content .form:after{
     content: '';

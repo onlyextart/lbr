@@ -45,9 +45,12 @@ class Users extends CActiveRecord
 		return array(
 			array('group_id', 'numerical', 'integerOnly'=>true),
 			array('login, password, name, surname, email', 'safe'),
+                        array('login, email', 'required'),
+                        array('email','email'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, login, password, name, surname, email, group_id', 'safe', 'on'=>'search'),
+                        array('group_id', 'in', 'range'=>UserGroups::getUserGroupsArray(true), 'allowEmpty'=>false),
 		);
 	}
 
@@ -70,12 +73,12 @@ class Users extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'login' => 'Login',
-			'password' => 'Password',
-			'name' => 'Name',
-			'surname' => 'Surname',
+			'login' => 'Логин',
+			'password' => 'Пароль',
+			'name' => 'Имя',
+			'surname' => 'Фамилия',
 			'email' => 'Email',
-			'group_id' => 'Group',
+			'group_id' => 'Группа',
 		);
 	}
 
@@ -125,5 +128,14 @@ class Users extends CActiveRecord
             $salt = '$2a$' . sprintf('%02d', $cost) . '$';
             $salt .= strtr(substr(base64_encode($rand), 0, 22), array('+' => '.'));
             return $salt;
+        }
+        
+        static function usersAccess($params){
+            if ($params){
+                $group = UserGroups::model()->findByPk($params['group']);
+                if ($group->level > Yii::app()->user->getState('level') || $params['userid']==Yii::app()->user->getState('_id'))
+                    return true;
+            }
+            return false;
         }
 }

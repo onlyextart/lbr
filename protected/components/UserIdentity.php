@@ -8,6 +8,7 @@
 class UserIdentity extends CUserIdentity
 {
     private $_id;
+    
     public function authenticate()
     {
         $record=Users::model()->findByAttributes(array('login'=>$this->username));
@@ -18,6 +19,8 @@ class UserIdentity extends CUserIdentity
         else
         {
             $this->_id=$record->group_id;
+            $this->setState('_id', $record->id);
+            $this->setState('level', UserGroups::model()->findByPk($record->group_id)->level);
             $this->errorCode=self::ERROR_NONE;
         }
         return !$this->errorCode;
