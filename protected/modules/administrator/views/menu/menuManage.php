@@ -115,6 +115,20 @@ else{
                 <?php echo $form->textarea($menuModel, 'seo_text', array('style'=>'width:95%', 'rows'=>6,)); ?>
             </div>
         </div>
+        <h3>Мета теги и SEO текст</h3>
+        <div class="form admin_additional_features_content">
+            <?php
+                /*$itemContentDataProvider = $menuModel->getItemContentDataProvider();
+                $this->widget('zii.widget.grid.CGridView', array(
+                        'dataProvider'=>$bannersDataProvider,
+                        array(
+                            'header'=>'Имя', 
+                            'value'=>'$data->bannerRegions[0]->name',
+                        ),
+                    )
+                );*/
+            ?>
+        </div>
     </div>
 </div>
 <?php  $this->endWidget();?>

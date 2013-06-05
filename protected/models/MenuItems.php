@@ -240,6 +240,16 @@ class MenuItems extends CActiveRecord
             return $levelArray;
         }
         
+        public function getItemContentDataProvider(){
+            $criteria = new CDbCriteria();
+            //$criteria->condition = 'type='.;
+            $criteria->params = array('MenuItemsContent', array(
+                'criteria'=>$criteria,
+            ));
+            //$itemContentModel = new
+            
+            return $dataProvider;
+        }
         
         //Метод возвращает все типы пунктов меню в виде массива, где:
         // ключ - id типа, а значение - имя типа
@@ -251,5 +261,6 @@ class MenuItems extends CActiveRecord
             $types[MenuItems::STATIC_MENU_ITEM_TYPE] = 'Статическая страница';
             return $types;
         }
+        
         
 }
