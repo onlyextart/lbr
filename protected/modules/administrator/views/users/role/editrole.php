@@ -8,10 +8,12 @@
     $name = $model->name;
     $delete_button = CHtml::link('Удалить роль', '/administrator/users/deleterole/name/'.$model->name, array('id'=>'del_'.$model->name,'class'=>'btn del', 'onclick'=>'return confirm("Внимание! Роль будет безвозвратно удалена. Продолжить?")'));
     $header_form = 'Редактирование роли '.$name;
+    $action = '/administrator/users/editrole/name/'.$model->name;
     if ($model->isNewRecord){
         $submit_text = 'Создать';
         $name = 'new';
         $header_form = 'Создание новой роли';
+        $action = '/administrator/users/createrole/';
         unset($delete_button);
     }
 ?>
@@ -21,6 +23,7 @@
     echo $header_form; ?>
 </div>
 <?  $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->name,
+    'action'=>$action,
     'enableClientValidation'=>true,
     'clientOptions'=>array(
             'validateOnSubmit'=>true,

@@ -6,8 +6,8 @@
  * The followings are the available columns in table 'pages_region':
  * @property integer $id
  * @property integer $filial_id
- * @property string $content
  * @property integer $page_id
+ * @property string $content
  *
  * The followings are the available model relations:
  * @property Pages $page
@@ -45,7 +45,7 @@ class PagesRegion extends CActiveRecord
 			array('content', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, filial_id, content, page_id', 'safe', 'on'=>'search'),
+			array('id, filial_id, page_id, content', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -70,8 +70,8 @@ class PagesRegion extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'filial_id' => 'Filial',
-			'content' => 'Content',
 			'page_id' => 'Page',
+			'content' => 'Content',
 		);
 	}
 
@@ -88,8 +88,8 @@ class PagesRegion extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('filial_id',$this->filial_id);
-		$criteria->compare('content',$this->content,true);
 		$criteria->compare('page_id',$this->page_id);
+		$criteria->compare('content',$this->content,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

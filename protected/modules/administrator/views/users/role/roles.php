@@ -11,7 +11,7 @@
     $this->widget('zii.widgets.CListView', array(
         'dataProvider'=>$data,
         'itemView'=>'role/_item', // представление для одной записи
-        'ajaxUpdate'=>true, // включаем ajax поведение
+        'ajaxUpdate'=>false, // включаем ajax поведение
         'emptyText'=>'Нет ролей',
         'template'=>'{sorter} {items}',
         'sorterHeader'=>'',

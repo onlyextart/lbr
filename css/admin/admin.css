@@ -1,0 +1,245 @@
+/* 
+    Document   : admin
+    Created on : 23.05.2013, 9:58:52
+    Author     : cheshenkov
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    background: rgb(255,255,255);
+}
+p{
+    margin: 1em 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: .5em 0 .8em;
+}
+input, textarea{
+    min-height: 24px;
+    padding: 5px 8px;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in 0;
+    vertical-align: middle;
+    width: 50%;
+}
+.btn{
+    padding: 0 10px;
+    width: auto;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+    box-shadow: none;
+    display: block;
+    float: left;
+    margin: 3px 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 0;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+    background-color: #eaeaea;
+    background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+    background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+    background-image: linear-gradient(#fafafa, #eaeaea);
+    background-repeat: repeat-x;
+    border: 1px solid #ddd;
+    border-bottom-color: #c5c5c5;
+    width: auto;
+    cursor: default;
+}
+.btn-green{
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #60b044;
+    background-image: -moz-linear-gradient(#8add6d, #60b044);
+    background-image: -webkit-linear-gradient(#8add6d, #60b044);
+    background-image: linear-gradient(#8add6d, #60b044);
+    background-repeat: repeat-x;
+    border: 1px solid #5ca941;
+}
+.del{
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #bd362f;
+    background-image: -moz-linear-gradient(#bd362f, #942a25);
+    background-image: -webkit-linear-gradient(#bd362f, #942a25);
+    background-image: linear-gradient(#bd362f, #942a25);
+    background-repeat: repeat-x;
+    border-color: #bd362f;
+}
+/* начало кнопки */
+
+form .buttons > *{
+    margin: 0;
+    border-radius: 0;
+    float: right;
+}
+form .buttons *:first-child{
+    border-radius: 0 2px 2px 0;
+    border-left: 0;
+}
+form .buttons *:last-child{
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+}
+/* конец кнопки */
+    
+header{
+    padding-top:  40px;
+}
+header .menu{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("/images/bg_menu_admin.png") #f3f3f3 repeat-x top left;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    -moz-box-shadow: 0px 0px 3px #c0c0c0;
+    -webkit-box-shadow: 0px 0px 3px #c0c0c0;
+    -o-box-shadow: 0px 0px 3px #c0c0c0;
+    box-shadow: 0px 0px 3px #c0c0c0;
+}
+header .menu > ul.nav{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+header .menu > ul.nav:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+header .menu > ul.nav > li.item, header .menu a.logo-link{
+    float: left;
+}
+header .menu a.admin-logout{
+    float: right;
+}
+header .menu > ul.nav > li.item a, header .menu > ul.nav > li.parent span, header .menu a.logo-link, header .menu a.admin-logout{
+    line-height: 33px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 0 1.5em;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+}
+header .menu a.logo-link, header .menu a.admin-logout{
+    position: relative;
+    z-index: 1;
+}
+header .menu a.logo-link:after{
+    content: '';
+    display: block;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat -32px -80px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 4px;
+    top: 9px;
+}
+header .menu > ul.nav > li.parent span{
+    position: relative;
+    padding-right: 2em;
+    cursor: default;
+}
+header .menu > ul.nav > li.parent span:after{
+    content: '';
+    display: block;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat -64px 0px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+header .menu > ul.nav > li.parent{
+    
+}
+header .menu > ul.nav > li.parent:hover{
+    background: rgb(240, 240, 240);
+}
+header .menu ul.nav li.parent:hover span, header .menu a.logo-link:hover, header .menu > ul.nav > li.parent ul.nav li.item:hover a, header .menu > ul.nav > li.item a:hover{
+    color: #008672;
+}
+header .menu > ul.nav > li.parent:hover ul.nav{
+    display: block;
+}
+header .menu > ul.nav > li.parent:hover span:after{
+    background-position: 0 0;
+}
+header .menu > ul.nav > li.parent ul.nav{
+    position: absolute;
+    z-index: 1;
+    background: rgb(240, 240, 240);
+    list-style: none;
+    display: none;
+    -moz-box-shadow: 0px 3px 3px #c0c0c0;
+    -webkit-box-shadow: 0px 3px 3px #c0c0c0;
+    -o-box-shadow: 0px 3px 3px #c0c0c0;
+    box-shadow: 0px 3px 3px #c0c0c0;
+}
+header .menu > ul.nav > li.parent ul.nav li.item:hover{
+    background: url("/images/bg_menu_admin.png") repeat-x top left;
+}
+header .menu > ul.nav > li.parent ul.nav li.item a{
+    
+}
+
+.wrapper{
+    margin: 1em 2em;
+}
+
+footer{
+    
+}
+
+.button_in_accordion_wrapper{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    list-style: none;
+}
+.button_in_accordion{
+    margin:0px 5px;
+    float: left;
+}
+
+@media only screen and (max-width: 1000px) {
+/*    body{
+        font-size: 12px;
+    }*/
+}
+@media only screen and (max-width: 640px) {
+    header .menu > ul.nav > li.item, header .menu a.logo-link{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+header .menu:after{
+    content: '';
+    display: block;
+    clear: both;
+}

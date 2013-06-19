@@ -99,7 +99,8 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
-                'defaultRegionId'=>1,
+                'defaultRegionId'=>3,
+                'superGroup'=>1,
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',

@@ -5,9 +5,9 @@
  *
  * The followings are the available columns in table 'pages':
  * @property integer $id
- * @property string $alias
  * @property string $name
- * @property boolean $published
+ * @property string $published
+ * @property string $data
  *
  * The followings are the available model relations:
  * @property PagesRegion[] $pagesRegions
@@ -40,10 +40,10 @@ class Pages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('alias, name, published', 'safe'),
+			array('name, published, data', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, alias, name, published', 'safe', 'on'=>'search'),
+			array('id, name, published, data', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,9 +66,9 @@ class Pages extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'alias' => 'Alias',
-			'name' => 'Name',
-			'published' => 'Published',
+			'name' => 'Заголовок',
+			'published' => 'Публикация',
+			'data' => 'Дата',
 		);
 	}
 
@@ -84,12 +84,29 @@ class Pages extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('alias',$this->alias,true);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('published',$this->published);
+		$criteria->compare('published',$this->published,true);
+		$criteria->compare('data',$this->data,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+        
+        protected function afterSave() {
+            parent::afterSave();
+            PagesRegion::model()->deleteAll('page_id='.$this->id);
+            if ($content = $_POST['Content']){
+                foreach ($content as $key=>$value)
+                {
+                    $model = new PagesRegion();
+                    $model->attributes = array('filial_id'=>$key, 'page_id'=>$this->id, 'content'=>$value);
+                    if(!$model->save())
+                    {
+                        throw new CHttpException(403,Yii::t('yii','Ошибка сохранения'));
+                    }
+                }
+            }
+            return true;
+        }
 }

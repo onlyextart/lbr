@@ -29,7 +29,20 @@
             
         </div>
         <div class="menu second">
-            
+            <ul class="menuStaticTop">
+                <li>
+                    <a href="/company/" title="О компании">ЛБР</a>
+                </li>
+                <li>
+                    <a href="/company/vacancy/" title="Карьера">Карьера</a>
+                </li>
+                <li>
+                    <a href="/search/" title="Поиск по сайту">Поиск</a>
+                </li>
+                <li>
+                    <a href="/users/login/" title="Вход на сайт"><? echo Yii::app()->user->isGuest? "Вход":"Выход"; ?></a>
+                </li>
+            </ul>
         </div>
         <div class="map">
             <a href="/company/contacts/">

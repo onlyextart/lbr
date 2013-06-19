@@ -95,6 +95,8 @@ class UserGroups extends CActiveRecord
 		));
 	}
         
+        //  Метод возвращает массив всех доступных групп пользователей для данного пользователя
+        //  $only_id - если false, вернет массив вида ID=>имя, если true - вернет массив только из ID
         static function getUserGroupsArray($only_id = false){
                 $groups = UserGroups::model()->findAll('level>='.Yii::app()->user->getState('level'));
                 $groupsArray = array();
@@ -110,6 +112,8 @@ class UserGroups extends CActiveRecord
                 }
         }
         
+        //  Метод сохраняет связи Группа-Роль в таблицу соответствий
+        //  $_POST['Roles'] - массив с наименованиями ролей
         protected function afterSave() {
             parent::afterSave();
                 $auth=Yii::app()->authManager;
@@ -125,6 +129,9 @@ class UserGroups extends CActiveRecord
             return true;
         }
         
+        //  Статический метод, проверяющий доступ к группе
+        //  $params - массив параметров, где:
+        //  $params['level'] - уровень изменяемой группы
         static function userGroupsAccess($params){
             if ($params){
                 if ($params['level']>Yii::app()->user->getState('level'))
@@ -133,6 +140,7 @@ class UserGroups extends CActiveRecord
             return false;
         }
 
+        //  Метод устанавливает сортировку по-умолчанию
         public function defaultScope()
         {
                 return array(

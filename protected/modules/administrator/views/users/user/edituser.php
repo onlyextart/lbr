@@ -8,10 +8,12 @@
     $name = $model->id;
     $delete_button = CHtml::link('Удалить пользователя', '/administrator/users/deleteuser/id/'.$model->id, array('id'=>'del_'.$model->name,'class'=>'btn del', 'onclick'=>'return confirm("Внимание! Пользователь будет безвозвратно удален. Продолжить?")'));
     $header_form = 'Редактирование пользователя '.$model->login;
+    $action = '/administrator/users/edituser/id/'.$model->id;
     if ($model->isNewRecord){
         $submit_text = 'Создать';
         $name = 'new';
         $header_form = 'Создание нового пользователя';
+        $action = '/administrator/users/createuser/';
         unset($delete_button);
     }
 ?>
@@ -20,6 +22,7 @@
     <? echo $header_form; ?>
 </div>
 <? $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$model->id,
+    'action'=>$action,
     'enableClientValidation'=>true,
     'clientOptions'=>array(
             'validateOnSubmit'=>true,

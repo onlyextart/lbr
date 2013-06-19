@@ -103,16 +103,20 @@ class AuthItem extends CActiveRecord
 		));
 	}
         
+        //  Метод устанавливает primary key
         public function primaryKey()
 	{
             return(array('name'));
 	}
         
+        //  Метод сохраняет связи Роль-Операция в таблицу соответствий
+        //  $_POST['Operations'] - массив с наименованиями операций
         protected function afterSave() {
             parent::afterSave();
             if ($this->type=='2'){
                 $auth=Yii::app()->authManager;
-                
+                $auth->revoke($this->name, Yii::app()->params->superGroup);
+                $auth->assign($this->name, Yii::app()->params->superGroup);
                 $children = $auth->getItemChildren($this->name);
                 foreach ($children as $name=>$child){
                     $auth->removeItemChild($this->name, $name);

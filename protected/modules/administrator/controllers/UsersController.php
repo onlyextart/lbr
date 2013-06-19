@@ -2,24 +2,33 @@
 
 class UsersController extends Controller
 {
+    
+        protected function beforeAction($action)
+	{
+            if(parent::beforeAction($action))
+            {
+                //  Добавление CSS файла для пользователей.
+                Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
+                Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
+                Yii::app()->clientScript->registerScriptFile('/js/admin/users.js');
+            }
+            return true;
+	}
         //User block
 	public function actionIndex()
 	{
             if(Yii::app()->user->checkAccess('readUser'))
             {
                 $criteria = new CDbCriteria();
-//                if (isset($_GET['group_id'])){
-//                    $criteria->addCondition('group_id='.$_GET['group_id']);
-//                }
                 $sort = new CSort();
                 $sort->sortVar = 'sort';
                 // сортировка по умолчанию 
                 $sort->defaultOrder = 'surname ASC';
                 $sort->attributes = array(
-                                'id'=>array(
-                                    'id'=>'ID',
-                                    'asc'=>'id ASC',
-                                    'desc'=>'id DESC',
+                                'group_id'=>array(
+                                    'group_id'=>'Группа',
+                                    'asc'=>'group_id ASC',
+                                    'desc'=>'group_id DESC',
                                     'default'=>'desc',
                                 ),
                                 'surname'=>array(

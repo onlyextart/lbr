@@ -50,6 +50,7 @@ class Users extends CActiveRecord
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, login, password, name, surname, email, group_id', 'safe', 'on'=>'search'),
+                        //  фильтр проверяет разрешено ли сохранять пользователя с такой группой
                         array('group_id', 'in', 'range'=>UserGroups::getUserGroupsArray(true), 'allowEmpty'=>false),
 		);
 	}
@@ -106,6 +107,7 @@ class Users extends CActiveRecord
 		));
 	}
         
+        //  Метод проверяет изменен ли пароль
         protected function beforeSave() {
             parent::beforeSave();
             if (isset($_POST['User_password']) && $_POST['User_password']!=''){
@@ -113,7 +115,9 @@ class Users extends CActiveRecord
             }
             return true;
         }
-
+        
+        //  Метод возвращет $cost значное число для хэширования пароля, где: 
+        //  $cost - количество возвразаемых знаков
         protected function blowfishSalt($cost = 13)
         {
             if (!is_numeric($cost) || $cost < 4 || $cost > 31) {
@@ -130,6 +134,10 @@ class Users extends CActiveRecord
             return $salt;
         }
         
+        //  Метод проверяет доступ к пользователю, где:
+        //  $params - массив с двумя значениями:
+        //  1. group - id группы изменяемого пользователя
+        //  2. userid - id изменяемого пользователя
         static function usersAccess($params){
             if ($params){
                 $group = UserGroups::model()->findByPk($params['group']);

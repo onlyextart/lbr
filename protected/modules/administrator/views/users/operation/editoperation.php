@@ -3,10 +3,12 @@
     $name = $model->name;
     $delete_button = CHtml::link('Удалить операцию','/administrator/users/deleteoperation/name/'.$model->name, array('id'=>'del_'.$model->name,'class'=>'btn del', 'onclick'=>'return confirm("Внимание! Операция будет безвозвратно удалена. Продолжить?")'));
     $header_form = 'Редактирование роли '.$name;
+    $action = '/administrator/users/editoperation/name/'.$model->name;
     if ($model->isNewRecord){
         $submit_text = 'Создать';
         $name = 'new';
         $header_form = 'Создание новой операции';
+        $action = '/administrator/users/createoperation/';
         unset($delete_button);
     }
 ?>
@@ -15,6 +17,7 @@
     <? echo $header_form; ?>
 </div>
 <? $form = $this->beginWidget('CActiveForm', array('id'=>'form_'.$model->name,
+    'action'=>$action,
     'enableClientValidation'=>true,
     'clientOptions'=>array(
             'validateOnSubmit'=>true,
