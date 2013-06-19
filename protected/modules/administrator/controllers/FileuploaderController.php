@@ -2,12 +2,12 @@
 class FileuploaderController extends Controller
 {
     public $fileName;
-    public $uploadDir;
-    
+    public $uploadDir = '/images/';
+    public $fullImagePath;
     public function actionUpload()
     {
         //папка для хранения файлов
-        (isset($_POST['uploadDir']))?$this->uploadDir = $_POST['uploadDir']:$this->uploadDir = 'images/uploaded/'; 
+        (isset($_POST['uploadDir']))?$this->uploadDir = $_POST['uploadDir']:$this->uploadDir = '/images/uploaded/'; 
         $allowedExt = array('jpg', 'jpeg', 'png', 'gif');
         $maxFileSize = 2 * 1024 * 1024; //2 MB
         //если получен файл
@@ -23,23 +23,43 @@ class FileuploaderController extends Controller
             if (is_uploaded_file($_FILES['Filedata']['tmp_name'])) {
                 $this->fileName = $this->uploadDir.$_FILES['Filedata']['name'];
                 //если файл с таким именем уже существует...
-                if (file_exists($this->fileName)) {
+                if (file_exists($_SERVER['DOCUMENT_ROOT'].$this->fileName)) {
                     //...добавляем текущее время к имени файла
                     $nameParts = explode('.', $_FILES['Filedata']['name']);
                     $nameParts[count($nameParts)-2] .= time();
                     $this->fileName = $this->uploadDir.implode('.', $nameParts);
                 }
-                move_uploaded_file($_FILES['Filedata']['tmp_name'], $this->fileName);
-                /*if($_POST['buildThumbnail']=='true'){
-                    $this->buildThumbnail();
-                }
-                if(isset($_POST['resizeWidth']) || isset($_POST['resizeHeight'])){
-                    $image = $this->resizeImage($_POST['resizeWidth'], $_POST['resizeHeight']);
-                    $image->save($this->fileName);
-                }*/
-                $this->renderPartial('index');
+                //Полный путь к изображению
+                $this->fullImagePath=$_SERVER['DOCUMENT_ROOT'].$this->fileName;
+                //Сохранение файла
+                move_uploaded_file($_FILES['Filedata']['tmp_name'], $_SERVER['DOCUMENT_ROOT'].$this->fileName);
+                //Обработка файла
+                $this->processImage();
+                $this->renderPartial('index', array(), false, false);
             }
         }
+    }
+    
+    private function processImage(){
+        if(isset($_POST['resize']['width']) || $_POST['resize']['height'] ){
+            $this->resizeImage($_POST['resize']['width'], $_POST['resize']['height']);
+        }
+    }
+    
+    private function resizeImage($width, $height){
+        $image = new Imageedit();
+        $image->load( $this->fullImagePath );
+        
+        if($width!=null && $height===null){
+            $image->resizeToWidth($width);
+        }
+        if($width===null && $height!==null){
+            $image->resizeToHeight($height);
+        }
+        if($width!==null && $height!==null){
+            $image->resize($width, $height);
+        }
+        $image->save( $this->fullImagePath );
     }
     
     public function actionEditimage(){
@@ -68,39 +88,6 @@ class FileuploaderController extends Controller
         }
     }
     
-    private function resizeImage($width, $height){
-        if($width!=null && $height===null){
-            $thImage = new Imageedit();
-            $thImage->load($this->fileName);
-            $thImage->resizeToWidth($width);
-        }
-        if($width===null && $height!==null){
-            $thImage = new Imageedit();
-            $thImage->load($this->fileName);
-            $thImage->resizeToHeight($height);
-        }
-        if($width!==null && $height!==null){
-            $thImage = new Imageedit();
-            $thImage->load($this->fileName);
-            $thImageWidth = $thImage->getWidth();
-            $thImageHeight = $thImage->getHeight();
-            $ratio = $width/$height;
-            if ($thImageWidth>($thImageHeight*$ratio)){
-                    $percent = $thImageWidth/100;
-                    $cropFrom = (($thImageWidth-($thImageHeight*$ratio))/2)/$percent;
-                    $cropTo = (($cropFrom*$percent)+$thImageHeight*$ratio)/$percent-$cropFrom;
-                    $thImage->crop(array($cropFrom, 0, $cropTo, 100));
-            }
-            else{
-                    $percent = $thImageHeight/100;
-                    $cropFrom = (($thImageHeight-($thImageWidth/$ratio))/2)/$percent;
-                    $cropTo = (($cropFrom*$percent)+$thImageWidth/$ratio)/$percent-$cropFrom;
-                    $thImage->crop(array(0, $cropFrom, 100, $cropTo));
-            }
-            $thImage->resize($width, $height);
-        }
-        return $thImage;
-    }
     
     private function cropimage(){
         $fullImagePath = $_SERVER['DOCUMENT_ROOT'].$_POST['path'];
@@ -117,7 +104,16 @@ class FileuploaderController extends Controller
         $fullImagePath = $_SERVER['DOCUMENT_ROOT'].$_POST['path'];
         if (file_exists($fullImagePath)){
             unlink($fullImagePath);
-            echo 'true';
+            echo json_encode(array(
+                'deleted'=>$_POST['path'],
+                'removeWrapper' => 'true'
+            ));
+        }
+        else{
+            echo json_encode(array(
+                'file does not exist.'=>$_POST['path'],
+                'removeWrapper' => 'true'
+            ));
         }
     }
     public function actionGetthumbblock(){

@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'product_gallery':
  * @property integer $id
  * @property string $path
- * @property string $descriotion
+ * @property string $description
  * @property string $alt
  * @property string $title
  * @property integer $product_id
@@ -44,10 +44,10 @@ class ProductGallery extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('product_id, sorting', 'numerical', 'integerOnly'=>true),
-			array('path, descriotion, alt, title', 'safe'),
+			array('path, description, alt, title', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, path, descriotion, alt, title, product_id, sorting', 'safe', 'on'=>'search'),
+			array('id, path, description, alt, title, product_id, sorting', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -71,7 +71,7 @@ class ProductGallery extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'path' => 'Path',
-			'descriotion' => 'Descriotion',
+			'description' => 'Description',
 			'alt' => 'Alt',
 			'title' => 'Title',
 			'product_id' => 'Product',
@@ -92,7 +92,7 @@ class ProductGallery extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('path',$this->path,true);
-		$criteria->compare('descriotion',$this->descriotion,true);
+		$criteria->compare('description',$this->description,true);
 		$criteria->compare('alt',$this->alt,true);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('product_id',$this->product_id);
@@ -102,4 +102,10 @@ class ProductGallery extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.sorting ASC'
+                );
+        }
 }

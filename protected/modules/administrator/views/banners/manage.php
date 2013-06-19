@@ -49,9 +49,8 @@ else{
 <?php } ?>
 <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
-tinymce.init({
-    selector: ".with_tinymce",
-    //width : '50%',
+tinymce.myOptions = {
+    //selector: ".with_tinymce",
     theme: "modern",
     plugins: [
         "advlist autolink lists link image charmap print preview hr anchor pagebreak",
@@ -60,19 +59,11 @@ tinymce.init({
         "emoticons template paste textcolor"
     ],
     theme_advanced_resizing : true,
-    theme_advanced_resizing_horizontal : true,
-    theme_advanced_resizing_vertical : true,
-    resize : true,
-    resize_horizontal : true,
-    resize_vertical : true,
     toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
     toolbar2: "print preview media | forecolor backcolor emoticons",
     image_advtab: true,
-    templates: [
-        {title: 'Test template 1', content: 'Test 1'},
-        {title: 'Test template 2', content: 'Test 2'}
-    ]
-});
+}
+//tinymce.init(tinymce.myOptions);
 
 </script>
 <h2>
@@ -89,26 +80,16 @@ tinymce.init({
     .admin_main_features{float:left; width:40%;}
     .admin_additional_features{float:left; width:60%;}
     .regional_features_wrapper{float: left; width: 100%;}
-    .uploaded_file_wrapper{width:120px; height:90px; position:relative; padding: 4px; border:1px solid #EEEEEE; float:left; margin:5px;}
-    .delete_uploaded_file{width:16px; height:16px; position:absolute; top:1px; right:1px; cursor:pointer;}
-    .uploaded_file{ width:100%; height:100%;}
     .banner_images_wrapper{width:69%; float: left; min-height:120px; border:1px solid #eee; position:relative; z-index:50;}
-    .uploaded_file_wrapper {z-index: 900;}
     .ui-dialog{z-index: 900;}
     .imageFeaturesForm{display: none;}
     .imageFeature{width:98%;}
-    .delete_image{position: absolute;
-        top: 2px;
-        right: 2px;
-        width: 16px;
-    }
     .makers_table input{
         width:auto;
     }
     .makers_table td{
         width:14%;
     }
-    .admin_additional_features_content{background:#F5F5F5;}
     ul.menuTreeView  .menuItemCheckBox{
         width: auto;
         height: auto;
@@ -182,40 +163,31 @@ tinymce.init({
         <label>Дополнительные параметры</label>
         <h3>Изображения баннера</h3>
         <div class="admin_additional_features_content">
-            <?php $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
-                    'url'=>'/administrator/fileuploader/upload',
-                    'mode'=>'loader',
+            <?php 
+            $previouslyUploadedFiles = array();
+            if( !$bannerModel->isNewRecord ){
+                    $allUniqueImagesInBanner = BannerImages::model()->findAll(
+                            'banner_id='.$bannerModel->id.' GROUP BY path');
+                    foreach( $allUniqueImagesInBanner as $image ){
+                        $previouslyUploadedFiles[$image->path]="";
+                    }
+            }
+            $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
                     'template'=>array(
-                        'image'=>true,
+                        'image',
                     ),
                     'uploadCallback'=>'
-                        function(responseText){
-                            var uploadedImage = responseText;
-                            // ul-список, содержащий миниатюрки выбранных файлов
-                            var imgList = $("div#img-list");
-                            uploadedImage.draggable({
+                        function( $newUploadedFileWrapper ){
+                            $newUploadedFileWrapper.draggable({
                                 helper: "clone", 
                                 appendTo : "body",
                                 revert: true
                             });
-                            imgList.append(uploadedImage);
                         }',
-                    )
-                );
+                    'previouslyUploadedFiles'=>$previouslyUploadedFiles,
+                )
+            );
             ?>
-            <div id="img-list">
-                <?php if( !$bannerModel->isNewRecord ): ?>
-                    <?php 
-                    $allUniqueImagesInBanner = BannerImages::model()->findAll(
-                            'banner_id='.$bannerModel->id.' GROUP BY path');
-                    ?>
-                    <?php foreach( $allUniqueImagesInBanner as $image ): ?>
-                        <div class="uploaded_file_wrapper" style="position: relative; left: 0px; top: 0px;">
-                            <img class="uploaded_file" src="<?php echo $image->path; ?>">
-                        </div>
-                    <?php endforeach; ?>
-                <?php endif; ?>
-            </div>
         </div>
         <h3>Производители</h3>
         <div class="admin_additional_features_content">
@@ -259,11 +231,11 @@ tinymce.init({
                 $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure($bannerModel);
                 $roots = MenuItems::model()->roots()->findAll();
                 $this->widget('CTreeView', array(
-                    'data' => MenuItems::getMenuTreeForBanner(
+                    'data' => MenuItems::getMenuTreeWithCheckbox(
                             $roots, 
-                            $bannerModel, 
                             'MenuItemConteintigThisBanner', 
-                            $menuItemConteintigStatusClosure
+                            $menuItemConteintigStatusClosure,
+                            array(MenuItems::BANNERS_MENU_ITEM_TYPE)
                         ), 
                     'animated'=>100, 
                     'htmlOptions'=>array(
@@ -286,11 +258,11 @@ tinymce.init({
                 }
                 $bannerLinkClosure = getBannerLinkClosure($bannerModel);
                 $this->widget('CTreeView', array(
-                    'data' => MenuItems::getMenuTreeForBanner(
+                    'data' => MenuItems::getMenuTreeWithCheckbox(
                             $roots, 
-                            $bannerModel, 
                             'BannerLinkMenuItems', 
-                            $bannerLinkClosure
+                            $bannerLinkClosure,
+                            array(MenuItems::BANNERS_MENU_ITEM_TYPE, MenuItems::PRODUCT_MENU_ITEM_TYPE)
                         ),
                     'animated'=>100, 
                     'htmlOptions'=>array(
@@ -360,7 +332,6 @@ tinymce.init({
         </div>
     </div>
     <?php $this->endWidget(); ?>
-    
 </div>
 <script>
     //RegionTabs
@@ -430,7 +401,7 @@ tinymce.init({
                 //Иницииализация перетаскивания для изображений присутсвующих во 
                 //всех баннерах
                 
-                $('#img-list').find('.uploaded_file_wrapper').draggable({ 
+                $('#img_list').find('.uploaded_file_wrapper').draggable({ 
                     helper: 'clone', 
                     appendTo : 'body',
                     revert: true
@@ -501,7 +472,7 @@ tinymce.init({
                 drop: function( event, ui ) {
                     var image = ui.draggable.clone().removeAttr('style');
                     $(this).append(image);
-                    self.initImageForm(image, $(this) /*DroppableWrapper*/);
+                    self.initImageForm(image, $(this) /*DroppableWrapper*/ );
                 }
             }).sortable({
                 stop: function(){
@@ -511,10 +482,15 @@ tinymce.init({
                 }
             }).disableSelection();
             
-            
-            tinymce.init({selector:'.with_tinymce'});
             self.tabs.tabs( "refresh" );
             self.tabCounter++;
+            (function(id){
+                var id = id;
+                setTimeout(function(){
+                    tinymce.myOptions.selector = '#'+id+' .with_tinymce';
+                    tinymce.init(tinymce.myOptions);
+                }, 10);
+            })(id);
         }
         
          // Инициализация формы данных для изображения добавленного в таб

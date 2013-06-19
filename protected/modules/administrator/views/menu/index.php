@@ -5,31 +5,50 @@
  */
 //var_dump($menuTreeArray);
 ?>
+<style>
+    #menu_features{
+        box-shadow: 0px 0px 7px;
+        border-radius: 5px;
+        float: left; 
+        width: 60%; 
+        padding: 2%; 
+        margin-left:2%; 
+    }
+    .menuTreeViewWrapper{
+        box-shadow: 0px 0px 7px;
+        border-radius: 5px;
+        float: left; 
+        width: 27%; 
+        padding: 2%; 
+    }
+</style>
+    
 <h2 class="col ">Менеджер меню</h2>
-<div class="menuTreeViewWrapper" style="float: left; width: 27%; padding: 2%; border: solid 1px #cccccc">
+<div class="menuTreeViewWrapper">
     <?php
     $this->widget('CTreeView', array('data' => $menuTreeArray, 'animated'=>100, 'htmlOptions'=>array('class'=>'menuTreeView')));
     ?>
     <a href="/administrator/menu/createMenu">
-        <button class="admin_simple_button">Добавить новое меню</button> 
+        <button class="btn">Добавить новое меню</button> 
     </a>
 </div>
-<div id="menu_features" style="float: left; width: 60%; padding: 2%; margin-left:2%; border: solid 1px #cccccc">
+<div id="menu_features">
         
 </div>
 <script>
  //nemuItemForm
  function MenuTreeViewConstructor(jQuery){
     var thisObject = this;
+    this.jQuery = jQuery;
+    
     this.showForm = function( linkElement ){
+        $('#menu_features').append('<div class="ui-widget-overlay ui-front"></div>');
         $.ajax({
             url: linkElement.href
         }).done(function ( data ) {
             $('#menu_features').html( data );
         });
-        
     }
-    this.jQuery = jQuery;
     this.updateTree = function( clearMenuFeaturesWrapper ){
         $.ajax({
             type: "POST",
@@ -77,7 +96,4 @@
     }
  }
  menuTreeView = new MenuTreeViewConstructor(jQuery);
-<?php if(Yii::app()->user->hasFlash('saved')): ?>
-    alert("<?php echo Yii::app()->user->getFlash('saved'); ?>");
-<?php endif; ?>
 </script>

@@ -1,0 +1,39 @@
+/* GROUP UPLOADED IMAGES */
+.uploaded_file_wrapper_blank{
+    display: none;
+}
+.uploaded_file_wrapper{
+    z-index: 900;
+    width:120px;
+    position:relative;
+    padding: 4px;
+    border:1px solid #EEEEEE;
+    float:left;
+    margin:5px;
+    height: 130px;
+}
+.uploaded_file{
+    max-height:100px;
+    max-width:120px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.delete_image{position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 16px;
+    height:16px;
+    position:absolute;
+    cursor:pointer;
+}
+.image_wrapper{
+    height: 100px;
+    width: 120px;
+    position: relative;
+}
+/* END GROUP UPLOADED IMAGES */

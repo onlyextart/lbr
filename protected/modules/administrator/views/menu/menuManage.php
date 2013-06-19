@@ -23,7 +23,7 @@ else{
 <style>
     .admin_main_features{float:left; width:60%;}
     .admin_additional_features{float:left; width:40%;}
-    .admin_additional_features_content{background:#EEEEEE;}
+    .button-column img{width:16px; height:16px;}
 </style>
 <div class="form">
 <?php $form = $this->beginWidget('CActiveForm', array(
@@ -37,8 +37,14 @@ else{
                                             "type":"POST",
                                             "url":$("#menuItem_form").attr("action"),
                                             "data":form.serialize(),
-                                            "success":function(data){$("#test").html(data); setTimeout(menuTreeView.updateTree('.$menuModel->isNewRecord.'), 600);},
+                                            "success":function(data){$("#test").html(data); setTimeout(function(){
+                                                menuTreeView.updateTree('.$menuModel->isNewRecord.');
+                                                alertify.success("Сохранено");
+                                            }, 500);},
                                     });
+                                }
+                                else{
+                                    alertify.error("Поля формы заполнены не верно");
                                 }
                             }'
             ),
@@ -68,7 +74,7 @@ else{
         <div class="row">
             <?php echo $form->error($menuModel, 'type'); ?>
             <?php echo $form->labelEx($menuModel, 'type'); ?>
-            <?php echo $form->dropDownList($menuModel, 'type', MenuItems::getMenuItemsType()); ?>
+            <?php echo $form->dropDownList($menuModel, 'type', array_merge (array('null'=>'Не выбран'), MenuItems::getMenuItemsType())); ?>
         </div>
         <div class="row">
             <?php echo $form->error($menuModel, 'group_id'); ?>
@@ -78,13 +84,16 @@ else{
         <div class="row">
         <?php
             echo CHtml::submitButton($menuModel->isNewRecord? 'Создать':'Сохранить', 
-                $form->action,
+                /*$form->action,
                 array( 
-                    'complete'=>'setTimeout(menuTreeView.updateTree('.$menuModel->isNewRecord.'), 600)', 
+                    'complete'=>'setTimeout(function(){menuTreeView.updateTree('.$menuModel->isNewRecord.');
+                            alertify.success("Сохранено");
+                        }, 500)', 
                     'liveEvents'=>false,
-                ),
+                ),*/
                 array(
                     'id'=>'saveMenuItem'.rand(),
+                    'class'=>'btn btn-green'
                 )
             );
         ?>
@@ -115,18 +124,10 @@ else{
                 <?php echo $form->textarea($menuModel, 'seo_text', array('style'=>'width:95%', 'rows'=>6,)); ?>
             </div>
         </div>
-        <h3>Мета теги и SEO текст</h3>
+        <h3>Содержимое пункта меню</h3>
         <div class="form admin_additional_features_content">
             <?php
-                /*$itemContentDataProvider = $menuModel->getItemContentDataProvider();
-                $this->widget('zii.widget.grid.CGridView', array(
-                        'dataProvider'=>$bannersDataProvider,
-                        array(
-                            'header'=>'Имя', 
-                            'value'=>'$data->bannerRegions[0]->name',
-                        ),
-                    )
-                );*/
+                $menuModel->getItemContent();
             ?>
         </div>
     </div>
@@ -134,7 +135,4 @@ else{
 <?php  $this->endWidget();?>
 <script>
     $(".admin_additional_features").accordion({ header: "h3" , collapsible: true, active:false, heightStyle: "content"});
-<?php if(Yii::app()->user->hasFlash('saved')): ?>
-    alert("<?php echo Yii::app()->user->getFlash('saved'); ?>");
-<?php endif; ?>
 </script>

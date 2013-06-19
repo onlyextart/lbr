@@ -34,11 +34,12 @@ class MakersController extends Controller{
             $makerModel->attributes = $_POST['Makers'];
             if( $makerModel->save()){
                 if( isset($_POST['Makers']['logo']) ){
+                    //изменить размер логотипа до 70 px в высоту
                     $thImage = new Imageedit();
-                    $thImage->load($_POST['Makers']['logo']);
+                    $thImage->load($_SERVER['DOCUMENT_ROOT'].$_POST['Makers']['logo']);
                     if($thImage->getHeight() > 70){
                         $thImage->resizeToHeight(70);
-                        $thImage->save($_POST['Makers']['logo']);
+                        $thImage->save($_SERVER['DOCUMENT_ROOT'].$_POST['Makers']['logo']);
                     }
                 }
                 $this->redirect('/administrator/makers/index');

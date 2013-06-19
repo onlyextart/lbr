@@ -126,12 +126,13 @@ class Banners extends CActiveRecord
                 return false;
         }
         
-        
         //Метод проверяет назначен ли данный баннер пункту меню для его отображения
         //Принимает единственный аргумент - ID пункта меню
         public function hasMenuItem( $menuItemId ){
                 if( !$this->isNewRecord ){
-                    if( MenuItemsContent::model()->find( 'page_id='.$this->id.' AND item_id='.$menuItemId ) !== null){
+                    if( MenuItemsContent::model()->with('item')->find( 'page_id='.$this->id
+                            .' AND item_id='.$menuItemId
+                            .' AND item.type='.MenuItems::BANNERS_MENU_ITEM_TYPE ) !== null){
                         return true;
                     }
                 }

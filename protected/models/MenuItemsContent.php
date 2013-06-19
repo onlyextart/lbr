@@ -7,7 +7,7 @@
  * @property integer $id
  * @property integer $item_id
  * @property integer $page_id
- * @property integer $type
+ * @property integer $sorting
  *
  * The followings are the available model relations:
  * @property MenuItems $item
@@ -40,11 +40,10 @@ class MenuItemsContent extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('type', 'required'),
-			array('item_id, page_id, type', 'numerical', 'integerOnly'=>true),
+			array('item_id, page_id, sorting', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, item_id, page_id, type', 'safe', 'on'=>'search'),
+			array('id, item_id, page_id, sorting', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,7 +68,7 @@ class MenuItemsContent extends CActiveRecord
 			'id' => 'ID',
 			'item_id' => 'Item',
 			'page_id' => 'Page',
-			'type' => 'Type',
+			'sorting' => 'Sorting',
 		);
 	}
 
@@ -87,10 +86,37 @@ class MenuItemsContent extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('item_id',$this->item_id);
 		$criteria->compare('page_id',$this->page_id);
-		$criteria->compare('type',$this->type);
+		$criteria->compare('sorting',$this->sorting);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+        
+        
+        protected function afterSave(){
+            parent::afterSave();
+            if($this->sorting===null){
+                $model = MenuItemsContent::model()->findByPk($this->id);
+                $model->sorting = $this->id;
+                $model->save(false);
+            }
+            return true;
+        }
+        
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.sorting ASC'
+                );
+        }
+        
+        public function orederAndLimit( $direction='ASC', $limit=1 )
+        {
+            $this->getDbCriteria()->mergeWith(array(
+                'order'=>'sorting '.$direction,
+                'limit'=>$limit,
+            ));
+            return $this;
+        }
 }

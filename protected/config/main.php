@@ -108,6 +108,7 @@ return array(
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',
                         'Производители'=>'/administrator/makers/',
+                        'Страницы товаров'=>'/administrator/products/',
                     ),
                     'Пользователи'=>array(
                         'Пользователи'=>'/administrator/users/',

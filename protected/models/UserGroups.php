@@ -108,7 +108,6 @@ class UserGroups extends CActiveRecord
                 }else{
                     return $groupsArray;
                 }
-               
         }
         
         protected function afterSave() {

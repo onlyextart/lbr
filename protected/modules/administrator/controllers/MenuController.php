@@ -54,7 +54,6 @@ class MenuController extends Controller{
             if( $menuModel->saveNode() ){
                 //Задать сообщение ползователью
                 Yii::app()->user->setFlash('saved','Меню успешно создано!');
-
             }
         }
         if( isset($_GET['ajax']) ){

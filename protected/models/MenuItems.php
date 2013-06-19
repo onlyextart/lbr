@@ -58,7 +58,8 @@ class MenuItems extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('lft, rt, published, group_id, type, level, root', 'numerical', 'integerOnly'=>true),
+			array('lft, rt, published, group_id, level, root', 'numerical', 'integerOnly'=>true),
+			array('type', 'numerical', 'integerOnly'=>true, 'message'=>'Тип должен быть выбран'),
 			array('group_id, alias, name', 'required'),
 			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text', 'safe'),
 			// The following rule is used by search().
@@ -159,7 +160,7 @@ class MenuItems extends CActiveRecord
                 $newItemArray['id'] = $menuItem->id;
                 $menuItem->level == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
                 $newItemArray['text'] = CHtml::link( 
-                    $menuItem->name, 
+                    (mb_strlen($menuItem->name, 'UTF-8')>33)?mb_substr($menuItem->name,0,33, 'UTF-8')."...":$menuItem->name, 
                     $linkUrl.'/id/'.$menuItem->id.'/ajax/true', 
                     array ( 'class'=>'menuTreeViewLink', 
                             'onclick'=>'menuTreeView.showForm(this); return false;' )
@@ -219,7 +220,7 @@ class MenuItems extends CActiveRecord
             return $levelArray;
         }
         
-        static function getMenuTreeForBanner( $roots, $bannerModel, $checkBoxNameAttr='MenuItem', $checkStatus = null ){
+        static function getMenuTreeWithCheckbox( $roots, $checkBoxNameAttr='MenuItem', $checkStatus = null, $activeItemType=array() ){
             $levelArray = array();
             foreach( $roots as $i=>$menuItem ){
                 $newItemArray = array();
@@ -227,32 +228,123 @@ class MenuItems extends CActiveRecord
                 $newItemArray['text'] = $menuItem->name.CHtml::checkBox( 
                     $checkBoxNameAttr."[$menuItem->id]",
                     $checkStatus( $menuItem->id ),
-                    array('class'=>'menuItemCheckBox')
+                    array('class'=>'menuItemCheckBox', in_array( $menuItem->type, $activeItemType )?'':'disabled'=>'disabled')
                         
                 );
                 $newItemArray['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $menuItem->id, $_REQUEST['OpenItems'] ) )?true:false;
                 $menuChildrens = $menuItem->children()->findAll();
                 if( count($menuChildrens) !== 0 ){
-                    $newItemArray['children'] = self::getMenuTreeForBanner( $menuChildrens, $bannerModel, $checkBoxNameAttr, $checkStatus );
+                    $newItemArray['children'] = self::getMenuTreeWithCheckbox( $menuChildrens, $checkBoxNameAttr, $checkStatus, $activeItemType );
                 }
                 $levelArray[] = $newItemArray;
             }
             return $levelArray;
         }
         
-        public function getItemContentDataProvider(){
+        public function getItemContent(){
             $criteria = new CDbCriteria();
-            //$criteria->condition = 'type='.;
-            $criteria->params = array('MenuItemsContent', array(
+            $criteria->condition = 'item_id=:item_id';
+            $criteria->params = array(
+                ':item_id'=>$this->id,
+            );
+            $dataProvider = new CActiveDataProvider('MenuItemsContent', array(
                 'criteria'=>$criteria,
             ));
-            //$itemContentModel = new
-            
-            return $dataProvider;
+            if( $this->type == self::BANNERS_MENU_ITEM_TYPE ){
+                $gridId = rand();
+                Yii::app()->getController()->widget('zii.widgets.grid.CGridView', array(
+                    'dataProvider'=>$dataProvider,
+                    'ajaxUrl'=>Yii::app()->request->requestUri,
+                    'summaryText'=>false,
+                    'id'=>'menu_item_content_table',
+                    'htmlOptions'=>array(
+                        'style'=>'margin-right:15px;',
+                    ),
+                    'columns'=>array(
+                        array(
+                            'header'=>'Имя', 
+                            'value'=>'Banners::model()->findByPk($data->page_id)->bannerRegions[0]->name',
+                        ),
+                        array(
+                            'class'=>'CButtonColumn',
+                            'template'=>'{up}{down}{update}',
+                            'buttons'=>array(
+                                'update'=>array(
+                                    'url'=>'"/administrator/banners/update/id/".$data->page_id',
+                                    'click'=>'function(e){
+                                            if(e.isDefaultPrevented()) return;
+                                            alertify.set({ labels: {
+                                            ok     : "Да",
+                                            cancel : "Нет"
+                                        }});
+                                        var href = this.href;
+                                        alertify.confirm("Перейти на страницу редактирования баннера?", function (e) {
+                                                if (e) {
+                                                        window.location = href;
+                                                } else {
+                                                        return false;
+                                                }
+                                        });
+                                        return false;
+                                    }',
+                                ),
+                                'up'=>array(
+                                    'url'=>'"/administrator/banners/sortUp/bannerId/".$data->page_id."/menuItemId/".$data->item_id',
+                                    'imageUrl'=>'/images/arrowUpIcon.png',
+                                    'options'=>array('id'=>'up_banner_on_page'),
+                                    'visible'=>'$row!=0',
+                                    'click'=>'function(e){
+                                        if(e.isDefaultPrevented()) return;
+                                        var href = this.href;
+                                        $.ajax({
+                                            type:"POST",
+                                            url:href,
+                                        }).done(function(data){
+                                            console.log(data);
+                                            $.fn.yiiGridView.update("menu_item_content_table" ,{
+                                                    complete: function(jqXHR, status) {
+                                                        alertify.success("Порядок отображения баннера изменен");
+                                                    }
+                                                }
+                                            );
+                                        })
+                                        
+                                        return false;
+                                    }',
+                                ),
+                                'down'=>array(
+                                    'url'=>'"/administrator/banners/sortDown/bannerId/".$data->page_id."/menuItemId/".$data->item_id',
+                                    'imageUrl'=>'/images/arrowDownIcon.png',
+                                    'options'=>array('id'=>"down_banner_on_page"),
+                                    'visible'=>'($row+1) != $this->grid->dataProvider->itemCount',
+                                    'click'=>'function(e){
+                                        if(e.isDefaultPrevented()) return;
+                                        var href = this.href;
+                                        $.ajax({
+                                            type:"POST",
+                                            url:href,
+                                        }).done(function(data){
+                                            console.log(data);
+                                            $.fn.yiiGridView.update("menu_item_content_table" ,{
+                                                    complete: function(jqXHR, status) {
+                                                        alertify.success("Порядок отображения баннера изменен");
+                                                    }
+                                                }
+                                            );
+                                        })
+                                        
+                                        return false;
+                                    }',
+                                ),
+                            ),
+                        ),
+                    ),
+                ));
+            }
         }
         
         //Метод возвращает все типы пунктов меню в виде массива, где:
-        // ключ - id типа, а значение - имя типа
+        //ключ - id типа, а значение - имя типа
         static function getMenuItemsType(){
             $types = array();
             $types[MenuItems::BANNERS_MENU_ITEM_TYPE] = 'Страница с баннерами';
@@ -262,5 +354,11 @@ class MenuItems extends CActiveRecord
             return $types;
         }
         
+        /*public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.root DESC'
+                );
+        }*/
         
 }

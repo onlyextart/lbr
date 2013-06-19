@@ -6,38 +6,18 @@
  */
 ?>
 <style>
-    .uploaded_file_wrapper{
-        float:left;
-        padding:4px;
-    }
     .row:after {
         clear: both;
         content: "";
         display: table;
     }
-    .uploaded_file{
-        max-width: 100px;
-        max-height: 80px;
-    }
     .uploaded_file_wrapper input{
         width: auto;
     }
-    #logotip{
-        margin-left: 38px;
-    }
-    .delete_image{
-        position: absolute;
-        top: 2px;
-        right: 2px;
-        width: 16px;
-        cursor: pointer;
-    }
-    .uploaded_file_wrapper{position:relative; padding: 4px; border:1px solid #EEEEEE; float:left; margin:5px;}
-
 </style>
 <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
-tinymce.init({
+tinymce.myOptions = {
     selector: ".with_tinymce",
     //width : '50%',
     theme: "modern",
@@ -60,7 +40,8 @@ tinymce.init({
         {title: 'Test template 1', content: 'Test 1'},
         {title: 'Test template 2', content: 'Test 2'}
     ]
-});
+}
+tinymce.init(tinymce.myOptions);
 
 </script>
 <div class="form">    
@@ -87,42 +68,33 @@ $form = $this->beginWidget('CActiveForm', array(
     )
 ?>
     <div class="row">
-         <?php $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
-                        'url'=>'/administrator/fileuploader/upload',
-                        'template'=>array(
-                            'image'=>true,
-                            'radioButton'=>true,
-                            'radioButtonLabel'=>'Логотип',
-                            'radioButtonName'=>'Makers[logo]',
-                            'deleteButton'=>true,
-                            
-                        ),
-                        'uploadCallback'=>'function(responseText){
-                                    var uploadedImage = responseText;
-                                    var imgList = $("div#img-list");
-                                    imgList.append(uploadedImage);}',
-                        'postParams'=>array(
-                            //'uploadDir'=>'images/uploaded/',
-                        ),
-                    )
+        <?php  
+            $previouslyUploadedFiles=array();
+            if($makerModel->logo !== null){
+                $previouslyUploadedFiles=array(
+                        $makerModel->logo=>array(
+                            'radioButton'=>'checked',
+                    ),
                 );
+            }
         ?>
-        <div id="img-list">
-            <?php 
-            $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
-                    'mode'=>'thumbnail',
-                    'imagePath'=>$makerModel->logo,
+        <?php $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
                     'template'=>array(
-                            'image'=>true,
-                            'radioButton'=>true,
-                            'radioButtonLabel'=>'Логотип',
-                            'radioButtonName'=>'Makers[logo]',
-                            'deleteButton'=>true,
+                        'image',
+                        array(
+                            'name'=>'radioButton',
+                            'label'=>'Логотип ',
+                            'nameAttr'=>'Makers[logo]',
                         ),
-                    )
-                ); 
-            ?>
-        </div>
+                        'deleteButton',
+                    ),
+                    'previouslyUploadedFiles'=>$previouslyUploadedFiles,
+                    'uploadCallback'=>'function(responseText){}',
+                    'postParams'=>array(
+                    ),
+                )
+            );
+        ?>
     </div>    
     <div class="row">
         <?php echo $form->error( $makerModel, 'name' ); ?>

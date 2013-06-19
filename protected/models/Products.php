@@ -27,7 +27,10 @@
  */
 class Products extends CActiveRecord
 {
-	/**
+	
+        const DEFAULT_IMAGE_TYPE = 0;
+        const TIMETOBUY_IMAGE_TYPE = 1;
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Products the static model class
@@ -54,6 +57,7 @@ class Products extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('maker', 'numerical', 'integerOnly'=>true),
+                        array('name', 'required'),
 			array('name, image, video, review, features, construct_features, experience, image_type, image_top_left, image_top_right, image_bottom_left, image_bottom_right', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -129,4 +133,27 @@ class Products extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод возвращает все типы титульного изображения в виде массива, где:
+        // ключ - id типа, а значение - имя типа
+        static function getImageTypes()
+        {
+            $types = array();
+            $types[BannerImages::DEFAULT_IMAGE_TYPE] = 'Обычное';
+            $types[BannerImages::TIMETOBUY_IMAGE_TYPE] = 'Время покупать';
+            return $types;
+        }
+        
+        //Метод проверяет назначен ли данный продукт пункту меню для его отображения
+        //Принимает единственный аргумент - ID пункта меню
+        public function hasMenuItem( $menuItemId ){
+                if( !$this->isNewRecord ){
+                    if( MenuItemsContent::model()->with('item')->find( 'page_id='.$this->id.
+                            ' AND item_id='.$menuItemId.
+                            ' AND item.type='.MenuItems::PRODUCT_MENU_ITEM_TYPE ) !== null){
+                        return true;
+                    }
+                }
+                return false;
+        }
 }
