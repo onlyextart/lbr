@@ -8,9 +8,6 @@ class UsersController extends Controller
             if(parent::beforeAction($action))
             {
                 //  Добавление CSS файла для пользователей.
-                Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
-                Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
-                Yii::app()->clientScript->registerScriptFile('/js/admin/users.js');
             }
             return true;
 	}

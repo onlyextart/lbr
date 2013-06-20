@@ -1,3 +1,10 @@
+<? 
+    Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
+    Yii::app()->clientScript->registerCssFile('/css/admin/users/static.css');
+    Yii::app()->clientScript->registerScriptFile('/js/tinymce/tinymce.min.js');
+    Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
+    Yii::app()->clientScript->registerScriptFile('/js/admin/static.js');
+?>
 <h1>Статические страницы</h1>
 <div class="total">
     <div class="left">
@@ -15,6 +22,7 @@
         'template'=>'{sorter} {items} {pager}',
         'sorterHeader'=>'',
         'itemsTagName'=>'ul',
+        'id'=>'static_pages',
         'sortableAttributes'=>array('id','name', 'data'),
         'pager'=>array(
             'class'=>'CLinkPager',

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    menuTreeView = new MenuTreeViewConstructor(jQuery);
     var start = new AjaxContentLoader();
     start.success = function(html, container){
         $(container).html(html);
@@ -76,5 +77,18 @@ function TabsStaticPages(){
             selector:'textarea',
             plugins: ["advlist autolink lists link image charmap preview anchor","searchreplace visualblocks code fullscreen","insertdatetime media table contextmenu paste"]
         });
+        
+        
+        menuTreeView.updateTree(false);
     }
 }
+
+function MenuTreeViewConstructor(jQuery){
+    var _self = this;
+    this.jQuery = jQuery;
+    this.updateTree = function( clearMenuFeaturesWrapper ){
+            _self.jQuery(function(cash) {
+                _self.treeObject = _self.jQuery(".menuTreeView").treeview({'animated':100});
+            });
+    }
+ }

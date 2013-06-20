@@ -46,7 +46,8 @@
 <div class="buttons">
 <?  echo $delete_button; 
     echo CHtml::button('Закрыть',array('onclick'=>'$(".total .right").html(" ");','class'=>'btn'));
-    echo CHtml::submitButton($submit_text,array('id'=>'but_'.$name,'class'=>'btn btn-green')); ?>
+    echo CHtml::submitButton($submit_text, array('id'=>'but_'.$name,'class'=>'btn btn-green')); 
+?>
 </div>
 <div class="field">
 <?  echo $form->error($model, 'name'); 
@@ -80,6 +81,34 @@ if ($model->isNewRecord){
 ?>
     <ul><? echo $tabs_name; ?></ul>
     <div><? echo $tabs_content; ?></div>
+</div>
+<div class="admin_additional_features_content">
+    <div class="header-h4">Пункты меню на которых отображается страница</div>
+<?php
+    //получение массива дерева меню
+    function getMenuItemConteintigStatusClosure( $model )
+    {
+        $status = function( $menuItemId ) use ( &$model ){       
+            return $model->hasMenuItem( $menuItemId );       
+        };
+        return $status;
+    }
+    $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $model );
+    $roots = MenuItems::model()->roots()->findAll();
+    $this->widget('CTreeView', array(
+        'data' => MenuItems::getMenuTreeWithCheckbox(
+                $roots, 
+                'MenuItemConteintigThisPage', 
+                $menuItemConteintigStatusClosure,
+                array(MenuItems::STATIC_MENU_ITEM_TYPE)
+            ), 
+        'animated'=>100, 
+        'htmlOptions'=>array(
+            'class'=>'menuTreeView'
+            )
+        )
+    );
+?>
 </div>
 <? $this->endWidget();?>
 </div>

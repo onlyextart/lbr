@@ -7,20 +7,6 @@
  */
 class PagesController extends Controller {
     
-    protected function beforeAction($action)
-    {
-        if(parent::beforeAction($action))
-        {
-              //Добавление CSS файла для пользователей.
-            Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
-            Yii::app()->clientScript->registerCssFile('/css/admin/users/static.css');
-            Yii::app()->clientScript->registerScriptFile('/js/tinymce/tinymce.min.js');
-            Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
-            Yii::app()->clientScript->registerScriptFile('/js/admin/static.js');
-        }
-        return true;
-    }
-        
     public function actionIndex()
     {
         if(Yii::app()->user->checkAccess('readPage'))
@@ -60,7 +46,7 @@ class PagesController extends Controller {
             );
             if ($id_item = Yii::app()->user->getFlash('saved_id')){
                 $model = Pages::model()->findByPk($id_item);
-                $view = $this->renderPartial('editpage', array('model'=>$model), true, true);
+                $view = $this->renderPartial('editpage', array('model'=>$model), true, false);
             }
             $this->render('default', array('data'=>$dataProvider, 'view'=>$view));
         }else{
@@ -76,12 +62,22 @@ class PagesController extends Controller {
             if (isset($_POST['Pages'])){
                 $model->attributes = $_POST['Pages'];
                 if($model->save()){
+                    if( isset( $_POST['MenuItemConteintigThisPage'] ) ){
+                        foreach( $_POST['MenuItemConteintigThisPage'] as $menuItemId=>$value ){
+                            if($value!='0'){
+                                $menuItemContentModel = new MenuItemsContent();
+                                $menuItemContentModel->item_id = $menuItemId;
+                                $menuItemContentModel->page_id = $model->id;
+                                $menuItemContentModel->save();
+                            }
+                        }
+                    }
                     Yii::app()->user->setFlash('saved_id', $model->id);
                     Yii::app()->user->setFlash('message', 'Страница "'.$model->name.'" созданa успешно.');
                     $this->redirect('/administrator/pages/');
                 }
             }
-            $this->renderPartial('editpage', array('model'=>$model));
+            $this->renderPartial('editpage', array('model'=>$model), false, true);
         }else{
             throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
         }
@@ -91,6 +87,30 @@ class PagesController extends Controller {
         if(Yii::app()->user->checkAccess('editPage'))
         {
             $model = Pages::model()->findByPk($id);
+            
+            if( isset( $_POST['MenuItemConteintigThisPage'] ) ){
+                $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
+                    'page_id='.$model->id.
+                    ' AND item.type='.MenuItems::STATIC_MENU_ITEM_TYPE
+                );
+                $menuItmemsContentModelsForDeleting = $menuItmemsContentModels;
+                $menuItmemsContentNum = 0;
+                foreach( $_POST['MenuItemConteintigThisPage'] as $menuItemId=>$value ){
+                    if($value!='0'){
+                        if(!isset($menuItmemsContentModels[$menuItmemsContentNum]))
+                            $menuItmemsContentModels[$menuItmemsContentNum] = new MenuItemsContent();
+                        $menuItmemsContentModels[$menuItmemsContentNum]->item_id = $menuItemId;
+                        $menuItmemsContentModels[$menuItmemsContentNum]->page_id = $model->id;
+                        $menuItmemsContentModels[$menuItmemsContentNum]->save();
+                        unset( $menuItmemsContentModelsForDeleting[$menuItmemsContentNum] );
+                        $menuItmemsContentNum++;
+                    }
+                }
+                foreach( $menuItmemsContentModelsForDeleting as $deleteMenuItmemsContent ){
+                    $deleteMenuItmemsContent->delete();
+                }
+            }
+            
             if (isset($_POST['Pages'])){
                 $model->attributes = $_POST['Pages'];
                 if($model->save()){
@@ -98,8 +118,9 @@ class PagesController extends Controller {
                     Yii::app()->user->setFlash('message', 'Страница "'.$model->name.'" сохранена успешно.');
                     $this->redirect('/administrator/pages/');
                 }
+            
             }
-             $this->renderPartial('editpage', array('model'=>$model), false, true);
+            $this->renderPartial('editpage', array('model'=>$model), false, true);
         }else{
             throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
         }

@@ -109,4 +109,17 @@ class Pages extends CActiveRecord
             }
             return true;
         }
+        
+        //Метод проверяет назначен ли данный продукт пункту меню для его отображения
+        //Принимает единственный аргумент - ID пункта меню
+        public function hasMenuItem( $menuItemId ){
+                if( !$this->isNewRecord ){
+                    if( MenuItemsContent::model()->with('item')->find( 'page_id='.$this->id.
+                            ' AND item_id='.$menuItemId.
+                            ' AND item.type='.MenuItems::STATIC_MENU_ITEM_TYPE ) !== null){
+                        return true;
+                    }
+                }
+                return false;
+        }
 }

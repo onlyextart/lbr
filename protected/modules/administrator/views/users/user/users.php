@@ -1,3 +1,8 @@
+<?
+    Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
+    Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
+    Yii::app()->clientScript->registerScriptFile('/js/admin/users.js');
+?>
 <h1>Пользователи</h1>
 <div class="total">
     <div class="left">

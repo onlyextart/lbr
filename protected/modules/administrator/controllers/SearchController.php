@@ -8,8 +8,6 @@ class SearchController extends Controller
         {
             //  Добавление CSS файла для пользователей.
             Yii::app()->clientScript->registerCssFile('/css/admin/users/search.css');
-//            Yii::app()->clientScript->registerScriptFile('/js/admin/_event.js');
-//            Yii::app()->clientScript->registerScriptFile('/js/admin/users.js');
         }
         return true;
     }
