@@ -45,10 +45,14 @@ return array(
                         'showScriptName'=>false,
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-                                
+//				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+//				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+//				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                                ''=>'xbanners/index',
+                                array(
+                                    'class'=>'application.components.CategoryUrlRule',
+                                    'connectionID'=> 'db',
+                                ),
 			),
 		),
 		
@@ -99,7 +103,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
-                'defaultRegionId'=>3,
+                'defaultRegionId'=>1,
                 'superGroup'=>1,
                 'menuadmin'=>array(
                     'Меню'=>array(

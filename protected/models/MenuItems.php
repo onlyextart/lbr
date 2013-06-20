@@ -30,6 +30,7 @@ class MenuItems extends CActiveRecord
         const PRODUCT_MENU_ITEM_TYPE = 1;
         const CONTACT_MENU_ITEM_TYPE = 2;
         const STATIC_MENU_ITEM_TYPE = 3;
+        const NEWS_MENU_ITEM_TYPE = 4;
         
 	/**
 	 * Returns the static model of the specified AR class.
@@ -351,6 +352,7 @@ class MenuItems extends CActiveRecord
             $types[MenuItems::PRODUCT_MENU_ITEM_TYPE] = 'Страница товара';
             $types[MenuItems::CONTACT_MENU_ITEM_TYPE] = 'Страница контакта';
             $types[MenuItems::STATIC_MENU_ITEM_TYPE] = 'Статическая страница';
+            $types[MenuItems::NEWS_MENU_ITEM_TYPE] = 'Страница новости';
             return $types;
         }
         

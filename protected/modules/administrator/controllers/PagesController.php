@@ -11,7 +11,7 @@ class PagesController extends Controller {
     {
         if(parent::beforeAction($action))
         {
-            //  Добавление CSS файла для пользователей.
+              //Добавление CSS файла для пользователей.
             Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
             Yii::app()->clientScript->registerCssFile('/css/admin/users/static.css');
             Yii::app()->clientScript->registerScriptFile('/js/tinymce/tinymce.min.js');
@@ -99,7 +99,7 @@ class PagesController extends Controller {
                     $this->redirect('/administrator/pages/');
                 }
             }
-             $this->renderPartial('editpage', array('model'=>$model));
+             $this->renderPartial('editpage', array('model'=>$model), false, true);
         }else{
             throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
         }

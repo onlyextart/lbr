@@ -37,7 +37,7 @@
 </div>
 <script>
  //nemuItemForm
- function MenuTreeViewConstructor(jQuery){
+function MenuTreeViewConstructor(jQuery){
     var thisObject = this;
     this.jQuery = jQuery;
     
