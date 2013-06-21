@@ -26,7 +26,38 @@
             </a>
         </div>
         <div class="menu main">
-            
+            <ul class="menuMainTop">
+                <li>
+                    <a href="/tehnika/">
+                        <img src="/images/mainMenuIcon/toppict1.png" alt="Сельскохозяйственная техника">
+                        <span>Сельскохозяйственная</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/strtehnika/">
+                        <img src="/images/mainMenuIcon/toppict4.png" alt="Строительная техника">
+                        <span>Строительная</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/komtehnika/">
+                        <img src="/images/mainMenuIcon/toppict5.png" alt="Коммунальная техника">
+                        <span>Коммунальная</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/zapchasty/">
+                        <img src="/images/mainMenuIcon/toppict2.png" alt="Запасные части">
+                        <span>Запчасти</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/service/">
+                        <img src="/images/mainMenuIcon/toppict3.png" alt="Сервисное обслуживание">
+                        <span>Сервис</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="menu second">
             <ul class="menuStaticTop">

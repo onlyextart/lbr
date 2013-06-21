@@ -83,7 +83,7 @@ header{
     min-height: 115px;
     background: url('/images/top-line.png') no-repeat bottom center;
 }
-header:after{
+header:after, header .menu.main .menuMainTop:after{
     content: '';
     display: block;
     clear: both;
@@ -92,28 +92,62 @@ header .logo{
     float: left;
     margin-top: 20px;
 }
-header .main{
+header .menu.main{
     float: left;
     width: 55%;
     height: 100px;
 }
-header .second
+header .menu.main .menuMainTop
+{
+    position: relative;
+    top: 10px;
+    list-style: none;
+    margin: 0px 40px 0 30px;
+    padding: 0;
+}
+header .menu.main .menuMainTop li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header .menu.main .menuMainTop li a
+{
+    color: #333;
+    text-decoration: none;
+}
+header .menu.main .menuMainTop li a span
+{
+    display: block;
+    width: 100%;
+    white-space: pre-line;
+    word-wrap:break-word;
+}
+header .menu.main .menuMainTop li:first-child a span
+{
+    width: 90%;
+}
+header .menu.main .menuMainTop li a img
+{
+    
+}
+header .menu.second
 {
     float: left;
 }
-header .second ul.menuStaticTop
+header .menu.second ul.menuStaticTop
 {
     list-style: none;
     margin: 0;
     padding: 30% 0 0;
 }
-header .second ul.menuStaticTop li
+header .menu.second ul.menuStaticTop li
 {
     margin: 0;
     padding: 0;
     padding-top: 2px;
 }
-header .second ul.menuStaticTop li a
+header .menu.second ul.menuStaticTop li a
 {
     color: #333;
     text-decoration: none;
@@ -137,10 +171,10 @@ header .map a span{
 
 /*----START-wrapper-container----*/
 .wrapper{
-    margin: 1em auto 2em;
+    margin: 0 auto;
 }
 .wrapper #content{
-    
+    margin: 1em 0 2em;
 }
 .wrapper #content .form form{
     width: 35%;

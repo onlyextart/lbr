@@ -124,45 +124,54 @@
     clear: both;
 }
 
-.admin_additional_features_content
+.right .admin_additional_features_content
 {
     box-shadow: 0px 0px 3px rgb(192, 192, 192);   
 }
 
-.admin_additional_features_content .menuTreeView
+.right .admin_additional_features_content .menuTreeView
 {
     padding: .5em 1em .2em;
 }
-.admin_additional_features_content .header-h4
+.right .admin_additional_features_content .header-h4
 {
     background: url("/images/bg_menu_admin.png") repeat-x scroll left top rgb(243, 243, 243);
     line-height: 33px;
     padding: 0 1em;
 }
-.admin_additional_features_content ul
+.right .admin_additional_features_content ul
 {
     list-style: none;
     border-top: 1px solid rgba(65, 131, 196, .2);
 }
-.admin_additional_features_content > ul
+.right .admin_additional_features_content > ul
 {
+    background: rgb(245,245,245);
     border-top: 1px solid rgb(65, 131, 196);
 }
-.admin_additional_features_content ul li
+.right .admin_additional_features_content > ul > li > ul, .right .admin_additional_features_content > ul > li > ul > li > ul > li > ul
+{
+    background: white;
+}
+.right .admin_additional_features_content > ul > li > ul > li > ul, .right .admin_additional_features_content > ul > li > ul > li > ul > li > ul > li > ul
+{
+    background: rgb(245,245,245);
+}
+.right .admin_additional_features_content ul li
 {
     margin: 0;
     /*padding: 0;*/
     cursor: default;
 }
 
-.admin_additional_features_content ul li.collapsable{
+.right .admin_additional_features_content ul li.collapsable{
     
 }
-.admin_additional_features_content li.expandable:hover, .admin_additional_features_content li.last:hover
+/*.right .admin_additional_features_content li.expandable:hover, .admin_additional_features_content li.last:hover
 {
     background-color: #F4F4F4;
-}
-.admin_additional_features_content input.menuItemCheckBox
+}*/
+.right .admin_additional_features_content input.menuItemCheckBox
 {
     width: auto;
     margin: 1px 5px 0px 0px;
