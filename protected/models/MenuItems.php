@@ -19,6 +19,7 @@
  * @property integer $type
  * @property integer $level
  * @property integer $root
+ * @property integer $header
  *
  * The followings are the available model relations:
  * @property MenuGroups $group
@@ -62,10 +63,10 @@ class MenuItems extends CActiveRecord
 			array('lft, rt, published, group_id, level, root', 'numerical', 'integerOnly'=>true),
 			array('type', 'numerical', 'integerOnly'=>true, 'message'=>'Тип должен быть выбран'),
 			array('group_id, alias, name', 'required'),
-			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text', 'safe'),
+			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text, header', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root', 'safe', 'on'=>'search'),
+			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root, header', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -103,6 +104,7 @@ class MenuItems extends CActiveRecord
 			'type' => 'Тип',
 			'level' => 'Level',
 			'root' => 'Root',
+			'header' => 'Заголовок',
 		);
 	}
 
@@ -132,6 +134,7 @@ class MenuItems extends CActiveRecord
 		$criteria->compare('type',$this->type);
 		$criteria->compare('level',$this->level);
 		$criteria->compare('root',$this->root);
+		$criteria->compare('header',$this->header);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -161,7 +164,7 @@ class MenuItems extends CActiveRecord
                 $newItemArray['id'] = $menuItem->id;
                 $menuItem->level == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
                 $newItemArray['text'] = CHtml::link( 
-                    (mb_strlen($menuItem->name, 'UTF-8')>33)?mb_substr($menuItem->name,0,33, 'UTF-8')."...":$menuItem->name, 
+                    (mb_strlen($menuItem->name, 'UTF-8')>20)?mb_substr($menuItem->name,0,20, 'UTF-8')."...":$menuItem->name, 
                     $linkUrl.'/id/'.$menuItem->id.'/ajax/true', 
                     array ( 'class'=>'menuTreeViewLink', 
                             'onclick'=>'menuTreeView.showForm(this); return false;' )

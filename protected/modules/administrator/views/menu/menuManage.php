@@ -57,6 +57,11 @@ else{
             <?php echo $form->textField($menuModel, 'name', array('style'=>'width:95%',)); ?>
         </div>
         <div class="row">
+            <?php echo $form->error($menuModel, 'header'); ?>
+            <?php echo $form->labelEx($menuModel, 'header'); ?>
+            <?php echo $form->textField($menuModel, 'header', array('style'=>'width:95%',)); ?>
+        </div>
+        <div class="row">
             <?php echo $form->error($menuModel, 'alias'); ?>
             <?php echo $form->labelEx($menuModel, 'alias'); ?>
             <?php echo $form->textField($menuModel, 'alias', array('style'=>'width:95%',)); ?>
