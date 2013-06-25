@@ -103,4 +103,30 @@ class MenuGroups extends CActiveRecord
                 }
                 return $groupsArray;
         }
+        public function afterSave() {
+            parent::afterSave();
+            $allGroupsModel = MenuGroups::model()->findAll();
+            $cssStr = '';
+            foreach($allGroupsModel as $groupModel){
+               $cssStr .='.menu_color_group_'.$groupModel->id.'{
+    background-color:#'.$groupModel->color.';
+    border-color:#'.$groupModel->color.';
+    color:#'.$groupModel->color.';
+}
+@menu_color_group_'.$groupModel->id.':#'.$groupModel->color.';
+
+.main_menu_wrapper{
+    .main_menu_second_level{
+        li.menu_color_group_'.$groupModel->id.'{
+            a:after{
+                background:#'.$groupModel->color.';
+            }    
+        }
+    }
+}    
+'; 
+            }
+            file_put_contents($_SERVER['DOCUMENT_ROOT'].'/css/menuGroups.less', $cssStr);
+            return true;
+        }
 }
