@@ -108,21 +108,21 @@ tinymce.init(tinymce.myOptions);
 <div class="form">
 <?php $form = $this->beginWidget('CActiveForm', array(
     'id'=>'productForm',
-        'enableClientValidation'=>true,
-            'clientOptions'=>array(
-                    'validateOnSubmit'=>true,
-                    'afterValidate'=>'js:function( form, data, hasError ) 
-                        {     
-                            if( hasError ){
-                                return false;
-                            }
-                            else{
-                                return true;
-                            }
-                        }'
-                )
+    'enableClientValidation'=>true,
+        'clientOptions'=>array(
+                'validateOnSubmit'=>true,
+                'afterValidate'=>'js:function( form, data, hasError ) 
+                    {     
+                        if( hasError ){
+                            return false;
+                        }
+                        else{
+                            return true;
+                        }
+                    }'
             )
-        ); 
+        )
+    ); 
 ?>
     <div class="admin_main_features">
         <div class="row">
