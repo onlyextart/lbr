@@ -1,0 +1,30 @@
+<?php
+class XbannerController extends Controller{
+    
+    
+    public function actionIndex(){
+        $menu_items = Yii::app()->params['currentMenuItem']->menuItemsContents;
+        $id = array();
+        foreach ($menu_items as $item)
+        {
+            array_push($id, $item->page_id);
+        }
+        $criteria = new CDbCriteria();
+        $criteria->together = true;
+        $criteria->with = array('bannerRegions', 'bannerImages');
+        $criteria->condition = 't.id IN ('.implode(',', $id).') AND published=1';
+        $criteria->compare('bannerRegions.filial_id', '1');
+        $criteria->compare('bannerImages.region_id', '1');
+        $dataProvider = new CActiveDataProvider('Banners', 
+                array(
+                    'criteria'=>$criteria,
+                    'pagination'=>false,
+                    'sort'=>false,
+                )
+        );
+        $this->render('index', array('data'=>$dataProvider));
+    }
+    
+}
+
+?>

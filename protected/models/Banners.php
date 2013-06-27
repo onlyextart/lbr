@@ -70,6 +70,7 @@ class Banners extends CActiveRecord
 			'bannerImages' => array(self::HAS_MANY, 'BannerImages', 'banner_id'),
 			'bannerRegions' => array(self::HAS_MANY, 'BannerRegion', 'banner_id'),
 			'makersInBanners' => array(self::HAS_MANY, 'MakersInBanner', 'banner_id'),
+                        'bannerLinks' => array(self::HAS_MANY, 'BannerLinks', 'banner_id'),
 		);
 	}
 

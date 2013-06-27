@@ -1,14 +1,39 @@
-/* -----------------------------------------------------------------------
+* body header .second.menu ul.menuStaticTop 
+{
+    padding-top: 4%;
+    padding-top:20%\0/; /* отступ только для Internet Explorer 8 */
+}
+.xbanners_container .xbanners .one_banner
+{
+    background: white;
+    box-shadow: 0px 0px 4px 1px rgb(150, 150, 150);
+    behavior: url(PIE.htc);
+}
+.btn
+{
+    -pie-background: linear-gradient(#14AEAF, #00918E);
+    behavior: url(PIE.htc);
+    background: rgb(0,140,140);
+    zoom: 1;
+}
+.xbanners_container .xbanners .first_banner .b_caption .b_makers 
+{
+    height: 30px;
+    height:auto\0/;
+}
+.xbanners_container .xbanners .second_banner_dieci .b_header h3 a, .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p, .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p
+{
+     behavior: url(PIE.htc);
+}
+.xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image, .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image
+{
+    overflow: hidden;
+    border-radius: 4px;
+    behavior: url(PIE.htc);
+}
 
-
- Blueprint CSS Framework 1.0.1
- http://blueprintcss.org
-
-   * Copyright (c) 2007-Present. See LICENSE for more info.
-   * See README for instructions on how to use Blueprint.
-   * For credits and origins, see AUTHORS.
-   * This is a compressed file. See the sources in the 'src' directory.
-
------------------------------------------------------------------------ */
-
-/* ie.css */
+/*-----------IE7-----------ONLY------*/
+.xbanners_container .xbanners .first_banner .b_header
+{
+    min-height: 50px;
+}

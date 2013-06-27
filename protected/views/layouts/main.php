@@ -15,9 +15,12 @@
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/main.js');
         ?>
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" type="text/css" href="<? echo Yii::app()->request->baseUrl;?>/css/ie.css" />
+        <!--[if IE]>
             <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
+        <![endif]-->
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/selectivizr-min.js"></script>
+            <link rel="stylesheet" type="text/css" href="<? echo Yii::app()->request->baseUrl;?>/css/ie.css" />
         <![endif]-->
 </head>
 <body>
