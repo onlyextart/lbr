@@ -78,7 +78,7 @@ class BannersController extends Controller
                                 }
                             }
                             Yii::app()->user->setFlash('saved','Баннер создан.');
-                            $this->redirect('http://lbr/administrator/banners/update/id/'.$bannerModel->id);
+                            $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
                         }
                     }
                 }
