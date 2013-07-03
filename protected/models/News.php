@@ -7,8 +7,9 @@
  * @property integer $id
  * @property string $header
  * @property string $alias
- * @property string $date
+ * @property string $created
  * @property boolean $published
+ * @property string $content
  *
  * The followings are the available model relations:
  * @property NewsRegion[] $newsRegions
@@ -41,10 +42,10 @@ class News extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('header, alias, date, published', 'safe'),
+			array('header, alias, created, published, content', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, header, alias, date, published', 'safe', 'on'=>'search'),
+			array('id, header, alias, created, published, content', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,9 +69,10 @@ class News extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'header' => 'Заголовок',
-			'alias' => 'Ссылка',
-			'date' => 'Дата',
-			'published' => 'Опубликована',
+			'alias' => 'Alias',
+			'created' => 'Дата',
+			'published' => 'Статус',
+			'content' => 'Содержание',
 		);
 	}
 
@@ -88,11 +90,19 @@ class News extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('header',$this->header,true);
 		$criteria->compare('alias',$this->alias,true);
-		$criteria->compare('date',$this->date,true);
+		$criteria->compare('created',$this->created,true);
 		$criteria->compare('published',$this->published);
+		$criteria->compare('content',$this->content,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+    public function beforeSave ()
+    {
+        if($this->isNewRecord) 
+            $this->created = time("Y-m-d H:i:s)");
+        return parent::beforeSave();
+    }
+    
 }

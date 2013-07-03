@@ -7,8 +7,7 @@ class ContactsController extends Controller
         $dataProvider = new CActiveDataProvider( 'Contacts' );
         $this->render( 'index', array( 'dataProvider'=>$dataProvider, ) );
     }
-    
-    public function actionCreateContact(){
+     public function actionCreateContact(){
         $contactModel = new Contacts();
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];
@@ -18,16 +17,19 @@ class ContactsController extends Controller
         }
         $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
-    
-    public function actionUpdate( $id ){
-        $contactModel = Contacts::model()->findByPk( $id );
-        if( isset( $_POST['Contacts'] ) ){
-            $contactModel->attributes = $_POST['Contacts'];
-            if( $contactModel->save() ){
-                $this->redirect('/administrator/contacts/index');
-            }
+
+  public function actionUpdate()
+    {
+        $contactModel = Contacts::model()->findByPk($_GET['id']);
+        if($contactModel === null){
+            $this->redirect('/administrator/contacts'); 
         }
-        $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
+        if (isset($_POST['Contacts'])){
+           $contactModel->attributes = $_POST['Contacts'];
+           $contactModel->save();
+           $this->redirect('/administrator/contacts'); 
+        }
+        $this->render('manage', array('contactModel' => $contactModel));
     }
     
     public function actionDelete( $id ){

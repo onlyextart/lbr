@@ -15,13 +15,13 @@
  * @property string $images
  */
 ?>
-<div class="form">
+<div class="form" align="center">
     <?php $form = $this->beginWidget( 'CActiveForm', array(
                 'id'=>'contect_form',
             ) 
         );
     ?>
-    <div class="row">
+    <div class="row" >
         <?php echo $form->error( $contactModel, 'name' ); ?>
         <?php echo $form->labelEx( $contactModel, 'name' ); ?>
         <?php echo $form->textField( $contactModel, 'name' ); ?>

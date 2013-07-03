@@ -86,17 +86,17 @@ class Contacts extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
+			'name' => 'Название',
 			'alias' => 'Alias',
-			'published' => 'Published',
+			'published' => 'Опубликовать',
 			'domain' => 'Domain',
-			'address' => 'Address',
-			'telephone' => 'Telephone',
-			'work_time' => 'Work Time',
+			'address' => 'Адресс',
+			'telephone' => 'Телефон',
+			'work_time' => 'Рабочее время',
 			'email' => 'Email',
 			'map_code' => 'Map Code',
-			'message_email' => 'Message Email',
-			'info' => 'Info',
+			'message_email' => 'Сообщение',
+			'info' => 'Информация',
 			'images' => 'Images',
 			'oneC_id' => 'oneC_id',
 		);
@@ -142,5 +142,16 @@ class Contacts extends CActiveRecord
                 $filialsArray[$filial->id] = $filial->name;
             }
             return $filialsArray;
+        }
+        public function getPublishedStr(){
+            if($this->published==1){
+                return 'да';
+            }
+            else{
+                return 'no';
+            }
+                   
+            
+            
         }
 }

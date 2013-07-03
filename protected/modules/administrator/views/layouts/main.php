@@ -39,5 +39,8 @@ function returnMenu($arr){
     }
     $menu .= '</ul>';
     return $menu;
-}
+  }
+
+
+
 ?>
