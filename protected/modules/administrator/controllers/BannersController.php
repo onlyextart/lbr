@@ -303,7 +303,7 @@ class BannersController extends Controller
         }
         
         public function actionTransfer(  ){
-            exit();
+            //exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
             function lower($str){return mb_strtolower($str, "UTF-8");}
@@ -382,7 +382,14 @@ class BannersController extends Controller
                                 'path'=>$menuRecordFromJlbr[path].'/'.$jlbrProductBanner[id].'-'.$jlbrProductBanner[alias]
                             );
                         }
+                        else{
+                            $jlbrBannerLink[path] = 'selskohozyaystvennaya-tehnika/type/'.str_replace('tehnika/', '', $jlbrBannerLink[path]);
+                        }
+                        if(count(explode('/', $jlbrBannerLink[path]))>=5){
+                            $jlbrBannerLink[path] = str_replace('selskohozyaystvennaya-tehnika/type/', 'tehnika/',$jlbrBannerLink[path]);
+                        }
                         
+                        var_dump($jlbrBannerLink[path]);
                         $bannerLinkModel = new BannerLinks;
                         $bannerLinkModel->banner_id = $bannerModel->id;
                         $bannerLinkModel->menu_item_id = MenuItems::getItemIdByPath($jlbrBannerLink[path]);
@@ -401,7 +408,7 @@ class BannersController extends Controller
 //                        var_dump($jlbrBanner[type]);
 //                        var_dump($jlbrBanner[region]);
                         $bannerNum++;
-//                        if($bannerNum==2){
+//                        if($bannerNum==5){
 //                            exit();
 //                        }
                     }
