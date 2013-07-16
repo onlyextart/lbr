@@ -197,7 +197,7 @@ tinymce.myOptions = {
                 foreach( $makers as $maker ):  
             ?>
                 
-            <?php if($makerNum%7==0): ?>
+            <?php if($makerNum%5==0): ?>
                 <tr>
             <?php endif; ?>
                     <td>
@@ -208,7 +208,7 @@ tinymce.myOptions = {
                             'style'=>'display:inline;', 
                             'for'=>'Makers_'.$maker->id.'_name') ); ?>
                     </td>
-            <?php if($makerNum%7==6): ?>
+            <?php if($makerNum%5==4): ?>
                 </tr>
             <?php endif; ?>
             <?php 

@@ -103,7 +103,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
-                'defaultRegionId'=>1,
+                'defaultRegionId'=>0,
                 'regionId'=>1,
                 'superGroup'=>1,
                 'menuadmin'=>array(

@@ -120,7 +120,8 @@ class Banners extends CActiveRecord
         //Принимает единственный аргумент - ID производителя
         public function hasMaker( $makerId ){
                 if( !$this->isNewRecord ){
-                    if(MakersInBanner::model()->find( 'maker_id='.$makerId.' AND banner_id='.$this->id ) !== null){
+                    $makerModel = Yii::app()->db->createCommand("select id from makers_in_banner where maker_id='".$makerId."' AND banner_id='".$this->id."'")->queryRow();
+                    if($makerModel){
                         return true;
                     }
                 }
@@ -144,7 +145,8 @@ class Banners extends CActiveRecord
         //Принимает единственный аргумент - ID пункта меню
         public function hasMenuItemLink( $menuItemId ){
                 if( !$this->isNewRecord ){
-                    if( BannerLinks::model()->find( 'banner_id='.$this->id.' AND menu_item_id='.$menuItemId ) !== null ){
+                    $link = Yii::app()->db->createCommand("select id from banner_links where menu_item_id='".$menuItemId."' AND banner_id='".$this->id."'")->queryRow();
+                    if($link){
                         return true;
                     }
                 }

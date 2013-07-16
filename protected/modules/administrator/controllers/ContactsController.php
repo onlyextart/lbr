@@ -49,6 +49,7 @@ class ContactsController extends Controller
             $regionModel->district_id = array_search($region['district'], Regions::$districts);
             $regionModel->sorting = $region['sort_id']; 
             $regionModel->published='1'; 
+            $regionModel->id=$region[id]; 
             
             $contactFromJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_contact_details where alias='".$region[domain]."'")->queryRow();
             $contactModel = Contacts::model()->find('alias=:alias', array(':alias'=>$region[domain]));
@@ -67,10 +68,13 @@ class ContactsController extends Controller
                 $contactModel->images = $contactFromJlbr[image];
                 $contactModel->oneC_id = $contactFromJlbr[suburb];
                 $contactModel->info = $contactFromJlbr[misc];
+                $contactModel->id = $contactFromJlbr[id];
+                echo('c'.$contactModel->id.'<br>');
                 $contactModel->save();
             }
             $regionModel->contact_id=$contactModel->id; 
             $regionModel->save();
+            echo('r'.$regionModel->id.'<br>');
         }
         echo 'done';
     }

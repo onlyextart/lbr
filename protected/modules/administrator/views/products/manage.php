@@ -208,7 +208,7 @@ tinymce.init(tinymce.myOptions);
                 $makerNum = 0;
                 foreach( $makers as $maker ):  
             ?>
-            <?php if($makerNum%7==0): ?>
+            <?php if($makerNum%5==0): ?>
                 <tr>
             <?php endif; ?>
                     <td>
@@ -230,7 +230,7 @@ tinymce.init(tinymce.myOptions);
                             ); 
                         ?>
                     </td>
-            <?php if($makerNum%7==6): ?>
+            <?php if($makerNum%5==4): ?>
                 </tr>
             <?php endif; ?>
             <?php 
@@ -261,10 +261,8 @@ tinymce.init(tinymce.myOptions);
                     return $status;
                 }
                 $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $productModel );
-                $roots = MenuItems::model()->roots()->findAll();
                 $this->widget('CTreeView', array(
                     'data' => MenuItems::getMenuTreeWithCheckbox(
-                            $roots, 
                             'MenuItemConteintigThisProduct', 
                             $menuItemConteintigStatusClosure,
                             array(MenuItems::PRODUCT_MENU_ITEM_TYPE)

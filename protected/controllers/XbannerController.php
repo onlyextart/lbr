@@ -13,8 +13,8 @@ class XbannerController extends Controller{
         $criteria->together = true;
         $criteria->with = array('bannerRegions', 'bannerImages');
         $criteria->condition = 't.id IN ('.implode(',', $id).') AND published=1';
-        $criteria->compare('bannerRegions.filial_id', '1');
-        $criteria->compare('bannerImages.region_id', '1');
+        $criteria->compare('bannerRegions.filial_id', '0');
+        $criteria->compare('bannerImages.region_id', '0');
         $dataProvider = new CActiveDataProvider('Banners', 
                 array(
                     'criteria'=>$criteria,
@@ -22,6 +22,8 @@ class XbannerController extends Controller{
                     'sort'=>false,
                 )
         );
+        //var_dump();
+        //exit();
         $this->render('index', array('data'=>$dataProvider));
     }
     

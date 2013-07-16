@@ -303,6 +303,7 @@ class BannersController extends Controller
         }
         
         public function actionTransfer(  ){
+            exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
             function lower($str){return mb_strtolower($str, "UTF-8");}
@@ -311,9 +312,13 @@ class BannersController extends Controller
         
             $menuRoot = MenuItems::model()->findByPk(58);
             $menuItems = $menuRoot->descendants()->findAll('type=:type', array(':type'=>MenuItems::BANNERS_MENU_ITEM_TYPE));
+            //array_unshift($menuItems, MenuItems::model()->findByPk(91));
+            $bannerNum = 0;
+            //echo(MenuItems::getItemIdByPath('selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci'));
+            //exit();
             foreach($menuItems as $menuItem){
                 $path = str_replace('/selskohozyaystvennaya-tehnika/type/', '', CategoryUrlRule::getUrl($menuItem->id));
-                $menuRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT link FROM jlbr_menu where path='tehnika/".$path."'")->queryRow();
+                $menuRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT link, path FROM jlbr_menu where path='tehnika/".$path."'")->queryRow();
                 //echo($menuRecordFromJlbr[link]);
                 preg_match('/.*catid=(\d+)/', $menuRecordFromJlbr[link], $cat_id);
                 $cat_id = $cat_id[1];
@@ -321,19 +326,89 @@ class BannersController extends Controller
                 foreach($categoryRecordFromJlbr as $category){
                     //var_dump($category);
                     $bannerRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner where published='1' AND type<>4 AND catid='".$category[id]."'")->queryAll();
-                    foreach($bannerRecordFromJlbr as $banner){
-                        var_dump($banner[name]);
-                        var_dump($banner[type]);
-                        var_dump($banner[region]);
+                    foreach($bannerRecordFromJlbr as $jlbrBanner){
+                        $bannerModel = new Banners;
+                        $bannerModel->id = $jlbrBanner[id];
+                        $bannerModel->icon = $jlbrBanner[icon];
+                        $bannerModel->type = ($jlbrBanner[view]-1);
+                        $bannerModel->published = $jlbrBanner[published];
+                        $bannerModel->save();
+                        
+                        $regionalBannerModel = new BannerRegion;
+                        $regionalBannerModel->banner_id = $bannerModel->id;
+                        $regionalBannerModel->name = $jlbrBanner[name];
+                        $regionalBannerModel->description = $jlbrBanner[caption];
+                        $regionalBannerModel->filial_id = 0;
+                        $regionalBannerModel->save();
+                        
+                        $jlbrBannerImages = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner_img where banid='".$jlbrBanner[id]."'")->queryAll(); 
+                        if(count($jlbrBannerImages)>0){
+                            foreach ($jlbrBannerImages as $jlbrBannerImage){
+                                $bannerImage = new BannerImages;
+                                $bannerImage->path = '/images/banners/'.$jlbrBannerImage[name];
+                                $bannerImage->description = $jlbrBannerImage[description];
+                                $bannerImage->region_id = 0;
+                                $bannerImage->banner_id = $bannerModel->id;
+                                $bannerImage->type = 0;
+                                
+                                $url = "http://www.lbr.ru".$jlbrBanner[image].'/'.$jlbrBannerImage[name];
+                                $Headers = @get_headers($url);
+                                if($Headers[0]=='HTTP/1.1 200 OK') {
+                                    if(!file_exists($_SERVER['DOCUMENT_ROOT'].$bannerImage->path))
+                                        copy($url, $_SERVER['DOCUMENT_ROOT'].$bannerImage->path);
+                                }
+                                else{
+                                    echo('<b>dont exist: '.$url.'</b><br>');
+                                }
+                                $bannerImage->save();
+                            }
+                        }
+                        $makers = explode(',', $jlbrBanner[logotips]);
+                        foreach($makers as $makerId){
+                            if($makerId!==''){
+                                $makerModel = new MakersInBanner;
+                                $makerModel->banner_id=$bannerModel->id;
+                                $makerModel->maker_id=$makerId;
+                                $makerModel->save();
+                            }
+                        }
+                        
+                        $jlbrBannerLink = $connectionJlbrDb->createCommand("SELECT path FROM jlbr_menu where `path`='".$jlbrBanner[link_cat]."' OR `link`='".$jlbrBanner[link_cat]."'")->queryRow(); 
+                        if($jlbrBannerLink===false){
+                            preg_match('/.*id=(\d+)/', $jlbrBanner[link_cat], $jlbrProductId);
+                            $jlbrProductId = $jlbrProductId[1];
+                            $jlbrProductBanner = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner where `id`='".$jlbrProductId."'")->queryRow(); 
+                            $jlbrBannerLink = array(
+                                'path'=>$menuRecordFromJlbr[path].'/'.$jlbrProductBanner[id].'-'.$jlbrProductBanner[alias]
+                            );
+                        }
+                        
+                        $bannerLinkModel = new BannerLinks;
+                        $bannerLinkModel->banner_id = $bannerModel->id;
+                        $bannerLinkModel->menu_item_id = MenuItems::getItemIdByPath($jlbrBannerLink[path]);
+                        $bannerLinkModel->save();
+                        
+                        $menuItemContentModel = new MenuItemsContent;
+                        $menuItemContentModel->item_id = $menuItem->id;
+                        $menuItemContentModel->page_id = $bannerModel->id;
+                        $menuItemContentModel->save();
+                        
+                        
+//                        var_dump($jlbrBannerLink);
+//                        var_dump('menuItemId='.MenuItems::getItemIdByPath($jlbrBannerLink[path]));
+//                        var_dump($jlbrBanner[id]);
+//                        var_dump($jlbrBanner[name]);
+//                        var_dump($jlbrBanner[type]);
+//                        var_dump($jlbrBanner[region]);
+                        $bannerNum++;
+//                        if($bannerNum==2){
+//                            exit();
+//                        }
                     }
                 }
-                var_dump($categoryRecordFromJlbr);
-                echo "cat_id:  $cat_id<br>";
-                echo "path:  $path<br>";
-                echo "-----------------------------------------------------<br>";
-                
             }
-            //var_dump(count($menuItems));
+            echo($bannerNum);
+            echo('done');
         }
         
 }
