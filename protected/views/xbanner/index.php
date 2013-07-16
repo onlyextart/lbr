@@ -1,4 +1,5 @@
 <?php
+    Yii::app()->clientScript->registerScriptFile('/js/site/banners.js');
     switch (Yii::app()->params['currentMenuItem']->level)
     {
         case '1':

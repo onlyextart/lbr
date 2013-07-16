@@ -136,4 +136,11 @@ class BannerImages extends CActiveRecord
             $types[BannerImages::TIMETOBUY_IMAGE_TYPE] = 'Время покупать';
             return $types;
         }
+            
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.sorting ASC'
+                );
+        }
 }

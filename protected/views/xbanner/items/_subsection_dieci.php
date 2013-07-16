@@ -29,10 +29,13 @@ $link = CategoryUrlRule::getUrl($link_id['id']);
     <div class="b_images">
         <div class="b_images_overflow">
             <div class="b_images_conteiner">
-                <? foreach ($data->bannerImages as $image){ ?>
+                <? foreach ($data->bannerImages as $indx=>$image){ ?>
                     <section class="b_images_one_image">
-                        <img src="<? echo $image->path; ?>" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
-                            <? if($image->type=='1'){?>
+                        <? if ($indx==0){?>
+                        <img src="<? echo $image->path; ?>" data-src="<? echo $image->path; ?>" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
+                        <? }else{?>
+                        <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
+                            <?} if($image->type=='1'){?>
                                 <div class="b_images_one_image_caption"></div>
                             <? }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>

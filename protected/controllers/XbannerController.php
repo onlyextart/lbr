@@ -27,6 +27,17 @@ class XbannerController extends Controller{
         $this->render('index', array('data'=>$dataProvider));
     }
     
+    public function actionAjaxMaker($id){
+        if ($id)
+        {
+            $data = Makers::model()->findByPk($id, 'published=1');
+            if ($data)
+            {
+                $this->renderPartial('ajaxMaker', array('data'=>$data));
+            }
+        }
+    }
+    
 }
 
 ?>

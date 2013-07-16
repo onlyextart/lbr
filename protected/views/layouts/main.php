@@ -1,10 +1,14 @@
 <?php /* @var $this Controller */ 
-//$less = new lessc;
-//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+$less = new lessc;
+$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 <!DOCTYPE html >
 <html>
 <head>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
         <?php
