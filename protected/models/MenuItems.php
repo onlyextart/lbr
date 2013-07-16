@@ -155,94 +155,114 @@ class MenuItems extends CActiveRecord
             );
         }
         
-        /*Метод для создания дерева меню. Принимает массив соделей корневых узлов.
+        
+        /*
+         * Метод для создания дерева меню.
          */
-        static function getMenuTree( $roots ){
-            $levelArray = array();
-            foreach( $roots as $i=>$menuItem ){
-                $newItemArray = array();
-                $newItemArray['id'] = $menuItem->id;
-                $menuItem->level == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
-                $newItemArray['text'] = CHtml::link( 
-                    (mb_strlen($menuItem->name, 'UTF-8')>20)?mb_substr($menuItem->name,0,20, 'UTF-8')."...":$menuItem->name, 
-                    $linkUrl.'/id/'.$menuItem->id.'/ajax/true', 
-                    array ( 'class'=>'menuTreeViewLink', 
-                            'onclick'=>'menuTreeView.showForm(this); return false;' )
-                ).CHtml::link( 
-                    '<img src="/images/deleteIcon.png" style="height:16px; float: right;">', 
-                    '/administrator/menu/deleteMenuItem/id/'.$menuItem->id.'/ajax/true', 
-                    array ( 
-                        'class'=>'menuTreeViewLink', 
-                        'onclick'=>'if(confirm("Внимание! Пункт меню будет удален вместе со всеми дочерними пунктами. Продолжить?")){menuTreeView.deleteItem(this); return false;}else{return false;}',
-                        'title'=>'Удалить пункт меню',
-                    )
-                ).CHtml::link( 
-                    '<img src="/images/arrowUpIcon.png" style="height:16px; float: right;">', 
-                    '/administrator/menu/sortItemUp/id/'.$menuItem->id.'/ajax/true', 
-                    array ( 
-                        'class'=>'menuTreeViewLink',
-                        'onclick'=>'menuTreeView.sortItem( this ); return false;',
-                        'title'=>'Вверх',
-                    )
-                ).CHtml::link( 
-                    '<img src="/images/arrowDownIcon.png" style="height:16px; float: right;">', 
-                    '/administrator/menu/sortItemDown/id/'.$menuItem->id.'/ajax/true', 
-                    array ( 
-                        'class'=>'menuTreeViewLink',
-                        'onclick'=>'menuTreeView.sortItem( this ); return false;',
-                        'title'=>'Вниз',
-                    )
-                ).CHtml::link( 
-                    ($menuItem->published == 1)?'<img src="/images/publishedIcon.png" style="height:16px; float: right;">':'<img src="/images/unpublishedIcon.png" style="height:16px; float: right;">', 
-                    '/administrator/menu/changePublishing/id/'.$menuItem->id.'/ajax/true', 
-                    array ( 
-                        'class'=>'menuTreeViewLink',
-                        'onclick'=>'menuTreeView.changePublishing( this ); return false;',
-                        'title'=>($menuItem->published == 1)?'Опубликована. Снять с публикации.':'Не опубликована. Опубликовать.',
-                    )
-                );
-                $newItemArray['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $menuItem->id, $_REQUEST['OpenItems'] ) )?true:false;
-                $menuChildrens = $menuItem->children()->findAll();
-                if( count($menuChildrens) !== 0 ){
-                    $newItemArray['children'] = self::getMenuTree( $menuChildrens );
-                }
-                $newItemArray['children'][] = array(
-                    'id'=>'addMenuItem',
-                    'text' => CHtml::link( 
-                            '<img src="/images/addIcon.png" style="height:16px;">', 
-                            '/administrator/menu/createMenuItem/rootId/'.$menuItem->id.'/ajax/true', 
-                            array ( 
-                                'class'=>'menuTreeViewLink',
-                                'onclick'=>'menuTreeView.showForm(this); return false;',
-                                'title'=>'Создать новый пункт меню',
-                            )
-                        ),
-                    'expanded' => false,
-                );
-                $levelArray[] = $newItemArray;
-            }
-            return $levelArray;
+        static function getMenuTree(){
+            $categories = Yii::app()->db->createCommand('SELECT id,level,name,published FROM menu_items ORDER BY lft')->queryAll();
+            return(self::toHierarchy($categories, 'getMenuManageRow'));
         }
         
-        static function getMenuTreeWithCheckbox( $roots, $checkBoxNameAttr='MenuItem', $checkStatus = null, $activeItemType=array() ){
-            $levelArray = array();
-            foreach( $roots as $i=>$menuItem ){
-                $newItemArray = array();
-                $newItemArray['id'] = $menuItem->id;
-                $newItemArray['text'] = $menuItem->name.CHtml::checkBox( 
-                    $checkBoxNameAttr."[$menuItem->id]",
-                    $checkStatus( $menuItem->id ),
-                    array('class'=>'menuItemCheckBox', in_array( $menuItem->type, $activeItemType )?'':'disabled'=>'disabled')
-                        
-                );
-                $newItemArray['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $menuItem->id, $_REQUEST['OpenItems'] ) )?true:false;
-                $menuChildrens = $menuItem->children()->findAll();
-                if( count($menuChildrens) !== 0 ){
-                    $newItemArray['children'] = self::getMenuTreeWithCheckbox( $menuChildrens, $checkBoxNameAttr, $checkStatus, $activeItemType );
+        static function getMenuTreeWithCheckbox( $checkBoxNameAttr='MenuItem', $checkStatus = null, $activeItemType=array() ){
+            $categories = Yii::app()->db->createCommand('SELECT id,level,name,published,type FROM menu_items ORDER BY lft')->queryAll();
+            return(self::toHierarchy($categories, 'getMenuRowWithCheckBox', $checkBoxNameAttr, $checkStatus, $activeItemType));
+        }
+        
+        private static function getMenuRowWithCheckBox($item, $checkBoxNameAttr, $checkStatus, $activeItemType){
+            $rowHtml=$item[name].CHtml::checkBox( 
+                $checkBoxNameAttr."[$item[id]]",
+                $checkStatus( $item[id] ),
+                array('class'=>'menuItemCheckBox', in_array( $item[type], $activeItemType )?'':'disabled'=>'disabled')
+            );
+            return $rowHtml;
+        }
+        
+        private static function getMenuManageRow($item){
+            $item[level] == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
+            $rowHtml = CHtml::link( 
+                (mb_strlen($item[name], 'UTF-8')>20)?mb_substr($item[name],0,20, 'UTF-8')."...":$item[name], 
+                $linkUrl.'/id/'.$item[id].'/ajax/true', 
+                array ( 'class'=>'menuTreeViewLink', 
+                        'onclick'=>'menuTreeView.showForm(this); return false;',
+                        'title'=>$item[name],
+                )
+            ).CHtml::link( 
+                '<img src="/images/deleteIcon.png" style="height:16px; float: right;">', 
+                '/administrator/menu/deleteMenuItem/id/'.$item[id].'/ajax/true', 
+                array ( 
+                    'class'=>'menuTreeViewLink', 
+                    'onclick'=>'if(confirm("Внимание! Пункт меню будет удален вместе со всеми дочерними пунктами. Продолжить?")){menuTreeView.deleteItem(this); return false;}else{return false;}',
+                    'title'=>'Удалить пункт меню',
+                )
+            ).CHtml::link( 
+                '<img src="/images/arrowUpIcon.png" style="height:16px; float: right;">', 
+                '/administrator/menu/sortItemUp/id/'.$item[id].'/ajax/true', 
+                array ( 
+                    'class'=>'menuTreeViewLink',
+                    'onclick'=>'menuTreeView.sortItem( this ); return false;',
+                    'title'=>'Вверх',
+                )
+            ).CHtml::link( 
+                '<img src="/images/arrowDownIcon.png" style="height:16px; float: right;">', 
+                '/administrator/menu/sortItemDown/id/'.$item[id].'/ajax/true', 
+                array ( 
+                    'class'=>'menuTreeViewLink',
+                    'onclick'=>'menuTreeView.sortItem( this ); return false;',
+                    'title'=>'Вниз',
+                )
+            ).CHtml::link( 
+                ($item[published] == 1)?'<img src="/images/publishedIcon.png" style="height:16px; float: right;">':'<img src="/images/unpublishedIcon.png" style="height:16px; float: right;">', 
+                '/administrator/menu/changePublishing/id/'.$item[id].'/ajax/true', 
+                array ( 
+                    'class'=>'menuTreeViewLink',
+                    'onclick'=>'menuTreeView.changePublishing( this ); return false;',
+                    'title'=>($item[published] == 1)?'Опубликована. Снять с публикации.':'Не опубликована. Опубликовать.',
+                )
+            );
+            return $rowHtml;
+        }
+        
+        private static function toHierarchy($collection, $rowBuildFunction, $checkBoxNameAttr=null, $checkStatus=null, $activeItemType=null)
+        {
+            // Trees mapped
+            $trees = array();
+            $l = 0;
+
+            if (count($collection) > 0) {
+                // Node Stack. Used to help building the hierarchy
+                $stack = array();
+                foreach ($collection as $node) {
+                    $item = $node;
+                    $item['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $node[id], $_REQUEST['OpenItems'] ) )?true:false;
+                    eval('$item[text]=self::'.$rowBuildFunction.'($item, $checkBoxNameAttr, $checkStatus, $activeItemType);');
+                    $item['children'] = array();
+                    
+                    // Number of stack items
+                    $l = count($stack);
+
+                    // Check if we're dealing with different levels
+                    while($l > 0 && $stack[$l - 1]['level'] >= $item['level']) {
+                            array_pop($stack);
+                            $l--;
+                    }
+
+                    // Stack is empty (we are inspecting the root)
+                    if ($l == 0) {
+                            // Assigning the root node
+                            $i = count($trees);
+                            $trees[$i] = $item;
+                            $stack[] = & $trees[$i];
+                    } else {
+                            // Add node to parent
+                            $i = count($stack[$l - 1]['children']);
+                            $stack[$l - 1]['children'][$i] = $item;
+                            $stack[] = & $stack[$l - 1]['children'][$i];
+                    }
                 }
-                $levelArray[] = $newItemArray;
             }
-            return $levelArray;
+
+            return $trees;
         }
         
         public function getItemContent(){

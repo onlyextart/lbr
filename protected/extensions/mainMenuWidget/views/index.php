@@ -22,7 +22,7 @@
     <div class="main_menu_second_level">
         <ul>
             <?php 
-            foreach( $this->secondLevelItems as $secondLevelItem){
+            foreach( $this->secondLevelItems as $itemNum => $secondLevelItem){
                 $colorCssClass='menu_color_group_'.$secondLevelItem->group->id;
                 echo CHtml::openTag('li', array(
                     'class'=>( isset($this->menuBranch[3]) && $this->menuBranch[3]->id==$secondLevelItem->id )?
@@ -35,12 +35,21 @@
                                 'href'=>CategoryUrlRule::getUrl($secondLevelItem->id),
                             )
                     );
-                        
                         echo CHtml::image($secondLevelItem->icon, $secondLevelItem->name);
                         echo CHtml::openTag('span');
                             echo $secondLevelItem->name; 
                         echo CHtml::closeTag('span');
                     echo CHtml::closeTag('a');
+                    $itemsInGroup=1;
+                    $nextItem = $this->secondLevelItems[($itemNum+$itemsInGroup)];
+                    while( $secondLevelItem->group->id==$nextItem->group->id){
+                        $itemsInGroup++;
+                        $nextItem = $this->secondLevelItems[($itemNum+$itemsInGroup)];
+                    }
+                    if($itemsInGroup>1 && $secondLevelItem->group->id!==$this->secondLevelItems[($itemNum-1)]->group->id){
+                        echo('<span class="menu_group_name" style="width:'.($itemsInGroup*125).'px;">'.$secondLevelItem->group->name.'</span>');
+                        
+                    }
                 echo CHtml::closeTag('li');
             }
             ?>
@@ -75,7 +84,6 @@
                     echo CHtml::closeTag('li');
                 }
             ?>
-            
         </ul>
     </div>
     <?php endif; ?>

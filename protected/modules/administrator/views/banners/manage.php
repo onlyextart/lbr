@@ -229,10 +229,8 @@ tinymce.myOptions = {
                     return $status;
                 }
                 $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure($bannerModel);
-                $roots = MenuItems::model()->roots()->findAll();
                 $this->widget('CTreeView', array(
                     'data' => MenuItems::getMenuTreeWithCheckbox(
-                            $roots, 
                             'MenuItemConteintigThisBanner', 
                             $menuItemConteintigStatusClosure,
                             array(MenuItems::BANNERS_MENU_ITEM_TYPE)
@@ -259,7 +257,6 @@ tinymce.myOptions = {
                 $bannerLinkClosure = getBannerLinkClosure($bannerModel);
                 $this->widget('CTreeView', array(
                     'data' => MenuItems::getMenuTreeWithCheckbox(
-                            $roots, 
                             'BannerLinkMenuItems', 
                             $bannerLinkClosure,
                             array(MenuItems::BANNERS_MENU_ITEM_TYPE, MenuItems::PRODUCT_MENU_ITEM_TYPE)

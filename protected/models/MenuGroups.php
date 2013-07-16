@@ -103,6 +103,7 @@ class MenuGroups extends CActiveRecord
                 }
                 return $groupsArray;
         }
+        
         public function afterSave() {
             parent::afterSave();
             $allGroupsModel = MenuGroups::model()->findAll();

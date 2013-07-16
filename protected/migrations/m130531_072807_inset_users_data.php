@@ -67,7 +67,6 @@ class m130531_072807_inset_users_data extends CDbMigration
                 $this->execute("insert into [AuthAssignment] values('usersReader', '1', null, 'N;');");
                 $this->execute("insert into [AuthAssignment] values('usersEditor', '1', null, 'N;');");
                 $transaction->commit();
-                 $transaction->commit();
             }
             catch(Exception $e)
             {

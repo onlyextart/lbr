@@ -26,7 +26,13 @@
 <h2 class="col ">Менеджер меню</h2>
 <div class="menuTreeViewWrapper">
     <?php
-    $this->widget('CTreeView', array('data' => $menuTreeArray, 'animated'=>100, 'htmlOptions'=>array('class'=>'menuTreeView')));
+    $this->widget('CTreeView', 
+        array(
+            'data' => $menuTreeArray, 
+            'animated'=>100, 
+            'htmlOptions'=>array('class'=>'menuTreeView'),
+        )
+    );
     ?>
     <a href="/administrator/menu/createMenu">
         <button class="btn">Добавить новое меню</button> 

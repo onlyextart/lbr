@@ -17,6 +17,7 @@
  * @property string $message_email
  * @property string $info
  * @property string $images
+ * @property varchar(5) $oneC_id
  *
  * The followings are the available model relations:
  * @property BannerRegion[] $bannerRegions
@@ -55,10 +56,10 @@ class Contacts extends CActiveRecord
 		return array(
 			array('published', 'numerical', 'integerOnly'=>true),
 			array('email, message_email', 'email'),
-			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images', 'safe'),
+			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images', 'safe', 'on'=>'search'),
+			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, soneC_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -97,6 +98,7 @@ class Contacts extends CActiveRecord
 			'message_email' => 'Message Email',
 			'info' => 'Info',
 			'images' => 'Images',
+			'oneC_id' => 'oneC_id',
 		);
 	}
 
@@ -124,6 +126,7 @@ class Contacts extends CActiveRecord
 		$criteria->compare('message_email',$this->message_email,true);
 		$criteria->compare('info',$this->info,true);
 		$criteria->compare('images',$this->images,true);
+		$criteria->compare('oneC_id',$this->oneC_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

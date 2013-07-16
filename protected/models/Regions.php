@@ -17,7 +17,19 @@
  */
 class Regions extends CActiveRecord
 {
-	/**
+	
+        public static $districts = array(
+            '0'=>'Центральный федеральный округ',
+            '1'=>'Приволжский федеральный округ',
+            '2'=>'Южный федеральный округ',
+            '3'=>'Северо-Кавказский федеральный округ',
+            '4'=>'Дальневосточный федеральный округ',
+            '5'=>'Уральский федеральный округ',
+            '6'=>'Сибирский федеральный округ',
+            '7'=>'Северо-Западный федеральный округ',
+        );
+    
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Regions the static model class

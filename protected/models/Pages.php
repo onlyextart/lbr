@@ -122,4 +122,13 @@ class Pages extends CActiveRecord
                 }
                 return false;
         }
+        
+        public function scopes()
+        {
+            return array(
+                'published'=>array(
+                    'condition'=>'published=1',
+                ),
+            );
+        }
 }

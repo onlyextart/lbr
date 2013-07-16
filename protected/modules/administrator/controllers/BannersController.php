@@ -302,4 +302,38 @@ class BannersController extends Controller
             }
         }
         
+        public function actionTransfer(  ){
+            $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
+            $connectionJlbrDb->active=true;
+            function lower($str){return mb_strtolower($str, "UTF-8");}
+            Yii::app()->db->getPdoInstance()->sqliteCreateFunction('lower', 'lower', 1);
+            //$productRecordFromJlbr = $connectionJlbrDb->createCommand('SELECT seo_description, seo_title FROM jlbr_xbaner where id='.$productId)->queryRow();
+        
+            $menuRoot = MenuItems::model()->findByPk(58);
+            $menuItems = $menuRoot->descendants()->findAll('type=:type', array(':type'=>MenuItems::BANNERS_MENU_ITEM_TYPE));
+            foreach($menuItems as $menuItem){
+                $path = str_replace('/selskohozyaystvennaya-tehnika/type/', '', CategoryUrlRule::getUrl($menuItem->id));
+                $menuRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT link FROM jlbr_menu where path='tehnika/".$path."'")->queryRow();
+                //echo($menuRecordFromJlbr[link]);
+                preg_match('/.*catid=(\d+)/', $menuRecordFromJlbr[link], $cat_id);
+                $cat_id = $cat_id[1];
+                $categoryRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT id, parent_id FROM jlbr_categories where parent_id='".$cat_id."' AND published='1'")->queryAll();
+                foreach($categoryRecordFromJlbr as $category){
+                    //var_dump($category);
+                    $bannerRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner where published='1' AND type<>4 AND catid='".$category[id]."'")->queryAll();
+                    foreach($bannerRecordFromJlbr as $banner){
+                        var_dump($banner[name]);
+                        var_dump($banner[type]);
+                        var_dump($banner[region]);
+                    }
+                }
+                var_dump($categoryRecordFromJlbr);
+                echo "cat_id:  $cat_id<br>";
+                echo "path:  $path<br>";
+                echo "-----------------------------------------------------<br>";
+                
+            }
+            //var_dump(count($menuItems));
+        }
+        
 }
