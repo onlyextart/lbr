@@ -7,12 +7,14 @@ class XbannerController extends Controller{
         $id = array();
         foreach ($menu_items as $item)
         {
-            array_push($id, $item->page_id);
+            $id[] = $item->page_id;
         }
         $criteria = new CDbCriteria();
         $criteria->together = true;
         $criteria->with = array('bannerRegions', 'bannerImages');
-        $criteria->condition = 't.id IN ('.implode(',', $id).') AND published=1';
+        $criteria->condition = 't.id IN ('.implode(',', $id).') AND t.published=1';
+        $criteria->join = 'LEFT JOIN menu_items_content ON menu_items_content.page_id=t.id';
+        $criteria->order = 'menu_items_content.sorting ASC';
         $criteria->compare('bannerRegions.filial_id', '0');
         $criteria->compare('bannerImages.region_id', '0');
         $dataProvider = new CActiveDataProvider('Banners', 
@@ -22,8 +24,6 @@ class XbannerController extends Controller{
                     'sort'=>false,
                 )
         );
-        //var_dump();
-        //exit();
         $this->render('index', array('data'=>$dataProvider));
     }
     

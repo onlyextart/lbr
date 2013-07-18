@@ -222,6 +222,12 @@ header:after{
     #content
     {
         margin: 1em 0 2em;
+        h1{
+            color: rgb(15, 151, 151);
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
         .form
         {
             form
@@ -277,6 +283,183 @@ header:after{
                     }
                 }
             }
+        }
+        // Product page
+        .product_content
+        {
+            position:relative;
+            .reset();
+            background: none repeat scroll 0% 0% rgb(255, 255, 255);
+            ul.product_tab_button
+            {
+                oveflow: hidden;
+                .rounded(3px 3px 0 0);
+                .reset;
+                display: block;
+                list-style: none;
+                width: 100%;
+                background: #E6E6E6;
+                li
+                {
+                   float: left;
+                   line-height: 2em;
+                   font-size: 1.2em;
+                   font-weight: bold;
+                   padding: 0 1em;
+                   cursor: default;
+                   position: relative;
+                }
+                li:hover, li.active_tab
+                {
+                    background: #00917C;
+                    color: white;
+                }
+                li:first-child
+                {
+                    .rounded(3px 0 0 0);
+                }
+                li:before
+                {
+                    content: '';
+                    display: block;
+                    border-left: 1px grey dotted;
+                    width: 1px;
+                    height: 16px;
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                }
+                li:first-child:before
+                {
+                    border-left: 0;
+                }
+            }
+            ul.product_tab_button:after
+            {
+                .clr;
+            }
+            div
+            {
+                .reset(1em);
+                display: none;
+                div.review_photo
+                {
+                    display: block;
+                    width: 50%;
+                    float: left;
+                    .reset;
+                    height: 300px;
+                    position: relative;
+                    overflow: hidden;
+                    img
+                    {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .time_to_buy_top_left, .time_to_buy_bottom_right, .time_to_buy_top_right, .time_to_buy_bottom_left
+                    {
+                        position: absolute;
+                        height: auto;
+                        width: auto;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    .time_to_buy_top_left, .time_to_buy_bottom_right
+                    {
+                        top: 2em;
+                        left: 0;
+                        color: rgb(255, 255, 255);
+                        padding: 0px 5px;
+                        background: rgb(241, 128, 36);
+                    }
+                    .time_to_buy_top_right
+                    {
+                        top: 2em;
+                        right: .4em;
+                        max-width: 170px;
+                    }
+                    .time_to_buy_bottom_right
+                    {
+                        bottom: 1em;
+                        right: 0;
+                    }
+                    .time_to_buy_bottom_left
+                    {
+                        bottom: 1em;
+                        left: .4em;
+                        max-width: 110px;
+                    }
+
+                }
+                div.review_video
+                {
+                    display: block;
+                    width: 49%;
+                    float: right;
+                    .reset;
+                    text-align: right;
+                }
+
+            }
+            div:after
+            {
+                .clr;
+            }
+            div.active_tab
+            {
+                display: block;
+            }
+            div#features_content
+            {
+                table
+                {
+                    border-collapse: collapse;
+                    border: 0;
+                    width: 100%;
+                    thead
+                    {
+                        tr
+                        {
+                            background: #E6E6E6;
+                            td
+                            {
+                                font-weight: bold;
+                                font-size: 1.1em;
+                            }
+                        }
+                    }
+                    tr:nth-child(even) {
+                        background: white; /* Цвет фона */
+                    } 
+                    tr:nth-child(odd) {
+                        background: #F8F7F2; /* Цвет фона */
+                    } 
+                    td
+                    {
+                        padding: 4px 7px;
+                        border-color: rgb(200, 200, 200);
+                        p{.reset;}
+                    }
+                }
+            }
+        }
+        .product_content:after, .product_content:before
+        {
+            content:"";
+            display: block;
+            position: absolute;
+            z-index: -2;
+        }
+        .product_content:before {
+            top:10px;
+            bottom:10px;
+            left:0;
+            right:0;
+            -webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+            -moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+            box-shadow:0 0 10px rgba(0,0,0,0.5);
+            -moz-border-radius:10px / 100px;
+            border-radius:10px / 100px;
         }
     }
     .search
@@ -394,6 +577,30 @@ header:after{
             }
         }
     }
+    .bottom-text
+    {
+        h1, h2, h3, h4, h5, h6
+        {
+            font-size: 1em;
+        }
+        margin-bottom: 20px;
+        div *
+        {
+            display: none;
+        }
+        div :first-child
+        {
+            display: block;
+        }
+        .bottom-more
+        {
+            display: block;
+            text-align: right;
+            color: rgb(0, 136, 115);
+            text-decoration: underline;
+            cursor: default;
+        }
+    }
 }
 
 /*----banners-style-----*/
@@ -405,7 +612,7 @@ header:after{
         .reset;
         .one_banner
         {
-            .reset;
+            .reset(0 0 20px);
             .box-shadow;
             .rounded;
             .b_header
@@ -449,6 +656,8 @@ header:after{
                             float: left;
                             img
                             {
+                                width: 100%;
+                                height: 100%;
                                 display: block;
                             }
                             .b_images_one_image_caption
@@ -506,16 +715,25 @@ header:after{
         .first_banner
         {
             width: 480px;
+            height: 440px;
             float: left;
             .b_header
             {
+                height: 55px;
+                overflow: hidden;
+                img
+                {
+                    max-width: 86px;
+                    .reset(7px);
+                    height: 40px;
+                }
                 h3
                 {
                     margin-left: 2em;
                     a
                     {
                         font-size: 18px;
-                        padding-top: 6px;
+                        padding-top: 3px;
                         height: 45px;
                         vertical-align: middle;
                         display: table-cell;
@@ -524,6 +742,7 @@ header:after{
             }
             .b_images
             {
+                height: 250px;
                 .b_images_overflow
                 {
                     .b_images_conteiner
@@ -534,7 +753,6 @@ header:after{
                             height: 250px;
                             img
                             {
-                                
                             }
                             .b_images_one_image_caption
                             {
@@ -558,7 +776,7 @@ header:after{
             {
                 position: relative;
                 .reset(0, 0 1em 1em);
-                min-height: 100px;
+                height: 135px;
                 .b_makers
                 {
                     border-bottom: 1px solid rgb(15, 151, 151);
@@ -588,7 +806,7 @@ header:after{
                 {
                     float: right;
                     position: absolute;
-                    bottom: 1em;
+                    bottom: 2.8em;
                     right: 1em;
                 }
             }
@@ -600,7 +818,7 @@ header:after{
         }
         .third_banner, .second_banner_custrom
         {
-            .reset(0, 1em);
+            .reset(0 0 20px, 1em);
             position: relative;
             .b_header
             {
@@ -623,7 +841,7 @@ header:after{
                     .b_one_maker
                     {
                         float: right;
-                        .reset;
+                        .reset(0 .5em 0 0);
                         img
                         {
                             height: 26px;
@@ -633,7 +851,7 @@ header:after{
             }
             .b_images
             {
-                width: 45%;
+                width: 430px;
                 float: left;
                 .b_images_overflow
                 {
@@ -641,6 +859,8 @@ header:after{
                     {
                         section.b_images_one_image
                         {
+                            width: 430px;
+                            height: 270px;
                             .rounded;
                             overflow: hidden;
                             img
@@ -713,7 +933,7 @@ header:after{
         .second_banner_large, .second_banner_dieci
         {
             width: 900px;
-            .reset(0px auto 2em);
+            .reset(0px auto 20px);
             .b_header
             {
                 img
@@ -859,6 +1079,9 @@ footer
     padding:0 1em;
     .makerContent
     {
+        img{
+            max-width: 100%;
+        }
         min-height: 100%;
         overflow: auto;
         height: 100%;

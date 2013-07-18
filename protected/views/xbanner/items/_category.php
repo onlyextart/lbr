@@ -1,4 +1,5 @@
 <?
+
 $link = CategoryUrlRule::getUrl($data->bannerLinks[0]->menu_item_id);
 
 $array_maker_id = array();

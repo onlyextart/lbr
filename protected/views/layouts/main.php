@@ -5,19 +5,26 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
 <!DOCTYPE html >
 <html>
 <head>
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="format-detection" content="telephone=no">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <meta content="all" name="robots">
+        <meta content="dynamic" name="document-state">
+        <meta content="2 days" name="revisit-after">
+        <meta content="Global" name="distribution">
+        <meta http-equiv="pragma" content="no-cache">
+        <?php if(Yii::app()->params['currentMenuItem']->meta_keywords){ ?>
+            <meta name="keywords" content="<?php echo Yii::app()->params['currentMenuItem']->meta_keywords; ?>">
+        <? } ?>
+        <meta name="description" content="<?php echo Yii::app()->params['currentMenuItem']->meta_description; ?>">
+	<title><?php echo Yii::app()->params['currentMenuItem']->meta_title; ?></title>
+        
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
         Yii::app()->clientScript->registerCssFile('/css/main.css');
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
-        Yii::app()->clientScript->registerScriptFile('/js/main.js');
+        Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
@@ -97,6 +104,12 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
     <div class="wrapper">
         <?php $this->widget('ext.mainMenuWidget.MainMenuWidget'); ?>
         <?php echo $content; ?>
+        <? if (Yii::app()->params['currentMenuItem']->seo_text){?>
+        <div class="bottom-text">
+            <div><? echo Yii::app()->params['currentMenuItem']->seo_text;?></div>
+            <span class="bottom-more">Подробнее...</span>
+        </div>
+        <?}?>
     </div>
     <footer>
         <div class="f-left">
