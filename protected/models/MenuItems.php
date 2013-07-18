@@ -20,6 +20,7 @@
  * @property integer $level
  * @property integer $root
  * @property integer $header
+ * @property string $path
  *
  * The followings are the available model relations:
  * @property MenuGroups $group
@@ -63,10 +64,10 @@ class MenuItems extends CActiveRecord
 			array('lft, rt, published, group_id, level, root', 'numerical', 'integerOnly'=>true),
 			array('type', 'numerical', 'integerOnly'=>true, 'message'=>'Тип должен быть выбран'),
 			array('group_id, alias, name', 'required'),
-			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text, header', 'safe'),
+			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text, header, path', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root, header', 'safe', 'on'=>'search'),
+			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root, header, path', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -105,6 +106,7 @@ class MenuItems extends CActiveRecord
 			'level' => 'Level',
 			'root' => 'Root',
 			'header' => 'Заголовок',
+			'path' => 'Путь',
 		);
 	}
 
@@ -135,6 +137,7 @@ class MenuItems extends CActiveRecord
 		$criteria->compare('level',$this->level);
 		$criteria->compare('root',$this->root);
 		$criteria->compare('header',$this->header);
+		$criteria->compare('path',$this->path);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -155,6 +158,19 @@ class MenuItems extends CActiveRecord
             );
         }
         
+        protected function afterSave(){
+            parent::afterSave();
+            if($this->path != CategoryUrlRule::getUrl($this->id, true)){
+                $model = self::model()->findByPk($this->id);
+                $model->path=CategoryUrlRule::getUrl($model->id, true);
+                $model->saveNode(false);
+                $childrens=$model->children()->findAll();
+                foreach($childrens as $children){
+                    $children->saveNode(false);
+                }        
+            }
+            return true;
+        }
         
         /*
          * Метод для создания дерева меню.
@@ -273,6 +289,7 @@ class MenuItems extends CActiveRecord
             );
             $dataProvider = new CActiveDataProvider('MenuItemsContent', array(
                 'criteria'=>$criteria,
+                'pagination'=>false
             ));
             if( $this->type == self::BANNERS_MENU_ITEM_TYPE ){
                 $gridId = rand();

@@ -10,7 +10,7 @@
                 ));
                 echo CHtml::link(
                         $firstLevelItem->name, 
-                        CategoryUrlRule::getUrl($firstLevelItem->id),
+                        $firstLevelItem->path,
                         array('class'=>$colorCssClass)
                 );
                 echo CHtml::closeTag('li');
@@ -32,7 +32,7 @@
                             'a',
                             array(
                                 'class'=>$colorCssClass,
-                                'href'=>CategoryUrlRule::getUrl($secondLevelItem->id),
+                                'href'=>$secondLevelItem->path,
                             )
                     );
                         echo CHtml::image($secondLevelItem->icon, $secondLevelItem->name);
@@ -60,7 +60,7 @@
     <?php if( !empty($this->thirdLevelItems) ): ?>
     <div class="main_menu_third_level">
         <div class="main_menu_third_level_icon">
-            <a class="<?php echo 'menu_color_group_'.$this->menuBranch[3]->group->id ?>" href="<?php echo CategoryUrlRule::getUrl($this->menuBranch[3]->id) ?>">
+            <a class="<?php echo 'menu_color_group_'.$this->menuBranch[3]->group->id ?>" href="<?php echo $this->menuBranch[3]->path ?>">
                 <img src="<?php echo $this->menuBranch[3]->icon ?>" >
             </a>
         </div>
@@ -74,7 +74,7 @@
                     ));
                     echo CHtml::link(
                             $thirdLevelItem->name, 
-                            CategoryUrlRule::getUrl($thirdLevelItem->id),
+                            $thirdLevelItem->path,
                             array(
                                 'class'=>$colorCssClass,
                                 'style'=>( $this->menuBranch[4]->id==$thirdLevelItem->id )?

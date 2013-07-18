@@ -74,7 +74,17 @@ class ProductVideo extends CActiveRecord
 			'description' => 'Description',
 		);
 	}
-
+        
+        protected function afterSave(){
+            parent::afterSave();
+            if($this->sorting===null){
+                $model = self::model()->findByPk($this->id);
+                $model->sorting=$this->id;
+                $model->save(false);
+            }
+            return true;
+        }
+        
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.

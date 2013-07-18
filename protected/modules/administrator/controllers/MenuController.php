@@ -294,5 +294,14 @@ class MenuController extends Controller{
         }
         echo('done');
     }
+    
+    public function actionSetPath(){
+        exit();
+        $models = MenuItems::model()->findAll();
+        foreach($models as $model){
+            if($model->saveNode())
+                echo($model->path.'<br>');
+        }
+    }
 } 
 ?>

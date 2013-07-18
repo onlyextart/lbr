@@ -11,11 +11,33 @@ class MainMenuWidget extends CWidget
     public $fourthLevelItems = array();
     public function init()
     {
+        
         $this->currentMenuItem = Yii::app()->params['currentMenuItem'];
-        if($this->currentMenuItem->level == 1)
+        if($this->currentMenuItem->level == 1 || $this->currentMenuItem==null)
             return;
         //Yii::app()->clientScript->registerCssFile('/css/menuGroups.css');
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
+        if($this->menuBranch[1]->alias=='tehnika'){
+            $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
+            if($rootmenu===null){
+                $rootmenuModel=MenuItems::model()->find('path=:path', array(':path'=>'/selskohozyaystvennaya-tehnika/type'));
+            }
+            else{
+                $rootmenuModel=MenuItems::model()->findByPk($rootmenu);
+            }
+            $this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
+            
+            $this->menuBranch=$this->currentMenuItem->ancestors()->findAll();
+            array_push($this->menuBranch, $this->currentMenuItem);
+        }
+        else{
+            $cookieRootmenuId = new CHttpCookie('rootmenu', $this->menuBranch[1]->id);
+            $cookieRootmenuId->expire = time()+60*60*24*1; 
+            Yii::app()->request->cookies['rootmenu'] = $cookieRootmenuId;
+            $cookieRootmenuAlias = new CHttpCookie('rootmenualias', $this->menuBranch[1]->alias);
+            $cookieRootmenuAlias->expire = time()+60*60*24*1; 
+            Yii::app()->request->cookies['rootmenualias'] = $cookieRootmenuAlias;
+        }
         if( $this->currentMenuItem->level > 2 ){
             $this->rootMenuItem = $this->currentMenuItem->ancestors()->find('level=2');
         }
@@ -46,7 +68,7 @@ class MainMenuWidget extends CWidget
                     'level='.($this->startLevel+2)
             );
         }
-        /*TODO $this->fourthLevelItems должен быбираться из баннеров*/
+        /*TODO $this->fourthLevelItems должен выбираться из баннеров*/
         if( $this->currentMenuItem->level >= 5 ){
             $this->fourthLevelItems = $this->menuBranch[4]->descendants()->findAll(
                     'level='.($this->startLevel+3)
@@ -56,7 +78,9 @@ class MainMenuWidget extends CWidget
     
     public function run()
     {
+        //$start = microtime(true);
         $this->render('index');
+        //echo(microtime(true)-$start);
     }
 }
 ?>

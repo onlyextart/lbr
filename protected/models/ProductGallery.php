@@ -108,4 +108,14 @@ class ProductGallery extends CActiveRecord
                     'order'=>$this->getTableAlias(false, false).'.sorting ASC'
                 );
         }
+        
+        protected function afterSave(){
+            parent::afterSave();
+            if($this->sorting===null){
+                $model = self::model()->findByPk($this->id);
+                $model->sorting=$this->id;
+                $model->save(false);
+            }
+            return true;
+        }
 }

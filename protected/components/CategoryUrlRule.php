@@ -26,20 +26,32 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
+        //$start = microtime(true);
+        file_put_contents(
+            $_SERVER['DOCUMENT_ROOT'].'/images/uploaded/r.txt', 
+            file_get_contents($_SERVER['DOCUMENT_ROOT'].'/images/uploaded/r.txt').$pathInfo."\n"
+        );
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=1');
         }
-        else{
+        else{/*
             //Разбиваем запрос на массив по символу "/"
             $queryPathArray = explode('/', 'index/'.$pathInfo );
             //"переворачиваем" его для обхода начиная с последнего елемента
             $queryPathArrayReversed = array_reverse( $queryPathArray );
             foreach( $queryPathArrayReversed as $i=>$partOfPath ){
                 //находим модели всех пунктов меню в которых поле alias равен части пути
+//                $menuItemsModel = MenuItems::model()->findAll(
+//                    'lower(alias)=:alias AND published=1',
+//                    array(
+//                        ':alias'=>mb_strtolower($partOfPath),
+//                    )
+//                );
                 $menuItemsModel = MenuItems::model()->findAll(
-                    'lower(alias)=:alias AND published=1',
                     array(
-                        ':alias'=>mb_strtolower($partOfPath),
+                        'condition'=>'alias=:alias',
+                        'params'=>array(':alias'=>mb_strtolower($partOfPath)),
+                        'select'=>'level, alias, lft, rt, root',
                     )
                 );
                 //Если не найдено ни одной записи
@@ -70,16 +82,23 @@ class CategoryUrlRule extends CBaseUrlRule
                     break;
                 }
             }
+         */
+            $this->desiredMenuItem = MenuItems::model()->find(
+                    'path=:path',
+                    array(':path'=>'/'.$pathInfo)
+            );
         }
         //Если не найден искомый пункт меню
         if($this->desiredMenuItem === null){
             return false; // не применяем данное правило
         }
+        $ancestors=$this->desiredMenuItem->ancestors()->findAll();
+        
         //Сохранияем в параметрах приложения id текущего пункта меню
         Yii::app()->params['currentMenuItem'] = $this->desiredMenuItem;
         
         //Сохранияем в параметрах приложения все ветку меню
-        if(is_array($ancestors)){
+        if(is_array($ancestors) && !empty($ancestors)){
             array_push($ancestors, $this->desiredMenuItem);
         }
         else{
@@ -89,7 +108,11 @@ class CategoryUrlRule extends CBaseUrlRule
         return self::$controllers[$this->desiredMenuItem->type];
     }
     
-    static function getUrl( $pageId ){
+    static function getUrl( $pageId, $recursive = false ){
+        if(!$recursive){
+            $menuItemModel=Yii::app()->db->createCommand("SELECT path from menu_items where id='".$pageId."'")->queryRow();
+            return $menuItemModel[path];
+        }
         $menuItemModel = MenuItems::model()->findByPk($pageId);
         if( $menuItemModel !== null ){
             $ancestors = $menuItemModel->ancestors()->findAll();

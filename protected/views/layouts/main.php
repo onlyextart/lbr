@@ -1,6 +1,6 @@
 <?php /* @var $this Controller */ 
-$less = new lessc;
-$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+//$less = new lessc;
+//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 <!DOCTYPE html >
 <html>
@@ -44,21 +44,24 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
         <div class="menu main">
             <ul class="menuMainTop">
                 <?php $href='selskohozyaystvennaya-tehnika'; ?>
-                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) ) echo 'class="active"' ?> >
+                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
+                        Yii::app()->request->cookies['rootmenualias']->value =='selskohozyaystvennaya-tehnika') echo 'class="active"' ?> >
                     <a href="/selskohozyaystvennaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict1.png" alt="Сельскохозяйственная техника">
                         <span>Сельхоз техника</span>
                     </a>
                 </li>
                 <?php $href='stroitelnaya-tehnika'; ?>
-                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) ) echo 'class="active"' ?> >
+                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
+                        Yii::app()->request->cookies['rootmenualias']->value =='stroitelnaya-tehnika') echo 'class="active"' ?> >
                     <a href="/stroitelnaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict4.png" alt="Строительная техника">
                         <span>Строительная техника</span>
                     </a>
                 </li>
-				<?php $href='komunalnaya-tehnika'; ?>
-                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) ) echo 'class="active"' ?> >
+                <?php $href='komunalnaya-tehnika'; ?>
+                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
+                        Yii::app()->request->cookies['rootmenualias']->value =='komunalnaya-tehnika') echo 'class="active"' ?> >
                     <a href="/komunalnaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict5.png" alt="Коммунальная техника">
                         <span>Коммунальная техника</span>
