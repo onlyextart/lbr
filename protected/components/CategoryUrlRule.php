@@ -27,10 +27,6 @@ class CategoryUrlRule extends CBaseUrlRule
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
         //$start = microtime(true);
-        file_put_contents(
-            $_SERVER['DOCUMENT_ROOT'].'/images/uploaded/r.txt', 
-            file_get_contents($_SERVER['DOCUMENT_ROOT'].'/images/uploaded/r.txt').$pathInfo."\n"
-        );
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=1');
         }

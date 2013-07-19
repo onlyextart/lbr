@@ -64,7 +64,7 @@
                 <img src="<?php echo $this->menuBranch[3]->icon ?>" >
             </a>
         </div>
-        <ul id="third_level_menu">
+        <ul id="third_level_menu" style="<?php echo (Yii::app()->params[currentMenuItem]->type == MenuItems::PRODUCT_MENU_ITEM_TYPE)?"width:700px;":""?>" class="clearfix">
             <?php 
                 foreach( $this->thirdLevelItems as $thirdLevelItem){
                     $colorCssClass='menu_color_group_'.$thirdLevelItem->group->id;
@@ -85,6 +85,34 @@
                 }
             ?>
         </ul>
+        <?php
+        if(Yii::app()->params[currentMenuItem]->type == MenuItems::PRODUCT_MENU_ITEM_TYPE){
+            $parent = Yii::app()->params[currentMenuItem]->parent()->find();
+            $productMenuItems = $parent->children()->findAll();
+            echo CHtml::openTag('ul', array('class'=>'menu_products_list', 'style'=>'border-color:#'.$thirdLevelItem->group->color));
+                echo CHtml::openTag('li');
+                    echo CHtml::link(
+                        Yii::app()->params[currentMenuItem]->name,
+                        Yii::app()->params[currentMenuItem]->path
+                    );
+                echo CHtml::closeTag('li');
+            if(is_array($productMenuItems) && !(empty($productMenuItems))){
+                foreach ($productMenuItems as $productMenuItem){
+                    if($productMenuItem->id ==  Yii::app()->params[currentMenuItem]->id)
+                        continue;
+                    echo CHtml::openTag('li');
+                        echo CHtml::link(
+                            $productMenuItem->name,
+                            $productMenuItem->path
+                        );
+                    echo CHtml::closeTag('li');
+
+                }
+
+            }
+            echo CHtml::closeTag('ul');
+        }
+        ?>
     </div>
     <?php endif; ?>
 </div>

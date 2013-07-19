@@ -1,6 +1,6 @@
 <?php
 
-if ($data->image_type=='1')
+if ($data->image_type=='1' || $data->image_type=='2')
 {
     echo '<div class="review_photo time_to_buy">';
     echo '<img src="'.$data->image.'" alt="'.$data->name.'" title="'.$data->name.'">';
