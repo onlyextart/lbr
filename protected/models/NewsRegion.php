@@ -71,9 +71,9 @@ class NewsRegion extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'content' => 'Content',
-			'description' => 'Description',
-			'filial_id' => 'Filial',
+			'content' => 'Содержание',
+			'description' => 'Описание',
+			'filial_id' => 'Филиал',
 			'thumbnail' => 'Thumbnail',
 			'news_id' => 'News',
 		);

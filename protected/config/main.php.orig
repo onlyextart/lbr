@@ -29,7 +29,10 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1','*'),
 		),
                 'administrator',
+<<<<<<< HEAD
                 'users',
+=======
+>>>>>>> 444d4bb... work on regions
 	),
 
 	// application components
@@ -92,10 +95,13 @@ return array(
 				*/
 			),
 		),
+<<<<<<< HEAD
                 'authManager'=>array(
                     'class'=>'CDbAuthManager',
                     'connectionID'=>'db',
                 ),
+=======
+>>>>>>> 444d4bb... work on regions
 	),
 
 	// application-level parameters that can be accessed
@@ -103,9 +109,12 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
-                'defaultRegionId'=>0,
+                'defaultRegionId'=>1,
+<<<<<<< HEAD
                 'regionId'=>1,
                 'superGroup'=>1,
+=======
+>>>>>>> 444d4bb... work on regions
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
@@ -113,6 +122,7 @@ return array(
                     ),
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',
+<<<<<<< HEAD
                         'Производители'=>'/administrator/makers/',
                         'Страницы товаров'=>'/administrator/products/',
                     ),
@@ -121,6 +131,15 @@ return array(
                         'Группы пользователей'=>'/administrator/users/group/',
                         'Роли'=>'/administrator/users/role/',
                         'Операции'=>'/administrator/users/operation/'
+=======
+                        'Производители'=>'/administration/makers/',
+                    ),
+                    'Пользователи'=>array(
+                        'Пользователи'=>'/administrator/users/',
+                        'Группы пользователей'=>'/administrator/user_groups/',
+                        'Роли'=>'/administrator/roles/',
+                        'Операции'=>'/administration/operations/',
+>>>>>>> 444d4bb... work on regions
                     ),
                     'Новости'=>'/administrator/news/',
                     'Контакты'=>array(
@@ -130,15 +149,9 @@ return array(
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>'/administrator/search/',
                 ),
-                'districts'=>array(
-                    '0'=>'Дальневосточный федеральный округ',
-                    '1'=>'Приволжский федеральный округ',
-                    '2'=>'Северо-Западный федеральный округ',
-                    '3'=>'Северо-Кавказский федеральный округ',
-                    '4'=>'Сибирский федеральный округ',
-                    '5'=>'Уральский федеральный округ',
-                    '6'=>'Центральный федеральный округ',                           
-                    '7'=>'Южный федеральный округ',
-               ),
 	),
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 444d4bb... work on regions

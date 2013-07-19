@@ -180,7 +180,7 @@ class BannersController extends Controller
                                     $deletedMaker->delete();
                                 }
                             }
-                            //Нет массива производителей (удалить всез производителей из баннера)
+                            //Нет массива производителей (удалить всех производителей из баннера)
                             else{
                                 MakersInBanner::model()->deleteAll(
                                         'banner_id='.$bannerModel->id

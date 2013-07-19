@@ -15,6 +15,16 @@
  * @property string $images
  */
 ?>
+<style>
+.manage_buttons{
+        position: fixed;
+        top: 50px;
+        right: 30px;
+    }
+div.manage_buttons input{
+        margin:0px;
+    }
+</style>
 <div class="form" align="center">
     <?php $form = $this->beginWidget( 'CActiveForm', array(
                 'id'=>'contect_form',
@@ -76,6 +86,9 @@
         <?php echo $form->labelEx( $contactModel, 'info' ); ?>
         <?php echo $form->textarea( $contactModel, 'info' ); ?>
     </div>
-    <?php echo CHtml::SubmitButton( $contactModel->isNewRecord?'Создать':'Сохранить' ); ?>
+    	<div class="manage_buttons buttons">
+            <?php echo CHtml::link('Закрыть', '/administrator/regions/', array('class'=>'btn del')); ?>
+            <?php echo CHtml::submitButton($regionModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
+        </div>
     <?php $this->endWidget(); ?>
 </div>

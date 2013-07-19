@@ -7,7 +7,7 @@ class ContactsController extends Controller
         $dataProvider = new CActiveDataProvider( 'Contacts' );
         $this->render( 'index', array( 'dataProvider'=>$dataProvider, ) );
     }
-     public function actionCreateContact(){
+     public function actionCreate(){
         $contactModel = new Contacts();
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];

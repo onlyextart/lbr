@@ -83,11 +83,11 @@ class Regions extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'district_id' => 'District',
-			'sorting' => 'Sorting',
-			'published' => 'Published',
-			'contact_id' => 'Contact',
+			'name' => 'Область',
+			'district_id' => 'Округ',
+			'sorting' => 'Сортировка',
+			'published' => 'Статус',
+			'contact_id' => 'Контакт',
 		);
 	}
 
@@ -113,4 +113,21 @@ class Regions extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-}
+    protected function afterSave(){
+            parent::afterSave();
+            if($this->sorting===null){
+                $newPage = Regions::model()->findByPk($this->id);
+                $newPage->sorting=$this->id;
+                $newPage->save(false);
+            }
+            return true;
+        }
+        
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.sorting ASC'
+                );
+        }
+        
+       }

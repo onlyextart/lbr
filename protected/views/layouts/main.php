@@ -40,6 +40,28 @@
             <a href="/">
                 <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
             </a>
+            <div class="region">
+                 <p style="font-size: 13px; font-weight: bold; margin-top: 0px;"> Ваш регион: <span class="contact-top-span">
+                 <a href="/contacts/getregionstable/" id="show_regions_table_button">Не выбран</a></span></p>
+                 <script>
+                    $(function(){
+                        $('#show_regions_table_button').click(function(e){
+                            e.preventDefault();
+                            $.ajax({
+                                url:$(this).attr('href'),
+                                type:'POST',
+                                success:function(data){
+                                    $('body').append($(data));
+                                },
+                                error:function(){
+                                    alert('Ошибка запроса к серверу.');
+                                }
+                            });
+                        });
+                    })
+                 </script>
+                           
+        </div>
         </div>
         <div class="menu main">
             <ul class="menuMainTop">
@@ -103,10 +125,13 @@
                 <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
             </a>
         </div>
+        
+    
     </header>
     <div class="wrapper">
         <?php $this->widget('ext.mainMenuWidget.MainMenuWidget'); ?>
         <?php echo $content; ?>
+        <?php $this->widget('ext.recentNewsWidget.RecentNewsWidget', array()); ?>
         <? if (Yii::app()->params['currentMenuItem']->seo_text){?>
         <div class="bottom-text">
             <div><? echo Yii::app()->params['currentMenuItem']->seo_text;?></div>

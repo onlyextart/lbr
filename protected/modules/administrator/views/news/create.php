@@ -1,3 +1,12 @@
+<?php
+/* @var $this NewsController */
+/* @var $model News */
+
+$this->menu=array(
+	array('label'=>'Журнал новостей', 'url'=>array('index')),
+
+);
+?>
 
 <h1>Создать новость</h1>
 
