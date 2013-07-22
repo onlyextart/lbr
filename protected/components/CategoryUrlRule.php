@@ -100,6 +100,16 @@ class CategoryUrlRule extends CBaseUrlRule
         else{
             $ancestors = $this->desiredMenuItem;
         }
+        
+        $breadcrumbs = array();
+        foreach($ancestors as $ancestor){
+            if($ancestor->level == 1 || $ancestor->id == $this->desiredMenuItem->id )
+                    continue;
+            $breadcrumbs[$ancestor->name] = $ancestor->path;
+        }
+        $breadcrumbs[]=$this->desiredMenuItem->name;
+        Yii::app()->params['breadcrumbs'] = $breadcrumbs;
+        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
         return self::$controllers[$this->desiredMenuItem->type];
     }

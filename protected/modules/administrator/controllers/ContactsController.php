@@ -12,6 +12,16 @@ class ContactsController extends Controller
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];
             if( $contactModel->save() ){
+                if(isset($_POST['MenuItemConteintigThisContact'])){
+                    foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
+                        if($menuItem!='1')
+                            continue;
+                        $menuItemContant = new MenuItemsContent;
+                        $menuItemContant->item_id = $menuItemId;
+                        $menuItemContant->page_id = $contactModel->id;
+                        $menuItemContant->save();
+                    }
+                }
                 $this->redirect('/administrator/contacts/index');
             }
         }
@@ -27,6 +37,23 @@ class ContactsController extends Controller
         if (isset($_POST['Contacts'])){
            $contactModel->attributes = $_POST['Contacts'];
            $contactModel->save();
+           $menuItemsContainingThisContact = MenuItemsContent::model()->with('item')->findAll(
+                'page_id='.$contactModel->id.' 
+                AND item.type='.MenuItems::CONTACT_MENU_ITEM_TYPE
+            );
+           foreach($menuItemsContainingThisContact as $menuItemContent){
+               $menuItemContent->delete();
+           }
+           if(isset($_POST['MenuItemConteintigThisContact'])){
+               foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
+                   if($menuItem!='1')
+                        continue;
+                   $menuItemContant = new MenuItemsContent;
+                   $menuItemContant->item_id = $menuItemId;
+                   $menuItemContant->page_id = $contactModel->id;
+                   $menuItemContant->save();
+               }
+           }
            $this->redirect('/administrator/contacts'); 
         }
         $this->render('manage', array('contactModel' => $contactModel));
@@ -79,5 +106,30 @@ class ContactsController extends Controller
             echo('r'.$regionModel->id.'<br>');
         }
         echo 'done';
+    }
+    public function actionContactMenuItems(){
+        exit();
+        /*$contacts = Contacts::model()->findAll();
+        $rootModel = MenuItems::model()->findByPk( 699 );
+        foreach($contacts as $contact){
+            $menuModel = new MenuItems();
+            $menuModel->name = $contact->name;
+            $menuModel->alias = $contact->alias;
+            $menuModel->meta_title = $contact->name.' - Контакты филиала ЛБР-Агромаркет';
+            $menuModel->header = $contact->name;
+            $menuModel->group_id = 26;
+            $menuModel->published = '1';
+            $menuModel->type = MenuItems::CONTACT_MENU_ITEM_TYPE;
+            $menuModel->appendTo($rootModel);
+        }*/
+        $contactsMenuItems = MenuItems::model()->findAll('type=:type', array(':type'=>  MenuItems::CONTACT_MENU_ITEM_TYPE));
+        
+        foreach($contactsMenuItems as $contactsMenuItem){
+            $contactModel = Contacts::model()->find('name=:name', array(':name'=>$contactsMenuItem->name));
+            $menuItemContentModel = new MenuItemsContent;
+            $menuItemContentModel->page_id = $contactModel->id;
+            $menuItemContentModel->item_id = $contactsMenuItem->id;
+            $menuItemContentModel->save();
+        }
     }
 }

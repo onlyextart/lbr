@@ -50,6 +50,7 @@
                             $.ajax({
                                 url:$(this).attr('href'),
                                 type:'POST',
+                                data:{requesrUri:"<?php echo Yii::app()->request->requestUri; ?>"},
                                 success:function(data){
                                     $('body').append($(data));
                                 },
@@ -58,7 +59,11 @@
                                 }
                             });
                         });
-                    })
+                        $(document).on('click', '.regions_table_cover', function(){
+                            $(this).remove();
+                            $('.regions_table_wrapper').remove();
+                        });
+                    });
                  </script>
                            
         </div>
@@ -125,8 +130,6 @@
                 <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
             </a>
         </div>
-        
-    
     </header>
     <div class="wrapper">
         <?php $this->widget('ext.mainMenuWidget.MainMenuWidget'); ?>
@@ -138,13 +141,23 @@
             <span class="bottom-more">Подробнее...</span>
         </div>
         <?}?>
+        <?php if(isset($this->breadcrumbs)):?>
+		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
+			'links'=>$this->breadcrumbs,
+		)); ?><!-- breadcrumbs -->
+	<?php endif?>
     </div>
     <footer>
         <div class="f-left">
             <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
         </div>
         <div class="f-center">
+            <?php if(Yii::app()->params['currentMenuItem']->level==1){ ?>
             <a href="http://www.webcom-media.ru/">Продвижение сайта</a> - <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
+            <?php }
+            else{ ?>
+            <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
+            <?php } ?>
         </div>
         <div class="f-right">
             

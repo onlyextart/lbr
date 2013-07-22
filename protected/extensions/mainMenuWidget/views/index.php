@@ -56,7 +56,6 @@
         </ul>
     </div>
     <?php endif; ?>
-    
     <?php if( !empty($this->thirdLevelItems) ): ?>
     <div class="main_menu_third_level">
         <div class="main_menu_third_level_icon">

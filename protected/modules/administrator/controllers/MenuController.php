@@ -1,9 +1,35 @@
 <?php
 class MenuController extends Controller{
     
+    protected function addCreateItemButtonInTree(&$menuTreeArray){
+        foreach($menuTreeArray as &$menuItem){
+            if(isset($menuItem[children])){
+                $menuItem[children][] = array(
+                    'id'=>'addMenuItem',
+                    'text' => CHtml::link( 
+                            '<img src="/images/addIcon.png" style="height:16px;">', 
+                            '/administrator/menu/createMenuItem/rootId/'.$menuItem[id].'/ajax/true', 
+                            array ( 
+                                'class'=>'menuTreeViewLink',
+                                'onclick'=>'menuTreeView.showForm(this); return false;',
+                                'title'=>'Создать новый пункт меню',
+                            )
+                        ),
+                    'expanded' => false,
+                );
+                if(is_array($menuItem[children])){
+                    $this->addCreateItemButtonInTree($menuItem[children]);
+                }
+            }
+        }
+    }
+    
     public function actionIndex(){
         $menuModel = MenuItems::model()->findAll();
         $menuTreeArray = MenuItems::getMenuTree();
+        //var_dump($menuTreeArray);
+        //exit();
+        $this->addCreateItemButtonInTree($menuTreeArray);
         $this->render('index', array(
             'menuModel'=>$menuModel,
             'menuTreeArray'=>$menuTreeArray,
@@ -16,6 +42,7 @@ class MenuController extends Controller{
         //$roots - Все корни меню
         $roots = MenuItems::model()->roots()->findAll();
         $menuTreeArray = MenuItems::getMenuTree($roots);
+        $this->addCreateItemButtonInTree($menuTreeArray);
         $this->renderPartial('menuTree', array(
             'menuModel'=>$menuModel,
             'menuTreeArray'=>$menuTreeArray,
@@ -249,7 +276,7 @@ class MenuController extends Controller{
                     $menuModel->meta_title = $menu_item_meta_title;
                     $menuModel->meta_description = $menu_item_meta_description;
                     $menuModel->header = $menu_item_header;
-                    $menuModel->group = $menuGroupModel->id;
+                    $menuModel->group_id = $menuGroupModel->id;
                     $menuModel->seo_text = $menu_item_seo_text;
                     $menuModel->published = '1';
                     $menuModel->type = $menuItemType;

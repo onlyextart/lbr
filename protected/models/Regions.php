@@ -130,4 +130,7 @@ class Regions extends CActiveRecord
                 );
         }
         
-       }
+        static function getDistricts(){
+                return self::$districts;
+        }
+}

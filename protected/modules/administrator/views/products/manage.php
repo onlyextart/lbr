@@ -1,6 +1,4 @@
 <style>
-    .admin_main_features{float:left; width:40%;}
-    .admin_additional_features{float:left; width:60%;}
     .regional_product_data{
         width:100%;
         float:left;
@@ -85,7 +83,7 @@
     }
 </style>
 <h2>
-    <?php echo 'Страница товара' ?>
+    <?php echo ($productModel->isNewRecord)?'Создание страницы товара':'Редактирование товара "'.$productModel->name.'"' ?>
 </h2>
 <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">

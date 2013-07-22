@@ -2,32 +2,36 @@
 
 class ContactsController extends Controller
 {
-	
-
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-    
+    public function actions()
+    {
+        return array(
+            // captcha action renders the CAPTCHA image displayed on the contact page
+            'captcha'=>array(
+                    'class'=>'CCaptchaAction',
+                    'backColor'=>0xFFFFFF,
+            ),
+        );
+    }
     public function actionIndex(){
-     
+        $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
+        if($contact_id==null){
+            //$contactModels = Contacts::model()->findAll('published=1');
+            //$this->render('commonContacts', array('contactModels'=>$contactModels));
+            $this->render('commonContacts');
+        }
+        else{
+            $contactModel = Contacts::model()->findByPk($contact_id);
+            $formModel=new ContactForm;
+            $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
+        }
     }
+    
     public function actionGetRegionsTable()
-	{
+    {
        
-		$regionModel = Regions::model()->findAllByAttributes(array('published'=>'1'));
+        $regionModel = Regions::model()->findAllByAttributes(array('published'=>'1'));
         $this->renderPartial('regionstable', array( 'regionModel'=>$regionModel,));
-     
-        
     }
-                
-            
+    
     
 }

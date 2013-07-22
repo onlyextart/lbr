@@ -11,7 +11,6 @@ class MainMenuWidget extends CWidget
     public $fourthLevelItems = array();
     public function init()
     {
-        
         $this->currentMenuItem = Yii::app()->params['currentMenuItem'];
         if($this->currentMenuItem->level == 1 || $this->currentMenuItem==null)
             return;
@@ -56,13 +55,16 @@ class MainMenuWidget extends CWidget
         $this->firstLevelItems = $this->rootMenuItem->descendants()->with('group')->findAll(
                 'level='.($this->startLevel)
         );
+        if(Yii::app()->params['currentMenuItem']!==MenuItems::BANNERS_MENU_ITEM_TYPE || Yii::app()->params['currentMenuItem']!==MenuItems::PRODUCT_MENU_ITEM_TYPE){
+            return;
+        }
         
         if( isset($this->menuBranch[2]) ){
             $this->secondLevelItems = $this->menuBranch[2]->descendants()->with('group')->findAll(
                     'level='.($this->startLevel+1)
             );
         }
-        
+            
         if( isset($this->menuBranch[3]) ){
             $this->thirdLevelItems = $this->menuBranch[3]->descendants()->with('group')->findAll(
                     'level='.($this->startLevel+2)
@@ -79,7 +81,8 @@ class MainMenuWidget extends CWidget
     public function run()
     {
         //$start = microtime(true);
-        $this->render('index');
+        if($this->currentMenuItem->level!=1)
+            $this->render('index');
         //echo(microtime(true)-$start);
     }
 }

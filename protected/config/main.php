@@ -130,6 +130,7 @@ return array(
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>'/administrator/search/',
                 ),
+                'breadcrumbs'=>array(),
                 'districts'=>array(
                     '0'=>'Дальневосточный федеральный округ',
                     '1'=>'Приволжский федеральный округ',

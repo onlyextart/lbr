@@ -1,239 +1,101 @@
 <style>
-
- .region{
-            float:right;
-/*            margin-top: -3px;*/
-        }
-        .region p{
-            font-size: 12px;
-            color:black;
-            margin: 0;
-            padding: 0;
-            /*font-weight: bold;*/
-        }
-        .region p a{
-            font-weight: bold;
-            color:#00ba9e;
-            text-decoration: none;
-        }
-        .region .region-select{
-            width: 250px;
-            height: 22px;
-            margin-top: 7px;
-        }
-        .region p span{
-            font-weight: bold;
-        }
-        .contact-top-span{
-/*            float: right;
-            margin-right: 40px;*/
-            margin-left: 10px;
-        }
-        .region .region-select p{
-            float: left;
-        }
-        .region .region-select .region-select-now{
-            /*padding: 1px 10px;*/
-            padding-right: 25px;
-            /*border-radius: 3px;*/
-            position: relative;
-            /*min-width: 158px;*/
-            margin-left: 5px;
-            cursor:pointer;
-/*            background: #008873;
-            background: -moz-linear-gradient(top, #00ba9e, #008873);
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00ba9e), color-stop(100%,#008873));
-            background: -webkit-linear-gradient(top, #00ba9e, #008873);
-            background: -o-linear-gradient(top, #00ba9e, #008873);
-            background: -ms-linear-gradient(top, #00ba9e, #008873);
-            background: linear-gradient(top, #00ba9e, #008873);*/
-            z-index: 1501;
-            float: left;
-        }
-        .region .region-select .region-select-now p{
-            color:#008873;
-            font-size: 12px;
-            /*text-transform: uppercase;*/
-            padding: 0;
-            margin: 0;
-            /*border-bottom: 1px dashed #008873;*/
-        }
-        .region .region-select .region-select-now span.strelka{
-            background-image: url('http://new.lbr.ru/images/strelka.jpg');
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 12px;
-            height: 8px;
-            position: absolute;
-            top: 5px;
-            right: 10px;
-        }
-        .region .region-select .region-select-list{
-            display: none;
-            position: fixed;
-            background: white;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 0px;
-            width: 1000px;
-            top:10px;
-            z-index: 1504;
-            left:50%;
-            border-radius: 5px;
-            -moz-box-shadow: 0 0px 10px 1px rgba(0,0,0,0.7);
-            -webkit-box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.7);
-            box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.7);
-            margin: 0;
-            margin-left: -500px;
-            
-        }
-        .region .region-select .region-select-list .okrug{
-            padding: 0;
-        }
-        .region .region-select .region-select-list .label-h4{
-            margin: 0;
-            font-size: 18px;
-            border-radius: 5px 5px 0 0px;
-            padding: 5px 0 5px 10px;
-            font-weight: bold;
-        }
-        .region .region-select .region-select-list .subokrug{
-            list-style: none;
-            float: left;
-            width: 230px;
-            padding: 0;
-            margin: 0 10px;
-        }
-        .region .region-select .region-select-list li.district{
-            margin: 0 0 5px;
-            border: 0;
-        }
-        .region .region-select .region-select-list li.district .label-h5{
-            padding: 0;
-            margin: 0 0;
-            font-size: 14px;
-            font-weight: bold;
-        }
-            .region .region-select .region-select-list .subokrug li.district ul.okrug{
-                list-style: none;
-            }
-		.region .region-select .region-select-list .subokrug li.district ul.okrug li{
-                    font-size: 12px;
-                    line-height: 20px;
-                    padding: 0;
-                    cursor:pointer;
-                    border-radius:3px;
-                    
-		}
-		.region .region-select .region-select-list .subokrug li.district ul.okrug li:hover, #regionus ul li:hover{
-			background: rgb(0,184,157);
-		}
-                .region .region-select .region-select-list .subokrug li.district ul.okrug li:hover a{
-                    color:white;
-                }
-                .region .region-select .region-select-list li a{
-                    color:black;
-                    text-decoration: none;
-                    display: block;
-                    min-width: 220px;
-                    padding:0 10px;
-                }
-                .region .region-select .region-select-list li.region-select-list-all{
-                    position: absolute;
-                    bottom: 10px;
-                    right: 20px;
-                    color:blue;
-                }
-                .region .region-select .region-select-list li.region-select-list-all:hover{
-                    background: none;
-                    text-decoration: underline;
-                }
-                
-#modalDiv{
-    position: absolute;
-    top:150px;
-    left:50%;
-    background: white;
-    z-index: 5001; 
-    width: 900px;
-    margin-left: -450px;
+.regions_table_wrapper{
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0px;
+    width: 1000px;
+    top: 10px;
+    z-index: 1504;
+    left: 50%;
     border-radius: 5px;
-    
-}
-#regionus {
-    padding: 20px;
+    -moz-box-shadow: 0 0px 10px 1px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.7);
     margin: 0;
+    margin-left: -500px;
+    padding-bottom: 10px;
 }
-#regionus ul{
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-}
-#regionus ul li{
-    float:left;
-    width: 250px;
-    margin: 0 10px;
-    padding: 2px 5px;
-    border-radius: 3px;
-    
-    cursor: pointer;
-}
-#region-span-contact{
-/*    font-size: 12px;
-    color: grey;*/
-    font-weight: normal;
-}
-#contact-href{
-    background: #14AAAA;
-    background: -moz-linear-gradient(top, #14AAAA, #008C8C);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#14AAAA), color-stop(100%,#008C8C));
-    background: -webkit-linear-gradient(top, #14AAAA, #008C8C);
-    background: -o-linear-gradient(top, #14AAAA, #008C8C);
-    background: -ms-linear-gradient(top, #14AAAA, #008C8C);
-    background: linear-gradient(top, #14AAAA, #008C8C);
-    padding: 0px 10px;
-    color: white;
+.regions_table_wrapper h4{
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
     font-weight: bold;
-    font-size: 11px;
-    border-radius: 3px;
-    
-    text-transform: uppercase;
-    cursor: pointer;
+    margin: 0px;
 }
-
+.regions_table_wrapper ul{
+    list-style: none;
+}
+.regions_table_wrapper>ul{
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 230px;
+}
+.regions_table_wrapper ul li{
+    padding-left: 10px;
+    height: 20px;
+}
+.regions_table_wrapper ul li:hover{
+    background: rgb(0,184,157);
+    border-radius: 3px;
+}
+.regions_table_wrapper ul li:hover a{
+    color:#fff;
+}
+.regions_table_wrapper ul li a{
+    color:#000;
+    text-decoration:none;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+.regions_table_wrapper>ul>li.district_name{
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+}
+.regions_table_cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-color: #000;
+    z-index: 1500;
+    top: 0;
+    left: 0;
+}
 </style>
-<?foreach ($regionModel as $regions){?>  
-<table class="region" >
-  <tbody>
-    <tr>
-      <td align="undefined" valign="undefined"><?=$regions->district_id?><?Yii::app()->params['districts']?></td>
-    </tr>
-    <tr>
-      <td align="undefined" valign="undefined"><?=$regions->name?></td>
-    </tr>
-  </tbody>
-</table>
-
-<?}?>
-         
-
-<div class="region-select-list" style="display: block;">
-<div class="label-h4">Выберите ваш регион</div>
-<?foreach ($regionModel as $regions){?>     
-<ul class="subokrug">
-<li class="district">
-<div class="okrug"><?=$regions->district_id?></div>
-<ul class="okrug">
-<li>
-<a  title="Белгород" href="http://www.belgorod.lbr.ru/"><?=$regions->name?></a>
-</li>
-</ul>
-</li>
-</ul>
-
-
-<?}?> 
-	<?php
-//	Yii::app()->request->requestUri;
-?>
+<div class="regions_table_cover">
+    
+</div>
+<div class="regions_table_wrapper">
+    <h4>
+        Выберите ваш регион
+    </h4>
+    <?php 
+        $districts = Regions::getDistricts();
+        foreach( $districts as $districtId=>$districtName ){
+            if($districtId==0 || $districtId==1 || $districtId==3 || $districtId==6){
+                echo CHtml::openTag('ul');
+            }
+                echo CHtml::openTag('li', array('class'=>'district_name'));
+                    echo $districtName;
+                echo CHtml::closeTag('li');
+                $regions = Regions::model()->findAll(
+                    'district_id=:district_id', 
+                    array(':district_id'=>$districtId)
+                );
+                foreach($regions as $region){
+                    echo CHtml::openTag('li');
+                        echo CHtml::link($region->name, 'http://www.'.$region->contact->alias.'.lbr.ru'.$_POST[requesrUri], array('title'=>$region->contact->name));
+                    echo CHtml::closeTag('li');
+                }
+            if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
+                echo CHtml::closeTag('ul');
+            }
+        }
+    ?>
+</div>
     
 

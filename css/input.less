@@ -85,10 +85,16 @@ input, textarea
     background: linear-gradient(top, #14AAAA, #008C8C);
     text-shadow: none;
 }
-.clr, .clearfix
+.clr
 {
     content: '';
     display: block;
+    clear: both;
+}
+.clearfix
+{
+    content: '';
+    display: table;
     clear: both;
 }
 .reset(@margin = 0, @padding = 0)
@@ -220,9 +226,15 @@ header:after{
     left: 0px;
     background: url('/images/top-line.png') no-repeat bottom center;
 }
+.wrapper:after{
+    .clr
+}
 .wrapper
 {
     margin: 0 auto;
+    #content:after{
+        .clr
+    }
     #content
     {
         margin: 1em 0 2em;
@@ -234,15 +246,8 @@ header:after{
         }
         .form
         {
-            form
-            {
+            form#login-form{
                 width: 35%;
-                padding: 1% 2%;
-                -moz-box-shadow: 0px 0px 3px #c0c0c0;
-                -webkit-box-shadow: 0px 0px 3px #c0c0c0;
-                -o-box-shadow: 0px 0px 3px #c0c0c0;
-                box-shadow: 0px 0px 3px #c0c0c0;
-                border-radius: 2px;
                 .row
                 {
                     margin: .5em 0;
@@ -286,6 +291,15 @@ header:after{
                         text-align: right;
                     }
                 }
+            }
+            form
+            {
+                padding: 1% 2%;
+                -moz-box-shadow: 0px 0px 3px #c0c0c0;
+                -webkit-box-shadow: 0px 0px 3px #c0c0c0;
+                -o-box-shadow: 0px 0px 3px #c0c0c0;
+                box-shadow: 0px 0px 3px #c0c0c0;
+                border-radius: 2px;
             }
         }
         // Product page
@@ -515,6 +529,51 @@ header:after{
             -moz-border-radius:10px / 100px;
             border-radius:10px / 100px;
         }
+        .contacts_list{
+            list-style:none;
+            .district_name{
+                border-bottom: 1px solid #f67f19;
+                margin-bottom: 15px;
+                float:left;
+                margin-top: 10px;
+                font-size: 13px;
+                text-transform:uppercase;
+                width: auto;
+                span{
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+            >li{
+                width: 100%;
+                float: left;
+            }
+            ul{
+                list-style:none;
+                float:left;
+                font-size: 10px;
+                width: 100%;
+                li.filial_caption{
+                    width:24%;
+                    float:left;
+                    margin-right:1%;
+                    height: 130px;
+                    a{
+                        margin-bottom: 15px;
+                        color: #737373; 
+                        text-transform:uppercase;
+                        font-size: 12px;
+                        font-weight:bold;
+                        display:block;
+                        width:100%;
+                    }
+                    img{
+                        max-height: 115px;
+                    }
+                }     
+            }
+        }
+        
     }
     .search
     {
@@ -653,6 +712,14 @@ header:after{
             color: rgb(0, 136, 115);
             text-decoration: underline;
             cursor: default;
+        }
+    }
+    .breadcrumbs{
+        float: right;
+        margin: 10px;
+        a{
+            color:rgb(0, 136, 115);
+            font-size:12px;
         }
     }
 }
@@ -1388,22 +1455,20 @@ footer
         ul.menu_products_list{
             width: 215px;
             position: absolute;
-            height: 46px;
+            height: 42px;
             margin: auto 0;
             top: 0px;
             bottom: 0px;
             right: 0px;
-            border-radius: 4px;
+            border-radius: 0 0 4px 0;
             border: 2px solid;
             overflow: hidden;
             z-index:999;
             li:first-child{
                 height:100%;
-                border-radius: 4px 4px 0px 0px;
                 border-top: none;
                 border-bottom: none;
                 a{
-                    border-radius: 4px 4px 0px 0px;
                     padding-right: 30px;
                     display: block;
                 }
