@@ -342,7 +342,7 @@ header:after{
             {
                 .clr;
             }
-            div
+            > div
             {
                 .reset(1em);
                 display: none;
@@ -385,7 +385,15 @@ header:after{
                     .time_to_buy_bottom_right
                     {
                         bottom: 1em;
-                        right: 0;
+                        right: 6px;
+                        height: auto;
+                        font-size: 24px;
+                        color: rgb(210, 35, 45);
+                        top: auto;
+                        left: auto;
+                        background: none;
+                        text-transform: uppercase;
+                        text-shadow: 1px 2px 0px rgb(255, 255, 255);
                     }
                     .time_to_buy_bottom_left
                     {
@@ -405,15 +413,15 @@ header:after{
                 }
 
             }
-            div:after
+            > div:after
             {
                 .clr;
             }
-            div.active_tab
+            > div.active_tab
             {
                 display: block;
             }
-            div#features_content
+            > div#features_content
             {
                 table
                 {
@@ -443,6 +451,48 @@ header:after{
                         padding: 4px 7px;
                         border-color: rgb(200, 200, 200);
                         p{.reset;}
+                    }
+                }
+            }
+            > div#media_content
+            {
+                span.photo_icon
+                {
+                    background: url("/images/icon-photo.png") no-repeat left center;
+                    padding-left: 27px;
+                    font-size: 18px;
+                    margin: 1em;
+                    line-height: 30px;
+                }
+                span.video_icon
+                {
+                    background: url("/images/icon-video.png") no-repeat left center;
+                    padding-left: 27px;
+                    font-size: 18px;
+                    margin: 1em;
+                    line-height: 3.5em;
+                }
+                #gallery, #video
+                {
+                    padding: 1em 0 1.5em;
+                    background: url("/images/bottom-line.png") no-repeat center bottom;
+                    .galleria-container{
+                        margin: 0 auto;
+                        background: none;
+                    }
+                }
+                #video
+                {
+                    margin-top: -130px;
+                    .galleria-info
+                    {
+                        bottom: auto;
+                        top: 500px;
+                        .galleria-info-text
+                        {
+                            width: 575px;
+                            margin: 0 auto;
+                        }
                     }
                 }
             }

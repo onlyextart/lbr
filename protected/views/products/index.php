@@ -1,4 +1,6 @@
 <?php
+Yii::app()->clientScript->registerCssFile('/js/galleria/themes/classic/galleria.classic.css');
+Yii::app()->clientScript->registerScriptFile('/js/galleria/galleria-1.2.9.min.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/product.js');
 
 $h1 = $data->name;
@@ -9,6 +11,7 @@ $tech = $data->features;
 $constr = $data->construct_features;
 $exp = $data->experience;
 $img = $data->productGalleries;
+$videos = $data->productVideos;
 ?>
 <h1><? echo $h1; ?></h1>
 <div class="product_content">
@@ -36,16 +39,48 @@ $img = $data->productGalleries;
     <? echo  $constr ? '<div id="construct_content">'.$constr.'</div>' : ''; ?>
     <? echo  $exp ? '<div id="experience_content">'.$exp.'</div>' : ''; ?>
     <? 
-        if ($img)
+        if ($img || $videos)
         {
             echo '<div id="media_content">';
-            foreach ($img as $image)
-            {
-                echo '<img src="'.$image->path.'" ';
-                echo 'alt="'.str_replace(array('"', '\'', '/', '\\'), '', $image->alt ? $image->alt: 'Фото '.$data->name).'" ';
-                echo 'title="'.str_replace(array('"', '\'', '/', '\\'), '', $image->title ? $image->title:'Фото '.$data->name).'" ';
-                echo $image->description ? 'data-description="'.str_replace(array('"', '\'', '/', '\\'), '', $image->description).'">':'';
-            }
+                if ($img)
+                {
+                    echo '<span class="photo_icon">Фото</span>';
+                    echo '<div id="gallery">';
+                    foreach ($img as $image)
+                    {
+                        echo '<img src="'.$image->path.'" ';
+                        echo 'alt="'.str_replace(array('"', '\'', '/', '\\'), '', $image->alt ? $image->alt: 'Фото '.$data->name).'" ';
+                        echo 'title="'.str_replace(array('"', '\'', '/', '\\'), '', $image->title ? $image->title:'Фото '.$data->name).'" ';
+                        echo $image->description ? 'data-description="'.str_replace(array('"', '\'', '/', '\\'), '', $image->description).'">':'';
+                    }
+                    echo '</div>';
+                }
+                if ($videos)
+                {
+                    echo '<span class="video_icon">Видео</span>';
+                    echo '<div id="video">';
+                    echo "<script>var data = [";
+                    foreach ($videos as $video)
+                    {
+                        echo "{
+                                video: '".$video->video_code."',
+                                title: '".$h1."',
+                                description: '".$video->description."'
+                            },";
+                    }
+                    echo "];
+                        Galleria.run('#video', {
+                            dataSource: data,
+                            height: 750,
+                            _toggleInfo: false,
+                            debug: false,
+                            imageCrop: 'width', 
+                            maxVideoSize: '600'
+
+                        });
+                        </script>";
+                    echo '</div>';
+                }
             echo '</div>';
         }
     ?>

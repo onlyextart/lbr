@@ -10,5 +10,19 @@ $(document).ready(function(){
             $('#'+_self.attr('id')+'_content').fadeIn(300, function(){$(this).addClass('active_tab')});
         })
         _self.addClass('active_tab');
+        if($(this).attr('id')=='media'){
+            Galleria.loadTheme('/js/galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#gallery', {
+                thumbCrop: "height",
+                height: 600,
+                _toggleInfo: false,
+                debug: false,
+                extend: function() {
+                    this.bind('image', function(e) {
+                        $('#gallery .galleria-info-text').animate({'padding':'12px '+(22+parseInt(e.imageTarget.style.left))+'px'}, 100)
+                    });
+                }
+            });
+        }
     })
 })
