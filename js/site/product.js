@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    
+    var makers = new AjaxMakersDescriptionLoader();
+    makers.Option.makerContainer = ".p_maker_container";
+    makers.Option.oneMaker = ".p_one_maker";
+    makers.AddingEventHandlers();
+    
     $('.product_tab_button li').click(function(){
         if($(this).hasClass('active_tab'))
             return;

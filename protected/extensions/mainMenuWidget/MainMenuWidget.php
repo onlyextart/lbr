@@ -55,7 +55,7 @@ class MainMenuWidget extends CWidget
         $this->firstLevelItems = $this->rootMenuItem->descendants()->with('group')->findAll(
                 'level='.($this->startLevel)
         );
-        if(Yii::app()->params['currentMenuItem']!==MenuItems::BANNERS_MENU_ITEM_TYPE || Yii::app()->params['currentMenuItem']!==MenuItems::PRODUCT_MENU_ITEM_TYPE){
+        if(Yii::app()->params['currentMenuItem']->type!=MenuItems::BANNERS_MENU_ITEM_TYPE && Yii::app()->params['currentMenuItem']->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE){
             return;
         }
         

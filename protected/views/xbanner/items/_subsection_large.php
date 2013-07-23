@@ -36,7 +36,7 @@ $link = CategoryUrlRule::getUrl($link_id['id']);
                         <? }else{?>
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
-                                <div class="b_images_one_image_caption"></div>
+                                <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
                             <? }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
                             <? }?>

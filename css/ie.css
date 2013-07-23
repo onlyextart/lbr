@@ -24,7 +24,6 @@
 .xbanners_container .xbanners .second_banner_dieci .b_header h3 a,
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
-.wrapper #content .product_content,
 .wrapper #content .product_content ul.product_tab_button, 
 .wrapper #content .product_content ul.product_tab_button li:first-child
 {
@@ -41,8 +40,10 @@
     border-radius: 4px;
     behavior: url(PIE.htc);
 }
-.wrapper #content .product_content ul.product_tab_button
+.wrapper #content .product_wrapper .product_content ul.product_tab_button, .wrapper #content .product_wrapper .product_content ul.product_tab_button li
 {
+    zoom: 1;
+    position: relative;
     z-index: 1;
 }
 #makerDescription
@@ -52,7 +53,7 @@
     box-shadow: 0px 0px 4px 1px rgb(150, 150, 150);
     behavior: url(PIE.htc);
 }
-/*-----------IE7-----------ONLY------*/
+
 .xbanners_container .xbanners .first_banner .b_header
 {
     min-height: 50px;
@@ -66,13 +67,52 @@
 {
     height: 145px;
 }
-.wrapper #content .product_content:before {
-    top:10px;
-    bottom:10px;
-    left:0;
-    right:0;
+.wrapper #content .product_wrapper .product_content:after
+{
+    content:"";
+    display: block;
+    position: absolute;
     z-index: -1;
-    box-shadow:0 0 10px rgba(0,0,0,0.5);
-    border-radius: 10px / 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    background: white;
+    border-radius: 3px;
+}
+.wrapper #content .product_wrapper .product_content:before
+{
+    content:"";
+    top: 10px;
+    left: 0;
+    display: block;
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px -3px rgb(50,50,50);
+    border-radius: 10px ;
+}
+.wrapper #content .product_wrapper .product_content
+{
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
     behavior: url(PIE.htc);
+    
+}
+.wrapper #content .product_wrapper .product_header
+{
+    padding-bottom: 13px;
+}
+.wrapper #content .product_wrapper .product_content > div div.review_photo,
+.wrapper #content .product_wrapper .product_content > div div.review_video 
+{
+    margin-bottom: 15px;
+    margin-bottom: 0px\0/;
+}
+.wrapper #content .product_wrapper .product_content > div#features_content
+{
+    margin-top: 1em;
+    margin-top: 0\0/;
 }
