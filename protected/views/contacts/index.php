@@ -1,6 +1,5 @@
 <?php
 /* @var $this ContacsController */
-$this->breadcrumbs=Yii::app()->params['breadcrumbs'];
 Yii::app()->clientScript->registerCssFile('/css/form.css');
 ?>
 <style>

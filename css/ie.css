@@ -106,7 +106,13 @@
     padding-bottom: 13px;
 }
 .wrapper #content .product_wrapper .product_content > div div.review_photo,
-.wrapper #content .product_wrapper .product_content > div div.review_video 
+}
+.main_menu_wrapper .main_menu_second_level li span {
+    display: none;
+    behavior: url(PIE.htc);
+}
+.main_menu_wrapper .main_menu_third_level ul.menu_products_list li {
+background-color: #FFFFFF;.wrapper #content .product_wrapper .product_content > div div.review_video 
 {
     margin-bottom: 15px;
     margin-bottom: 0px\0/;

@@ -972,6 +972,44 @@ header:after {
 .xbanners_container .xbanners .one_banner .b_images {
   position: relative;
 }
+.xbanners_container .xbanners .one_banner .b_images .banner_loading_overflow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.1);
+}
+.xbanners_container .xbanners .one_banner .b_images .banner_loading_overflow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+.xbanners_container .xbanners .one_banner .b_images ul.banner_images_map {
+  list-style: none;
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  padding: 0;
+  margin: 0;
+}
+.xbanners_container .xbanners .one_banner .b_images ul.banner_images_map li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  background: #0f9797;
+  height: 100%;
+}
+.xbanners_container .xbanners .one_banner .b_images ul.banner_images_map li.active {
+  background: #f67f19;
+}
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow {
   width: 100%;
   position: relative;
@@ -1058,6 +1096,9 @@ header:after {
 }
 .xbanners_container .xbanners .first_banner .b_images {
   height: 250px;
+}
+.xbanners_container .xbanners .first_banner .b_images ul.banner_images_map {
+  top: 250px;
 }
 .xbanners_container .xbanners .first_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image {
   width: 480px;
@@ -1154,14 +1195,22 @@ header:after {
   width: 430px;
   float: left;
 }
+.xbanners_container .xbanners .third_banner .b_images ul.banner_images_map,
+.xbanners_container .xbanners .second_banner_custrom .b_images ul.banner_images_map {
+  top: 270px;
+}
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image {
   width: 430px;
-  height: 270px;
+  min-height: 270px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   overflow: hidden;
+}
+.xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image img,
+.xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image img {
+  height: 270px;
 }
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p {
@@ -1227,6 +1276,10 @@ header:after {
   line-height: 37px;
   margin: 0;
   padding: 0px 0px 0px 2em;
+}
+.xbanners_container .xbanners .second_banner_large .b_images ul.banner_images_map,
+.xbanners_container .xbanners .second_banner_dieci .b_images ul.banner_images_map {
+  top: 320px;
 }
 .xbanners_container .xbanners .second_banner_large .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
 .xbanners_container .xbanners .second_banner_dieci .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image {
@@ -1605,26 +1658,27 @@ footer .f-right {
   height: 100%;
   border-top: none;
   border-bottom: none;
+  margin: 0px;
 }
 .main_menu_wrapper .main_menu_third_level ul.menu_products_list li:first-child a {
+  padding: 2px 5px;
   padding-right: 30px;
   display: block;
 }
 .main_menu_wrapper .main_menu_third_level ul.menu_products_list li:first-child a:after {
   content: '';
-  height: 20px;
-  width: 35px;
+  height: 15px;
+  width: 30px;
   position: absolute;
   right: 2px;
   display: block;
   background: url('/images/openList.png');
-  top: 12px;
+  top: 15px;
 }
 .main_menu_wrapper .main_menu_third_level ul.menu_products_list li {
-  background-color: rgba(240,240,240,0.9);
+  background-color: rgba(240,240,240,0.93);
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #cccccc;
-  padding: 2px 5px;
 }
 .main_menu_wrapper .main_menu_third_level ul.menu_products_list li a {
   text-decoration: none;

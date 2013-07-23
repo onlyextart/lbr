@@ -141,9 +141,9 @@
             <span class="bottom-more">Подробнее...</span>
         </div>
         <?}?>
-        <?php if(isset($this->breadcrumbs)):?>
+        <?php if(!empty(Yii::app()->params['breadcrumbs'])):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
+			'links'=>Yii::app()->params['breadcrumbs'],
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
     </div>
