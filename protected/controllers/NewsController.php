@@ -4,9 +4,8 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-		$newsmodels = News::newsmodel()->findAllByAttributes(array('id'=>12));
-                
-        $this->render('index', array('newsmodels'=>$newsmodels));
+            
+            //$this->render('index', array('newsmodels'=>$newsmodels));
 	}
     
     public function actionView()

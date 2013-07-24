@@ -337,10 +337,10 @@ header .menu.main .menuMainTop li a span {
   word-wrap: break-word;
 }
 header .menu.main .menuMainTop li:hover {
-  background: #e3ffe1;
+  background: #EDFFEC;
 }
 header .menu.main .menuMainTop li.active {
-  background: #e3ffe1;
+  background: #EDFFEC;
   border-radius: 5px 5px 0 0;
   box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
   color: #f67f19;
@@ -992,6 +992,7 @@ header:after {
   height: 3px;
   padding: 0;
   margin: 0;
+  background: #0f9797;
 }
 .xbanners_container .xbanners .one_banner .b_images ul.banner_images_map li {
   padding: 0;
@@ -1190,7 +1191,8 @@ header:after {
 }
 .xbanners_container .xbanners .third_banner .b_images ul.banner_images_map,
 .xbanners_container .xbanners .second_banner_custrom .b_images ul.banner_images_map {
-  top: 270px;
+  top: 267px;
+  overflow: hidden;
 }
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image {
@@ -1444,7 +1446,7 @@ footer .f-right {
   height: 20px;
   padding-left: 209px;
   position: relative;
-  background: #e3ffe1;
+  background: #EDFFEC;
 }
 .main_menu_wrapper .main_menu_first_level li {
   float: left;
@@ -1460,14 +1462,14 @@ footer .f-right {
   background: transparent;
 }
 .main_menu_wrapper .main_menu_first_level li.active {
-  background: #e3ffe1;
+  background: #EDFFEC;
   box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
 }
 .main_menu_wrapper .main_menu_first_level li.active a {
   color: #f67f19;
 }
 .main_menu_wrapper .main_menu_first_level li:hover {
-  background: #e3ffe1;
+  background: #EDFFEC;
 }
 .main_menu_wrapper .main_menu_first_level:after {
   content: "";
@@ -1481,7 +1483,7 @@ footer .f-right {
 }
 .main_menu_wrapper .main_menu_second_level {
   position: relative;
-  background: #e3ffe1;
+  background: #EDFFEC;
 }
 .main_menu_wrapper .main_menu_second_level li {
   float: left;

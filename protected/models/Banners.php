@@ -162,4 +162,33 @@ class Banners extends CActiveRecord
             $types[Banners::DIECI_BANNER_TYPE] = 'DIECI';
             return $types;
         }
+        
+        protected function afterSave(){
+            parent::afterSave();
+            if(!is_dir($_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$this->id)){
+                mkdir($_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$this->id);
+            }
+            return true;
+        }
+        
+        public function moveUploadedImages(){
+            $bannerImages = BannerImages::model()->findAll(
+                array(
+                    'condition'=>'banner_id=:banner_id',
+                    'params'=>array(
+                        ':banner_id'=>$this->id,
+                    ), 
+                    'group'=>'path',
+                )
+            );
+            foreach($bannerImages as $bannerImage){
+                if(strpos($bannerImage->path, 'uploaded')!==false){
+                    $filenameArray = explode('/', trim($bannerImage->path,'\/'));
+                    copy (  $_SERVER['DOCUMENT_ROOT'].$bannerImage->path,  $_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$this->id.'/'.$filenameArray[(count($filenameArray)-1)] );
+                    unlink (  $_SERVER['DOCUMENT_ROOT'].$bannerImage->path );
+                    $bannerImage->path = '/images/banners/'.$this->id.'/'.$filenameArray[(count($filenameArray)-1)];
+                    $bannerImage->save();
+                }
+            }
+        }
 }

@@ -382,6 +382,67 @@ class MenuItems extends CActiveRecord
                     ),
                 ));
             }
+            else{
+                $gridId = rand();
+                switch($this->type){
+                    case self::CONTACT_MENU_ITEM_TYPE:
+                        $modelName = 'Contacts';
+                        $columnName = 'name';
+                        break;
+                    case self::PRODUCT_MENU_ITEM_TYPE:
+                        $modelName = 'Products';
+                        $columnName = 'name';
+                        break;
+                    case self::NEWS_MENU_ITEM_TYPE:
+                        $modelName = 'News';
+                        $columnName = 'header';
+                        break;
+                    case self::STATIC_MENU_ITEM_TYPE:
+                        $modelName = 'Pages';
+                        $columnName = 'name';
+                        break;
+                }
+                Yii::app()->getController()->widget('zii.widgets.grid.CGridView', array(
+                    'dataProvider'=>$dataProvider,
+                    'ajaxUrl'=>Yii::app()->request->requestUri,
+                    'summaryText'=>false,
+                    'id'=>'menu_item_content_table',
+                    'htmlOptions'=>array(
+                        'style'=>'margin-right:15px;',
+                    ),
+                    'columns'=>array(
+                        array(
+                            'header'=>'Имя', 
+                            'value'=>$modelName.'::model()->findByPk($data->page_id)->'.$columnName,
+                        ),
+                        array(
+                            'class'=>'CButtonColumn',
+                            'template'=>'{update}',
+                            'buttons'=>array(
+                                'update'=>array(
+                                    'url'=>'"/administrator/'.$modelName.'/update/id/".$data->page_id',
+                                    'click'=>'function(e){
+                                            if(e.isDefaultPrevented()) return;
+                                            alertify.set({ labels: {
+                                            ok     : "Да",
+                                            cancel : "Нет"
+                                        }});
+                                        var href = this.href;
+                                        alertify.confirm("Перейти на страницу редактирования записи?", function (e) {
+                                                if (e) {
+                                                        window.location = href;
+                                                } else {
+                                                        return false;
+                                                }
+                                        });
+                                        return false;
+                                    }',
+                                ),
+                            ),
+                        ),
+                    ),
+                ));
+            }
         }
         
         //Метод возвращает все типы пунктов меню в виде массива, где:
@@ -395,13 +456,6 @@ class MenuItems extends CActiveRecord
             $types[MenuItems::NEWS_MENU_ITEM_TYPE] = 'Страница новости';
             return $types;
         }
-        
-        /*public function defaultScope()
-        {
-                return array(
-                    'order'=>$this->getTableAlias(false, false).'.root DESC'
-                );
-        }*/
         
         static function getItemIdByPath($path){
         if( $path === ''){

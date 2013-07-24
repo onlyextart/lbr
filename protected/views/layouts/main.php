@@ -72,7 +72,7 @@
             <ul class="menuMainTop">
                 <?php $href='selskohozyaystvennaya-tehnika'; ?>
                 <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
-                        Yii::app()->request->cookies['rootmenualias']->value =='selskohozyaystvennaya-tehnika') echo 'class="active"' ?> >
+                        (Yii::app()->request->cookies['rootmenualias']->value =='selskohozyaystvennaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
                     <a href="/selskohozyaystvennaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict1.png" alt="Сельскохозяйственная техника">
                         <span>Сельхоз техника</span>
@@ -80,7 +80,7 @@
                 </li>
                 <?php $href='stroitelnaya-tehnika'; ?>
                 <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
-                        Yii::app()->request->cookies['rootmenualias']->value =='stroitelnaya-tehnika') echo 'class="active"' ?> >
+                        (Yii::app()->request->cookies['rootmenualias']->value =='stroitelnaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
                     <a href="/stroitelnaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict4.png" alt="Строительная техника">
                         <span>Строительная техника</span>
@@ -88,7 +88,7 @@
                 </li>
                 <?php $href='komunalnaya-tehnika'; ?>
                 <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
-                        Yii::app()->request->cookies['rootmenualias']->value =='komunalnaya-tehnika') echo 'class="active"' ?> >
+                        (Yii::app()->request->cookies['rootmenualias']->value =='komunalnaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
                     <a href="/komunalnaya-tehnika/">
                         <img src="/images/mainMenuIcon/toppict5.png" alt="Коммунальная техника">
                         <span>Коммунальная техника</span>
@@ -141,7 +141,7 @@
             <span class="bottom-more">Подробнее...</span>
         </div>
         <?}?>
-        <?php if(!empty(Yii::app()->params['breadcrumbs'])):?>
+        <?php if(!empty(Yii::app()->params['breadcrumbs']) && Yii::app()->params['currentMenuItem']->level!=1):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>Yii::app()->params['breadcrumbs'],
 		)); ?><!-- breadcrumbs -->

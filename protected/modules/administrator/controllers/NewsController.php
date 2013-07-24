@@ -20,32 +20,6 @@ class NewsController extends Controller
 	}
 
 	/**
-	 * Specifies the access control rules.
-	 * This method is used by the 'accessControl' filter.
-	 * @return array access control rules
-	 */
-//	public function accessRules()
-//	{
-//		return array(
-//			array('allow',   allow all users to perform 'index' and 'view' actions
-//				'actions'=>array('index','view'),
-//				'users'=>array('*'),
-//			),
-//			array('allow',  allow authenticated user to perform 'create' and 'update' actions
-//				'actions'=>array('create','update'),
-//				'users'=>array('@'),
-//			),
-//			array('allow',  allow admin user to perform 'admin' and 'delete' actions
-//				'actions'=>array('admin','delete'),
-//				'users'=>array('admin'),
-//			),
-//			array('deny',   deny all users
-//				'users'=>array('*'),
-//			),
-//		);
-//	}
-
-	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
@@ -159,4 +133,66 @@ class NewsController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
+        public function actionTransfer(){
+            exit();
+            $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
+            $connectionJlbrDb->active=true;
+            function lower($str){return mb_strtolower($str, "UTF-8");}
+            Yii::app()->db->getPdoInstance()->sqliteCreateFunction('lower', 'lower', 1);
+            $allRegionalNewsFromJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_news")->queryAll();
+            $rootModel = MenuItems::model()->findByPk(723);
+            foreach ($allRegionalNewsFromJlbr as $regionalNewsFromJlbr){
+                $jlbrNews = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_content WHERE id='".$regionalNewsFromJlbr[id_news]."'")->queryRow();
+                if(is_array($jlbrNews) && !empty($jlbrNews)){
+                    $checkNewsModel = News::model()->findByPk($jlbrNews[id]);
+                    if($checkNewsModel !== null)
+                        continue;
+                    var_dump($jlbrNews[id]);
+                    var_dump(count($filialsJlbr));
+                    echo('-------------<br>');
+                    $newsModel = new News;
+                    $newsModel->id = $jlbrNews[id];
+                    $newsModel->header = $jlbrNews[title];
+                    $newsModel->alias = $jlbrNews[alias];
+                    $newsModel->date = $jlbrNews[created];
+                    $newsModel->published = '1';
+                    $newsModel->save();
+                    $filialsJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_region where id IN(".$regionalNewsFromJlbr[id_region].") GROUP BY alias")->queryAll();
+                    if(count($filialsJlbr)==23){
+                        $newsRegionModel = new NewsRegion;
+                        $newsRegionModel->filial_id = Yii::app()->params['defaultRegionId'];
+                        $newsRegionModel->news_id = $jlbrNews[id];
+                        $newsRegionModel->content = $jlbrNews[fulltext];
+                        $newsRegionModel->description = $jlbrNews[introtext];
+                        $newsRegionModel->save();
+                    }
+                    else{
+                        foreach($filialsJlbr as $filial){
+                            $newsRegionModel = new NewsRegion;
+                            $filialModel = Contacts::model()->find('alias=:alias', array(':alias'=>$filial[alias]));
+                            $newsRegionModel->filial_id = $filialModel->id;
+                            $newsRegionModel->news_id = $jlbrNews[id];
+                            $newsRegionModel->content = $jlbrNews[fulltext];
+                            $newsRegionModel->description = $jlbrNews[introtext];
+                            $newsRegionModel->save();
+                        }
+                    }
+                    $menuModel = new MenuItems();
+                    $menuModel->name = $jlbrNews[title];
+                    $menuModel->alias = $jlbrNews[id].'-'.$jlbrNews[alias];
+                    $menuModel->meta_title = $jlbrNews[title];
+                    $menuModel->header = $jlbrNews[title];
+                    $menuModel->group_id = 27;
+                    $menuModel->published = '1';
+                    $menuModel->type = MenuItems::NEWS_MENU_ITEM_TYPE;
+                    $menuModel->appendTo($rootModel);
+                    
+                    $menuContentModel = new MenuItemsContent;
+                    $menuContentModel->item_id = $menuModel->id;
+                    $menuContentModel->page_id = $jlbrNews[id];
+                    $menuContentModel->save();
+                }
+            }
+        }
 }

@@ -77,6 +77,7 @@ class BannersController extends Controller
                                     }
                                 }
                             }
+                            $bannerModel->moveUploadedImages();
                             Yii::app()->user->setFlash('saved','Баннер создан.');
                             $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
                         }
@@ -141,7 +142,6 @@ class BannersController extends Controller
                                     foreach( $allBannerImagesInThisRegionModel as $deletedImageModel ){
                                         $deletedImageModel->delete();
                                     }
-                                    
                                 }
                                 //Нет массива изображений с задданным регионом (удалить все изображения)
                                 else{
@@ -235,6 +235,7 @@ class BannersController extends Controller
                                     }
                                 }
                             }
+                            $bannerModel->moveUploadedImages();
                             Yii::app()->user->setFlash('saved','Баннер сохранен.');
                             $this->redirect('http://lbr/administrator/banners/update/id/'.$bannerModel->id);
                         }

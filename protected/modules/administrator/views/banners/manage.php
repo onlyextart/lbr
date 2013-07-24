@@ -8,7 +8,7 @@ if( $bannerModel->isNewRecord ){
     $pageHeader = 'Создание нового баннера';
 }
 else{
-    $pageHeader = 'Редактирование баннера ';
+    $pageHeader = 'Редактирование баннера "'.$bannerModel->bannerRegions[0]->name.'"';
 }
 ?>
 
@@ -86,17 +86,24 @@ tinymce.myOptions = {
     .imageFeature{width:98%;}
     .makers_table input{
         width:auto;
+        min-height: 0px;
+        box-shadow:none;
     }
     .makers_table td{
         width:14%;
     }
+    ul.menuTreeView{
+        padding-right: 10px;
+    }
     ul.menuTreeView  .menuItemCheckBox{
         width: auto;
         height: auto;
-        margin: 0px 20px 0px 0px;
+        margin: 2px 15px 0px 0px;
         padding: 0px;
         position: absolute;
         right: 20px;
+        box-shadow:none;
+        min-height:0px;
     }
     ul.menuTreeView li.even_menu_item{
         background-color: #F5F5F5;

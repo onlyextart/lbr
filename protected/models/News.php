@@ -101,7 +101,7 @@ class News extends CActiveRecord
     public function beforeSave ()
     {
         if($this->isNewRecord) 
-            $this->created = time("Y-m-d H:i:s)");
+            //$this->date = time("Y-m-d H:i:s");
         return parent::beforeSave();
     }
     
