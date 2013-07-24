@@ -14,6 +14,8 @@ $constr = $data->construct_features;
 $exp = $data->experience;
 $img = $data->productGalleries;
 $videos = $data->productVideos;
+
+$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias.'/';
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);
@@ -31,7 +33,7 @@ if ($data->maker)
         </div>
     <?}?>
         <h1><? echo $h1; ?></h1>
-        <a class="contact-with-manager-but">Связаться с менеджером</a>
+        <a href="<? echo $link_manager;?>" class="contact-with-manager-but">Связаться с менеджером</a>
         <a class="download-pdf-but">Скачать описание</a>
     </div>
     <div class="product_content">

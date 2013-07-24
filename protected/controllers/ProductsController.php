@@ -10,7 +10,7 @@ class ProductsController extends Controller{
         }
         $content = Products::model()->with(array(
                                             'productsRegions'=>array(
-                                                            'condition'=>'productsRegions.filial_id=0',
+                                                            'condition'=>'productsRegions.filial_id='.Yii::app()->params['defaultRegionId'].' OR productsRegions.filial_id='.Yii::app()->params['regionId'],
                                                             ),
                                             'productGalleries',
                                             'productVideos'

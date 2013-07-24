@@ -66,7 +66,7 @@ function AjaxMakersDescriptionLoader(){
             $.ajax({
                 'url': _self.Option.loadUrl,
                 'data': {id: id, ajax: true},
-                'success': function(html){_self.ShowDesc(html, id);}
+                'success': function(html){if(html!=''){_self.ShowDesc(html, id);}}
             })
         }
     }
@@ -81,52 +81,61 @@ function AjaxMakersDescriptionLoader(){
     // Позиционирование всплывающего описания производителя
     this.Positioning = function()
     {
+        var container = $('#'+_self.Option.descContainerId);
+        var arrow = $('#makerArrow');
+        var scrollTop = $(document).scrollTop();
+        var w_height = $(window).height();
+        var w_width = $(window).width(); 
+        
         // Показать описание производителя
-        $('#'+_self.Option.descContainerId).css({'visibility':'visible'}).animate({'opacity':'1'}, 500);
+        container.css({'visibility':'visible'}).animate({'opacity':'1'}, 500);
+        
 
         // Регулировка максимальной ширины и выравнивание по левому краю.
-        if (_left+_width<($(window).width()/2)) 
+        if (_left+_width<(w_width/2)) 
         // Справа от лого производителя
         {
-            $('#'+_self.Option.descContainerId).css({
-                'max-width':Math.abs(_self.Option.maxContainerWidth-(_left+_width-($(window).width()-_self.Option.maxContainerWidth)/2))-80+'px',
+            container.css({
+                'max-width':Math.abs(_self.Option.maxContainerWidth-(_left+_width-(w_width-_self.Option.maxContainerWidth)/2))-60+'px',
                 'left':_left+_width+20+'px',
                 'right': 'auto'
             });
-            $('#makerClose').css('left', '100%');
-            $('#makerArrow').css({'right': '100%', 'left':'auto', 'border-right-color':'#FFA500', 'border-left-color':'transparent'});
+            arrow.css({'right': '100%', 'left':'auto', 'border-right-color':'#FFA500', 'border-left-color':'transparent'});
         }else // Слева от лого производителя
         {
-            $('#'+_self.Option.descContainerId).css({
-                'max-width':Math.abs(_left-($(window).width()-_self.Option.maxContainerWidth)/2)-60+'px',
-                'right':$(window).width()-_left+20+'px',
+            container.css({
+                'max-width':Math.abs(_left-(w_width-_self.Option.maxContainerWidth)/2)-60+'px',
+                'right':w_width-_left+20+'px',
                 'left': 'auto'
             });
-            $('#makerClose').css({'right': '100%', 'left':'auto'});
-            $('#makerArrow').css({'left': '100%', 'right':'auto', 'border-right-color':'transparent', 'border-left-color':'#FFA500'});
+            arrow.css({'left': '100%', 'right':'auto', 'border-right-color':'transparent', 'border-left-color':'#FFA500'});
         }
-        var scrollTop = $(document).scrollTop();
-        var h = parseInt($('#'+_self.Option.descContainerId).innerHeight()/2);
+        
         // Регулировка выравнивания по высоте
-        if (_top-scrollTop-40>$('#'+_self.Option.descContainerId).innerHeight())
+        if ((_top-scrollTop-20)>container.innerHeight())
         // Сверху от логотипа производителя
         {
-            $('#'+_self.Option.descContainerId).css('top',_top-$('#'+_self.Option.descContainerId).innerHeight()+30);
-        }else if($(window).height()-(_top-scrollTop)>$('#'+_self.Option.descContainerId).innerHeight())
+            container.css('top',_top-container.innerHeight()+40);
+            arrow.css({'top':'auto', 'bottom':'15px'});
+        }else if(w_height-_top+scrollTop>container.innerHeight())
         // Снизу от логотипа производителя
         {
-            $('#'+_self.Option.descContainerId).css('top',_top);
-            $('#makerArrow').css({'top':'5px', 'bottom':'auto'});
-        }else if(h<(_top-scrollTop-40))
+            container.css('top',_top-20);
+            arrow.css({'top':'15px', 'bottom':'auto'});
+        }else if(container.innerHeight()/2<(w_height-_top+scrollTop-20) && container.innerHeight()/2<(_top-scrollTop-20) && (container.innerHeight()+20)<w_height)
         // По центру логотипа производителя
         {
-            $('#'+_self.Option.descContainerId).css('top',_top-$('#'+_self.Option.descContainerId).innerHeight()/2);
-            $('#makerArrow').css({'top':$('#'+_self.Option.descContainerId).innerHeight()/2-3+'px', 'bottom':'auto'});
-        }else 
+            container.css('top',_top-container.innerHeight()/2);
+            arrow.css({'top':container.innerHeight()/2-3+'px', 'bottom':'auto'});
+        }else if (_top-20>scrollTop)
         // Во всех остальных случаях выравнивает по верхней линии окна
         {
-            $('#'+_self.Option.descContainerId).css('top',scrollTop);
-            $('#makerArrow').css({'top':_top-scrollTop+'px', 'bottom':'auto'});
+            container.css('top',scrollTop+20);
+            arrow.css({'top':(_top-scrollTop-20)+'px', 'bottom':'auto'});
+        }else
+        {
+            container.css('top',scrollTop);
+            arrow.css({'top':(_top-scrollTop)+'px', 'bottom':'auto'});
         }
         return true;
     }

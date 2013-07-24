@@ -321,7 +321,7 @@ header:after{
             .product_header
             {
                 //product header
-                .reset;
+                .reset(0 0 1em);
                 position: relative;
                 width: 100%;
                 height: 50px;
@@ -334,6 +334,7 @@ header:after{
                     font-size: 1.7em;
                     width: 500px;
                     height: 50px;
+                    color: rgb(51,51,51);
                     .reset;
                 }
                 //product maker
@@ -370,18 +371,23 @@ header:after{
                     position: absolute;
                     top: 0;
                     .btn;
+                    text-transform: none;
+                    font-size: 13px;
+                    margin-right: 0;
                 }
                 a.download-pdf-but
                 {
                     .grey;
                     margin-top: 10px;
                     right: 0;
+                    text-shadow: none;
                 }
                 a.contact-with-manager-but
                 {
                     .orange;
                     margin-top: 10px;
                     right: 155px;
+                    text-shadow: none;
                 }
             }
             .product_header:after
@@ -395,6 +401,8 @@ header:after{
                 position:relative;
                 .reset();
                 background: rgb(255, 255, 255);
+                border: 1px solid #E6E6E6;
+                .rounded;
                 ul.product_tab_button
                 {
                     oveflow: hidden;
@@ -584,6 +592,7 @@ header:after{
                     }
                     #video
                     {
+                        background: none;
                         margin-top: -130px;
                         .galleria-info
                         {
@@ -605,7 +614,7 @@ header:after{
                     }
                 }
             }
-            .product_content:after, .product_content:before
+            /*.product_content:after, .product_content:before
             {
                 content:"";
                 display: block;
@@ -622,7 +631,7 @@ header:after{
                 box-shadow:0 0 10px rgba(0,0,0,0.5);
                 -moz-border-radius:10px / 100px;
                 border-radius:10px / 100px;
-            }
+            }*/
         }
         .contacts_list{
             list-style:none;
@@ -1344,6 +1353,7 @@ footer
     border: 1px solid rgb(255, 165, 0);
     .box-shadow;
     padding:0 1em;
+    z-index: 999;
     .makerContent
     {
         img{
@@ -1356,14 +1366,14 @@ footer
     #makerClose
     {
         position: absolute;
-        width: 25px;
-        height: 25px;
-        top: 5px;
-        left: 100%;
+        width: 21px;
+        height: 20px;
+        top: 3px;
+        right: 3px;
         background: rgb(255, 165, 0);
         color: white;
         .reset;
-        line-height: 24px;
+        line-height: 18px;
         text-align: center;
         .rounded(3px);
         cursor: default;

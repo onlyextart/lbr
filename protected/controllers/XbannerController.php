@@ -15,8 +15,8 @@ class XbannerController extends Controller{
         $criteria->condition = 't.id IN ('.implode(',', $id).') AND t.published=1';
         $criteria->join = 'LEFT JOIN menu_items_content ON menu_items_content.page_id=t.id';
         $criteria->order = 'menu_items_content.sorting ASC';
-        $criteria->compare('bannerRegions.filial_id', '0');
-        $criteria->compare('bannerImages.region_id', '0');
+        $criteria->compare('bannerRegions.filial_id', array(Yii::app()->params['defaultRegionId'], Yii::app()->params['regionId']));
+        $criteria->compare('bannerImages.region_id', array(Yii::app()->params['defaultRegionId'], Yii::app()->params['regionId']));
         $dataProvider = new CActiveDataProvider('Banners', 
                 array(
                     'criteria'=>$criteria,

@@ -25,7 +25,11 @@
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .wrapper #content .product_content ul.product_tab_button, 
-.wrapper #content .product_content ul.product_tab_button li:first-child
+.wrapper #content .product_content ul.product_tab_button li:first-child,
+.wrapper #content .product_wrapper .product_header a.contact-with-manager-but,
+.wrapper #content .product_wrapper .product_header a.download-pdf-but,
+.xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
+.xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image
 {
      behavior: url(PIE.htc);
 }
@@ -48,7 +52,7 @@
 }
 #makerDescription
 {
-    padding: 1em;
+    padding: 0 1em;
     background: white;
     box-shadow: 0px 0px 4px 1px rgb(150, 150, 150);
     behavior: url(PIE.htc);
@@ -67,7 +71,7 @@
 {
     height: 145px;
 }
-.wrapper #content .product_wrapper .product_content:after
+/*.wrapper #content .product_wrapper .product_content:after
 {
     content:"";
     display: block;
@@ -92,7 +96,7 @@
     height: 100%;
     box-shadow: 0 5px 10px -3px rgb(50,50,50);
     border-radius: 10px ;
-}
+}*/
 .wrapper #content .product_wrapper .product_content
 {
     position: relative;
@@ -122,3 +126,9 @@ background-color: #FFFFFF;.wrapper #content .product_wrapper .product_content > 
     margin-top: 1em;
     margin-top: 0\0/;
 }
+
+.wrapper #content .product_wrapper .product_header 
+{
+    margin-bottom: 0;
+}
+
