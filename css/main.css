@@ -306,7 +306,11 @@ header {
 }
 header .logo {
   float: left;
-  margin-top: 20px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+header .logo .region a {
+  color: #169684;
 }
 header .menu.main {
   float: left;
@@ -329,6 +333,7 @@ header .menu.main .menuMainTop li {
 header .menu.main .menuMainTop li a {
   color: #333;
   text-decoration: none;
+  display: block;
 }
 header .menu.main .menuMainTop li a span {
   display: block;
@@ -376,6 +381,32 @@ header .map a span {
   color: #008672;
   margin-top: 6px;
   margin-left: 13px;
+}
+header #top_banner {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background-color: #727272;
+  border-radius: 5px 5px 5px 5px;
+  margin: -3px auto 20px;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+header #top_banner p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 28px;
+}
+header #top_banner p span {
+  color: orange;
+}
+header #top_banner:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 header:after {
   content: "";
@@ -433,6 +464,9 @@ header:after {
 .wrapper #content .form form#login-form .row.buttons input.btn {
   float: right;
   margin-right: 0;
+}
+.wrapper #content .form form#login-form .row.buttons .btn:hover {
+  text-decoration: underline;
 }
 .wrapper #content .form form#login-form .row.error input {
   background: #FEE;
@@ -492,6 +526,7 @@ header:after {
   left: 0;
   right: 0;
   margin: auto;
+  cursor: pointer;
 }
 .wrapper #content .product_wrapper .product_header .p_maker_container:after {
   content: '';
@@ -532,16 +567,12 @@ header:after {
   margin-right: 0;
 }
 .wrapper #content .product_wrapper .product_header a.download-pdf-but {
-  text-shadow: 0 1px 0 #AEAEAE;
-  background-color: #858585;
-  background-image: -moz-linear-gradient(#AEAEAE,#858585);
-  background-image: -webkit-linear-gradient(#AEAEAE,#858585);
-  background-image: linear-gradient(#AEAEAE,#858585);
-  background-repeat: repeat-x;
-  border: 1px solid #858585;
   margin-top: 10px;
   right: 0;
   text-shadow: none;
+  background: url("/images/download.png") no-repeat left center;
+  line-height: 30px;
+  padding-left: 27px;
 }
 .wrapper #content .product_wrapper .product_header a.contact-with-manager-but {
   text-shadow: 0 1px 0 #FE9600;
@@ -552,7 +583,7 @@ header:after {
   background-repeat: repeat-x;
   border: 1px solid #FE6000;
   margin-top: 10px;
-  right: 155px;
+  right: 165px;
   text-shadow: none;
 }
 .wrapper #content .product_wrapper .product_header:after {
@@ -630,7 +661,7 @@ header:after {
   float: left;
   margin: 0;
   padding: 0;
-  height: 300px;
+  height: 313px;
   position: relative;
   overflow: hidden;
 }
@@ -837,6 +868,9 @@ header:after {
   padding: 0 1em;
   line-height: 20px;
 }
+.wrapper .search .search-form form .btn:hover {
+  text-decoration: underline;
+}
 .wrapper .search .search-form form h1 {
   margin: 0;
   float: left;
@@ -1037,6 +1071,7 @@ header:after {
   height: 56px;
   top: 50%;
   margin-top: -28px;
+  z-index: 1;
 }
 .xbanners_container .xbanners .one_banner .b_images .scrollRight {
   position: absolute;
@@ -1047,9 +1082,13 @@ header:after {
   height: 56px;
   top: 50%;
   margin-top: -28px;
+  z-index: 1;
 }
 .xbanners_container .xbanners .one_banner .b_caption {
   min-height: 3.2em;
+}
+.xbanners_container .xbanners .one_banner .b_caption .btn:hover {
+  text-decoration: underline;
 }
 .xbanners_container .xbanners .one_banner .b_header:after,
 .xbanners_container .xbanners .one_banner .b_images:after,
@@ -1127,6 +1166,7 @@ header:after {
   padding: 0;
 }
 .xbanners_container .xbanners .first_banner .b_caption .b_makers .b_one_maker img {
+  cursor: pointer;
   height: 26px;
 }
 .xbanners_container .xbanners .first_banner .b_caption .b_makers:after {
@@ -1148,6 +1188,9 @@ header:after {
   position: absolute;
   bottom: 2.8em;
   right: 1em;
+}
+.xbanners_container .xbanners .first_banner .b_caption .btn:hover {
+  text-decoration: underline;
 }
 .xbanners_container .xbanners .first_banner:nth-child(2n+1) {
   margin-right: 20px;
@@ -1182,6 +1225,7 @@ header:after {
 }
 .xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker img,
 .xbanners_container .xbanners .second_banner_custrom .b_header .b_makers .b_one_maker img {
+  cursor: pointer;
   height: 26px;
 }
 .xbanners_container .xbanners .third_banner .b_images,
@@ -1235,6 +1279,10 @@ header:after {
   position: absolute;
   bottom: 1em;
   right: 1em;
+}
+.xbanners_container .xbanners .third_banner .b_caption .btn:hover,
+.xbanners_container .xbanners .second_banner_custrom .b_caption .btn:hover {
+  text-decoration: underline;
 }
 .xbanners_container .xbanners .third_banner .b_header:after,
 .xbanners_container .xbanners .third_banner .b_images:after,
@@ -1328,6 +1376,10 @@ header:after {
   bottom: 1em;
   right: 1em;
 }
+.xbanners_container .xbanners .second_banner_large .b_caption .btn:hover,
+.xbanners_container .xbanners .second_banner_dieci .b_caption .btn:hover {
+  text-decoration: underline;
+}
 .xbanners_container .xbanners .second_banner_large .b_header:after,
 .xbanners_container .xbanners .second_banner_large .b_images:after,
 .xbanners_container .xbanners .second_banner_large .b_caption:after,
@@ -1378,6 +1430,27 @@ footer .f-center a {
 footer .f-right {
   float: right;
 }
+footer .f-right .f-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 50px;
+}
+footer .f-right .f-nav li {
+  float: left;
+}
+footer .f-right .f-nav li a {
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 2px 4px;
+}
+footer .f-right .f-nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 #makerDescription {
   position: absolute;
   -moz-box-shadow: 0 0px 4px 1px rgba(50,50,50,0.5);
@@ -1421,7 +1494,7 @@ footer .f-right {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  cursor: default;
+  cursor: pointer;
 }
 #makerDescription #makerArrow {
   height: 0;

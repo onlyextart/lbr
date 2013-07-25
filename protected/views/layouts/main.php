@@ -1,6 +1,6 @@
 <?php /* @var $this Controller */ 
-//$less = new lessc;
-//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+$less = new lessc;
+$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 <!DOCTYPE html >
 <html>
@@ -130,6 +130,9 @@
                 <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
             </a>
         </div>
+        <? if (Yii::app()->params['currentMenuItem']->level==1){?>
+            <div id="top_banner"><p>Более <span>2 тысяч</span> единиц техники на <span>22 площадках</span> по всей россии. <span>100 тысяч</span> позиций запасных частей в наличии.</p></div>
+        <?}?>
     </header>
     <div class="wrapper">
         <?php $this->widget('ext.mainMenuWidget.MainMenuWidget'); ?>
@@ -160,7 +163,13 @@
             <?php } ?>
         </div>
         <div class="f-right">
-            
+            <ul class="f-nav">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/company/">О компании</a></li>
+                <li><a href="/company/vacancy/">Вакансии</a></li>
+                <li class="parent"><a href="/company/contacts/">Контакты</a></li>
+                <li><a href="/sitemap/">Карта сайта</a></li>
+            </ul>
         </div>
     </footer>
 </body>

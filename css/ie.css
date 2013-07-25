@@ -29,7 +29,8 @@
 .wrapper #content .product_wrapper .product_header a.contact-with-manager-but,
 .wrapper #content .product_wrapper .product_header a.download-pdf-but,
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
-.xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image
+.xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
+header #top_banner
 {
      behavior: url(PIE.htc);
 }
@@ -109,14 +110,17 @@
 {
     padding-bottom: 13px;
 }
-.wrapper #content .product_wrapper .product_content > div div.review_photo,
+.wrapper #content .product_wrapper .product_content > div div.review_photo{
 }
 .main_menu_wrapper .main_menu_second_level li span {
     display: none;
     behavior: url(PIE.htc);
 }
-.main_menu_wrapper .main_menu_third_level ul.menu_products_list li {
-background-color: #FFFFFF;.wrapper #content .product_wrapper .product_content > div div.review_video 
+.main_menu_wrapper .main_menu_third_level ul.menu_products_list li
+{
+    background-color: #FFFFFF;
+}
+.wrapper #content .product_wrapper .product_content > div div.review_video 
 {
     margin-bottom: 15px;
     margin-bottom: 0px\0/;
@@ -130,5 +134,10 @@ background-color: #FFFFFF;.wrapper #content .product_wrapper .product_content > 
 .wrapper #content .product_wrapper .product_header 
 {
     margin-bottom: 0;
+}
+header #top_banner
+{
+    margin-top: 5px;
+    margin-top: -5px\0/;
 }
 

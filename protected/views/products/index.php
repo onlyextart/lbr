@@ -33,8 +33,8 @@ if ($data->maker)
         </div>
     <?}?>
         <h1><? echo $h1; ?></h1>
-        <a href="<? echo $link_manager;?>" class="contact-with-manager-but">Связаться с менеджером</a>
-        <a class="download-pdf-but">Скачать описание</a>
+        <a href="<? echo $link_manager;?>" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
+        <a class="download-pdf-but" title="Скачать описание">Скачать описание</a>
     </div>
     <div class="product_content">
         <ul class="product_tab_button">
@@ -51,7 +51,7 @@ if ($data->maker)
                     Yii::app()->getController()->renderPartial('review_image', array('data'=>$data));
                 }
                 if($review_video)
-                    echo '<div class="review_video"><iframe width="470" height="300" src="'.$review_video.'" frameborder="0" allowfullscreen></iframe></div>';
+                    echo '<div class="review_video"><iframe width="470" height="313" src="'.$review_video.'" frameborder="0" allowfullscreen></iframe></div>';
                 echo '<br class="clr">';
                 echo $review;
                 echo '</div>';

@@ -138,7 +138,12 @@ header
     .logo
     {
         float: left;
-        margin-top: 20px;
+        margin-top: 14px;
+        margin-bottom: 6px;
+        .region
+        {
+            a {color:#169684}
+        }
     }
     .class
     {
@@ -166,6 +171,7 @@ header
                 {
                     color: #333;
                     text-decoration: none;
+                    display: block;
                     span
                     {
                         display: block;
@@ -225,6 +231,32 @@ header
                 margin-left: 13px;
             }
         }   
+    }
+    #top_banner
+    {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(114, 114, 114);
+        border-radius: 5px 5px 5px 5px;
+        .reset(-3px auto 20px, 0);
+        float: left;
+        width: 100%;
+        p
+        {
+            .reset;
+            text-align: center;
+            line-height: 28px;
+            span
+            {
+                color: orange;
+            }
+        }
+    }
+    #top_banner:after
+    {
+        .clr;
     }
 }
 header:after{
@@ -287,6 +319,10 @@ header:after{
                     {
                         float: right;
                         margin-right: 0;
+                    }
+                    .btn:hover
+                    {
+                        text-decoration: underline;
                     }
                 }
                 .row.error
@@ -356,7 +392,8 @@ header:after{
                             bottom: 0;
                             left: 0;
                             right: 0;
-                            margin: auto
+                            margin: auto;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -377,16 +414,18 @@ header:after{
                 }
                 a.download-pdf-but
                 {
-                    .grey;
                     margin-top: 10px;
                     right: 0;
                     text-shadow: none;
+                    background: url("/images/download.png") no-repeat left center;
+                    line-height: 30px;
+                    padding-left: 27px;
                 }
                 a.contact-with-manager-but
                 {
                     .orange;
                     margin-top: 10px;
-                    right: 155px;
+                    right: 165px;
                     text-shadow: none;
                 }
             }
@@ -461,7 +500,7 @@ header:after{
                         width: 50%;
                         float: left;
                         .reset;
-                        height: 300px;
+                        height: 313px;
                         position: relative;
                         overflow: hidden;
                         img
@@ -721,6 +760,10 @@ header:after{
                     padding: 0 1em;
                     line-height: 20px;
                 }
+                .btn:hover
+                {
+                    text-decoration: underline;
+                }
                 h1
                 {
                     margin: 0;
@@ -944,6 +987,7 @@ header:after{
                     height: 56px;
                     top: 50%;
                     margin-top: -28px;
+                    z-index: 1;
                 }
                 .scrollRight
                 {
@@ -955,6 +999,7 @@ header:after{
                     height: 56px;
                     top: 50%;
                     margin-top: -28px;
+                    z-index: 1;
                 }
             }
             .b_caption
@@ -965,6 +1010,10 @@ header:after{
                 }
                 .btn
                 {
+                }
+                .btn:hover
+                {
+                    text-decoration: underline;
                 }
             }
             .b_header:after, .b_images:after, .b_caption:after
@@ -1054,6 +1103,7 @@ header:after{
                         .reset(0 .5em 0 0);
                         img
                         {
+                            cursor: pointer;
                             height: 26px;
                         }
                     }
@@ -1075,6 +1125,10 @@ header:after{
                     position: absolute;
                     bottom: 2.8em;
                     right: 1em;
+                }
+                .btn:hover
+                {
+                    text-decoration: underline;
                 }
             }
         }
@@ -1111,6 +1165,7 @@ header:after{
                         .reset(0 .5em 0 0);
                         img
                         {
+                            cursor: pointer;
                             height: 26px;
                         }
                     }
@@ -1178,6 +1233,10 @@ header:after{
                     position: absolute;
                     bottom: 1em;
                     right: 1em;
+                }
+                .btn:hover
+                {
+                    text-decoration: underline;
                 }
             }
             .b_header:after, .b_images:after, .b_caption:after
@@ -1283,6 +1342,10 @@ header:after{
                     bottom: 1em;
                     right: 1em;
                 }
+                .btn:hover
+                {
+                    text-decoration: underline;
+                }
             }
             .b_header:after, .b_images:after, .b_caption:after
             {
@@ -1339,6 +1402,28 @@ footer
     .f-right
     {
         float: right;
+        .f-nav
+        {
+            list-style: none;
+            .reset;
+            position: relative;
+            top: 50px;
+            li
+            {
+                float: left;
+                a
+                {
+                    color: rgb(51, 51, 51);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: 2px 4px;
+                }
+            }
+        }
+        .f-nav:after
+        {
+            .clr;
+        }
     }
 }
 
@@ -1379,7 +1464,7 @@ footer
         line-height: 18px;
         text-align: center;
         .rounded(3px);
-        cursor: default;
+        cursor: pointer;
     }
     #makerArrow
     {
