@@ -116,7 +116,10 @@ header #top_banner
     display: none;
     behavior: url(PIE.htc);
 }
-.main_menu_wrapper .main_menu_third_level ul.menu_products_list li
+.main_menu_wrapper .main_menu_third_level ul.menu_products_list li {
+    background-color: #FFFFFF;
+}
+.wrapper #content .product_wrapper .product_content > div div.review_video 
 {
     background-color: #FFFFFF;
 }
@@ -141,3 +144,9 @@ header #top_banner
     margin-top: -5px\0/;
 }
 
+.main_menu_third_level #third_level_menu li a{
+    height: 17px; display: block;
+}
+div.main_menu_wrapper .main_menu_third_level >ul#third_level_menu >li a.active{
+    height: 17px; display: block;
+}

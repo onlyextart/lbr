@@ -31,7 +31,7 @@
                     echo CHtml::openTag(
                             'a',
                             array(
-                                'class'=>$colorCssClass,
+                                'class'=>$colorCssClass.' ',
                                 'href'=>$secondLevelItem->path,
                             )
                     );
@@ -47,7 +47,7 @@
                         $nextItem = $this->secondLevelItems[($itemNum+$itemsInGroup)];
                     }
                     if($itemsInGroup>1 && $secondLevelItem->group->id!==$this->secondLevelItems[($itemNum-1)]->group->id){
-                        echo('<span class="menu_group_name" style="width:'.($itemsInGroup*125).'px;">'.$secondLevelItem->group->name.'</span>');
+                        echo('<span class="menu_group_name '.$colorCssClass.'" style="width:'.($itemsInGroup*125).'px;">'.$secondLevelItem->group->name.'</span>');
                         
                     }
                 echo CHtml::closeTag('li');

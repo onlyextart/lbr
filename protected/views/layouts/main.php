@@ -41,7 +41,7 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                 <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
             </a>
             <div class="region">
-                 <p style="font-size: 13px; font-weight: bold; margin-top: 0px;"> Ваш регион: <span class="contact-top-span">
+                 <p style="font-size: 13px; font-weight: bold; margin: 0px;"> Ваш регион: <span class="contact-top-span">
                  <a href="/contacts/getregionstable/" id="show_regions_table_button">Не выбран</a></span></p>
                  <script>
                     $(function(){

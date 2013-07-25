@@ -191,6 +191,30 @@
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_26 a:after {
   background: #ffffff;
 }
+.menu_color_group_27 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.main_menu_wrapper .main_menu_second_level li.menu_color_group_27 a:after {
+  background: #ffffff;
+}
+.menu_color_group_28 {
+  background-color: #b3e2f8;
+  border-color: #b3e2f8;
+  color: #b3e2f8;
+}
+.main_menu_wrapper .main_menu_second_level li.menu_color_group_28 a:after {
+  background: #b3e2f8;
+}
+.menu_color_group_29 {
+  background-color: #ffffaa;
+  border-color: #ffffaa;
+  color: #ffffaa;
+}
+.main_menu_wrapper .main_menu_second_level li.menu_color_group_29 a:after {
+  background: #ffffaa;
+}
 body {
   font-size: 13px;
   font-family: 'Trebuchet MS';
@@ -342,13 +366,13 @@ header .menu.main .menuMainTop li a span {
   word-wrap: break-word;
 }
 header .menu.main .menuMainTop li:hover {
-  background: #EDFFEC;
+  background: #e1eded;
 }
 header .menu.main .menuMainTop li.active {
-  background: #EDFFEC;
+  background: #e1eded;
   border-radius: 5px 5px 0 0;
   box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
-  color: #f67f19;
+  color: #f7f7f7;
 }
 header .menu.second {
   float: left;
@@ -1517,9 +1541,7 @@ footer .f-right .f-nav:after {
 }
 .main_menu_wrapper .main_menu_first_level {
   height: 20px;
-  padding-left: 209px;
   position: relative;
-  background: #EDFFEC;
 }
 .main_menu_wrapper .main_menu_first_level li {
   float: left;
@@ -1535,14 +1557,14 @@ footer .f-right .f-nav:after {
   background: transparent;
 }
 .main_menu_wrapper .main_menu_first_level li.active {
-  background: #EDFFEC;
+  background: #e1eded;
   box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
 }
 .main_menu_wrapper .main_menu_first_level li.active a {
   color: #f67f19;
 }
 .main_menu_wrapper .main_menu_first_level li:hover {
-  background: #EDFFEC;
+  background: #e1eded;
 }
 .main_menu_wrapper .main_menu_first_level:after {
   content: "";
@@ -1556,7 +1578,12 @@ footer .f-right .f-nav:after {
 }
 .main_menu_wrapper .main_menu_second_level {
   position: relative;
-  background: #EDFFEC;
+  background: -moz-linear-gradient(top,#ffffff,#ededed);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#ededed));
+  background: -webkit-linear-gradient(top,#ffffff,#ededed);
+  background: -o-linear-gradient(top,#ffffff,#ededed);
+  background: -ms-linear-gradient(top,#ffffff,#ededed);
+  background: linear-gradient(top,#ffffff,#ededed);
 }
 .main_menu_wrapper .main_menu_second_level li {
   float: left;
@@ -1575,7 +1602,7 @@ footer .f-right .f-nav:after {
   position: absolute;
   z-index: 10;
   display: block;
-  bottom: -7px;
+  bottom: 0px;
 }
 .main_menu_wrapper .main_menu_second_level li span {
   position: absolute;
@@ -1588,16 +1615,22 @@ footer .f-right .f-nav:after {
   z-index: 150;
   top: 0px;
   opacity: 1;
-  line-height: 11px;
-  font-size: 11px;
+  line-height: 14px;
+  font-size: 12px;
   text-align: center;
 }
 .main_menu_wrapper .main_menu_second_level .active {
   box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
   border-radius: 5px;
+  background: #e1eded;
+}
+.main_menu_wrapper .main_menu_second_level .active a {
+  border: 2px solid;
+  border-radius: 5px;
+  height: 96px;
 }
 .main_menu_wrapper .main_menu_second_level li:hover {
-  background: #bde5ba;
+  background: #e1eded;
 }
 .main_menu_wrapper .main_menu_second_level a {
   display: block;
@@ -1606,16 +1639,6 @@ footer .f-right .f-nav:after {
   height: 100%;
   background: transparent;
   background-color: transparent;
-}
-.main_menu_wrapper .main_menu_second_level a:after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 12px;
-  background-color: transparent;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 .main_menu_wrapper .main_menu_second_level:after {
   content: '';
@@ -1691,6 +1714,8 @@ footer .f-right .f-nav:after {
   border-radius: 5px;
   background: transparent;
   background-color: transparent;
+  height: 17px;
+  display: block;
 }
 .main_menu_wrapper .main_menu_third_level >ul#third_level_menu li:hover {
   background: #00a68d;
