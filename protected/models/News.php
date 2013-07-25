@@ -42,7 +42,7 @@ class News extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('header, alias, created, published, content', 'safe'),
+			array('header, created, published, content', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, header, alias, created, published, content', 'safe', 'on'=>'search'),
@@ -101,7 +101,7 @@ class News extends CActiveRecord
     public function beforeSave ()
     {
         if($this->isNewRecord) 
-            //$this->date = time("Y-m-d H:i:s");
+            $this->date = date("Y-m-d H:i:s");
         return parent::beforeSave();
     }
     

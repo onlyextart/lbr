@@ -105,7 +105,7 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@lbr.ru',
                 'defaultRegionId'=>0,
-                'regionId'=>1,
+                'regionId'=>0,
                 'superGroup'=>1,
                 'menuadmin'=>array(
                     'Меню'=>array(

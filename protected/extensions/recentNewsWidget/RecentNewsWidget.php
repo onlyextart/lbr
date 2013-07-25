@@ -1,18 +1,30 @@
 <?php
 class RecentNewsWidget extends CWidget {
     
-    public function actionIndex()
-	{
-		$models = News::model()->findAllByAttributes(array('id'=>12));
-                
-        $this->render('index', array('models'=>$models));
+    public function init()
+	{		              
+ 
 	}
     
-    public function actionView()
+    public function run()
 	{
-		$model = News::model()->findAllByAttributes(array('id'=>12));
-                
-        $this->render('view', array('model'=>$model));
+	   if(Yii::app()->params['currentMenuItem']->level!=1)
+	    return;
+        $eventModels = News::model()->with(
+        array(
+            'newsRegions'=>array(
+                // we don't want to select posts
+                //'select'=>false,
+                // but want to get only users with published posts
+                'joinType'=>'INNER JOIN',
+                'condition'=>'newsRegions.filial_id='.Yii::app()->params['regionId'],
+            ),
+        )
+        )->findAll(array(
+            'condition'=>'published=1',
+            'limit'=>4,
+        ));   
+        $this->render('index', array('eventModels'=>$eventModels));
 	}
 }
 

@@ -20,7 +20,7 @@ class RegionsController extends Controller
 
   public function actionUpdate()
     {
-        $regionModel = Regions::model()->findAll($_GET['id']);
+        $regionModel = Regions::model()->findByPk($_GET['id']);
         if($regionModel === null){
             $this->redirect('/administrator/regions'); 
         }

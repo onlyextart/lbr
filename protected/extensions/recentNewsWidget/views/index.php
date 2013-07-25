@@ -1,10 +1,59 @@
+<style>
+    .info_block {
+        float: left;
+        font: 12px Arial, 'Trebuchet MS', sans-serif;
+        margin: 10px 0 20px 0;
+    }
+    #news_header {
+        background: url("../images/heading.png") no-repeat;
+        height: 25px;
+        width: 333px;
+        padding: 0 20px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    #news_header a {
+        font: bold 14px/25px "Trebuchet MS",Arial,Helvetica,sans-serif;
+        color: white;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .news {
+        float: left;
+        width: 23%;
+        margin: 10px 0 0 20px;
+    }
+    .news_date {
+        color: #FE6700;
+        display: block;
+    }
+    .wrapper:after {
+content: '';
+display: block;
+clear: both;
+}
+    
+</style>
+<div class="info_block">
+<div id="news_header">
+<a href="http://www.lbr.ru/company/events/">–ù–æ–≤–æ—Å—Ç–∏ –õ–ë–†-–ê–ì–†–û–ú–ê–†–ö–ï–¢</a> 
+</div>
+
 <?php
-	foreach ($models as $one){
-	   echo CHtml::link('<h3>'.$one->header.'</h3>', array('view'));
-       echo substr($one->content,0,1247); 
-       echo '<br />';
-       echo CHtml::link('◊ËÚ‡Ú¸ ‰‡ÎÂÂ...', array ('view', 'id'=>$one->id));
-       echo '<hr />';
-	}
+    
+	foreach ($eventModels as $recent){?>
+	   <div class="news">
+       <span class="news_date"><?=$recent->date?></span>
+           <a href="http://www.lbr.ru"><?php 
+           echo $recent->header;
+           //echo $recent->newsRegions[0]->description;
+           ?> </a>
+       </div>
+<?
+
+    }
     
 ?>
+</div>

@@ -26,10 +26,3 @@ $this->widget('zii.widgets.grid.CGridView', array(
 
 ?>
 <a href="/administrator/regions/create/" class="btn btn-green" >Создать регион</a>
-<script>
-    $(function() {
-        <?php if(Yii::app()->user->hasFlash('saved')): ?>
-            alertify.success("<?php echo Yii::app()->user->getFlash('saved'); ?>");
-        <?php endif; ?>
-    });
-</script>

@@ -136,6 +136,7 @@
         </div>
 	<?php endif?>
     </div>
+   
     <footer>
         <div class="f-left">
             <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
