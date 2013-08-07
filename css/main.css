@@ -335,6 +335,7 @@ header .logo {
 }
 header .logo .region a {
   color: #169684;
+  cursor: pointer;
 }
 header .menu.main {
   float: left;
@@ -369,10 +370,10 @@ header .menu.main .menuMainTop li:hover {
   background: #e1eded;
 }
 header .menu.main .menuMainTop li.active {
-  background: #e1eded;
-  border-radius: 5px 5px 0 0;
-  box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
+  background: #F7F7F7;
   color: #f7f7f7;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #0f9797;
 }
 header .menu.second {
   float: left;
@@ -1559,8 +1560,7 @@ footer .f-right .f-nav:after {
   background: transparent;
 }
 .main_menu_wrapper .main_menu_first_level li.active {
-  background: #e1eded;
-  box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
+  background: #F7F7F7;
 }
 .main_menu_wrapper .main_menu_first_level li.active a {
   color: #f67f19;
@@ -1622,8 +1622,7 @@ footer .f-right .f-nav:after {
   text-align: center;
 }
 .main_menu_wrapper .main_menu_second_level .active {
-  box-shadow: inset 1px 1px 6px rgba(0,0,0,0.5);
-  border-radius: 5px;
+  border-radius: 4px;
   background: #e1eded;
 }
 .main_menu_wrapper .main_menu_second_level .active a {
@@ -1632,7 +1631,7 @@ footer .f-right .f-nav:after {
   height: 96px;
 }
 .main_menu_wrapper .main_menu_second_level li:hover {
-  background: #e1eded;
+  background: #DFDFDF;
 }
 .main_menu_wrapper .main_menu_second_level a {
   display: block;

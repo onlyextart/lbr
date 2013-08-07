@@ -149,6 +149,6 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
             </ul>
         </div>
     </footer>
-    <?php // $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
+    <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
 </body>
 </html>
