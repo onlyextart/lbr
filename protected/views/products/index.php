@@ -43,6 +43,7 @@ if ($data->maker)
             <? echo  strip_tags($constr) ? '<li id="construct">Конструкционные особенности</li>' : ''; ?>
             <? echo  strip_tags($exp) ? '<li id="experience">Опыт эксплуатации</li>' : ''; ?>
             <? echo  $img ? '<li id="media">Фото и видео</li>' : ''; ?>
+            <? echo Yii::app()->user->checkAccess('readHowToSell')? '<li id="howtosell">Как продавать</li>':''; ?>
         </ul>
         <?
             if (strip_tags($review)){
@@ -105,6 +106,12 @@ if ($data->maker)
                     }
                 echo '</div>';
             }
+        ?>
+        <?
+        if (Yii::app()->user->checkAccess('readHowToSell'))
+        {
+            Yii::app()->getController()->renderPartial('how-to-sell/default', array('data'=>$data->howToSells));
+        }
         ?>
     </div>
 </div>

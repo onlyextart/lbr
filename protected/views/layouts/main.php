@@ -41,31 +41,8 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                 <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
             </a>
             <div class="region">
-                 <p style="font-size: 13px; font-weight: bold; margin: 0px;"> Ваш регион: <span class="contact-top-span">
-                 <a href="/contacts/getregionstable/" id="show_regions_table_button">Не выбран</a></span></p>
-                 <script>
-                    $(function(){
-                        $('#show_regions_table_button').click(function(e){
-                            e.preventDefault();
-                            $.ajax({
-                                url:$(this).attr('href'),
-                                type:'POST',
-                                data:{requesrUri:"<?php echo Yii::app()->request->requestUri; ?>"},
-                                success:function(data){
-                                    $('body').append($(data));
-                                },
-                                error:function(){
-                                    alert('Ошибка запроса к серверу.');
-                                }
-                            });
-                        });
-                        $(document).on('click', '.regions_table_cover', function(){
-                            $(this).remove();
-                            $('.regions_table_wrapper').remove();
-                        });
-                    });
-                 </script>
-                           
+                 <p style="font-size: 13px; font-weight: bold; margin-top: 0px;"> Ваш регион: <span class="contact-top-span">
+                 <a id="show_regions_table_button">Не выбран</a></span></p>                        
         </div>
         </div>
         <div class="menu main">
@@ -73,15 +50,15 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                 <?php $href='selskohozyaystvennaya-tehnika'; ?>
                 <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
                         (Yii::app()->request->cookies['rootmenualias']->value =='selskohozyaystvennaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
-                    <a href="/selskohozyaystvennaya-tehnika/">
+                    <a href="/selskohozyaystvennaya-tehnika/type/">
                         <img src="/images/mainMenuIcon/toppict1.png" alt="Сельскохозяйственная техника">
                         <span>Сельхоз техника</span>
                     </a>
                 </li>
                 <?php $href='stroitelnaya-tehnika'; ?>
-                <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
+                <!--<li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
                         (Yii::app()->request->cookies['rootmenualias']->value =='stroitelnaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
-                    <a href="/stroitelnaya-tehnika/">
+                    <a href="/stroitelnaya-tehnika/type/">
                         <img src="/images/mainMenuIcon/toppict4.png" alt="Строительная техника">
                         <span>Строительная техника</span>
                     </a>
@@ -89,11 +66,11 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                 <?php $href='komunalnaya-tehnika'; ?>
                 <li <?php if(is_numeric(strpos( mb_strtolower(Yii::app()->request->requestUri), $href)) || 
                         (Yii::app()->request->cookies['rootmenualias']->value =='komunalnaya-tehnika' && Yii::app()->params['currentMenuItem']->level==5)) echo 'class="active"' ?> >
-                    <a href="/komunalnaya-tehnika/">
+                    <a href="/komunalnaya-tehnika/type/">
                         <img src="/images/mainMenuIcon/toppict5.png" alt="Коммунальная техника">
                         <span>Коммунальная техника</span>
                     </a>
-                </li>
+                </li>-->
                 <li>
                     <a href="/zapchasty/">
                         <img src="/images/mainMenuIcon/toppict2.png" alt="Запасные части">
@@ -111,10 +88,10 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
         <div class="menu second">
             <ul class="menuStaticTop">
                 <li>
-                    <a href="/company/" title="О компании">ЛБР</a>
+                    <a href="/company/" title="О компании">О компании</a>
                 </li>
                 <li>
-                    <a href="/company/vacancy/" title="Карьера">Карьера</a>
+                    <a href="/company/vacancy/" title="Вакансии">Вакансии</a>
                 </li>
                 <li>
                     <a href="/search/" title="Поиск по сайту">Поиск</a>
@@ -172,5 +149,6 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
             </ul>
         </div>
     </footer>
+    <?php // $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
 </body>
 </html>
