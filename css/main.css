@@ -984,6 +984,7 @@ header:after {
 .wrapper .breadcrumbs {
   float: right;
   margin: 10px;
+  font-size: 12px;
 }
 .wrapper .breadcrumbs a {
   color: #008873;

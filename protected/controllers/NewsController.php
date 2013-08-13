@@ -5,7 +5,17 @@ class NewsController extends Controller
 	public function actionIndex()
 	{
             
-            //$this->render('index', array('newsmodels'=>$newsmodels));
+            $dataProvider = new CActiveDataProvider ('News', 
+                array(
+                    //'criteria'=>$criteria,
+                    'pagination'=>array(
+                        'pageSize'=>'10'
+                    )
+                )
+            );
+            //var_dump($dataProvider->getData());
+            
+            $this->render('index', array('dataProvider'=>$dataProvider));
 	}
     
     public function actionView()

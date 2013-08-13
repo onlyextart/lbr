@@ -1,6 +1,6 @@
 <?php /* @var $this Controller */ 
-$less = new lessc;
-$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+//$less = new lessc;
+//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 <!DOCTYPE html >
 <html>
@@ -41,7 +41,7 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                 <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
             </a>
             <div class="region">
-                 <p style="font-size: 13px; font-weight: bold; margin-top: 0px;"> Ваш регион: <span class="contact-top-span">
+                 <p style="font-size: 13px; font-weight: bold; margin: 0px;"> Ваш регион: <span class="contact-top-span">
                  <a id="show_regions_table_button">Не выбран</a></span></p>                        
         </div>
         </div>
@@ -122,9 +122,18 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
         </div>
         <?}?>
         <?php if(!empty(Yii::app()->params['breadcrumbs']) && Yii::app()->params['currentMenuItem']->level!=1):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>Yii::app()->params['breadcrumbs'],
-		)); ?><!-- breadcrumbs -->
+        <div class="breadcrumbs">
+            <?php $this->widget('zii.widgets.CBreadcrumbs', array(
+                    'links'=>Yii::app()->params['breadcrumbs'],
+                    'activeLinkTemplate'=>'<span typeof="v:Breadcrumb"><a property="v:title" rel="v:url" href="{url}">{label}</a></span>',
+                    'inactiveLinkTemplate'=>'{label}',
+                    'homeLink'=>'<span typeof="v:Breadcrumb"><a property="v:title" rel="v:url" href="/">Главная</a></span>',
+                    'tagName'=>'span',
+                    'htmlOptions'=>array(
+                        'xmlns:v'=>'http://rdf.data-vocabulary.org/#',
+                    ),
+            )); ?><!-- breadcrumbs -->
+        </div>
 	<?php endif?>
     </div>
     <footer>

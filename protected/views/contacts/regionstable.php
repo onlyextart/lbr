@@ -75,6 +75,7 @@
     </h4>
     <?php 
         $districts = Regions::getDistricts();
+        $start = microtime(true);
         foreach( $districts as $districtId=>$districtName ){
             if($districtId==0 || $districtId==1 || $districtId==3 || $districtId==6){
                 echo CHtml::openTag('ul');
@@ -82,13 +83,11 @@
                 echo CHtml::openTag('li', array('class'=>'district_name'));
                     echo $districtName;
                 echo CHtml::closeTag('li');
-                $regions = Regions::model()->findAll(
-                    'district_id=:district_id', 
-                    array(':district_id'=>$districtId)
-                );
-                foreach($regions as $region){
+                $regionsD = Yii::app()->db->createCommand("SELECT *,r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
+                foreach($regionsD as $region){
                     echo CHtml::openTag('li');
-                        echo CHtml::link($region->name, 'http://www.'.$region->contact->alias.'.lbr.ru'.$_POST[requesrUri], array('title'=>$region->contact->name));
+                        $linkUrl = 'http://www.'.$region['alias'].'.lbr.ru'.$_POST['requesrUri'];
+                        echo CHtml::link($region['regionname'], $linkUrl, array('title'=>$region['regionname']));
                     echo CHtml::closeTag('li');
                 }
             if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){

@@ -19,7 +19,7 @@ class CategoryUrlRule extends CBaseUrlRule
         $routeParts = explode('/',$route);
         if(in_array($routeParts[0], self::$controllers)){
             $pathParamsString = $this->paramsToString($params);
-            return $this->getUrl($this->desiredPage->id).$routeParts[1].'?'.$pathParamsString;
+            return trim($this->getUrl($this->desiredMenuItem->id).'?'.$pathParamsString, '/');
         }
         return false;
     }
@@ -28,7 +28,9 @@ class CategoryUrlRule extends CBaseUrlRule
     {
         //$start = microtime(true);
         if( $pathInfo === ''){
-            $this->desiredMenuItem = MenuItems::model()->find('level=1');
+            $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
+                ':level'=>1,
+            ));
         }
         else{/*
             //Разбиваем запрос на массив по символу "/"
@@ -102,7 +104,21 @@ class CategoryUrlRule extends CBaseUrlRule
         }
         
         $breadcrumbs = array();
-        foreach($ancestors as $ancestor){
+        $breadcrumbsMenuBranch = $ancestors;
+        if( is_array($ancestors) && $ancestors[1]->alias=='tehnika'){
+            $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
+            if($rootmenu===null){
+                $rootmenuModel=MenuItems::model()->find('path=:path', array(':path'=>'/selskohozyaystvennaya-tehnika/type'));
+            }
+            else{
+                $rootmenuModel=MenuItems::model()->findByPk($rootmenu);
+            }
+            $breadcrumbsCurrentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$ancestors[3]->alias));
+            $breadcrumbsMenuBranch=$breadcrumbsCurrentMenuItem->ancestors()->findAll();
+            $breadcrumbsMenuBranch[] = $breadcrumbsCurrentMenuItem;
+        }
+        
+        foreach($breadcrumbsMenuBranch as $ancestor){
             if($ancestor->level == 1 || $ancestor->id == $this->desiredMenuItem->id )
                     continue;
             $breadcrumbs[$ancestor->name] = $ancestor->path;

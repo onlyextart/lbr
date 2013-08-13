@@ -16,6 +16,7 @@ class MainMenuWidget extends CWidget
             return;
         //Yii::app()->clientScript->registerCssFile('/css/menuGroups.css');
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
+        
         if($this->menuBranch[1]->alias=='tehnika'){
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu===null){
@@ -37,12 +38,15 @@ class MainMenuWidget extends CWidget
             $cookieRootmenuAlias->expire = time()+60*60*24*1; 
             Yii::app()->request->cookies['rootmenualias'] = $cookieRootmenuAlias;
         }
+        
         if( $this->currentMenuItem->level > 2 ){
             $this->rootMenuItem = $this->currentMenuItem->ancestors()->find('level=2');
         }
+        
         elseif( $this->currentMenuItem->level == 2 ){
             $this->rootMenuItem = $this->currentMenuItem;
         }
+        
         elseif( $this->currentMenuItem->level == 1 ){
             $this->rootMenuItem = $this->currentMenuItem->children()->find( 
                 array('order'=>'lft') 
@@ -55,6 +59,7 @@ class MainMenuWidget extends CWidget
         $this->firstLevelItems = $this->rootMenuItem->descendants()->with('group')->findAll(
                 'level='.($this->startLevel)
         );
+        
         if(Yii::app()->params['currentMenuItem']->type!=MenuItems::BANNERS_MENU_ITEM_TYPE && Yii::app()->params['currentMenuItem']->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE){
             return;
         }

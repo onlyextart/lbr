@@ -17,7 +17,7 @@ $(document).ready(function(){
         $.ajax({
             url: '/contacts/getregionstable/',
             type:'POST',
-            data:{requesrUri:"<?php echo Yii::app()->request->requestUri; ?>"},
+            data:{requesrUri:window.location.pathname.toString()},
             success:function(data){
                 $('body').append($(data));
             },
