@@ -333,6 +333,11 @@ header .logo {
   margin-top: 14px;
   margin-bottom: 6px;
 }
+header .logo .region {
+  position: absolute;
+  left: 0;
+  top: 87px;
+}
 header .logo .region a {
   color: #169684;
   cursor: pointer;
@@ -372,7 +377,7 @@ header .menu.main .menuMainTop li:hover {
 header .menu.main .menuMainTop li.active {
   background: #F7F7F7;
   color: #f7f7f7;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px;
   border: 1px solid #0f9797;
 }
 header .menu.second {
@@ -419,7 +424,7 @@ header #top_banner {
   float: left;
   width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 999;
 }
 header #top_banner p {
   margin: 0;
@@ -1238,6 +1243,7 @@ header:after {
 .xbanners_container .xbanners .third_banner .b_header h3,
 .xbanners_container .xbanners .second_banner_custrom .b_header h3 {
   float: left;
+  max-width: 79%;
 }
 .xbanners_container .xbanners .third_banner .b_header h3 a,
 .xbanners_container .xbanners .second_banner_custrom .b_header h3 a {
@@ -1247,6 +1253,7 @@ header:after {
 }
 .xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker,
 .xbanners_container .xbanners .second_banner_custrom .b_header .b_makers .b_one_maker {
+  max-width: 20%;
   float: right;
   margin: 0 .5em 0 0;
   padding: 0;

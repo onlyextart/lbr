@@ -3,8 +3,9 @@
 if (Yii::app()->user->checkAccess('editHowToSell'))
 {
     Yii::app()->getController()->renderPartial('how-to-sell/edit', array('data'=>$data));
+}else{
+    echo $data[0]->content;
 }
-echo $data[0]->content;
 ?>
 </div>
 <style>

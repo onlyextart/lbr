@@ -1,5 +1,7 @@
 <div class="console">
- <? var_dump($data);?>
+    <pre>
+        <? print_r($data);?>
+    </pre>
 </div>
 <style>
     .console

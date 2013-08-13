@@ -1,3 +1,14 @@
+<?
+    $header = '';
+    $content = '';
+    foreach ($menu as $item)
+    {
+        if ($item['alias']!='tehnika'){
+            $header .= '<div id="'.$item['alias'].'" class="fast-menu-header-items-'.$item['level'].'" level="'.$item['level'].'">'.$item['name'].'</div>';
+            $content .= '<div class="fast-menu-content-items" id="content-'.$item['alias'].'">'.$item['name'].'</div>';
+        }
+    } 
+?>
 <div class="adminPanel" id="adminPanel">
     <a id="administrator-panel" target="_blank" title="Панель управления" href="/administrator/">Панель управления</a>
     <span id="fast-menu" class="button">Быстрое меню</span>
@@ -6,6 +17,15 @@
         <a target="_blank" href="/administrator/products/update/id/<? echo Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id; ?>/" id="edit_page" title="Редактировать страницу товара">Редактировать</a>
     <?}?>
     <a id="shutDown" href="/users/logout/" title="Выйти">Выйти</a>
+</div>
+<div id="fast-menu-menu">
+    <div class="fast-menu-header">
+        <? echo $header; ?>
+    </div>
+    <div class="fast-menu-content">
+        <? echo $content; ?>
+    </div>
+    <span id="fast-menu-hide">x</span>
 </div>
 <style>
     .adminPanel
@@ -95,4 +115,102 @@
     {
         background-position: center -160px;
     }
+    #fast-menu-menu
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        z-index: 999;
+        background: rgba(255, 255, 255, .8);
+        /*background: rgba(168, 168, 168, .8);*/
+        /*background: rgba(149, 149, 149, .9);*/
+    }
+/*    .filter
+    {
+        filter: url(/css/filter.svg#blur);  FF, IE10 & Opera 
+        -webkit-filter: blur(3px);
+    }*/
+    #fast-menu-menu .fast-menu-header
+    {
+        width: 96%;
+        margin: 10px auto;
+        padding: 5px 0 0;
+    }
+    #fast-menu-menu .fast-menu-content
+    {
+        width: 96%;
+        margin: 10px auto;
+        padding: 5px 0 0;
+/*        border: 1px solid #F99D1C;
+        border-radius: 3px;
+        background: rgba(255,255,255,.8);*/
+        /*color: rgb(255, 255, 255);*/
+    }
+    #fast-menu-menu .fast-menu-content div
+    {
+        display: none;
+        margin: 5px 10px;
+    }
+    
+    #fast-menu-menu .fast-menu-content div:first-child
+    {
+        display: block;
+    }
+    
+    #fast-menu-menu .fast-menu-header div.fast-menu-header-items-2
+    {
+        background: url('/images/bg_admin_panel.png') repeat-x top left;
+        color: white;
+        float: left;
+        padding: 5px 10px;
+        margin: 0 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    #fast-menu-menu #fast-menu-hide
+    {
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        background: url('/images/bg_admin_panel.png') repeat-x top left;
+        color: white;
+        width: 21px;
+        line-height: 17px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        height: 20px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    #fast-menu-menu .fast-menu-header:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
 </style>
+<script>
+    $('#fast-menu').click(
+        function () {
+            if($(this).hasClass('active_item'))
+            {
+                $(this).removeClass('active_item');
+                $('#fast-menu-menu').fadeOut(300);
+            }else{
+                $(this).addClass('active_item');
+                $('#fast-menu-menu').css({'width':$(window).width(),'height':$(window).height()-32})
+                $('#fast-menu-menu').fadeIn(300);
+            }
+        }
+    );
+    $('#fast-menu-hide').click(function(){
+        $('#fast-menu').removeClass('active_item');
+        $('#fast-menu-menu').fadeOut(300);
+    })
+</script>

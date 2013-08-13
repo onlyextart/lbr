@@ -142,6 +142,9 @@ header
         margin-bottom: 6px;
         .region
         {
+            position: absolute;
+            left: 0;
+            top: 87px;
             a {color:#169684; cursor: pointer;}
         }
     }
@@ -187,7 +190,7 @@ header
             li.active{
                 background:#F7F7F7;
                 color:#f7f7f7;
-                border-radius: 3px 3px 0 0;
+                border-radius: 3px;
                 border: 1px solid rgb(15, 151, 151);
             }
         }
@@ -244,7 +247,7 @@ header
         float: left;
         width: 100%;
         position: relative;
-        z-index: 1;
+        z-index: 999;
         p
         {
             .reset;
@@ -1154,6 +1157,7 @@ header:after{
                 h3
                 {
                     float: left;
+                    max-width: 79%;
                     a
                     {
                         font-size: 1.3em;
@@ -1164,6 +1168,7 @@ header:after{
                 {
                     .b_one_maker
                     {
+                        max-width: 20%;
                         float: right;
                         .reset(0 .5em 0 0);
                         img

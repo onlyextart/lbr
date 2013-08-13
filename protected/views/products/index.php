@@ -1,5 +1,4 @@
 <?php
-
 Yii::app()->clientScript->registerCssFile('/js/galleria/themes/classic/galleria.classic.css');
 Yii::app()->clientScript->registerScriptFile('/js/galleria/galleria-1.2.9.min.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/AjaxMakersDescriptionLoader.js');

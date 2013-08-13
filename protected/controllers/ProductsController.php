@@ -4,9 +4,14 @@ class ProductsController extends Controller{
     
     public function actionIndex()
     {
+        Yii::app()->clientScript->registerScriptFile('/js/ui/jquery-ui-1.10.1.admin.min.js');
         $page_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         if (!$page_id){
              throw new CHttpException(404,Yii::t('yii','Страница не найдена'));
+        }
+        if($_POST)
+        {
+            $this->updateProduct($page_id, $_POST['editable']);
         }
         $content = Products::model()->with(array(
                                             'productsRegions'=>array(
@@ -22,6 +27,13 @@ class ProductsController extends Controller{
         if ($content){
             $this->render('index', array('data'=>$content));
         }
+    }
+    protected function updateProduct($id, $val)
+    {
+        $command = Yii::app()->db->createCommand();
+        $command->update('how_to_sell', array(
+            'content'=>$val,
+        ), 'product_id=:id', array(':id'=>$id));
     }
     
     public function actionGetPdf( $url ){

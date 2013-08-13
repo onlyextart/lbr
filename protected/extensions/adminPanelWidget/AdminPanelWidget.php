@@ -19,12 +19,26 @@ class AdminPanelWidget extends CWidget {
                     ->join('user_groups', 'user_groups.id=users.group_id')
                     ->where('users.id=:id', array(':id'=>Yii::app()->user->getState('_id')))
                     ->queryRow();
-        
-        $this->render('index', array('type'=>(int)$type, 'user'=>$user));
+        $menu = $this->getTreeList();
+        $this->render('index', array('type'=>(int)$type, 'user'=>$user, 'menu'=>$menu));
     }
     public function console($array)
     {
         $this->render('console', array('data'=>$array));
+    }
+    
+    protected function getTreeList(){
+        $array2 = Yii::app()->db->createCommand()
+                    ->select('id,alias,path,name,level,lft,rt')
+                    ->from('menu_items')
+                    ->where('level=2')
+                    ->queryAll();
+        $array3 = Yii::app()->db->createCommand()
+                    ->select('id,alias,path,name,level,lft,rt')
+                    ->from('menu_items')
+                    ->where('level=3')
+                    ->queryAll();
+        return $array2;
     }
 }
 
