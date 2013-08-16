@@ -45,6 +45,7 @@ return array(
                         'showScriptName'=>false,
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
+                                '<_a:sitemap>' => 'site/<_a>/',
 //				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 //				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 //				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
@@ -110,6 +111,7 @@ return array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
                         'Группы меню'=>'/administrator/menu/groups',
+                        'Карта сайта'=>'/administrator/menu/sitemap',
                     ),
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',

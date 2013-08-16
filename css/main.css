@@ -1850,3 +1850,6 @@ header .menu.main .menuMainTop:after {
   display: block;
   clear: both;
 }
+.sitemap a {
+  color: #008873;
+}
