@@ -98,7 +98,7 @@ class Contacts extends CActiveRecord
 			'message_email' => 'Сообщение',
 			'info' => 'Информация',
 			'images' => 'Images',
-			'oneC_id' => 'oneC_id',
+			'oneC_id' => '1C alias',
 		);
 	}
 

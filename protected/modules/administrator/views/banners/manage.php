@@ -69,7 +69,7 @@ tinymce.myOptions = {
 <h2>
     <?php echo $pageHeader ?>
 </h2>
-<style>
+<<style>
     #dialog label, #dialog input { display:block; }
     #dialog label { margin-top: 0.5em; }
     #dialog input, #dialog textarea { width: 95%; }

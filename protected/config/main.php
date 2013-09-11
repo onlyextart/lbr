@@ -131,7 +131,12 @@ return array(
                     ),
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>'/administrator/search/',
-                ),
+                    'КП'=>array(
+                        'КП'=>'/administrator/templatekp/',
+                        'Шаблоны'=>'/administrator/template/',
+                        ),
+                        
+                 ),   
                 'breadcrumbs'=>array(),
                 'districts'=>array(
                     '0'=>'Дальневосточный федеральный округ',

@@ -46,6 +46,7 @@ class News extends CActiveRecord
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, header, alias, created, published, content', 'safe', 'on'=>'search'),
+            array('date', 'date', 'format'=>'dd.MM.yyyy'),
 		);
 	}
 
@@ -98,11 +99,29 @@ class News extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-    public function beforeSave ()
-    {
-        if($this->isNewRecord) 
-            $this->date = date("Y-m-d H:i:s");
-        return parent::beforeSave();
-    }
+/**
+ *     protected function beforeSave() {
+ *     if(parent::beforeSave()) {
+ *         $this->date = strtotime($this->date);
+ *         return true;
+ *     } else {
+ *         return false;
+ *     }
+ * }
+ */
+ 
+protected function afterFind() {
+    $date = date('d.m.Y', $this->date);
+    $this->date = $date;
+    parent::afterFind();
+}
+    /**
+ * public function beforeSave ()
+ *     {
+ *         if($this->isNewRecord) 
+ *             $this->date = date("d-m-Y H:i:s");
+ *         return parent::beforeSave();
+ *     }
+ */
     
 }
