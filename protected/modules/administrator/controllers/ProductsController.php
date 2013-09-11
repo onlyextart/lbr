@@ -224,7 +224,7 @@ class ProductsController extends Controller{
         ), false, false);
     }
     
-    public function actionTransfer(  ){
+    public function actionTransfer( ){
         exit();
         $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
         $connectionJlbrDb->active=true;
