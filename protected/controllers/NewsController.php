@@ -4,7 +4,7 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-<<<<<<< HEAD
+
             
             $dataProvider = new CActiveDataProvider ('News', 
                 array(
@@ -17,7 +17,7 @@ class NewsController extends Controller
             //var_dump($dataProvider->getData());
             
             $this->render('index', array('dataProvider'=>$dataProvider));
-=======
+
         $criteria = new CDbCriteria();
         $criteria->together = true;
         $criteria->with = array('newsRegions');
@@ -33,7 +33,7 @@ class NewsController extends Controller
                         ));
  
         $this->render('index', array('data' => $dataProvider));
->>>>>>> faad49c... Kp generated
+
 	}
     
 

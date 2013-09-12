@@ -7,11 +7,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
     'dataProvider'=>$dataProvider,
     'columns'=>array(
         'title',
-        'description',
-        array(
-    'name' => 'type',
-    'value' => 'TemplateKp::model()->getParentTypeById($data->type)'
-            ),
+        'type',
         array(
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',

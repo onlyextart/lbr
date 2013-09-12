@@ -5,7 +5,7 @@
     {
         if ($item['alias']!='tehnika'){
             $header .= '<div id="'.$item['alias'].'" class="fast-menu-header-items-'.$item['level'].'" level="'.$item['level'].'">'.$item['name'].'</div>';
-            $content .= '<div class="fast-menu-content-items" id="content-'.$item['alias'].'">'.  var_dump(AdminPanelWidget::getTreeList($item['level']++, array('lft'=>$item['lft'], 'rt'=>$item['rt']))).'</div>';
+            $content .= '<div class="fast-menu-content-items" id="content-'.$item['alias'].'">'. $item['name'].'</div>';
         }
     } 
 ?>

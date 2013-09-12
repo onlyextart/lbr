@@ -18,12 +18,8 @@ class GetkpController extends Controller
             $command->from('contacts');
             $command->where('oneC_id="'.$_REQUEST['filial'].'"');
             $filial = $command->queryRow();
-            if($_REQUEST['print']=='1'){
-                $this->renderPartial('tmpl/single/one-print', array('data'=>$_REQUEST, 'filial'=>$filial));
-            }else{
-                $this->renderPartial('tmpl/single/one', array('data'=>$_REQUEST, 'filial'=>$filial));
-            }
-                
+            $temp = TemplateKp::model()->findByPk($_REQUEST['temp_id']);
+            $this->renderPartial('index', array('data'=>$_REQUEST, 'filial'=>$filial, 'template'=>$temp));
         }
     }
 
