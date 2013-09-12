@@ -6,6 +6,7 @@
 $this->widget('zii.widgets.grid.CGridView', array(
     'dataProvider'=>$dataProvider,
     'columns'=>array(
+        'id',
         'title',
         'type',
         array(
@@ -18,4 +19,4 @@ $this->widget('zii.widgets.grid.CGridView', array(
 
 ?>
 
-<a href="/administrator/templatekp/create/" class="btn btn-green">Создать КП</a>
+<a href="/administrator/templateKp/create/" class="btn btn-green">Создать КП</a>

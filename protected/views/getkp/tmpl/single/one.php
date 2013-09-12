@@ -46,7 +46,7 @@
                                                         <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
                                                         <td width="410" valign="top">
                                                             <?
-                                                                $desc = str_replace(array('<p>', '</p>'), array('<span>', '</span>'), $template->description);
+                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3']), $template->description);
                                                                 echo $desc;
                                                             ?>
                                                         </td>

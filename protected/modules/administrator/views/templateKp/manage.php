@@ -46,7 +46,7 @@ tinymce.init({
             <?php echo $form->textArea($kpModel, 'small_image', array('class'=>'editable')); ?>
         </div>
     <div class="manage_buttons buttons">
-        <?php echo CHtml::link('Закрыть', '/administrator/templatekp/', array('class'=>'btn del')); ?>
+        <?php echo CHtml::link('Закрыть', '/administrator/templateKp/', array('class'=>'btn del')); ?>
         <?php echo CHtml::submitButton($kpModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
     </div>
     <?php $this->endWidget(); ?>

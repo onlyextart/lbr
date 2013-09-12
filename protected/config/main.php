@@ -132,7 +132,7 @@ return array(
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>'/administrator/search/',
                     'КП'=>array(
-                        'КП'=>'/administrator/templatekp/',
+                        'КП'=>'/administrator/templateKp/',
                         'Шаблоны'=>'/administrator/template/',
                         ),
                         

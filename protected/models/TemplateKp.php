@@ -107,20 +107,4 @@ class TemplateKp extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-    /*
-    * Возвращает название родительской категории по id
-    */
-    public function getParentTypeById($id) {
-        $title = $this->model()->findByPk($id)->title;
-        return $title;
-    }
-    
-    /*
-    * Возвращает все категории
-    */
-    public function getAllTypes() {
-        return CHtml::listData($this->model()->findAll(), 'id', 'title');
-    }
-    
-    
 }
