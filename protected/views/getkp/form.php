@@ -19,7 +19,7 @@ and open the template in the editor.
             <div><input name="user" value="user" type="text"></div>
             <div><textarea name="user_info" type="text">user info</textarea></div>
             <div><input name="filial" value="filial" type="text"></div>
-            <div><textarea name="filial_bottom" type="text">filial bottom</textarea></div>
+            <div><textarea name="filial_bottom" type="text"> filial bottom</textarea></div>
             <div><input name="print" value="true" type="text"></div>
             <div><input type="submit"></div>
         </form>
