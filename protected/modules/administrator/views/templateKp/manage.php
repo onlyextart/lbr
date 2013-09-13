@@ -1,6 +1,7 @@
 <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
 tinymce.init({
+    relative_urls : false,
     selector: "#TemplateKp_description, #TemplateKp_description2",
     plugins: [
         "advlist autolink lists link image charmap print preview anchor",
