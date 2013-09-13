@@ -54,13 +54,26 @@
                                                             <? 
                                                                 $small = explode('||', $template->small_image);
                                                                 foreach ($small as $img) {
-                                                                    echo '<img width="190" src="http://www.git-lbr.ru'.$img.'" style="display: block;"/>';
-                                                                    echo '<img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>';
+                                                                    if($img!='br'){
+                                                                        echo '<img width="190" src="http://www.git-lbr.ru'.$img.'" style="display: block;"/>';
+                                                                        echo '<img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>';
+                                                                    }
+                                                                            
                                                                 }
                                                             ?>
                                                         </td>
                                                     </tr>
                                                 </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table style="border-collapse: collapse;" width="608" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+                                                <tr>
+                                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $template->description2;?></span></td>
+                                                </tr>
                                             </table>
                                         </td>
                                     </tr>

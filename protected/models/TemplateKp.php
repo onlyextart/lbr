@@ -10,13 +10,10 @@
  * @property string $description
  * @property string $small_image
  * @property integer $type
+ * @property string $description2
  */
 class TemplateKp extends CActiveRecord
 {
-    
-    public $image;
-
-  
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -34,9 +31,7 @@ class TemplateKp extends CActiveRecord
 	{
 		return 'template_kp';
 	}
-        
-  
-    
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -46,14 +41,10 @@ class TemplateKp extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('type', 'numerical', 'integerOnly'=>true),
-			array('title, big_image, description, small_image', 'safe'),
-            // The following rule is used by search().
+			array('title, big_image, description, small_image, description2', 'safe'),
+			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, big_image, description, small_image, type', 'safe', 'on'=>'search'),
-            array('image', 'file', 'types'=>'jpg, gif, png',
-                'maxSize'=>1024 * 1024 * 5, // 5MB
-                'allowEmpty'=>'true',
-                'tooLarge'=>'Файл превышает размер 5MB. Пожалуйста загрузите файл меньшим размером.'),
+			array('id, title, big_image, description, small_image, type, description2', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,12 +67,11 @@ class TemplateKp extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'title' => 'Заголовок',
-			'big_image' => 'Большая картинка',
-			'description' => 'Описание',
-			'small_image' => 'Маленькие картинки',
-			'type' => 'Тип шаблона',
-            'icon' => 'Изображение',
-            'del_img'=>'Удалить изображение?',
+			'big_image' => 'Большое изображение',
+			'description' => 'Основное описание',
+			'small_image' => 'Маленькие изображения',
+			'type' => 'Выбери тип',
+			'description2' => 'Описание на всю ширину',
 		);
 	}
 
@@ -102,6 +92,7 @@ class TemplateKp extends CActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('small_image',$this->small_image,true);
 		$criteria->compare('type',$this->type);
+		$criteria->compare('description2',$this->description2,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

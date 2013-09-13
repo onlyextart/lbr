@@ -1,7 +1,7 @@
 <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
 tinymce.init({
-    selector: "#TemplateKp_description",
+    selector: "#TemplateKp_description, #TemplateKp_description2",
     plugins: [
         "advlist autolink lists link image charmap print preview anchor",
         "searchreplace visualblocks code fullscreen",
@@ -33,6 +33,13 @@ tinymce.init({
             <?php echo $form->labelEx( $kpModel, 'description' ); ?>
             <?php echo $form->textArea( $kpModel, 'description' ); ?>
         </div>
+    
+        <div class="row">
+            <?php echo $form->error( $kpModel, 'description2' ); ?>
+            <?php echo $form->labelEx( $kpModel, 'description2' ); ?>
+            <?php echo $form->textArea( $kpModel, 'description2' ); ?>
+        </div>
+    
         <div class="row">
         <?
             echo $form->error($kpModel, 'type');
