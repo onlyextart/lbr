@@ -11,7 +11,7 @@
                 <table  style="border-collapse: collapse;" width="638" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                     <tbody>
                         <tr>
-                            <td><span style="color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"> Уважаемый(-ая)<? echo $data['client']; ?>! </span> <br /> <span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"><? echo $data['header']; ?> </span></td>
+                            <td><span style="color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"> Уважаемый Николай Семенович<? echo $data['client']; ?>! </span> <br /> <span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;">В продолжение нашего разговора высылаю коммерческое предложение по заинтересовавшей Вас технике. Готов ответить на любые дополнительные вопросы и помочь с выбором <? echo $data['header']; ?> </span></td>
                             <td width="160" align="right"><span style="text-decoration: none;"><a style="text-decoration: none;" href="http://www.lbr.ru/" target="_blank"><img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Логотип ЛБР-Агромаркет" width="150" height="100" border="0" /></a></span></td>
                         </tr>
                     </tbody>
@@ -71,10 +71,11 @@
                                         <td width="15%" rowspan="2"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
                                         <td width="15%" rowspan="2"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Высота рамы, см</span></td>
                                         <td width="25%" rowspan="2"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Максимальная мощность трактора, л.с.</span></td>
-                                        <td width="30%" colspan="3"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
+                                        <td width="30%" colspan="4"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
                                     </tr>
                                     <tr  bgcolor="#d1d3d4">
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">6-</span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">7-</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">8-</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">9-</span></td>
                                     </tr>
@@ -84,14 +85,9 @@
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">76/82</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">240</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">3070</span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">3340</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">3610</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">3880</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="4"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                     </tr>
                             </table>
                         </td>
@@ -147,10 +143,6 @@
                                             <tr>
                                                 <td align="left" width="70%"><span style="font-family: Calibri, sans-serif; font-size: 12px; ">&nbsp;Требуемая мощность трактора, л.с.</span></td>
                                                 <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; ">до 350</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" width="70%"><span style="font-family: Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -224,13 +216,6 @@
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">5819</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">6112</span></td>
                                     </tr>
-                                    <tr>
-                                        <td colspan="4"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
-                                    </tr>
                             </table>
                         </td>
                     </tr>
@@ -296,11 +281,6 @@
                                                 <td align="left" width="50%"><span style="font-family: Calibri, sans-serif; font-size: 12px; ">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; "> 90-130</span></td>
                                                 <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; ">150-200</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left" width="70%"><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
-                                                <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -423,16 +403,6 @@
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">200-400</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">250-500</span></td>
                                     </tr>
-                                    <tr>
-                                        <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
-                                    </tr>
                             </table>
                         </td>
                     </tr>
@@ -458,43 +428,25 @@
                                 <tr>
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
-                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
-                                        </span>
-                                    </td>
-                                </tr>
-                            </table>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
-                                <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
+                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (Барнаул)!</span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
+                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Время работы: 8.00-17.00</span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
+                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Адрес филиала: 656067 Барнаул, ул. Попова, 216</span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
+                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Телефоны: +7 (3852) 60-17-33, +7(3852)29-9870, 29-9871, 29-9872, 29-9873</span>
                                     </td>
                                 </tr>
                             </table>
@@ -510,7 +462,12 @@
                                     <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
                                             Ваш персональный менеджер<br><br>
-                                            <? echo $data['user_info']; ?>
+                                            Есин Роман<br>
+                                            Тел.: 8(495) 980-97-64<br>
+                                            Моб.: 8(985) 771-84-59<br>
+                                            E-mail: esin@lbr.ru<br>
+                                            Skype: lbr-esin<br>
+                                            www.lbr.ru
                                         </span></td>
                                 </tr>
                             </table>

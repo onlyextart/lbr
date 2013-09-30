@@ -69,12 +69,10 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table style="border-collapse: collapse;" width="608" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
-                                                <tr>
-                                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                                    <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $template->description2;?></span></td>
-                                                </tr>
-                                            </table>
+                                            <? 
+                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3']), $template->description2);
+                                                echo $desc2;
+                                                ?>
                                         </td>
                                     </tr>
                                     <tr>
@@ -135,7 +133,7 @@
                                                 <tr>
                                                     <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
-                                                            Ваш персональный менеджер:<br>
+                                                            <span>Ваш персональный менеджер:</span><br>
                                                             <? echo $data['user_info']; ?>
                                                         </span></td>
                                                 </tr>
