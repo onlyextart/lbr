@@ -9,7 +9,7 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1"> Уважаемый(-ая)<? echo $data['client']; ?>!</span>
+                  
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
@@ -203,7 +203,7 @@
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
-                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                             </span>
                         </div>
                         <div class="filial">

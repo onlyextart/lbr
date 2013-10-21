@@ -9,7 +9,6 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1"> Уважаемый(-ая)<? echo $data['client']; ?>!</span>
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
@@ -46,7 +45,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>Беларус-80.1/82.1</span>
+                                    <span>Беларус-82.1</span>
                                     </td>
                                     <td>
                                     <span>Беларус-892</span>
@@ -112,6 +111,7 @@
                                     <span>130</span>
                                     </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
                                     
@@ -200,36 +200,36 @@
                                     <span>Отличительные особенности</span>
                                     </td>
                                     <td>
-                                    <span>Передняяось(80.1), переднийведущий мостпортального типасконическими редукторами(82.1). Возможнаустановка кабин</span>
-                                    <span>высотойдо2600мм.</span>
+                                    <span>Передняя ось(80.1), передний ведущий мост портального типа с коническими редукторами(82.1). Возможна установка кабин</span>
+                                    <span>высотой до2600 мм.</span>
                                     </td>
                                     <td>
-                                    <span>Передний ведущиймост</span>
-                                    <span>сконическими редукторами. Возможна установкакабин высотойдо2600 мм.</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    
-                                    </td>
-                                    <td>
-                                    
+                                    <span>Передний ведущий мост</span>
+                                    <span>с коническими редукторами. Возможна установка кабин высотой до 2600 мм.</span>
                                     </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    
-                                    <span>Ценаосенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    
+                                    <td class="price">
+                                    <? echo $data['price_blue1']; ?>
                                     </td>
-                                    <td>
+                                    <td class="price">
+                                    <? echo $data['price_blue2']; ?>
+                                    </td>
+                                    </tr>
                                     
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <? echo $data['price1']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                    <? echo $data['price2']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -263,7 +263,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>IbisM2+1</span>
+                                    <span>Ibis M2+1</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -276,7 +276,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количествокорпусов</span>
+                                    <span>Количество корпусов</span>
                                     </td>
                                     <td>
                                     <span>3</span>
@@ -284,7 +284,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Просветподрамой,см</span>
+                                    <span>Просвет под рамой,см</span>
                                     </td>
                                     <td>
                                     <span>70</span>
@@ -292,7 +292,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Расстояниемеждукорпусами,см</span>
+                                    <span>Расстояние между корпусами,см</span>
                                     </td>
                                     <td>
                                     <span>85</span>
@@ -300,7 +300,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемаямощность,л.с.</span>
+                                    <span>Требуемая мощность,л.с.</span>
                                     </td>
                                     <td>
                                     <span>70-80</span>
@@ -308,18 +308,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ценавесенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-
+                                    <td class="price">
+                                        <? echo $data['price_blue3']; ?>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-
+                                    <td class="price-spring">
+                                        <? echo $data['price3']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -346,12 +346,12 @@
                                 <span>Модель</span>
                                 </td>
                                 <td>
-                                <span>TL3,0</span>
+                                <span>Ares TL3,0</span>
                                 </td>
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Рабочаяширина,м</span>
+                                <span>Рабочая ширина,м</span>
                                 </td>
                                 <td>
                                 <span>3</span>
@@ -367,7 +367,7 @@
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Количестворядов/дисков,шт.</span>
+                                <span>Количество рядов/дисков,шт.</span>
                                 </td>
                                 <td>
                                 <span>2-24</span>
@@ -375,7 +375,7 @@
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Требуемаямощность,л.с.</span>
+                                <span>Требуемая мощность,л.с.</span>
                                 </td>
                                 <td>
                                 <span>80-100</span>
@@ -383,15 +383,15 @@
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Ценавесенняя</span>
+                                <span class="price">Цена весенняя</span>
                                 </td>
-                                
+                                <td class="price"><? echo $data['price_blue4']; ?></td>
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Ценаосенняя</span>
+                                <span class="price-spring">Цена осенняя</span>
                                 </td>
-                                
+                                <td class="price-spring"><? echo $data['price4']; ?></td>
                                 </tr>
                                 </tbody>
                                 </table>
@@ -417,7 +417,7 @@
                                     <span>Тип</span>
                                     </td>
                                     <td>
-                                    <span>B 3,0</span>
+                                    <span>Kombi B 3,0</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -454,18 +454,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue5']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price5']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -613,18 +613,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue6']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price6']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -674,14 +674,14 @@
                                         <td><span>90-120</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена весенняя</span></td>
-                                        <td><span>&nbsp;</span></td>
-                                        <td><span>&nbsp;</span></td>
+                                        <td><span class="price">Цена весенняя</span></td>
+                                        <td class="price"><span><? echo $data['price_blue7']; ?></span></td>
+                                        <td class="price"><span><? echo $data['price_blue8']; ?></span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена осенняя</span></td>
-                                        <td><span>&nbsp;</span></td>
-                                        <td><span>&nbsp;</span></td>
+                                        <td><span class="price-spring">Цена осенняя</span></td>
+                                        <td class="price-spring"><span><? echo $data['price7']; ?></span></td>
+                                        <td class="price-spring"><span><? echo $data['price8']; ?></span></td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -703,41 +703,57 @@
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                     <tbody>
                                     <tr>
-                                        <td><span>Модель</span></td>
-                                        <td><span>KOS 2,6 B</span></td>
-                                        <td><span>KOS 2,6 S</span></td>
+                                        <td width="60%"><span>Модель</span></td>
+                                        <td width="40%"><span>Thema 8</span></td>                                        
                                     </tr>
                                     <tr>
-                                        <td><span>Рабочая ширина захвата, м</span></td>
-                                        <td colspan="2"><span>2,6</span></td>
+                                        <td><span>Количество секций</span></td>
+                                        <td><span>9</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Масса, кг</span></td>
-                                        <td><span>830</span></td>
-                                        <td><span>1050</span></td>
+                                        <td><span>Количество обрабатываемых рядов</span></td>
+                                        <td><span>8</span></td>
+                                        
                                     </tr>
                                     <tr>
-                                        <td><span>Количество зубьев, шт.</span></td>
-                                        <td colspan="2"><span>6</span></td>
+                                        <td><span>Междурядное расстояние, см</span></td>
+                                        <td><span>70</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Количество дисков, шт.</span></td>
-                                        <td colspan="2"><span>7</span></td>
+                                        <td><span>Количество рыхляхщих лап/на ряд</span></td>
+                                        <td><span>5</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Требуемая мощность, л.с</span></td>
-                                        <td><span>80-100</span></td>
-                                        <td><span>90-120</span></td>
+                                        <td><span>Ширина лапы, см</span></td>
+                                        <td><span>15</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена весенняя</span></td>
-                                        <td><span>&nbsp;</span></td>
-                                        <td><span>&nbsp;</span></td>
+                                        <td><span>Механизм копирования секций</span></td>
+                                        <td><span>параллелограмм на метеллическом или обрезиненном колесе</span></td>
+                                    </tr>
+                                     <tr>
+                                        <td><span>Механизм защиты растений</span></td>
+                                        <td><span>защитные пластины</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена осенняя</span></td>
-                                        <td><span>&nbsp;</span></td>
-                                        <td><span>&nbsp;</span></td>
+                                        <td><span>Глубина обработки, см</span></td>
+                                        <td><span>1-10</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Комплект внесения удобрений</span></td>
+                                        <td><span>по заказу</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Мощность трактора, л.с.</span></td>
+                                        <td><span>60-100</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="price">Цена весенняя</span></td>
+                                        <td class="price"><span><? echo $data['price_blue9']; ?></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="price-spring">Цена осенняя</span></td>
+                                        <td class="price-spring"><span><? echo $data['price9']; ?></span></td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -881,24 +897,24 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена &nbsp;весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue10']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue11']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена &nbsp;осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price10']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price11']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1031,24 +1047,24 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена весенняя</span>
+                                        <span class="price">Цена весенняя</span>
                                         </td>
-                                        <td>
-                                        <span>&nbsp;</span>
+                                        <td class="price">
+                                        <span><? echo $data['price_blue12']; ?></span>
                                         </td>
-                                        <td>
-                                        <span>&nbsp;</span>
+                                        <td class="price">
+                                        <span><? echo $data['price_blue13']; ?></span>
                                         </td>
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена осенняя</span>
+                                        <span class="price-spring">Цена осенняя</span>
                                         </td>
-                                        <td>
-                                        <span>&nbsp;</span>
+                                        <td class="price-spring">
+                                        <span><? echo $data['price12']; ?></span>
                                         </td>
-                                        <td>
-                                        <span>&nbsp;</span>
+                                        <td class="price-spring">
+                                        <span><? echo $data['price13']; ?></span>
                                         </td>
                                         </tr>
                                         </tbody>
@@ -1120,30 +1136,30 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue14']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue15']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue16']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price14']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price15']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price16']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1246,18 +1262,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue17']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price17']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1339,18 +1355,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue18']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price18']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1454,20 +1470,20 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена весенняя</span>
+                                        <span class="price">Цена весенняя</span>
                                         </td>
-                                        <td>
-                                        <span>&nbsp;</span>
+                                        <td class="price">
+                                        <span><? echo $data['price_blue19']; ?></span>
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td>
-                                        <span>Цена осенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price19']; ?></span>
+                                    </td>
+                                    </tr>
                                         </tbody>
                                 </table>
                             </div>
@@ -1560,18 +1576,18 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue20']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price20']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1586,7 +1602,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz82_16.jpg" border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/mtz82_16.jpg" border="0" height="400px" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1660,38 +1676,7 @@
                                     <span>Мембранно-поршневой</span>
                                     </td>
                                     </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Рабочие обороты ВОМ, об/мин</span>
-                                    </td>
-                                    <td colspan="5">
-                                    <span>&nbsp;540</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Расстояние между насадками распылителя, см</span>
-                                    </td>
-                                    <td colspan="5">
-                                    <span>&nbsp;50</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Максимальна транспортная скорость, км/час</span>
-                                    </td>
-                                    <td colspan="5">
-                                    <span>&nbsp;15</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Диапазон регулирования высоты распылителей над землей, см</span>
-                                    </td>
-                                    <td colspan="5">
-                                    <span>&nbsp;50-170</span>
-                                    </td>
-                                    </tr>
+                                    
                                     <tr>
                                     <td>
                                     <span>Требуемая мощность трактора, л.с.</span>
@@ -1705,42 +1690,42 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue21']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue22']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue23']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue24']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue25']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price21']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price22']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price23']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price24']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price25']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1859,19 +1844,19 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue26']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price26']; ?></span>
+                                    </td>                                    
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2023,31 +2008,31 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue27']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue28']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue29']; ?></span>
                                     </td>
                                     </tr>
-                                    <tr>
+                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price27']; ?></span>
+                                    </td>  
+                                    <td class="price-spring">
+                                    <span><? echo $data['price28']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price29']; ?></span>
+                                    </td>                                  
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2149,23 +2134,25 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue30']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue31']; ?></span>
                                     </td>
                                     </tr>
-                                    <tr>
+                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp; </span>
-                                    </td>
-                                    <td>&nbsp;</td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price30']; ?></span>
+                                    </td>  
+                                    <td class="price-spring">
+                                    <span><? echo $data['price31']; ?></span>
+                                    </td>                                 
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2260,19 +2247,19 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue32']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price32']; ?></span>
+                                    </td>                               
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2334,20 +2321,20 @@
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Цена весенняя</span>
+                                <span class="price">Цена весенняя</span>
                                 </td>
-                                <td>
-                                <span>&nbsp;</span>
+                                <td class="price">
+                                <span><? echo $data['price_blue33']; ?></span>
                                 </td>
                                 </tr>
                                 <tr>
-                                <td>
-                                <span>Цена осенняя</span>
-                                </td>
-                                <td>
-                                <span>&nbsp;</span>
-                                </td>
-                                </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price33']; ?></span>
+                                    </td>                                 
+                                    </tr>
                                 </tbody>
                                 </table>
                             </div>
@@ -2409,20 +2396,20 @@
                                 </tr>
                                 <tr>
                                 <td>
-                                <span>Цена весенняя</span>
+                                <span class="price">Цена весенняя</span>
                                 </td>
-                                <td>
-                                <span>&nbsp;</span>
+                                <td class="price">
+                                <span><? echo $data['price_blue34']; ?></span>
                                 </td>
                                 </tr>
                                 <tr>
-                                <td>
-                                <span>Цена осенняя</span>
-                                </td>
-                                <td>
-                                <span>&nbsp;</span>
-                                </td>
-                                </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price34']; ?></span>
+                                    </td>                                
+                                    </tr>
                                 </tbody>
                                 </table>
                             </div>
@@ -2516,19 +2503,19 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue35']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price35']; ?></span>
+                                    </td>                                 
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2561,7 +2548,7 @@
                                     <span>Тип</span>
                                     </td>
                                     <td>
-                                    <span>Баркас</span>
+                                    <span>Баркас 6</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -2674,19 +2661,19 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue36']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price36']; ?></span>
+                                    </td>                                
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2711,7 +2698,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>LMR-10</span>
+                                    <span>Баркас XL</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -2748,19 +2735,19 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue37']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price37']; ?></span>
+                                    </td>                                 
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2803,25 +2790,25 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена весенняя</span>
+                                    <span class="price">Цена весенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue38']; ?></span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue39']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price38']; ?></span>
+                                    </td>  
+                                    <td class="price-spring">
+                                    <span><? echo $data['price39']; ?></span>
+                                    </td>                                 
                                     </tr>
                                     </tbody>
                                 </table>
@@ -2900,7 +2887,7 @@
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, Calibri, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
-    .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
+    .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
@@ -2941,6 +2928,8 @@
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
     .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-align: center; font-size: 22px; padding: 35px 0; font-family: FuturisXC,Calibri,sans-serif;}
+    .price {text-align: center; text-decoration: line-through; text-transform: uppercase; color: blue;}
+    .price-spring {text-align: center; text-transform: uppercase; font-weight: bolder; color: red;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85
     {

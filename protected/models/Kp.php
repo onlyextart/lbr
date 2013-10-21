@@ -8,6 +8,7 @@
  * @property string $user
  * @property string $temp_id
  * @property string $price
+ * @property string $price_blue
  * @property string $client
  * @property string $header
  * @property string $filial
@@ -43,10 +44,10 @@ class Kp extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('control_number', 'numerical', 'integerOnly'=>true),
-			array('user, temp_id, price, client, header, filial, filial_bottom', 'safe'),
+			array('user, temp_id, price, price_blue, client, header, filial, filial_bottom', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user, temp_id, price, client, header, filial, filial_bottom, control_number', 'safe', 'on'=>'search'),
+			array('id, user, temp_id, price, price_blue, client, header, filial, filial_bottom, control_number', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -71,6 +72,7 @@ class Kp extends CActiveRecord
 			'user' => 'User',
 			'temp_id' => 'Temp',
 			'price' => 'Price',
+            'price_blue' => 'Price_blue',
 			'client' => 'Client',
 			'header' => 'Header',
 			'filial' => 'Filial',
@@ -93,12 +95,13 @@ class Kp extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('user',$this->user,true);
 		$criteria->compare('temp_id',$this->temp_id,true);
-		$criteria->compare('price',$this->price,true);
+		$criteria->compare('price',$this->price,true);        
 		$criteria->compare('client',$this->client,true);
 		$criteria->compare('header',$this->header,true);
 		$criteria->compare('filial',$this->filial,true);
 		$criteria->compare('filial_bottom',$this->filial_bottom,true);
 		$criteria->compare('control_number',$this->control_number);
+        $criteria->compare('price_blue',$this->price_blue,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

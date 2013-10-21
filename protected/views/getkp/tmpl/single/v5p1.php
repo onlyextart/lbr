@@ -9,8 +9,8 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1"> Уважаемый Николай Семенович<? echo $data['client']; ?>!</span>
-                    <span class="header-2">В продолжение нашего разговора высылаю коммерческое предложение по заинтересовавшей Вас технике. Готов ответить на любые дополнительные вопросы и помочь с выбором <? echo $data['header']; ?> </span></div>
+                   
+                    <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
@@ -98,8 +98,8 @@
                                     </tr>
                                     <tr>                                       
                                         <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price1}</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price2}</span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                             </table>
                         </div>
@@ -198,9 +198,9 @@
                                     </tr>
                                     <tr>                                       
                                         <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price3}</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price4}</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price5}</span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                     </tr>
                                 </table>
                             </div>
@@ -282,8 +282,8 @@
                                     </tr>
                                     <tr>                                       
                                         <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price6}</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">{price7}</span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                             </table>
                             </div>
@@ -337,7 +337,7 @@
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
-                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                             </span>
                         </div>
                         <div class="filial">

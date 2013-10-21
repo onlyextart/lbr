@@ -13,6 +13,7 @@ class m130829_121135_add_kp_table extends CDbMigration
                     'user' => 'TEXT',
                     'temp_id' => 'TEXT',
                     'price' => 'TEXT',
+                    'price_blue' => 'TEXT',
                     'client' => 'TEXT',
                     'header' => 'TEXT',
                     'filial' => 'TEXT',

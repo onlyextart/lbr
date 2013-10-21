@@ -23,6 +23,9 @@ and open the template in the editor.
             <div><span>Filial:</span><input name="filial" value="BRN" type="text"></div>
             <div><span>Filial bottom:</span><textarea name="filial_bottom" type="text"> filial bottom</textarea></div>
             <div><span>Print:</span><input name="print" value="1" type="text"></div>
+            <div><span>Price_blue 1:</span><input name="price1" value="1234" type="text"></div>
+            <div><span>Price_blue 2:</span><input name="price2" value="1234" type="text"></div>
+            <div><span>Price_blue 3:</span><input name="price3" value="1234" type="text"></div>
             <div><input type="submit"></div>
         </form>
         <?php

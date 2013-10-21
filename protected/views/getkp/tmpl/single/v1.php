@@ -12,7 +12,7 @@
             <table  style="border-collapse: collapse;" width="638" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                 <tbody>
                     <tr>
-                        <td><span style="color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"> Уважаемый Николай Семенович<? echo $data['client']; ?>! </span> <br /> <span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;">В продолжение нашего разговора высылаю коммерческое предложение по заинтересовавшей Вас технике. Готов ответить на любые дополнительные вопросы и помочь с выбором <? echo $data['header']; ?> </span></td>
+                        <td><span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;">В продолжение нашего разговора высылаю коммерческое предложение по заинтересовавшей Вас технике. Готов ответить на любые дополнительные вопросы и помочь с выбором <? echo $data['header']; ?> </span></td>
                         <td width="160" align="right"><span style="text-decoration: none;"><a style="text-decoration: none;" href="http://www.lbr.ru/" target="_blank"><img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Логотип ЛБР-Агромаркет" width="150" height="100" border="0" /></a></span></td>
                     </tr>
                 </tbody>
@@ -133,13 +133,13 @@
                                                                                         <span style="font-family: Calibri, sans-serif; font-size: 14px;">&nbsp;&nbsp;Цена, тыс.руб.</span>
                                                                                     </td>
                                                                                     <td style="border: 1px solid #808285; width: 20%; text-align: center;">
-                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">&nbsp;&nbsp;1133</span>
+                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $data['price1']; ?></span>
                                                                                     </td>
                                                                                     <td style="border: 1px solid #808285; width: 20%; text-align: center;">
-                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">&nbsp;&nbsp;1000</span>
+                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $data['price2']; ?></span>
                                                                                     </td>
                                                                                     <td style="border: 1px solid #808285; width: 20%; text-align: center;">
-                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">&nbsp;&nbsp;11111</span>
+                                                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $data['price3']; ?></span>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>

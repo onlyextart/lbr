@@ -9,8 +9,8 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1"> Уважаемый(-ая)<? echo $data['client']; ?>!</span>
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
+                    
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
@@ -28,7 +28,7 @@
                             <div class="h-2"><span>МТЗ 1221 - ПО СТАРОЙ ЦЕНЕ - ЭКОНОМИЯ ДО 10%</span></div>
                         </div>
                         <div class="head-content">
-                            <div class="h-2 left-85"><span>Трактор «БЕЛАРУС-1221/1220»</span></div>
+                            <div class="h-2 left-85"><span>Трактор «БЕЛАРУС-1221»</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/belarus-logo.jpg" border="0" style="position: absolute; right: 0px; top: 75px; "/></div>
                         </div>
                         <div class="body-content">
@@ -44,10 +44,7 @@
                                         <tr>
                                             <td>
                                                 <span>Модель</span>
-                                            </td>
-                                            <td>
-                                                <span>&laquo;Беларус-1220.3&raquo;</span>
-                                            </td>
+                                            </td>                                            
                                             <td>
                                                 <span>&laquo;Беларус-1221.2&raquo;</span>
                                             </td>
@@ -55,9 +52,6 @@
                                         <tr>
                                             <td>
                                                 <span>Двигатель</span>
-                                            </td>
-                                            <td>
-                                                <span>Д-245.2S2</span>
                                             </td>
                                             <td>
                                                 <span>Д-260.2</span>
@@ -68,18 +62,12 @@
                                                 <span>Мощность,кВт (л.с.)</span>
                                             </td>
                                             <td>
-                                                <span>90(122)</span>
-                                            </td>
-                                            <td>
                                                 <span>96(130)</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <span>Числоцилиндров</span>
-                                            </td>
-                                            <td>
-                                                <span>4</span>
                                             </td>
                                             <td>
                                                 <span>6</span>
@@ -90,9 +78,6 @@
                                                 <span>Рабочийобъем,л</span>
                                             </td>
                                             <td>
-                                                <span>4,75</span>
-                                            </td>
-                                            <td>
                                                 <span>7,12</span>
                                             </td>
                                         </tr>
@@ -101,18 +86,12 @@
                                                 <span>Емкостьтопливных баков,л</span>
                                             </td>
                                             <td>
-                                                <span>250</span>
-                                            </td>
-                                            <td>
                                                 <span>140</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <span>Коробкапередач</span>
-                                            </td>
-                                            <td>
-                                                <span>синхронизированная, ступенчатая, 4-диапазонная</span>
                                             </td>
                                             <td>
                                                 <span>механическая, ступенчатая, синхронизированная</span>
@@ -125,28 +104,18 @@
                                             <td>
                                                 <span>16/8</span>
                                             </td>
-                                            <td>
-                                                <span>16/8</span>
-                                            </td>
                                         </tr>
                                         <tr>
                                         <td>
                                         <span>Масса эксплуатационная, кг</span>
                                         </td>
                                         <td>
-                                        <span>5500</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
                                         <span>5300</span>
                                         </td>
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Размерышин (стандарт) переднихколес</span>
-                                        </td>
-                                        <td>
-                                        <span>420/70R24</span>
+                                        <span>Размеры шин (стандарт) передних колес</span>
                                         </td>
                                         <td>
                                         <span>420/70R24</span>
@@ -154,7 +123,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Размерышин (стандарт)задних колес</span>
+                                        <span>Размеры шин (стандарт)задних колес</span>
                                         </td>
                                         <td>
                                         <span>18,4R38</span>
@@ -164,10 +133,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Грузоподъемность гидронавесной системынаоси подвеса,кг</span>
-                                        </td>
-                                        <td>
-                                        <span>4300</span>
+                                        <span>Грузоподъемность гидронавесной системы на оси подвеса,кг</span>
                                         </td>
                                         <td>
                                         <span>4300</span>
@@ -178,34 +144,26 @@
                                         <span>Отличительные особенности</span>
                                         </td>
                                         <td>
-                                        <span>Переднийведущий мостспланетарно- цилиндрическими редукторами, гидронавесная системас гидроподъемником</span>
-                                        </td>
-                                        <td>
-                                        <span>Переднийведущий мостспланетарно- цилиндрическими конечными передачами, возможна комплектация реверсивнымпостом управления</span>
+                                        <span>Передний ведущий мост с планетарно- цилиндрическими конечными передачами, возможна комплектация реверсивным постом управления</span>
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td>
-                                        <span>Ценавесенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price">Цена весенняя</span>
+                                    </td>
+                                    <td class="price">
+                                    <? echo $data['price_blue1']; ?>
+                                    </td>
+                                    </tr>
+                                    
                                         <tr>
-                                        <td>
-                                        <span>Ценаосенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <? echo $data['price1']; ?>
+                                    </td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -237,7 +195,7 @@
                                         <span>Модель</span>
                                         </td>
                                         <td>
-                                        <span>L3+1</span>
+                                        <span>IBIS L3+1</span>
                                         </td>
                                         </tr>
                                         <tr>
@@ -250,7 +208,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Потребностьмощности,л.с.</span>
+                                        <span>Потребность мощности,л.с.</span>
                                         </td>
                                         <td>
                                         <span>90-100</span>
@@ -258,7 +216,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Просветподрамой,см</span>
+                                        <span>Просвет под рамой,см</span>
                                         </td>
                                         <td>
                                         <span>72</span>
@@ -266,28 +224,29 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Расстояниемеждукорпусами,см</span>
+                                        <span>Расстояние между корпусами,см</span>
                                         </td>
                                         <td>
                                         <span>90</span>
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td>
-                                        <span>Ценавесенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue2']; ?>
+                                           </td>
                                         </tr>
+                                    
                                         <tr>
-                                        <td>
-                                        <span>Ценаосенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price2']; ?>
+                                    </td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -311,12 +270,12 @@
                                         <span>Модель</span>
                                         </td>
                                         <td>
-                                        <span>TL4.0</span>
+                                        <span>Ares TL 4.0</span>
                                         </td>
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Диаметрдиска,мм</span>
+                                        <span>Диаметр диска, мм</span>
                                         </td>
                                         <td>
                                         <span>460</span>
@@ -324,7 +283,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Количестворядов/дисков,шт.</span>
+                                        <span>Количество рядов/дисков, шт.</span>
                                         </td>
                                         <td>
                                         <span>2/32</span>
@@ -332,7 +291,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Масса,кг</span>
+                                        <span>Масса, кг</span>
                                         </td>
                                         <td>
                                         <span>1250</span>
@@ -340,7 +299,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Потребностьвмощности,л.с.</span>
+                                        <span>Потребность в мощности, л.с.</span>
                                         </td>
                                         <td>
                                         <span>110-130</span>
@@ -348,28 +307,29 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Рабочаяширина,м</span>
+                                        <span>Рабочая ширина, м</span>
                                         </td>
                                         <td>
                                         <span>4,0</span>
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td>
-                                        <span>Ценавесенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue3']; ?>
+                                           </td>
                                         </tr>
+                                        
                                         <tr>
-                                        <td>
-                                        <span>Ценаосенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price3']; ?>
+                                    </td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -394,7 +354,7 @@
                                     <span>Тип</span>
                                     </td>
                                     <td>
-                                    <span>XXL 4,0</span>
+                                    <span>Atlas XXL 4,0</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -407,7 +367,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Потребностьмощности,л.с.</span>
+                                    <span>Потребность мощности, л.с.</span>
                                     </td>
                                     <td>
                                     <span>90-120</span>
@@ -415,7 +375,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количествозубьев,шт.</span>
+                                    <span>Количество зубьев, шт.</span>
                                     </td>
                                     <td>
                                     <span>16</span>
@@ -423,26 +383,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Производительность,га/ч</span>
+                                    <span>Производительность, га/ч</span>
                                     </td>
                                     <td>
                                     <span>2,8-4,4</span>
                                     </td>
                                     </tr>
+                                   <tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue4']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Ценавесенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Ценаосенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price4']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -452,7 +413,7 @@
                     </div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-85"><span>Культиватор предпосевной Atlas XXL 4,0</span></div>
+                            <div class="h-2 left-85"><span>Культиватор предпосевной Viking CH 6,8</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
@@ -468,12 +429,12 @@
                                     <span>Тип</span>
                                     </td>
                                     <td>
-                                    <span>CH6,8</span>
+                                    <span>CH 6,8</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса,кг</span>
+                                    <span>Масса, кг</span>
                                     </td>
                                     <td>
                                     <span>2060</span>
@@ -481,7 +442,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Потребностьмощности,л.с.</span>
+                                    <span>Потребность мощности, л.с.</span>
                                     </td>
                                     <td>
                                     <span>155-190</span>
@@ -489,7 +450,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количествозубьев,шт.</span>
+                                    <span>Количество зубьев, шт.</span>
                                     </td>
                                     <td>
                                     <span>85</span>
@@ -497,26 +458,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Производительность,га/ч</span>
+                                    <span>Производительность, га/ч</span>
                                     </td>
                                     <td>
                                     <span>4,76-8,16</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue5']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price5']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -550,15 +512,15 @@
                                     <span>&nbsp;Тип</span>
                                     </td>
                                     <td>
-                                    <span>B</span>
+                                    <span>Kos 3,0B</span>
                                     </td>
                                     <td>
-                                    <span>S</span>
+                                    <span>Kos 3,0S</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочаяширина захвата,м</span>
+                                    <span>Рабочая ширина захвата, м</span>
                                     </td>
                                     <td colspan="2">
                                     <span>&nbsp;</span>
@@ -566,7 +528,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количествозубцов,шт.</span>
+                                    <span>Количество зубцов, шт.</span>
                                     </td>
                                     <td colspan="2">
                                     <span>7</span>
@@ -574,7 +536,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количестводисков,шт.</span>
+                                    <span>Количество дисков, шт.</span>
                                     </td>
                                     <td colspan="2">
                                     <span>8</span>
@@ -582,7 +544,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочаяскорость,км/ч</span>
+                                    <span>Рабочая скорость, км/ч</span>
                                     </td>
                                     <td colspan="2">
                                     <span>7-10</span>
@@ -590,7 +552,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Производительность,га/ч</span>
+                                    <span>Производительность, га/ч</span>
                                     </td>
                                     <td colspan="2">
                                     <span>2,10-3,00</span>
@@ -598,7 +560,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемаямощность,л.с.</span>
+                                    <span>Требуемая мощность, л.с.</span>
                                     </td>
                                     <td>
                                     <span>100-140</span>
@@ -626,7 +588,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса(безоснащения),кг</span>
+                                    <span>Масса (безоснащения), кг</span>
                                     </td>
                                     <td>
                                     <span>915</span>
@@ -636,25 +598,26 @@
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue6']; ?>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue7']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price6']; ?>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price7']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -691,7 +654,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочаяширина,м</span>
+                                    <span>Рабочая ширина,м</span>
                                     </td>
                                     <td>
                                     <span>6,0</span>
@@ -702,7 +665,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Типсеялки</span>
+                                    <span>Тип сеялки</span>
                                     </td>
                                     <td colspan="2">
                                     <span>навесная(прицепная&ndash;соспец. тележкой)</span>
@@ -710,7 +673,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Типвысеивающих аппаратов</span>
+                                    <span>Тип высеивающих аппаратов</span>
                                     </td>
                                     <td colspan="2">
                                     <span>катушечный</span>
@@ -718,7 +681,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Типсошников</span>
+                                    <span>Тип сошников</span>
                                     </td>
                                     <td colspan="2">
                                     <span>дисковые</span>
@@ -726,8 +689,8 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количестворядов</span>
-                                    <span>(сошников),шт.</span>
+                                    <span>Количество рядов</span>
+                                    <span>(сошников), шт.</span>
                                     </td>
                                     <td colspan="2">
                                     <span>47</span>
@@ -735,7 +698,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ширинамеждурядья,см</span>
+                                    <span>Ширина междурядья, см</span>
                                     </td>
                                     <td colspan="2">
                                     <span>12</span>
@@ -743,7 +706,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Емкостьсеменногоящика, дм3</span>
+                                    <span>Емкость семенного ящика, дм3</span>
                                     </td>
                                     <td>
                                     <span>1100</span>
@@ -755,7 +718,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Производительность,га/ч</span>
+                                    <span>Производительность, га/ч</span>
                                     </td>
                                     <td>
                                     <span>4,8</span>
@@ -766,7 +729,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемаямощность трактора,л.с.</span>
+                                    <span>Требуемая мощность трактора, л.с.</span>
                                     </td>
                                     <td colspan="2">
                                     <span>100-120</span>
@@ -774,7 +737,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Максимальнаярабочая скорость,км/ч</span>
+                                    <span>Максимальная рабочая скорость, км/ч</span>
                                     </td>
                                     <td colspan="2">
                                     <span>10</span>
@@ -782,7 +745,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса,кг</span>
+                                    <span>Масса, кг</span>
                                     </td>
                                     <td>
                                     <span>2650</span>
@@ -792,25 +755,26 @@
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue8']; ?>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue9']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price8']; ?>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price9']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -822,7 +786,7 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Посевной комплекс Polonez 4+Atlas XXL 4,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/sfoggia_logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -837,32 +801,32 @@
                                     <span>Сцепка</span>
                                     </td>
                                     <td>
-                                    <span>СеялкаPolonez4/780D+</span>
-                                    <span>культиваторAtlasXXL 4,0</span>
+                                    <span>Сеялка Polonez 4/780D+</span>
+                                    <span>культиватор AtlasXXL 4,0</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемаямощностьтрактора, л.с.</span>
+                                    <span>Требуемая мощность трактора, л.с.</span>
                                     </td>
                                     <td>
                                     <span>120-140</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue10']; ?>
+                                           </td>
+                                        </tr>
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price10']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -909,7 +873,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Количествосошников</span>
+                                    <span>Количество сошников</span>
                                     </td>
                                     <td>
                                     <span>52</span>
@@ -925,15 +889,15 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочаяширина</span>
+                                    <span>Рабочая ширина</span>
                                     </td>
                                     <td>
-                                    <span>8м</span>
+                                    <span>8 м</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Транспортнаяширина</span>
+                                    <span>Транспортная ширина</span>
                                     </td>
                                     <td>
                                     <span>4,5м</span>
@@ -941,7 +905,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Дорожныйпросвет</span>
+                                    <span>Дорожный просвет</span>
                                     </td>
                                     <td><span>1 м</span></td>
                                     </tr>
@@ -956,12 +920,12 @@
                                     <span>Длина</span>
                                     </td>
                                     <td>
-                                    <span>8м</span>
+                                    <span>8 м</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Емкостьбункеров</span>
+                                    <span>Емкость бункеров</span>
                                     </td>
                                     <td>
                                     <span>3044 &nbsp; л</span>
@@ -969,26 +933,26 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ходсошника</span>
+                                    <span>Ход сошника</span>
                                     </td>
                                     <td>
-                                    <span>20см</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Глубинавысева</span>
-                                    </td>
-                                    <td>
-                                    <span>0см-9см</span>
+                                    <span>20 см</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Давлениенасошник,кг</span>
+                                    <span>Глубина высева</span>
                                     </td>
                                     <td>
-                                    <span>40кг-81кг</span>
+                                    <span>0 см - 9 см</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Давление на сошник, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>40 кг - 81 кг</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1001,26 +965,26 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Мощностьтрактора</span>
+                                    <span>Мощность трактора</span>
                                     </td>
                                     <td>
                                     <span>120 л.с.мин.</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue11']; ?>
+                                           </td>
+                                        </tr>
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price11']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1052,7 +1016,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Типсеялки</span>
+                                        <span>Тип сеялки</span>
                                         </td>
                                         <td>
                                         <span>прицепная</span>
@@ -1060,7 +1024,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Необходимаямощностьтрактора,л.с.</span>
+                                        <span>Необходимая мощность трактора, л.с.</span>
                                         </td>
                                         <td>
                                         <span>80-120</span>
@@ -1068,7 +1032,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Вес,кг</span>
+                                        <span>Вес, кг</span>
                                         </td>
                                         <td>
                                         <span>3114</span>
@@ -1076,7 +1040,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Количестворядов,шт.</span>
+                                        <span>Количество рядов, шт.</span>
                                         </td>
                                         <td>
                                         <span>8</span>
@@ -1084,7 +1048,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Междурядье,см</span>
+                                        <span>Междурядье, см</span>
                                         </td>
                                         <td>
                                         <span>70</span>
@@ -1092,7 +1056,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Глубинавысева,см</span>
+                                        <span>Глубина высева, см</span>
                                         </td>
                                         <td>
                                         <span>0-9</span>
@@ -1100,7 +1064,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Объемсеменныхящиков,л</span>
+                                        <span>Объем семенных ящиков, л</span>
                                         </td>
                                         <td>
                                         <span>564 (8х70.5)</span>
@@ -1108,7 +1072,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Объемящиковдляудобрений,л</span>
+                                        <span>Объем ящиков дляудобрений, л</span>
                                         </td>
                                         <td>
                                         <span>1000(4х250)</span>
@@ -1116,7 +1080,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Скоростьвысева,км/ч</span>
+                                        <span>Скорость высева, км/ч</span>
                                         </td>
                                         <td>
                                         <span>8-11</span>
@@ -1124,15 +1088,15 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Приводвысевающихаппаратов</span>
+                                        <span>Привод высевающих аппаратов</span>
                                         </td>
                                         <td>
-                                        <span>механический, 2приводныхколеса</span>
+                                        <span>механический, 2 приводных колеса</span>
                                         </td>
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Вертикальноеперемещениесошника,см</span>
+                                        <span>Вертикальное перемещение сошника, см</span>
                                         </td>
                                         <td>
                                         <span>25</span>
@@ -1140,7 +1104,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Давлениенасошник,кг</span>
+                                        <span>Давление на сошник, кг</span>
                                         </td>
                                         <td>
                                         <span>40,8-81,65</span>
@@ -1148,7 +1112,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Давлениенатурбонож,кг</span>
+                                        <span>Давление на турбонож, кг</span>
                                         </td>
                                         <td>
                                         <span>185-227</span>
@@ -1156,15 +1120,15 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Прикатывающиеколеса</span>
+                                        <span>Прикатывающие колеса</span>
                                         </td>
                                         <td>
-                                        <span>V-образные прикатывающиеколеса срегулировкойусилия</span>
+                                        <span>V-образные прикатывающие колеса с регулировкой усилия</span>
                                         </td>
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Транспортнаяширина,м</span>
+                                        <span>Транспортная ширина, м</span>
                                         </td>
                                         <td>
                                         <span>4,9</span>
@@ -1172,7 +1136,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Транспортнаявысота,м</span>
+                                        <span>Транспортная высота, м</span>
                                         </td>
                                         <td>
                                         <span>1,95</span>
@@ -1180,28 +1144,29 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Транспортнаядлина,м</span>
+                                        <span>Транспортная длина, м</span>
                                         </td>
                                         <td>
                                         <span>4,6</span>
                                         </td>
                                         </tr>
                                         <tr>
-                                        <td>
-                                        <span>Ценавесенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue12']; ?>
+                                           </td>
                                         </tr>
+                                        
                                         <tr>
-                                        <td>
-                                        <span>Ценаосенняя</span>
-                                        </td>
-                                        <td>
-                                        <span>&nbsp;</span>
-                                        </td>
-                                        </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price12']; ?>
+                                    </td>
+                                    </tr>
                                     </tbody>  
                                 </table>
                             </div>
@@ -1229,7 +1194,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>PD-8070</span>
+                                    <span>YP-825A</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1274,7 +1239,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Объем семенных ящиков,л</span>
+                                    <span>Объем семенных ящиков, л</span>
                                     </td>
                                     <td>
                                     <span>424 (8х 53)</span>
@@ -1301,7 +1266,7 @@
                                     <span>Привод высевающих аппаратов</span>
                                     </td>
                                     <td>
-                                    <span>механический,2при- водных колеса</span>
+                                    <span>механический, 2 приводных колеса</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1338,7 +1303,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Транспортнаяширина,м</span>
+                                    <span>Транспортная ширина, м</span>
                                     </td>
                                     <td>
                                     <span>6,5</span>
@@ -1373,7 +1338,7 @@
                                     <span>Размер шин, трансп.(4шт.), приводные(2 шт.)</span>
                                     </td>
                                     <td>
-                                    <span>8R-19,5LT,13-</span>
+                                    <span>8R-19,5LT,13</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1393,19 +1358,20 @@
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue13']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price13']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1432,7 +1398,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>SIGMA5</span>
+                                    <span>SIGMA 5</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1448,7 +1414,7 @@
                                     <span>Кол-во высевающих модулей для сева кукурузы и подсолнечника</span>
                                     </td>
                                     <td>
-                                    <span>8на70см</span>
+                                    <span>8 на 70 см</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1461,7 +1427,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ширина рамы,м</span>
+                                    <span>Ширина рамы, м</span>
                                     </td>
                                     <td>
                                     <span>6</span>
@@ -1485,26 +1451,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса сеялки,кг</span>
+                                    <span>Масса сеялки, кг</span>
                                     </td>
                                     <td>
                                     <span>1600</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
-                                    </tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue14']; ?>
+                                           </td>
+                                        </tr>
+                                        
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price14']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1531,12 +1498,18 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>Akcent12</span>
+                                    <span>Akcent 12</span>
+                                    </td>
+                                    <td>
+                                    <span>Akcent 12 ПРОФИ</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса,кг</span>
+                                    <span>Масса, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>1100</span>
                                     </td>
                                     <td>
                                     <span>1100</span>
@@ -1544,26 +1517,35 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемаямощность,л.с.</span>
+                                    <span>Требуемая мощность, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>100-110</span>
                                     </td>
                                     <td>
                                     <span>100-110</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue15']; ?>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue16']; ?>
+                                        </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price15']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price16']; ?>
                                     </td>
                                     </tr>
                                     </tbody>     
@@ -1581,7 +1563,7 @@
                     <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной MX1600</span></div>
+                            <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной MX 1600</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
@@ -1597,7 +1579,7 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>MX1600H</span>
+                                    <span>MX 1600H</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1618,7 +1600,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочая ширина,м</span>
+                                    <span>Рабочая ширина, м</span>
                                     </td>
                                     <td>
                                     <span>10-24</span>
@@ -1626,7 +1608,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Длина,м</span>
+                                    <span>Длина, м</span>
                                     </td>
                                     <td>
                                     <span>1,54</span>
@@ -1634,7 +1616,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ширина,м</span>
+                                    <span>Ширина, м</span>
                                     </td>
                                     <td>
                                     <span>2,20</span>
@@ -1642,7 +1624,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Высота загрузки,м</span>
+                                    <span>Высота загрузки, м</span>
                                     </td>
                                     <td>
                                     <span>1,36</span>
@@ -1650,7 +1632,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса разбрасывателя,кг</span>
+                                    <span>Масса разбрасывателя, кг</span>
                                     </td>
                                     <td>
                                     <span>350</span>
@@ -1665,19 +1647,20 @@
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue17']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price17']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1688,7 +1671,7 @@
                     <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-85"><span>Разбрасыватель удобрений прицепной MX1600</span></div>
+                            <div class="h-2 left-85"><span>Разбрасыватель удобрений прицепной RCW10000</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
@@ -1709,7 +1692,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Вместимость кузова,л</span>
+                                    <span>Вместимость кузова, л</span>
                                     </td>
                                     <td>
                                     <span>10000</span>
@@ -1717,7 +1700,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочаяширина,м</span>
+                                    <span>Рабочая ширина, м</span>
                                     <span>&ndash;известь</span>
                                     <span>&ndash;гранулированные удобрения</span>
                                     </td>
@@ -1751,26 +1734,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Потребность вмощности,л.с.</span>
+                                    <span>Потребность вмощности, л.с.</span>
                                     </td>
                                     <td>
                                     <span>120</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue18']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price18']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1802,7 +1786,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Грузоподъемность,т</span>
+                                    <span>Грузоподъемность, т</span>
                                     </td>
                                     <td>
                                     <span>10</span>
@@ -1810,7 +1794,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ширина разбрасывания,м</span>
+                                    <span>Ширина разбрасывания, м</span>
                                     </td>
                                     <td>
                                     <span>12-14</span>
@@ -1818,7 +1802,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочая скорость,км/ч</span>
+                                    <span>Рабочая скорость, км/ч</span>
                                     </td>
                                     <td>
                                     <span>12</span>
@@ -1834,7 +1818,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Заднийгидроборт</span>
+                                    <span>Задний гидроборт</span>
                                     </td>
                                     <td>
                                     <span>есть</span>
@@ -1850,26 +1834,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемая мощность,л.с.</span>
+                                    <span>Требуемая мощность, л.с.</span>
                                     </td>
                                     <td>
                                     <span>120-135</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue19']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price19']; ?>
                                     </td>
                                     </tr>
                                     </tbody>  
@@ -1908,7 +1893,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Длина,мм</span>
+                                    <span>Длина, мм</span>
                                     </td>
                                     <td>
                                     <span>7500</span>
@@ -1916,7 +1901,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Ширина,мм</span>
+                                    <span>Ширина, мм</span>
                                     </td>
                                     <td>
                                     <span>2550</span>
@@ -1924,7 +1909,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Высота,мм</span>
+                                    <span>Высота, мм</span>
                                     </td>
                                     <td>
                                     <span>2900</span>
@@ -1932,7 +1917,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Собственная масса,кг</span>
+                                    <span>Собственная масса, кг</span>
                                     </td>
                                     <td>
                                     <span>3700</span>
@@ -1940,34 +1925,35 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Времязаполнения,мин</span>
+                                    <span>Время заполнения, мин</span>
                                     </td>
                                     <td>
-                                    <span>около4,5</span>
+                                    <span>около 4,5</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Требуемая мощность,л.с.</span>
+                                    <span>Требуемая мощность, л.с.</span>
                                     </td>
                                     <td>
                                     <span>100</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue20']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price20']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1999,7 +1985,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Грузоподъемность,т</span>
+                                    <span>Грузоподъемность, т</span>
                                     </td>
                                     <td>
                                     <span>14</span>
@@ -2007,7 +1993,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Объем кузова с двумя ярусами надставных бортов,куб.м</span>
+                                    <span>Объем кузова с двумя ярусами надставных бортов, куб.м</span>
                                     </td>
                                     <td>
                                     <span>&nbsp;22</span>
@@ -2023,26 +2009,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Скорость транспортировки,км/ч</span>
+                                    <span>Скорость транспортировки, км/ч</span>
                                     </td>
                                     <td>
                                     <span>30</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>&nbsp;Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue21']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price21']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2069,12 +2056,12 @@
                                             <span>Тип</span>
                                             </td>
                                             <td>
-                                            <span>Баркас10</span>
+                                            <span>Баркас 10</span>
                                             </td>
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Грузоподъемность,кг</span>
+                                            <span>Грузоподъемность, кг</span>
                                             </td>
                                             <td>
                                             <span>8000</span>
@@ -2082,7 +2069,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Размерыплатформы,м</span>
+                                            <span>Размеры платформы, м</span>
                                             </td>
                                             <td>
                                             <span>4,41х2,11х0,60</span>
@@ -2090,7 +2077,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Габаритныеразмеры,мм</span>
+                                            <span>Габаритные размеры, мм</span>
                                             <span>&ndash;длина</span>
                                             <span>&ndash;ширина</span>
                                             </td>
@@ -2102,7 +2089,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Высота платформы,мм</span>
+                                            <span>Высота платформы, мм</span>
                                             </td>
                                             <td>
                                             <span>1200</span>
@@ -2110,7 +2097,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Высота с одним ярусом бортов,мм</span>
+                                            <span>Высота с одним ярусом бортов, мм</span>
                                             </td>
                                             <td>
                                             <span>1800</span>
@@ -2118,7 +2105,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Высота с двумя ярусами бортов,мм</span>
+                                            <span>Высота с двумя ярусами бортов, мм</span>
                                             </td>
                                             <td>
                                             <span>2400</span>
@@ -2126,7 +2113,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Ширина колеи,мм</span>
+                                            <span>Ширина колеи, мм</span>
                                             </td>
                                             <td>
                                             <span>1700</span>
@@ -2134,7 +2121,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Дорожный просвет,мм</span>
+                                            <span>Дорожный просвет, мм</span>
                                             </td>
                                             <td>
                                             <span>405</span>
@@ -2166,7 +2153,7 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Масса,кг</span>
+                                            <span>Масса, кг</span>
                                             </td>
                                             <td>
                                             <span>2200</span>
@@ -2174,28 +2161,29 @@
                                             </tr>
                                             <tr>
                                             <td>
-                                            <span>Допустимая скорость,км/ч</span>
+                                            <span>Допустимая скорость, км/ч</span>
                                             </td>
                                             <td>
                                             <span>40</span>
                                             </td>
                                             </tr>
                                             <tr>
-                                            <td>
-                                            <span>Цена весенняя</span>
-                                            </td>
-                                            <td>
-                                            <span>&nbsp;</span>
-                                            </td>
-                                            </tr>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue22']; ?>
+                                        </td>
+                                    </tr>
+                                    
                                             <tr>
-                                            <td>
-                                            <span>Цена осенняя</span>
-                                            </td>
-                                            <td>
-                                            <span>&nbsp;</span>
-                                            </td>
-                                            </tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price22']; ?>
+                                    </td>
+                                    </tr>
                                             </tbody>
                                 </table>
                                 <table width="380" style="font-size: 14px; border-collapse: collapse; height: 1px; border: 0 !important" align="left" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" height="1">
@@ -2208,12 +2196,12 @@
                                     <span>Модель</span>
                                     </td>
                                     <td>
-                                    <span>LMR-10</span>
+                                    <span>Баркас XL</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Грузоподъёмность,кг</span>
+                                    <span>Грузоподъёмность, кг</span>
                                     </td>
                                     <td>
                                     <span>10000</span>
@@ -2221,7 +2209,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса,кг</span>
+                                    <span>Масса, кг</span>
                                     </td>
                                     <td>
                                     <span>1260</span>
@@ -2229,7 +2217,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Размер платформы,м</span>
+                                    <span>Размер платформы, м</span>
                                     </td>
                                     <td>
                                     <span>5х2,4х0,6</span>
@@ -2239,22 +2227,23 @@
                                     <td>
                                     <span>Шины,сдвоенные</span>
                                     </td>
-                                    <td>&nbsp;</td>
+                                    <td>215.15R17,5</td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>Цена весенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue23']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>Цена осенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price23']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2293,26 +2282,27 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Грузоподъемность,кг</span>
+                                    <span>Грузоподъемность, кг</span>
                                     </td>
                                     <td>
                                     <span>1650</span>
                                     </td>
                                     </tr>
                                     <tr>
-                                    <td>
-                                    <span>&nbsp;Ценавесенняя</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    </td>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue24']; ?>
+                                        </td>
                                     </tr>
+                                    
                                     <tr>
                                     <td>
-                                    <span>&nbsp;Ценаосенняя</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
-                                    <td>
-                                    <span>&nbsp;</span>
+                                    <td class="price-spring">
+                                        <? echo $data['price24']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2323,7 +2313,7 @@
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
-                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                             </span>
                         </div>
                         <div class="filial">
@@ -2392,7 +2382,7 @@
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, Calibri, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
-    .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
+    .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
@@ -2433,6 +2423,8 @@
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
     .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-align: center; font-size: 22px; padding: 35px 0; font-family: FuturisXC,Calibri,sans-serif;}
+    .price {text-align: center; text-decoration: line-through; text-transform: uppercase; color: blue;}
+    .price-spring {text-align: center; text-transform: uppercase; font-weight: bolder; color: red;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85
     {

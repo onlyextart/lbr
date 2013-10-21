@@ -9,7 +9,7 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1"> Уважаемый(-ая)<? echo $data['client']; ?>!</span>
+                    
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
@@ -124,19 +124,19 @@
                                     <span>Цена в комплектации: Диз.горелка, ВОМ,&nbsp; сетка 2,5 мм</span>
                                     </td>
                                     <td>
-                                    <span>2 196 720 RUR</span>
+                                    <span><? echo $data['price1']; ?></span>
                                     </td>
                                     <td>
-                                    <span>2 196 720 RUR</span>
+                                    <span><? echo $data['price2']; ?></span>
                                     </td>
                                     <td>
-                                    <span>2 539 680 RUR</span>
+                                    <span><? echo $data['price3']; ?></span>
                                     </td>
                                     <td>
-                                    <span>3 198 180 RUR</span>
+                                    <span><? echo $data['price4']; ?></span>
                                     </td>
                                     <td>
-                                    <span>4 001 680 RUR</span>
+                                    <span><? echo $data['price5']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>  
@@ -225,7 +225,7 @@
                                     <span>Цена,руб.</span>
                                     </td>
                                     <td>
-                                    <span>&nbsp;</span>
+                                    <span><? echo $data['price6']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>     
@@ -303,7 +303,7 @@
                                         <span>Цена,руб.</span>
                                         </td>
                                         <td>
-                                        <span>&nbsp;</span>
+                                        <span><? echo $data['price7']; ?></span>
                                         </td>
                                         </tr>
                                     </tbody>     
@@ -364,7 +364,7 @@
                                         <span>Цена, руб.</span>
                                         </td>
                                         <td>
-                                        <span>&nbsp;</span>
+                                        <span><? echo $data['price8']; ?></span>
                                         </td>
                                         </tr>
                                     </tbody>    
@@ -465,7 +465,7 @@
                                         <span>Цена,руб.</span>
                                         </td>
                                         <td>
-                                        <span>&nbsp;</span>
+                                        <span><? echo $data['price9']; ?></span>
                                         </td>
                                         </tr>
                                     </tbody>    
@@ -535,7 +535,7 @@
                                         <span>Цена, руб.</span>
                                         </td>
                                         <td>
-                                        <span>&nbsp;</span>
+                                        <span><? echo $data['price10']; ?></span>
                                         </td>
                                         </tr>
                                     </tbody>
@@ -597,7 +597,7 @@
                                     <span>Цена, руб.</span>
                                     </td>
                                     <td>
-                                    <span>&nbsp;</span>
+                                    <span><? echo $data['price11']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -658,7 +658,7 @@
                                         <span>Цена, руб.</span>
                                         </td>
                                         <td>
-                                        <span>&nbsp;</span>
+                                        <span><? echo $data['price12']; ?></span>
                                         </td>
                                         </tr>
                                     </tbody>      
@@ -669,7 +669,7 @@
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
-                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                             </span>
                         </div>
                         <div class="filial">
