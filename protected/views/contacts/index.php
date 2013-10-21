@@ -13,6 +13,51 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     .contact_info img.contact_icon{width:25px;margin-right: 15px;}
 </style>
 <h1><?php echo $contactModel->name ?></h1>
+<div class="contact_info">
+    <table>
+        <tr>
+            <td>
+                <img class="contact_icon" src="/images/addressIcon.png">
+            </td>
+            <td>
+                <?php echo $contactModel->address ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="contact_icon" src="/images/phoneIcon.png">
+            </td>
+            <td>
+                <?php echo $contactModel->telephone ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="contact_icon" src="/images/workTimeIcon.png">
+            </td>
+            <td>
+                <?php echo $contactModel->work_time ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="contact_icon" src="/images/mailIcon.png">
+            </td>
+            <td>
+                <?php echo $contactModel->email ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img class="contact_icon" src="/images/infoIcon.png">
+            </td>
+            <td>
+                <?php echo $contactModel->info ?>
+            </td>
+        </tr>
+    </table>
+    
+</div>
 <div class="contact_map">
     <?php echo $contactModel->map_code ?>
 </div>
@@ -58,49 +103,4 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 
     <?php $this->endWidget(); ?>
 
-</div>
-<div class="contact_info">
-    <table>
-        <tr>
-            <td>
-                <img class="contact_icon" src="/images/addressIcon.png">
-            </td>
-            <td>
-                <?php echo $contactModel->address ?>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img class="contact_icon" src="/images/phoneIcon.png">
-            </td>
-            <td>
-                <?php echo $contactModel->telephone ?>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img class="contact_icon" src="/images/workTimeIcon.png">
-            </td>
-            <td>
-                <?php echo $contactModel->work_time ?>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img class="contact_icon" src="/images/mailIcon.png">
-            </td>
-            <td>
-                <?php echo $contactModel->email ?>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img class="contact_icon" src="/images/infoIcon.png">
-            </td>
-            <td>
-                <?php echo $contactModel->info ?>
-            </td>
-        </tr>
-    </table>
-    
 </div>
