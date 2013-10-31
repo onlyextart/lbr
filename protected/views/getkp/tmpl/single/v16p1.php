@@ -2569,51 +2569,49 @@
                             </div>
                             <div class="right-50 image">
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                   <tbody>
-                                    <tr>
-                                    <td>
-                                    <span>Модель</span>
-                                    </td>
-                                    <td>
-                                    <span>TUR-14</span>
-                                    </td>
-                                    <td>
-                                    <span>TUR-15</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Грузоподъемность, кг</span>
-                                    </td>
-                                    <td>
-                                    <span>850</span>
-                                    </td>
-                                    <td>
-                                    <span>1500</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                           <td>
-                                           <span class="price">Цена весенняя</span>
-                                           </td>
-                                           <td class="price">
-                                           <? echo $data['price_blue36']; ?>
-                                           </td>
-                                           <td class="price">
-                                           <? echo $data['price_blue37']; ?>
-                                           </td>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <span>Модель</span>
+                                            </td>
+                                            <td>
+                                                <span>TUR-14</span>
+                                            </td>
+                                            <td>
+                                                <span>TUR-15</span>
+                                            </td>
                                         </tr>
-                                    <tr>
-                                    <td>
-                                    <span class="price-spring">Цена осенняя</span>
-                                    </td>
-                                    <td class="price-spring">
-                                        <? echo $data['price36']; ?>
-                                    </td>
-                                    <td class="price-spring">
-                                        <? echo $data['price37']; ?>
-                                    </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Грузоподъемность, кг</span>
+                                            </td>
+                                            <td>
+                                                <span>850</span>
+                                            </td>
+                                            <td>
+                                                <span>1500</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span class="price">Цена весенняя</span>
+                                            </td>
+                                            <td class="price">
+                                                <? echo $data['price_blue36']; ?>
+                                            </td>
+                                            <td class="price">
+                                                <? echo $data['price_blue37']; ?>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="price-spring">Цена осенняя</span></td>
+                                            <td class="price-spring">
+                                                <? echo $data['price36']; ?>
+                                            </td>
+                                            <td class="price-spring">
+                                                <? echo $data['price37']; ?>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

@@ -17,7 +17,7 @@
             <table  style="border-collapse: collapse;" width="638" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                 <tbody>
                     <tr>
-                        <td><span style="color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"> Уважаемый <? echo $data['client']; ?>! </span> <br /> <span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"><? echo $data['header']; ?> </span></td>
+                        <td width="478"><span style="color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"> <? echo $data['client']; ?> </span> <br /> <span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"><? echo $data['header']; ?> </span></td>
                         <td width="160" align="right"><span style="text-decoration: none;"><a style="text-decoration: none;" href="http://www.lbr.ru/" target="_blank"><img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Логотип ЛБР-Агромаркет" width="150" height="100" border="0" /></a></span></td>
                     </tr>
                 </tbody>
@@ -51,7 +51,7 @@
                                                         <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
                                                         <td width="410" valign="top">
                                                             <?
-                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3']), $template->description);
+                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '../../../images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], 'http://www.git-lbr.ru/images/kp/10.gif'), $template->description);
                                                                 echo $desc;
                                                             ?>
                                                         </td>
@@ -76,7 +76,7 @@
                                     <tr>
                                         <td>
                                             <? 
-                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3']), $template->description2);
+                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '../../../images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], 'http://www.git-lbr.ru/images/kp/10.gif'), $template->description2);
                                                 echo $desc2;
                                                 ?>
                                         </td>
