@@ -347,7 +347,7 @@
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
-            <td>
+            
                 <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                      <tr bgcolor="#d1d3d4">
                                         <td align="left" width="30%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
@@ -391,7 +391,7 @@
                                     </tr>
                                 </table>
                  
-            </td>
+            
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
                

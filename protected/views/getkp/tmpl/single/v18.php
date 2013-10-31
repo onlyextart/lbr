@@ -46,7 +46,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                         
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Опционально:</b>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Опционально:</b>
                                     <br />• специальная комплектация Polonez «Травник»(обеспечивает с основным посевом зерновых подсев трав)
                                     <br />• комлект для внесения удобрений Polonez Dablo (бункер 1000 кг разделен: 600 - для семян и 400 - для удобрений) 
                                     </span>
@@ -74,8 +74,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">80</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -116,7 +116,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Опционально:</b>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Опционально:</b>
                                         <br />• тележка для полунавесной версии сеялки для работы с тракторами от 80 л.с.
                                     <br />• комплект для внесения удобрений Mazur Dablo (бункер 1 100 кг разделен: 2/3 - для семян и 1/3 - для удобрений)
                                     </span>
@@ -144,8 +144,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">100-120</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -209,8 +209,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">100-120</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -226,7 +226,7 @@
                     </tr>
                     
                     <tr><td width="638px"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                    <span style="border-bottom: 1px rgb(211, 35, 42) solid; margin-bottom: 10px; padding: 5px 0 0; color: #B8BDBC; font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 22px; text-transform: uppercase;">КЛАССИЧЕСКИЙ ПОСЕВ С ПРЕДПОСЕВНОЙ ОБРАБОТКОЙ</span>
+                    <span style="border-bottom: 1px rgb(211, 35, 42) solid; margin-bottom: 10px; padding: 5px 0 0; color: #B8BDBC; font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 22px; text-transform: uppercase;">КЛАССИЧЕСКИЙ ПОСЕВ С ПРЕДПОСЕВНОЙ ОБРАБОТКОЙ<br /></span>
                     <span style="clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-align: center; font-size: 22px; padding: 5px 0; font-family: FuturisXC,Calibri,sans-serif;">предпосевная обработка и посев за 1 проход!</span>
                     </td></tr>
                     
@@ -272,7 +272,13 @@
                                 </tr>
                                 
                             </table>
-                            <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                            <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                            
+                        </td>
+                        
+                    </tr>
+                    <tr><td>
+                    <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr>
                                         <td bgcolor="#d1d3d4"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><b>Cцепка</b></span></td>
@@ -289,17 +295,16 @@
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">180-200</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                         </tbody>
                                         
                                 </table>
-                        </td>
-                        
+                    </td>                    
                     </tr>
                     <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
@@ -336,7 +341,7 @@
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
-                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                                         </span>
                                     </td>
                                 </tr>

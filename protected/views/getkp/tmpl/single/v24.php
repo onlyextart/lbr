@@ -49,15 +49,15 @@
                                     <td width="328">
                                     
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Автоматический контроль высоты обрезания ботвы!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Опционально устанавливаемый на обрезчике контроль высоты обрезания ботвы минимизирует ошибки оператора, улучшая качество уборки лука на 30%!
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. Легкость и простота обслуживания обрезчика!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Верхняя крышка обрезчика легко поднимается вверх, что позволяет проводить обслуживание обрезчика и замену рабочих органов без сложной разборки элементов обрезчика.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. Сверхпрочные ножи для обрезания ботвы!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Ножи, изготовленные из высококачественной стали, расположены под углом 45 градусов, что создает воздушный поток, которые приподнимает ботву луку, позволяя обрезать ботву даже со сломанного или поврежденного лука. 
                                    Лезвия, используемые на обрезчике ботвы двухсторонние. При стачивании одной стороны, можно легко использовать другую просто перевернув лезвие.
                                     </span>
@@ -84,8 +84,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">От 60</span></td>
                                              </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -129,16 +129,16 @@
                                     <td width="328">
                                     
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Полностью механическая – никакой гидравлики!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Основным отличием данной модели от конкурентов является то, что машина полностью механическая, работает от ВОМ трактора, без необходимости использовать гидравлику трактора или собственную гидростанцию. 
                                    Расположенная в передней части вращающаяся планка подкапывает растущий впереди лук и загружает его вместе с землей на транспортер, где происходит последующая очистка лука от земли.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. Копай лук и картофель одной копалкой!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Опционально на копалке возможна установка лемехов, для выкапывания картофеля, что делает данную машину универсальным помощников для овощных хозяйств.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. Надежный транспортер – залог успешной уборочной!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Установленные по стандарту усиленные замки решетки транспортера позволяют использовать копалку даже на тяжелых почвах без повреждения приемного транспортера. 
                                    Шаг цепи транспортера 44 мм. Длина транспортера 2000 м с перепадами для очистки лука от грязи.
                                     </span>
@@ -165,8 +165,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">От 70</span></td>
                                              </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -209,16 +209,16 @@
                                     <td width="328">
                                     
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Собственная гидростанция комбайна!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         На комбайне установлена собственная гидростанция, что позволяет не использовать гидравлику трактора. 
                                    Именно поэтому для работы комбайна достаточно трактора малой мощности.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. Высокая высота выгрузки!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Высота выгрузки комбайна составляет 3,3 метра, что позволяет использовать транспортное средство с большим объемом кузова.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. Отличная визуализация!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Все управление комбайном ведется из одного пульта, расположенного в кабине трактора. Отличная визуализация подъемного устройства комбайна, позволяет лучше руководить процессом подборки лука.
                                     </span>
                                      <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
@@ -252,8 +252,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">540</span></td>
                                              </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>

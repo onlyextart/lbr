@@ -47,7 +47,7 @@
                                 <tr valign="top">
                                     <td width="328">                                        
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. ТОЧНОСТЬ И РАВНОМЕРНОСТЬ!</span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                          <b>Бренд или не бренд, вот в чём вопрос?!</b><br />                                           
                                         Разбрасыватели минеральных удобрений МХ прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
                                         Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
@@ -55,7 +55,7 @@
                                         При этом выигрыш в цене составляет не менее 30%.<br />
                                     </span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. ОЧЕНЬ ЖИВУЧИЙ И ОЧЕНЬ ЗАБОТЛИВЫЙ!</span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Минеральные удобрения являются агрессивным и абразивным материалом. 
                                         Химия против «химии». Все разбрасыватели МХ окрашиваются порошковой краской компании TIKKURILA, делая их максимально стойким к химическому воздействию. 
                                         «Неубиваемые» тарелки – разбрасывающие диски и лопатки выполнены из высококачественной нержавеющей стали. 
@@ -64,7 +64,7 @@
                                     </span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. От каждого по потребностям, каждому по разбрасывателю!<br /><br /></span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. ПАРНЫЙ РАЗРЯД - ЭКОНОМИМ ДЕНЬГИ И ВРЕМЯ!</span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Использование разбрасывателей МХ с погрузчиком «BIG BAGOW» позволяет получить экономию времени и количества техники, задействованной на этапе внесения удобрений.<br />
                                     </span>  
                                                                       
@@ -138,11 +138,11 @@
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">180</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
-                                                <td style="text-align: center;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price1']; ?></span></td>
-                                                <td style="text-align: center;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price2']; ?></span></td>
-                                                <td style="text-align: center;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price3']; ?></span></td>
-                                                <td style="text-align: center;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price4']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
+                                                <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price1']; ?></span></td>
+                                                <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price3']; ?></span></td>
+                                                <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price4']; ?></span></td>
                                             </tr>
                                             
                                         </tbody>
@@ -184,7 +184,7 @@
                                     <td width="328">
                                     
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />1. МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         <b>Экономический эффект.</b> В период проведения предпосевной подготовки или подкормки по всходам большое значение имеют сроки проведения работ по внесению минеральных удобрений. 
                                     Экономических эффект от применения прицепных разбрасывателей на площади от 300 га просчитывается достаточно легко. 
                                     При работе с минеральными удобрениями разбрасыватель на 5 000 литров при производительности 13 га в час обработает примерно 25 га за один выход в поле. 
@@ -195,7 +195,7 @@
                                     в) сэкономить парк техники для внесения удобрений благодаря большому объёму и универсальности разбрасывателя.
                                     </span>
                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />2. УНИВЕРСАЛЬНЫЙ СОЛДАТ:<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Предпосевная подготовка и подкормка по всходам. Минералка, доломит, известь, сухие дефекаты, костная мука и т.д. 
                                     <br /><b>«Проходимец»</b> – широкие колеса, обеспечивающие хорошее соприкосновение с почвой и постоянный привод подающего транспортёра. 
                                     <br /><b>«Заботливый»</b> – ленточный транспорт (в отличии от планчатого) обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений или разрушений. 
@@ -204,7 +204,7 @@
                                     Комплектация тарелками для крайнего высева позволяет работать по краю поля без потерь дорогостоящих удобрений.  
                                     </span>
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />3. DLG ПРЕДУПРЕЖДАЕТ! ЗАЧЕМ ПЕРЕПЛАЧИВАТЬ?<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Разбрасыватели удобрений RCW прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
                                     Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
                                     Разбрасыватели RCW ни чем не уступают таким грандам, как Amazone, RAUH или Sulky, при этом выигрыш в цене составляет не менее 30%.
@@ -244,8 +244,8 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
@@ -287,7 +287,7 @@
                                     
                                     
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />1. МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         <b>Экономический эффект.</b> В период проведения предпосевной подготовки или подкормки по всходам большое значение имеют сроки проведения работ по внесению минеральных удобрений. 
                                     Экономических эффект от применения прицепных разбрасывателей на площади от 300 га просчитывается достаточно легко. 
                                     При работе с минеральными удобрениями разбрасыватель на 5 000 литров при производительности 13 га в час обработает примерно 25 га за один выход в поле. 
@@ -298,7 +298,7 @@
                                     в) сэкономить парк техники для внесения удобрений благодаря большому объёму и универсальности разбрасывателя.
                                     </span>
                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />2. УНИВЕРСАЛЬНЫЙ СОЛДАТ:<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Предпосевная подготовка и подкормка по всходам. Минералка, доломит, известь, сухие дефекаты, костная мука и т.д. 
                                     <br /><b>«Проходимец»</b> – широкие колеса, обеспечивающие хорошее соприкосновение с почвой и постоянный привод подающего транспортёра. 
                                     <br /><b>«Заботливый»</b> – ленточный транспорт (в отличии от планчатого) обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений или разрушений. 
@@ -307,7 +307,7 @@
                                     Комплектация тарелками для крайнего высева позволяет работать по краю поля без потерь дорогостоящих удобрений.  
                                     </span>
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />3. DLG ПРЕДУПРЕЖДАЕТ! ЗАЧЕМ ПЕРЕПЛАЧИВАТЬ?<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Разбрасыватели удобрений RCW прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
                                     Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
                                     Разбрасыватели RCW ни чем не уступают таким грандам, как Amazone, RAUH или Sulky, при этом выигрыш в цене составляет не менее 30%.
@@ -347,8 +347,8 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
@@ -390,7 +390,7 @@
                                     
                                     
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">1. 2 в 1, лучшие качества от прицепных и навесных разбрасывателей!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         • Объём 3 000 литров! Больше производительности при высокой точности внесения! <br />
                                     • Сокращение агротехнических сроков внесения удобрений, уменьшение парка техники.<br />
                                     • Высокая равномерность и точная регулировка! Управление дозой внесения с помощью шнекового дозатора, с плавной, бесступенчатой регулировкой.<br />
@@ -398,13 +398,13 @@
                                     • Система подачи материала на разбрасывающие диски, обеспечивает бережное обращение с гранулами, что повышает эффективность применения разбрасывателя.
                                     </span>
                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />2. Уникальность в продуманности!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         • Шасси, используемое для разбрасывателя MXL, имеет широкие колёса низкого давления на шинах 400/60 х 15.5 14 PR, и регулируемую колесную базу в диапазоне 1500 – 1800 мм. 
                                     Идеальное решение для подкормки по всходам!  
                                      
                                     </span>
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />3. Платить за название или за качество?!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         • Уникальное соотношение ширины и точности внесения. Рассеивание удобрения в большом рабочем диапазоне (до 36 метров). Точность внесения подтверждена тестами DLG (Германия).<br />
                                     • Разбрасыватели ни чем, не уступают в равномерности и надёжности таким грандам как Amazone, RAUH или Sulky. Выигрыш в цене составляет не менее 30%!
                                     </span>
@@ -459,8 +459,8 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
@@ -503,11 +503,11 @@
                                     
                                     
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">УНИВЕРСАЛЬНЫЙ ПРОФЕССИОНАЛ:<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         органика, известь, дефекат + перевозка зелённой массы и сенажа. Позволяет получить экономически эффект за счёт сокращения парка техники.
                                     </span>
                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />ВЫСОКАЯ НАДЁЖНОСТЬ<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         <b>100% комплектации</b> поставляют ведущие европейские производители: ходовая часть FAD (Италия), цепи 6 – 8 класса прочности (разрывная нагрузка до 25 тонн), разбрасывающие органы (Италия), редукторы и карданные валы (Италия). 
                                     В стандартной комплектации: защита привода транспортера и защита разбрасывающих органов от заклинивания, автоматическое натяжение цепей, задний гидравлический борт.
                                      
@@ -517,7 +517,7 @@
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td width="317">
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">ПРИВЫЧКА ИЛИ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ, ЧТО ВЫГОДНЕЙ?<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Например, ММТ-9 перевозит и вносит 7куб. м органики, а PTU 6.0/14S – 13 куб. м. 
                                     При этом используются одинаковые по мощности трактора 120 л.с. В первом приближении видно, что современные разбрасыватели PTU перевозят и вносят почти в 2 раза больше органических удобрений, при этом имеют высокую равномерность, ширину внесения и универсальность в работе.
                                     <br /><b>ЭКОНОМИЧЕСКИЙ ЭФФЕКТ</b> достигается за счёт меньшей собственной массы, большой ширины внесения, равномерности и увеличенной кубатуры. 
@@ -532,80 +532,80 @@
                             </table>
                             <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-4.0/13A</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/13A</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14B</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14D</span></td>                                            
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14S</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14B</span></td>                                            
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14D</span></td>                                                                                        
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14S</span></td>                                                                                       
-                                            <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-20</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-4.0/13A</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/13A</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14B</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14D</span></td>                                            
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-6.0/14S</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14B</span></td>                                            
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14D</span></td>                                                                                        
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-14S</span></td>                                                                                       
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">PTU-20</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Грузоподъемность, т</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">5</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">8</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">10</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">10</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">10</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">20</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Грузоподъемность, т</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">5</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">8</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">10</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">10</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">10</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">20</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Ширина разбрасывания, м</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6-8</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6-8</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12-14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">14-20</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12-14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12-14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">14-20</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12-14</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12-14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Ширина разбрасывания, м</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6-8</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6-8</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12-14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">14-20</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12-14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12-14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">14-20</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12-14</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12-14</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Рабочая скорость, км/ч</span></td>
-                                            <td colspan="9"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">12</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Рабочая скорость, км/ч</span></td>
+                                            <td colspan="9"><span style="font-family:Calibri, sans-serif; font-size: 12px;">12</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Привод тормозов</span></td>
-                                            <td colspan="9"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">гидро или пневмо</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Привод тормозов</span></td>
+                                            <td colspan="9"><span style="font-family:Calibri, sans-serif; font-size: 12px;">гидро или пневмо</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Задний гидроборт</span></td>
-                                            <td colspan="9"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">есть</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Задний гидроборт</span></td>
+                                            <td colspan="9"><span style="font-family:Calibri, sans-serif; font-size: 12px;">есть</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Привод транспортера</span></td>
-                                            <td colspan="9"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">гидро</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Привод транспортера</span></td>
+                                            <td colspan="9"><span style="font-family:Calibri, sans-serif; font-size: 12px;">гидро</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">55-80</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">80-100</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">120-140</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">140-160</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">120-135</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">190-220</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">210-240</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">190-220</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">190-220 250-300</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">55-80</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80-100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">120-140</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">140-160</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">120-135</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">190-220</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">210-240</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">190-220</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">190-220 250-300</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Цена</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price8']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price9']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price10']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price11']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price12']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price13']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price14']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price15']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"><? echo $data['price16']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Цена</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price8']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price9']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price10']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price11']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price12']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price13']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price14']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price15']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price16']; ?></span></td>
                                         </tr>
                                 </table>
                         </td>
@@ -637,7 +637,7 @@
                                 <tr valign="top">
                                     <td width="328">                                        
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. 100 БЕД ОДИН ОТВЕТ!</span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                          <b>Универсальность:</b><br />
                                     • вывоз и внесение органических удобрений на поля;<br />
                                     • подвоз воды в летние лагеря;<br />
@@ -646,7 +646,7 @@
                                     • всасывание жидких отходов из лагун и колодцев с глубины до 6 метров.
                                     </span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. PITON УМИРАЕТ ПОСЛЕДНИМ!</span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         <b>Оцинкованная бочка PITON 100 изготовлена их двухсторонне оцинкованной стали, стойкой к большинству известных агрессивных сред. 
                                     Надёжность:</b><br />
                                     • двусторонняя оцинковка бочки – срок службы в 4 раза больше, чем МЖТ;<br />
@@ -655,13 +655,13 @@
                                     </span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. PITON – РОЖДЕННЫЙ ПОЛЗАТЬ ТЕПЕРЬ «ЛЕТАЕТ»! ВСЕГО 4,5 МИНУТЫ – ВРЕМЯ НАПОЛНЕНИЯ И РАЗГРУЗКИ.<br /><br /></span>
                                     
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Высокоскоростная закачка и разгрузка: итальянский высоконадёжный вакуумный насос работает как на всасывание, так и на нагнетание. 
                                     К примеру, в бочках МЖТ установлено два насоса, что является дополнительным источником поломок.  
                                     </span> 
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. ЧИСТИТЬ? ПРОСТО!<br /><br /></span>
                                     
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Обслуживание: для очистки внутренней части бочки в задней части установлен люк для её очистки. 
                                     Это позволяет удалить осадок в бочке, который возникает вследствие агрегации взвешенных частиц.  
                                     </span>  
@@ -705,8 +705,8 @@
                                             </tr>
                                            
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
-                                                <td style="text-align: center;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price17']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
+                                                <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price17']; ?></span></td>
                                             </tr>
                                             
                                         </tbody>
@@ -756,7 +756,7 @@
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
-                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                                         </span>
                                     </td>
                                 </tr>

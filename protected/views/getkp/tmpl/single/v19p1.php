@@ -191,44 +191,44 @@
                         <br /><br />
                         <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                      <tr bgcolor="#d1d3d4">
-                                        <td align="left" width="30%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PD-8070</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-825A</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-1630F</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-1625A</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-2425A</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-2425F</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">YP-825A-16TR</span></td>
+                                        <td align="left" width="30%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD-8070</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-825A</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-1630F</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-1625A</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-2425A</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-2425F</span></td>
+                                        <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">YP-825A-16TR</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Количество рядов</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">8</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">8</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">16</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">16</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">24</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">24</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">16</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Количество рядов</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">8</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">8</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">16</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">16</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">16</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">от 100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">от 100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 180</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 180</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 320</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 320</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 180</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 100</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 100</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 320</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 320</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
                     <div class="footer-content"></div>
@@ -302,15 +302,15 @@
         margin: 0 auto;
         padding: 0;
         border: 0;
-        font-family: FuturisC, Calibri, sans-serif;
+        font-family: FuturisC, sans-serif;
     }
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 165px; padding-bottom: 10px;}
     .content-page{padding: 20px 20px 0;}
-    .first-header-text{display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 48px; padding: 0; margin:0 20px; font-family: FuturisXC, Calibri, sans-serif;}
-    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, Calibri, sans-serif;}
+    .first-header-text{display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 48px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
+    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
@@ -318,10 +318,10 @@
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
     .head-content{border-bottom: 1px solid black; margin-bottom: 3px;}
-    .head-content {font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 20px;}
+    .head-content {font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 20px;}
     .head-content .logo-maker{text-align: right; margin-top: 4px;}
-    .body-content .h-4{display: block; font-family: FuturisXC, Calibri, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 21px;}
-    .h-2 {font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 18px;}
+    .body-content .h-4{display: block; font-family: FuturisXC, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 21px;}
+    .h-2 {font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 18px;}
     .body-page .content-page{padding: 0 20px 10px;}
     .one-item{position: relative; margin-bottom: 30px;}
     .one-item:last-child{margin-bottom: 0}
@@ -342,14 +342,14 @@
         margin-bottom: 4px;
         font-weight: bold;
     }
-    .text{display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 18px;}
-    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, Calibri, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
+    .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 18px;}
+    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
     .dieci-header{padding: 10px;}
-    .dieci-header-orange{font-family: FuturisXC, Calibri, sans-serif; font-size: 34px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white;}
+    .dieci-header-orange{font-family: FuturisXC, sans-serif; font-size: 34px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white;}
     .span-align-left{display: block; text-align: left; text-transform: uppercase;}
     .span-align-right{display: block; text-align: right; text-transform: uppercase;}
-    .dieci-black-header{font-family: FuturisXC, Calibri, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
-    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, Calibri, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
+    .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
+    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65
     {
         float: left;

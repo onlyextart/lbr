@@ -85,9 +85,9 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">700</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -173,11 +173,11 @@
                                                 <td ><span>101</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -258,10 +258,10 @@
                                             </tr>
                                             
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -294,46 +294,46 @@
                             
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">TF 2F 75-80-85-90</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 75</span></td>
-                                            <td width="25%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 90</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 2F 75-80-85-90</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 75</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 90</span></td>
                                         </tr>
                                         <tr  bgcolor="#d1d3d4">
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Кол-во рядков</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">2x75-80-90</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">4х75</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">4x90</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Кол-во рядков</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">2x75-80-90</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">4х75</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">4x90</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Вес, кг</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">720</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1300</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1500</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Вес, кг</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">720</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1300</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1500</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">50</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">70</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">50</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">ВОМ, об/мин</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1000</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1000</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">ВОМ, об/мин</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1000</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">0,6-1</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1,2-2,1</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1,4-2,5</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">0,6-1</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,2-2,1</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,4-2,5</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -373,60 +373,60 @@
                             <div class="width-100">
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="40%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1400</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1600</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1600 PLUS</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PYRUS</span></td>
+                                            <td width="40%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1400</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1600</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">WEGA 1600 PLUS</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRUS</span></td>
                                         </tr>
                                         <tr  bgcolor="#d1d3d4">
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Рабочая ширина, мм</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">1400 (1500)</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">1600</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">1600</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">1400</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Рабочая ширина, мм</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">1400 (1500)</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">1600</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">1600</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">1400</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Ширина междурядий, см</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">70-75</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">75-90</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">70-90</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">70-75</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Ширина междурядий, см</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70-75</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">75-90</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70-90</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70-75</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Количество рядов, шт.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Количество рядов, шт.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Длина, мм</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2840</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2900</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3400</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3200</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Длина, мм</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2840</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2900</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3400</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3200</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">55</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">60</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">50</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">60</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">55</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">60</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">50</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">60</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Количество транспортеров</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"></span>1</td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"></span>1</td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"></span>1</td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;"></span>2</td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Количество транспортеров</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"></span>1</td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"></span>1</td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"></span>1</td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"></span>2</td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -464,44 +464,44 @@
                             
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PD1400</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PD1650</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1400</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1650</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Междурядье, см</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">70-75</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">75</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Междурядье, см</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70-75</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">75</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Вес, кг</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">945</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">985</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Вес, кг</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">945</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">985</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Диаметр ботвоудаляющих дисков, мм</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">500</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">500</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Диаметр ботвоудаляющих дисков, мм</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Производительность в час</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">0,42-0,84</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">0,49 – 0,99</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Производительность в час</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">0,42-0,84</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">0,49 – 0,99</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Длина с валкоукладчиком, см</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">360</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">360</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Длина с валкоукладчиком, см</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">360</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">360</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 80</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 110</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 80</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 110</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -600,10 +600,10 @@
                                             <td><span>1500</span></td>
                                         </tr>
                                         <tr>
-                                            <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
+                                            <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -641,35 +641,35 @@
                             
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PYRA 1500</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">PYRA 3000</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 1500</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 3000</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Емкость бункера, кг</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1500</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Емкость бункера, кг</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1500</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3000</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Высота разгрузки, м</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1,25-2,70</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1,25-3,14</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Высота разгрузки, м</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,25-2,70</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,25-3,14</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Ходовые колеса</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">10/75-15,3</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">16,0/70-20</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Ходовые колеса</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">10/75-15,3</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">16,0/70-20</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">50</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">50</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price23']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price23']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -717,40 +717,40 @@
                         </div>
                     <table width="768" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="30%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">M-647 MINI</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">M-647</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">М-616</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">M 900</span></td>
+                                            <td width="30%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">M-647 MINI</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">M-647</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">М-616</span></td>
+                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">M 900</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Размеры окошек сита, мм</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">35-40-50</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">35-40-50</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 25х25 до 80х80</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">От 25х25 до 80х80</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Размеры окошек сита, мм</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">35-40-50</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">35-40-50</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 25х25 до 80х80</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 25х25 до 80х80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Масса, кг</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">600</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">850</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">650</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">950</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Масса, кг</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">600</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">850</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">650</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">950</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Производительность, т/ч</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">4-6</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">4-6</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6-9</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Производительность, т/ч</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4-6</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4-6</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">6-9</span></td>
                                         </tr>
                                         
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price24']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price25']; ?></span></td>                                            
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price26'];?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price24']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price25']; ?></span></td>                                            
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price26'];?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
                                         </tr>
                                 </table>
                     
@@ -819,15 +819,15 @@
         margin: 0 auto;
         padding: 0;
         border: 0;
-        font-family: FuturisC, Calibri, sans-serif;
+        font-family: FuturisC, sans-serif;
     }
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: left;}
     .content-page{padding: 20px 20px 0;}
-    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, Calibri, sans-serif;}
-    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, Calibri, sans-serif;}
+    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
+    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
@@ -835,11 +835,11 @@
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
     .head-content{border-bottom: 1px solid black; margin-bottom: 3px;}
-    .head-content .h-2{font-family: FuturisXC, Calibri, sans-serif; margin-top: 15px; font-size: 20px; text-transform: uppercase;}
+    .head-content .h-2{font-family: FuturisXC, sans-serif; margin-top: 15px; font-size: 20px; text-transform: uppercase;}
     .head-content .logo-maker{text-align: right; margin-top: 4px;}
-    .body-content .h-4{display: block; font-family: FuturisXC, Calibri, sans-serif; margin-top: 3px; font-size: 17px;}
+    .body-content .h-4{display: block; font-family: FuturisXC, sans-serif; margin-top: 3px; font-size: 17px;}
     .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 5px 0 10px;}
-    .head-content-grey .h-2{ color: #B8BDBC; font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
+    .head-content-grey .h-2{ color: #B8BDBC; font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
     .body-page .content-page{padding: 0 20px 10px;}
     .one-item{position: relative; margin-bottom: 0px;}
     .one-item:last-child{margin-bottom: 0}
@@ -860,14 +860,14 @@
         margin-bottom: 4px;
         font-weight: bold;
     }
-    .text{display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 2px 0; line-height: 16px;}
-    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, Calibri, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
+    .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 14px; color: #222222; margin: 2px 0; line-height: 16px;}
+    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
     .dieci-header{ padding: 10px;}
-    .dieci-header-orange{width: 80%; font-family: FuturisXC, Calibri, sans-serif; text-transform: uppercase; font-size: 40px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white; text-align: left;}
+    .dieci-header-orange{width: 80%; font-family: FuturisXC, sans-serif; text-transform: uppercase; font-size: 40px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white; text-align: left;}
     .span-align-left{display: block; text-align: left;}
     .span-align-right{display: block; text-align: right;}
-    .dieci-black-header{font-family: FuturisXC, Calibri, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
-    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, Calibri, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
+    .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
+    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
     .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,Calibri,sans-serif;}
@@ -933,7 +933,7 @@
     .bold-up
     {
         display: block;
-        font-family: FuturisXC, Calibri, sans-serif;
+        font-family: FuturisXC, sans-serif;
         font-size: 15px;
         color: black;
         text-transform: uppercase;

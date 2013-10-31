@@ -23,13 +23,10 @@
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
-                    <div class="one-item">
-                        <div class="head-content-grey">
-                            <div class="h-2"><span>МТЗ 1221 - ПО СТАРОЙ ЦЕНЕ - ЭКОНОМИЯ ДО 10%</span></div>
-                        </div>
+                    <div class="one-item">                        
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Трактор «БЕЛАРУС-1221»</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/belarus-logo.jpg" border="0" style="position: absolute; right: 0px; top: 75px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/belarus-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -844,6 +841,134 @@
                     <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
+                            <div class="h-2 left-85"><span>Прикатывающий каток Jacek</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.git-lbr.ru/images/kp/mtz1221_22.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Модель</span>
+                                    </td>
+                                    <td>
+                                    <span>1707</span>
+                                    </td>
+                                    <td>
+                                    <span>1709</span>
+                                    </td>
+                                    <td>
+                                    <span>1717</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Рабочая ширина, м</span>
+                                    </td>
+                                    <td>
+                                    <span>6,2</span>
+                                    </td>
+                                    <td>
+                                    <span>8,0</span>
+                                    </td>
+                                    <td>
+                                    <span>6,2</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Диаметр диска Cambridge, мм</span>
+                                    </td>
+                                    <td colspan="2">
+                                    <span>500</span>
+                                    </td>
+                                    <td>
+                                    <span>510</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Количество дисков, шт.</span>
+                                    </td>
+                                    <td>
+                                    <span>117</span>
+                                    </td>
+                                    <td>
+                                    <span>151</span>
+                                    </td>
+                                    <td>
+                                    <span>63</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Мощность трактора, кВт/л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>75/99</span>
+                                    </td>
+                                    <td>
+                                    <span>95/125</span>
+                                    </td>
+                                    <td>
+                                    <span>75/99</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Вес, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>2630</span>
+                                    </td>
+                                    <td>
+                                    <span>3180</span>
+                                    </td>
+                                    <td>
+                                    <span>2340</span>
+                                    </td>
+                                    </tr> 
+                                    <tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue11']; ?>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue12']; ?>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue13']; ?>
+                                           </td>
+                                        </tr>
+                                        
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price11']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price12']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price13']; ?>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="one-item">
+                        <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая 2S-2600F</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
@@ -976,7 +1101,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue11']; ?>
+                                           <? echo $data['price_blue14']; ?>
                                            </td>
                                         </tr>
                                     <tr>
@@ -984,15 +1109,14 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price11']; ?>
+                                        <? echo $data['price14']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                    </div>
-                    <div style="width: 100%; height: 70px;"></div>
+                    </div>                    
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялки точного высева PD-8070 и YP-825A</span></div>
@@ -1000,17 +1124,17 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz1221_11.jpg" border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/mtz1221_11.jpg" style="height: 440px;" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                     <tbody>
                                         <tr>
-                                        <td>
+                                        <td width="60%">
                                         <span>Модель</span>
                                         </td>
-                                        <td>
+                                        <td width="40%">
                                         <span>PD-8070</span>
                                         </td>
                                         </tr>
@@ -1155,7 +1279,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue12']; ?>
+                                           <? echo $data['price_blue15']; ?>
                                            </td>
                                         </tr>
                                         
@@ -1164,7 +1288,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price12']; ?>
+                                        <? echo $data['price15']; ?>
                                     </td>
                                     </tr>
                                     </tbody>  
@@ -1362,7 +1486,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue13']; ?>
+                                           <? echo $data['price_blue16']; ?>
                                            </td>
                                         </tr>
                                         
@@ -1371,7 +1495,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price13']; ?>
+                                        <? echo $data['price16']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1462,7 +1586,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue14']; ?>
+                                           <? echo $data['price_blue17']; ?>
                                            </td>
                                         </tr>
                                         
@@ -1471,7 +1595,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price14']; ?>
+                                        <? echo $data['price17']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1531,10 +1655,10 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue15']; ?>
+                                        <? echo $data['price_blue18']; ?>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue16']; ?>
+                                        <? echo $data['price_blue19']; ?>
                                         </td>
                                     </tr>
                                     <tr>
@@ -1542,10 +1666,10 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price15']; ?>
+                                        <? echo $data['price18']; ?>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price16']; ?>
+                                        <? echo $data['price19']; ?>
                                     </td>
                                     </tr>
                                     </tbody>     
@@ -1651,7 +1775,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue17']; ?>
+                                        <? echo $data['price_blue20']; ?>
                                         </td>
                                     </tr>
                                     
@@ -1660,7 +1784,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price17']; ?>
+                                        <? echo $data['price20']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1745,7 +1869,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue18']; ?>
+                                        <? echo $data['price_blue21']; ?>
                                         </td>
                                     </tr>
                                     
@@ -1754,7 +1878,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price18']; ?>
+                                        <? echo $data['price21']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1845,7 +1969,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue19']; ?>
+                                        <? echo $data['price_blue22']; ?>
                                         </td>
                                     </tr>
                                     
@@ -1854,7 +1978,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price19']; ?>
+                                        <? echo $data['price22']; ?>
                                     </td>
                                     </tr>
                                     </tbody>  
@@ -1944,7 +2068,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue20']; ?>
+                                        <? echo $data['price_blue23']; ?>
                                         </td>
                                     </tr>
                                     
@@ -1953,7 +2077,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price20']; ?>
+                                        <? echo $data['price23']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2020,7 +2144,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue21']; ?>
+                                        <? echo $data['price_blue24']; ?>
                                         </td>
                                     </tr>
                                     
@@ -2029,7 +2153,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price21']; ?>
+                                        <? echo $data['price24']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2172,7 +2296,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue22']; ?>
+                                        <? echo $data['price_blue25']; ?>
                                         </td>
                                     </tr>
                                     
@@ -2181,7 +2305,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price22']; ?>
+                                        <? echo $data['price25']; ?>
                                     </td>
                                     </tr>
                                             </tbody>
@@ -2234,7 +2358,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue23']; ?>
+                                        <? echo $data['price_blue26']; ?>
                                         </td>
                                     </tr>
                                     
@@ -2243,7 +2367,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price23']; ?>
+                                        <? echo $data['price26']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2293,7 +2417,7 @@
                                         <span class="price">Цена весенняя</span>
                                         </td>
                                         <td class="price">
-                                        <? echo $data['price_blue24']; ?>
+                                        <? echo $data['price_blue27']; ?>
                                         </td>
                                     </tr>
                                     
@@ -2302,7 +2426,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price24']; ?>
+                                        <? echo $data['price27']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -2371,15 +2495,15 @@
         margin: 0 auto;
         padding: 0;
         border: 0;
-        font-family: FuturisC, Calibri, sans-serif;
+        font-family: FuturisC, sans-serif;
     }
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.git-lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 40px 150px;}
     .content-page{padding: 20px 20px 0;}
-    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, Calibri, sans-serif;}
-    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, Calibri, sans-serif;}
+    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
+    .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
@@ -2387,11 +2511,11 @@
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
     .head-content{border-bottom: 1px solid black; margin-bottom: 3px;}
-    .head-content .h-2{font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 20px; text-transform: uppercase;}
+    .head-content .h-2{font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 20px; text-transform: uppercase;}
     .head-content .logo-maker{text-align: right; margin-top: 4px;}
-    .body-content .h-4{display: block; font-family: FuturisXC, Calibri, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 21px;}
+    .body-content .h-4{display: block; font-family: FuturisXC, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 21px;}
     .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 5px 0 10px;}
-    .head-content-grey .h-2{ color: #B8BDBC; font-family: FuturisXC, Calibri, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
+    .head-content-grey .h-2{ color: #B8BDBC; font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
     .body-page .content-page{padding: 0 20px 10px;}
     .one-item{position: relative; margin-bottom: 0px;}
     .one-item:last-child{margin-bottom: 0}
@@ -2412,14 +2536,14 @@
         margin-bottom: 4px;
         font-weight: bold;
     }
-    .text{display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 16px; color: #222222; margin: 10px 0; line-height: 21px;}
-    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, Calibri, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
+    .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 16px; color: #222222; margin: 10px 0; line-height: 21px;}
+    .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
     .dieci-header{ padding: 10px;}
-    .dieci-header-orange{width: 80%; font-family: FuturisXC, Calibri, sans-serif; text-transform: uppercase; font-size: 36px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white;}
+    .dieci-header-orange{width: 80%; font-family: FuturisXC, sans-serif; text-transform: uppercase; font-size: 36px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white;}
     .span-align-left{display: block; text-align: left;}
     .span-align-right{display: block; text-align: right;}
-    .dieci-black-header{font-family: FuturisXC, Calibri, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
-    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, Calibri, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
+    .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
+    .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
     .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-align: center; font-size: 22px; padding: 35px 0; font-family: FuturisXC,Calibri,sans-serif;}

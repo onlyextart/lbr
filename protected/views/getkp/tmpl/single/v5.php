@@ -28,7 +28,7 @@
             <span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a; text-align: right;">ЭКСПОЗИЦИЮ ТЕХНИКИ!</span>
             </td></tr>
             <tr><td align="justify">
-            <span style="width: 100%; clear: both; float: none; font-family: FuturisXC, Calibri, sans-serif; font-size: 17px; color: black; text-transform: uppercase;">На площадке АгроМаркета вас ждут самые популярные модели</span>
+            <span style="width: 100%; clear: both; float: none; font-family: Calibri, sans-serif; font-size: 17px; color: black; text-transform: uppercase;">На площадке АгроМаркета вас ждут самые популярные модели</span>
             </td></tr>
             <tr><td align="right">
             <span style="font-family: Calibri, sans-serif;  font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">телескопических <br />погрузчиков Dieci</span>
@@ -64,7 +64,7 @@
                                     <td>
                                         <br />
                                                                               
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
                                         • Уникальная гидравлика рулевого управления имеет 3 режима работы: координированное управление передними колесами, поворотом всех колес в одном направлени (крабовый ход) или передних и задних в разные стороны (колея в колею).<br />• Механизм, предотвращающий опрокидывание машины при резких движениях.</span>
                                         
                                         
@@ -79,64 +79,64 @@
                     <td colspan="2">
                                    <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
-                                        <td width="50%" align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
-                                        <td width="25%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Farmer Mini</span></td>
-                                        <td width="25%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Farmer 30.7</span></td>
+                                        <td width="50%" align="left"><span style="font-family:Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
+                                        <td width="25%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Farmer Mini</span></td>
+                                        <td width="25%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Farmer 30.7</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2800</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3000</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2800</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3000</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Горизонтальный вылет, м </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3,65</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3,65</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">&nbsp;Горизонтальный вылет, м </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3,65</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3,65</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">700</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">700</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">700</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">700</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2000</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2000</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2000</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2000</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Трансмиссия</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Трансмиссия</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Эксплуатационная масса, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">6100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">6100</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Эксплуатационная масса, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">6100</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">6100</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4760х2000х2000</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4760х2220х2000</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4760х2000х2000</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4760х2220х2000</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                             </table>
                                    </td>
@@ -168,7 +168,7 @@
                                        
                                         <br>
                                         
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />
                                         <br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
                                         <br />• Уникальная гидравлика рулевого управления имеет 3 режима работы: координированное управление передними колесами, поворотом всех колес в одном направлени (крабовый ход) или передних и задних в разные стороны (колея в колею).<br />
                                         <br />• Механизм, предотвращающий опрокидывание машины при резких движениях.<br /></span>
@@ -187,76 +187,76 @@
                     <td colspan="2">
                                    <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
-                                        <td width="49%" align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
-                                        <td width="17%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Star 37.7</span></td>
-                                        <td width="17%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Star 35.10</span></td>
-                                        <td width="17%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Star 38.10</span></td>
+                                        <td width="49%" align="left"><span style="font-family: Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
+                                        <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Star 37.7</span></td>
+                                        <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Star 35.10</span></td>
+                                        <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Star 38.10</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">7,35</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">9,75</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">9,75</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">7,35</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">9,75</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">9,75</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3700</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3500</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3800</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3700</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3500</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3800</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Горизонтальный вылет, м </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">4,00</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6,50</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6,45</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">&nbsp;Горизонтальный вылет, м </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">4,00</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6,50</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6,45</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1.100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">400</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">450</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1.100</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">400</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">450</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3500</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2200</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2200</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3500</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2200</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2200</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Трансмиссия</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Трансмиссия</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">гидростатическая</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/230</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Эксплуатационная масса, кг </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7.100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7.700</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7.900</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Эксплуатационная масса, кг </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.100</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.700</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.900</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                     </tr>
                                 </table>
                                    </td>
@@ -288,7 +288,7 @@
                                        
                                         <br>
                                         
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Инновационная трансмиссия «Vario System», имеющая 4 режима работы.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Инновационная трансмиссия «Vario System», имеющая 4 режима работы.<br />
                                         <br />• Новая и высокоэффективная механическая система управления отбором мощности с двумя скоростями (540 и 1000 оборотов в минуту) и мощностью 100 л.с. может передавать всю имеющуюся мощность к приспособлениям.<br />
                                         <br />• Трехточечная навеска с силовым и позиционным регулированием (аналогичная устанавливается на трактора New Holland) последнего поколения грузоподъемностью 4 тонны позволяет использовать телескопический погрузчик вместо трактора.<br />
                                         <br />• Бак с дизельным топливом на 140 литров и оптимизированное потребление гарантируют рекордную автономность, что означает уменьшение остановок для дозаправки на 20-30%.<br /></span>
@@ -300,74 +300,74 @@
                                     <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/><br />
                                     <table width="470" border="1" cellspacing="0" cellpadding="0" align="right" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
-                                        <td width="49%" align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
-                                        <td width="17%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Tech 35.7 VS</span></td>
-                                        <td width="17%"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;">Agri Tech 32.9 VS</span></td>
+                                        <td width="49%" align="left"><span style="font-family:Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
+                                        <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Tech 35.7 VS</span></td>
+                                        <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Tech 32.9 VS</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Максимальная высота подъема, м</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">9</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Максимальная высота подъема, м</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">9</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Максимальная грузоподъемность, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3500</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">3200</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Максимальная грузоподъемность, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3500</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">3200</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Горизонтальный вылет, м</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3,83</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6,04</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">Горизонтальный вылет, м</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3,83</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6,04</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Грузоподъемность на максимальном вылете, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">1.200</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">400</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px;">Грузоподъемность на максимальном вылете, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1.200</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">400</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Грузоподъемность на максимальной высоте, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">2500</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">1500</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Грузоподъемность на максимальной высоте, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">2500</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">1500</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Мощность механического ВОМа, л.с.</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">100</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">100</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Мощность механического ВОМа, л.с.</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">100</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">100</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Грузоподъемность задней трехточечной навески, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4000</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">4000</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Грузоподъемность задней трехточечной навески, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4000</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4000</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Двигатель (марка, мощность), кВт/л.с.</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">Iveko, 93/127</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">Iveko, 93/127</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Двигатель (марка, мощность), кВт/л.с.</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">Iveko, 93/127</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">Iveko, 93/127</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Трансмиссия</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">Vario System</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">Vario System</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Трансмиссия</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">Vario System</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">Vario System</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Гидравлическая система (производительность), л/мин; бар</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/240</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 13px; ">110/240</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Гидравлическая система (производительность), л/мин; бар</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/240</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px; ">110/240</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Эксплуатационная масса, кг</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7.600</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">7.800</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Эксплуатационная масса, кг</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.600</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.800</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">Габариты (длина х ширина х высота), мм</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">5550х2400х2500</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px;">5550х2400х2500</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Габариты (длина х ширина х высота), мм</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">5550х2400х2500</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">5550х2400х2500</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                        <td><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
                                     </td>
@@ -391,7 +391,7 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
                                 <tr>
-                                    <td><span style="display:block; background: rgb(245,130,32); color: white; font-family: FuturisXC, Calibri, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;">ВО ВСЕХ ТЕЛЕСКОПИЧЕСКИХ ПОГРУЗЧИКАХ DIECI<br /> ОБЕСПЕЧИВАЕТСЯ:</span></td>
+                                    <td><span style="display:block; background: rgb(245,130,32); color: white; font-family:Calibri, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;">ВО ВСЕХ ТЕЛЕСКОПИЧЕСКИХ ПОГРУЗЧИКАХ DIECI<br /> ОБЕСПЕЧИВАЕТСЯ:</span></td>
                                 </tr>
                             </table>
                         </td>
@@ -405,13 +405,13 @@
                                        
                                         <br>
                                         <span style="font-family: Calibri, sans-serif; font-size: 20px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ОБЗОР 360°</span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">С приподнятого водительского сиденья обеспечивается видимость на 360° благодаря инновационной системе защиты от падений, расположенной внутри салона. Стеклоочиститель в форме параллелограмма очищает переднее стекло в верхней части кабины. Два независимых зеркала заднего вида с обеих сторон уменьшают до минимума непросматриваемые углы.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">С приподнятого водительского сиденья обеспечивается видимость на 360° благодаря инновационной системе защиты от падений, расположенной внутри салона. Стеклоочиститель в форме параллелограмма очищает переднее стекло в верхней части кабины. Два независимых зеркала заднего вида с обеих сторон уменьшают до минимума непросматриваемые углы.<br />
                                         </span>
                                         <span style="font-family: Calibri, sans-serif; font-size: 20px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ЗАБОТА ОБ ОПЕРАТОРЕ!</span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Самая большая дверь среди аналогичной продукции обеспечивает легкий доступ к водительскому месту. Внутри салона все служит для облегчения работы оператора. Благодаря подлокотнику на правой панели, достигается наилучший доступ к джойстику. Звуконепроницаемость, регулируемый по высоте и глубине руль, электрический стеклоподъемник, кондиционер - все это позволяет работать оператору в условиях полного комфорта.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Самая большая дверь среди аналогичной продукции обеспечивает легкий доступ к водительскому месту. Внутри салона все служит для облегчения работы оператора. Благодаря подлокотнику на правой панели, достигается наилучший доступ к джойстику. Звуконепроницаемость, регулируемый по высоте и глубине руль, электрический стеклоподъемник, кондиционер - все это позволяет работать оператору в условиях полного комфорта.<br />
                                         </span>
                                         <span style="font-family: Calibri, sans-serif; font-size: 20px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">МАКСИМАЛЬНАЯ БЕЗОПАСНОСТЬ</span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Для обеспечения максимальной безопасности все машины оборудованы электронной системой, позволяющей держать под постоянным контролем нагрузку на вилы или на другое оборудование во время работы.<br /> Ограничитель нагрузки обеспечивает гибкое и точное управление как серийным, так и специальным оборудованием.<br />
+                                        <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Для обеспечения максимальной безопасности все машины оборудованы электронной системой, позволяющей держать под постоянным контролем нагрузку на вилы или на другое оборудование во время работы.<br /> Ограничитель нагрузки обеспечивает гибкое и точное управление как серийным, так и специальным оборудованием.<br />
                                         </span>
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>

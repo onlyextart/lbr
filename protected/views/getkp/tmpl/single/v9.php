@@ -2251,7 +2251,9 @@
                                     </table>
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/mtz82_26.jpg" width="300" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/mtz82_26.jpg" width="300" border="0" />
+                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                    <img src="http://www.git-lbr.ru/images/kp/mtz82_27.jpg" width="300" border="0" /></td>
                                 </tr>
                             </table>
                         </td>

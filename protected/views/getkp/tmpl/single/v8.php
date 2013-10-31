@@ -48,11 +48,11 @@
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">СОВРЕМЕННЫЙ.<br /> ЕВРОПЕЙСКИЙ. <br /> Лучший по цене!<br /></span>
                                         <br>
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1.УДОБНАЯ ЗАМЕНА K-700<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Трехточечное навесное устройство. Грузоподъемность - до 10 500 кг. Гидравлическая система (130 л/мин). Контроль глубины работы и подъема навесного оборудования.<br /></span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Трехточечное навесное устройство. Грузоподъемность - до 10 500 кг. Гидравлическая система (130 л/мин). Контроль глубины работы и подъема навесного оборудования.<br /></span>
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. ВСЕГО 20 000 РУБ. ЗА ЛОШАДЬ!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">6-ти цилиндровый двигатель IVECO мощностью 225 л.с. НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ. МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.<br /></span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">6-ти цилиндровый двигатель IVECO мощностью 225 л.с. НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ. МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.<br /></span>
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. ТРАКТОРИСТ – ЭТО ЧЕЛОВЕК.<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">В данном классе тракторов реализована интегрированная концепция подвески и комфорта вождения.<br> В базовой комплектации трактора:<br />• одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;<br />• кондиционер, отопление, вентиляция;<br />• пневматическая подвеска кабины.</span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">В данном классе тракторов реализована интегрированная концепция подвески и комфорта вождения.<br> В базовой комплектации трактора:<br />• одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;<br />• кондиционер, отопление, вентиляция;<br />• пневматическая подвеска кабины.</span>
                                         
                                         
                                     </td>
@@ -154,18 +154,18 @@
                                     
                                     <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трактор “MC TTX 230” (c механическим управлением диапазонов переключения передач) пр-во РФ</span></td>
-                                    <td align="center" width="150"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;"><? echo $data['price1']?></span></td>
+                                    <td align="center" width="150"><span style="font-family:Calibri, sans-serif; font-size: 14px;"><? echo $data['price1']?></span></td>
                                     </tr>
                                     <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трактор McCORMICK TTX 230 E ( с электронным управлением диапазонов переключения передач) пр-во Италия</span></td>
-                                    <td align="center" width="150"><span style="font-family:FuturisXC, Calibri, sans-serif; font-size: 14px;"><? echo $data['price2']?></span></td>
+                                    <td align="center" width="150"><span style="font-family:Calibri, sans-serif; font-size: 14px;"><? echo $data['price2']?></span></td>
                                     </tr>
                                     
                                     </table>
                                    </td>
                     <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
-                 <span style="clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 15px; padding: 5px 0; font-family: FuturisXC,Calibri,sans-serif; padding: 25px 0 20px;"> При скорости работы в 12 – 15 км/ч сеялки с лёгкостью превосходят<br /> 12-ти и 18-ти метровые посевные комплексы с анкером или стрельчатой лапой, работающие со скоростью 8 км/ч, по производительности.</span>
+                 <span style="clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 15px; padding: 5px 0; font-family:Calibri,sans-serif; padding: 25px 0 20px;"> При скорости работы в 12 – 15 км/ч сеялки с лёгкостью превосходят<br /> 12-ти и 18-ти метровые посевные комплексы с анкером или стрельчатой лапой, работающие со скоростью 8 км/ч, по производительности.</span>
             </td>
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
@@ -184,7 +184,7 @@
                                     <td>
                                      
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Двойная экономия при той же производительности:<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Трактор 220 л.с. + сеялка 12 метров = 1500 Га яровых + 2000 Га озимых при себестоимости 5000 рублей на каждый посеянный гектар в год <br />Трактор 200 л.с. + сеялка Spartan 6 метров = 1500 Га яровых + 2000 Га озимых при себестоимости 2500 рублей на каждый посеянный гектар в год</span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Трактор 220 л.с. + сеялка 12 метров = 1500 Га яровых + 2000 Га озимых при себестоимости 5000 рублей на каждый посеянный гектар в год <br />Трактор 200 л.с. + сеялка Spartan 6 метров = 1500 Га яровых + 2000 Га озимых при себестоимости 2500 рублей на каждый посеянный гектар в год</span>
                                     
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
@@ -196,18 +196,18 @@
                     <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                 <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />Плюсы:<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">+ требуемая мощность тракторов – 170 л.с. для сеялок Spartan 607 (6 м) соответственно!
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">+ требуемая мощность тракторов – 170 л.с. для сеялок Spartan 607 (6 м) соответственно!
                                         <br />+ транспортная ширина – 3 метра!
                                         <br />+ 15-20% прирост урожайности по сравнению с агрегатами со стрельчатой лапой за счет точности и равномерности посева!
                                         <br />+ работа по кукурузе и подсолнечнику
                                         <br />+ работа по рапсу и зерновым без подработки</span>
             <br /><br />
             <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Переходить на ноль стало ПРОЩЕ!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Пневматическая зерновая сеялки Spartan 607 Great Plains предназначен для работы по технологии минимальной или нулевой обработки почвы и имеет двухдисковый сошник с передним разрезным турбодиском, такая концепция позволят использовать сеялки в других технологиях. Режущие турбодиски оснащены предохранительными пружинами, которые содействуют лучшему проникновению дисков в почву. Ничто не мешает их снять и работать по подготовленной почве.</span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Пневматическая зерновая сеялки Spartan 607 Great Plains предназначен для работы по технологии минимальной или нулевой обработки почвы и имеет двухдисковый сошник с передним разрезным турбодиском, такая концепция позволят использовать сеялки в других технологиях. Режущие турбодиски оснащены предохранительными пружинами, которые содействуют лучшему проникновению дисков в почву. Ничто не мешает их снять и работать по подготовленной почве.</span>
             
             <br /><br />
             <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. Пропашной сошник на зерновой сеялке!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Независимый сошник на параллелограмме обеспечивает точность высева семян во всех условиях, начиная с тяжелых стерневых и заканчивая работой по обработанной почве. Сошник оборудован двойными открывающими дисками со смещением, мягко укладывающим семена за счет длинной семенной трубки, за которым следует успокоитель, прижимая семена к дну борозды. Контроль глубины сева осуществляется Т-образной рукояткой на каждом сошнике, сошники следующие по колее трактора имеют более жесткую настройку.</span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Независимый сошник на параллелограмме обеспечивает точность высева семян во всех условиях, начиная с тяжелых стерневых и заканчивая работой по обработанной почве. Сошник оборудован двойными открывающими дисками со смещением, мягко укладывающим семена за счет длинной семенной трубки, за которым следует успокоитель, прижимая семена к дну борозды. Контроль глубины сева осуществляется Т-образной рукояткой на каждом сошнике, сошники следующие по колее трактора имеют более жесткую настройку.</span>
             
             </td>
         </tr>
@@ -224,9 +224,9 @@
                                     <td>
                                     
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. По равнинам и холмам.<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Отлично зарекомендовавшая себя в конструкция орудий Spartan 607 позволяет сеялке независимо опускаться и подниматься при работе на неровных поверхностях. Система гидравлического перераспределения веса способствует увеличению гибкости сеялки и гарантирует равномерность распределения нагрузки по всей ширине захвата орудия. Боковые секции могут опускаться вниз и подниматься вверх, что способствует превосходному копированию поверхности поля.<br /></span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">Отлично зарекомендовавшая себя в конструкция орудий Spartan 607 позволяет сеялке независимо опускаться и подниматься при работе на неровных поверхностях. Система гидравлического перераспределения веса способствует увеличению гибкости сеялки и гарантирует равномерность распределения нагрузки по всей ширине захвата орудия. Боковые секции могут опускаться вниз и подниматься вверх, что способствует превосходному копированию поверхности поля.<br /></span>
                                         <br /><span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. По любой дороге!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">В транспортном положении ширина сеялки составляет всего 3 метра, что соответствует Европейским стандартам.<br /></span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">В транспортном положении ширина сеялки составляет всего 3 метра, что соответствует Европейским стандартам.<br /></span>
                                         
                                         
                                         

@@ -45,19 +45,19 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                                 <tr valign="top">
                                     <td width="328">
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Стандартно:</b> <br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Стандартно:</b> <br />
                                         • болтовая защита корпусов,
                                         <br />• комплект углоснимов, 
                                         <br />• опорное резиновое колесо,
                                         <br />• дисковый нож
                                     </span>
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><b>Опционально:</b> <br />
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><br /><b>Опционально:</b> <br />
                                         • рессорная защита корпусов
                                         <br>• ажурные (полосовые) отвалы
                                         <br>• комплект предплужников.
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ДЛЯ САМЫХ ХОДОВЫХ ТРАКТОРОВ:<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><b>Опционально:</b> <br />
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />ДЛЯ САМЫХ ХОДОВЫХ ТРАКТОРОВ:<br /></span>
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><b>Опционально:</b> <br />
                                         • рессорная защита корпусов
                                         <br>• ажурные (полосовые) отвалы
                                         <br>• комплект предплужников.
@@ -89,10 +89,10 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">5</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -133,12 +133,12 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: center; text-transform: uppercase;">ДЛЯ ЛЮБЫХ ПОЧВ И УСЛОВИЙ!<br /></span>
-                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Стандартно:</b> <br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><b>Стандартно:</b> <br />
                                         • корпуса типа ZX,
                                         <br />• болтовая защита корпусов,
                                         <br />• комплект углоснимов.
                                     </span>
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><b>Опционально:</b> <br />
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;"><br /><b>Опционально:</b> <br />
                                         • 3-x корпусный - 80 л.с
                                         <br>• 4-х корпусный - 120 л.с
                                         <br>• 5-ти корпусный - 150 л.с
@@ -182,11 +182,11 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">250-310</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -226,7 +226,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ДОСТУПНЫЕ НАВЕСНЫЕ ПЛУГИ ПРЕМИУМ-СЕГМЕНТА!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • Все рабочие органы из сверхпрочного материала <b>Permanit ©plus</b> 
                                     <br />• Балка рамы изготовлена из высокопрочной стали с сечением 120х100х8 мм <b>серия M</b> и 150х100х12 мм <b>серия XMS</b>!
                                     <br />• Автоматический оборотный цилиндр двойного действия (возможность работы с регулирующим клапаном простого действия и обратным ходом).
@@ -261,9 +261,9 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">150-200</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -303,7 +303,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • Самый легкий, маневренный и доступный плуг - балка рамы имеет сечение 150х150 мм с толщиной стенки 12 мм!
                                     <br />• Полунавесное колесо серийно оснащено гидропневматическим амортизатором.
                                     <br />• Все рабочие органы из сверхпрочного материала <b>Permanit ©plus</b>
@@ -324,31 +324,31 @@
                         <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr bgcolor="#d1d3d4">
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Высота рамы, см</span></td>
-                                            <td width="25%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Максимальная мощность трактора, л.с.</span></td>
-                                            <td width="30%" colspan="3"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Высота рамы, см</span></td>
+                                            <td width="25%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Максимальная мощность трактора, л.с.</span></td>
+                                            <td width="30%" colspan="3"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
                                         </tr>
                                         <tr  bgcolor="#d1d3d4">
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">6-</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">8-</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">9-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">6-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">8-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">9-</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Hektor 1000</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">36/40/44/48</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">76/82</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">240</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3070</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3610</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">3880</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Hektor 1000</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">36/40/44/48</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">76/82</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">240</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3070</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3610</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3880</span></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="4"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
+                                            <td colspan="4"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
                                         </tr>
                                         </tbody>
                                 </table>
@@ -379,7 +379,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Первопроходчик:<br /> большой и сильный,<br /> с мощной рамой!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • Все рабочие органы из сверхпрочного материала <b>Permanit ©plus</b>
                                     <br>• <b>Гидравлически управляемый шарнирный узел рамы</b>, серийно оснащенный автоматическим устройством для оптимального приспособления к неровностям почвы. Опорное колесо – на задней части рамы.
                                     <br>• В исполнении «ПО ПОЛЮ» опорное колесо двигается перед плугом в борозде. Таким образом, достигается оптимальный контроль глубины, исключается опрокидывание агрегата через продольную ось. Надежная полностью гидравлическая регулировка качения для более легкого оборота плуга.
@@ -404,8 +404,8 @@
                                         <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; ">до 350</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="70%"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                        <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
+                                        <td align="left" width="70%"><span style="font-family:Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="center"><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
                                     </tr>
                                         </tbody>
                                 </table>
@@ -446,7 +446,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">5,5 га/час – это рентабельно!<br />ВСПАШКА ПО-ВЗРОСЛОМУ!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • Производительность 12-ти корпусного плуга – до 5,5 га/час!
                                     <br>• Самая мощная балка рамы с диаметром 200х200 мм в передней части, задняя часть 200х100 мм.
                                     <br>• Для тракторов, не оборудованных 3-х точечной навеской, специальное решение – тележка Top Lift!
@@ -465,34 +465,34 @@
                             <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr bgcolor="#d1d3d4">
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
-                                            <td width="15%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Высота рамы, см</span></td>
-                                            <td width="25%" rowspan="2"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Максимальная мощность трактора, л.с.</span></td>
-                                            <td width="30%" colspan="4"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
+                                            <td width="15%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Высота рамы, см</span></td>
+                                            <td width="25%" rowspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Максимальная мощность трактора, л.с.</span></td>
+                                            <td width="30%" colspan="4"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Вес, кг, - корпусной</span></td>
                                         </tr>
                                         <tr  bgcolor="#d1d3d4">
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">9-</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">10-</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">11-</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">12-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">9-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">10-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">11-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">12-</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">Hektor 1000</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">36/40/44/48</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">76/82</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">240</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">5233</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">5526</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">5819</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">6112</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Hektor 1000</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">36/40/44/48</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">76/82</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">240</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">5233</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">5526</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">5819</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6112</span></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="4"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
+                                            <td colspan="4"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
                                         </tr>
                                         </tbody>
                                 </table>
@@ -513,7 +513,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Дискаторы Unia серии Ares</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -527,7 +527,7 @@
                                     <td width="328">
                                     <img src="http://www.git-lbr.ru/images/kp/euro-9.jpg" border="0" width="328" style="margin-bottom: 10px;" />
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">УДИВИТЕЛЬНАЯ УНИВЕРСАЛЬНОСТЬ:<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • предпосевная обработка после вспашки,
                                     <br />• предпосевная обработка после чизельных плугов,
                                     <br />• первая обработка после зерновых,
@@ -585,12 +585,12 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">170-210</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -623,7 +623,7 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ЗА 1 ПРОХОД ПРЕДПОСЕВНОЙ <br>КУЛЬТИВАТОР ATLAS ВЫПОЛНЯЕТ:<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • выравнивание, прикатку струнным   валом,
                                     <br />• рыхление и подрезание 2-мя радами  S-образных лап,
                                     <br />• выравнивание двойным валом типа  Crosskill и финишное выравнивание
@@ -641,7 +641,7 @@
                                 
                             </table>
                             <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ПОЛУЧАЕМ ИДЕАЛЬНОЕ ПОСЕВНОЕ ЛОЖЕ, ХОРОШО ОБРАБОТАННУЮ, ИЗМЕЛЬЧЕННУЮ И ВЫРОВНЕННУЮ ПОЧВУ ПО ВСЕЙ ШИРИНЕ ЗАХВАТА</span>
-                                     <span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222;">
+                                     <span style="font-family:Calibri, sans-serif; font-size: 14px; color: #222222;">
                                         что и  является залогом успешного урожая.</span>
                                     <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
                             <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
@@ -682,11 +682,11 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">220-260</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price23']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price24']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price25']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price26']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price23']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price24']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price25']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price26']; ?></span></td>
                                             </tr>
                                         </tbody>
                                         
@@ -720,13 +720,13 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ПРИКАТКА, РЫХЛЕНИЕ И СНОВА ПРИКАТКА!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         • Выравнивание гребней после вспашки или дискование струнным валом диаметром 320 мм.
                                     <br />• Рыхление и подрезание почвы S-образной пружинной стойкой типа S+100 с подрезкой сорняков, 
                                     <br />• Завершает обработку двойной струнный вал 320/280 мм                                    
                                     </span>
-                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: center; color: #d1232a; text-transform: uppercase;">ВАШИ ПОЛЯ ПОЛНОСТЬЮ ГОТОВЫ ДЛЯ ПОСЕВА!<br /></span>
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: center; color: #d1232a; text-transform: uppercase;"><br />ВАШИ ПОЛЯ ПОЛНОСТЬЮ ГОТОВЫ ДЛЯ ПОСЕВА!<br /></span>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Предназначен для финишной предпосевной обработки почвы под посев зерновых, кукурузы, свеклы, а также отлично готовит почву под посев овощей.                                 
                                     </span>
                                      
@@ -778,11 +778,11 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">140</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price28']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price29']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price30']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price28']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price29']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price30']; ?></span></td>
                                             </tr>
                                         </tbody>
                                         
@@ -816,24 +816,24 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">УДИВИТЕЛЬНАЯ ПРОИЗВОДИТЕЛЬНОСТЬ -<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         оптимальная скорость работы 15 км/час!                                 
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ПОЛНОЕ КОПИРОВАНИЕ РЕЛЬЕФА ПОЧВЫ -<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 0 0 10px 0; line-height: 16px;">
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />ПОЛНОЕ КОПИРОВАНИЕ РЕЛЬЕФА ПОЧВЫ -<br /></span>
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 0 0 10px 0; line-height: 16px;">
                                         тандемная колесная система!                                 
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ИДЕАЛЬНАЯ ОБРАБОТКА И ВЫРАВНИВАНИЕ ЗА 1 ПРОХОД<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />ИДЕАЛЬНАЯ ОБРАБОТКА И ВЫРАВНИВАНИЕ ЗА 1 ПРОХОД<br /></span>
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         за счет следующих рабочих органов:
                                     <br />• выравнивающая планка, 
                                     <br />• 5 рядов S-образных стоек S+100 (или SV), 
                                     <br />• струнный вал.<br />             
                                     </span>
-                                    <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                         Применяется для повседневной обработки зерновых, под сахарную свеклу, подсолнечник, кукурузу, для обработки паров, для работы после пахоты и дискования.             
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ПРИЯТНО УДИВИТЕСЬ ЦЕНЕ!<br /></span> 
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />ПРИЯТНО УДИВИТЕСЬ ЦЕНЕ!<br /></span> 
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right"><img src="http://www.git-lbr.ru/images/kp/euro-12.jpg" width="300" border="0" />
@@ -877,10 +877,10 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">185-225</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
                                             </tr>
                                         </tbody>
                                         
@@ -914,11 +914,11 @@
                                 <tr valign="top">
                                     <td width="328">
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ФИЗИКА ПРОТИВ ХИМИИ<br>ПОБОРОТЬ СОРНЯК В РЯДКЕ!!!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Использование бороны Akzent – единственный способ вычесать сорняк между культурными растениями: борона работает под углом или перпендикулярно рядков пропашных.                                 
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Борона Akzent по праву <br>называется нашими <br>клиентами «неубиваемая»!<br /></span>
-                                     <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; margin: 0 0 10px 0; line-height: 16px;">
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />Борона Akzent по праву <br>называется нашими <br>клиентами «неубиваемая»!<br /></span>
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 0 0 10px 0; line-height: 16px;">
                                         Срок службы бороны 5-7 лет при ежегодном объеме работ от 500 га. Оригинальная австрийская закалка зубьев позволяет не менять рабочие органы 3-4 сезона.                                
                                     </span>
                                     
@@ -959,11 +959,11 @@
                                             </tr>
                                             
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена, тыс.руб.</span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price34']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price35']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price36']; ?></span></td>
-                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price37']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена, тыс.руб.</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price34']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price35']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price36']; ?></span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price37']; ?></span></td>
                                             </tr>
                                         </tbody>
                                         
@@ -1005,7 +1005,7 @@
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
-                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
+                                            Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                                         </span>
                                     </td>
                                 </tr>
