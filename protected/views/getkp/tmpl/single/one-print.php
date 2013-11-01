@@ -89,7 +89,7 @@
                                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                                 <tr>
                                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                                    <td><span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
+                                                    <td><span style="font-family: FuturisC,  sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                                 </tr>
                                             </table>
                                         </td>
@@ -109,25 +109,25 @@
                                                 <tr>
                                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
-                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<? echo $filial['name']; ?>)!</span><br>
+                                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<? echo $filial['name']; ?>)!</span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
-                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
+                                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
-                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
+                                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
-                                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
+                                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -141,7 +141,7 @@
                                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                                 <tr>
                                                     <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
-                                                    <td width="400" align="right" style="text-align: left;"><span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px;">
+                                                    <td width="400" align="right" style="text-align: left;"><span style="font-family: FuturisC,  sans-serif; font-size: 14px;">
                                                             Ваш персональный менеджер<br><br>
                                                             <? echo $data['user_info']; ?>
                                                         </span></td>

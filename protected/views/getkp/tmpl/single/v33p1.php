@@ -56,12 +56,12 @@
 
                                     </tr>
                                     <tr>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена с НДС, руб.</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена с НДС, руб.</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -82,17 +82,17 @@
                         </div>
                         <div class="right-35">
                             <div class="red-arrow-block">
-                                <span>Программа товарного кредита</span>
+                                <span>Программа товарного кредита</span><br>
                                 <span style="font-size: 25px;">30%-20%-20%-30%!</span>
                             </div>
                             <div class="triangle"></div>
                             <div class="red-arrow-text">
                                 <b style="text-align: center;">ПРЕДЛАГАЕМ РАССРОЧКУ ПЛАТЕЖА<br>НА ВЫГОДНЫХ УСЛОВИЯХ:</b>
                                 <div class="text" style="line-height: 16px; padding:0 7px ;">
-                                    •  аванс – 30%; <br>
-                                    •  20% - оплата через 1 месяц после получения товара;<br>
-                                    •  20% - оплата через 2 месяца после получения товара; <br>
-                                    •  окончательные  расчет  через  3  месяца после получения товара.
+                                    • аванс – 30%; <br>
+                                    • 20% - оплата через 1 месяц после получения товара;<br>
+                                    • 20% - оплата через 2 месяца после получения товара; <br>
+                                    • окончательные расчет через 3 месяца после получения товара.
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
@@ -135,6 +135,6 @@
                 </div>
             </div>
         </div>
-        
+
     </body>
 </html>
