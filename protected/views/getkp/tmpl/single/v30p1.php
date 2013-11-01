@@ -117,11 +117,11 @@
                                     </tr>
                                     <tr>
                                         <td><span>Трактор  “MC  TTX  230”  (c  механическим   управлением  диапазонов  переключения передач) пр-во РФ</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                     </tr>
                                     <tr>
                                         <td><span>Трактор McCORMICK TTX 230 E ( с электронным управлением диапазонов переключения передач) пр-во Италия</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -190,7 +190,7 @@
                                     </tr>
                                     <tr>
                                         <td><span>Цена с НДС руб</span></td>
-                                        <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                     </tr>
                                 </tbody>
                             </table>

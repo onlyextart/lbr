@@ -453,7 +453,7 @@
     .one-item{position: relative; margin-bottom: 15px;}
     .one-item:last-child{margin-bottom: 0}
     .one-page:after, .one-item:after, .head-content:after, .content-page:after, #header:after, .wrapper:after{content:''; clear: both; display: block;}
-    .span-red-left{color: rgb(211, 35, 42); text-align: left; font-size: 14px; font-family: FuturisXC,Calibri,sans-serif;}
+    .span-red-left{color: rgb(211, 35, 42); text-align: left; font-size: 14px; font-family: FuturisXC,sans-serif;}
     .footer{border-top: 1px solid grey; padding-top: 20px;}
     .footer .user{margin-top: 10px;}
     .footer .user span

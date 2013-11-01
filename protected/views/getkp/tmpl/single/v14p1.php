@@ -70,7 +70,7 @@
                                         <br>• внесение гранулированных и(или) жидких удобрений вместе с	семенами или отдельно от них
                                         <br>• культивация стрельчатыми лапами<br>
                                     </span>
-                                    <span style="margin: 15px auto; line-height: 35px; background: none repeat scroll 0% 0% rgb(245, 130, 32); color: white; font-family: FuturisXC,Calibri,sans-serif; font-size: 16px; text-align: center; padding: 5px 20px;">Все эти операции за один проход</span>
+                                    <span style="margin: 15px auto; line-height: 35px; background: none repeat scroll 0% 0% rgb(245, 130, 32); color: white; font-family: FuturisXC,sans-serif; font-size: 16px; text-align: center; padding: 5px 20px;">Все эти операции за один проход</span>
                                     <span class="text" style="font-size: 15px; line-height: 20px;">
                                         <b>2. При отцеплении бункера работает как культиватор со стрельчатыми лапами (сплошное перекрытие) на глубину до 14 см. Оснащен усиленными стойками с давлением 350кг.</b>
                                         <br>• возможно внесение гранулированных и (или) жидких удобрений в почву при культивации;
@@ -250,8 +250,8 @@
     .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
     .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
-    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif;}
-    .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,Calibri,sans-serif;}
+    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,sans-serif;}
+    .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,sans-serif;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85, .left-45
     {

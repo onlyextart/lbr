@@ -209,7 +209,7 @@
     .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
     .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
-    .span-red-center{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: right; font-size: 24px; padding: 15px 0 0; font-family: FuturisXC,Calibri,sans-serif; text-align: center;}
+    .span-red-center{ clear: both; display: block; text-transform: uppercase; background: white; color: rgb(211, 35, 42); text-align: right; font-size: 24px; padding: 15px 0 0; font-family: FuturisXC,sans-serif; text-align: center;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85
     {
