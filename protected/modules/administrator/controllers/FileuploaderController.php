@@ -124,4 +124,3 @@ class FileuploaderController extends Controller
         }
     }
 }
-?>

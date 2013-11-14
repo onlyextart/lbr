@@ -1,4 +1,4 @@
-<? 
+<?php
     Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
     Yii::app()->clientScript->registerCssFile('/css/admin/users/static.css');
     Yii::app()->clientScript->registerScriptFile('/js/tinymce/tinymce.min.js');
@@ -37,7 +37,7 @@
     </div>
     <div class="right">
         <? 
-        if ($mess = Yii::app()->user->getFlash('message')){
+        if ($mess == Yii::app()->user->getFlash('message')){
             echo '<div class="message success">'.$mess.'</div>';
         }
         if ($view){
@@ -57,4 +57,4 @@
         width: <? echo 100/$data->pagination->pageCount; ?>%;
     }
     </style>
-<? } ?>
+<? }

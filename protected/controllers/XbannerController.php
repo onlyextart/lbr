@@ -39,5 +39,3 @@ class XbannerController extends Controller{
     }
     
 }
-
-?>

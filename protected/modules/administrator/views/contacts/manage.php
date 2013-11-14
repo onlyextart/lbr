@@ -22,7 +22,7 @@
         position: fixed;
         top: 50px;
         right: 30px;
-    }.
+    }
 div.manage_buttons input{
         margin:0px;
     }

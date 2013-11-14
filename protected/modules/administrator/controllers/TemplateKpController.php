@@ -45,6 +45,3 @@ class TemplateKpController extends Controller
     
     
 }
-
-
-

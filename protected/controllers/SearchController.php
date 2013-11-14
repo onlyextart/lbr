@@ -46,5 +46,3 @@ class SearchController extends Controller{
         $this->render('image', array('q'=>$query));
     }
 }
-
-?>

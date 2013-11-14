@@ -348,4 +348,3 @@ class ProductsController extends Controller{
         echo('done');
     }
 }
-?>

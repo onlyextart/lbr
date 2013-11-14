@@ -29,6 +29,8 @@ class ContactsController extends Controller
     public function actionGetRegionsTable()
     {
         $regionModel = Regions::model()->findAllByAttributes(array('published'=>'1'));
-        $this->renderPartial('regionstable', array('regionModel'=>$regionModel,));
-    }  
+        $this->renderPartial('regionstable', array( 'regionModel'=>$regionModel,));
+    }
+    
+    
 }

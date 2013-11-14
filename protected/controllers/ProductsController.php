@@ -106,5 +106,3 @@ class ProductsController extends Controller{
         //echo($pageData);
     }
 }
-
-?>

@@ -99,7 +99,7 @@
                                         </tr>
                                         <tr>
                                             <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: rgb(211,35,42); font-size: 12px; margin-left: 5px;">&nbsp;Цена руб с НДС</span></td>
-                                            <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         </tr>
                                     </tbody>
                                 </table> 
@@ -127,82 +127,6 @@
                             </td>
                         </tr>
                         <tr><td><img src="http://www.git-lbr.ru/images/kp/mtz-2.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                        <tr>
-                            <td> 
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tbody>
-                                        <tr bgcolor="#d1d3d4">
-                                            <td width="40%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="12%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">СЗ3,6А</span></td>
-                                            <td width="12%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">СЗ3,6А-04</span></td>
-                                            <td width="12%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">СЗ3,6А-06</span></td>
-                                            <td width="12%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">СЗТ3,6</span></td>
-                                            <td width="12%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">СЗП3,6</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата, м </span></td>
-                                            <td colspan="5"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">3,6</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество рядов</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">24</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">48</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">24</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">24 (+23)</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">24</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина междурядий, см</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">7,5</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15 (7,5)</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Нормы высева для семян, кг/га</span></td>
-                                            <td colspan="5"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15-400</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Нормы высева для удобрений, кг/га</span></td>
-                                            <td colspan="5"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">25-200</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина заделки семян и удобрений, мм</span></td>
-                                            <td colspan="5"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">40-80</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Емкость бункеров для семян, дм<sup>3</sup></span></td>
-                                            <td colspan="2"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">453</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">600</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">453</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">600</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Емкость бункеров удобрений, дм<sup>3</sup></span></td>
-                                            <td colspan="2"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">212</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">400</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">212</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">400</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с.</span></td>
-                                            <td colspan="5"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 65</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
-                                        </tr>
-                                    </tbody>
-
-                                </table> 
-                            </td>
-                        </tr>
                     </table> 
                 </td>
             </tr>
@@ -217,76 +141,54 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 20px; font-weight: 900;">Культиваторы универсальные Полярис (КШУ)</span></td>
-                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" width="35" height="32" style="display: block;"/></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 20px; font-weight: 900;">Погрузчик навесной ТУР</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" height="35" style="display: block;"/></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/zirka-3.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr>
+                            <td>
+                                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                    <tr>
+                                        <td width="319">
+                                            <img src="http://www.git-lbr.ru/images/kp/mtz-3.jpg" width="310" style="display: block;"/>
+                                        </td>
+                                        <td width="319">
+                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">
+                                                • Итальянская гидравлика и фурнитура
+                                                <br>• Трансформация «трактор-погрузчик-трактор» за 20 минут!
+                                                <br>• 10 лет на рынке России! Ежегодный объем продаж до 500 шт. Уже 3 500 довольных клиентов в 55 регионах России!
+                                                <br>• Срок службы 10-15 лет.
+                                            </span><br>
+                                            <table width="319" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center; margin-top: 10px;">
+                                                <tr bgcolor="#d1d3d4">
+                                                    <td width="50%" align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">&nbsp;Модель</span></td>
+                                                    <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">ТУР-16</span></td>
+                                                    <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">ТУР-17</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Грузоподъемность, кг</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;"> 1 700</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">2 350</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: rgb(211,35,42); font-size: 12px; margin-left: 5px;">&nbsp;Цена руб с НДС</span></td>
+                                                    <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                    <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr><td><img src="http://www.git-lbr.ru/images/kp/mtz-4.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td> 
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tbody>
-                                        <tr bgcolor="#d1d3d4">
-                                            <td width="43%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Полярис 8,5</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Полярис 4</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Способ агрегатирования</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Прицепной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Прицепной</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая скорость, км/ч </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая ширина захвата, мм </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">8380</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">3895</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина обработки, см </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество плоскорежущих лап</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">31</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">15</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина обработки, см </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата плоскорежущей лапы, мм</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">330</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">330</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с.</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 150</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 80</span></td>
-                                        </tr>
 
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table> 
                             </td>
-                        </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                        <tr>
-                            <td align="center"><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 14px; font-weight: 900; color: rgb(211,35,42);">И ДЛЯ ПРЕДПОСЕВНОЙ ОБРАБОТКИ ПОЧВЫ, И ДЛЯ ПАРОВ!</span></td>
                         </tr>
                     </table> 
                 </td>
@@ -302,113 +204,69 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Бороны дисковые 2-ух рядные ПАЛЛАДА(БДН, БДП)</span></td>
-                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" width="35" height="32" style="display: block;"/></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Универсальный прицеп Баркас</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" height="35" style="display: block;"/></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/zirka-4.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
-                            <td> 
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tbody>
-                                        <tr bgcolor="#d1d3d4">
-                                            <td width="36%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="16%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">ПАЛЛАДА 2400</span></td>
-                                            <td width="16%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">ПАЛЛАДА 3200</span></td>
-                                            <td width="16%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">ПАЛЛАДА 4000</span></td>
-                                            <td width="16%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">ПАЛЛАДА 6000</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Тип агрегата</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">навесной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">прицепной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">прицепной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">прицепной</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Производительность, га/час</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 2,88</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 3,8</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 4,8</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 7,2</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая скорость, км/час</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата, м</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2,4</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">3,2</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">4</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">4</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина обработки, мм</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">120±20</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">120±20</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">120±20</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">120±20</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Угол атаки дисков, град.</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">0...30</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">0...30</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">0...30</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">0...30</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество рядов</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество режущих узлов</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">18</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">24</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">30</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">30</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Расстояние между рядами дисков, мм </span></td>
-                                            <td colspan="4"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">950</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Диаметр рабочих органов, мм</span></td>
-                                            <td colspan="4"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">560</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Масса конструкционная, кг</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">880</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">1612</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2268</span></td>
-                                            <td><span>3208</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 80</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 90</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 150</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 300</span></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table> 
+                            <td>
+                                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                    <tr>
+                                        <td width="319" valign="top">
+                                            <img src="http://www.git-lbr.ru/images/kp/mtz-5.jpg" width="310"/>
+                                            <div style="width: 100%; height: 7px; margin: 0; padding: 0;"></div>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 10px; font-weight: 900; color: rgb(211,35,42); margin-top: 5px;">НАДЁЖНОСТЬ – 100% ИТАЛЬЯНСКАЯ КОМПЛЕКТАЦИЯ</span><br>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 11px; font-weight: bold;">Высота погрузки всего 1,13 метра!</span><br>
+                                            <div style="width: 100%; height: 7px; margin: 0; padding: 0;"></div>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 10px; font-weight: 900; color: rgb(211,35,42); margin-top: 5px;">ПРИВЛЕКАТЕЛЬНАЯ ЦЕНА. ВСЕГДА В НАЛИЧИИ! –</span><br>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 11px; font-weight: bold;">на 10% дешевле импортных аналогов, идеальное соотношение цена-качество.</span>
+                                        </td>
+                                        <td width="319">
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 14px; font-weight: 900;">Баркас – герметичность, надёжность, устойчивость к коррозии и отсутствие потерь при перевозках груза.</span>
+                                            <br>
+                                            <table width="319" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center; margin-top: 10px;">
+                                                <tr bgcolor="#d1d3d4">
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Модель</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Баркас 10</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Грузоподъемность, кг </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">8000</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Размер платформы, м </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">4,41х2,11х0,6</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Габаритные размеры, мм<br>&nbsp;- длина<br>&nbsp;- ширина</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;"><br>6058<br>2320</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Высота платформы, мм </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">1200</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Высота с одним ярусом бортов, мм </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">1800</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Высота с двумя ярусами бортов, мм </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">2400</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Гидравлическая разгрузка  </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">трехсторонняя</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Цена руб с НДС</span></td>
+                                                    <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table> 
@@ -425,93 +283,62 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 20px; font-weight: 900;">Бороны дисковые 4-х рядные Антарес (БДП)</span></td>
-                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" width="35" height="32" style="display: block;"/></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Универсальный прицеп Баркас XL</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" height="35" style="display: block;"/></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/zirka-5.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
-                            <td> 
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tbody>
-                                        <tr bgcolor="#d1d3d4">
-                                            <td width="40%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Антарес 3х4</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Антарес 4х4</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Антарес 6х4</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Тип агрегата</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Прицепной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Прицепной</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Прицепной</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая скорость, км/час </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">до 12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата, м </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">3 </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">4 </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина обработки, мм</span></td>
-                                            <td colspan="3"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">80-180</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Угол атаки дисков, град.</span></td>
-                                            <td colspan="3"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">0...30</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество рядов</span></td>
-                                            <td colspan="3"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">4</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество режущих узлов </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">30</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">42</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">60</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Расстояние между рядами дисков, мм </span></td>
-                                            <td colspan="3"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">700</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Диаметр рабочих органов, мм </span></td>
-                                            <td colspan="3"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">560</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с. </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">150</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">200</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">300</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table> 
+                            <td>
+                                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                    <tr>
+                                        <td width="319" valign="top">
+                                            <img src="http://www.git-lbr.ru/images/kp/mtz-6.jpg" width="310"/>
+                                        </td>
+                                        <td width="319">
+                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: normal;">
+                                                <b>• Увеличенная платформа.</b><br>
+                                                • Повороты, развороты без проблем в узких местах<br>
+                                                <b>• 100% итальянских комплектующих:</b> надежная итальянская гидравлика и тормозная система. 
+                                            </span>
+                                            <br>
+                                            <table width="319" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center; margin-top: 10px;">
+                                                <tr bgcolor="#d1d3d4">
+                                                    <td align="left" width="60%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 13px; font-weight: bold; margin-left: 5px;">&nbsp;Модель</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 13px;  font-weight: bold; margin-left: 5px;">Баркас XL</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Грузоподъёмность, кг</span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">10 000</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Масса , кг </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">1 260</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Размер платформы, м </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">5 Х2,4 х 0,6</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Шины, сдвоенные </span></td>
+                                                    <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">215.15R17,5</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">&nbsp;Цена руб с НДС</span></td>
+                                                    <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table> 
                 </td>
             </tr>
             <!-- 5-BLOCK END -->
-            <tr align="left"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" width="35" height="35" style="display: block;"/></td></tr>
-            <tr align="left" style="border-bottom: 2px solid #d1232a;">
-                <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; color: #AAAAAA; font-weight: 900;">КЛАССИЧЕСКИЕ ТЕХНОЛОГИИ ПОЧВООБРАБОТКИ И СЕВА</span></td>
-            </tr>
-            <tr align="left"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" width="10" height="10" style="display: block;"/></td></tr>
+            <tr align="left"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" width="15" height="15" style="display: block;"/></td></tr>
             <!-- 6-BLOCK START -->
             <tr>
                 <td>
@@ -521,79 +348,36 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 15px; font-weight: 900;">Пневматическая сеялка точного высева Веста 8-02 (УПС 8-02)</span></td>
-                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" width="35" height="32" style="display: block;"/></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Самосвальные полуприцепы LMR</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg"  style="display: block;"/></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td>
-                                <table width="638" cellspacing="0" cellpadding="0" align="right" border="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center;">
+                                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                                     <tr>
-                                        <td width="50%">
-                                            <table width="319" cellspacing="0" cellpadding="0" align="right" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                                <tbody>
-                                                    <tr bgcolor="#d1d3d4">
-                                                        <td width="75%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                                        <td width="25%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Веста 8</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Тип машины</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">Навесная</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата, м</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5,6</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество рядов</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">8</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая скорость, км/ч</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2,5-9</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Емкость бункеров (суммарная) для семян, дм<sup>3</sup></span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">200</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Емкость бункеров (суммарная) для удобрений, дм<sup>3</sup></span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">192</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Нормы высева для семян, шт./п.м</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2-57</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Нормы высева для удобрений, кг/га</span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">50-250</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина заделки семян, мм </span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">40-120</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Масса, кг </span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">1 278</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с. </span></td>
-                                                        <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">80</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                                        <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                        <td width="423" valign="top">
+                                            <img src="http://www.git-lbr.ru/images/kp/mtz-7.jpg" width="408"/><br>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; line-height: 29px; font-size: 15px; font-weight: 900;">
+                                                Богатая базовая комплектация:
+                                            </span><br>
+                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">
+                                                • один ярус надставных бортов в базовой комплектации;
+                                                <br>• боковая стабилизация кузова (гидромеханическая) – безопасность при работе на неровных поверхностях;
+                                                <br>• реактивные тяги (предотвращают повреждение осей при боковых ударах);
+                                                <br>• только новые шины низкого давления в базовой комплектации;
+                                                <br>• две поворотные оси в версии тридем – сокращается радиус разворота и нагрузка на кузов;
+                                                <br>• гидравлический задний борт с автоматической блокировкой при закрытии, блокировка гидропривода поднятия кузова;
+                                                <br>• лестница. 
+                                            </span>
                                         </td>
-                                        <td width="50%" valign="top" align="center">
-                                            <img src="http://www.git-lbr.ru/images/kp/zirka-6.jpg" width="310" style="display: block;"/><br>
-                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 13px; font-weight: 900; color: rgb(211,35,42);">И ДЛЯ ПРЕДПОСЕВНОЙ ОБРАБОТКИ ПОЧВЫ, И ДЛЯ ПАРОВ!</span><br>
-                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 11px; text-align: left; line-height: 22px">Теперь с электронной системой контроля высева «Факт».</span>
+                                        <td width="215" valign="top">
+                                            <img src="http://www.git-lbr.ru/images/kp/mtz-8.jpg" width="215"/><br>
+                                            <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 13px; font-weight: 900;">
+                                                Безопасная погрузка и разгрузка овощей, опционально устанавливается комплект овощник (гаситель падения в кузов и козырёк разгрузки на борт).
+                                            </span>
                                         </td>
                                     </tr>
                                 </table>
@@ -603,101 +387,6 @@
                 </td>
             </tr>
             <!-- 6-BLOCK END -->
-            <tr align="left"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" width="10" height="10" style="display: block;"/></td></tr>
-            <!-- 7-BLOCK START -->
-            <tr>
-                <td>
-                    <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                        <tr>
-                            <td>
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                    <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 16px; font-weight: 900;">Пропашные культиваторы Альтаир 5,6-04 (КРНВ 5,6-04)</span></td>
-                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" width="35" height="32" style="display: block;"/></td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/zirka-7.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                        <tr>
-                            <td> 
-                                <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tbody>
-                                        <tr bgcolor="#d1d3d4">
-                                            <td width="50%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="25%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">«Альтаир5,6 04» с внесением удобрений</span></td>
-                                            <td width="25%"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; font-weight: bold;">«Альтаир5,6 02» с внесением удобрений</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Производительность, га/ч </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5,6</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5,6</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина захвата, м</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5,6</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5,6</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Количество обрабатываемых рядков</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">8</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">12</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Ширина междурядий, см</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">70</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">45</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Норма высева туков, кг/га</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">50-250</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">50-250</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Емкость бункеров (суммарная), дм<sup>3</sup></span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">384</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">288</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Нормы высева для семян, шт./п.м</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2-57</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">2-57</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Рабочая скорость, км/ч</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5-10</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">5-10</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Глубина обработки, см </span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-16</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">6-16</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Масса, кг</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">880</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">925</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Требуемая мощность трактора, л.с.</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 80</span></td>
-                                            <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px;">от 80</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
-                                            <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table> 
-                            </td>
-                        </tr>
-                    </table> 
-                </td>
-            </tr>
-            <!-- 7-BLOCK END -->
             <!-- MAIN BLOCK START -->
             <!-- FOOTER START -->
             <tr>

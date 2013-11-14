@@ -63,6 +63,10 @@ return array(
                         'initSQLs'=>array(
                             'PRAGMA foreign_keys = ON',
                         ),
+                        // включаем профайлер
+                        'enableProfiling'=>true,
+                        // показываем значения параметров
+                        'enableParamLogging' => true,
 		),
 		// uncomment the following to use a MySQL database
 		/*
@@ -79,20 +83,17 @@ return array(
 			'errorAction'=>'site/error',
 		),
 		'log'=>array(
-			'class'=>'CLogRouter',
-			'routes'=>array(
-				array(
-					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning, info',
-				),
-				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
-			),
-		),
+                    'class'=>'CLogRouter',
+                    'routes'=>array(
+                      array(
+                        'class'=>'CWebLogRoute',  'levels'=>'trace, info, error, warning',
+                      ),
+                      array(
+                        'class'=>'CFileLogRoute',  'levels'=>'trace, info, error, warning',
+                      ),
+                    )
+                  ),
+                'preload'=>array('log'),
                 'authManager'=>array(
                     'class'=>'CDbAuthManager',
                     'connectionID'=>'db',

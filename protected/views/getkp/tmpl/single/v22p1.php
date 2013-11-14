@@ -207,7 +207,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya2.jpg" style="width: 100%; border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya2.jpg" style="width: 100%; border: 0;" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. Экономия химикатов до 30%!!</span>
@@ -288,7 +288,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border:0;" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. ЗАПАТЕНТОВАННЫЕ КОНУСНЫЕ НАКОНЕЧНИКИ – РАБОТА ПРИ СКОРОСТИ ВЕТРА БОЛЕЕ 30 КМ/ЧАС</span>

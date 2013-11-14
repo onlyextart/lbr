@@ -1,10 +1,3 @@
-<?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
 <h1>Поиск</h1>
 <div class="total">
     <div class="center">
@@ -38,4 +31,4 @@
         width: <? echo 100/$data->pagination->pageCount; ?>%;
     }
     </style>
-<? } ?>
+<? } 

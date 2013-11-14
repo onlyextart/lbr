@@ -425,13 +425,13 @@
                                     </tr>
                                     <tr>
                                         <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price11']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price12']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price13']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price14']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price15']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price16']; ?></span></td>
-                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); border-left-width: border-right-width: 10px;"><? echo $data['price17']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
+                                        <td><span style="font-family: Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
                                     </tr>
                             </table>
                         </td>

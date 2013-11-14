@@ -120,7 +120,6 @@ class BannersController extends Controller
                                 $regionalBanners[$regionId]->banner_id = $bannerModel->id;
                                 $regionalBanners[$regionId]->filial_id = $regionId;
                                 $regionalBanners[$regionId]->save();
-                                
                                 if( is_array($_POST['BannerImages'][$regionId]) ){
                                     $allBannerImagesInThisRegionModel = BannerImages::model()->findAll(
                                             'banner_id='.$bannerModel->id.' AND region_id='.$regionId
@@ -187,6 +186,7 @@ class BannersController extends Controller
                                 );
                             }
                             
+                            
                             //Присвоить баннер пунктам меню для отображения
                             if( isset( $_POST['MenuItemConteintigThisBanner'] ) ){
                                 $allMenuItemsContainingThisBanner = MenuItemsContent::model()->with('item')->findAll(
@@ -199,9 +199,10 @@ class BannersController extends Controller
                                         if(!isset($allMenuItemsContainingThisBanner[$menuItemNum])){
                                             $allMenuItemsContainingThisBanner[$menuItemNum] = new MenuItemsContent();
                                         }
-                                        $allMenuItemsContainingThisBanner[$menuItemNum]->item_id = $menuItemId;
-                                        $allMenuItemsContainingThisBanner[$menuItemNum]->page_id = $bannerModel->id;
+                                        $allMenuItemsContainingThisBanner[$menuItemNum]->item_id = (int)$menuItemId;
+                                        $allMenuItemsContainingThisBanner[$menuItemNum]->page_id = (int)$bannerModel->id;
                                         $allMenuItemsContainingThisBanner[$menuItemNum]->save();
+//                                        var_dump($menuItemId);
                                         unset($allMenuItemsContainingThisBanner[$menuItemNum]);
                                         $menuItemNum++;
                                     }
@@ -237,7 +238,7 @@ class BannersController extends Controller
                             }
                             $bannerModel->moveUploadedImages();
                             Yii::app()->user->setFlash('saved','Баннер сохранен.');
-                            $this->redirect('http://lbr/administrator/banners/update/id/'.$bannerModel->id);
+                            $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
                         }
                     }
                 }

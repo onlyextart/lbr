@@ -39,8 +39,8 @@ class NewsController extends Controller
 
  public function actionView($id)
   	{
- 	     $data = News::model()->findByPk($id, 'published=1');
-         $this->render('_view', array('data'=>$data));
+            $data = News::model()->findByPk($id, 'published=1');
+            $this->render('_view', array('data'=>$data));
   	}
 
     

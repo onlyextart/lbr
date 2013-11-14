@@ -108,18 +108,18 @@ input, textarea
     display: table;
     clear: both;
 }
-.reset(@margin = 0, @padding = 0)
+.reset(@margin: 0, @padding: 0)
 {
     margin: @margin;
     padding: @padding;
 }
-.box-shadow(@shadow = 0 0px 4px 1px rgba(50, 50, 50, 0.5))
+.box-shadow(@shadow: 0 0px 4px 1px rgba(50, 50, 50, 0.5))
 {
     -moz-box-shadow: @shadow;
     -webkit-box-shadow: @shadow;
     box-shadow: @shadow;
 }
-.rounded(@radius = 4px)
+.rounded(@radius: 4px)
 {
     -webkit-border-radius: @radius;
     -moz-border-radius: @radius;
@@ -275,13 +275,13 @@ header:after{
     background: url('/images/top-line.png') no-repeat bottom center;
 }
 .wrapper:after{
-    .clr
+    .clr;
 }
 .wrapper
 {
     margin: 0 auto;
     #content:after{
-        .clr
+        .clr;
     }
     #content
     {
@@ -1123,7 +1123,7 @@ header:after{
                     width: 80%;
                     float: left;
                     margin-top: .6em;
-                    p{.reset}
+                    p{.reset;}
                 }
                 .btn
                 {
@@ -1341,7 +1341,7 @@ header:after{
                     width: 90%;
                     float: left;
                     margin-top: .6em;
-                    p{.reset}
+                    p{.reset;}
                 }
                 .btn
                 {

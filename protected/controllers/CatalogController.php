@@ -8,5 +8,3 @@ class CatalogController extends Controller{
     }
     
 }
-
-?>

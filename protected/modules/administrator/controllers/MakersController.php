@@ -82,4 +82,3 @@ class MakersController extends Controller{
         echo('done');
     }
 }
-?>
