@@ -9,7 +9,7 @@
         <div id="wrapper">
             <div id="header">
                 <div class="left-75 header-text">
-                    <span class="header-1">Уважаемый(-ая) <? echo $data['client']; ?>!</span>
+                    <span class="header-1"><? echo $data['client']; ?></span>
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
@@ -181,36 +181,36 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.git-lbr.ru/images/kp/М950.jpg" border="0" />
-                                <table width="361" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <table width="361" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="font-size: 12px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr bgcolor="#d1d3d4">
                                         <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Модель</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">М 950 3+1</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">XMS 950 4+1</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Масса, кг</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Масса, кг</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">1160</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">1360</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Количество корпусов</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Количество корпусов</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">4 (3+1)</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">5 (4+1)</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Просвет под рамой, см</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Просвет под рамой, см</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">78</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">82</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Требуемая мощность, л.с.</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Требуемая мощность, л.с.</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; "> 90-130</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">150-200</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
-                                        <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
                                     </tr>
                                 </table>
                             </div>
@@ -235,8 +235,8 @@
                                 <img src="http://www.git-lbr.ru/images/kp/first-page.jpg" border="0" />
                             </div>
                             <div class="right-50">
-                                <span class="h-4">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!</span>
-                                <span class="text">
+                                <span class="h-4" style="font-size: 16px;">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!</span>
+                                <span class="text" style="line-height: 15px;">
                                     • Самый легкий, маневренный и доступный плуг - балка рамы имеет сечение 150х150 мм с толщиной стенки 12 мм!
                                     <br>• Полунавесное колесо серийно оснащено гидропневматическим амортизатором.
                                     <br>• Все рабочие органы из сверхпрочного материала <b>Permanit ©plus</b>
@@ -245,7 +245,7 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="font-size: 12px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="15%" rowspan="2"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
                                             <td width="15%" rowspan="2"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Ширина захвата на корпус, см</span></td>
@@ -363,7 +363,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">12-</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Hektor 1000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Heros 1000 on-land</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">36/40/44/48</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">76/82</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">240</span></td>
@@ -493,9 +493,9 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="text" style="padding: 5px 0 0">
+                                <span class="text" style="padding: 0">
                                     <span class="span-red-left">ПОЛУЧАЕМ ИДЕАЛЬНОЕ ПОСЕВНОЕ ЛОЖЕ, ХОРОШО ОБРАБОТАННУЮ, ИЗМЕЛЬЧЕННУЮ И ВЫРОВНЕННУЮ ПОЧВУ ПО ВСЕЙ ШИРИНЕ ЗАХВАТА </span> что и  является залогом успешного урожая.</span>
-                                <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="font-size: 13px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="font-size: 12px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
                                         <tr style="background-color: #d1d3d4;">
                                             <td style="text-align: left;"><strong><span>&nbsp;Модель</span></strong></td>
@@ -550,11 +550,11 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-11.jpg" border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/euro-11.jpg" height="200" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ПРИКАТКА, РЫХЛЕНИЕ И СНОВА ПРИКАТКА!</span>
-                                <span class="text">
+                                <span class="text" style="line-height: 14px;">
                                     • Выравнивание гребней после вспашки или дискование струнным валом диаметром 320 мм.
                                     <br><br>• Рыхление и подрезание почвы S-образной пружинной стойкой типа S+100 с подрезкой сорняков, 
                                     <br><br>• Завершает обработку двойной струнный вал 320/280 мм –
@@ -562,8 +562,8 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="left-30 text" style="line-height: 16px;">Предназначен для финишной предпосевной обработки почвы под посев зерновых, кукурузы, свеклы, а также отлично готовит почву под посев овощей.</span>
-                                <table width="510" border="1" cellspacing="0" cellpadding="0" align="right" height="1" bgcolor="#FFFFFF"  style="font-size: 13px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                <span class="left-30 text" style="line-height: 14px;">Предназначен для финишной предпосевной обработки почвы под посев зерновых, кукурузы, свеклы, а также отлично готовит почву под посев овощей.</span>
+                                <table width="510" border="1" cellspacing="0" cellpadding="0" align="right" height="1" bgcolor="#FFFFFF"  style="font-size: 12px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
                                         <tr style="background-color: #d1d3d4;">
                                             <td style="text-align: left;"><strong><span>&nbsp;Модель</span></strong></td>
@@ -639,45 +639,39 @@
                                         
                                         <tr style="background-color: #d1d3d4;">
                                             <td style="text-align: left;"><strong><span>&nbsp;Модель</span></strong></td>
-                                            <td><strong><span>В 3,0</span></strong></td>
-                                            <td><strong><span>ВН 3,7</span></strong></td>
-                                            <td><strong><span>ВН 5,1</span></strong></td>
-                                            <td><strong><span>ВН 5,6</span></strong></td>
+                                            <td><strong><span>CH 6,3</span></strong></td>
+                                            <td><strong><span>CH 6,8</span></strong></td>
+                                            <td><strong><span>CH 8,0</span></strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;"><span>&nbsp;Рабочая ширина, м</span></td>
+                                            <td><span>6,3</span></td>
+                                            <td><span>6,8</span></td>
+                                            <td><span>8</span></td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: left;"><span>&nbsp;Масса, кг</span></td>
-                                            <td><span>620</span></td>
-                                            <td><span>1060</span></td>
-                                            <td><span>1410</span></td>
-                                            <td><span>1530</span></td>
+                                            <td><span>2000</span></td>
+                                            <td><span>2060</span></td>
+                                            <td><span>2350</span></td>
                                         </tr>
                                         <tr>
-                                            <td style="text-align: left;"><span>&nbsp;Количество зубьев, шт.</span></td>
-                                            <td><span>30</span></td>
-                                            <td><span>36</span></td>
-                                            <td><span>50</span></td>
-                                            <td><span>56</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="text-align: left;"><span>&nbsp;Производительность га\ч</span></td>
-                                            <td><span>2,1-3,0</span></td>
-                                            <td><span>2,5-4,4</span></td>
-                                            <td><span>3,57-6,12</span></td>
-                                            <td><span>3,9-6,7</span></td>
+                                            <td style="text-align: left;"><span>&nbsp;Количество зубьев, шт</span></td>
+                                            <td><span>79</span></td>
+                                            <td><span>85</span></td>
+                                            <td><span>98</span></td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: left;"><span>&nbsp;Требуемая мощность, л.с.</span></td>
-                                            <td><span>60</span></td>
-                                            <td><span>75</span></td>
-                                            <td><span>112</span></td>
-                                            <td><span>140</span></td>
+                                            <td><span>130-170</span></td>
+                                            <td><span>155-190</span></td>
+                                            <td><span>185-225</span></td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price28']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price29']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price30']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -737,10 +731,10 @@
                                         </tr>
                                         <tr>
                                             <td style="text-align: left;">&nbsp;&nbsp;Цена, тыс.руб.</td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price34']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price35']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price36']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price37']; ?></span></td>
                                         </tr>
                                     </tbody>
                                 </table>

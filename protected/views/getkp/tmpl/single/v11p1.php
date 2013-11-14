@@ -910,6 +910,165 @@
                     <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
+                            <div class="h-2 left-85"><span>Прикатывающий каток Jacek</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.git-lbr.ru/images/kp/mtz1221_22.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Модель</span>
+                                    </td>
+                                    <td>
+                                    <span>1726</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Рабочая ширина, м</span>
+                                    </td>
+                                    <td>
+                                    <span>9</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Диаметр диска Cambridge, мм</span>
+                                    </td>
+                                    <td>
+                                    <span>530</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Количество дисков, шт.</span>
+                                    </td>
+                                    <td>
+                                    <span>177</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Мощность трактора, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>140-160</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Вес, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>4150</span>
+                                    </td>
+                                    </tr> 
+                                    <tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue10']; ?>
+                                           </td>
+                                        </tr>
+                                        
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price10']; ?>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div> 
+                    <div style="width: 100%; height: 25px;"></div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.git-lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Вид и диаметр катка</span>
+                                    </td>
+                                    <td>
+                                    <span>Cambridge 530</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Ширина захвата, м</span>
+                                    </td>
+                                    <td>
+                                    <span>9,0</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Количество дисков, шт.</span>
+                                    </td>
+                                    <td>
+                                    <span>191</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Масса, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>5570</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Требуемая мощность трактора, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>140-160</span>
+                                    </td>
+                                    </tr>                                    
+                                    <tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue11']; ?>
+                                           </td>
+                                        </tr>
+                                        
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price11']; ?>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="one-item">
+                        <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной MXL 3000</span></div>
                             <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
@@ -990,7 +1149,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue10']; ?>
+                                           <? echo $data['price_blue12']; ?>
                                            </td>
                                         </tr>
                                         <tr>
@@ -998,7 +1157,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price10']; ?>
+                                    <? echo $data['price12']; ?>
                                     </td>
                                     </tr>
                                     </tbody>    
@@ -1006,7 +1165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 55px;"></div>
+                    <div style="width: 100%; height: 15px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель органических удобрений PTU 14S</span></div>
@@ -1089,7 +1248,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue11']; ?>
+                                           <? echo $data['price_blue13']; ?>
                                            </td>
                                         </tr>
                                         <tr>
@@ -1097,7 +1256,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price11']; ?>
+                                    <? echo $data['price13']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1105,7 +1264,14 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 55px;"></div>
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прицеп самосвальный LMR 18</span></div>
@@ -1164,7 +1330,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue12']; ?>
+                                           <? echo $data['price_blue14']; ?>
                                            </td>
                                         </tr>
                                         <tr>
@@ -1172,7 +1338,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price12']; ?>
+                                    <? echo $data['price14']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1180,14 +1346,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 25px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Погрузчики навесные TUR-17</span></div>
@@ -1222,7 +1380,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue13']; ?>
+                                           <? echo $data['price_blue15']; ?>
                                            </td>
                                         </tr>
                                         <tr>
@@ -1230,7 +1388,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price13']; ?>
+                                    <? echo $data['price15']; ?>
                                     </td>
                                     </tr>
                                     </tbody>

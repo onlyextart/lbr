@@ -432,7 +432,7 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Плуги навесные М950 и XMS 950</span></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Плуги полунавесные оборотные VN plus HERОS</span></td>
                                     <td align="right"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></td>
                                 </tr>
                             </table>
@@ -478,7 +478,7 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">12-</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Hektor 1000</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Heros 1000 on-land</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">36/40/44/48</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">76/82</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">240</span></td>

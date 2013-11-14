@@ -15,7 +15,7 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
-            <div class="one-page head-first-page">
+            <div class="one-page head-first-page head-second-page">
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ВНИМАНИЕ!!! <br>СКИДКИ!!!</span>
                 </div>
@@ -216,7 +216,9 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: left;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px, 
+                                                      url('http://www.git-lbr.ru/images/kp/procent.jpg') white no-repeat 25px 60px;}
+    
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

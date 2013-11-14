@@ -29,7 +29,7 @@
             <tr>
                 <td align="left" width="22"><img src="http://www.git-lbr.ru/images/kp/left-orange.jpg" width="22" height="75" border="0" style="display: block;"></td>
                 <td align="center" bgcolor="#f68121" width="594">
-                    <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 34px; color: white; font-weight: 900; text-transform: uppercase;">NO TILL лучшие машины!</span>
+                    <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 34px; color: white; font-weight: 900; text-transform: uppercase;">NO-TILL. Лучшие машины!</span>
                 </td>
                 <td align="right" width="22"><img src="http://www.git-lbr.ru/images/kp/right-orange.jpg" width="22" height="75" border="0" style="display: block;"></td>
             </tr>
@@ -54,8 +54,9 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Глубокорыхлители SS1300 и SS1700 от Great Plains</span></td>
-                                        <td></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; font-weight: 900;">Глубокорыхлители SS1300 и SS1700</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
+                                        
                                     </tr>
                                 </table>
                             </td>
@@ -94,7 +95,7 @@
                                                 от  перегрузок.  Крыловидный  наконечник-  эффективно  работает  на 
                                                 любых  типах  почв  и  увеличивает  ширину  захвата  каждой  стойки, 
                                                 по сравнению с другими машинами, у которых стойки расположены 
-                                                более  часто.  Такие  машины  как  правило  имеют  широкую  стойку  и 
+                                                более  часто.  Такие  машины, как  правило, имеют  широкую  стойку  и 
                                                 просто  рвут  почву,  а  не  делают  почву  однородной.  Идущие  перед 
                                                 каждой  стойкой  турбо-диски  облегчают  работу  агрегата,  разрезая 
                                                 верхний  слой  почвы.  Задние  прикатывающие  катки   выравнивают 
@@ -151,8 +152,9 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">агрегат для основной обработки почвы туРбочиЗель тс производства завода «Great Plains», сша</span></td>
-                                        <td></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">агрегат для основной обработки почвы туРбочиЗель тс</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
+                                       
                                     </tr>
                                 </table>
                             </td>
@@ -166,7 +168,7 @@
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:10px 0;">
                                                 Высокоскоростное  (13  -  15  км/час)  орудие  <b style="text-transform: uppercase;">туРбочиЗель</b> объединяет  в  себе  лучшие  качества  традиционных  культиваторов и  дисковых  борон,  но  обладает  характерными  особенностями, используется для <b style="text-transform: uppercase;">осноВноЙ обРаботКи ПочВы</b>:</span>
                                             <br><span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:10px 0;">
-                                                •  работает  по  растительным  остаткам  любого  размера  и  любой плотности  на  глубину  до  35  см.  создает  «рыхлую»  почву  для посева и уничтожает плужную подошву предыдущих обработок,</span>
+                                                •  работает  по  растительным  остаткам  любого  размера  и  любой плотности  на  глубину  до  35  см,  создает  «рыхлую»  почву  для посева и уничтожает плужную подошву предыдущих обработок,</span>
                                             <br><span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:10px 0;">
                                                 •  не  забивается,  вертикально  обрабатывает  переувлажненную, подмерзшую или пересушенную почву,</span>
                                             <br><span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:10px 0;">
@@ -214,8 +216,9 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">туРбо-тилл тт3000 от Great Plains</span></td>
-                                        <td></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">туРбо-тилл тт3000</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
+                                       
                                     </tr>
                                 </table>
                             </td>
@@ -292,8 +295,9 @@
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
-                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">механические сеялки точного высева Great Plains сPH 2000F работающие по технологии NO TILL</span></td>
-                                        <td></td>
+                                        <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">механические сеялки точного высева сPH 2000F, работающие по технологии NO TILL</span></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
+                                       
                                     </tr>
                                 </table>
                             </td>
@@ -305,15 +309,12 @@
                                     <tr valign="top">
                                         <td>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
-                                                Это  зарекомендовавшая  себя  конструкция  является 
-                                                фундаментальным  камнем  семейства  стерневых  сеялок  Great  Plains. 
-                                                Ключом  к  этому  продолжающемуся  успеху  является  конструкция 
-                                                поворотной рамы, обеспечивающая полное копирование на неровных 
+                                                Мировой успех семейства стерневых сеялок Great Plains связан с зарекомендовавшей себя надежной конструкцией поворотной рамы, обеспечивающей полное копирование на неровных 
                                                 поверхностях и косогорах, при этом гарантируя высев семян сошником 
                                                 прямо  в  обработанную  соответствующим  режущим  диском  полоску 
                                                 земли. Бункер объемом 286 л на метр ширины захвата в сочетании 
                                                 с  6-метровой  шириной  захвата  дает  возможность  Вам  покрывать 
-                                                большее количество гектар без дозагрузок. Другими особенностями 
+                                                большее количество гектаров без дозагрузок. Другими особенностями 
                                                 являются жесткая основная рама, изготовленная из квадрата 15х15, 
                                                 сошники,  установленные  в  шахматном  порядке,  и  гидравлический 
                                                 контур  для  быстрого  подъема  увеличивают  производительность,  не 
@@ -367,7 +368,7 @@
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
                                         <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">Пневматическая сеялка точного высева Spartan 607</span></td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -399,19 +400,19 @@
                                                 независимый  сошник  обеспечивает  точность  высева  семян  во  всех 
                                                 условиях,  начиная  с  тяжелых  стерневых  и  заканчивая  работой 
                                                 по  обработанной  почве.  Точность  сева  достигается  благодаря 
-                                                сошникам  на  параллелограмме  с  возможностью  хода  24  см, 
+                                                сошникам  на  параллелограмме  с  возможностью  хода  24  см. Сошник
                                                 оборудован двойными открывающими дисками со смещением, мягко 
                                                 укладывающим семена за счет длинной семенной трубки, за которым 
                                                 следует  успокоитель,  прижимая  семена  к  дну  борозды.  Контроль 
                                                 глубины  сева  осуществляется   Т-образной  рукояткой  на  каждом 
-                                                сошнике,  сошники  следующие  по  колее  трактора  имеют  более 
+                                                сошнике,  сошники,  следующие  по  колее  трактора,  имеют  более 
                                                 жесткую настройку.       
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
                                                 3) По РаВнинам и холмам.
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
-                                                Отлично  зарекомендовавшая  себя  в  конструкция  орудий  Spartan 907 позволяет сеялке независимо опускаться и подниматься при 
+                                                Отлично  зарекомендовавшая  себя  конструкция  орудий  Spartan 607 позволяет сеялке независимо опускаться и подниматься при 
                                                 работе на неровных поверхностях.<br>
                                                 Система  гидравлического  перераспределения  веса  способствует 
                                                 увеличению  гибкости  сеялки  и  гарантирует  равномерность 
@@ -424,7 +425,7 @@
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
                                                 В  транспортном  положении  ширина  сеялки  составляет  всего  3 
-                                                метра, что соответствует Европейским стандартам.    
+                                                метра, что соответствует европейским стандартам.    
                                             </span>
                                             <br>
                                             <table width="328" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
@@ -481,7 +482,7 @@
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
                                         <td><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">Пневматическая сеялка точного высева Spartan 907</span></td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -513,19 +514,19 @@
                                                 независимый  сошник  обеспечивает  точность  высева  семян  во  всех 
                                                 условиях,  начиная  с  тяжелых  стерневых  и  заканчивая  работой 
                                                 по  обработанной  почве.  Точность  сева  достигается  благодаря 
-                                                сошникам  на  параллелограмме  с  возможностью  хода  24  см, 
+                                                сошникам  на  параллелограмме  с  возможностью  хода  24  см. Сошник 
                                                 оборудован двойными открывающими дисками со смещением, мягко 
                                                 укладывающим семена за счет длинной семенной трубки, за которым 
                                                 следует  успокоитель,  прижимая  семена  к  дну  борозды.  Контроль 
                                                 глубины  сева  осуществляется   Т-образной  рукояткой  на  каждом 
-                                                сошнике,  сошники  следующие  по  колее  трактора  имеют  более 
+                                                сошнике,  сошники,  следующие  по  колее  трактора,  имеют  более 
                                                 жесткую настройку.       
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
                                                 3) По РаВнинам и холмам.
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
-                                                Отлично  зарекомендовавшая  себя  в  конструкция  орудий  Spartan 907 позволяет сеялке независимо опускаться и подниматься при 
+                                                Отлично  зарекомендовавшая  себя  конструкция  орудий  Spartan 907 позволяет сеялке независимо опускаться и подниматься при 
                                                 работе на неровных поверхностях.<br>
                                                 Система  гидравлического  перераспределения  веса  способствует 
                                                 увеличению  гибкости  сеялки  и  гарантирует  равномерность 
@@ -538,7 +539,7 @@
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
                                                 В  транспортном  положении  ширина  сеялки  составляет  всего  3 
-                                                метра, что соответствует Европейским стандартам.    
+                                                метра, что соответствует европейским стандартам.    
                                             </span>
                                             <br>
                                             <table width="328" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
@@ -571,7 +572,7 @@
                                         </td>
                                         <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td align="right">
-                                            <img src="http://www.git-lbr.ru/images/kp/gp-9.jpg" width="300" border="0" /><br><br>
+                                            <img src="http://www.git-lbr.ru/images/kp/gp-29.jpg" width="300" border="0" /><br><br>
                                             <img src="http://www.git-lbr.ru/images/kp/gp-10.jpg" width="300" border="0" /><br><br>
                                             <img src="http://www.git-lbr.ru/images/kp/gp-11.jpg" width="300" border="0" /><br><br>
                                         </td>
@@ -597,7 +598,7 @@
                                                 Пневматическая сеялка точного высева NTA-3510 с бункерной тележкой ADC2350
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -615,7 +616,7 @@
                                                 Пневматическая  зерновая  сеялка  NTA  3510  Great  Plains 
                                                 предназначена для работы по технологии минимальной или нулевой 
                                                 обработки почвы и имеет двухдисковый сошник с передним разрезным 
-                                                турбодиском, такая концепция позволят использовать сеялку в других 
+                                                турбодиском. Такая концепция позволят использовать сеялку в других 
                                                 технологиях.  Режущие  турбодиски  оснащены  предохранительными 
                                                 пружинами,  которые  установлены  независимо  от  рамы  сошников 
                                                 и  содействуют  лучшему  проникновению  дисков  в  почву.  Ничто  не 
@@ -632,12 +633,12 @@
                                                 высева  семян  во  всех  условиях,  начиная  с  тяжелых  стерневых 
                                                 и  заканчивая  работой  по  обработанной  почве.  Точность  сева 
                                                 достигается  благодаря  сошникам  серии  “10”  на  параллелограмме 
-                                                с  возможностью  хода  24  см,  оборудован  двойными  открывающими 
+                                                с  возможностью  хода  24  см. Сошник  оборудован  двойными  открывающими 
                                                 дисками со смещением, мягко укладывающим семена за счет длинной 
                                                 семенной трубки, за которым следует успокоитель, прижимая семена 
                                                 к  дну  борозды.  Контроль  глубины  сева  осуществляется   Т-образной 
-                                                рукояткой  на  каждом  сошнике,  сошники  следующие  по  колее 
-                                                трактора имеют более жесткую настройку.      
+                                                рукояткой  на  каждом  сошнике,  сошники,  следующие  по  колее 
+                                                трактора, имеют более жесткую настройку.      
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
                                                 3) По РаВнинам и холмам.
@@ -654,7 +655,7 @@
                                                 см, что способствует превосходному копированию поверхности поля.
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
-                                                4) сеЙбеЗ ПеРеКуРоВна ЗаГРуЗКу!
+                                                4) СЕЕМ беЗ ПеРеКуРоВна ЗаГРуЗКу!
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
                                                 Объем бункера 12 333 л. ADC2350 может высевать семена из двух 
@@ -716,10 +717,10 @@
                                     <tr>
                                         <td>
                                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">
-                                                Пневматическая сеялка точного высева NTA-3510 с бункерной тележкой ADC2350
+                                                Прицепная 24-х рядная пропашная сеялка точного высева YP-2425А с пневматическим высевающим аппаратом и ЖКУ
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -734,9 +735,9 @@
                                                 <b>YP-2425а с ЖКУ</b> предназначена  для  высева  рядных  культур 
                                                 (кукуруза,  подсолнечник,  соя,  сорго)  с  междурядьем  70  см.  Сеялка 
                                                 может  быть  оборудована  приспособлением  для  внесения  ЖКУ  в 
-                                                междурядья на 3.780 литров. Контроль параметров высева количество 
+                                                междурядья на 3.780 литров. Контроль параметров высева: количество 
                                                 семян на гектар, скорость движения, площадь посева осуществляется 
-                                                с  помощью  монитора  Dickey-john.  YP-2425А  оборудована,  двумя 
+                                                с  помощью  монитора  Dickey-john.  YP-2425А  оборудована  двумя 
                                                 бункерами по 82 бушеля (2 х 2 890 литров).      
                                             </span><br>
                                             <br>
@@ -782,10 +783,10 @@
                                     <tr>
                                         <td>
                                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">
-                                                новая 16-ти рядная механическая сеялка точного высева с пневматической подачей удобрений из отдельного бункера
+                                                Новая 16-ти рядная механическая сеялка точного высева YP-1630F с пневматической подачей удобрений из отдельного бункера
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -797,7 +798,7 @@
                                     <tr valign="top">
                                         <td>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
-                                                Высокопроизводительная  пропашная  дисковая  сеялка  точного  высева <b>YP-1630F  предназначена  для  посева  кукурузы и подсолнечника в том числе по технологии NO-Till.</b>   Сеялка  оборудована,  пластиковым   бункерам  для удобрений объемом 3500 л и индивидуальными ящиками для семян  общим  объемом  1120л.,  по  70  литров  на  каждый  сошник. Как и все сеялки YP-1630F использует воздух для доставки  удобрений  из  бункера  к  индивидуальному  сошнику. 
+                                                Высокопроизводительная  пропашная  дисковая  сеялка  точного  высева <b>YP-1630F  предназначена  для  посева  кукурузы и подсолнечника, в том числе по технологии NO-Till.</b>   Сеялка  оборудована  пластиковым   бункерам  для удобрений объемом 3500 л и индивидуальными ящиками для семян  общим  объемом  1120 л,  по  70  литров  на  каждый  сошник. Как и все сеялки YP-1630F использует воздух для доставки  удобрений  из  бункера  к  индивидуальному  сошнику. 
                                                 Высевающий аппарат-механический.    
                                             </span>
                                             <br>
@@ -843,10 +844,10 @@
                                     <tr>
                                         <td>
                                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">
-                                                Пневматическая сеялка точного высева Single Disc с минимальной степенью воздействия на почву.
+                                                Пневматическая сеялка точного высева Single Disc с минимальной степенью воздействия на почву
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/amity-logo.jpg" border="0" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -857,9 +858,7 @@
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                                     <tr valign="top">
                                         <td>
-                                            <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 18px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
-                                                ВсеГо 330 л.с. для 12-метРоВоЙ нулеВоЙ сеялКи
-                                            </span><br>
+                                            
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
                                                 1) Под любую технолоГию.
                                             </span><br>
@@ -880,23 +879,23 @@
                                                 контроль  глубины  и  качество  заделки  семян.  Точность  сева 
                                                 достигается благодаря монодисковому сошнику со смещением, мягко 
                                                 укладывающим  семена,  за  которым  следует  успокоитель,  прижимая 
-                                                семена  к  дну  борозды.   При  скорости  12  kм/ч,  сеялка  с  шириной 
-                                                захвата 12,2 м с трактором всего 330 л.с. способна засеять высевает 
-                                                14-16 гектар в час.
+                                                семена  к  дну  борозды.   При  скорости  12  kм/ч  сеялка  с  шириной 
+                                                захвата 12,2 м с трактором всего 330 л.с. высевает 
+                                                14-16 га в час.
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 13px; line-height: 20px; font-weight: bold; color:rgb(211, 35, 42); text-transform: uppercase; margin:5px 0;">
-                                                3) сКажем нет уПлотнению стеноК
+                                                3) сКажем &laquo;нет&raquo; уПлотнению стеноК
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
                                                 Пневматическая сеялка Single Disk оснащается запатентованными 
-                                                производителем  (компанией  Amity)противопоставленными 
+                                                производителем  (компанией  Amity) противопоставленными 
                                                 монодисками. Такие монодиски служат для поднятия и перемещения 
-                                                почвы между 15 сантиметровыми узкими рядками. В процессе работы 
+                                                почвы между 15-ти сантиметровыми узкими рядками. В процессе работы 
                                                 сеялки  почва  разрыхляется  и  смещается  от  противопоставленных 
                                                 дисков к прикатывающему колесу, а оно в свою очередь обеспечивает 
                                                 уплотнение  и  выравнивание  почвы  в  борозде.  Данная  особенность 
                                                 конструкции  сеялки  Single  Disk  (перемещение  почвы)  позволяет 
-                                                открыть борозду, сохраняя полосу в 15 см. для улучшения прогрева 
+                                                открыть борозду, сохраняя полосу в 15 см для улучшения прогрева 
                                                 почвы. Также исключается забивание стерни в борозду и уплотнение 
                                                 боковой стенки, присущее монодисковым сеялкам. 
                                             </span><br>
@@ -905,8 +904,7 @@
                                             </span><br>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
                                                 Пневматическая  сеялка  Single  Disk  оснащается  бункером  из 
-                                                нержавеющей стали, расположенным за сеялкой. Объем бункера - 9 
-                                                865 л, он разделен на 2 секции в пропорции 60/40. Бункер сеялки 
+                                                нержавеющей стали, расположенным за сеялкой. Объем бункера - 9865 л, он разделен на 2 секции в пропорции 60/40. Бункер сеялки 
                                                 снабжен  широкими  шинами  (23,1  xR26),  что  позволяет  снизить 
                                                 давление  на  почву.  Широкая  ось  (380  см)  придет  дополнительную 
                                                 устойчивость.     
@@ -926,7 +924,7 @@
                                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">9 865</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Междурядье смежные диски (между ряда-ми), см</span></td>
+                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Междурядье, смежные диски (между ряда-ми), см</span></td>
                                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">15 (23)</span></td>
                                                 </tr>
                                                 <tr>
@@ -965,10 +963,10 @@
                                     <tr>
                                         <td>
                                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">
-                                                самоходный опрыскиватель Bargam GRIMAC 3500, 28 м, клиренс 1,8 м
+                                                самоходный опрыскиватель Bargam GRIMAC 3500
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" border="0" style="width: 100px;" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -1001,8 +999,8 @@
                                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">175 л.с.</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Насос, л </span></td>
-                                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">680 л/минуту</span></td>
+                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Насос, л/минуту </span></td>
+                                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">680</span></td>
                                                 </tr>
                                                 <tr>
                                                     <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Компьютер </span></td>
@@ -1049,10 +1047,10 @@
                                     <tr>
                                         <td>
                                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900;">
-                                                самоходный опрыскиватель MAC 5000S, 36 м, клиренс 1,5 метра
+                                                самоходный опрыскиватель MAC 5000S
                                             </span>
                                         </td>
-                                        <td></td>
+                                        <td align="right"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" border="0" style="width: 100px;" /></td>
                                     </tr>
                                 </table>
                             </td>
@@ -1064,7 +1062,7 @@
                                     <tr valign="top">
                                         <td>
                                             <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin:0px 0;">
-                                                Предназначены для обработки химическими веществами (удобрений, гербицидов, пестицидов) сельскохозяйственных посевов и защиты их от вредителей и болезней. Полный привод и четыре поворотных колеса обеспечивают высокую проходимость и маневренность опрыскивателя. Мощный двигатель 230 л.с. соответствует всем экологическим стандартам и обеспечивает низкий уровень шума в кабине. Средняя про-изводительность опрыскивателя от 600 до 700 Га в день. 
+                                                Предназначены для обработки химическими веществами (удобрения, гербициды, пестициды) сельскохозяйственных посевов и защиты их от вредителей и болезней. Полный привод и четыре поворотных колеса обеспечивают высокую проходимость и маневренность опрыскивателя. Мощный двигатель 230 л.с. соответствует всем экологическим стандартам и обеспечивает низкий уровень шума в кабине. Средняя про-изводительность опрыскивателя от 600 до 700 Га в день. 
                                             </span>
                                             <br>
                                             <table width="328" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
@@ -1085,8 +1083,8 @@
                                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">230 л.с.</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Насос, л </span></td>
-                                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">680 л/минуту</span></td>
+                                                    <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Насос, л/минуту </span></td>
+                                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">680</span></td>
                                                 </tr>
                                                 <tr>
                                                     <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Компьютер </span></td>

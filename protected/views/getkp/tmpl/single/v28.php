@@ -21,7 +21,7 @@
     </table>
     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
         <tr align="right">
-            <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">Техника для профессионального<br /> животноводства</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Сделай молоко<br /> рентабельным!</span>
+            <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">Техника для профессионального<br /> животноводства</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Сделайте молоко<br /> рентабельным!</span>
             </td>
         </tr>
     </table>
@@ -35,7 +35,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -71,14 +71,32 @@
                                     <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" width="300" border="0" /><br />
                                      <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
                                      <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
-                                        <tbody>                                           
+                                        <tbody>
+                                            <tr style="background-color: #d1d3d4;">
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>LIMOUSINE 23</strong></strong></span></td>
+                                            </tr>
                                             <tr>
-                                            <td width="20%"><span style="font-family: Calibri, sans-serif; font-size: 12px;">LIMOUSINE 23</span></td>
-                                            <td width="50%"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Двигатель John Deere 173 л.с. Скорость до 30 км/ч. 
-                                            Фреза шириной 200 см с каналом 60 см. Габариты ДхШхВ 10430х2350х3290 мм.</span></td>
-                                            <td width="30%"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена<br /><? echo $data['price1']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Скорость, км/ч</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">до 30</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Ширина фрезы, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">200</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Длина канала, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">60</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Габариты ДхШхВ, мм</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">10430х2350х3290</span></td>
                                             </tr>
                                             
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                            </tr>
                                         </tbody>
                                 </table>
                                     </td>
@@ -102,7 +120,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -216,7 +234,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -308,7 +326,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -390,7 +408,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель УНИБАЛЛ КРОНОС</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -469,7 +487,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель УНИБАЛЛ МИНИ</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>

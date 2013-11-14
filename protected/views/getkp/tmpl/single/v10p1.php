@@ -1033,13 +1033,7 @@
                                     <span>Дорожный просвет</span>
                                     </td>
                                     <td><span>1 м</span></td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Высота</span>
-                                    </td>
-                                    <td><span>2 м</span></td>
-                                    </tr>
+                                    </tr>                                    
                                     <tr>
                                     <td>
                                     <span>Длина</span>
@@ -1247,7 +1241,7 @@
                                         <span>Прикатывающие колеса</span>
                                         </td>
                                         <td>
-                                        <span>V-образные прикатывающие колеса с регулировкой усилия</span>
+                                        <span>V-образные колеса с регулировкой усилия</span>
                                         </td>
                                         </tr>
                                         <tr>
@@ -1257,23 +1251,7 @@
                                         <td>
                                         <span>4,9</span>
                                         </td>
-                                        </tr>
-                                        <tr>
-                                        <td>
-                                        <span>Транспортная высота, м</span>
-                                        </td>
-                                        <td>
-                                        <span>1,95</span>
-                                        </td>
-                                        </tr>
-                                        <tr>
-                                        <td>
-                                        <span>Транспортная длина, м</span>
-                                        </td>
-                                        <td>
-                                        <span>4,6</span>
-                                        </td>
-                                        </tr>
+                                        </tr>  
                                         <tr>
                                            <td>
                                            <span class="price">Цена весенняя</span>

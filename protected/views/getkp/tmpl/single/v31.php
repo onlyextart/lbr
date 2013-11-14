@@ -21,7 +21,7 @@
     </table>
     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
         <tr>
-            <td><span style="display: block; font-family: Calibri, sans-serif; font-size:32px; text-align: right; font-weight: bolder; color: #d1232a;">Механические сеялки<br /> Great Plains</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Выгода очевидна!<br />Технология безупречна!<br />надежность - легендарна!</span>
+            <td><span style="display: block; font-family:  sans-serif; font-size:32px; text-align: right; font-weight: bolder; color: #d1232a;">Механические сеялки<br /> Great Plains</span><br><span style="display:block; font-family:  sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Выгода очевидна!<br />Технология безупречна!<br />надежность легендарна!</span>
             </td>
         </tr>
     </table>
@@ -34,7 +34,7 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Зерновые механические сеялки Great Plains 2SF30, работающие по технологии MinTill</span></td>
+                                    <td><span style="font-family:  sans-serif; font-size: 18px; font-weight: bolder;">Зерновые механические сеялки Great Plains 2SF30, работающие по технологии MinTill</span></td>
                                     
                                 </tr>
                             </table>
@@ -47,7 +47,7 @@
                                 <tr valign="top">
                                     <td colspan="2" width="628" >                                        
                                     
-                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; font-family:  sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         <p align="justify" >Опыт работы на рынке механических сеялок научил компанию Great Plains, что качество и простота - это два фактора, которые наиболее важны для пользователя. 
                                    Сеялки 2SF30 созданы для того, чтобы работать в наиболее критических условиях и обеспечивать постоянство в качественном посеве. 
                                    Они оборудованы высевающими катушками и механическим приводом высевающих аппаратов от колес с целью обеспечить аккуратный, точный и простой посев.<br /> 
@@ -80,7 +80,7 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Сеялки Great Plains серии 2S и 3S с внесением удобрений</span></td>
+                                    <td><span style="font-family:  sans-serif; font-size: 18px; font-weight: bolder;">Сеялки Great Plains серии 2S и 3S с внесением удобрений</span></td>
                                     
                                 </tr>
                             </table>
@@ -90,28 +90,18 @@
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td colspan="3" width="628">                                        
-                                    
-                                     <span style="display: block; text-align: center; font-family:Calibri, sans-serif; font-size: 24px; color: #999999; margin: 10px 0; line-height: 16px; font-weight: bolder; text-transform: uppercase;">
-                                        Широкозахват теперь начинается от 130 л.с.!!!
-                                    </span>
-                                    
-                                    </td>
-                                    
-                                   
-                                </tr>
+                                <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                                 <tr>
                                 <td width="328">                                        
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Минимальная требуемая<br /> мощность на один<br /> метр ширины захвата<br /> механической сеялки:</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                    <span style="font-family:  sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. Минимальная требуемая<br /> мощность на один<br /> метр ширины захвата<br /> механической сеялки:</span>
+                                     <span style="display: block; text-align: justify; font-family: sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                          - 2S-2600F-8,0м- от 130 л.с.<br />
                                     - 3S-3000F-9,1м- от 150 л.с.<br />
                                     - 3S-4000F- 12м- от 180 л.с<br />
-                                    - 3S-5000F- 15м/- от 250 л.с.<br />
+                                    - 3S-5000F- 15м- от 250 л.с.<br />
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br /><br /><br />2. Сошник вездеход</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                    <span style="font-family:  sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br /><br /><br />2. Сошник вездеход</span>
+                                     <span style="display: block; text-align: justify; font-family: sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Все сеялки оснащены сошником 00 серии с индивидуальным прикатывающим колесом и настройкой глубины сева, системой внесения минеральных удобрений, контролем высева и маркерами с тяжелыми ступицами и зазубренным диском.
                                      В стандарте клапан для работы с тракторами отечественного производства.
                                     </span>
@@ -131,12 +121,12 @@
                                     <table>
                                     <tr>
                                     <td width="438">
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. По равнинам и холмам</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                    <span style="font-family:  sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. По равнинам и холмам</span>
+                                     <span style="display: block; text-align: justify; font-family: sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Сеялки оборудованы двумя независимыми контурами системы гидравлического давления. 
                                     Активная гидравлика постоянно поддерживает заданное давление на всех сошниках во время всего рабочего процесса. 
                                     Благодаря этой особенности сошники находятся в постоянном контакте с почвой, отлично копируют поверхность поля на различных типах почв и рельефе. 
-                                    Кроме того можно установить давление на сошники центральной секции выше для их лучшего проникновения за следами колес трактора, и использовать меньшее давление на сошниках боковых секций.
+                                    Кроме того можно установить давление на сошники центральной секции выше для их лучшего проникновения за следами колес трактора и использовать меньшее давление на сошниках боковых секций.
                                     </span> 
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>                                   
                                     </td> 
@@ -147,9 +137,9 @@
                                     </tr></table></tr>
                                     <tr>
                                     <td colspan="2">                                    
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. Сеем больше, перекуры реже</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        общий объем бункеров 375 л на метр ширины захвата сеялки позволяет работать в поле дольше без перезагрузок, а широкие крышки ящиков и устойчивая платформа делают загрузку удобной и быстрой. 
+                                    <span style="font-family:  sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. Сеем больше, перекуры реже</span>
+                                     <span style="display: block; text-align: justify; font-family: sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                        Общий объем бункеров 375 л на метр ширины захвата сеялки позволяет работать в поле дольше без перезагрузок, а широкие крышки ящиков и устойчивая платформа делают загрузку удобной и быстрой. 
                                     Этот бункер поделен в пропорции 60/40% соответственно под семена и удобрения. 
                                     Если удобрения не нужны- то можно снять разделитель бункера и использовать 100% загрузку бункера семенами.
                                     </span>
@@ -172,7 +162,7 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Механические сеялки Great Plains СPH 2000F работающие по технологии NO TILL</span></td>
+                                    <td><span style="font-family:  sans-serif; font-size: 18px; font-weight: bolder;">Механические сеялки Great Plains СPH 2000F, работающие по технологии NO-TILL</span></td>
                                     
                                 </tr>
                             </table>
@@ -185,10 +175,10 @@
                                 <tr valign="top">
                                     <td colspan="2" width="628">                                        
                                     
-                                     <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                     <span style="display: block; text-align: justify; font-family:  sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Это зарекомендовавшая себя конструкция является фундаментальным камнем семейства стерневых сеялок Great Plains. 
                                    Ключом к этому продолжающемуся успеху является конструкция поворотной рамы, обеспечивающая полное копирование на неровных поверхностях и косогорах, при этом гарантируя высев семян сошником прямо в обработанную соответствующим режущим диском полоску земли. 
-                                   Бункер объемом 286 л на метр ширины захвата в сочетании с 6-метровой шириной захвата дает возможность Вам покрывать большее количество гектар без дозагрузок. 
+                                   Бункер объемом 286 л на метр ширины захвата в сочетании с 6-метровой шириной захвата дает возможность Вам покрывать большее количество гектаров без дозагрузок. 
                                    Другими особенностями являются жесткая основная рама, изготовленная из квадрата 15х15, сошники, установленные в шахматном порядке, и гидравлический контур для быстрого подъема увеличивают производительность, не снижая надежность. <br />
                                    Точность сева достигается благодаря сошникам серии “00” с двойными открывающими дисками со смещением, мягко укладывающим семена, за которым следует успокоитель, прижимая семена к дну борозды. 
                                    Мощность от 165 л.с. Сеялка оборудована системой внесения удобрений и маркерами.
@@ -216,31 +206,31 @@
                                                 <td width="12%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>CPH-2000</strong></span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата, м</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">9</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">8</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">9</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">12</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">15</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">6</span></td>
+                                                <td style="text-align: left;"><span style="font-family:  sans-serif; font-size: 12px;">Рабочая ширина захвата, м</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">9</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">8</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">9</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">12</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">15</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">6</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 140</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 130</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 150</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 180</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 250</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 165</span></td>
+                                                <td style="text-align: left;"><span style="font-family:  sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 140</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 130</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 150</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 180</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 250</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;">от 165</span></td>
                                             </tr>  
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price1']; ?></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price2']; ?></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price3']; ?></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price4']; ?></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price5']; ?></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price6']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:  sans-serif; font-size: 12px;">Цена</span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price1']; ?></span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price2']; ?></span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price3']; ?></span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price4']; ?></span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price5']; ?></span></td>
+                                                <td><span style="font-family:  sans-serif; font-size: 12px;"><? echo $data['price6']; ?></span></td>
                                             </tr>  
                                                                                       
                                             
@@ -271,7 +261,7 @@
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
+                                    <td><span style="font-family:  sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                 </tr>
                             </table>
                         </td>
@@ -288,7 +278,7 @@
                                 <tr>
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
+                                        <span style="font-family:  sans-serif; font-size: 14px; text-align: justify;">
                                             Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                                         </span>
                                     </td>
@@ -306,25 +296,25 @@
                                 <tr>
                                     <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
+                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
+                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
+                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
+                                        <span style="font-family:  sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                     </td>
                                 </tr>
                             </table>
@@ -338,7 +328,7 @@
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
                                     <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
-                                    <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
+                                    <td width="400" align="right" style="text-align: left;"><span style="font-family:  sans-serif; font-size: 14px;">
                                             Ваш персональный менеджер<br><br>
                                             <? echo $data['user_info']; ?>
                                         </span></td>

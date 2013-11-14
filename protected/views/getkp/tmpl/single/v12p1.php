@@ -1455,6 +1455,81 @@
                             </div>
                         </div>
                     </div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.git-lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Вид и диаметр катка</span>
+                                    </td>
+                                    <td>
+                                    <span>Cambridge 530</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Ширина захвата, м</span>
+                                    </td>
+                                    <td>
+                                    <span>12,0</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Количество дисков, шт.</span>
+                                    </td>
+                                    <td>
+                                    <span>247</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Масса, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>6860</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Требуемая мощность трактора, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>160-200</span>
+                                    </td>
+                                    </tr>                                    
+                                    <tr>
+                                           <td>
+                                           <span class="price">Цена весенняя</span>
+                                           </td>
+                                           <td class="price">
+                                           <? echo $data['price_blue18']; ?>
+                                           </td>
+                                        </tr>
+                                        
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price18']; ?>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>

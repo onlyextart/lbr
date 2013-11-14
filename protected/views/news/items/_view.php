@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<?php
-var_dump($data->id);
-?>
-=======
-
 <?php
 	
 	   echo CHtml::link('<h3>'.$data->header.'</h3>', array ('view', 'id'=>$data->id));
@@ -12,4 +6,3 @@ var_dump($data->id);
        
 	
 ?>
->>>>>>> faad49c... Kp generated

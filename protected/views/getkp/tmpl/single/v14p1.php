@@ -16,10 +16,11 @@
                 </div>
             </div>
             <div class="one-page head-first-page">
+                <img src="http://www.lbr.ru/images/kp/percent.jpg" alt="percent" style="border: 0; position: absolute;"/>
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ВНИМАНИЕ!!! <br>СКИДКИ!!!</span>
                 </div>
-                <div class="first-header-text">НЕ УПУСТИТЕ ШАНС <br>КУПИТЬ ДЕШЕВЛЕ НА<br>3.000.000 РУБЛЕЙ!</div>
+                <div class="first-header-text">НЕ УПУСТИТЕ ШАНС <br>КУПИТЬ ДЕШЕВЛЕ НА<br>3 000 000 РУБЛЕЙ!</div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -63,20 +64,20 @@
                                     </table>
                                 </div>
                                 <div class="right-50" style="text-align: center;">
-                                    <span class="span-red-left">ШИРОКОЗАХВАТНЫЙ АГРЕГАТ <br>ДЛЯ ПОСЕВА И ОБРАБОТКИ<br>ПОЧВЫ 3 В ОДНОМ:</span>
+                                    <span class="span-red-left">ШИРОКОЗАХВАТНЫЙ АГРЕГАТ <br>ДЛЯ ПОСЕВА И ОБРАБОТКИ<br>ПОЧВЫ 3 В 1:</span>
                                     <span class="text" style="font-size: 15px; line-height: 20px;">
                                         <b>1. Осуществляет посев всех видов культур (кроме кукурузы на зерно):</b>
                                         <br>• двухстрочный посев узкими сошниками Gumbo boot;
-                                        <br>• внесение гранулированных и(или) жидких удобрений вместе с	семенами или отдельно от них
-                                        <br>• культивация стрельчатыми лапами<br>
+                                        <br>• внесение гранулированных и(или) жидких удобрений вместе с	семенами или отдельно от них;
+                                        <br>• культивация стрельчатыми лапами.<br>
                                     </span>
                                     <span style="margin: 15px auto; line-height: 35px; background: none repeat scroll 0% 0% rgb(245, 130, 32); color: white; font-family: FuturisXC,sans-serif; font-size: 16px; text-align: center; padding: 5px 20px;">Все эти операции за один проход</span>
                                     <span class="text" style="font-size: 15px; line-height: 20px;">
-                                        <b>2. При отцеплении бункера работает как культиватор со стрельчатыми лапами (сплошное перекрытие) на глубину до 14 см. Оснащен усиленными стойками с давлением 350кг.</b>
+                                        <b>2. При отцеплении бункера работает как культиватор со стрельчатыми лапами (сплошное перекрытие) на глубину до 14 см. Оснащен усиленными стойками с давлением 350 кг.</b>
                                         <br>• возможно внесение гранулированных и (или) жидких удобрений в почву при культивации;
                                         <br>• гарантированное уничтожение сорняков.
                                         <br>
-                                        <b>3. При замене стрельчатых лап на узкие чизеля (шири-ной 10 см) может использоваться для рыхления почвы  на глубину до 20см.</b>
+                                        <b>3. При замене стрельчатых лап на узкие чизеля (шири-ной 10 см) может использоваться для рыхления почвы  на глубину до 20 см.</b>
                                     </span>
                                 </div>
                                 <div class="width-100">
@@ -123,6 +124,7 @@
                         <div class="body-content">
                             <div class="left-40 image">
                                 <img src="http://www.git-lbr.ru/images/kp/concept-4.jpg" border="0" />
+                                <span class="text">Расстояние между стойками – 23 см</span>
                             </div>
                             <div class="right-60">
                                 <span class="text">
@@ -205,7 +207,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: left;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') no-repeat 25px 132px; background-size: 400px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

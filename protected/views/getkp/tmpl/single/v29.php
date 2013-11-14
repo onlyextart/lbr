@@ -40,9 +40,9 @@
                             </table>
                         </td>
                     </tr>
-                    
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic.jpg" width="638" border="0" /></td></tr>
                     <tr>
-                        <td>
+                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                                 <tr valign="top">
                                     <td width="328">                                        
@@ -69,8 +69,10 @@
                                      
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic.jpg" width="300" border="0" />                                    
-                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                   
+                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                     <span style="font-family: Calibri, sans-serif; font-size: 30px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">СОВРЕМЕННЫЙ.<br />ЕВРОПЕЙСКИЙ.<br />ЛУЧШИЙ ПО ЦЕНЕ!</span>
+                                     <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
                                     <table width="300" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
                                         <tbody>
@@ -92,7 +94,7 @@
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">165 (225)</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, л</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, см<sup>3</sup></span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">380</span></td>
                                             </tr>
                                             <tr>
@@ -110,31 +112,7 @@
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество передач вперед/назад</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">32/24</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ГИДРАВЛИЧЕСКАЯ СИСТЕМА</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность, л/мин</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">129</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">НАВЕСНОЕ УСТРОЙСТВО</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трехточечное, максимальная грузоподъемность на концах тяг, кг</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">10 500</span></td>
-                                            </tr>
-                                             <tr>
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ГАБАРИТЫ (могут изменяться в зависимости от комплектации трактора)</span></td>
-                                               
-                                            </tr>
-                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Колесная база (B)/ длина с балластом (C)/ ширина без спарки (E)/ высота (A), мм</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">2 873 / 5 307 / 2 415 / 3 000</span></td>
-                                            </tr>
+                                            </tr>                                            
                                              <tr>
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса без балласта (зависит от комплектации), кг</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">7 700</span></td>
@@ -189,7 +167,7 @@
                             </table>
                         </td>
                     </tr>
-                    
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic1.jpg" width="638" border="0" /></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -227,7 +205,7 @@
                                      
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic1.jpg" width="300" border="0" />                                    
+                                    <td align="right">                                    
                                     <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
                                     <table width="300" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
@@ -250,10 +228,10 @@
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">146 (199)</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, л</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, см<sup>3</sup></span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">350</span></td>
                                             </tr>
-                                            <tr>
+                                            <tr style="background-color: #d1d3d4;">
                                                 <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ТРАНСМИССИЯ</span></td>
                                                 
                                             </tr>
@@ -269,7 +247,7 @@
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество передач вперед/назад</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">32/24</span></td>
                                             </tr>
-                                            <tr>
+                                            <tr style="background-color: #d1d3d4;">
                                                 <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ГИДРАВЛИЧЕСКАЯ СИСТЕМА</span></td>
                                                 
                                             </tr>
@@ -277,34 +255,14 @@
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность, л/мин</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">129</span></td>
                                             </tr>
-                                            <tr>
+                                            <tr style="background-color: #d1d3d4;">
                                                 <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">НАВЕСНОЕ УСТРОЙСТВО</span></td>
                                                 
                                             </tr>
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трехточечное, максимальная грузоподъемность на концах тяг, кг</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">10 500</span></td>
-                                            </tr>
-                                             <tr>
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">КАБИНА</span></td>
-                                               
-                                            </tr>
-                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Кондиционирование, отопление, вентиляция</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">В базовой комплектации</span></td>
-                                            </tr>
-                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Пневматическая подвеска кабины</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">В базовой комплектации</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ГАБАРИТЫ (могут изменяться в зависимости от комплектации трактора)</span></td>
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Колесная база (В)/ длина с балластом (С)/ ширина без спарки (Е)/ высота (А), мм</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">2 873 / 5 307 /2 415 / 3000</span></td>
-                                            </tr>
+                                            </tr>                                             
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса без балласта (зависит от комплектации), кг</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">7 700</span></td>

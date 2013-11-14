@@ -20,7 +20,7 @@
                     <div class="dieci-header">
                         <span class="dieci-header-orange">Техника для профессионального<br /> животноводства</span>
                     </div>
-                    <span class="second-header-text">Сделай молоко<br /> рентабельным!</span>
+                    <span class="second-header-text">Сделайте молоко<br /> рентабельным!</span>
                 </div>
             </div>
             <div class="one-page body-first-page">
@@ -28,25 +28,46 @@
                 <div class="one-item">
                 <div class="right-20">                    
                 </div>
+                <div class="head-content-grey">
+                            <div class="h-2"><span>Смесители-кормораздатчики</span></div>
+                        </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
-                                <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
-                                        
-                                        <tr>
-                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">LIMOUSINE 23</span></td>
-                                            <td width="55%"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Двигатель John Deere 173 л.с. Скорость до 30 км/ч. 
-                                            Фреза шириной 200 см с каналом 60 см. Габариты ДхШхВ 10430х2350х3290 мм.</span></td>
-                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Цена<br /><? echo $data['price1']; ?></span></td>
-                                        </tr>
-                                        
-                                        
+                                <table width="360" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tbody>
+                                            <tr style="background-color: #d1d3d4;">
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>LIMOUSINE 23</strong></strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Скорость, км/ч</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">до 30</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Ширина фрезы, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">200</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Длина канала, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">60</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Габариты ДхШхВ, мм</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">10430х2350х3290</span></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                            </tr>
+                                        </tbody>
                                 </table>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
@@ -81,7 +102,7 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Кормораздатчики горизонтальные СЕНЬОР</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -203,7 +224,7 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Вертикальный кормораздатчик Сеньор-8В</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: -7px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -275,8 +296,11 @@
                     <div style="width: 100%; height: 10px;"></div>
                         <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Измельчитель рулонов Унибалл</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                        <div class="head-content-grey">
+                            <div class="h-2"><span>Смесители-кормораздатчики</span></div>
+                        </div>
+                            <div class="h-2 left-75" style="margin-top: 0px;"><span>Измельчитель рулонов Унибалл</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 50px;"  /></div>
                             
                         </div>
                         <div class="body-content">
@@ -300,10 +324,7 @@
                                    Борт поднимается с помощью гидравлического механизма и подает рулон по направлению к дисковому ротору, где происходит его измельчение.
                                 </span>
                             </div>
-                            <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase; color: black; font-size: 14px;">Технические характеристики</span>
-                                
-                            </div>
+                            <div style="width: 100%; height: 10px;"></div>
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr>
@@ -353,14 +374,10 @@
                     <div style="width: 100%; height: 20px;"></div>
                 <div class="one-item">
                 <div class="right-20">                    
-                </div>
-                        <div class="head-content-grey">
-                            <div class="h-2"><span>Измельчители УНИБАЛЛ КРОНОС и УНИБАЛЛ МИНИ</span></div>
-                            
-                        </div>
+                </div>                        
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ КРОНОС</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
                             
                         </div>
                         <div class="body-content">
@@ -389,11 +406,8 @@
                                 </span>
                             </div>
                             
-                            </div>
-                            <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase; color: black; font-size: 14px;">Технические характеристики</span>
-                                
-                            </div>
+                            </div> 
+                            <div style="width: 100%; height: 10px;"></div>                           
                             <div class="width-100">
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
@@ -431,7 +445,7 @@
                 </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ МИНИ</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/luclar-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 1px;"  /></div>
                             
                         </div>
                         <div class="body-content">
@@ -457,10 +471,7 @@
                             </div>
                             
                             </div>
-                            <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase; color: black; font-size: 14px;">Технические характеристики</span>
-                                
-                            </div>
+                            <div style="width: 100%; height: 10px;"></div>    
                             <div class="width-100">
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
@@ -497,11 +508,13 @@
                 <div class="after-page-break"></div>
                 <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 20px;"></div>
                  <div class="one-item">
+                 <div class="head-content-grey">
+                            <div class="h-2" style="margin-bottom: 0px;"><span>Внесение органических удобрений</span></div>
+                        </div>
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Бочка для внесения жидких удобрений Питон 100</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/piton-logo.jpg" border="0" /></div>
+                            <div class="h-2 left-75" style="margin-top: 0px;"><span>Бочка PITON для жидкой органики и воды</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/piton-logo.jpg" border="0" style="position: absolute; right: 0px; top: 65px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -604,8 +617,8 @@
             
                  <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Разбрасыватели универсальные PTU</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
+                            <div class="h-2 left-75" style="margin-top: 5px;"><span>Разбрасыватели универсальные PTU</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"/></div>
                         </div>
                        <div class="body-content">
                             <div class="left-50 image">
@@ -789,7 +802,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 30px 80px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/cow.jpg') white no-repeat 8px 115px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: justify; font-size: 26px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .two-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(99, 99, 99); text-align: justify; font-size: 22px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}

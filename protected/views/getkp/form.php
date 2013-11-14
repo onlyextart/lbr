@@ -13,19 +13,18 @@ and open the template in the editor.
             <div><span>Add:</span><input name="add" value="0" type="text"></div>
             <div><span>ID:</span><input name="temp_id" value="2" type="text"></div>
             <div><span>Header:</span><textarea name="header" type="text">Приветствие для Василия И.И.</textarea></div>
-            <div><span>Price count:</span><input name="price_count" value="3" type="text"></div>
+            <div><span>Price count:</span><input name="price_count" value="5" type="text"></div>
             <div><span>Price 1:</span><input name="price1" value="1234" type="text"></div>
             <div><span>Price 2:</span><input name="price2" value="5678" type="text"></div>
             <div><span>Price 3:</span><input name="price3" value="91011" type="text"></div>
+            <div><span>Price 4:</span><input name="price4" value="4321" type="text"></div>
+            <div><span>Price 5:</span><input name="price5" value="98765" type="text"></div>
             <div><span>Client:</span><input name="client" value="Василий И.И" type="text"></div>
             <div><span>User:</span><input name="user" value="user" type="text"></div>
             <div><span>User info:</span><textarea name="user_info" type="text">Жориков Иван Васильевич<br>Скайп: jora<br>Мыло: jora@lbr.ru</textarea></div>
             <div><span>Filial:</span><input name="filial" value="BRN" type="text"></div>
             <div><span>Filial bottom:</span><textarea name="filial_bottom" type="text"> filial bottom</textarea></div>
-            <div><span>Print:</span><input name="print" value="1" type="text"></div>
-            <div><span>Price_blue 1:</span><input name="price1" value="1234" type="text"></div>
-            <div><span>Price_blue 2:</span><input name="price2" value="1234" type="text"></div>
-            <div><span>Price_blue 3:</span><input name="price3" value="1234" type="text"></div>
+            <div><span>Print:</span><input name="print" value="1" type="text"></div>            
             <div><input type="submit"></div>
         </form>
         <?php

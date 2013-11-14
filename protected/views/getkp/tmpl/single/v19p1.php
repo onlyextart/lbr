@@ -34,8 +34,8 @@
                         <div class="width-100">
                             <span class="text">
                             <img src="http://www.git-lbr.ru/images/kp/great-plains1.jpg" border="0" height="180" width="350" align="left" />
-                                Пропашная 8-рядная механическая прицепная сеялка точного высева <b style="color: rgb(211,35,42);">Great Plains PD8070</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. 
-                                Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья, ниже зоны высева семян. Сеялка также укомплектована дисковыми турбо-ножами для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
+                                Пропашная 8-рядная механическая-прицепная сеялка точного высева <b style="color: rgb(211,35,42);">Great Plains PD8070</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. 
+                                Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья ниже зоны высева семян. Сеялка также укомплектована дисковыми турбо-ножами для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
                                 Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john.
                             </span>
                             
@@ -50,7 +50,7 @@
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2"><span style="font-size: 18px;">2. Прицепная 8-ми рядная сеялка точного высева Great Plains YP825A.<br /> Great Plains с пневматическими высевающими аппаратами</span></div>
+                            <div class="h-2"><span style="font-size: 18px;">2. Прицепная 8-ми рядная сеялка точного высева YP825A<br /> с пневматическими высевающими аппаратами</span></div>
                             
                         </div>
                         <div class="body-content">
@@ -60,7 +60,7 @@
                             <div class="right-60">
                                 <span class="text">
                                     Пропашная 8-рядная прицепная сеялка <b style="color: rgb(211,35,42);">YP825A Great Plains</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. Особенностью этой сеялки являются пневматические высевающие аппараты на положительном давлении. 
-                                    Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья, ниже зоны высева семян. Сеялка также укомплектована дисковыми турбо-ножами для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
+                                    Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья ниже зоны высева семян. Сеялка также укомплектована дисковыми турбо-ножами для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
                                     Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickeyjohn. При необходимости, можно дополнительно укомплектовать сеялку высевающими дисками для высева сои, сорго и хлопка. Широкий выбор дисков под необходимую Вам норму высева обеспечит точный высев этих культур.
                                  </span>                                  
                             </div>
@@ -69,7 +69,7 @@
                 </div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2"><span style="font-size: 18px;">3.1. Новая 16-ти рядная механическая сеялка точного высева с<br /> пневматической подачей удобрений из отдельного бункера.</span></div>
+                            <div class="h-2"><span style="font-size: 18px;">3.1. Новая 16-ти рядная механическая сеялка точного высева Great Plains YP-1630F с пневматической подачей удобрений из отдельного бункера</span></div>
                             
                         </div>
                         <div class="body-content">
@@ -78,8 +78,8 @@
                         </div>
                             <div>
                                 <span class="text">
-                                    Высокопроизводительная пропашная дисковая сеялка точного высева <b style="color: rgb(211,35,42);">YP-1630F предназначена для посева кукурузы и подсолнечника в том числе по технологии NO-Till</b>. 
-                                    Сеялка оборудована, пластиковым бункерам для удобрений объемом 3500 л и индивидуальными ящиками для семян общим объемом 1120л., по 70 литров на каждый сошник. 
+                                    Высокопроизводительная пропашная дисковая сеялка точного высева <b style="color: rgb(211,35,42);">YP-1630F предназначена для посева кукурузы и подсолнечника, в том числе по технологии NO-Till</b>. 
+                                    Сеялка оборудована пластиковым бункером для удобрений объемом 3500 л и индивидуальными ящиками для семян общим объемом 1120 л по 70 литров на каждый сошник. 
                                     Как и все сеялки YP-1630F использует воздух для доставки удобрений из бункера к индивидуальному сошнику. Высевающий аппарат-механический.
                                  </span>                                  
                             </div>
@@ -95,7 +95,7 @@
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2"><span style="font-size: 18px;">3.2. YP1625A - 16-ти рядная пневматическая сеялка точного высева с<br /> пневматической подачей семян и ЖКУ из отдельных установленных на раме бункеров.</span></div>
+                            <div class="h-2"><span style="font-size: 18px;">3.2. Great Plains - 16-ти рядная пневматическая сеялка точного высева с<br /> пневматической подачей семян и ЖКУ из отдельных установленных на раме бункеров</span></div>
                             
                         </div>
                         <div class="body-content">
@@ -104,8 +104,8 @@
                             </div>
                             <div>
                                 <span class="text">
-                                    Высокопроизводительная пропашная дисковая сеялка точного высева <b style="color: rgb(211,35,42);">YP-1625А предназначена для посева кукурузы и подсолнечника в том числе по технологии NO-Till</b>. 
-                                    Сеялка оборудована, двумя пластиковыми бункерами для жидких удобрений по 200 галлонов каждый, общим объемом 1514л. и пластиковым бункером для семян общим объемом 2886л. (82 бушелей). 
+                                    Высокопроизводительная пропашная дисковая сеялка точного высева <b style="color: rgb(211,35,42);">YP-1625А предназначена для посева кукурузы и подсолнечника, в том числе по технологии NO-Till</b>. 
+                                    Сеялка оборудована двумя пластиковыми бункерами для жидких удобрений по 200 галлонов каждый, общим объемом 1514 л и пластиковым бункером для семян, общим объемом 2886 л (82 бушелей). 
                                     Как и все сеялки YP-1625А использует воздух для доставки удобрений и семян из бункеров к индивидуальному сошнику. Высевающий аппарат-пневматический.
                                  </span>                                  
                             </div>
@@ -125,8 +125,8 @@
                             <div>
                                 <span class="text">
                                     <b style="color: rgb(211,35,42);">YP-2425F</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья. 
-                                    Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john.<br /> <b style="color: rgb(211,35,42);">YP-2425F</b> оборудована, двумя металлическими бункерами: 84 бушеля (2 964 литров) под удобрения и 38 бушелей (1 338литров) под семена. 
-                                    Сеялка может легко сеять свыше 160 акров (64,8 Га) сои и 250 акров (101,25 Га) кукурузы за одну заправку сеялки, что обеспечивает увеличение производительности на 52% для сои, и 12,8% для кукурузы. 
+                                    Контроль параметров высева: количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john.<br /> <b style="color: rgb(211,35,42);">YP-2425F</b> оборудована двумя металлическими бункерами: 84 бушеля (2 964 литра) под удобрения и 38 бушелей (1 338 литров) под семена. 
+                                    Сеялка может легко сеять свыше 160 акров (64,8 Га) сои и 250 акров (101,25 Га) кукурузы за одну заправку сеялки, что обеспечивает увеличение производительности на 52% для сои и 12,8% для кукурузы. 
                                     Как и все сеялки <b style="color: rgb(211,35,42);">YP-2425F</b> использует воздух для доставки семян из бункера к индивидуальному сошнику 25 серии, далее точность обеспечивает механический высевающий аппарат. 
                                  </span>                                  
                             </div>
@@ -151,9 +151,9 @@
                             </div>
                             <div>
                                 <span class="text">
-                                    <b style="color: rgb(211,35,42);">YP-2425А</b> с ЖКУ предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. Сеялка может быть оборудована приспособлением для внесения ЖКУ в междурядья на 3.780 литров. 
-                                    Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john. 
-                                    <b style="color: rgb(211,35,42);">YP-2425А</b> оборудована, двумя бункерами по 82 бушеля (2 х 2 890 литров).
+                                    <b style="color: rgb(211,35,42);">YP-2425А</b> с ЖКУ предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. Сеялка может быть оборудована приспособлением для внесения ЖКУ в междурядья на 3 780 литров. 
+                                    Контроль параметров высева: количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john. 
+                                    <b style="color: rgb(211,35,42);">YP-2425А</b> оборудована двумя бункерами по 82 бушеля (2 х 2 890 литров).
                                  </span>                                  
                             </div>
                             </div>
@@ -161,7 +161,7 @@
                 </div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2"><span style="font-size: 18px;">4. Прицепная 8-ми рядная сеялка точного высева Great Plains P825A-16TR.<br /> Great Plains с пневматическими высевающими аппаратами</span></div>
+                            <div class="h-2"><span style="font-size: 18px;">4. Прицепная 8-ми рядная сеялка точного высева Great Plains P825A-16TR<br /> с пневматическими высевающими аппаратами</span></div>
                             
                         </div>
                         <div class="body-content">
@@ -170,26 +170,14 @@
                             </div>
                             <div>
                                 <span class="text">
-                                    Пропашная 8-рядная прицепная сеялка <b style="color: rgb(211,35,42);">YP825A-16TR. Great Plains</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 76 см. Особенностью этой сеялки являются сдвоенные ряды, расположенные со смещением 10 см друг относительно друга. 
-                                    Таким образом расстояние между строчками 20 см, а расстояние между смежными рядами 56 см. Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья, ниже зоны высева семян. 
+                                    Пропашная 8-рядная прицепная сеялка <b style="color: rgb(211,35,42);">YP825A-16TR Great Plains</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 76 см. Особенностью этой сеялки являются сдвоенные ряды, расположенные со смещением 10 см друг относительно друга. 
+                                    Таким образом, расстояние между строчками - 20 см, а расстояние между смежными рядами - 56 см. Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья ниже зоны высева семян. 
                                     Сеялка также укомплектована дисковыми турбо-ножами и очистителями линии сева для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
-                                    Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john. При необходимости, можно дополнительно укомплектовать сеялку высевающими дисками для высева сои, сорго и хлопка. 
+                                    Контроль параметров высева: количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john. При необходимости, можно дополнительно укомплектовать сеялку высевающими дисками для высева сои, сорго и хлопка. 
                                     Широкий выбор дисков под необходимую Вам норму высева обеспечит точный высев этих культур.
                                  </span>                                  
                             </div>
-                            </div>
-                    <div class="footer-content"></div>
-                </div>
-                <div class="footer-content"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div class="one-item">
-                        <br /><br />
-                        <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                            <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                      <tr bgcolor="#d1d3d4">
                                         <td align="left" width="30%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
                                         <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD-8070</span></td>
@@ -214,11 +202,11 @@
                                         <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 100</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 100</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 320</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 320</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 180</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 180</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 180</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 320</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 320</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 180</span></td>
                                     </tr>
                                     <tr>                                       
                                         <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
@@ -231,10 +219,137 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
+                            </div>
                     <div class="footer-content"></div>
                 </div>
-                    
                 <div class="footer-content"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+            
+                <div class="content-page">
+                
+                    <div class="one-item">
+                    <div class="head-content">
+                            <div class="h-2"><span style="font-size: 36px; text-transform: uppercase;">КуКурузу и семечКу сушим сами!!!</span></div>
+                            
+                        </div>
+                        <div class="span-red-center"><span>расчет эКономичесКой целесообразности:</span></div>
+                        <div class="body-content">
+                            <div class="width-100">
+                                <span class="text">
+                                    При расчетах используются следующие данные:<br />
+                                    Сушка и хранение 1000 тонн зерна кукурузы, влажность после уборки 24%, избыточная влажность 10%, избыточная засоренность 5%, срок хранения 6 месяцев.<br />
+                                    <br /><b>ЗАТРАТЫ СУШКИ И ХРАНЕНИЯ КУКУРУЗЫ НА ЭЛЕВАТОРЕ (ПО ЦЕНАМ В Г.КРАСНОДАР):</b><br />
+                                    1. Приемка с авто 1 т - 110 руб/т х 1000 т = 110 000 руб.<br />
+                                    2. Подработка 40 руб. т на 1% х 1000 т х 5% = 200 000 руб.<br />
+                                    3. Сушка 60 руб. 1% х1000 т х 10% = 600 000 руб.<br />
+                                    4. Хранение 90 руб. т/мес. х 1000 т х 6 мес. = 540 000 руб.<br />
+                                    5. Отгрузка автотранспорт 230 руб. /т х 1000 т = 230 000 руб.<br /><br />
+                                    <b>ИТОГО ЗАТРАТЫ: 1 680 000 РУБ. (СРОК ХРАНЕНИЯ 6 МЕС.)</b><br />
+                                    <br /><b>ЗАТРАТЫ ПРИ РАБОТЕ НА ОБОРУДОВАНИИ MECMAR:</b><br />
+                                    1. При условии работы сушилки на дизельном топливе с расходом 1 литр для сниж. влажности на 1% 32 руб. /литр х 1000 т х 10% = 320 000 руб.<br />
+                                    2. Затраты по электроэнергии составят 9,2 кВт/ч на 1 тонну зерна, при стоимости 6 руб. кВт/ч х 1000 т х 9,2 кВт/ч = 55 000 руб.<br />
+                                    <br /><b>ИТОГО ЗАТРАТЫ: 375 000 РУБ.</b><br />
+                                    <span class="bold-up" style="color: rgb(211, 35, 42); margin: 0; padding: 0;">эКономия на сушКе и храниении у вас в хозяйстве составит оКоло1 300 000 рублей!</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span style="font-size: 28px; text-transform: uppercase;">мобильные зерносушилКи MecMar</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.git-lbr.ru/images/kp/sush-1.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="font-size: 12px; border-collapse: collapse; text-align: center; height: 1px; border-bottom: 1px black solid;" align="center" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                <tbody>
+                                    <tr bgcolor="#d1d3d4">
+                                    <td align="center" width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span>
+                                    </td>
+                                    <td align="center" width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 9/87 F</span>
+                                    </td>
+                                    <td align="center" width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 13/119 Т</span>
+                                    </td>
+                                    <td align="center" width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 20/153 Т</span>
+                                    </td>
+                                    <td align="center" width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 25/210 Т2</span>
+                                    </td>
+                                    <td align="center" width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 34/255 Т</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Емкость камеры сушки, т</span>
+                                    </td>
+                                    <td>
+                                    <span>9</span>
+                                    </td>
+                                    <td>
+                                    <span>13</span>
+                                    </td>
+                                    <td>
+                                    <span>20</span>
+                                    </td>
+                                    <td>
+                                    <span>25</span>
+                                    </td>
+                                    <td>
+                                    <span>34</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Производительность – с 20% до 15%, м<sup>3</sup>/сутки</span>
+                                    </td>
+                                    <td>
+                                    <span>125</span>
+                                    </td>
+                                    <td>
+                                    <span>167</span>
+                                    </td>
+                                    <td>
+                                    <span>218</span>
+                                    </td>
+                                    <td>
+                                    <span>284</span>
+                                    </td>
+                                    <td>
+                                    <span>357</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Цена в комплектации:<br /> Диз.горелка, ВОМ, сетка 2,5мм</span>
+                                    </td>
+                                    <td>
+                                    <span><? echo $data['price8']; ?></span>
+                                    </td>
+                                    <td>
+                                    <span><? echo $data['price9']; ?></span>
+                                    </td>
+                                    <td>
+                                    <span><? echo $data['price10']; ?></span>
+                                    </td>
+                                    <td>
+                                    <span><? echo $data['price11']; ?></span>
+                                    </td>
+                                    <td>
+                                    <span><? echo $data['price12']; ?></span>
+                                    </td>
+                                    </tr>
+                                    </tbody>  
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
@@ -308,6 +423,7 @@
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
+    .header-text {clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     
     .body-page{margin-top: 20px;}
     .body-first-page .content-page{padding:0 20px 20px;}
@@ -320,6 +436,7 @@
     .one-item{position: relative; margin-bottom: 30px;}
     .one-item:last-child{margin-bottom: 0}
     .one-page:after, .one-item:after, .head-content:after, .content-page:after, #header:after, .wrapper:after{content:''; clear: both; display: block;}
+    .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,sans-serif;}
  
     .footer{border-top: 1px solid grey; padding-top: 20px;}
     .footer .user{margin-top: 10px;}
@@ -351,6 +468,15 @@
     .right-10,.right-20,.right-30,.right-40,.right-50,.right-60,.right-70,.right-80,.right-90, .right-25, .right-45, .right-35
     {
         float: right;
+    }
+    .bold-up
+    {
+        display: block;
+        font-family: FuturisXC, sans-serif;
+        font-size: 15px;
+        color: black;
+        text-transform: uppercase;
+        padding: 15px 0 7px;
     }
     .left-10,.right-10{width:10%;}
     .left-20,.right-20{width:20%;}

@@ -339,13 +339,19 @@
                                 <tr valign="top">
                                     <td width="328">
                                     
-                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!</span>
+                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">1. Быстрее и эффективнее!</span>
                                         <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
-                                        • Самый легкий, маневренный и доступный плуг - балка рамы имеет сечение 150х150 мм с толщиной стенки 12 мм!
-                                    <br />• Полунавесное колесо серийно оснащено гидропневматическим амортизатором.
-                                    <br />• Все рабочие органы из сверхпрочного материала <b>Permanit ©plus</b>
-                                    <br />• Изогнутый универсальный отвал WY 400 для средних и тяжелых почв, целинных участков и склонов. Особенно легко идет по чистой борозде. Глубина обработки – до 30 см.
-                                    <br />• Предплужники универсальные - для универсального применения: от перепашки луга до кукурузной стерни.
+                                        Предназначен для удаления ботвы картофеля. 
+                                    Агрегат приподнимает, срезает и измельчает ботву, равномерно укладывая остатки в междурядье. 
+                                    Машина может навешиваться на заднюю или переднюю часть трактора (в стандартной комплектации навешивается позади трактора).
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">2. Идеальное копирование гребня!</span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Вертикально расположенные ножи различной длины предназначены для копирования гребня, что обеспечивает качественное удаление и измельчение ботвы по всей форме гребня.
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">3. Простота – залог успеха!</span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                       «Окошки» расположенные в верхней части ботвоудалителя обеспечивают свободный доступ к рабочим органам, позволяя без проблем проводить техническое обслуживание ботвоудалителя.
                                     </span>
                                    
                                      <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
@@ -828,7 +834,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Сортировщики картофеля и лука</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/remprodex-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="width: 70px;" /></td>
                                 </tr>
                             </table>
                         </td>
