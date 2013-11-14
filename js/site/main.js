@@ -19,7 +19,12 @@ $(document).ready(function(){
             type:'POST',
             data:{requesrUri:window.location.pathname.toString()},
             success:function(data){
-                $('body').append($(data));
+                $('body').append("<div id='overlay' style='height: " + $(document).height() +"px;'/>").append($(data));
+                $('.region-select-list').remove();
+                $('#overlay').click(function() {
+                   $('#overlay').remove();
+                   $('.regions_table_wrapper').remove();
+                });
             },
             error:function(){
                 alert('Ошибка запроса к серверу.');

@@ -9,5 +9,4 @@ class ContacsController extends Controller
     }
 
 
-	}
-?>
+}

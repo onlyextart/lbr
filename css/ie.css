@@ -21,7 +21,7 @@
     height: 30px;
     height:auto\0/;
 }
-.xbanners_container .xbanners .second_banner_dieci .b_header h3 a,
+.regions_table_wrapper, .xbanners_container .xbanners .second_banner_dieci .b_header h3 a,
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
 .wrapper #content .product_content ul.product_tab_button, 
@@ -30,7 +30,7 @@
 .wrapper #content .product_wrapper .product_header a.download-pdf-but,
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
 .xbanners_container .xbanners .second_banner_custrom .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image,
-header #top_banner
+header #top_banner 
 {
      behavior: url(PIE.htc);
 }

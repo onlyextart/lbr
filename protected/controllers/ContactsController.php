@@ -21,17 +21,14 @@ class ContactsController extends Controller
         }
         else{
             $contactModel = Contacts::model()->findByPk($contact_id);
-            $formModel=new ContactForm;
+            $formModel = new ContactForm;
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
     }
     
     public function actionGetRegionsTable()
     {
-       
         $regionModel = Regions::model()->findAllByAttributes(array('published'=>'1'));
-        $this->renderPartial('regionstable', array( 'regionModel'=>$regionModel,));
-    }
-    
-    
+        $this->renderPartial('regionstable', array('regionModel'=>$regionModel,));
+    }  
 }

@@ -83,7 +83,7 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, info',
 				),
 				// uncomment the following to show log messages on web pages
 				/*
@@ -109,6 +109,7 @@ return array(
                 'superGroup'=>1,
                 'menuadmin'=>array(
                     'Меню'=>array(
+                        'Тестовая карта сайта'=>'/administrator/map/',
                         'Меню'=>'/administrator/menu/',
                         'Группы меню'=>'/administrator/menu/groups',
                         'Карта сайта'=>'/administrator/menu/sitemap',
