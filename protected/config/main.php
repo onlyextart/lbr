@@ -110,10 +110,10 @@ return array(
                 'superGroup'=>1,
                 'menuadmin'=>array(
                     'Меню'=>array(
-                        'Тестовая карта сайта'=>'/administrator/map/',
                         'Меню'=>'/administrator/menu/',
                         'Группы меню'=>'/administrator/menu/groups',
                         'Карта сайта'=>'/administrator/menu/sitemap',
+                        'Карта сайта Html'=>'/administrator/map/',
                     ),
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('body').append('<div id="choose_region"></div>');
     $('.bottom-text div *:nth-child(2)').show();
     $('.bottom-more').click(function(){
         if ($(this).hasClass('show-text')){
@@ -18,8 +19,8 @@ $(document).ready(function(){
             url: '/contacts/getregionstable/',
             type:'POST',
             data:{requesrUri:window.location.pathname.toString()},
-            success:function(data){
-                $('body').append("<div id='overlay' style='height: " + $(document).height() +"px;'/>").append($(data));
+            success:function(data) {
+                $('#choose_region').append("<div id='overlay' style='height: " + $(document).height() +"px;'/>").append($(data));
                 $('.region-select-list').remove();
                 $('#overlay').click(function() {
                    $('#overlay').remove();
@@ -31,8 +32,36 @@ $(document).ready(function(){
             }
         });
     });
+	
+	$('#choose_region').on('click', 'a', function(){
+		if(setCookie('region', $(this).attr('id'), '3', '/', '.' + window.location.hostname)) {
+		   return true;
+		} 		
+    });
+	
     $(document).on('click', '.regions_table_cover', function(){
         $(this).remove();
         $('.regions_table_wrapper').remove();
     });
+
 })
+
+function setCookie(name, value, expires, path, domain, secure) {
+	if (!name || !value) return false;
+	var str = name + '=' + encodeURIComponent(value);
+	var today = new Date();
+	today.setTime( today.getTime() );
+	if ( expires ) {
+		expires = expires * 1000 * 60 * 60 * 24;
+	}
+	var expires_date = new Date( today.getTime() + (expires) );
+	if (expires) str += '; expires=' + expires_date.toGMTString();
+	if (path) str += '; path=' + path;
+	if (domain) str += '; domain=' + domain;
+	if (secure) str += '; secure';
+	
+	document.cookie = str;
+	
+	return true;
+} 
+

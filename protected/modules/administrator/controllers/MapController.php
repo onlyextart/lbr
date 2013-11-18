@@ -1,466 +1,83 @@
 <?php
 class MapController extends Controller
-{
-    protected function addCreateItemButtonInTree(&$menuTreeArray)
+{    
+    public function addNodes(&$menuTreeArray, $items)
     {
         foreach($menuTreeArray as &$menuItem) {
-            if(isset($menuItem[children])) {
-                //echo $menuItem['id']; exit;
-                
-                $menuItem[children][] = array(
-                    'id'=>'addMenuItem',
-                    'text' => CHtml::link( 
-                            '<img src="/images/addIcon.png" style="height:16px;">', 
-                            '/administrator/menu/createMenuItem/rootId/' . $menuItem[id] . '/ajax/true', 
-                            array ( 
-                                'class'=>'menuTreeViewLink',
-                                'onclick'=>'menuTreeView.showForm(this); return false;',
-                                'title'=>'Создать новый пункт меню',
-                            )
-                        ),
-                    'expanded' => false,
-                );
-                
-                if(is_array($menuItem[children])) {
-                    $this->addCreateItemButtonInTree($menuItem[children]);
-                }
-            }
-        }
-    }
-    
-    public function addTest($menuTreeArray, $products)
-    {
-        
-        foreach($menuTreeArray as $menuItem) {
             if(isset($menuItem['children'])) {
-                //if(array_key_exists($menuItem['id'], $products)) {
-                  //  var_dump($menuItem['id']); 
-                   // echo '1111111';
-                   // exit;
-                    //foreach($products[$menuItem['id']] as $value) {
-                     //   $menuItem['children'][] = array( //$value
-                       //     'text' => 'Node 5',
-                       // );
-                    //}
-                //}
-                
-                //if(is_array($menuItem['children'])) {
-                  //  $this->addTest($menuItem['children'], $products);
-                //}
-                $menuItem[children][] = array(
-                    'id'=>'addMenuItem',
-                    'text' => '4444',   
-                    'expanded' => false,
-                );
-                
-                if(is_array($menuItem[children])) {
-                    $this->addTest($menuItem['children'], $products);
+                if(array_key_exists($menuItem['id'], $items)) {
+                    foreach($items[$menuItem['id']] as $productId) {
+                        if($productId) {
+                            $product = MapItems::getProductInformation($productId);
+                            eval('$product[text] = MapItems::getMenuManageRow($product);');
+                            $menuItem['children'][] = $product;
+                        }
+                    }
                 }
-            }
+                
+                if(is_array($menuItem['children'])) {
+                    $this->addNodes($menuItem['children'], $items);
+                }
+           }
         }
     }
     
-    protected function addCreateItemButtonInTree2(&$menuTreeArray)
+    public function findLeaf(&$menuTreeArray, &$leafArray)
     {
         foreach($menuTreeArray as &$menuItem) {
             if(isset($menuItem[children])) {
-                //echo $menuItem['id']; exit;
-                
-                $menuItem[children][] = array(
-                    'id'=>'addMenuItem',
-                    'text' => 'Node 1',
-                    'expanded' => false,
-                );
-                
                 if(is_array($menuItem[children])) {
-                    $this->addCreateItemButtonInTree($menuItem[children]);
+                    if(empty($menuItem[children])) {
+                        $leafArray[] = $menuItem['id'];
+                    }
+                    $this->findLeaf($menuItem[children], $leafArray);
                 }
-            }
-        }
-    }
-    
-    public function addTest2(&$menuTreeArray, $products)
-    {
-        $allKeys = array_keys($products);
-        //var_dump($allKeys); exit;
-        foreach($menuTreeArray as &$menuItem) {
-            Yii::log($menuItem['id'], 'info');
-            //if(empty($menuItem[children])) {
-                //echo $menuItem['id']; exit;
-                
-                if(in_array($menuItem['id'], $products)) {
-              //      Yii::log("оповещение о событии произведено!",'info');
-                    //echo '6666'; exit;
-                    //Yii::log("оповещение о событии произведено!",'info');
-                    $menuItem[children][] = array(
-                        'id' => 'addMenuItem',
-                        'text' => 'Node 1',
-                        'expanded' => false,
-                    );
-                }
-            //} else {
-                if(is_array($menuItem[children])) {
-                    $this->addTest2($menuItem[children], $products);
-                }
-           // }
+           }
         }
     }
     
     public function actionIndex()
     {
-        $mapModel = MapItems::model()->findAll();
-        $products = MapItems::getProductList();
-        $menuTreeArray = MapItems::getMenuTree2($products);
+        $siteMapFile = Yii::app()->getBaseUrl(true) . '/sitemap.html';
+        $siteMapHtml = file_get_contents($siteMapFile);
+        $sitemapDate = filemtime('sitemap.html');
         
-
-        //var_dump($products); exit();
-        //$this->addCreateItemButtonInTree($menuTreeArray);
-        //$this->addTest($menuTreeArray, $products);
-        //$this->addTest2($menuTreeArray, $products);
-        //$this->addCreateItemButtonInTree2($menuTreeArray);
-        //exit;
         $this->render('index', array(
-            'menuModel' => $mapModel,
-            'menuTreeArray' => $menuTreeArray,
-            'products' => $products,
+            'siteMapHtml' => $siteMapHtml,
+            'sitemapDate' => $sitemapDate,
         ));
     }
     
-    //Получение дерева меню
-    public function actionMenuTree()
+    public function actionUpdateSitemapHtml()
     {
-        $menuModel = MenuItems::model()->findAll();
-        //$roots - Все корни меню
-        $roots = MenuItems::model()->roots()->findAll();
-        $menuTreeArray = MenuItems::getMenuTree($roots);
-        $this->addCreateItemButtonInTree($menuTreeArray);
-        $this->renderPartial('menuTree', array(
-            'menuModel'=>$menuModel,
-            'menuTreeArray'=>$menuTreeArray,
-        ));
-    }
-    
-    //Создание нового меню
-    public function actionCreateMenu()
-    {
-        $menuModel = new MenuItems();
+        $leafArray = array();
+        $mapModel = MapItems::model()->findAll();
+        $menuTreeArray = MapItems::getMenuTree();
+
+        $this->findLeaf($menuTreeArray, $leafArray);
+        $items = MapItems::getBanners(array_unique($leafArray));
+        $this->addNodes($menuTreeArray, $items);
         
-        if(isset($_POST['MenuItems'])){
-            //Если пользователь нажал кнопку "Закрыть" перенаправить на 
-            //вид index (страница со списком всех существующих меню)
-            
-            $menuModel->attributes = $_POST['MenuItems'];
-            if( $menuModel->saveNode() ){
-                //Задать сообщение ползователь
-                Yii::app()->user->setFlash('saved','Меню успешно создано!');
-            }
-        }
+        $tree = $this->buildHtmlTree($menuTreeArray, 0);
+        file_put_contents('sitemap.html', $tree);
+        $sitemapDate = filemtime('sitemap.html');
         
-        $this->render('menuManage', array('menuModel'=>$menuModel));
+        $this->redirect(array('map/index'));
     }
     
-    //Редактирование меню. Принимает параметр ID меню
-    public function actionUpdateMenu($id)
-    {
-        $menuModel = MenuItems::model()->findByPk($id);
-        
-        if(isset($_POST['MenuItems'])){
-            //Если пользователь нажал кнопку "Закрыть" перенаправить на 
-            //вид index (страница со списком всех существующих меню)
-            
-            $menuModel->attributes = $_POST['MenuItems'];
-            if( $menuModel->saveNode() ){
-                //Задать сообщение ползователью
-                Yii::app()->user->setFlash('saved','Меню успешно создано!');
+    public function buildHtmlTree($cats, $level) {
+        if(is_array($cats)) {
+            $tree = '<ul style = "list-style-type: none;" class="level_' . $level . '">';
+            foreach($cats as $cat) {
+                $tree .= '<li style="margin-left: 30px;"><a style="text-decoration: none" href="' . $cat['path'] . '">' . $cat['name'] . '</a>';
+                $tree .= $this->buildHtmlTree($cat['children'], $cat['level']);
+                $tree .= '</li>';
             }
-        }
-        if( isset($_GET['ajax']) ){
-            $this->renderPartial('menuManage', array('menuModel'=>$menuModel), false, true);
-        }
-        else{
-            $this->render('menuManage', array('menuModel'=>$menuModel));
-        }
-    }
-    
-    /*
-     * УПРАВЛЕНИЕ ПУНКТАМИ МЕНЮ
-     */
-    public function actionCreateMenuItem( $rootId )
-    {
-        $menuModel = new MenuItems();
-        
-        if(isset($_POST['MenuItems'])){
-            //$root - родительский узел дерева
-            $root = MenuItems::model()->findByPk( $rootId );
-            $menuModel->attributes = $_POST['MenuItems'];
-            if( $menuModel->appendTo($root) ){
-                //Задать сообщение пользователью
-                Yii::app()->user->setFlash('saved','Меню успешно создано!');
-            }
-        }
-        if( isset($_GET['ajax']) ){
-            $this->renderPartial('menuManage', array('menuModel'=>$menuModel), false, true);
-        }
-        else{
-            $this->render('menuManage', array('menuModel'=>$menuModel));
-        }
-    }
-    
-    public function actionUpdateMenuItem( $id )
-    {
-        $menuModel = MenuItems::model()->findByPk( $id );
-        
-        if(isset($_POST['MenuItems'])){
-            $menuModel->attributes = $_POST['MenuItems'];
-            if( $menuModel->saveNode() ){
-                //Задать сообщение ползователь
-                Yii::app()->user->setFlash( 'saved', 'Меню успешно создано!' );
-            }
-        }
-        if( isset($_GET['ajax']) ){
-            $this->renderPartial( 'menuManage', array( 'menuModel'=>$menuModel ), false, true );
-        }
-        else{
-            $this->render('menuManage', array( 'menuModel'=>$menuModel ) );
-        }
-    }
-    
-    public function actionDeleteMenuItem( $id )
-    {
-        $menuModel = MenuItems::model()->findByPk( $id );
-        $patentNode = $menuModel->parent()->find();
-        if( $menuModel !== null ){
-            $menuModel->deleteNode();
-        }
-        /*if( isset($_GET['ajax']) ){
-            $this->renderPartial('menuManage', array('menuModel'=>$menuModel), false, true);
-        }*/
-        else{
-            $this->render('menuManage', array('menuModel'=>$patentNode));
-        }
-    }
-    
-    
-    
-    /*
-     * УПРАВЛЕНИЕ ГРУППАМИ МЕНЮ
-     */
-    public function actionGroups()
-    {
-        $dataProvider = new CActiveDataProvider('MenuGroups', array(
-            'pagination'=>false
-        ));
-        $this->render('groups', array('dataProvider'=>$dataProvider));
-    }
-    
-    
-    //Добавить новую группу меню
-    public function actionCreateGroup()
-    {
-        $model = new MenuGroups();
-        if( isset($_POST['MenuGroups']) ){
-            $model->attributes = $_POST['MenuGroups'];
-            if($model->save()){
-                $this->redirect('/administrator/menu/groups');
-            }
-        }
-        $this->render('groupManage', array('model'=>$model));
-    }
-    
-    //Редактировать группу меню
-    public function actionUpdateGroup( $id )
-    {
-        $model = MenuGroups::model()->findByPk( $id );
-        if( isset($_POST['MenuGroups']) ){
-            $model->attributes = $_POST['MenuGroups'];
-            if($model->save()){
-                $this->redirect('/administrator/menu/groups');
-            }
-        }
-        $this->render('groupManage', array('model'=>$model));
-    }
-    
-    //Удалить группу меню
-    public function actionDeleteGroup( $id )
-    {
-        MenuGroups::model()->deleteByPk( $id );
-        $this->redirect('/administrator/menu/index');
-    }
-    
-    /*
-     * СОРТИРОВКА ПУНКТОВ МЕНЮ
-     */
-    public function actionSortItemDown( $id )
-    {
-        $model = MenuItems::model()->findByPk( $id );
-        $nextSibilingNode = $model->next()->find();
-        if( $nextSibilingNode !== null){
-            $model->moveAfter($nextSibilingNode);
-        }
-    }
-    
-    public function actionSortItemUp( $id )
-    {
-        $model = MenuItems::model()->findByPk( $id );
-        $nextSibilingNode = $model->prev()->find();
-        if( $nextSibilingNode !== null){
-            $model->moveBefore($nextSibilingNode);
-        }
-    }
-    
-    /*
-     * УПРАВЛЕНИЕ ПУБЛИКАЦИЕЙ
-     */
-    public function actionChangePublishing( $id )
-    {
-        $model = MenuItems::model()->findByPk( $id );
-        if( $model !== null){
-            ($model->published == 1)?$model->published = 0:$model->published = 1;
-            $model->saveNode();
-        }
-    }
-    
-    /*
-     * КАРТА САЙТА XML
-     */
-    public function actionSitemap()
-    {
-        $sitemapDate = filemtime('sitemap.xml');
-        $this->render('sitemap', array('sitemapDate'=>$sitemapDate));
-    }
-    
-    public function actionSaveSitemap()
-    {
-        $sitemap = '<?xml version="1.0" encoding="UTF-8"?>
-                    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-                    >'
-        ;
-        $menuItems = Yii::app()->db->createCommand("SELECT path from menu_items where published='1'")->queryAll();
-        foreach($menuItems as $menuItem){
-            $sitemap .='<url><loc>http://www.lbr.ru' . $menuItem['path'] . '/</loc></url>';
-        }
-        $sitemap .= '</urlset>';
-        file_put_contents('sitemap.xml', $sitemap);
-        $this->redirect('/administrator/map/sitemap');
-    }
-    
-    
-    
-    public function actionTransfer(){
-        exit(); //!!!!!!!!!!!!!!!!!!!!!
-        $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
-        $connectionJlbrDb->active=true;
-        function lower($str){return mb_strtolower($str, "UTF-8");}
-        Yii::app()->db->getPdoInstance()->sqliteCreateFunction('lower', 'lower', 1);
-        $xml=simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/catalog.xml');
-        /*
-         * /index/tehnika/
-         */
-        $catalogRootId = 91;
-        /*
-         * /index/selskohozyaystvennaya/type/
-         */
-        $shCatologRootId = 58;
-        $_POST['itemNum']=0;
-        function builtCatalogMenu($xml, $partOfPath, $connectionJlbrDb, $roots){
-            static $level = 0;
-            static $menuGroupModel;
-            foreach($xml->li as $menuLevel){
-                $path = trim($menuLevel->a['href'],'/');
-                $link = trim(str_replace($partOfPath, "", $menuLevel->a['href']),'/');
-                if($level==2){
-                    $menuItemType = MenuItems::PRODUCT_MENU_ITEM_TYPE;
-                    preg_match('/\d*[^-]/', $link, $productIdArray);
-                    $productId=$productIdArray[0];
-                    $productRecordFromJlbr = $connectionJlbrDb->createCommand('SELECT seo_description, seo_title FROM jlbr_xbaner where id='.$productId)->queryRow();
-                    $menu_item_meta_title = $productRecordFromJlbr[seo_title];
-                    $menu_item_meta_description = $productRecordFromJlbr[seo_description];
-                    $menu_item_header = $menuLevel->a;
-                    $menu_item_seo_text = "";
-                } else {
-                    $menuItemType = MenuItems::BANNERS_MENU_ITEM_TYPE;
-                    $menuRecordFromJlbr = $connectionJlbrDb->createCommand("SELECT params FROM jlbr_menu where path='".$path."'")->queryRow();
-                    $menuRecordFromJlbr = json_decode($menuRecordFromJlbr[params]);
-                    $menu_item_meta_title = $menuRecordFromJlbr->page_title;
-                    $menu_item_meta_description = $menuRecordFromJlbr->{'menu-meta_description'};
-                    $menu_item_header = $menuRecordFromJlbr->page_heading;
-                    $menu_item_category_record = $connectionJlbrDb->createCommand("SELECT description FROM jlbr_categories where path='".str_replace('tehnika/',"",$path)."'")->queryRow();
-                    $menu_item_seo_text = $menu_item_category_record[description];
-                }
-                if($level == 0){
-                    $menuGroupModel = MenuGroups::model()->find('lower(name)=lower(:name)', array(
-                        ':name'=>$menuLevel->a
-                    ));
-                    echo($menuLevel->a." ($link) ($path)<br>");
-                    var_dump($_POST['itemNum']);
-                }
-                //var_dump($roots);
-                $newRoots = array();
-                foreach($roots as $rootId){
-                    $rootModel = MenuItems::model()->findByPk( $rootId );
-                    $menuModel = new MenuItems();
-                    $menuModel->name = $menuLevel->a;
-                    $menuModel->alias = $link;
-                    $menuModel->meta_title = $menu_item_meta_title;
-                    $menuModel->meta_description = $menu_item_meta_description;
-                    $menuModel->header = $menu_item_header;
-                    $menuModel->group_id = $menuGroupModel->id;
-                    $menuModel->seo_text = $menu_item_seo_text;
-                    $menuModel->published = '1';
-                    $menuModel->type = $menuItemType;
-                    $menuModel->appendTo($rootModel);
-                    $newRoots[]=$menuModel->id;
-                }
-                
-//                echo(str_repeat(' - ', $level+1).$menuLevel->a." ($link) ($path)<br>");
-//                echo str_repeat(' - ', $level+1)."title:  $menu_item_meta_title <br>";
-//                echo str_repeat(' - ', $level+1)."description:  $menu_item_meta_description<br>";
-//                echo str_repeat(' - ', $level+1)."header:  $menu_item_header<br>";
-//                echo str_repeat(' - ', $level+1)."group:  $menuGroupModel->name<br>";
-//                echo str_repeat(' - ', $level+1)."menu_item_seo_text:  $menu_item_seo_text<br>";
-//                echo "-----------------------------------------------------<br>";
-                $_POST['itemNum']++;
-                if($menuLevel->ul->count()>0){
-                    $level++;
-                    builtCatalogMenu($menuLevel->ul, (string) $menuLevel->a['href'], $connectionJlbrDb, $newRoots);
-                    $level--;
-                }
-            }
+            $tree .= '</ul>';
+        } else {
+            return null;
         }
         
-        builtCatalogMenu($xml, '/tehnika', $connectionJlbrDb, array(
-                'catalogRootId' => $catalogRootId,
-                'shCatologRootId' => $shCatologRootId
-            )
-        );
-        
-        echo($_POST['itemNum']);
-        echo('done');
-        exit();
-    }
-    
-    public function actionChangeGroups(){
-        $models = MenuItems::model()->findAll('level=4');
-        foreach($models as $model){
-            $childrens = $model->children()->findAll();
-            foreach($childrens as $children){
-                $children->group_id=$model->group_id;
-                $children->saveNode();
-            }
-        }
-        echo('done');  //!!!!!!!!!!
-    }
-    
-    public function actionSetPath(){
-        exit();  // !!!!!!!!!!!!
-        $models = MenuItems::model()->findAll();
-        foreach($models as $model) {
-            if($model->saveNode()) {
-                echo($model->path.'<br>');
-            }
-        }
+        return $tree;
     }
 }

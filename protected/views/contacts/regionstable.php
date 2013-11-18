@@ -318,11 +318,11 @@
                 echo CHtml::openTag('li', array('class'=>'district_name'));
                     echo $districtName;
                 echo CHtml::closeTag('li');
-                $regionsD = Yii::app()->db->createCommand("SELECT *,r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
-                foreach($regionsD as $region){
+                $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
+                foreach($regionsD as $region) {
                     echo CHtml::openTag('li');
                         $linkUrl = 'http://www.'.$region['alias'].'.lbr.ru'.$_POST['requesrUri'];
-                        echo CHtml::link($region['regionname'], $linkUrl, array('title'=>$region['regionname']));
+                        echo CHtml::link($region['regionname'], $linkUrl, array('title'=>$region['regionname'], 'id' => $region['regionid']));
                     echo CHtml::closeTag('li');
                 }
             if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
