@@ -94,10 +94,10 @@ if ($model->isNewRecord){
         return $status;
     }
     $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $model );
-    $roots = MenuItems::model()->roots()->findAll();
+//    $roots = MenuItems::model()->roots()->findAll();
     $this->widget('CTreeView', array(
         'data' => MenuItems::getMenuTreeWithCheckbox(
-                $roots, 
+//                $roots, 
                 'MenuItemConteintigThisPage', 
                 $menuItemConteintigStatusClosure,
                 array(MenuItems::STATIC_MENU_ITEM_TYPE)

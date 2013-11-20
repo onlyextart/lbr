@@ -99,7 +99,7 @@ class NewsController extends Controller
         
         
         public function actionTransfer(){
-            exit();
+//            exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
             function lower($str){return mb_strtolower($str, "UTF-8");}
@@ -115,14 +115,16 @@ class NewsController extends Controller
                     var_dump($jlbrNews[id]);
                     var_dump(count($filialsJlbr));
                     echo('-------------<br>');
-                    $newsModel = new News();
+                    $newsModel = new News;
                     $newsModel->id = $jlbrNews[id];
                     $newsModel->header = $jlbrNews[title];
                     $newsModel->alias = $jlbrNews[alias];
                     $newsModel->date = $jlbrNews[created];
                     $newsModel->published = '1';
                     if(!$newsModel->save()){
-                        echo 'Error! Not save new news!';
+                        var_dump($newsModel->getErrors());
+                        echo 'Error! Not save new news! '.$jlbrNews[created];
+                        var_dump($newsModel);
                         exit();
                     }
                     $filialsJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_region where id IN(".$regionalNewsFromJlbr[id_region].") GROUP BY alias")->queryAll();

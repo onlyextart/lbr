@@ -162,6 +162,7 @@
     margin: 0;
     /*padding: 0;*/
     cursor: default;
+    position: relative;
 }
 
 .right .admin_additional_features_content ul li.collapsable{
@@ -174,7 +175,10 @@
 .right .admin_additional_features_content input.menuItemCheckBox
 {
     width: auto;
-    margin: 1px 5px 0px 0px;
-    min-height: auto;
     float: right;
+    position: absolute;
+    right: 25px;
+    top: 1px;
+    padding: 0px;
+    min-height: 10px;
 }

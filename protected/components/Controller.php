@@ -24,7 +24,7 @@ class Controller extends CController
         public function init() {
             parent::init();
 //            setcookie('region', '9', time()+60*60*24*30, '/', '.lbr');
-            $cook = $_COOKIE['region'];
+            $cook = $_COOKIE['contact'];
             $def = Yii::app()->params['defaultRegionId'];
             $host = Yii::app()->params['host']; 
             $region = $def;

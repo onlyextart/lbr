@@ -42,10 +42,10 @@ class News extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('header, created, published, content', 'safe'),
+			array('header, published', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, header, alias, created, published, content', 'safe', 'on'=>'search'),
+			array('id, header, alias, data, published', 'safe', 'on'=>'search'),
             array('date', 'date', 'format'=>'dd.MM.yyyy'),
 		);
 	}
