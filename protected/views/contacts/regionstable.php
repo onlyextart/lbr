@@ -275,8 +275,8 @@
         cursor: pointer;
     }
 </style>
-        
-
+ 
+<? $host = Yii::app()->params['host']; ?>
 <div class="region-select-list" style="display: block;">
 <div class="label-h4">Выберите ваш регион</div>
 <?foreach ($regionModel as $regions){?>  
@@ -285,7 +285,7 @@
 <div class="okrug"><?=$regions->district_id?></div>
 
 <li class="okrug">
-<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.lbr.ru/"><?=$regions->name?></a>
+<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.<?=$host?>/"><?=$regions->name?></a>
 </li>
 </ul>
 <ul class="subokrug">
@@ -293,7 +293,7 @@
 <div class="label-h5"><?=$regions->district_id?></div>
 <ul class="okrug">
 <li>
-<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.lbr.ru/"><?=$regions->name?></a>
+<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.<?=$host?>/"><?=$regions->name?></a>
 </ul>
 </li>
 </ul>
@@ -321,8 +321,8 @@
                 $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
                 foreach($regionsD as $region) {
                     echo CHtml::openTag('li');
-                        $linkUrl = 'http://www.'.$region['alias'].'.lbr.ru'.$_POST['requesrUri'];
-                        echo CHtml::link($region['regionname'], $linkUrl, array('title'=>$region['regionname'], 'id' => $region['regionid']));
+                        $linkUrl = 'http://www.'.$region['alias'].'.'.$host.$_POST['requesrUri'];
+                        echo CHtml::link($region['regionname'], $linkUrl, array('title'=>$region['regionname']));
                     echo CHtml::closeTag('li');
                 }
             if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
@@ -331,5 +331,3 @@
         }
     ?>
 </div>
-    
-

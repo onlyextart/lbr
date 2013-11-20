@@ -242,7 +242,6 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">';
     }
     
     
-    
     public function actionTransfer(){
         exit();
         $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');

@@ -2,8 +2,9 @@
     Yii::app()->clientScript->registerScriptFile('/js/site/AjaxMakersDescriptionLoader.js');
     Yii::app()->clientScript->registerScriptFile('/js/site/banners.js');
     
-    if(Yii::app()->params['currentMenuItem']->header && Yii::app()->params['currentMenuItem']->header!='')  
-      echo '<h1>'.Yii::app()->params['currentMenuItem']->header.'</h1>';
+    if(Yii::app()->params['currentMenuItem']->header && Yii::app()->params['currentMenuItem']->header!=''){
+        echo '<h1>'.Yii::app()->params['currentMenuItem']->header.'</h1>';
+    }
     
     switch (Yii::app()->params['currentMenuItem']->level)
     {
@@ -31,4 +32,3 @@
         'template'=>'{items}',
         'htmlOptions'=>array('class'=>'xbanners_container')
     ));
-?>

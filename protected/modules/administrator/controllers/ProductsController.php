@@ -225,7 +225,7 @@ class ProductsController extends Controller{
     }
     
     public function actionTransfer( ){
-        exit();
+//        exit();
         $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
         $connectionJlbrDb->active=true;
         function lower($str){return mb_strtolower($str, "UTF-8");}

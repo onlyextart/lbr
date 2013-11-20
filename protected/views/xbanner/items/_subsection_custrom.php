@@ -32,10 +32,11 @@ $makers = Makers::model()->findAll(array(
         'select'=>'name, logo, id',
         'condition'=>'id IN ('.implode(',', $array_maker_id).')',
     ));
+$k = count($data->bannerRegions)-1;
 ?>
 
 <div class="one_banner second_banner_custrom">
-    <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[0]->name; ?></a></h3>
+    <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[$k]->name; ?></a></h3>
     <? if (!empty($makers)){ ?>
         <div class="b_makers">     
             <? foreach ($makers as $maker){
@@ -66,7 +67,7 @@ $makers = Makers::model()->findAll(array(
         </div>
     </div>
     <div class="b_caption">
-        <div class="b_caption_desc"><? echo $data->bannerRegions[0]->description; ?></div>
+        <div class="b_caption_desc"><? echo $data->bannerRegions[$k]->description; ?></div>
         <? echo CHtml::link('Каталог', $link, array('class'=>'btn')); ?>
     </div>
 </div>

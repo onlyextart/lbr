@@ -22,10 +22,11 @@ $link_id = Yii::app()->db->createCommand()
                 )
     ->queryRow();
 $link = CategoryUrlRule::getUrl($link_id['id']);
+$k = count($data->bannerRegions)-1;
 ?>
 
 <div class="one_banner second_banner_dieci">
-    <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[0]->name; ?></a></h3></div>
+    <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[$k]->name; ?></a></h3></div>
     <div class="b_images">
         <div class="b_images_overflow">
             <div class="b_images_conteiner">
@@ -46,7 +47,7 @@ $link = CategoryUrlRule::getUrl($link_id['id']);
         </div>
     </div>
     <div class="b_caption">
-        <div class="b_caption_desc"><? echo $data->bannerRegions[0]->description; ?></div>
+        <div class="b_caption_desc"><? echo $data->bannerRegions[$k]->description; ?></div>
         <? echo CHtml::link('Каталог', $link, array('class'=>'btn')); ?>
     </div>
 </div>

@@ -35,7 +35,7 @@ class NewsController extends Controller
                                 
                             }
                          
-                            Yii::app()->user->setFlash('saved','Новость создана.');
+                            Yii::app()->user->setFlash('saved','пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.');
                             $this->redirect('/administrator/news/update/id/'.$newsModel->id);
                         }
                     }
@@ -75,7 +75,7 @@ class NewsController extends Controller
  *                                                      
  *                                                         
  *                             
- *                             Yii::app()->user->setFlash('saved','Баннер сохранен.');
+ *                             Yii::app()->user->setFlash('saved','пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.');
  *                             $this->redirect('http://lbr/administrator/news/update/id/'.$newsModel->id);
  *                         }
  *                     }
@@ -92,7 +92,7 @@ class NewsController extends Controller
         public function actionDelete( $id ){
             $model = News::model()->findByPk( $id );
             if($model!==null){
-                 //Удалить новость
+                 //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 $model->delete();
             }
         }
@@ -105,7 +105,7 @@ class NewsController extends Controller
             function lower($str){return mb_strtolower($str, "UTF-8");}
             Yii::app()->db->getPdoInstance()->sqliteCreateFunction('lower', 'lower', 1);
             $allRegionalNewsFromJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_news")->queryAll();
-            $rootModel = MenuItems::model()->findByPk(723);
+            $rootModel = MenuItems::model()->findByPk(1405);
             foreach ($allRegionalNewsFromJlbr as $regionalNewsFromJlbr){
                 $jlbrNews = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_content WHERE id='".$regionalNewsFromJlbr[id_news]."'")->queryRow();
                 if(is_array($jlbrNews) && !empty($jlbrNews)){
@@ -115,13 +115,16 @@ class NewsController extends Controller
                     var_dump($jlbrNews[id]);
                     var_dump(count($filialsJlbr));
                     echo('-------------<br>');
-                    $newsModel = new News;
+                    $newsModel = new News();
                     $newsModel->id = $jlbrNews[id];
                     $newsModel->header = $jlbrNews[title];
                     $newsModel->alias = $jlbrNews[alias];
                     $newsModel->date = $jlbrNews[created];
                     $newsModel->published = '1';
-                    $newsModel->save();
+                    if(!$newsModel->save()){
+                        echo 'Error! Not save new news!';
+                        exit();
+                    }
                     $filialsJlbr = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_region where id IN(".$regionalNewsFromJlbr[id_region].") GROUP BY alias")->queryAll();
                     if(count($filialsJlbr)==23){
                         $newsRegionModel = new NewsRegion;

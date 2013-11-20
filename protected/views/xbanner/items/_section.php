@@ -31,15 +31,16 @@ foreach ($data->makersInBanners as $maker_id)
 $makers = Makers::model()->findAll(array(
         'select'=>'name, logo, id',
         'condition'=>'id IN ('.implode(',', $array_maker_id).')',
-    ));       
-?>
+    ));
 
+$k = count($data->bannerRegions)-1;
+?>
 <div class="one_banner first_banner">
     <div class="b_header">
         <? if ($data->icon && $data->icon!='0'){
-            echo '<img src="'.$data->icon.'" alt="'.$data->bannerRegions[0]->name.'" title="'.$data->bannerRegions[0]->name.'">';
+            echo '<img src="'.$data->icon.'" alt="'.$data->bannerRegions[$k]->name.'" title="'.$data->bannerRegions[$k]->name.'">';
         }?>
-        <h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[0]->name; ?></a></h3>
+        <h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[$k]->name; ?></a></h3>
     </div>
     <div class="b_images">
         <div class="b_images_overflow">
@@ -70,7 +71,7 @@ $makers = Makers::model()->findAll(array(
                 } ?>
         </div>
     <? } ?>
-        <div class="b_caption_desc"><? echo $data->bannerRegions[0]->description; ?></div>
+        <div class="b_caption_desc"><? echo $data->bannerRegions[$k]->description; ?></div>
         <? echo CHtml::link('Каталог', $link, array('class'=>'btn')); ?>
     </div>
 </div>

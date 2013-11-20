@@ -109,19 +109,19 @@ class ContactsController extends Controller
     }
     public function actionContactMenuItems(){
         exit();
-        /*$contacts = Contacts::model()->findAll();
-        $rootModel = MenuItems::model()->findByPk( 699 );
-        foreach($contacts as $contact){
-            $menuModel = new MenuItems();
-            $menuModel->name = $contact->name;
-            $menuModel->alias = $contact->alias;
-            $menuModel->meta_title = $contact->name.' - Контакты филиала ЛБР-Агромаркет';
-            $menuModel->header = $contact->name;
-            $menuModel->group_id = 26;
-            $menuModel->published = '1';
-            $menuModel->type = MenuItems::CONTACT_MENU_ITEM_TYPE;
-            $menuModel->appendTo($rootModel);
-        }*/
+//        $contacts = Contacts::model()->findAll();
+//        $rootModel = MenuItems::model()->findByPk(1452);
+//        foreach($contacts as $contact){
+//            $menuModel = new MenuItems();
+//            $menuModel->name = $contact->name;
+//            $menuModel->alias = $contact->alias;
+//            $menuModel->meta_title = $contact->name.' - Контакты филиала ЛБР-Агромаркет';
+//            $menuModel->header = $contact->name;
+//            $menuModel->group_id = 26;
+//            $menuModel->published = '1';
+//            $menuModel->type = MenuItems::CONTACT_MENU_ITEM_TYPE;
+//            $menuModel->appendTo($rootModel);
+//        }
         $contactsMenuItems = MenuItems::model()->findAll('type=:type', array(':type'=>  MenuItems::CONTACT_MENU_ITEM_TYPE));
         
         foreach($contactsMenuItems as $contactsMenuItem){

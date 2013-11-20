@@ -304,7 +304,7 @@ class BannersController extends Controller
             }
         }
         
-        public function actionTransfer(  ){
+        public function actionTransfer(){
             exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
@@ -344,7 +344,10 @@ class BannersController extends Controller
                         
                         $jlbrBannerImages = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner_img where banid='".$jlbrBanner[id]."'")->queryAll(); 
                         if(count($jlbrBannerImages)>0){
-                            mkdir($_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$bannerModel->id.'/');
+                            $dir = $_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$bannerModel->id.'/';
+                            if(!is_dir($dir)){
+                                mkdir($dir);
+                            }
                             foreach ($jlbrBannerImages as $jlbrBannerImage){
                                 $bannerImage = new BannerImages;
                                 $bannerImage->path = '/images/banners/'.$bannerModel->id.'/'.$jlbrBannerImage[name];
@@ -426,7 +429,7 @@ class BannersController extends Controller
             echo('done');
         }
         public function actionTransferIndexBanners(){
-            exit();
+//            exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
             function lower($str){return mb_strtolower($str, "UTF-8");}
@@ -450,7 +453,10 @@ class BannersController extends Controller
                 
                 $jlbrBannerImages = $connectionJlbrDb->createCommand("SELECT * FROM jlbr_xbaner_img where banid='".$jlbrBanner[id]."'")->queryAll(); 
                 if(count($jlbrBannerImages)>0){
-                    mkdir($_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$bannerModel->id.'/');
+                    $dir = $_SERVER['DOCUMENT_ROOT'].'/images/banners/'.$bannerModel->id.'/';
+                    if(!is_dir($dir)){
+                        mkdir($dir);
+                    }
                     foreach ($jlbrBannerImages as $jlbrBannerImage){
                         $bannerImage = new BannerImages;
                         $bannerImage->path = '/images/banners/'.$bannerModel->id.'/'.$jlbrBannerImage[name];
