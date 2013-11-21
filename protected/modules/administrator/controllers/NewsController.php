@@ -21,7 +21,7 @@ class NewsController extends Controller
                     $newsModel->attributes = $_POST['News'];
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
-                        foreach( $_POST['NewsrRegion'] as $regionId => $newsRegionalData ){
+                        foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
                             $regionalNews[$regionId]->attributes = $newsRegionalData;
                             $newsRegionalDataIsValid = $regionalNews[$regionId]->validate() && $newsRegionalDataIsValid;
                             
@@ -34,7 +34,7 @@ class NewsController extends Controller
                                 $regionalNews[$regionId]->save();                                
                             }                                                        
                             
-                            Yii::app()->user->setFlash('saved','������� �������.');
+                            Yii::app()->user->setFlash('saved','Новость создана.');
                             $this->redirect('/administrator/news/update/id/'.$newsModel->id);
                         }
                     }
@@ -85,7 +85,7 @@ class NewsController extends Controller
                                 }
                             }
                             
-                            Yii::app()->user->setFlash('saved','������� ���������.');
+                            Yii::app()->user->setFlash('saved','Новость сохранена.');
                             $this->redirect('http://lbr/administrator/news/update/id/'.$newsModel->id);
                         }
                     }

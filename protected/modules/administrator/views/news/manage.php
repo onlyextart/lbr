@@ -37,9 +37,7 @@ $form = $this->beginWidget('CActiveForm');
 <?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
 </div>
 
-<?
-$this->endWidget();
-?>
+
 <div class="admin_additional_features">
         <label>Дополнительные параметры</label>
         
@@ -84,12 +82,16 @@ $this->endWidget();
         <div class="manage_buttons buttons">
             <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/news/', array('class'=>'btn del')); ?>
-            <?php //echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
-            <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('id'=>'but_save','class'=>'btn btn-green')); ?>
+            <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
+            
         </div>
         </div>
-    </div>    
+    </div>
+    <?
+$this->endWidget();
+?>   
 </div>
+ 
 <script>
     //RegionTabs
     function RegionalTabsManager(){

@@ -11,10 +11,6 @@ font-weight: bold;
 <?php
 
 $this->widget('zii.widgets.CListView', array(
-        'dataProvider'=>$dataProvider,
-
-));
-$this->widget('zii.widgets.CListView', array(
         'dataProvider'=>$data,
 
         'itemView'=>'items/_view', // представление для одной записи
