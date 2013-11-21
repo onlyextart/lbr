@@ -41,8 +41,11 @@
                 <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
             </a>
             <div class="region">
-                 <p style="font-size: 13px; font-weight: bold; margin: 0px;"> Ваш регион: <span class="contact-top-span">
-                 <a id="show_regions_table_button">Не выбран</a></span></p>                        
+                 <p style="font-size: 13px; font-weight: bold; margin: 0px;"> 
+                     Ваш регион: 
+                     <span class="contact-top-span"><a id="show_regions_table_button">Не выбран <span class="arrow"></span></a></span>
+                     
+                 </p>                        
         </div>
         </div>
         <div class="menu main">

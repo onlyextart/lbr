@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    var setFilialName = getCookie('filial');
+	if(setFilialName){
+	    if(setFilialName.length > 16){
+		    setFilialName = setFilialName.substr(0,13) + '...'; 
+		}
+		$('#show_regions_table_button').html(setFilialName + '<span class="arrow"></span>');
+	}
+	 
     $('body').append('<div id="choose_region"></div>');
     $('.bottom-text div *:nth-child(2)').show();
     $('.bottom-more').click(function(){
@@ -33,10 +41,11 @@ $(document).ready(function(){
         });
     });
 	
-	$('#choose_region').on('click', 'a', function(){
-		if(setCookie('region', $(this).attr('id'), '3', '/', '.' + window.location.hostname)) {
-		   return true;
-		} 		
+    $('#choose_region').on('click', 'a', function() {
+        //if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
+        if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr.ru') && setCookie('contact', $(this).attr('contact'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
+           return true;
+        } 		
     });
 	
     $(document).on('click', '.regions_table_cover', function(){
@@ -61,7 +70,15 @@ function setCookie(name, value, expires, path, domain, secure) {
 	if (secure) str += '; secure';
 	
 	document.cookie = str;
-	
 	return true;
+} 
+
+function getCookie(name) {
+	var pattern = "(?:; )?" + name + "=([^;]*);?";
+	var regexp = new RegExp(pattern);
+	if (regexp.test(document.cookie)){
+	    return decodeURIComponent(RegExp["$1"]);
+	}
+	return false;
 } 
 

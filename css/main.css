@@ -1860,3 +1860,13 @@ header .menu.main .menuMainTop:after {
 .sitemap a {
   color: #008873;
 }
+.arrow{
+    background-image: url('/images/arrow.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 8px;
+    position: absolute;
+    right: -15px;
+    top: 5px;
+    width: 12px;
+}
