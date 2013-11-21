@@ -42,8 +42,8 @@ $(document).ready(function(){
     });
 	
     $('#choose_region').on('click', 'a', function() {
-        if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
-        //if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
+        //if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
+        if(setCookie('region', $(this).attr('id'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
            return true;
         }
     });
@@ -52,7 +52,6 @@ $(document).ready(function(){
         $(this).remove();
         $('.regions_table_wrapper').remove();
     });
-
 })
 
 function setCookie(name, value, expires, path, domain, secure) {
