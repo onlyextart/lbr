@@ -394,7 +394,122 @@
             
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
-               
+         <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 28px; font-weight: bolder;">КУКУРУЗУ И СЕМЕЧКУ СУШИМ САМИ!</span></td>
+                                    
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr valign="top">                                
+                                    <td>                                      
+                                        <span style="font-weight: bolder; font-size: 20px; color: rgb(211,35,42);">РАСЧЕТ ЭКОНОМИЧЕСКОЙ ЦЕЛЕСООБРАЗНОСТИ:<br /></span>                                      
+                                        <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">При расчетах используются следующие данные:<br />
+                                        Сушка и хранение 1000 тонн зерна кукурузы, влажность после уборки 24%, избыточная влажность 10%, избыточная засоренность 5%, срок хранения 6 месяцев.</span>
+                                        <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                         <b style="font-size: 16px;">ЗАТРАТЫ СУШКИ И ХРАНЕНИЯ КУКУРУЗЫ НА ЭЛЕВАТОРЕ (ПО ЦЕНАМ В Г.КРАСНОДАР):</b><br />
+                                        1. Приемка с авто 1 т - 110 руб/т х 1000 т = 110 000 руб.<br />
+                                        2. Подработка 40 руб. т на 1% х 1000 т х 5% = 200 000 руб.<br />
+                                        3. Сушка 60 руб. 1% х1000 т х 10% = 600 000 руб. <br />
+                                       4. Хранение 90 руб. т/мес. х 1000 т х 6 мес. = 540 000 руб.<br />
+                                       5. Отгрузка автотранспорт 230 руб. /т х 1000 т = 230 000 руб.<br /><br />
+                                       <b style="font-size: 16px;">ИТОГО ЗАТРАТЫ: 1 680 000 РУБ. (СРОК ХРАНЕНИЯ 6 МЕС.)</b><br /><br />
+                                       <b style="font-size: 16px;">ЗАТРАТЫ ПРИ РАБОТЕ НА ОБОРУДОВАНИИ MECMAR:</b><br />
+                                       1. При условии работы сушилки на дизельном топливе с расходом 1 литр для сниж. влажности на 1% 32 руб. /литр х 1000 т х 10% = 320 000 руб.<br />
+                                       2. Затраты по электроэнергии составят 9,2 кВт/ч на 1 тонну зерна, при стоимости 6 руб. кВт/ч х 1000 т х 9,2 кВт/ч = 55 000 руб.<br /><br />
+                                       <b style="font-size: 16px;">ИТОГО ЗАТРАТЫ: 375 000 РУБ.</b></span>
+                                        <span style="font-weight: bolder; font-size: 17px; color: rgb(211,35,42);">ЭКОНОМИЯ НА СУШКЕ И ХРАНИЕНИИ У ВАС В ХОЗЯЙСТВЕ СОСТАВИТ ОКОЛО 1 300 000 РУБЛЕЙ!<br /></span> 
+                                        
+                                    </td>
+                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                                       
+                                </tr>
+                            </table>
+                        </td>
+                        
+                    </tr><tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                </table> 
+                
+            </td>
+        </tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">МОБИЛЬНЫЕ ЗЕРНОСУШИЛКИ MECMAR</span></td>
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/mecmar-logo.jpg" border="0" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/sush-1.jpg" width="638" height="330px" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                       
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr>
+                        <td> 
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
+                                <tr bgcolor="#d1d3d4">
+                                    <td align="center" width="35%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
+                                    <td align="center" width="13%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 9/87 F</span></td>    
+                                    <td align="center" width="13%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 13/119 Т</span></td>
+                                    <td align="center" width="13%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 20/153 Т</span></td>
+                                    <td align="center" width="13%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 25/210 Т2</span></td>
+                                    <td align="center" width="13%"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">MECMAR 34/255 Т</span></td>                                                     
+                                </tr>
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Емкость камеры сушки, т</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">9</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">13</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">20</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">25</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">34</span></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Производительность – с 20% до 15%,<br /> м<sup>3</sup>/сутки</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">125</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">167</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">218</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">284</span></td>
+                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">357</span></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Цена в комплектации:<br />Диз.горелка, ВОМ, сетка 2,5мм</span></td>
+                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 196 720 RUR</span></td>
+                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 196 720 RUR</span></td>
+                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 539 680 RUR</span></td>
+                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">3 198 180 RUR</span></td>
+                                    <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">4 001 680 RUR</span></td>
+                                </tr>
+                            </table> 
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                </table> 
+                 
+            </td>
+        </tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">

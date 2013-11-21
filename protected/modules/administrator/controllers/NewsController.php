@@ -2,7 +2,7 @@
 
 class NewsController extends Controller
 {
-    public function actionIndex()
+	public function actionIndex()
 	{
                 $dataProvider = new CActiveDataProvider('News');
                 $this->render('index', array('dataProvider'=>$dataProvider));
@@ -13,7 +13,7 @@ class NewsController extends Controller
 		$newsModel = new News();
 		$filialModels = Contacts::model()->findAll();
                 $regionalNews = array();
-                                
+                
                 foreach( $filialModels as $filial ){
                     $regionalNews[$filial->id] = new NewsRegion();
                 }
@@ -21,7 +21,7 @@ class NewsController extends Controller
                     $newsModel->attributes = $_POST['News'];
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
-                        foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
+                        foreach( $_POST['NewsrRegion'] as $regionId => $newsRegionalData ){
                             $regionalNews[$regionId]->attributes = $newsRegionalData;
                             $newsRegionalDataIsValid = $regionalNews[$regionId]->validate() && $newsRegionalDataIsValid;
                             
@@ -31,10 +31,9 @@ class NewsController extends Controller
                             foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
                                 $regionalNews[$regionId]->news_id = $newsModel->id;
                                 $regionalNews[$regionId]->filial_id = $regionId;
-                                $regionalNews[$regionId]->save();
-                                
-                            }
-                         
+                                $regionalNews[$regionId]->save();                                
+                            }                                                        
+                            
                             Yii::app()->user->setFlash('saved','������� �������.');
                             $this->redirect('/administrator/news/update/id/'.$newsModel->id);
                         }
@@ -43,7 +42,6 @@ class NewsController extends Controller
                 $this->render('manage', array(
                         'newsModel'=>$newsModel, 
                         'regionalNews'=>$regionalNews,
-                        
                     )
                 );
 	}
@@ -54,37 +52,47 @@ class NewsController extends Controller
 		$filialModels = Contacts::model()->findAll();
                 $regionalNews = array();
                 
-                /**
- * if( isset( $_POST['News'] ) ){
- *                     $newsModel->attributes = $_POST['News'];
- *                     $newsRegionalDataIsValid = true;
- *                     if( isset( $_POST['EventRegion'] ) ){
- *                         foreach( $_POST['EventRegion'] as $regionId => $newsRegionalData ){
- *                             $regionalNews[$regionId]->attributes = $newsRegionalData;
- *                             $newsRegionalDataIsValid = $regionalNews[$regionId]->validate() && $newsRegionalDataIsValid;
- *                             
- *                         }
- *                         if( $newsModel->validate() && $newsRegionalDataIsValid ){
- *                             $newsModel->save();
- *                             foreach( $_POST['EventRegion'] as $regionId => $newsRegionalData ){
- *                                 $regionalNews[$regionId]->news_id = $newsModel->id;
- *                                 $regionalNews[$regionId]->filial_id = $regionId;
- *                                 $regionalNews[$regionId]->save();
- *                                 
- *                             }
- *                                                      
- *                                                         
- *                             
- *                             Yii::app()->user->setFlash('saved','������ ��������.');
- *                             $this->redirect('http://lbr/administrator/news/update/id/'.$newsModel->id);
- *                         }
- *                     }
- *                 }
- */
+                //�������� ������ ������ news ��� ������� �������
+                foreach( $filialModels as $filial ){
+                    $regionalNews[$filial->id] = new NewsRegion();
+                }
+                //������ ������ ������� ������������ �������� news
+                foreach( $newsModel->newsRegions as $regionalEvent ){
+                    $regionalNews[$regionalEvent->filial_id] = $regionalEvent;
+                }
+                if( isset( $_POST['News'] ) ){
+                    $newsModel->attributes = $_POST['News'];
+                    $newsRegionalDataIsValid = true;
+                    if( isset( $_POST['NewsRegion'] ) ){
+                        foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
+                            $regionalNews[$regionId]->attributes = $newsRegionalData;
+                            $newsRegionalDataIsValid = $regionalNews[$regionId]->validate() && $newsRegionalDataIsValid;
+                        }
+                        if( $newsModel->validate() && $newsRegionalDataIsValid ){
+                            $newsModel->save();
+                            foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
+                                $regionalNews[$regionId]->news_id = $newsModel->id;
+                                $regionalNews[$regionId]->filial_id = $regionId;
+                                $regionalNews[$regionId]->save();
+                                
+                            }
+                            
+                            //�������� ������������ ������ ���� ������ �������� ������ �� �������
+                            foreach( $newsModel->newsRegions as $regionalEvent ){
+                                //���� ������������ ������ ��� ������
+                                if( $_POST['NewsRegion'][$regionalEvent->filial_id] ===  null ){
+                                    $regionalEvent->delete();
+                                }
+                            }
+                            
+                            Yii::app()->user->setFlash('saved','������� ���������.');
+                            $this->redirect('http://lbr/administrator/news/update/id/'.$newsModel->id);
+                        }
+                    }
+                }
                 $this->render('manage', array(
                         'newsModel'=>$newsModel, 
                         'regionalNews'=>$regionalNews,
-             
                     )
                 );
 	}
@@ -92,10 +100,10 @@ class NewsController extends Controller
         public function actionDelete( $id ){
             $model = News::model()->findByPk( $id );
             if($model!==null){
-                 //������� �������
+                //������� �������
                 $model->delete();
             }
-        }
+        }      
         
         
         public function actionTransfer(){

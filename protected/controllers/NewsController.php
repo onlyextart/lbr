@@ -16,7 +16,7 @@ class NewsController extends Controller
             );
             //var_dump($dataProvider->getData());
             
-            $this->render('index', array('dataProvider'=>$dataProvider));
+        $this->render('index', array('dataProvider'=>$dataProvider));
 
         $criteria = new CDbCriteria();
         $criteria->together = true;

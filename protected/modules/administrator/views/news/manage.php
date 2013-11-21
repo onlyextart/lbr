@@ -1,4 +1,20 @@
 <?php
+/*
+ * $newsModel - модель новости
+ * $regionalNews - массив региональных данных новости
+ */
+
+if( $newsModel->isNewRecord ){
+    $pageHeader = 'Создание нового баннера';
+}
+else{
+    $pageHeader = 'Редактирование баннера "'.$newsModel->newsRegions[0]->description.'"';
+}
+?>
+<h2>
+    <?php echo $pageHeader ?>
+</h2>
+<?php
 $form = $this->beginWidget('CActiveForm');
 ?>
 
@@ -21,10 +37,6 @@ $form = $this->beginWidget('CActiveForm');
 <?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
 </div>
 
-<div class="row">
-    <?php echo CHtml::SubmitButton($newsModel->isNewRecord?'Создать':'Сохранить'); ?>
-</div>
-
 <?
 $this->endWidget();
 ?>
@@ -40,16 +52,16 @@ $this->endWidget();
                                                     echo 'filled_region_form'; ?>" region_id="<?php echo $regionId ?>">
                 <div style="width:30%; float: left;">
                     <div class="row ">
-                        <?php echo $form->error( $regionalEvent , "[$regionId]name" ); ?>
-                        <?php echo $form->labelEx( $regionalEvent , "[$regionId]name" ); ?>
-                        <?php echo $form->textField( $regionalEvent , "[$regionId]name", array('style'=>'width:95%') ); ?>
+                        <?php echo $form->error( $regionalEvent , "[$regionId]description" ); ?>
+                        <?php echo $form->labelEx( $regionalEvent , "[$regionId]description" ); ?>
+                        <?php echo $form->textField( $regionalEvent , "[$regionId]description", array('style'=>'width:95%') ); ?>
                     </div>
                 </div>
                 
                 <div class="row">
-                    <?php echo $form->error( $regionalEvent , "[$regionId]description" ); ?>
-                    <?php echo $form->labelEx( $regionalEvent , "[$regionId]description" ); ?>
-                    <?php echo $form->textarea( $regionalEvent , "[$regionId]description", array('class'=>'with_tinymce') ); ?>
+                    <?php echo $form->error( $regionalEvent , "[$regionId]content" ); ?>
+                    <?php echo $form->labelEx( $regionalEvent , "[$regionId]content" ); ?>
+                    <?php echo $form->textarea( $regionalEvent , "[$regionId]content", array('class'=>'with_tinymce') ); ?>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -70,11 +82,13 @@ $this->endWidget();
             </ul>
         </div>
         <div class="manage_buttons buttons">
+            <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/news/', array('class'=>'btn del')); ?>
-            <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
+            <?php //echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
+            <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('id'=>'but_save','class'=>'btn btn-green')); ?>
         </div>
-    </div>
-    <?php $this->endWidget(); ?>
+        </div>
+    </div>    
 </div>
 <script>
     //RegionTabs
@@ -222,3 +236,57 @@ $this->endWidget();
         $(".menuTreeView li:odd",this).addClass("odd_menu_item");
     });
 </script>
+<style>
+    #dialog label, #dialog input { display:block; }
+    #dialog label { margin-top: 0.5em; }
+    #dialog input, #dialog textarea { width: 95%; }
+    #tabs { margin-top: 1em; }
+    #tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+    #add_tab { cursor: pointer; }
+    .all_regions_forms {display: none;}
+    .admin_main_features{float:left; width:40%;}
+    .admin_additional_features{float:left; width:60%;}
+    .regional_features_wrapper{float: left; width: 100%;}    
+    .ui-dialog{z-index: 900;}    
+    .makers_table input{
+        width:auto;
+        min-height: 0px;
+        box-shadow:none;
+    }
+    .makers_table td{
+        width:14%;
+    }
+    ul.menuTreeView{
+        padding-right: 10px;
+    }
+    ul.menuTreeView  .menuItemCheckBox{
+        width: auto;
+        height: auto;
+        margin: 2px 15px 0px 0px;
+        padding: 0px;
+        position: absolute;
+        right: 20px;
+        box-shadow:none;
+        min-height:0px;
+    }
+    ul.menuTreeView li.even_menu_item{
+        background-color: #F5F5F5;
+    }
+    ul.menuTreeView li.odd_menu_item{
+        background-color: #EEEEEE;
+    }
+    ul.menuTreeView li.even_menu_item:hover {
+        background-color: #E0E0E0;
+    }
+    ul.menuTreeView li.odd_menu_item:hover{
+        background-color: #E0E0E0;
+    }
+    .manage_buttons{
+        position: fixed;
+        top: 50px;
+        right: 30px;
+    }
+    div.manage_buttons input{
+        margin:0px;
+    }
+</style>

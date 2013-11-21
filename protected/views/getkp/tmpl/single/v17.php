@@ -192,7 +192,7 @@
                                 </table>
                                     </td>
                                     <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/euro-1.jpg" width="300" border="0" />
+                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/euro-2.jpg" width="300" border="0" />
                                     </td>
                                    
                                 </tr>

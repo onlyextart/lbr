@@ -100,7 +100,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-1.jpg" border="0" />
+                                <img src="http://www.git-lbr.ru/images/kp/euro-2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
