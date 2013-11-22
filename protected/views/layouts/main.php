@@ -94,7 +94,7 @@
                     <a href="/company/" title="О компании">О компании</a>
                 </li>
                 <li>
-                    <a href="/company/vacancy/" title="Вакансии">Вакансии</a>
+                    <a href="http://www.carrer.git-lbr.ru/" title="Вакансии">Вакансии</a>
                 </li>
                 <li>
                     <a href="/search/" title="Поиск по сайту">Поиск</a>

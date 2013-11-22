@@ -24,7 +24,7 @@ class Controller extends CController
         public function init() {
             parent::init();
 //            setcookie('region', '9', time()+60*60*24*30, '/', '.lbr');
-            $cook = $_COOKIE['contact'];
+            $cook = $_COOKIE['region'];
             $def = Yii::app()->params['defaultRegionId'];
             $host = Yii::app()->params['host']; 
             $region = $def;
@@ -39,7 +39,7 @@ class Controller extends CController
                     $region = $cook;
                 }
                 if($domain.'.'.$host != $_SERVER['HTTP_HOST']){
-//                    Yii::app()->request->redirect('http://www.'.$domain.'.'.$host);     
+                    Yii::app()->request->redirect('http://www.'.$domain.'.'.$host);     
                 }
             }
             Yii::app()->params['regionId'] = $region;
