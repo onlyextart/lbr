@@ -5,7 +5,7 @@ foreach ($data->bannerLinks as $link)
     array_push($menu_items_id, $link->menu_item_id);
 }
 $link_id = Yii::app()->db->createCommand()
-    ->select('id')
+    ->select('id, type, alias')
     ->from('menu_items')
         ->where(
                 array(
@@ -21,7 +21,11 @@ $link_id = Yii::app()->db->createCommand()
                     )
                 )
     ->queryRow();
-$link = CategoryUrlRule::getUrl($link_id['id']);
+if($link_id['type']==MenuItems::LINK_MENU_ITEM_TYPE){
+    $link = $link_id['alias'];
+}else{
+    $link = CategoryUrlRule::getUrl($link_id['id']);
+}
 
 $array_maker_id = array();
 foreach ($data->makersInBanners as $maker_id)
@@ -72,6 +76,6 @@ $k = count($data->bannerRegions)-1;
         </div>
     <? } ?>
         <div class="b_caption_desc"><? echo $data->bannerRegions[$k]->description; ?></div>
-        <? echo CHtml::link('Каталог', $link, array('class'=>'btn')); ?>
+        <? echo CHtml::link('Каталог', $link.'/', array('class'=>'btn')); ?>
     </div>
 </div>

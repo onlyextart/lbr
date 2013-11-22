@@ -266,7 +266,7 @@ tinymce.myOptions = {
                     'data' => MenuItems::getMenuTreeWithCheckbox(
                             'BannerLinkMenuItems', 
                             $bannerLinkClosure,
-                            array(MenuItems::BANNERS_MENU_ITEM_TYPE, MenuItems::PRODUCT_MENU_ITEM_TYPE)
+                            array(MenuItems::BANNERS_MENU_ITEM_TYPE, MenuItems::PRODUCT_MENU_ITEM_TYPE, MenuItems::STATIC_MENU_ITEM_TYPE, MenuItems::LINK_MENU_ITEM_TYPE)
                         ),
                     'animated'=>100, 
                     'htmlOptions'=>array(
