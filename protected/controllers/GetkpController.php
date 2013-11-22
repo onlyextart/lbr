@@ -3,7 +3,8 @@
 class GetkpController extends Controller
 {
     private $unique = array('v1', 'v2', 'v3', 'v4', 'v5', 'v6', 'v7', 'v8', 'v9', 'v10', 'v10-2', 'v11', 'v11-2', 'v12', 
-    'v12-2', 'v13', 'v14', 'v15', 'v16', 'v17', 'v18', 'v19', 'v20', 'v21', 'v22', 'v23', 'v24', 'v25', 'v26', 'v27', 'v28', 'v29', 'v30', 'v31', 'v32', 'v33', 'v34', 'v35', 'v36', 'v37', 'v38', 'v39');
+    'v12-2', 'v13', 'v14', 'v15', 'v16', 'v17', 'v18', 'v19', 'v20', 'v21', 'v22', 'v23', 'v24', 'v25', 'v26', 'v27', 
+    'v28', 'v29', 'v30', 'v31', 'v32', 'v33', 'v34', 'v35', 'v36', 'v37', 'v38', 'v39');
     
     public function actionIndex()
     {
@@ -49,12 +50,9 @@ class GetkpController extends Controller
             
             $filial = Contacts::model()->find('oneC_id="'.$data->filial.'"');
             $this->renderPartial('index', array('data'=>$data, 'filial'=>$filial, 'template'=>$temp, 'unique'=>$this->unique));
-        }else
-        {
+        } else {
             echo 'Kp not found';
         }
-        
-        
     }
     
     private function setTable()
@@ -95,5 +93,10 @@ class GetkpController extends Controller
     public function actionTest($v)
     {
         $this->renderPartial('tmpl/single/'.$v);
+    }
+    
+    public function actionPage($v)
+    {
+        $this->renderPartial('tmpl/page/'.$v);
     }
 }
