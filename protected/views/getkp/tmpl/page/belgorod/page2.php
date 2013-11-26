@@ -99,7 +99,7 @@
                             <div style="text-align:left; margin-bottom: 25px">
                                 <img src="http://lbr/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
                             </div>
-                            <div style="text-align:right">21.11.2013</div>
+                            <div style="text-align:right"><?php echo date("d.m.Y")?></div>
                         </div>
                     </li>
                     <li style="width: 207px; background-color: #efefef;"></li>
@@ -113,22 +113,20 @@
                                 Уважаемый Дормидонт Иванович Иванов !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
-                                Благодарим Вас за сотрудничество в 2013 годую Искренне верим, 
-                                что подводя предварительные итоги года, он былл плодотворным и успешным. 
-                                Мы также надеемся и в дальнейшем быть полезными для Вас в Вашем нелегком труде.
+                                Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
+                                сельхозтехники зарубежных и российских производителей.
                             </div>
                             <div style="margin-top: 31px; font-size: 12pt;" align="justify">
-                                Вручаем Вам наш новый каталог на 2014 год, который был дополнен последними 
-                                новинками производителей техники. Техника была подобрана с учетом условий эксплуатации 
-                                в различных регионах РФ.
+                                Благодаря удобной и развернутой подаче материала Вы сможете по достоинству
+                                оценить нашу Компанию и предлагаемые нами решения для АПК.
                             </div>
                             <div style="margin-top: 42px; font-size: 9pt">
                                 <div style="font-weight: 900; margin-bottom: 19px">Мы всегда рады Вам на площадке и в офисе нашего АгроМаркета</div>
                                 <i>
                                    Белгородская обл., Белгородский р-н<br/>
-                                   с. Беломестное, ул. Западная, д.11, 
+                                   с. Беломестное, ул. Западная, д.11<br/>
                                    (тер-рия АСК "Вираж"), <br/>
-                                   т.89155602233<br/>
+                                   т. 8 915 560 22 33<br/>
                                    belgorod@lbr.ru
                                 </i>
                             </div>
@@ -143,7 +141,7 @@
                                 <li> получить специальные сезонные предложения. </li>
                             </ul>
                         </div>
-                        <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
+                        <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
                                     <img src="http://lbr/images/kp/lbr-photo.jpg" width="110px" height="146px" alt="Logo" style="border: 0;"/>
@@ -165,29 +163,25 @@
                     <li style="width: 207px; vertical-align: middle; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">1.08.2014 - 30.09.2014</div>
+                            <div class="event-header">01.07.2013 - 31.08.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
                             </div> 
+                            <div class="event-header">01.08.2013 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                            </div>
                             <div class="event-header">09.2014</div>
                             <div class="event-content">
-                                День поля
+                                БелгородАгро - 2014
                             </div>
-                            <div class="event-header">11.2014</div>
+                            <div class="event-header">01.11.2014 - 30.04.2015</div>
                             <div class="event-content">
-                                Агропромышленный форум Сибири - 2014
-                            </div>
-                            <div class="event-header">1.02.2015 - 30.04.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
+                                Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div> 
-                            <div class="event-header">1.07.2015 - 30.09.2015</div>
+                            <div class="event-header">01.11.2014 - 30.04.2015</div>
                             <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
-                            </div> 
-                            <div class="event-header">1.05.2015 - 31.07.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
+                                Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
                         </div>
                     </li>

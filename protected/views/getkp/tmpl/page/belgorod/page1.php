@@ -99,7 +99,7 @@
                             <div style="text-align:left; margin-bottom: 25px">
                                 <img src="http://lbr/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
                             </div>
-                            <div style="text-align:right">21.11.2013</div>
+                            <div style="text-align:right"><?php echo date("d.m.Y")?></div>
                         </div>
                     </li>
                     <li style="width: 207px; background-color: #efefef;"></li>
@@ -126,9 +126,9 @@
                                 <div style="font-weight: 900; margin-bottom: 19px">Мы всегда рады Вам на площадке и в офисе нашего АгроМаркета</div>
                                 <i>
                                    Белгородская обл., Белгородский р-н<br/>
-                                   с. Беломестное, ул. Западная, д.11, 
+                                   с. Беломестное, ул. Западная, д.11<br/>
                                    (тер-рия АСК "Вираж"), <br/>
-                                   т.89155602233<br/>
+                                   т. 8 915 560 22 33<br/>
                                    belgorod@lbr.ru
                                 </i>
                             </div>
@@ -165,30 +165,26 @@
                     <li style="width: 207px; vertical-align: middle; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">1.08.2014 - 30.09.2014</div>
+                            <div class="event-header">01.07.2013 - 31.08.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
                             </div> 
+                            <div class="event-header">01.08.2013 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                            </div>
                             <div class="event-header">09.2014</div>
                             <div class="event-content">
-                                День поля
+                                БелгородАгро - 2014
                             </div>
-                            <div class="event-header">11.2014</div>
+                            <div class="event-header">01.11.2014 - 30.04.2015</div>
                             <div class="event-content">
-                                Агропромышленный форум Сибири - 2014
-                            </div>
-                            <div class="event-header">1.02.2015 - 30.04.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
+                                Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div> 
-                            <div class="event-header">1.07.2015 - 30.09.2015</div>
+                            <div class="event-header">01.11.2014 - 30.04.2015</div>
                             <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
+                                Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div> 
-                            <div class="event-header">1.05.2015 - 31.07.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
-                            </div>
                         </div>
                     </li>
                     <li style="width: 51px; vertical-align: bottom">

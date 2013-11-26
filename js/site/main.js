@@ -1,10 +1,7 @@
 $(document).ready(function(){
     var setFilialName = getCookie('filial');
 	if(setFilialName){
-	    if(setFilialName.length > 16){
-		    setFilialName = setFilialName.substr(0,13) + '...'; 
-		}
-		$('#show_regions_table_button').html(setFilialName + '<span class="arrow"></span>');
+	    $('#show_regions_table_button').html(setFilialName);
 	}
 	 
     $('body').append('<div id="choose_region"></div>');
@@ -22,6 +19,26 @@ $(document).ready(function(){
     })
     
     $('#show_regions_table_button').click(function(e){
+        e.preventDefault();
+        $.ajax({
+            url: '/contacts/getregionstable/',
+            type:'POST',
+            data:{requesrUri:window.location.pathname.toString()},
+            success:function(data) {
+                $('#choose_region').append("<div id='overlay' style='height: " + $(document).height() +"px;'/>").append($(data));
+                $('.region-select-list').remove();
+                $('#overlay').click(function() {
+                   $('#overlay').remove();
+                   $('.regions_table_wrapper').remove();
+                });
+            },
+            error:function(){
+                alert('Ошибка запроса к серверу.');
+            }
+        });
+    });
+    
+    $('#show_regions_table_button_arrow').click(function(e){
         e.preventDefault();
         $.ajax({
             url: '/contacts/getregionstable/',

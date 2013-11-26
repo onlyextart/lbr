@@ -7,6 +7,7 @@
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_1 a:after {
   background: #d3a809;
 }
+
 .menu_color_group_3 {
   background-color: #ed1d24;
   border-color: #ed1d24;
@@ -1870,3 +1871,4 @@ header .menu.main .menuMainTop:after {
     top: 5px;
     width: 12px;
 }
+

@@ -97,6 +97,9 @@ class GetkpController extends Controller
     
     public function actionPage($v)
     {
-        $this->renderPartial('tmpl/page/'.$v);
+        $inputUrl = Yii::app()->request->url;
+        $pos = strpos($inputUrl, 'v/') + 2;
+        $substr = substr($inputUrl, $pos);
+        $this->renderPartial('tmpl/page/' . $substr);
     }
 }

@@ -104,11 +104,11 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@lbr.ru',
-                'defaultRegionId'=>0,
-                'regionId'=>0,
-                'superGroup'=>1,
-                'host'=>'lbr',
+		'adminEmail' => 'webmaster@lbr.ru',
+                'defaultRegionId' => 0,
+                'regionId' => 0,
+                'superGroup' => 1,
+                'host'=>'git-lbr.ru', //'lbr',
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',

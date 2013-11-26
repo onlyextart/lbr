@@ -51,19 +51,19 @@
         border-radius: 5px;
         float: left;
         height: 21px;
-        /*margin: 0 0 3px;*/
         padding: 0 10px;
     }
     .regions_table_wrapper li:hover a{
         color: #fff;
         background-color: #00A68D;
+        padding-right: 0;
     }
     .regions_table_wrapper h4{
         border-radius: 5px 5px 0 0;
         font-size: 18px;
         font-weight: bold;
         margin: 0;
-        padding: 5px 0 5px 10px;
+        padding: 5px 0 15px 10px;
     }
     .regions_table_wrapper .district_name{
         font-size: 14px;
@@ -73,8 +73,7 @@
     }
 
     .region{
-            float:right;
-            /* margin-top: -3px;*/
+        float:right;
     }
     
     .region p{
