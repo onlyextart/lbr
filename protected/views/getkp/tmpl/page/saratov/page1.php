@@ -145,7 +145,7 @@
                         <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://lbr/images/kp/lbr-photo.jpg" width="110px" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://lbr/images/kp/lbr-photo-saratov.jpg" width="110px" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
