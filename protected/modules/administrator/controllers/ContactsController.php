@@ -28,35 +28,45 @@ class ContactsController extends Controller
         $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
 
-  public function actionUpdate()
-    {
-        $contactModel = Contacts::model()->findByPk($_GET['id']);
-        if($contactModel === null){
-            $this->redirect('/administrator/contacts'); 
+  public function actionUpdate( $id ){
+        $contactModel = Contacts::model()->findByPk( $id );
+        
+        if( isset($_POST['Contacts']) ){
+            $contactModel->attributes = $_POST['Contacts'];
+            $contactIsValid = $contactModel->validate();
+            
+                
+            if( $contactIsValid ){
+                $contactModel->save();
+                
+                if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
+                    $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
+                        'page_id='.$contactModel->id.
+                        ' AND item.type='.MenuItems::CONTACT_MENU_ITEM_TYPE
+                    );
+                    $menuItmemsContentModelsForDeleting = $menuItmemsContentModels;
+                    $menuItmemsContentNum = 0;
+                    foreach( $_POST['MenuItemConteintigThisContact'] as $menuItemId=>$value ){
+                        if($value!='0'){
+                            if(!isset($menuItmemsContentModels[$menuItmemsContentNum]))
+                                $menuItmemsContentModels[$menuItmemsContentNum] = new MenuItemsContent();
+                            $menuItmemsContentModels[$menuItmemsContentNum]->item_id = $menuItemId;
+                            $menuItmemsContentModels[$menuItmemsContentNum]->page_id = $contactModel->id;
+                            $menuItmemsContentModels[$menuItmemsContentNum]->save();
+                            unset( $menuItmemsContentModelsForDeleting[$menuItmemsContentNum] );
+                            $menuItmemsContentNum++;
+                        }
+                    }
+                    foreach( $menuItmemsContentModelsForDeleting as $deleteMenuItmemsContent ){
+                        $deleteMenuItmemsContent->delete();
+                    }
+                }
+            }
+            Yii::app()->user->setFlash('saved','Страница контакта успешно сохранена.');
+            $this->redirect('/administrator/contacts/update/id/'.$contactModel->id);
         }
-        if (isset($_POST['Contacts'])){
-           $contactModel->attributes = $_POST['Contacts'];
-           $contactModel->save();
-           $menuItemsContainingThisContact = MenuItemsContent::model()->with('item')->findAll(
-                'page_id='.$contactModel->id.' 
-                AND item.type='.MenuItems::CONTACT_MENU_ITEM_TYPE
-            );
-           foreach($menuItemsContainingThisContact as $menuItemContent){
-               $menuItemContent->delete();
-           }
-           if(isset($_POST['MenuItemConteintigThisContact'])){
-               foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
-                   if($menuItem!='1')
-                        continue;
-                   $menuItemContant = new MenuItemsContent;
-                   $menuItemContant->item_id = $menuItemId;
-                   $menuItemContant->page_id = $contactModel->id;
-                   $menuItemContant->save();
-               }
-           }
-           $this->redirect('/administrator/contacts'); 
-        }
-        $this->render('manage', array('contactModel' => $contactModel));
+        
+        $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
     
     public function actionDelete( $id ){

@@ -341,19 +341,15 @@
                             </span>
                         </div>
                         <div class="filial">
-                            <span>Ждем Вас в филиале ЛБР-АгроМаркет (<b>Барнаул</b>)!</span>
-                            <span>Время работы: 8.00-17.00</span>
-                            <span>Адрес филиала: 656067 Барнаул, ул. Попова, 216</span>
-                            <span>Телефоны: +7 (3852) 60-17-33, +7(3852)29-9870, 29-9871, 29-9872, 29-9873</span>
+                            <span>Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span>
+                            <span><? echo $filial['work_time']; ?></span>
+                            <span><? echo $filial['address']; ?></span>
+                            <span><? echo $filial['telephone']; ?></span>
                         </div>
                         <div class="user">
                             <span>Ваш персональный менеджер:</span>
-                            <span>Есин Роман
-                                <br>Тел.: 8(495) 980-97-64
-                                <br>Моб.: 8(985) 771-84-59
-                                <br>E-mail: esin@lbr.ru
-                                <br>Skype: lbr-esin
-                                <br>www.lbr.ru
+                            <span>
+                                <? echo $data['user_info']; ?>
                             </span>
                         </div>
                     </div>

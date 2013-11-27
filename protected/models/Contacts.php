@@ -55,11 +55,10 @@ class Contacts extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('published', 'numerical', 'integerOnly'=>true),
-			array('email, message_email', 'email'),
 			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, soneC_id', 'safe', 'on'=>'search'),
+			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -165,6 +164,14 @@ class Contacts extends CActiveRecord
                     }
                 }
                 return false;
+        }
+        public function scopes()
+        {
+            return array(
+                'published'=>array(
+                    'condition'=>'published=1',
+                ),
+            );
         }
         
 }
