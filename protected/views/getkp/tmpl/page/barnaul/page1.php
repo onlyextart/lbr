@@ -169,7 +169,7 @@
                             <div class="event-content">
                                 День поля
                             </div> 
-                            <div class="event-header">1.08.2013 - 30.09.2014</div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/>
                                 <span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/>
@@ -183,7 +183,7 @@
                             <div class="event-content">
                                 АгроСибирь-2014
                             </div> 
-                            <div class="event-header">1.02.2014 - 30.04.2015</div>
+                            <div class="event-header">1.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div> 
@@ -191,11 +191,11 @@
                             <div class="event-content">
                                 Расширенная экспозиция по технике для воз возделываения овощей (уборка)
                             </div>
-                            <div class="event-header">1.02.2015 - 30.04.2015</div>
+                            <div class="event-header">1.02.2016 - 30.04.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">1.05.2015 - 31.07.2015</div>
+                            <div class="event-header">01.05.2016 - 31.07.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>

@@ -173,7 +173,7 @@
                             <div class="event-content">
                                 Поволжская агропромышленная неделя
                             </div>
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологиям заготовки кормов
                             </div>

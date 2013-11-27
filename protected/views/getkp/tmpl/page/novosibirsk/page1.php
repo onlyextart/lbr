@@ -165,7 +165,7 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">07.2013 - 08.2014</div>
+                            <div class="event-header">07.2014 - 08.2014</div>
                             <div class="event-content">
                                 День поля
                             </div> 
@@ -177,7 +177,7 @@
                             <div class="event-content">
                                 АгроСиб. Сибирский фермер - 2014
                             </div>
-                            <div class="event-header">01.05.2014 - 31.07.2014</div>
+                            <div class="event-header">01.05.2015 - 31.07.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div> 

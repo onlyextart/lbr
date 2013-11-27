@@ -144,7 +144,7 @@
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-lipetsk.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -163,7 +163,7 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">13.03.2013 - 15.03.2014</div>
+                            <div class="event-header">13.03.2014 - 15.03.2014</div>
                             <div class="event-content">
                                 Агросезон - 2014
                             </div> 

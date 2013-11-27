@@ -145,11 +145,11 @@
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-orenburg.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Оренбуржского АгроМаркета ЛБР</div>
+                                        <div style="">C уважением, <br/> директор Оренбургского АгроМаркета ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
@@ -166,13 +166,13 @@
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
                             <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
                             </div> 
-                            <div class="event-header">01.02.2013 - 31.03.2014</div>
+                            <div class="event-header">01.02.2015 - 31.03.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>
@@ -187,7 +187,7 @@
                 <!--footer-->
                 <ul class="main-content-row">
                     <li style="width: 588px">
-                        <div class="content" style="margin-bottom: 46px">
+                        <div class="content" style="margin-bottom: 60px">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="width:82%">
                                     <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>

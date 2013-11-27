@@ -177,11 +177,11 @@
                             <div class="event-content">
                                 АгроТек Россия-2014 (в рамках выставки "Золотая осень-2014")
                             </div>
-                            <div class="event-header">07.11.2014 - 10.11.2014</div>
+                            <div class="event-header">07.10.2014 - 10.10.2014</div>
                             <div class="event-content">
                                 Агросалон - 2014
                             </div> 
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>

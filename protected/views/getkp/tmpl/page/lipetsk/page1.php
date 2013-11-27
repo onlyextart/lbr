@@ -147,7 +147,7 @@
                         <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-lipetsk.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -170,19 +170,19 @@
                             <div class="event-content">
                                 Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
                             </div> 
-                            <div class="event-header">01.08.2013 - 30.09.2014</div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
                             </div>
-                            <div class="event-header">01.02.2014 - 30.04.2014</div>
+                            <div class="event-header">01.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div>
-                            <div class="event-header">01.07.2014 - 31.09.2014</div>
+                            <div class="event-header">01.07.2015 - 31.09.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (уборка)
                             </div> 
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2016 - 30.06.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>

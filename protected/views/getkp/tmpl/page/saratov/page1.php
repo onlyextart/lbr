@@ -173,15 +173,15 @@
                             <div class="event-content">
                                 Саратов-Агро. День поля.
                             </div>
-                            <div class="event-header">01.02.2014 - 30.04.2014</div>
+                            <div class="event-header">01.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div>
-                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-header">01.07.2015 - 30.09.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (уборка)
                             </div> 
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div> 

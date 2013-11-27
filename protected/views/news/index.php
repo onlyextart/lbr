@@ -1,12 +1,11 @@
 <style>
     .list-view div a {
-color: #008873;
-text-decoration: underline;
-font-weight: bold;
-}
+        color: #008873;
+        text-decoration: underline;
+        font-weight: bold;
+    }
 </style>
 <h1> Новости ЛБР-АГРОМАРКЕТ </h1>
-
 
 <?php
 
@@ -21,7 +20,6 @@ $this->widget('zii.widgets.CListView', array(
         'pager'=>array(
             'class'=>'CLinkPager',
             'header'=>false,
-
         ),
     )); 
 ?>

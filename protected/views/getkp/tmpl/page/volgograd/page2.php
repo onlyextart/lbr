@@ -126,7 +126,7 @@
                                 <i>
                                    400075, г. Волгоград, <br/>
                                    ул. Историческая, д. 187 "Б"<br/>
-                                   т. 8442 26-22-84б 26-22-83, 26-22-81, +79272504409<br/>
+                                   т. 8 927 250 44 09<br/>
                                    volgograd@lbr.ru
                                 </i>
                             </div>
@@ -148,7 +148,7 @@
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Белгородского АгроМаркета ЛБР</div>
+                                        <div style="">C уважением, <br/> директор Волгоградского АгроМаркета ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
@@ -167,7 +167,7 @@
                             <div class="event-content">
                                 Агропромышленный комплекс - 2014
                             </div> 
-                            <div class="event-header">01.07.2013 - 31.08.2014</div>
+                            <div class="event-header">01.07.2014 - 31.08.2014</div>
                             <div class="event-content">
                                 Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
                             </div>
@@ -179,24 +179,24 @@
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
                             </div>
-                            <div class="event-header">01.02.2014 - 30.04.2014</div>
+                            <div class="event-header">01.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div> 
-                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-header">01.07.2015 - 30.09.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (уборка)
                             </div>
                             
-                            <div class="event-header">01.11.2014 - 28.02.2015</div>
+                            <div class="event-header">01.11.2015 - 28.02.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.11.2014 - 30.04.2015</div>
+                            <div class="event-header">01.11.2015 - 30.04.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по пропашным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.04.2015 - 30.06.2015</div>
+                            <div class="event-header">01.04.2016 - 30.06.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>

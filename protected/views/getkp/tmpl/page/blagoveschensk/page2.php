@@ -171,7 +171,7 @@
                             <div class="event-content">
                                  Все для зяблевой обработки почвы <br><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span></br> на площадке Агромаркета
                             </div>
-                            <div class="event-header">01.05.2014 - 31.07.2014</div>
+                            <div class="event-header">01.05.2015 - 31.07.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div> 

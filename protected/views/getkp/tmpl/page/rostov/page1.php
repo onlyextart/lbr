@@ -126,7 +126,8 @@
                             <div style="margin-top: 42px; font-size: 9pt">
                                 <div style="font-weight: 900; margin-bottom: 19px">Мы всегда рады Вам на площадке и в офисе нашего АгроМаркета</div>
                                 <i>
-                                   г. Батайск, ул. Промышленная, д. 27 "Б"<br/>
+                                   г. Батайск, <br/>
+                                   ул. Промышленная, д. 27 "Б"<br/>
                                    т. 8 863 298 98 65<br/>
                                    rostov@lbr.ru
                                 </i>
@@ -168,7 +169,7 @@
                             <div class="event-content">
                                 Интерагромаш - 2014
                             </div> 
-                            <div class="event-header">01.07.2013 - 31.08.2014</div>
+                            <div class="event-header">01.07.2014 - 31.08.2014</div>
                             <div class="event-content">
                                 Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
                             </div>
