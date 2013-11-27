@@ -111,7 +111,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый Дормидонт Иванович Иванов !
+                                Уважаемый <?php echo $clientName ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Благодарим Вас за сотрудничество в 2013 годую Искренне верим, 
@@ -166,23 +166,23 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">1.18.2014 - 30.09.2014</div>
+                            <div class="event-header">01.18.2014 - 30.09.2014</div>
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
                             </div> 
-                            <div class="event-header">2.09.2014 - 4.09.2014</div>
+                            <div class="event-header">02.09.2014 - 04.09.2014</div>
                             <div class="event-content">
                                 Агропромышленный форум - 2014
                             </div>
-                            <div class="event-header">1.02.2015 - 30.04.2015</div>
+                            <div class="event-header">01.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div>
-                            <div class="event-header">1.07.2015 - 31.09.2015</div>
+                            <div class="event-header">01.07.2015 - 31.09.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (уборка)
                             </div> 
-                            <div class="event-header">1.04.2015 - 30.06.2015</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>
@@ -200,13 +200,12 @@
                         <div class="content" style="margin-bottom: 46px">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="width:82%">
-                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер Чуркин Алексей</div>
+                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
-                                        79103225418<br/>
-                                        79103225418<br/>
-                                        сhurkin@lbr.ru
+                                        <?php echo $managerPhones ?></br>
+                                        <?php echo $managerEmail ?>
                                     </div>
                                 </li>
                             </ul>

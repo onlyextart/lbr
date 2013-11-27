@@ -48,7 +48,7 @@
                             <li style="display: table-cell">Ваш регион:
                             </li>
                             <li style="display: table-cell; padding: 0; margin: 0">
-                                <div style="margin-left: 5px; width: 100px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;-o-text-overflow: ellipsis;">
+                                <div id="show_regions_table_button_wrapper">
                                     <a id="show_regions_table_button">
                                         Тестовая строка, которая не переносится и поэтому может быть обрезана родителем.
                                     </a>

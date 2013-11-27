@@ -111,7 +111,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый Дормидонт Иванович Иванов !
+                                Уважаемый <?php echo $clientName ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Благодарим Вас за сотрудничество в 2013 годую Искренне верим, 
@@ -169,7 +169,7 @@
                             <div class="event-content">
                                 День поля
                             </div> 
-                            <div class="event-header">1.08.2014 - 30.09.2014</div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
                             </div>
@@ -177,7 +177,7 @@
                             <div class="event-content">
                                 АгроСиб. Сибирский фермер - 2014
                             </div>
-                            <div class="event-header">1.05.2014 - 31.07.2014</div>
+                            <div class="event-header">01.05.2014 - 31.07.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div> 
@@ -196,13 +196,12 @@
                         <div class="content" style="margin-bottom: 46px">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="width:82%">
-                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер Чуркин Алексей</div>
+                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
-                                        79103225418<br/>
-                                        79103225418<br/>
-                                        сhurkin@lbr.ru
+                                        <?php echo $managerPhones ?></br>
+                                        <?php echo $managerEmail ?>
                                     </div>
                                 </li>
                             </ul>

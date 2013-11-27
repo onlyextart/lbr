@@ -111,7 +111,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый Дормидонт Иванович Иванов !
+                                Уважаемый <?php echo $clientName ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Благодарим Вас за сотрудничество в 2013 годую Искренне верим, 

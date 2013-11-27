@@ -162,7 +162,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li style="width: 207px; vertical-align: middle; background-color: #efefef;">
+                    <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
                             <div class="event-header">07.2014</div>
