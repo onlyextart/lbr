@@ -38,10 +38,9 @@ class MapController extends Controller
     
     public function actionIndex()
     {
-        $siteMapFile = Yii::app()->getBaseUrl(true) . '/sitemap.html';
+        $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
         $siteMapHtml = file_get_contents($siteMapFile);
-        $sitemapDate = filemtime('sitemap.html');
-        
+        $sitemapDate = filemtime('images/file.html');
         $this->render('index', array(
             'siteMapHtml' => $siteMapHtml,
             'sitemapDate' => $sitemapDate,
@@ -59,17 +58,29 @@ class MapController extends Controller
         $this->addNodes($menuTreeArray, $items);
         
         $tree = $this->buildHtmlTree($menuTreeArray, 0);
-        file_put_contents('sitemap.html', $tree);
-        $sitemapDate = filemtime('sitemap.html');
+        file_put_contents('images/file.html', $tree);
+        $sitemapDate = filemtime('images/file.html');
         
         $this->redirect(array('map/index'));
     }
     
     public function buildHtmlTree($cats, $level) {
         if(is_array($cats)) {
-            $tree = '<ul style = "list-style-type: none;" class="level_' . $level . '">';
+            $listStyleType = 'disc';
+            if($level > 0){
+                $listStyleType = $level == 1 ? 'circle' : 'square';
+            }
+            
+            $tree = '<ul style = "list-style-type: ' . $listStyleType . ';" class="level_' . $level . '">';
             foreach($cats as $cat) {
-                $tree .= '<li style="margin-left: 30px;"><a style="text-decoration: none" href="' . $cat['path'] . '">' . $cat['name'] . '</a>';
+                $path = $cat['path'];
+                $find = strpos($path, '//');
+                if($find){
+                    $path = substr($path, $find+2);
+                    $path = substr($path, strpos($path, '/')); 
+                }
+                $display = $cat['published'] ? '': 'display: none';
+                $tree .= '<li style="' . $display . '"><a style="text-decoration: none" href="' . $path . '/">' . $cat['name'] . '</a>';
                 $tree .= $this->buildHtmlTree($cat['children'], $cat['level']);
                 $tree .= '</li>';
             }

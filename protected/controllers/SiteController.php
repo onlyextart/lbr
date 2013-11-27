@@ -107,48 +107,12 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
         
-        public function actionSitemap(){
-            // Trees mapped
-            $collection = Yii::app()->db->createCommand('SELECT id,level,name,published,rt,lft,path FROM menu_items ORDER BY lft')->queryAll();
-            $sitemapStr = '';
-            $level=0;
-            foreach($collection as $n=>$category)
-            {
-                if($category['published']==0){
-                    $ignoreChilds = $category;
-                    continue;
-                }
-                if(is_array($ignoreChilds) && count($ignoreChilds)>0){
-                    if($category['lft']>$ignoreChilds['lft'] && $category['rt']<$ignoreChilds['rt']){
-                        continue;
-                    }
-                }
-                if($category['level']==$level)
-                        $sitemapStr.= CHtml::closeTag('li')."\n";
-                else if($category['level']>$level)
-                        $sitemapStr.= CHtml::openTag('ul')."\n";
-                else
-                {
-                        $sitemapStr.= CHtml::closeTag('li')."\n";
+        
+        
+    public function actionSitemap(){
+        $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
+        $siteMapHtml = file_get_contents($siteMapFile);
 
-                        for($i=$level-$category['level'];$i;$i--)
-                        {
-                                $sitemapStr.= CHtml::closeTag('ul')."\n";
-                                $sitemapStr.= CHtml::closeTag('li')."\n";
-                        }
-                }
-
-                $sitemapStr.= CHtml::openTag('li');
-                $sitemapStr.= CHtml::link($category['name'], $category['path']);
-                $level=$category['level'];
-            }
-            
-            for($i=$level;$i;$i--)
-            {
-                $sitemapStr.= CHtml::closeTag('li')."\n";
-                $sitemapStr.= CHtml::closeTag('ul')."\n";
-            }
-            
-            $this->render('sitemap', array('sitemapStr'=>$sitemapStr));
+        $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
     }
 }

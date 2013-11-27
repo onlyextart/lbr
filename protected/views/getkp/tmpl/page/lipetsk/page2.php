@@ -43,6 +43,7 @@
                 padding-left: 29px;
                 padding-right: 27px;
                 font-size: 8pt;
+                margin-top: 160px;
             }
             .lable{
                 height: 135px;
@@ -73,7 +74,7 @@
             
            #list li{
                 display: list-item;
-                list-style-image: url(/images/kp/lbr-list-style.jpg);
+                list-style-image: url(http://git-lbr.ru/images/kp/lbr-list-style.jpg);
                 margin-left: 75px;
             }
             
@@ -97,7 +98,7 @@
                     <li style="width: 588px">
                         <div class="content" style="margin-top: 89px; margin-bottom: 12px">
                             <div style="text-align:left; margin-bottom: 25px">
-                                <img src="http://lbr/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
+                                <img src="http://git-lbr.ru/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
                             </div>
                             <div style="text-align:right"><?php echo date("d.m.Y")?></div>
                         </div>
@@ -137,14 +138,14 @@
                                 <li> посмотреть новые и популярные модели техники; </li>
                                 <li> получить развернутую консультацию специалистов при подборе техники и запчастей; </li>
                                 <li> получить консультацию по возможностям сервисного обслуживания; </li>
-                                <li> подобрать оптимальные услоия приобретения; </li>
+                                <li> подобрать оптимальные условия приобретения; </li>
                                 <li> получить специальные сезонные предложения. </li>
                             </ul>
                         </div>
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://lbr/images/kp/lbr-photo.jpg" width="110px" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -160,7 +161,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li style="width: 207px; vertical-align: middle; background-color: #efefef;">
+                    <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
                             <div class="event-header">1.07.2014 - 31.09.2014</div>
@@ -186,10 +187,8 @@
                         </div>
                     </li>
                     <li style="width: 51px; vertical-align: bottom">
-                        <div class="lable" style="">
-                            <div class="turn">
-                               www.lbr.ru
-                            </div>
+                        <div style="text-align: right;">
+                            <img src="http://git-lbr.ru/images/kp/lbr-side.jpg" height="92px" width="34px" alt="Logo" style="border: 0;"/>
                         </div>
                     </li>
                 </ul>

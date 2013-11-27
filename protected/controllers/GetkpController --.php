@@ -95,19 +95,11 @@ class GetkpController extends Controller
         $this->renderPartial('tmpl/single/'.$v);
     }
     
-    public function actionPage($v, $f = false)
+    public function actionPage($v)
     {
-        $clientName = 'Дормидонт Иванович Иванов';//$_REQUEST['clientName'];
-        $managerName = 'Чуркин Алексей';//$_REQUEST['managerName'];
-        $managerEmail = 'сhurkin@lbr.ru';//$_REQUEST['managerEmail'];
-        $managerPhones = '79103225418';//$_REQUEST['managerPhones'];
-        if(isset($clientName) && isset($managerName) && isset($managerEmail) && isset($managerPhones))
-        {
-            $this->renderPartial('tmpl/page/'.$v.'/'.$f, array('clientName'=>$clientName, 'managerName'=>$managerName, 'managerEmail'=>$managerEmail, 'managerPhones'=>$managerPhones));
-        }
-        
-        
-        ///////////////////////////
-        //$this->renderPartial('tmpl/page/'.$v.'/'.$f, array('clientName'=>$clientName, 'managerName'=>$managerName, 'managerEmail'=>$managerEmail, 'managerPhones'=>$managerPhones));
+        $inputUrl = Yii::app()->request->url;
+        $pos = strpos($inputUrl, 'v/') + 2;
+        $substr = substr($inputUrl, $pos);
+        $this->renderPartial('tmpl/page/' . $substr);
     }
 }

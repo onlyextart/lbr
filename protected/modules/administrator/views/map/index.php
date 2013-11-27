@@ -21,6 +21,14 @@
         width: 27%; 
         padding: 2%; 
     }
+    ul.level_0 li{
+        margin-left: 0px;
+    }
+    
+    ul.level_1 li{
+        margin-left: 30px;
+    }
+    
 </style>
 
 <h2 class="col ">Карта сайта Html</h2>
