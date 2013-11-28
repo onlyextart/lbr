@@ -4,20 +4,6 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-
-            
-            $dataProvider = new CActiveDataProvider ('News', 
-                array(
-                    //'criteria'=>$criteria,
-                    'pagination'=>array(
-                        'pageSize'=>'10'
-                    )
-                )
-            );
-            //var_dump($dataProvider->getData());
-            
-        $this->render('index', array('dataProvider'=>$dataProvider));
-
         $criteria = new CDbCriteria();
         $criteria->together = true;
         $criteria->with = array('newsRegions');
@@ -31,7 +17,6 @@ class NewsController extends Controller
                                 'pageSize'=>'10'
                             )
                         ));
- 
         $this->render('index', array('data' => $dataProvider));
 
 	}

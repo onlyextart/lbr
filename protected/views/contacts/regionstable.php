@@ -295,7 +295,7 @@
         $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.contact_id, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id ORDER BY r.name ASC")->queryAll();
         foreach ($regionsD as $region) {
             echo CHtml::openTag('li');
-            $linkUrl = 'http://www.' . $region['alias'] . '.lbr.ru' . $_POST['requesrUri'];
+            $linkUrl = 'http://www.' . $region['alias'] . '.'. $host . $_POST['requesrUri'];
             echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
             echo CHtml::closeTag('li');
         }

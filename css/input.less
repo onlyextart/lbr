@@ -38,6 +38,7 @@ input, textarea
 }
 .btn
 {
+    font-family: 'Trebuchet MS';
     padding: 0 14px;
     width: auto;
     font-size: 11px;
@@ -378,17 +379,58 @@ header:after{
             }
             form
             {
-                padding: 1% 2%;
-                -moz-box-shadow: 0px 0px 3px #c0c0c0;
-                -webkit-box-shadow: 0px 0px 3px #c0c0c0;
-                -o-box-shadow: 0px 0px 3px #c0c0c0;
-                box-shadow: 0px 0px 3px #c0c0c0;
+                padding: 5px 15px;
+                -moz-box-shadow: 0px 0px 5px #c0c0c0;
+                -webkit-box-shadow: 0px 0px 5px #c0c0c0;
+                -o-box-shadow: 0px 0px 5px #c0c0c0;
+                box-shadow: 0px 0px 5px #c0c0c0;
                 border-radius: 2px;
             }
         }
         
         /*--CONTACT-START---------------*/
-        
+        .contact_map
+        {
+            width: 650px;
+            float: left;
+        }
+        .contact_form
+        {
+            width:350px;
+            float: right;
+        }
+        .contact_form
+        {
+            form{
+                width:320px;
+                min-height: 380px;
+                p{line-height: 14px;}
+                textarea{width:100%;}
+                label
+                {
+                    width:100%;
+                    display: block;
+                }
+                input.contact_form_field
+                {
+                    width:100%;
+                    display: block;
+                }
+            }
+            
+        }
+        .contact_info
+        {
+            width:630px;
+            float:left;
+            margin-bottom: 15px;
+            p{margin: 0;}
+        }
+        .contact_info img.contact_icon
+        {
+            width:25px;
+            margin-right: 15px;
+        }
         
         /*--CONTACT-END-----------------*/
         
@@ -1885,4 +1927,10 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     white-space: nowrap; 
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
+    max-width: 90%;
+    color: rgb(22, 150, 132);
+ }
+ .arrow-wrapper{
+     width: 10%;
+     float: left;
  }

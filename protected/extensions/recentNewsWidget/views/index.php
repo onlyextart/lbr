@@ -30,15 +30,18 @@
         display: block;
     }
     .wrapper:after {
-content: '';
-display: block;
-clear: both;
-}
+        content: '';
+        display: block;
+        clear: both;
+    }
     
 </style>
+<?php 
+    $host = Yii::app()->params['host'];
+?>
 <div class="info_block">
 <div id="news_header">
-<a href="http://www.lbr.ru/company/events/">Новости ЛБР-АГРОМАРКЕТ</a> 
+<a href="http://www.<?php echo $host;?>/company/events/">Новости ЛБР-АГРОМАРКЕТ</a> 
 </div>
 
 <?php
@@ -46,7 +49,7 @@ clear: both;
 	foreach ($eventModels as $recent){?>
 	   <div class="news">
        <span class="news_date"><?=$recent->date?></span>
-           <a href="http://www.lbr.ru"><?php 
+           <a href="http://www.<?php echo $host;?>"><?php 
            echo $recent->header;
            //echo $recent->newsRegions[0]->description;
            ?> </a>

@@ -2,16 +2,6 @@
 /* @var $this ContacsController */
 Yii::app()->clientScript->registerCssFile('/css/form.css');
 ?>
-<style>
-    .contact_map{width: 650px; float: left;}
-    .contact_form{width:350px; float: right;}
-    .contact_form form{width:100%;}
-    .contact_form form textarea{width:100%;}
-    .contact_form form label{width:100%; display: block;}
-    .contact_form form input.contact_form_field{width:100%; display: block;}
-    .contact_info{width:100%;float:left; margin-top: 10px;}
-    .contact_info img.contact_icon{width:25px;margin-right: 15px;}
-</style>
 <h1><?php echo $contactModel->name ?></h1>
 <div class="contact_info">
     <table>

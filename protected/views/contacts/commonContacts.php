@@ -14,6 +14,7 @@
 <ul class="contacts_list clearfix">
 <?php 
 $districts = Regions::getDistricts();
+asort($districts);
 foreach( $districts as $districtId=>$districtName ){
     $regions = Regions::model()->findAll(array(
             'condition'=>'published=:published AND district_id=:district_id',

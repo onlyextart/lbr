@@ -16,15 +16,13 @@ $this->widget('zii.widgets.CListView', array(
         'itemView'=>'items/_view', // представление для одной записи
         'ajaxUpdate'=>false, // отключаем ajax поведение
         'emptyText'=>'Нет новостей',
-        'itemsTagName'=>'div',
+        'itemsTagName'=>'ul',
         'template'=>'{items}{pager}',
         'pager'=>array(
             'class'=>'CLinkPager',
             'header'=>false,
 
         ),
-    ));
-    
+    )); 
 ?>
-</div>
 
