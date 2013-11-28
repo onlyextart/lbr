@@ -9,15 +9,23 @@
             </div>
             <div class="query-field">
                 <? echo CHtml::textField('q', $q?$q:'Найти на сайте...', array('id'=>'query', 'class'=>$q?'':'nofocus', 'autocomplete'=>'off'))?>
-                <div class="quick-result"></div>
+                <ul class="quick-result"></ul>
             </div>
             <button class="btn green" type="submit" form="search-form">Найти</button>
         <? echo CHtml::endForm();?>
     </div>
     <div class="search-result">
         <? 
-        if ($result)
-            var_dump ($result);
+        if ($result){
+            foreach ($result as $item){
+                $link = CategoryUrlRule::getUrl($item['item_id']);?>
+                <div class="one-result">
+                    <a href="<? echo $link;?>/"><? echo $item['name'];?></a>
+                    <div class="small-link"><? echo $_SERVER['HTTP_HOST'].$link;?></div>
+                    <div class="o-r-description"><? echo substr(strip_tags($item['review']), 0, 400).'...';?></div>
+                </div>  
+            <?}
+        }
         if ($q && !empty($q))
         {
             echo '<div><p>'.$q.'</p></div>';

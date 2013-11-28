@@ -10,7 +10,7 @@
                 ));
                 echo CHtml::link(
                         $firstLevelItem->name, 
-                        $firstLevelItem->path,
+                        $firstLevelItem->path.'/',
                         array('class'=>$colorCssClass)
                 );
                 echo CHtml::closeTag('li');
@@ -32,7 +32,7 @@
                             'a',
                             array(
                                 'class'=>$colorCssClass.' ',
-                                'href'=>$secondLevelItem->path,
+                                'href'=>$secondLevelItem->path.'/',
                             )
                     );
                         echo CHtml::image($secondLevelItem->icon, $secondLevelItem->name);
@@ -73,7 +73,7 @@
                     ));
                     echo CHtml::link(
                             $thirdLevelItem->name, 
-                            $thirdLevelItem->path,
+                            $thirdLevelItem->path.'/',
                             array(
                                 'class'=>$colorCssClass,
                                 'style'=>( $this->menuBranch[4]->id==$thirdLevelItem->id )?
@@ -102,7 +102,7 @@
                     echo CHtml::openTag('li');
                         echo CHtml::link(
                             $productMenuItem->name,
-                            $productMenuItem->path
+                            $productMenuItem->path.'/'
                         );
                     echo CHtml::closeTag('li');
 

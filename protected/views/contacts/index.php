@@ -3,7 +3,7 @@
 Yii::app()->clientScript->registerCssFile('/css/form.css');
 ?>
 <style>
-    .contact_map{width: 600px; float: left;}
+    .contact_map{width: 650px; float: left;}
     .contact_form{width:350px; float: right;}
     .contact_form form{width:100%;}
     .contact_form form textarea{width:100%;}

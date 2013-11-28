@@ -121,7 +121,7 @@ class CategoryUrlRule extends CBaseUrlRule
         foreach($breadcrumbsMenuBranch as $ancestor){
             if($ancestor->level == 1 || $ancestor->id == $this->desiredMenuItem->id )
                     continue;
-            $breadcrumbs[$ancestor->name] = $ancestor->path;
+            $breadcrumbs[$ancestor->name] = $ancestor->path.'/';
         }
         $breadcrumbs[]=$this->desiredMenuItem->name;
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;

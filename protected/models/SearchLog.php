@@ -98,14 +98,14 @@ class SearchLog extends CActiveRecord
         public static function searchTables($quick = false)
         {
             $tables = array(
-                'banner_region'=>array(
-                    'description', 'name'
+                'products'=>array(
+                    'name', 'review', 'features', 'construct_features', 'experience'
+                ),
+                'products_region'=>array(
+                    'additional_review'
                 ),
                 'contacts'=>array(
                     'name', 'address', 'telephone', 'work_time', 'email', 'info'
-                ),
-                'makers'=>array(
-                    'name', 'description'
                 ),
                 'news'=>array(
                     'header'
@@ -119,23 +119,12 @@ class SearchLog extends CActiveRecord
                 'pages_region'=>array(
                     'content'
                 ),
-                'products'=>array(
-                    'name', 'review', 'features', 'construct_features', 'experience'
-                ),
-                'products_region'=>array(
-                    'additional_review'
-                ),
                 'search_log'=>array(
                     'query'
                 )
             );
             $tables_quick = array(
-                'banner_region'=>'name',
-                'contacts'=>'name',
-                'makers'=>'name',
-                'news'=>'header',
-                'pages'=>'name',
-                'products'=>'name',
+                'menu_items'=>'name'
             );
             if ($quick){
                 return $tables_quick;
@@ -150,8 +139,9 @@ class SearchLog extends CActiveRecord
                 return false;
             }
             if ($this->prepareSqlite()){
-                if($return = $this->getSearchResultDb($q))
+                if($return = $this->getSearchResultDb($q)){
                     return $return;
+                }
             }
             return false;
         }
@@ -163,8 +153,9 @@ class SearchLog extends CActiveRecord
                 return false;
             }
             if ($this->prepareSqlite()){
-                if($return = $this->getQuickResultDb($q))
+                if($return = $this->getQuickResultDb($q)){
                     return $return;
+                }
             }
         }
 
@@ -185,23 +176,27 @@ class SearchLog extends CActiveRecord
             $tables = $this->searchTables();
             foreach ($tables as $table_name=>$row_array)
             {
-                foreach ($str as $key=>$query){
+                foreach ($str as $query){
                     $query = str_replace(array(")", "(", "'" ), array("\)","\(", "\""), addslashes($query));
                     $where = array('or');
-                    foreach ($row_array as $indx=>$row)
+                    
+                    foreach ($row_array as $row)
                     {
-                        array_push($where, "regexp(lower(".$row."), '".$query."')");
+                        array_push($where, "regexp(lower(".$table_name.".".$row."), '".$query."')");
                     }
                     $query_result = Yii::app()->db->createCommand()
-                            ->select('*')
+                            ->select($table_name.'.*, menu_items_content.item_id, menu_items.meta_description')
                             ->from($table_name)
+                            ->join('menu_items_content', $table_name.'.id=menu_items_content.page_id')
+                            ->join('menu_items', 'menu_items_content.item_id=menu_items.id')
                             ->where($where)
                             ->queryAll();
                     
                     if (!empty($query_result)){
                         foreach ($query_result as $result){
-                            if (!in_array($result, $return, TRUE))
+                            if (!in_array($result, $return, TRUE)){
                                 array_push($return, $result);
+                            }
                         }
                     }
                         
@@ -216,12 +211,13 @@ class SearchLog extends CActiveRecord
         {
             $return = array();
             $tables = $this->searchTables(true);
+            $product_type = MenuItems::PRODUCT_MENU_ITEM_TYPE;
             foreach ($tables as $table_name=>$row_name)
             {
                 $query_result = Yii::app()->db->createCommand()
-                            ->select('*')
+                            ->select('id, '.$row_name)
                             ->from($table_name)
-                            ->where("lower(".$row_name.") LIKE lower('%".$query."%')")
+                            ->where("lower(".$row_name.") LIKE lower('%".$query."%') AND type=".$product_type)
                             ->queryAll();
                 if (!empty($query_result)){
                     foreach ($query_result as $result){
@@ -240,7 +236,7 @@ class SearchLog extends CActiveRecord
             $word = $stemmer->stem_string($query);
             $word_array = explode(' ', $word);
             if (count($word_array)>1)
-                array_push($phrases, implode('[^\s]* ', $word_array));
+                array_push($phrases, implode(' ', $word_array));
             foreach ($word_array as $item)
             {
                 array_push($phrases, $item);

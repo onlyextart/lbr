@@ -354,6 +354,12 @@ header:after{
                 border-radius: 2px;
             }
         }
+        
+        /*--CONTACT-START---------------*/
+        
+        
+        /*--CONTACT-END-----------------*/
+        
         // Product page
         .product_wrapper
         {
@@ -828,17 +834,32 @@ header:after{
         }
         .search-result
         {
-            margin: 1em auto;
+            margin: 1em 0;
             padding: 0;
+            width: 70%;
             p
             {
                 margin: 0;
                 padding: 0;
             }
-            > *
+            .one-result
             {
                 padding: .5em 1em;
                 margin: 1em 0;
+                a
+                {
+                    font-size: 18px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .small-link
+                {
+                    color: rgb(22, 150, 132);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
             }
         }
     }
