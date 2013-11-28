@@ -43,19 +43,16 @@
                     <img src="/images/logo.png" title="ЛБР-Агромаркет" alt="Логотип ЛБР-Агромаркет"/>
                 </a>
                 <div class="region">
-                     <div style="font-size: 13px; font-weight: bold; margin: 0px; display: table;">
-                         <ul style="display: table-row;">
-                            <li style="display: table-cell">Ваш регион:
-                            </li>
-                            <li style="display: table-cell; padding: 0; margin: 0">
-                                <div id="show_regions_table_button_wrapper">
-                                    <a id="show_regions_table_button">
-                                        Тестовая строка, которая не переносится и поэтому может быть обрезана родителем.
-                                    </a>
-                                </div>
-                                <a><span id="show_regions_table_button_arrow" class="arrow"></span></a>
-                            </li>
-                        </ul>
+                     <div class="select-region">
+                        <div class="you-region">
+                            <span>Ваш регион:</span>
+                        </div>
+                        <div class="selected-region">
+                            <div id="show_regions_table_button_wrapper">
+                                <a id="show_regions_table_button">Не выбран</a>
+                            </div>
+                            <a><span id="show_regions_table_button_arrow" class="arrow"></span></a>
+                        </div>
                      </div>
                 </div>
             </div>
@@ -86,7 +83,7 @@
                         </a>
                     </li>-->
                     <li>
-                        <a href="/zapchasty/">
+                        <a href="http://www.lbr.nichost.ru/spareparts/?c=83">
                             <img src="/images/mainMenuIcon/toppict2.png" alt="Запасные части">
                             <span>Запчасти</span>
                         </a>
@@ -105,7 +102,7 @@
                         <a href="/company/" title="О компании">О компании</a>
                     </li>
                     <li>
-                        <a href="/company/vacancy/" title="Вакансии">Вакансии</a>
+                        <a href="http://carrer.git-lbr.ru/" title="Вакансии">Вакансии</a>
                     </li>
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
@@ -117,7 +114,7 @@
             </div>
             <div class="map">
                 <a href="/company/contacts/">
-                    <span>Агромаркеты</span>
+                    <span>Контакты</span>
                     <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
                 </a>
             </div>

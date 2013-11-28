@@ -7,7 +7,6 @@
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_1 a:after {
   background: #d3a809;
 }
-
 .menu_color_group_3 {
   background-color: #ed1d24;
   border-color: #ed1d24;
@@ -319,6 +318,15 @@ textarea {
   display: table;
   clear: both;
 }
+.arrow {
+  background-image: url("/images/arrow.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 8px;
+  width: 12px;
+  float: left;
+  margin: 5px 0px 0 5px;
+}
 header,
 .wrapper,
 footer {
@@ -338,6 +346,25 @@ header .logo .region {
   position: absolute;
   left: 0;
   top: 87px;
+}
+header .logo .region .select-region {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0px;
+  width: 190px;
+}
+header .logo .region .select-region .you-region {
+  width: 45%;
+  float: left;
+}
+header .logo .region .select-region .selected-region {
+  width: 55%;
+  float: right;
+}
+header .logo .region .select-region:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 header .logo .region a {
   color: #169684;
@@ -1873,4 +1900,11 @@ header .menu.main .menuMainTop:after {
 }
 .sitemap a {
   color: #008873;
+}
+#show_regions_table_button_wrapper {
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
 }

@@ -108,6 +108,17 @@ input, textarea
     display: table;
     clear: both;
 }
+
+ .arrow{
+    background-image: url("/images/arrow.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 12px;
+    float: left;
+    margin: 5px 0px 0 5px;
+}
+
 .reset(@margin: 0, @padding: 0)
 {
     margin: @margin;
@@ -145,12 +156,33 @@ header
             position: absolute;
             left: 0;
             top: 87px;
-            a {color:#169684; cursor: pointer;}
+            .select-region
+            {
+                font-size: 13px;
+                font-weight: bold;
+                margin: 0px;
+                width: 190px;
+                .you-region
+                {
+                    width: 45%;
+                    float: left;
+                }
+                .selected-region
+                {
+                    width: 55%;
+                    float: right;
+                }
+            }
+            .select-region:after
+            {
+                .clr;
+            }
+            a
+            {
+                color:#169684; 
+                cursor: pointer;
+            }
         }
-    }
-    .class
-    {
-        
     }
     .menu.main
     {
@@ -1848,8 +1880,7 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
 }
 
 #show_regions_table_button_wrapper{
-    margin-left: 5px; 
-    width: 100px; 
+    float: left;
     overflow: hidden; 
     white-space: nowrap; 
     text-overflow: ellipsis;

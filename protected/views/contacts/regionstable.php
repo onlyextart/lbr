@@ -4,9 +4,9 @@
         left: 0;
         top: 0;
         opacity: 0.4;
-        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); /* IE 5.5+*/
-	-moz-opacity: 0.4; /* Mozilla 1.6 и ниже */
-	-khtml-opacity: 0.4; /* Konqueror 3.1, Safari 1.1 */
+        filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+        -moz-opacity: 0.4;
+        -khtml-opacity: 0.4;
         position: absolute;
         width: 100%;
         z-index: 1503;
@@ -14,11 +14,11 @@
 
     .regions_table_wrapper{
         background: none repeat scroll 0 0;
-        background-color: #fff; /* IE 8 */
+        background-color: #fff;
         background-color: rgba(255, 255, 255, 0.9);
-        *background-color: #fff; /* IE 7 */
-        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /* данная строчка работает в IE6, IE7, и IE8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)"; /* данная строчка работает только в IE8 */
+        *background-color: #fff;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);  
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=90)";  
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
@@ -32,7 +32,7 @@
         width: 1000px;
         z-index: 1504;
         font-size: 12px;
-        /*line-height: 20px;*/
+        line-height: 20px;
     }
     .regions_table_wrapper ul{
         float: left;
@@ -75,13 +75,13 @@
     .region{
         float:right;
     }
-    
+
     .region p{
         font-size: 12px;
         color:black;
         margin: 0;
         padding: 0;
-        /*font-weight: bold;*/
+        font-weight: bold;
     }
     .region p a{
         font-weight: bold;
@@ -97,39 +97,39 @@
         font-weight: bold;
     }
     .contact-top-span{
-        /*float: right;
-        margin-right: 40px;*/
+        float: right;
+        margin-right: 40px;
         margin-left: 10px;
     }
     .region .region-select p{
         float: left;
     }
     .region .region-select .region-select-now{
-        /*padding: 1px 10px;*/
+        padding: 1px 10px;
         padding-right: 25px;
-        /*border-radius: 3px;*/
+        border-radius: 3px;
         position: relative;
-        /*min-width: 158px;*/
+        min-width: 158px;
         margin-left: 5px;
         cursor:pointer;
-       /* background: #008873;
-            background: -moz-linear-gradient(top, #00ba9e, #008873);
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00ba9e), color-stop(100%,#008873));
-            background: -webkit-linear-gradient(top, #00ba9e, #008873);
-            background: -o-linear-gradient(top, #00ba9e, #008873);
-            background: -ms-linear-gradient(top, #00ba9e, #008873);
-            background: linear-gradient(top, #00ba9e, #008873);
-       */
+         background: #008873;
+             background: -moz-linear-gradient(top, #00ba9e, #008873);
+             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00ba9e), color-stop(100%,#008873));
+             background: -webkit-linear-gradient(top, #00ba9e, #008873);
+             background: -o-linear-gradient(top, #00ba9e, #008873);
+             background: -ms-linear-gradient(top, #00ba9e, #008873);
+             background: linear-gradient(top, #00ba9e, #008873);
+        
         z-index: 1501;
         float: left;
     }
     .region .region-select .region-select-now p{
         color:#008873;
         font-size: 12px;
-        /*text-transform: uppercase;*/
+        text-transform: uppercase;
         padding: 0;
         margin: 0;
-        /*border-bottom: 1px dashed #008873;*/
+        border-bottom: 1px dashed #008873;
     }
     .region .region-select .region-select-now span.strelka{
         background-image: url('http://new.lbr.ru/images/strelka.jpg');
@@ -142,7 +142,7 @@
         right: 10px;
     }
     .region .region-select .region-select-list{
-        /*display: none;   */
+        display: none;   
         display: block;
         position: fixed;
         background: white;
@@ -181,7 +181,7 @@
         margin: 0 0 5px;
         border: 0;
     }
-   .region .region-select .region-select-list li.district .label-h5{
+    .region .region-select .region-select-list li.district .label-h5{
         padding: 0;
         margin: 0;
         font-size: 14px;
@@ -199,7 +199,7 @@
 
     }
     .region .region-select .region-select-list .subokrug li.district ul.okrug li:hover, #regionus ul li:hover{
-            background: rgb(0,184,157);
+        background: rgb(0,184,157);
     }
     .region .region-select .region-select-list .subokrug li.district ul.okrug li:hover a{
         color:white;
@@ -252,8 +252,8 @@
         cursor: pointer;
     }
     #region-span-contact{
-    /*    font-size: 12px;
-        color: grey;*/
+            font-size: 12px;
+            color: grey;
         font-weight: normal;
     }
     #contact-href{
@@ -274,60 +274,34 @@
         cursor: pointer;
     }
 </style>
- 
+
 <?php $host = Yii::app()->params['host']; ?>
-<div class="region-select-list" style="display: block;">
-<div class="label-h4">Выберите ваш регион</div>
-<?php foreach ($regionModel as $regions){ ?>  
-<ul class="subokrug">
 
-<div class="okrug"><?=$regions->district_id?></div>
-
-<li class="okrug">
-<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.<?=$host?>/"><?=$regions->name?></a>
-</li>
-</ul>
-<ul class="subokrug">
-<li class="district">
-<div class="label-h5"><?=$regions->district_id?></div>
-<ul class="okrug">
-<li>
-<a  title="<?=$regions->contact->name?>" href="http://www.<?=$regions->contact->domain?>.<?=$host?>/"><?=$regions->name?></a>
-</ul>
-</li>
-</ul>
-
-<?}?> 
-	<?php
-//	Yii::app()->request->requestUri;
-?>
-    
-</div>
 <div class="regions_table_wrapper">
     <h4>
         Выберите ваш регион
     </h4>
-    <?php 
-        $districts = Regions::getDistricts();
-        $start = microtime(true);
-        foreach( $districts as $districtId=>$districtName ){
-            if($districtId==0 || $districtId==1 || $districtId==3 || $districtId==6){
-                echo CHtml::openTag('ul');
-            }
-                echo CHtml::openTag('li', array('class'=>'district_name'));
-                    echo $districtName;
-                echo CHtml::closeTag('li');
-                
-                $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.contact_id, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
-                foreach($regionsD as $region) {
-                    echo CHtml::openTag('li');
-                        $linkUrl = 'http://www.'.$region['alias'].'.lbr.ru'.$_POST['requesrUri'];
-                        echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
-                    echo CHtml::closeTag('li');
-                }
-            if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
-                echo CHtml::closeTag('ul');
-            }
+    <?php
+    $districts = Regions::getDistricts();
+    $start = microtime(true);
+    foreach ($districts as $districtId => $districtName) {
+        if ($districtId == 0 || $districtId == 1 || $districtId == 3 || $districtId == 6) {
+            echo CHtml::openTag('ul');
         }
+        echo CHtml::openTag('li', array('class' => 'district_name', 'id'=>$districtId));
+        echo $districtName;
+        echo CHtml::closeTag('li');
+
+        $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.contact_id, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id ORDER BY r.name ASC")->queryAll();
+        foreach ($regionsD as $region) {
+            echo CHtml::openTag('li');
+            $linkUrl = 'http://www.' . $region['alias'] . '.lbr.ru' . $_POST['requesrUri'];
+            echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
+            echo CHtml::closeTag('li');
+        }
+        if ($districtId == 0 || $districtId == 2 || $districtId == 5 || $districtId == 7) {
+            echo CHtml::closeTag('ul');
+        }
+    }
     ?>
 </div>
