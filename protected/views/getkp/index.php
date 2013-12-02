@@ -41,4 +41,3 @@ else{
         Yii::app()->getController()->renderPartial('tmpl/single/one', array('data'=>$data, 'filial'=>$filial, 'template'=>$template));
 }
   
-?>

@@ -154,12 +154,10 @@ class CategoryUrlRule extends CBaseUrlRule
         foreach($params as $name=>$value){
             if(is_array($value)){
                 $pathParamsString .= $this->paramsToString($value, $name);
-            }
-            else{
+            } else{
                 if($argumentName===null){
                     $pathParamsString .= $name.'='.$value.'&';
-                }
-                else{
+                } else{
                     $pathParamsString .= $argumentName.'['.$name.']'.'='.$value.'&';
                 }
             }
@@ -167,4 +165,3 @@ class CategoryUrlRule extends CBaseUrlRule
         return $pathParamsString;
     }
 }
-?>

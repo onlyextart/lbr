@@ -32,15 +32,14 @@
         width: 1000px;
         z-index: 1504;
         font-size: 12px;
-        line-height: 20px;
     }
     .regions_table_wrapper ul{
         float: left;
         list-style: none outside none;
         margin: 0 10px;
-        padding: 0 0 5px;
+        padding: 0 0 10px;
         width: 230px;
-        line-height: 20px;
+        line-height: 17px;
     }
     .regions_table_wrapper li a{
         color: #000;
@@ -50,7 +49,6 @@
         text-decoration: none;
         border-radius: 5px;
         float: left;
-        height: 21px;
         padding: 0 10px;
     }
     .regions_table_wrapper li:hover a{
@@ -63,12 +61,12 @@
         font-size: 18px;
         font-weight: bold;
         margin: 0;
-        padding: 5px 0 15px 10px;
+        padding: 5px 0 5px 10px;
     }
     .regions_table_wrapper .district_name{
         font-size: 14px;
         font-weight: bold;
-        margin: 0;
+        margin: 5px 0 0;
         padding: 0;
     }
 

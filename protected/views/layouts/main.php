@@ -14,19 +14,19 @@
         <meta content="2 days" name="revisit-after">
         <meta content="Global" name="distribution">
         <meta http-equiv="pragma" content="no-cache">
-        <?php if(Yii::app()->params['currentMenuItem']->meta_keywords){ ?>
+        <?php if(Yii::app()->params['currentMenuItem']->meta_keywords): ?>
             <meta name="keywords" content="<?php echo Yii::app()->params['currentMenuItem']->meta_keywords; ?>">
-        <? } ?>
+        <?php endif; ?>
         <meta name="description" content="<?php echo Yii::app()->params['currentMenuItem']->meta_description; ?>">
 	<title><?php echo Yii::app()->params['currentMenuItem']->meta_title; ?></title>
         
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
-        Yii::app()->clientScript->registerCssFile('/css/main.css');
-        // Проверка на наличие Jquery
-        Yii::app()->clientScript->registerCoreScript('jquery');
-        Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
+            Yii::app()->clientScript->registerCssFile('/css/main.css');
+            // Проверка на наличие Jquery
+            Yii::app()->clientScript->registerCoreScript('jquery');
+            Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>

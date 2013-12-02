@@ -1,62 +1,23 @@
-<style>
-    .info_block {
-        float: left;
-        font: 12px Arial, 'Trebuchet MS', sans-serif;
-        margin: 10px 0 20px 0;
-    }
-    #news_header {
-        background: url("../images/heading.png") no-repeat;
-        height: 25px;
-        width: 333px;
-        padding: 0 20px;
-        width: 100%;
-        margin-left: 20px;
-    }
-    #news_header a {
-        font: bold 14px/25px "Trebuchet MS",Arial,Helvetica,sans-serif;
-        color: white;
-        text-align: left;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-    
-    .news {
-        float: left;
-        width: 23%;
-        margin: 10px 0 0 20px;
-    }
-    .news_date {
-        color: #FE6700;
-        display: block;
-    }
-    .wrapper:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
-    
-</style>
 <?php 
     $host = Yii::app()->params['host'];
 ?>
 <div class="info_block">
-<div id="news_header">
-<a href="http://www.<?php echo $host;?>/company/events/">Новости ЛБР-АГРОМАРКЕТ</a> 
-</div>
-
-<?php
-    
-	foreach ($eventModels as $recent){?>
-	   <div class="news">
-       <span class="news_date"><?=$recent->date?></span>
-           <a href="http://www.<?php echo $host;?>"><?php 
-           echo $recent->header;
-           //echo $recent->newsRegions[0]->description;
-           ?> </a>
-       </div>
-<?
-
-    }
-    
-?>
+    <div id="news_header">
+        <a href="http://www.<?php echo $host ?>/company/events/">Новости ЛБР-АГРОМАРКЕТ</a> 
+    </div>
+    <?php
+       foreach ($eventModels as $recent):
+               $itemId = Yii::app()->db->createCommand()
+                    ->select('item_id')
+                    ->from('menu_items_content c')
+                    ->join('menu_items i', 'i.id=c.item_id')
+                    ->where('c.page_id=:id and i.type=:type', array(':id' => $recent->id, ':type' => MenuItems::NEWS_MENU_ITEM_TYPE))
+                    ->queryRow()
+                ;
+    ?>
+         <div class="news">
+            <span class="news_date"><?php echo date('Y-m-d', strtotime($recent->date)) ?></span>  
+            <a href="http://www.<?php echo $host . CategoryUrlRule::getUrl($itemId['item_id'])?>"><?php echo $recent->header; ?></a>
+         </div>
+    <?php endforeach; ?>
 </div>

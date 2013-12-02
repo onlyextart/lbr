@@ -39,7 +39,7 @@ class Controller extends CController
                     $region = $cook;
                 }
                 if('www.'.$domain.'.'.$host != $_SERVER['HTTP_HOST']){
-                    Yii::app()->request->redirect('http://www.'.$domain.'.'.$host);     
+                    Yii::app()->request->redirect('http://www.'.$domain.'.'.$host.Yii::app()->request->url);     
                 }
             }
             Yii::app()->params['regionId'] = $region;

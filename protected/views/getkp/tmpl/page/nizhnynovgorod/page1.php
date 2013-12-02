@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <title></title>
         <style>
             body{
@@ -43,7 +44,7 @@
                 padding-left: 29px;
                 padding-right: 27px;
                 font-size: 8pt;
-                margin-top: 160px;
+                margin-top: 180px;
             }
             .lable{
                 height: 135px;
@@ -111,24 +112,26 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $clientName ?> !
+                                Уважаемый <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
-                                Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
-                                сельхозтехники зарубежных и российских производителей.
+                                Благодарим Вас за сотрудничество в 2013 году. Искренне верим, 
+                                что подводя предварительные итоги года, он былл плодотворным и успешным. 
+                                Мы также надеемся и в дальнейшем быть полезными для Вас в Вашем нелегком труде.
                             </div>
                             <div style="margin-top: 31px; font-size: 12pt;" align="justify">
-                                Благодаря удобной и развернутой подаче материала Вы сможете по достоинству
-                                оценить нашу Компанию и предлагаемые нами решения для АПК.
+                                Вручаем Вам наш новый каталог на 2014 год, который был дополнен последними 
+                                новинками производителей техники. Техника была подобрана с учетом условий эксплуатации 
+                                в различных регионах РФ.
                             </div>
                             <div style="margin-top: 42px; font-size: 9pt">
                                 <div style="font-weight: 900; margin-bottom: 19px">Мы всегда рады Вам на площадке и в офисе нашего АгроМаркета</div>
                                 <i>
-                                   Свердловская обл., г. Березовский, <br/>
-                                   Режевский тракт, 15-й км, д.6 <br/>
-                                   пом. №19 (территория складского комплекса "Ресурс")<br/>
-                                   т. 8 912 262 21 50<br/>
-                                   ekaterinburg@lbr.ru
+                                   г. Нижний Новгород, <br/>
+                                   Комсомольское ш., 2а,<br/>
+                                   оф.301<br/>
+                                   т. 8 910 105 20 20<br/>
+                                   n.novgorod@lbr.ru
                                 </i>
                             </div>
                         </div>
@@ -142,18 +145,18 @@
                                 <li> получить специальные сезонные предложения. </li>
                             </ul>
                         </div>
-                        <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
+                        <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-nizniy.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Екатеринбургского АгроМаркета ЛБР</div>
+                                        <div style="">C уважением, <br/> директор Нижненовгородского АгроМаркета ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
-                                            <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
+                                            <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 200px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Швецов Ю.А.
+                                                 Вишняков А.А.
                                             </span>
                                         </div>
                                     </div>
@@ -163,27 +166,19 @@
                     </li>
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
-                            <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
+                            <div style="font-weight: 900; padding-bottom: 15px; ">Наши выставки и экспозиции на площадке АгроМаркета:</div>
+                            <div class="event-header">06.2014</div>
+                            <div class="event-content">
+                                День поля
+                            </div> 
                             <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
                                 Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
-                            </div> 
-                            <div class="event-header">02.09.2014 - 04.09.2014</div>
-                            <div class="event-content">
-                                Агропромышленный форум - 2014
                             </div>
-                            <div class="event-header">01.02.2015 - 30.04.2015</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
-                            </div>
-                            <div class="event-header">01.07.2015 - 31.09.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
-                            </div> 
-                            <div class="event-header">01.04.2016 - 30.06.2016</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
-                            </div>
+                                Расширенная экспозиция по технологиям заготовки кормов
+                            </div>                            
                         </div>
                     </li>
                     <li style="width: 51px; vertical-align: bottom">
@@ -197,14 +192,10 @@
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
                             <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="width:82%">
-                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
-                                </li>
-                                <li style="">
-                                    <div style="text-align: left">
-                                        <?php echo $managerPhones ?></br>
-                                        <?php echo $managerEmail ?>
-                                    </div>
+                                <li>
+                                   <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                        Ваш персональный менеджер <? echo $data['user_info']; ?>
+                                   </span>
                                 </li>
                             </ul>
                         </div>

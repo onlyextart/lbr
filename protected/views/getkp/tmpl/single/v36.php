@@ -815,10 +815,12 @@
                                 <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                     <tr>
                                         <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
-                                        <td width="400" align="right" style="text-align: left;"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">
+                                        <td width="400" align="right" style="text-align: left;">
+                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">
                                                 Ваш персональный менеджер<br><br>
                                                 <? echo $data['user_info']; ?>
-                                            </span></td>
+                                            </span>
+                                        </td>
                                     </tr>
                                 </table>
                             </td>

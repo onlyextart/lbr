@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <title></title>
         <style>
             body{
@@ -111,7 +112,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $clientName ?> !
+                                Уважаемый <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
@@ -149,11 +150,11 @@
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Орловского АгроМаркета ЛБР</div>
+                                        <div style="">C уважением, <br/> директор филиальной сети ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Овсянников О.Н.
+                                                Гайворонский А.Н.
                                             </span>
                                         </div>
                                     </div>
@@ -193,14 +194,10 @@
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
                             <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="width:82%">
-                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
-                                </li>
-                                <li style="">
-                                    <div style="text-align: left">
-                                        <?php echo $managerPhones ?></br>
-                                        <?php echo $managerEmail ?>
-                                    </div>
+                                <li>
+                                   <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                        Ваш персональный менеджер <? echo $data['user_info']; ?>
+                                   </span>
                                 </li>
                             </ul>
                         </div>
