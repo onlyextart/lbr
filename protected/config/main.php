@@ -116,7 +116,7 @@ return array(
                 'defaultRegionId' => 0,
                 'regionId' => 0,
                 'superGroup' => 1,
-                'host'=>'lbr', //'git-lbr.ru', //
+                'host'=>'git-lbr.ru',
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
