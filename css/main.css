@@ -402,6 +402,9 @@ header .menu.main .menuMainTop li a span {
 }
 header .menu.main .menuMainTop li:hover {
   background: #e1eded;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 header .menu.main .menuMainTop li.active {
   background: #F7F7F7;
@@ -966,7 +969,7 @@ header:after {
 .wrapper .search .search-form form .btn {
   margin: 4px 1em 0;
   padding: 0 1em;
-  line-height: 20px;
+  line-height: 21px;
 }
 .wrapper .search .search-form form .btn:hover {
   text-decoration: underline;

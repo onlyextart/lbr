@@ -48,6 +48,9 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     </table>
     
 </div>
+<div class="contact-images">
+    
+</div>
 <div class="contact_map">
     <?php echo $contactModel->map_code ?>
 </div>

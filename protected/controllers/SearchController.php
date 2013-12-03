@@ -24,9 +24,20 @@ class SearchController extends Controller{
             if($icon == 'Windows-1251' || $icon=='ISO-8859-5'){
                 $query = iconv('Windows-1251', 'UTF-8', $query);
             }
-            $result = $search->getSearchResult($query);
+            
+            $resultParams = $search->getResultCount($query);
+            
+            $pages = new CSearchPagination($resultParams['count']);
+            $pages->pageSize=10;
+            $pages->params = array('q'=>$query);
+            $pages->pageVar = 'p';
+            
+            $resultParams['offset'] = (int)$pages->currentPage*(int)$pages->pageSize;
+            $resultParams['limit'] = $pages->pageSize;
+            
+            $result = $search->getSearchResult($query, $resultParams);
         }
-        $this->render('index', array('q'=>$query, 'result'=>$result));
+        $this->render('index', array('q'=>$query, 'result'=>$result, 'pages'=>$pages, 'params'=>$resultParams));
     }
     
     public function actionQuickAjaxResult()

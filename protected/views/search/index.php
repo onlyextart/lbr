@@ -17,6 +17,7 @@
     <div class="search-result">
         <? 
         if ($result){
+            var_dump($result);
             foreach ($result as $item){
                 $link = CategoryUrlRule::getUrl($item['item_id']);?>
                 <div class="one-result">
@@ -25,6 +26,9 @@
                     <div class="o-r-description"><? echo substr(strip_tags($item['review']), 0, 400).'...';?></div>
                 </div>  
             <?}
+            $this->widget('CLinkPager', array(
+                'pages' => $pages
+            ));
         }
         if ($q && !empty($q))
         {

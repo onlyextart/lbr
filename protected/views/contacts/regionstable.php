@@ -32,14 +32,15 @@
         width: 1000px;
         z-index: 1504;
         font-size: 12px;
+        line-height: 20px;
     }
     .regions_table_wrapper ul{
         float: left;
         list-style: none outside none;
         margin: 0 10px;
-        padding: 0 0 10px;
+        padding: 0 0 5px;
         width: 230px;
-        line-height: 17px;
+        line-height: 20px;
     }
     .regions_table_wrapper li a{
         color: #000;
@@ -49,6 +50,7 @@
         text-decoration: none;
         border-radius: 5px;
         float: left;
+        height: 21px;
         padding: 0 10px;
     }
     .regions_table_wrapper li:hover a{
@@ -61,12 +63,12 @@
         font-size: 18px;
         font-weight: bold;
         margin: 0;
-        padding: 5px 0 5px 10px;
+        padding: 5px 0 8px 10px;
     }
     .regions_table_wrapper .district_name{
         font-size: 14px;
         font-weight: bold;
-        margin: 5px 0 0;
+        margin: 0;
         padding: 0;
     }
 
@@ -283,7 +285,7 @@
     $districts = Regions::getDistricts();
     $start = microtime(true);
     foreach ($districts as $districtId => $districtName) {
-        if ($districtId == 0 || $districtId == 1 || $districtId == 3 || $districtId == 6) {
+        if ($districtId == 6 || $districtId == 1 || $districtId == 0 || $districtId == 2) {
             echo CHtml::openTag('ul');
         }
         echo CHtml::openTag('li', array('class' => 'district_name', 'id'=>$districtId));
@@ -297,7 +299,7 @@
             echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
             echo CHtml::closeTag('li');
         }
-        if ($districtId == 0 || $districtId == 2 || $districtId == 5 || $districtId == 7) {
+        if ($districtId == 6 || $districtId == 7 || $districtId == 5 || $districtId == 4) {
             echo CHtml::closeTag('ul');
         }
     }
