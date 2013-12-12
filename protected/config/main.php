@@ -141,7 +141,11 @@ return array(
                         'Регионы'=>'/administrator/regions/',
                     ),
                     'Разные страницы'=>'/administrator/pages/',
-                    'Поиск'=>'/administrator/search/',
+                    'Поиск'=>array(
+                        'Поисковые запросы'=>'/administrator/search/',
+                        'Индексирование страниц'=>'/administrator/search/indexing/',
+                        'Топ запросов'=>'/administrator/search/'
+                    ),
                     'КП'=>array(
                         'КП'=>'/administrator/templateKp/',
                         'Шаблоны'=>'/administrator/template/',

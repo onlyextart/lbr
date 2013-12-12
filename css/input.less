@@ -171,7 +171,7 @@ header
                 .selected-region
                 {
                     width: 55%;
-                    float: right;
+                    float: left;
                 }
             }
             .select-region:after
@@ -2021,18 +2021,26 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     }
 }
 
+#show_regions_table_button{
+    
+/*    width: 100%;*/
+}
 #show_regions_table_button_wrapper{
-    float: left;
+    max-width: 90%;
+    color: rgb(22, 150, 132);
     overflow: hidden; 
     white-space: nowrap; 
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
-    max-width: 90%;
-    color: rgb(22, 150, 132);
+    float: left;
+ }
+ show_regions_table_button_wrapper:after,  .arrow-wrapper:after{
+     .clr;
  }
  .arrow-wrapper{
      width: 10%;
      float: left;
+     position: relative;
  }
  
  .arrow{
@@ -2041,7 +2049,7 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     background-repeat: no-repeat;
     height: 8px;
     position: absolute;
-    right: -15px;
+    right: -7px;
     top: 5px;
     width: 12px;
     margin-top:0;
@@ -2089,10 +2097,6 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     
     .menuTreeViewWrapper div{
         margin: 0 0 10px 5px;
-    }
-    
-    .wrapper #content h1{
-        color: #000;
     }
     
     .list-view div a {

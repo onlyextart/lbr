@@ -360,7 +360,7 @@ header .logo .region .select-region .you-region {
 }
 header .logo .region .select-region .selected-region {
   width: 55%;
-  float: right;
+  float: left;
 }
 header .logo .region .select-region:after {
   content: '';
@@ -2040,17 +2040,24 @@ header .menu.main .menuMainTop:after {
   color: #008873;
 }
 #show_regions_table_button_wrapper {
-  float: left;
+  max-width: 90%;
+  color: #169684;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
-  max-width: 90%;
-  color: #169684;
+  float: left;
+}
+show_regions_table_button_wrapper:after,
+.arrow-wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 .arrow-wrapper {
   width: 10%;
   float: left;
+  position: relative;
 }
 .arrow {
   background-image: url('/images/arrow.jpg');
@@ -2058,7 +2065,7 @@ header .menu.main .menuMainTop:after {
   background-repeat: no-repeat;
   height: 8px;
   position: absolute;
-  right: -15px;
+  right: -7px;
   top: 5px;
   width: 12px;
   margin-top: 0;
@@ -2096,9 +2103,6 @@ header .menu.main .menuMainTop:after {
 }
 .menuTreeViewWrapper div {
   margin: 0 0 10px 5px;
-}
-.wrapper #content h1 {
-  color: #000;
 }
 .list-view div a {
   color: #008873;

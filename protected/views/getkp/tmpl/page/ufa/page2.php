@@ -1,3 +1,9 @@
+<?php
+    $info = explode('<br>', $data['user_info']);
+    $managerName = $info[0];
+    unset($info[0]);
+    $managerInfo = implode("<br>", $info);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -112,7 +118,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $data['client'] ?> !
+                                 <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
@@ -188,11 +194,21 @@
                 <ul class="main-content-row">
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
-                            <ul class="main-content-row" style="font-size: 9pt;">
+                            <!--ul class="main-content-row" style="font-size: 9pt;">
                                 <li>
-                                   <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                    <span style="margin-top: 30px; text-align: left; font-weight: 900">
                                         Ваш персональный менеджер <? echo $data['user_info']; ?>
-                                   </span>
+                                    </span>
+                                </li>
+                            </ul-->
+                            <ul class="main-content-row" style="font-size: 9pt;">
+                                <li style="width:78%; min-width: 200px">
+                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
+                                </li>
+                                <li style="">
+                                    <div style="text-align: left">
+                                        <? echo $managerInfo ?>
+                                    </div>
                                 </li>
                             </ul>
                         </div>

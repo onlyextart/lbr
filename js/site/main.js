@@ -2,7 +2,7 @@ $(document).ready(function(){
     var setFilialName = getCookie('filial');
     
     if(setFilialName){
-        $('#show_regions_table_button').html(setFilialName);
+        $('#show_regions_table_button').html(setFilialName).attr('title', setFilialName);
     }
 	 
     $('body').append('<div id="choose_region"></div>');
@@ -61,8 +61,8 @@ $(document).ready(function(){
     });
 	
     $('#choose_region').on('click', 'a', function() {
-        if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
-        //if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
+        //if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
+        if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
         //if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
            return true;
         }

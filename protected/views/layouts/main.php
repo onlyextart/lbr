@@ -49,7 +49,7 @@
                         </div>
                         <div class="selected-region">
                             <div id="show_regions_table_button_wrapper">
-                                <a id="show_regions_table_button">Не выбран</a>
+                                <a id="show_regions_table_button" title="Не выбран">Не выбран</a>
                             </div>
                             <a class="arrow-wrapper"><span id="show_regions_table_button_arrow" class="arrow"></span></a>
                         </div>

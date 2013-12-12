@@ -69,6 +69,6 @@
 </div>
 <style>
 .left .list-view .pager ul.yiiPager li.page{
-    width: <? echo 100/$data->pagination->pageCount; ?>%;
+    width: <?php echo 100/$data->pagination->pageCount; ?>%;
 }
 </style>

@@ -95,94 +95,60 @@ class SearchLog extends CActiveRecord
 		));
 	}
         
-        public static $menuType = array(
-            'products'=>array('type'=>MenuItems::PRODUCT_MENU_ITEM_TYPE),
-        );
+//        public static $tables = array(
+//                'products'=>array(
+//                    'name', 'review', 'features', 'construct_features', 'experience'
+//                ),
+//                'products_region'=>array(
+//                    'additional_review'
+//                ),
+//                'contacts'=>array(
+//                    'name', 'address', 'telephone', 'work_time', 'email', 'info'
+//                ),
+//                'news'=>array(
+//                    'header'
+//                ),
+//                'news_region'=>array(
+//                    'content', 'description'
+//                ),
+//                'pages'=>array(
+//                    'name'
+//                ),
+//                'pages_region'=>array(
+//                    'content'
+//                ),
+//        );
         
-        public static $tables = array(
-                'products'=>array(
-                    'name', 'review', 'features', 'construct_features', 'experience'
-                ),
-                'products_region'=>array(
-                    'additional_review'
-                ),
-                'contacts'=>array(
-                    'name', 'address', 'telephone', 'work_time', 'email', 'info'
-                ),
-                'news'=>array(
-                    'header'
-                ),
-                'news_region'=>array(
-                    'content', 'description'
-                ),
-                'pages'=>array(
-                    'name'
-                ),
-                'pages_region'=>array(
-                    'content'
-                ),
-            );
+        /*
+         * @return quick search tables
+         */
         public static $tables_quick = array(
-                'menu_items'=>'name'
-            );
-        public static function searchTables($quick = false)
-        {
-            $select = array(); $tables = array(); $all = array();
-            foreach (self::$tables as $table=>$row){
-                foreach($row as $name){
-                    array_push($select, $table.'.'.$name);
-                }
-                array_push($tables, $table);
-                array_push($all, $table.'.*');
-            }
-            if ($quick){return self::$tables_quick;}
-            return array('select'=>$select, 'tables'=>$tables, 'all'=>$all);
-        }
+                'menu_items'=>array('header', 'meta_description')
+        );
 
-        public function getSearchResult($q, $tables = false)
+        public function getSearchResult($q)
         {
-            if (!$q)
-            {
-                return false;
-            }
-            $return = $this->getSearchResultDb($q, false, $tables);
+            if (!$q){return false;}
+            $return = $this->getSearchResultDb($q, false);
             if($return){
                 return $return;
             }
-            return false;
         }
         
         public function getResultCount($q)
         {
-            if (!$q)
-            {
-                return false;
-            }
+            if (!$q){return false;}
             if ($this->prepareSqlite()){
                 $return = $this->getSearchResultDb($q, true);
                 if($return){
-                    $result = 0;
-                    $params = array();
-                    foreach ($return as $table=>$lenght){
-                        if($lenght[0]['num']>0){
-                            $params['tables'][$table]['start'] = $result;
-                            $result += $lenght[0]['num'];
-                            $params['tables'][$table]['end'] = $result;
-                        }
-                    }
-                    $params['count'] = $result;
-                    return $params;
+                    return $return;
                 }
             }
-            return false;
         }
         
         public function getQuickResult($q)
         {
-            if (!$q)
-            {
-                return false;
-            }
+            if (!$q){return false;}
             if ($this->prepareSqlite()){
                 $return = $this->getQuickResultDb($q);
                 if($return){
@@ -193,9 +159,11 @@ class SearchLog extends CActiveRecord
 
         private function prepareSqlite()
         {
-            function lower($str){return mb_strtolower($str, "UTF-8");}
-            function sql_regexp($x,$y){ 
-                strip_tags($x);
+            function lower($str){
+                $return = str_replace(array(")", "(", "'", '"' ), "", $str);
+                return mb_strtolower(strip_tags($return), "UTF-8");
+            }
+            function sql_regexp($x,$y){
                 $match = preg_match("`$y`i",$x);
                 return (int)$match;
             }
@@ -204,134 +172,56 @@ class SearchLog extends CActiveRecord
             return true;
         }
         
-        private function getSearchResultDb($q, $count = false, $tables = false)
+        /*
+         * 
+	 * Returns the search result form DB
+	 * @param array $query array query string.
+         * @param boolean $count if true - returns the count of matches found
+	 * @return array search result array.
+         * 
+	 */
+        private function getSearchResultDb($q, $count = false)
         {
-            $str = $this->getPhrasesArray($q);
-            if(!$tables){
-                $tables = $this->searchTables();
-            }
-            $resultID_array = array();
-            if(!$count){
-                $num = $tables['offset']+$tables['limit'];
-                foreach ($tables['tables'] as $table_name=>$param){
-                    if (($num < $param['start'] && $tables['offset'] < $param['start']) || $tables['offset'] > $param['end']){
-                    continue;
-                }
-                $offset = $num-$param['start'];
-                    $limit = $tables['limit'];
-                    if($offset<=$tables['limit'])
-                    {
-                        $limit = $offset;
-                        $offset = 0;
-                    }else{
-                        $offset -=$limit;
-                    }
-                    $query_result = $this->getOneTableResultDB($table_name, $str, $count, $offset, $limit);
-                    if(!empty($query_result)){
-                        $resultID_array[$table_name] = $query_result; 
-                    }
-                }
-            }else{
-                array_unique($str); array_unshift($str, $q);
-                foreach ($tables['tables'] as $table_name){
-                    $query_result = $this->getOneTableResultDB($table_name, $str, $count);
-                    if(!empty($query_result)){
-                        $resultID_array[$table_name] = $query_result; 
-                    }
-                }
-            }
-            return $resultID_array;
+            
         }
         
-        private function getOneTableResultDB($table_name = false, $query_array = false, $count = false, $offset = false, $limit = false){
-            if(!$table_name || !$query_array){
-                return false;
-            }
-            $where = array('or');
-            $select = 'id';
-            $tables = self::$tables;
-
-            foreach($tables[$table_name] as $row){
-                foreach ($query_array as $query){
-                    $query = str_replace(array(")", "(", "'" ), array("\)","\(", "\""), addslashes($query));
-                    array_push($where, "regexp(lower(".$row."), '".$query."')");
-                }
-            }
-            if($count){
-                $select = 'count(*) as num';
-            }
-            $query_params = array(
-                'select'=>$select,
-                'from'=>$table_name,
-                'where'=>$where
-            );
-            if($offset!==false && $limit!==false){
-                $query_params['offset'] = $offset;
-                $query_params['limit'] = $limit;
-            }
-            $queryResult = Yii::app()->db->createCommand($query_params)->queryAll();
-            return $queryResult;
-        }
-//        private function getSearchResultDb($q)
-//        {
-//            $str = $this->getPhrasesArray($q);
-//            $return = array();
-//            array_unique($str);
-//            array_unshift($str, $q);
-//            $tables = $this->searchTables();
-//            foreach ($tables as $table_name=>$row_array)
-//            {
-//                foreach ($str as $query){
-//                    $query = str_replace(array(")", "(", "'" ), array("\)","\(", "\""), addslashes($query));
-//                    $where = array('or');
-//                    
-//                    foreach ($row_array as $row)
-//                    {
-//                        array_push($where, "regexp(lower(".$table_name.".".$row."), '".$query."')");
-//                    }
-//                    $query_result = Yii::app()->db->createCommand()
-//                            ->select($table_name.'.*, menu_items_content.item_id, menu_items.meta_description')
-//                            ->from($table_name)
-//                            ->join('menu_items_content', $table_name.'.id=menu_items_content.page_id')
-//                            ->join('menu_items', 'menu_items_content.item_id=menu_items.id')
-//                            ->where($where)
-//                            ->queryAll();
-//                    
-//                    if (!empty($query_result)){
-//                        foreach ($query_result as $result){
-//                            if (!in_array($result, $return, TRUE)){
-//                                array_push($return, $result);
-//                            }
-//                        }
-//                    }
-//                }
-//            }
-//            array_unique($return, SORT_NUMERIC);
-//            return $return;
-//        }
-        
+        /*
+         * 
+	 * Returns the search quick result form DB
+	 * @param array $query array query string.
+	 * @return array search result array.
+         * 
+	 */
         private function getQuickResultDb($query)
         {
-            $return = array();
-            $tables = $this->searchTables(true);
+            $tables = self::$tables_quick;
+            /*
+             * $product_type, $category_type - menu items type (4, 0)
+             */
             $product_type = MenuItems::PRODUCT_MENU_ITEM_TYPE;
-            foreach ($tables as $table_name=>$row_name)
+            $category_type = MenuItems::BANNERS_MENU_ITEM_TYPE;
+            $where = array('or');
+            foreach ($tables['menu_items'] as $row_name)
             {
-                $query_result = Yii::app()->db->createCommand()
-                            ->select('id, '.$row_name)
-                            ->from($table_name)
-                            ->where("lower(".$row_name.") LIKE lower('%".$query."%') AND type=".$product_type)
+                $query = str_replace(array(")", "(", "'", '"' ), "", $query);
+                array_push($where, "lower(".$row_name.") LIKE lower('%".$query."%')");
+            }
+            $query_result = Yii::app()->db->createCommand()
+                            ->select('id, '.  implode(', ', $tables['menu_items']))
+                            ->from('menu_items')
+                            ->where(array('and', 'published=1', $tables['menu_items'][0].'!=""' ,array('or','type='.$product_type, array('and', 'type='.$category_type, 'level>4')), $where))
                             ->limit(15)
                             ->queryAll();
-                if (!empty($query_result)){
-                    foreach ($query_result as $result){
-                        array_push($return, $result);
-                    }
-                }
-                
-            }
-            return $return;
+            return $query_result;
         }
+        
+        /*
+         * 
+         * Returns an array of morphological forms request
+         * @param string $query query string
+         * @return array array of query string
+         * 
+         */
         private function getPhrasesArray($query)
         {
             $stemmer = new Lingua_Stem_Ru();

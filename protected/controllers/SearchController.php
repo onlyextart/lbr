@@ -25,16 +25,6 @@ class SearchController extends Controller{
                 $query = iconv('Windows-1251', 'UTF-8', $query);
             }
             
-            $resultParams = $search->getResultCount($query);
-            
-            $pages = new CSearchPagination($resultParams['count']);
-            $pages->pageSize=10;
-            $pages->params = array('q'=>$query);
-            $pages->pageVar = 'p';
-            
-            $resultParams['offset'] = (int)$pages->currentPage*(int)$pages->pageSize;
-            $resultParams['limit'] = $pages->pageSize;
-            
             $result = $search->getSearchResult($query, $resultParams);
         }
         $this->render('index', array('q'=>$query, 'result'=>$result, 'pages'=>$pages, 'params'=>$resultParams));

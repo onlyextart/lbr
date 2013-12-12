@@ -112,7 +112,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $data['client'] ?> !
+                                 <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
