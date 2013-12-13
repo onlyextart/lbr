@@ -39,6 +39,7 @@ RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopichesk
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{HTTP_HOST} !^www\.(.+)$
 RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
 RewriteRule (.*) http://www.git-lbr.ru/$1/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -47,6 +48,7 @@ RewriteRule (.*) http://www.git-lbr.ru/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
 RewriteCond %{REQUEST_FILENAME} !robots.txt
 RewriteRule ^(.*)$ http://www.git-lbr.ru/$1/ [R=301,L]
 
