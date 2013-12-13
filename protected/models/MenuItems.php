@@ -322,7 +322,7 @@ class MenuItems extends CActiveRecord
                                         var href = this.href;
                                         alertify.confirm("Перейти на страницу редактирования баннера?", function (e) {
                                                 if (e) {
-                                                        window.location = href;
+                                                        window.open(href, "_blank");
                                                 } else {
                                                         return false;
                                                 }
