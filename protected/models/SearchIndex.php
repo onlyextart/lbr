@@ -131,6 +131,8 @@ class SearchIndex extends CActiveRecord
         public static function reindexOneTable($table){
             //$type - integer, get type menu item
             $type = self::getMenuItemType($table);
+            $name = MenuItems::getMenuItemsType();
+            $return = array($name[$type]=>array());
             
             $params = array(
                             'select'=>'id',
@@ -147,9 +149,10 @@ class SearchIndex extends CActiveRecord
             $model = Yii::app()->db->createCommand($params)->queryAll();
             
             foreach ($model as $m){
-                self::reindexOneItem($m['id'], $table);
+                $r = self::reindexOneItem($m['id'], $table);
+                array_push($return[$name[$type]], $r);
             }
-            
+            return $return;
         }
         
         /*
@@ -158,20 +161,21 @@ class SearchIndex extends CActiveRecord
          * @return boolean, false - error, not added to the index
          */
         public static function reindexOneItem($id, $table){
-            
+//            $result = array();
             $p_id = Yii::app()->db->createCommand()
                     ->select('t.*, menu_items_content.page_id')
                     ->from('menu_items as t')
                     ->join('menu_items_content', 't.id=menu_items_content.item_id')
                     ->where('t.id='.$id)
                     ->queryAll();
+            $new = array();
             foreach ($p_id as $i){
                 $m = self::getOnePageContentDb($i['page_id'], $table);
-                $new = self::prepareToIndex($i, $m, $table);
-                $ready = self::reindex($new);
-                if($ready){
-                    var_dump($new);
-                }
+                array_push($new, self::prepareToIndex($i, $m, $table));
+            }
+            $ready = self::reindex($new);
+            if($ready){
+                return $ready;
             }
         }
         
@@ -258,29 +262,46 @@ class SearchIndex extends CActiveRecord
                     }
                     break;
             }
+            $header = $menu['header'];
+            if($header=='' || $header==' '){
+                $header = $menu['name'];
+            }
+            
+            $status = $_POST['reindex']['status'];
+            
             $result = array(
                 'menu_item_id'=>$menu['id'],
-                'header'=>$menu['header'],
+                'header'=>$header,
                 'keywords'=>$menu['meta_keywords'],
                 'description'=>$menu['meta_description'],
                 'content'=>$r_content,
                 'type'=>$menu['type'],
-                'status'=>$_POST['reindex']['status'],
+                'status'=>$status,
                 'date'=> date('Y-m-d H:i:s')
             );
             return $result;
         }
         
         private function reindex($params){
-            $old = SearchIndex::model()->exists('menu_item_id='.$params['menu_item_id']);
+            if(empty($params)){
+                return false;
+            }
+            $res = $params[0];
+            if(count($params)>1){
+                for($i=1; $i<count($params); $i++){
+                    $res['description'] .= $params[$i]['description'];
+                    $res['content'] .= $params[$i]['content'];
+                }
+            }
+            $old = SearchIndex::model()->exists('menu_item_id='.$res['menu_item_id']);
             if($old){
-                $model = SearchIndex::model()->find('menu_item_id='.$params['menu_item_id']);
+                $model = SearchIndex::model()->find('menu_item_id='.$res['menu_item_id']);
             }else{
                 $model = new SearchIndex();
             }
-            $model->attributes = $params;
+            $model->attributes = $res;
             if($model->save()){
-                return true;
+                return $res;
             }
             return false;
         }

@@ -120,12 +120,15 @@ class SearchController extends Controller
         {
             $reindex = $_POST['reindex'];
             if(count($reindex['tables'])==5){
-                SearchIndex::reindexAll();
+                $result = SearchIndex::reindexAll();
             }elseif(count($reindex['tables'])>0){
+                $result = array();
                 foreach ($reindex['tables'] as $tabl=>$i){
-                    SearchIndex::reindexOneTable($tabl);
+                   $r = SearchIndex::reindexOneTable($tabl);
+                   array_push($result, $r);
                 }
             }
+            $this->render('index/reindex', array('data'=>$result));
         }else{
             throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
         }

@@ -221,20 +221,14 @@
     background: rgb(248, 249, 249);
     margin: 0;
 }
-#search-index .pager ul.yiiPager li.next,
-#search-index .pager ul.yiiPager li.previous,
-#search-index .pager ul.yiiPager li.first,
-#search-index .pager ul.yiiPager li.last{
-    display: none;
-}
 
-#search-index .pager ul.yiiPager li.page{
+#search-index .pager ul.yiiPager li{
     display: block;
     float: left;
     text-align: center;
     padding: 0;
 }
-#search-index .pager ul.yiiPager li.page a{
+#search-index .pager ul.yiiPager li a{
     border: 0px none;
     margin: 0px;
     padding: 0px;
@@ -243,9 +237,9 @@
     padding: 7px 0;
     display: block;
 }
-#search-index .pager ul.yiiPager li.page.selected {
+#search-index .pager ul.yiiPager li.selected {
     border-bottom: 2px solid rgb(65, 131, 196);
 }
-#search-index .pager ul.yiiPager li.page.selected a{
+#search-index .pager ul.yiiPager li.selected a{
     color:rgb(65, 131, 196);
 }

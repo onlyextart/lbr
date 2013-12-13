@@ -79,10 +79,12 @@
     ?>
 
 
-<?php if($data->pagination->pageCount!=0) { ?>
+<?php if($data->pagination->pageCount!=0) { 
+    $c = ($data->pagination->pageCount+4);
+    ?>
     <style>
-    #search-index .pager ul.yiiPager li.page{
-        width: <?php echo 100/$data->pagination->pageCount; ?>%;
+    #search-index .pager ul.yiiPager li{
+        width: <?php echo 100/($c>14?14:$c); ?>%;
     }
     </style>
 <?php }
