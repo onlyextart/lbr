@@ -27,8 +27,8 @@ function AjaxContentLoader(){
             var url = $(this).attr('href');
             _self.ajax(url, container, cache);
             return false;
-        })
-    }
+        });
+    };
     
     /*
      *  Method of loading a container according to the content transmitted by the link, wherein:
@@ -46,8 +46,8 @@ function AjaxContentLoader(){
             'url': url,
             'cache': cache,
             'success': function(html){_self.success(html, container);}
-        })
-    }
+        });
+    };
     
     /*
      *  The method is called when the operation succeeds ajax request.
@@ -60,5 +60,5 @@ function AjaxContentLoader(){
      */
     this.success = function(html, container){
         $(container).html(html);
-    }
+    };
 }

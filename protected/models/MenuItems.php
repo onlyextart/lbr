@@ -176,14 +176,22 @@ class MenuItems extends CActiveRecord
         /*
          * Метод для создания дерева меню.
          */
-        static function getMenuTree(){
-            $categories = Yii::app()->db->createCommand('SELECT id,level,name,published FROM menu_items ORDER BY lft')->queryAll();
-            return(self::toHierarchy($categories, 'getMenuManageRow'));
+        static function getMenuTree($eval = 'getMenuManageRow', $sql = false){
+            if(!$sql){
+                $sql = 'SELECT id,level,name,published FROM menu_items ORDER BY lft';
+            }
+            $categories = Yii::app()->db->createCommand($sql)->queryAll();
+            return(self::toHierarchy($categories, $eval));
         }
         
         static function getMenuTreeWithCheckbox( $checkBoxNameAttr='MenuItem', $checkStatus = null, $activeItemType=array() ){
             $categories = Yii::app()->db->createCommand('SELECT id,level,name,published,type FROM menu_items ORDER BY lft')->queryAll();
             return(self::toHierarchy($categories, 'getMenuRowWithCheckBox', $checkBoxNameAttr, $checkStatus, $activeItemType));
+        }
+        
+        private static function getMenuRowClear($item, $checkBoxNameAttr, $checkStatus, $activeItemType){
+            $rowHtml=$item[name];
+            return $rowHtml;
         }
         
         private static function getMenuRowWithCheckBox($item, $checkBoxNameAttr, $checkStatus, $activeItemType){
