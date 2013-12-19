@@ -1298,10 +1298,10 @@ header:after {
   font-size: 16px;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_description {
-  text-align: left;
+  text-align: right;
   position: absolute;
   top: 10px;
-  right: 5px;
+  right: 10px;
   max-width: 65%;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_description span {
