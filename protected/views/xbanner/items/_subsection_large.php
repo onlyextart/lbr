@@ -41,7 +41,31 @@ $k = count($data->bannerRegions)-1;
                         <? }else{?>
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
-                                <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
+                                <div class="time_to_buy">
+                                    <?php if($image->top_left):?>
+                                        <div class="time_to_buy_top_left">
+                                            <span>экономия</span>
+                                            <span><?php echo $image->top_left;?> %</span>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->top_right):?>
+                                        <div class="time_to_buy_top_right">
+                                            
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->bottom_right):?>
+                                        <div class="time_to_buy_bottom_right">
+                                            <!--Окупаются за один сезон-->
+                                            <span><?php echo $image->bottom_right; ?></span>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->bottom_left):?>
+                                        <div class="time_to_buy_bottom_left">
+                                            <span><?php echo $image->bottom_left; ?></span>
+                                        </div>
+                                    <?php endif;?>
+                                </div>
+                                <!--<div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>-->
                             <? }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
                             <? }?>

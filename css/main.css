@@ -1286,11 +1286,6 @@ header:after {
   position: absolute;
   background: url("/images/timetobuy/circle-time-to-buy.png") no-repeat center;
   text-align: center;
-  -moz-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
-  -webkit-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  transform: rotate(-20deg);
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_top_left span {
   display: block;
