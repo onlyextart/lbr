@@ -36,6 +36,9 @@ $makers = Makers::model()->findAll(array(
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
                                 <div class="time_to_buy">
+                                    <div class="time_to_buy_description">
+                                        <span><?php echo $image->description; ?></span>
+                                    </div>
                                     <?php if($image->top_left):?>
                                         <div class="time_to_buy_top_left">
                                             <span>экономия</span>
@@ -49,8 +52,6 @@ $makers = Makers::model()->findAll(array(
                                     <?php endif;?>
                                     <?php if($image->bottom_right):?>
                                         <div class="time_to_buy_bottom_right">
-                                            <!--Окупаются за один сезон-->
-                                            <span><?php echo $image->bottom_right; ?></span>
                                         </div>
                                     <?php endif;?>
                                     <?php if($image->bottom_left):?>
