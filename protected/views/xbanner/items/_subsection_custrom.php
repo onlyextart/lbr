@@ -63,7 +63,7 @@ $k = count($data->bannerRegions)-1;
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
                                 <div class="time_to_buy">
-                                    <?php $cap = '<section class="b_images_one_image"><img src="/images/timetobuy/ttbWinter/general430.jpg" /></section>';?>
+                                    <?php $cap = '<section class="b_images_one_image"><img src="/images/1.gif" data-src="/images/timetobuy/ttbWinter/general430.jpg"/></section>';?>
                                     <div class="time_to_buy_description">
                                         <span><?php echo $image->description; ?></span>
                                     </div>
