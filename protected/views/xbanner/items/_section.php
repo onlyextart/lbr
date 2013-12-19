@@ -57,6 +57,9 @@ $k = count($data->bannerRegions)-1;
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
                                 <div class="time_to_buy">
+                                    <div class="time_to_buy_description">
+                                        <span><?php echo $image->description; ?></span>
+                                    </div>
                                     <?php if($image->top_left):?>
                                         <div class="time_to_buy_top_left">
                                             <span>экономия</span>
@@ -70,8 +73,6 @@ $k = count($data->bannerRegions)-1;
                                     <?php endif;?>
                                     <?php if($image->bottom_right):?>
                                         <div class="time_to_buy_bottom_right">
-                                            <!--Окупаются за один сезон-->
-                                            <span><?php echo $image->bottom_right; ?></span>
                                         </div>
                                     <?php endif;?>
                                     <?php if($image->bottom_left):?>
@@ -80,9 +81,6 @@ $k = count($data->bannerRegions)-1;
                                         </div>
                                     <?php endif;?>
                                 </div>
-<!--                                <div class="b_images_one_image_caption">
-                                    <p><?php echo $image->description; ?></p>
-                                </div>-->
                             <? }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
                             <? }?>

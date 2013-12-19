@@ -1187,11 +1187,11 @@ header:after{
                                     position: absolute;
                                     background: url("/images/timetobuy/circle-time-to-buy.png") no-repeat center;
                                     text-align: center;
-                                    -moz-transform: rotate(-20deg); /* Для Firefox */
-                                    -ms-transform: rotate(-20deg); /* Для IE */
-                                    -webkit-transform: rotate(-20deg); /* Для Safari, Chrome, iOS */
-                                    -o-transform: rotate(-20deg); /* Для Opera */
-                                    transform: rotate(-20deg);
+/*                                    -moz-transform: rotate(-20deg);  Для Firefox 
+                                    -ms-transform: rotate(-20deg);  Для IE 
+                                    -webkit-transform: rotate(-20deg);  Для Safari, Chrome, iOS 
+                                    -o-transform: rotate(-20deg);  Для Opera 
+                                    transform: rotate(-20deg);*/
                                     span{
                                         display: block;
                                         font-family: Impact,Charcoal, sans-serif;
@@ -1201,6 +1201,20 @@ header:after{
                                     }
                                     span:first-child{
                                         font-size: 16px;
+                                    }
+                                }
+                                .time_to_buy_description
+                                {
+                                    text-align: left;
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 5px;
+                                    max-width: 50%;
+                                    span{
+                                        color: #424242;
+                                        font-size: 22px;
+                                        text-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 1px rgb(255, 255, 255),0px 0px 10px rgb(255, 255, 255);
+                                        font-weight: bold;
                                     }
                                 }
                                 .time_to_buy_top_right
@@ -1214,53 +1228,19 @@ header:after{
                                 }
                                 .time_to_buy_bottom_right
                                 {
-                                    bottom: 40px;
-                                    right: 10px;
+                                    bottom: 5px;
+                                    right: 5px;
                                     position: absolute;
-                                    width: 105px;
-                                    background: none repeat scroll 0% 0% rgb(239, 127, 26);
-                                    color: white;
-                                    text-align: center;
-                                    span{
-                                        display: block;
-                                        font-family: 'Open Sans',sans-serif;
-                                        text-transform: uppercase;
-                                        line-height: 13px;
-                                        padding: 1px 5px 2px;
-                                    }
-                                }
-                                .time_to_buy_bottom_right:before
-                                {
-                                    position: absolute;
-                                    left: 100%;
-                                    bottom: 0;
-                                    content: "";
-                                    display: block;
-                                    border-top: 29px solid rgb(239, 127, 26);
-                                    border-right: 40px solid transparent;
-                                    height: 0px;
-                                    width: 0;
-                                    background: none;
-                                }
-                                .time_to_buy_bottom_right:after
-                                {
-                                    position: absolute;
-                                    left: 100%;
-                                    bottom: 100%;
-                                    content: "";
-                                    display: block;
-                                    border-bottom: 29px solid rgb(239, 127, 26);
-                                    border-left: 40px solid transparent;
-                                    height: 0px;
-                                    width: 0;
-                                    background: none;
+                                    width: 170px;
+                                    height: 29px;
+                                    background: url("/images/timetobuy/top-produkt.png") no-repeat;
                                 }
                                 .time_to_buy_bottom_left
                                 {
                                     bottom: 0px;
                                     left: 0px;
                                     position: absolute;
-                                    max-width: 100%;
+                                    max-width: 295px;
                                     background: none repeat scroll 0% 0% rgb(239, 127, 26);
                                     color: white;
                                     span{
