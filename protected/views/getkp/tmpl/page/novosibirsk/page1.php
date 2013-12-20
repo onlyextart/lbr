@@ -153,15 +153,15 @@
                         <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-novosibirsk.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор филиальной сети ЛБР</div>
+                                        <div style="">C уважением, <br/> директор Новосибирского АгроМаркета ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 200px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Гайворонский А.Н.
+                                                Ширинкин А.Н.
                                             </span>
                                         </div>
                                     </div>
