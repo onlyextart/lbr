@@ -1,6 +1,7 @@
 <?php
     Yii::app()->clientScript->registerCssFile('/css/admin/banners/banners.css');
     Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
+    Yii::app()->clientScript->registerScriptFile('/js/admin/AdminBannersFilter.js');
     Yii::app()->clientScript->registerScriptFile('/js/admin/banners.js');
 ?>
 <h3>Каталог - Управление баннерами</h3>

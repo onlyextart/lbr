@@ -13,7 +13,26 @@
  */
 class SearchLog extends CActiveRecord
 {
-	/**
+    
+        const CATALOG = 1;
+        const NEWS = 2;
+        const OTHER = 3;
+        
+        public static $types = array(
+            'catalog'=>SearchLog::CATALOG,
+            'news'=>SearchLog::NEWS,
+            'other'=>SearchLog::OTHER,
+        );
+        
+        public static function labelTypes() {
+            return array(
+                'catalog'=>'Найдено в каталоге',
+                'news'=>'Найдено в новостях',
+                'other'=>'Найдено в разном'
+            );
+        }
+
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return SearchLog the static model class
@@ -95,30 +114,6 @@ class SearchLog extends CActiveRecord
 		));
 	}
         
-//        public static $tables = array(
-//                'products'=>array(
-//                    'name', 'review', 'features', 'construct_features', 'experience'
-//                ),
-//                'products_region'=>array(
-//                    'additional_review'
-//                ),
-//                'contacts'=>array(
-//                    'name', 'address', 'telephone', 'work_time', 'email', 'info'
-//                ),
-//                'news'=>array(
-//                    'header'
-//                ),
-//                'news_region'=>array(
-//                    'content', 'description'
-//                ),
-//                'pages'=>array(
-//                    'name'
-//                ),
-//                'pages_region'=>array(
-//                    'content'
-//                ),
-//        );
-        
         /*
          * @return quick search tables
          */
@@ -126,38 +121,36 @@ class SearchLog extends CActiveRecord
                 'menu_items'=>array('header', 'meta_description')
         );
 
-        public function getSearchResult($q)
+        public function getSearchResult($q, $type, $offset, $limit)
         {
             if (!$q){return false;}
-            $return = $this->getSearchResultDb($q, false);
-            if($return){
-                return $return;
-            }
-        }
-        
-        public function getResultCount($q)
-        {
-            if (!$q){return false;}
-            if ($this->prepareSqlite()){
-                $return = $this->getSearchResultDb($q, true);
+                $return = $this->getSearchResultDb($q, false, $type, $offset, $limit);
                 if($return){
                     return $return;
                 }
-            }
+        }
+        
+        public function getResultCount($q, $type)
+        {
+            if (!$q){return false;}
+                $return = $this->getSearchResultDb($q, true, $type);
+                if($return){
+                    return $return;
+                }
         }
         
         public function getQuickResult($q)
         {
             if (!$q){return false;}
-            if ($this->prepareSqlite()){
+//            if ($this->prepareSqlite()){
                 $return = $this->getQuickResultDb($q);
                 if($return){
                     return $return;
                 }
-            }
+//            }
         }
 
-        private function prepareSqlite()
+        public function prepareSqlite()
         {
             function lower($str){
                 $return = str_replace(array(")", "(", "'", '"' ), "", $str);
@@ -180,9 +173,62 @@ class SearchLog extends CActiveRecord
 	 * @return array search result array.
          * 
 	 */
-        private function getSearchResultDb($q, $count = false)
+        private function getSearchResultDb($q, $count = false, $type = 1, $offset = false, $limit = false)
         {
+            $str = $this->getPhrasesArray($q);
+            array_unshift($str, $q);
+            $fields = SearchIndex::model()->getMetaData()->tableSchema->columns;
+            $where = array('or');
+            $where1 = array('or');
+            $select = '*';
+            if($count){
+                $select = 'count(*) as num';
+            }
+            foreach ($fields as $field=>$obj){
+                if($obj->type==='string' && $obj->name!=='date')
+                {
+                    $where = array_merge((array)$where, (array)$this->getWhereRegExp($str, $field));
+                }
+            }
+            switch ($type){
+                case SearchLog::CATALOG:
+                    array_push($where1, 'type='.MenuItems::PRODUCT_MENU_ITEM_TYPE, 'type='.MenuItems::BANNERS_MENU_ITEM_TYPE);
+                   break;
+                case SearchLog::NEWS:
+                    array_push($where1, 'type='.MenuItems::NEWS_MENU_ITEM_TYPE);
+                    break;
+                default:
+                    array_push($where1, 'type IN ('.MenuItems::CONTACT_MENU_ITEM_TYPE.', '.MenuItems::STATIC_MENU_ITEM_TYPE.')');
+                    break;
+            }
+             $query_params = array(
+                'select'=>$select,
+                'from'=>'search_index',
+                'where'=>array('and', $where1, $where)
+            );
+             
+            if($offset!==false && $limit!==false){
+                $query_params['offset'] = $offset;
+                $query_params['limit'] = $limit;
+            }
+            $result = Yii::app()->db->createCommand($query_params)->queryAll();
             
+            if($count){
+                return $result[0]['num'];
+            }
+            return $result;
+        }
+        
+        private function getWhereRegExp($str, $field){
+            if(!$str || !$field){
+                return false;
+            }
+            $where = array();
+            foreach ($str as $query){
+                $query = str_replace(array(")", "(", "'", '"', '&', '?' ), "", $query);
+                array_push($where, "regexp(lower(".$field."), '".$query."')");
+            }
+            return $where;
         }
         
         /*
@@ -222,7 +268,7 @@ class SearchLog extends CActiveRecord
          * @return array array of query string
          * 
          */
-        private function getPhrasesArray($query)
+        public function getPhrasesArray($query)
         {
             $stemmer = new Lingua_Stem_Ru();
             $phrases = array();

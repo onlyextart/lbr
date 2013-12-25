@@ -1008,33 +1008,135 @@ header:after{
         }
         .search-result
         {
-            margin: 1em 0;
+            margin: 1.5em 0;
             padding: 0;
-            width: 70%;
             p
             {
                 margin: 0;
                 padding: 0;
             }
-            .one-result
+            p.not-query
             {
-                padding: .5em 1em;
                 margin: 1em 0;
-                a
+            }
+            .result-0, .result-1, .result-2, .result-69
+            {
+                margin: 0;
+                padding: 0;
+                .result-header
                 {
-                    font-size: 18px;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                }
-                .small-link
-                {
-                    color: rgb(22, 150, 132);
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    margin: 0;
                 }
             }
+            .result-0
+            {
+                float: left;
+                width: 49%;
+                padding-right: 1%;
+            }
+            .result-1
+            {
+                float: left;
+                width: 49%;
+                padding-left: 1%;
+            }
+            .result-2
+            {
+                clear: both;
+                width: 100%;
+                padding-top: 2em;
+            }
+            .result-69
+            {
+                width: 69%;
+            }
+            .one-result
+            {
+                padding: 0;
+                margin: 1em 0;
+                .one-header
+                {
+                    font-size: 17px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    a{
+                        font-weight: normal;
+                        text-decoration: none;
+                        color: rgb(22, 150, 132);
+                    }
+                    a:hover
+                    {
+                        text-decoration: underline;
+                    }
+                }
+                .one-breadcrums
+                {
+                    a, span
+                    {
+                        color: #999;
+                        text-decoration: none;
+                    }
+                    a:hover
+                    {
+                        text-decoration: underline;
+                    }
+                    span{
+                        margin-left: 5px;
+                    }
+                    span:first-child
+                    {
+                        margin-left: 0;
+                    }
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    color: #999;
+                }
+                .one-content
+                {
+                    
+                }
+            }
+            ul.yiiPager{
+                display: block;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                li{
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    a{
+                        border: 0px none;
+                        margin: 0px;
+                        padding: 0px;
+                        background: none repeat scroll 0% 0% transparent;
+                        color: rgb(119, 119, 119);
+                        padding: 7px 0;
+                        display: block;
+                    }
+                }
+                li.selected {
+                    border-bottom: 2px solid rgb(239, 127, 26);
+                    a{
+                        color: rgb(239, 127, 26);
+                    }
+                }
+            }
+            ul.yiiPager:after
+            {
+                .clr;
+            }
+        }
+        .search-result:after
+        {
+             .clr;
         }
     }
     .bottom-text

@@ -67,9 +67,9 @@ class SearchRecommended extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'menu_item_id' => 'Menu Item',
-			'sorted' => 'Sorted',
-			'text' => 'Text',
+			'menu_item_id' => 'Пункт меню',
+			'sorted' => 'Приоритет',
+			'text' => 'Контент',
 		);
 	}
 
@@ -93,4 +93,12 @@ class SearchRecommended extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //  Метод устанавливает сортировку по-умолчанию
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.sorted ASC'
+                );
+        }
 }
