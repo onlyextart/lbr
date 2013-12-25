@@ -1,8 +1,9 @@
 $(document).ready(function(){
     var setFilialName = getCookie('filial');
-	if(setFilialName){
-	    $('#show_regions_table_button').html(setFilialName);
-	}
+    
+    if(setFilialName){
+        $('#show_regions_table_button').html(setFilialName).attr('title', setFilialName);
+    }
 	 
     $('body').append('<div id="choose_region"></div>');
     $('.bottom-text div *:nth-child(2)').show();
@@ -33,6 +34,7 @@ $(document).ready(function(){
                 });
             },
             error:function(){
+                console.log(window.location.pathname.toString());
                 alert('Ошибка запроса к серверу.');
             }
         });
@@ -60,13 +62,13 @@ $(document).ready(function(){
 	
     $('#choose_region').on('click', 'a', function() {
         if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
-		//if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
+//        if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
         //if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
            return true;
         }
     });
 	
-    $(document).on('click', '.regions_table_cover', function(){
+    $(document).on('click', '.regions_table_cover', function() {
         $(this).remove();
         $('.regions_table_wrapper').remove();
     });

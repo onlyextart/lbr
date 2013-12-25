@@ -1,4 +1,5 @@
 <?php
+    Yii::app()->clientScript->registerScriptFile('/js/site/XbannersSlider.js');
     Yii::app()->clientScript->registerScriptFile('/js/site/AjaxMakersDescriptionLoader.js');
     Yii::app()->clientScript->registerScriptFile('/js/site/banners.js');
     

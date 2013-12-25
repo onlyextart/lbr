@@ -13,7 +13,26 @@
  */
 class SearchLog extends CActiveRecord
 {
-	/**
+    
+        const CATALOG = 1;
+        const NEWS = 2;
+        const OTHER = 3;
+        
+        public static $types = array(
+            'catalog'=>SearchLog::CATALOG,
+            'news'=>SearchLog::NEWS,
+            'other'=>SearchLog::OTHER,
+        );
+        
+        public static function labelTypes() {
+            return array(
+                'catalog'=>'Найдено в каталоге',
+                'news'=>'Найдено в новостях',
+                'other'=>'Найдено в разном'
+            );
+        }
+
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return SearchLog the static model class
@@ -95,144 +114,161 @@ class SearchLog extends CActiveRecord
 		));
 	}
         
-        public static function searchTables($quick = false)
-        {
-            $tables = array(
-                'banner_region'=>array(
-                    'description', 'name'
-                ),
-                'contacts'=>array(
-                    'name', 'address', 'telephone', 'work_time', 'email', 'info'
-                ),
-                'makers'=>array(
-                    'name', 'description'
-                ),
-                'news'=>array(
-                    'header'
-                ),
-                'news_region'=>array(
-                    'content', 'description'
-                ),
-                'pages'=>array(
-                    'name'
-                ),
-                'pages_region'=>array(
-                    'content'
-                ),
-                'products'=>array(
-                    'name', 'review', 'features', 'construct_features', 'experience'
-                ),
-                'products_region'=>array(
-                    'additional_review'
-                ),
-                'search_log'=>array(
-                    'query'
-                )
-            );
-            $tables_quick = array(
-                'banner_region'=>'name',
-                'contacts'=>'name',
-                'makers'=>'name',
-                'news'=>'header',
-                'pages'=>'name',
-                'products'=>'name',
-            );
-            if ($quick){
-                return $tables_quick;
-            }
-            return $tables;
-        }
+        /*
+         * @return quick search tables
+         */
+        public static $tables_quick = array(
+                'menu_items'=>array('header', 'meta_description')
+        );
 
-        public function getSearchResult($q)
+        public function getSearchResult($q, $type, $offset, $limit)
         {
-            if (!$q)
-            {
-                return false;
-            }
-            if ($this->prepareSqlite()){
-                if($return = $this->getSearchResultDb($q))
+            if (!$q){return false;}
+                $return = $this->getSearchResultDb($q, false, $type, $offset, $limit);
+                if($return){
                     return $return;
-            }
-            return false;
+                }
+        }
+        
+        public function getResultCount($q, $type)
+        {
+            if (!$q){return false;}
+                $return = $this->getSearchResultDb($q, true, $type);
+                if($return){
+                    return $return;
+                }
         }
         
         public function getQuickResult($q)
         {
-            if (!$q)
-            {
-                return false;
-            }
-            if ($this->prepareSqlite()){
-                if($return = $this->getQuickResultDb($q))
+            if (!$q){return false;}
+//            if ($this->prepareSqlite()){
+                $return = $this->getQuickResultDb($q);
+                if($return){
                     return $return;
-            }
+                }
+//            }
         }
 
-        private function prepareSqlite()
+        public function prepareSqlite()
         {
-            function lower($str){return mb_strtolower($str, "UTF-8");}
-            function sql_regexp($x,$y){ return (int)preg_match("`$y`i",$x);}
+            function lower($str){
+                $return = str_replace(array(")", "(", "'", '"' ), "", $str);
+                return mb_strtolower(strip_tags($return), "UTF-8");
+            }
+            function sql_regexp($x,$y){
+                $match = preg_match("`$y`i",$x);
+                return (int)$match;
+            }
             Yii::app()->db->getPdoInstance()->sqliteCreateFunction('lower', 'lower', 1);
             Yii::app()->db->getPdoInstance()->sqliteCreateFunction('regexp', 'sql_regexp', 2);
             return true;
         }
         
-        private function getSearchResultDb($q)
+        /*
+         * 
+	 * Returns the search result form DB
+	 * @param array $query array query string.
+         * @param boolean $count if true - returns the count of matches found
+	 * @return array search result array.
+         * 
+	 */
+        private function getSearchResultDb($q, $count = false, $type = 1, $offset = false, $limit = false)
         {
             $str = $this->getPhrasesArray($q);
-            $return = array();
-            array_unique($str);
-            $tables = $this->searchTables();
-            foreach ($tables as $table_name=>$row_array)
-            {
-                foreach ($str as $key=>$query){
-                    $query = str_replace(array(")", "(", "'" ), array("\)","\(", "\""), addslashes($query));
-                    $where = array('or');
-                    foreach ($row_array as $indx=>$row)
-                    {
-                        array_push($where, "regexp(lower(".$row."), '".$query."')");
-                    }
-                    $query_result = Yii::app()->db->createCommand()
-                            ->select('*')
-                            ->from($table_name)
-                            ->where($where)
-                            ->queryAll();
-                    
-                    if (!empty($query_result)){
-                        foreach ($query_result as $result){
-                            if (!in_array($result, $return, TRUE))
-                                array_push($return, $result);
-                        }
-                    }
-                        
-                    
+            array_unshift($str, $q);
+            $fields = SearchIndex::model()->getMetaData()->tableSchema->columns;
+            $where = array('or');
+            $where1 = array('or');
+            $select = '*';
+            if($count){
+                $select = 'count(*) as num';
+            }
+            foreach ($fields as $field=>$obj){
+                if($obj->type==='string' && $obj->name!=='date')
+                {
+                    $where = array_merge((array)$where, (array)$this->getWhereRegExp($str, $field));
                 }
             }
-            array_unique($return, SORT_NUMERIC);
-            return $return;
+            switch ($type){
+                case SearchLog::CATALOG:
+                    array_push($where1, 'type='.MenuItems::PRODUCT_MENU_ITEM_TYPE, 'type='.MenuItems::BANNERS_MENU_ITEM_TYPE);
+                   break;
+                case SearchLog::NEWS:
+                    array_push($where1, 'type='.MenuItems::NEWS_MENU_ITEM_TYPE);
+                    break;
+                default:
+                    array_push($where1, 'type IN ('.MenuItems::CONTACT_MENU_ITEM_TYPE.', '.MenuItems::STATIC_MENU_ITEM_TYPE.')');
+                    break;
+            }
+             $query_params = array(
+                'select'=>$select,
+                'from'=>'search_index',
+                'where'=>array('and', $where1, $where)
+            );
+             
+            if($offset!==false && $limit!==false){
+                $query_params['offset'] = $offset;
+                $query_params['limit'] = $limit;
+            }
+            $result = Yii::app()->db->createCommand($query_params)->queryAll();
+            
+            if($count){
+                return $result[0]['num'];
+            }
+            return $result;
         }
         
+        private function getWhereRegExp($str, $field){
+            if(!$str || !$field){
+                return false;
+            }
+            $where = array();
+            foreach ($str as $query){
+                $query = str_replace(array(")", "(", "'", '"', '&', '?' ), "", $query);
+                array_push($where, "regexp(lower(".$field."), '".$query."')");
+            }
+            return $where;
+        }
+        
+        /*
+         * 
+	 * Returns the search quick result form DB
+	 * @param array $query array query string.
+	 * @return array search result array.
+         * 
+	 */
         private function getQuickResultDb($query)
         {
-            $return = array();
-            $tables = $this->searchTables(true);
-            foreach ($tables as $table_name=>$row_name)
+            $tables = self::$tables_quick;
+            /*
+             * $product_type, $category_type - menu items type (4, 0)
+             */
+            $product_type = MenuItems::PRODUCT_MENU_ITEM_TYPE;
+            $category_type = MenuItems::BANNERS_MENU_ITEM_TYPE;
+            $where = array('or');
+            foreach ($tables['menu_items'] as $row_name)
             {
-                $query_result = Yii::app()->db->createCommand()
-                            ->select('*')
-                            ->from($table_name)
-                            ->where("lower(".$row_name.") LIKE lower('%".$query."%')")
-                            ->queryAll();
-                if (!empty($query_result)){
-                    foreach ($query_result as $result){
-                        array_push($return, $result);
-                    }
-                }
-                
+                $query = str_replace(array(")", "(", "'", '"' ), "", $query);
+                array_push($where, "lower(".$row_name.") LIKE lower('%".$query."%')");
             }
-            return $return;
+            $query_result = Yii::app()->db->createCommand()
+                            ->select('id, '.  implode(', ', $tables['menu_items']))
+                            ->from('menu_items')
+                            ->where(array('and', 'published=1', $tables['menu_items'][0].'!=""' ,array('or','type='.$product_type, array('and', 'type='.$category_type, 'level>4')), $where))
+                            ->limit(15)
+                            ->queryAll();
+            return $query_result;
         }
-        private function getPhrasesArray($query)
+        
+        /*
+         * 
+         * Returns an array of morphological forms request
+         * @param string $query query string
+         * @return array array of query string
+         * 
+         */
+        public function getPhrasesArray($query)
         {
             $stemmer = new Lingua_Stem_Ru();
             $phrases = array();
@@ -240,7 +276,7 @@ class SearchLog extends CActiveRecord
             $word = $stemmer->stem_string($query);
             $word_array = explode(' ', $word);
             if (count($word_array)>1)
-                array_push($phrases, implode('[^\s]* ', $word_array));
+                array_push($phrases, implode(' ', $word_array));
             foreach ($word_array as $item)
             {
                 array_push($phrases, $item);

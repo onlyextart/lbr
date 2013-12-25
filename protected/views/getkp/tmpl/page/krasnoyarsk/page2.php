@@ -1,7 +1,14 @@
+<?php
+    $info = explode('<br>', $data['user_info']);
+    $managerName = $info[0];
+    unset($info[0]);
+    $managerInfo = implode("<br>", $info);
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <title></title>
         <style>
             body{
@@ -111,7 +118,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый  <?php echo $clientName ?> !
+                                  <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
@@ -124,7 +131,8 @@
                             <div style="margin-top: 42px; font-size: 9pt">
                                 <div style="font-weight: 900; margin-bottom: 19px">Мы всегда рады Вам на площадке и в офисе нашего АгроМаркета</div>
                                 <i>
-                                   Красноярский край, г. Красноярск, ул. Калинина, д. 169, стр. 11<br/>
+                                   Красноярский край, г. Красноярск, <br/>
+                                   ул. Калинина, д. 169, стр. 11<br/>
                                    т. 8 983 143 23 23<br/>
                                    krasnoyarsk@lbr.ru
                                 </i>
@@ -143,15 +151,15 @@
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-krasnoyarsk.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Белгородского АгроМаркета ЛБР</div>
+                                        <div style="">C уважением, <br/> И.О. Директора Красноярского АгроМаркета ЛБР</div>
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Романов Д.В.
+                                                Дмитриенко Е.Н.
                                             </span>
                                         </div>
                                     </div>
@@ -174,15 +182,15 @@
                             <div class="event-content">
                                 Агропромышленный форум Сибири - 2014
                             </div>
-                            <div class="event-header">01.02.2014 - 30.04.2015</div>
+                            <div class="event-header">01.02.2015 - 30.04.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (посадка)
                             </div> 
-                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-header">01.07.2015 - 30.09.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технике для возделывания овощей (уборка)
                             </div> 
-                            <div class="event-header">01.05.2014 - 31.07.2014</div>
+                            <div class="event-header">01.05.2016 - 31.07.2016</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>
@@ -198,14 +206,20 @@
                 <ul class="main-content-row">
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
+                            <!--ul class="main-content-row" style="font-size: 9pt;">
+                                <li>
+                                    <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                        Ваш персональный менеджер <? echo $data['user_info']; ?>
+                                    </span>
+                                </li>
+                            </ul-->
                             <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="width:82%">
+                                <li style="width:78%; min-width: 200px">
                                     <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
-                                        <?php echo $managerPhones ?></br>
-                                        <?php echo $managerEmail ?>
+                                        <? echo $managerInfo ?>
                                     </div>
                                 </li>
                             </ul>

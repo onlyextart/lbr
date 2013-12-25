@@ -6,7 +6,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
         'name', 
         'district_id'=> array (
         'name'=> 'district_id',
-        'value'=> 'Yii::app()->params["districts"][$data->district_id]',
+        'value'=> 'Regions::$districts[$data->district_id]',
         ),
         'contact_id'=> array (
         'name'=> 'contact_id',

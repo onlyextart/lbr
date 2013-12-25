@@ -74,13 +74,26 @@ class MapController extends Controller
             $tree = '<ul style = "list-style-type: ' . $listStyleType . ';" class="level_' . $level . '">';
             foreach($cats as $cat) {
                 $path = $cat['path'];
-                $find = strpos($path, '//');
-                if($find){
-                    $path = substr($path, $find+2);
-                    $path = substr($path, strpos($path, '/')); 
+                if($path == '/index') { 
+                    $path = '';
+                } else{
+                    $find = strpos($path, 'www');
+                    if($find) {
+                        $path = 'http://' . substr($path, $find); 
+                    }
                 }
+                
                 $display = $cat['published'] ? '': 'display: none';
-                $tree .= '<li style="' . $display . '"><a style="text-decoration: none" href="' . $path . '/">' . $cat['name'] . '</a>';
+                $li = '<li style="' . $display . '"><a style="text-decoration: none" href="' . $path . '/">' . $cat['name'] . '</a>';
+                //var_dump($li);
+                //href="/http://www.lbr.nichost.ru/spareparts/?c=83/">Запчасти</a>'
+                $find = strpos($li, '/http://');
+                //if($find){
+                    //$li1 = substr($li, 0, $find);
+                    //$li2 = substr($li, $find + 8);
+                    //$li = $li1 . ' = ' . $li;// . $li2; 
+                //}
+                $tree .= $li;
                 $tree .= $this->buildHtmlTree($cat['children'], $cat['level']);
                 $tree .= '</li>';
             }

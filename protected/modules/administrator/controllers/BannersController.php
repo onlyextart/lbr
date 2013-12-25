@@ -4,11 +4,89 @@ class BannersController extends Controller
 {
 	public function actionIndex()
 	{
-                $dataProvider = new CActiveDataProvider('Banners');
-                $this->render('index', array('dataProvider'=>$dataProvider));
+            // Выбранный пункт меню, если нет, то Главная
+            $selected = Yii::app()->user->getState('menu-filter');
+            if(!$selected){
+                $selected = 56;
+            }
+            // Фильтр второго уровня
+            $sub = Yii::app()->user->getState('sub-menu-filter');
+            if(!$sub){
+                $sub = $selected;
+            }
+            
+            // Выбрать ненужный пункт меню
+            $not = Yii::app()->db->createCommand()->select('lft, rt')->from('menu_items')
+                                ->where('id=91')->queryRow();
+            
+            // Дочерние пункты меню для выбранного в данный момент
+            $model = MenuItems::model()->findByPk($selected);
+            $children = $model->descendants()->findAll('level<=5 AND type=0 AND (lft NOT BETWEEN '.$not['lft'].' AND '.$not['rt'].')');
+            
+            
+            // Выборка для выпадающего списка
+            $select = MenuItems::model()->findAll(array('condition'=>'level<=4 AND type=0 AND (lft NOT BETWEEN '.$not['lft'].' AND '.$not['rt'].') ORDER BY lft'));
+            
+            // Выбор банеров текущего пункта меню
+            $criteria = new CDbCriteria();
+            $criteria->condition = 'item_id=:item_id';
+//            $criteria->order = 'page_id ASC';
+            $criteria->params = array(
+                ':item_id'=>$sub,
+            );
+            $dataProvider = new CActiveDataProvider('MenuItemsContent', array(
+                'criteria'=>$criteria,
+                'pagination'=>false
+            ));
+            $this->render('index', array('select'=>$select, 'children'=>$children, 'change'=>$selected, 'banners'=>$dataProvider, 'subchange'=>$sub));
 	}
         
-	public function actionCreate()
+
+        public function actionShowBanners($id){
+            if($id){
+                $sub = $id;
+                Yii::app()->user->setState('sub-menu-filter', $id);
+            }else{
+                $sub = Yii::app()->user->getState('sub-menu-filter');
+            }
+            if(!$sub){
+                $selected = Yii::app()->user->getState('menu-filter');
+                $sub = $selected?$selected:56;
+            }
+            $criteria = new CDbCriteria();
+            $criteria->condition = 'item_id=:item_id';
+//            $criteria->order = 'page_id ASC';
+            $criteria->params = array(
+                ':item_id'=>$sub,
+            );
+            $dataProvider = new CActiveDataProvider('MenuItemsContent', array(
+                'criteria'=>$criteria,
+                'pagination'=>false
+            ));
+            $this->renderPartial('_banners', array('change'=>$selected, 'banners'=>$dataProvider));
+        }
+        
+        public function actionShowSubFilter($id){
+            if(!$id){
+                $id = Yii::app()->user->getState('menu-filter');
+            }
+            $id = $id?$id:56;
+            Yii::app()->user->setState('menu-filter', $id);
+            Yii::app()->user->setState('sub-menu-filter', $id);
+            
+            if($_REQUEST['ajax']==0){
+                Yii::app()->request->redirect('/administrator/banners/');
+            }
+            // Выбрать ненужный пункт меню
+            $not = Yii::app()->db->createCommand()->select('lft, rt')->from('menu_items')
+                                ->where('id=91')->queryRow();
+            
+            $model = MenuItems::model()->findByPk($id);
+            $children = $model->descendants()->findAll('level<=5 AND type=0 AND (lft NOT BETWEEN '.$not['lft'].' AND '.$not['rt'].')');
+            $this->renderPartial('_subfilter', array('children'=>$children, 'change'=>$id));
+        }
+        
+        public function actionCreate()
 	{
 		$bannerModel = new Banners();
 		$filialModels = Contacts::model()->findAll();
@@ -429,7 +507,7 @@ class BannersController extends Controller
             echo('done');
         }
         public function actionTransferIndexBanners(){
-//            exit();
+            exit();
             $connectionJlbrDb=new CDbConnection('mysql:host=localhost;dbname=lbr_jlbr','mysql','mysql');
             $connectionJlbrDb->active=true;
             function lower($str){return mb_strtolower($str, "UTF-8");}

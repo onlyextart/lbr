@@ -27,7 +27,7 @@ div.manage_buttons input{
 
 	<div class="row">
 		<?php echo $form->labelEx($regionModel,'district_id'); ?>
-		<?php echo $form->dropDownList($regionModel,'district_id', Yii::app()->params['districts']); ?>
+		<?php echo $form->dropDownList($regionModel,'district_id', Regions::$districts); ?>
 		<?php echo $form->error($regionModel,'district_id'); ?>
 	</div>
 

@@ -121,7 +121,7 @@ class CategoryUrlRule extends CBaseUrlRule
         foreach($breadcrumbsMenuBranch as $ancestor){
             if($ancestor->level == 1 || $ancestor->id == $this->desiredMenuItem->id )
                     continue;
-            $breadcrumbs[$ancestor->name] = $ancestor->path;
+            $breadcrumbs[$ancestor->name] = $ancestor->path.'/';
         }
         $breadcrumbs[]=$this->desiredMenuItem->name;
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;
@@ -149,17 +149,31 @@ class CategoryUrlRule extends CBaseUrlRule
         return false;
     }
     
+    public static function getParents($id){
+        if($id){
+            $menuItem = MenuItems::model()->findByPk($id);
+            $parents = $menuItem->ancestors()->findAll();
+            if(!empty($parents))
+            {
+                $return = array();
+                foreach ($parents as $parent){
+                    array_push($return, array('id'=>$parent->id, 'header'=>$parent->header, 'path'=>$parent->path));
+                }
+                return $return;
+            }
+        }
+    }
+
+
     private function paramsToString($params, $argumentName=null){
         $pathParamsString = "";
         foreach($params as $name=>$value){
             if(is_array($value)){
                 $pathParamsString .= $this->paramsToString($value, $name);
-            }
-            else{
+            } else{
                 if($argumentName===null){
                     $pathParamsString .= $name.'='.$value.'&';
-                }
-                else{
+                } else{
                     $pathParamsString .= $argumentName.'['.$name.']'.'='.$value.'&';
                 }
             }
@@ -167,4 +181,3 @@ class CategoryUrlRule extends CBaseUrlRule
         return $pathParamsString;
     }
 }
-?>

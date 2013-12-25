@@ -40,7 +40,7 @@
     </div>
     <div class="right">
         <? 
-        if ($mess == Yii::app()->user->getFlash('message')){
+        if ($mess = Yii::app()->user->getFlash('message')){
             echo '<div class="message success">'.$mess.'</div>';
         }
         if ($view){
@@ -69,6 +69,6 @@
 </div>
 <style>
 .left .list-view .pager ul.yiiPager li.page{
-    width: <? echo 100/$data->pagination->pageCount; ?>%;
+    width: <?php echo 100/$data->pagination->pageCount; ?>%;
 }
 </style>

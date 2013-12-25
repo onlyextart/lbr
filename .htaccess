@@ -1,4 +1,130 @@
-AddType text/x-component .htc
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
+
+Options +FollowSymLinks
+
+## Mod_rewrite in use.
+
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+# Block out any script that includes a <script> tag in URL.
+RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL.
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL.
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Return 403 Forbidden header and show the content of the root homepage
+RewriteRule .* index.php [F]
+#
+## End - Rewrite rules to block out some common exploits.
+
+
+RewriteCond %{REQUEST_URI} ^/home
+RewriteRule (.*) http://www.git-lbr.ru [R=301,L]
+RewriteCond %{REQUEST_URI} ^/index\.html$
+RewriteRule (.*) http://www.git-lbr.ru [R=301,L]
+RewriteCond %{REQUEST_URI} ^/robots.txt/
+RewriteRule (.*) http://www.git-lbr.ru/robots.txt [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.php\ HTTP/
+RewriteRule ^(([^/]+/)*)index\.php$ http://www.git-lbr.ru/$1 [R=301,L]
+
+RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*)$ http://www.git-lbr.ru/tehnika/$1$2 [R=301,L]
+#RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*) http://www.git-lbr.ru/tehnika/$1$2 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} !^www\.(.+)$
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
+RewriteRule (.*) http://www.git-lbr.ru/$1/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} !^www\.(.+)$
+RewriteRule (.*) http://www.git-lbr.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
+RewriteCond %{REQUEST_FILENAME} !robots.txt
+RewriteRule ^(.*)$ http://www.git-lbr.ru/$1/ [R=301,L]
+
+RewriteRule ^(contacts/)(.*[^getregionstable/]) http://www.git-lbr.ru/company/$1$2 [R=301,L]
+RewriteRule ^(news/)(.*) http://www.git-lbr.ru/company/events/$2 [R=301,L]
+RewriteRule ^(about/)(.*) http://www.git-lbr.ru/company/ [R=301,L]
+RewriteRule ^(vacancy/|company/vacancy)(.*) http://carrer.git-lbr.ru/vacancy/$2 [R=301,L]
+#http://www.git-lbr.ru/vacancy/ --> http://www.git-lbr.ru/company/vacancy/
+RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-atlant)(.*) http://www.git-lbr.ru/$1/frontalnye-traktornye-pogruzchiki/atlant/ [R=301,L]
+RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-gerkules)(.*) http://www.git-lbr.ru/$1/frontalnye-traktornye-pogruzchiki/gerkules/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/637-grabli-kolesno-paltsevye-raptor/)(.*) http://www.git-lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/373-grabli-kolesno-paltsevye-raptor/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/597-diskovye-borony-cut/)(.*) http://www.git-lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/329-diskovye-borony-cut/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/246-diskovye-seyalki-double-disk/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/246-diskovye-seyalki-double-disk/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/245-diskovye-seyalki-single-disk/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/245-diskovye-seyalki-single-disk/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/248-seyalka-mekhanicheskaya-2sf30/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/248-seyalka-mekhanicheskaya-2sf30/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/247-mekhanicheskie-seyalki-great-plains/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/247-mekhanicheskie-seyalki-great-plains/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/268-pnevmaticheskie-seyalki-nta3510/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/267-pnevmaticheskie-seyalki-great-plains/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/267-pnevmaticheskie-seyalki-great-plains/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/251-seyalka-kultivator-centurion/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/251-seyalka-kultivator-centurion/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/584-morris/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/584-morris/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/587-seyalka-maxim/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/587-seyalka-maxim/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/697-pnevmaticheskie-seyalki-spartan-607/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/701-pnevmaticheskie-seyalki-spartan-907/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
+
+RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
+RewriteRule ^tehnika/([^/]*)/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
+RewriteRule ^tehnika/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
+RewriteRule ^selskohozyaystvennaya-tehnika/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
+
+#RedirectMatch 301 ^tehnika/(.*?[^/]/)(.*?[/]/)$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1$2
+## End - Custom redirects
+
+##
+# Uncomment following line if your webserver's URL
+# is not directly related to physical file paths.
+# Update Your Joomla! Directory (just / for root).
+##
+
+# RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} robots.txt
+RewriteCond %{HTTP_HOST} ^www\.(.+)\.git-lbr\.ru$
+RewriteRule (.*)  /robotsRegion.txt [L]
+
+RewriteCond %{REQUEST_FILENAME} robots.txt
+RewriteCond %{HTTP_HOST} ^www\.git-lbr\.ru$
+RewriteRule (.*)  /rob.txt [L]
+
+## Begin - Joomla! core SEF Section.
+#
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+#
+# If the requested path and file is not /index.php and the request
+# has not already been internally rewritten to the index.php script
+RewriteCond %{REQUEST_URI} !^/index\.php
+#RewriteCond %{REQUEST_URI} !^/yandex_7bec6b951c74701b\.txt
+#RewriteCond %{REQUEST_URI} !^/google7ae7d265e02d3aa5\.html
+
+
+# and the request is for something within the component folder,
+# or for the site root, or for an extensionless URL, or the
+# requested URL ends with one of the listed extensions
+RewriteCond %{REQUEST_URI} /component/|(/[^.]*|\.(php|html?|feed|pdf|vcf|raw))$ [NC]
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+# internally rewrite the request to the index.php script
+RewriteRule .* index.php [L]
+#
+## End - Joomla! core SEF Section.
+
+#AddType text/x-component .htc
 php_value magic_quotes_gpc off
 AddCharset utf-8 *
 AddDefaultCharset UTF-8
@@ -7,11 +133,6 @@ CharsetSourceEnc utf-8
 CharsetDefault utf-8
 </IfModule>
 
-RewriteEngine on
-
-# if a directory or a file exists, use it directly
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# otherwise forward it to index.php
-RewriteRule . index.php
+AddType application/octet-stream pdf
+AddType application/octet-stream .pdf
+AddType application/octet-stream *.pdf

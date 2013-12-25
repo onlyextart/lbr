@@ -1,31 +1,21 @@
 <?php
-class RecentNewsWidget extends CWidget {
-    
-    public function init()
-	{		              
- 
-	}
-    
+class RecentNewsWidget extends CWidget 
+{
     public function run()
-	{
-	   if(Yii::app()->params['currentMenuItem']->level!=1)
-	    return;
-        $eventModels = News::model()->with(
-        array(
-            'newsRegions'=>array(
-                // we don't want to select posts
-                //'select'=>false,
-                // but want to get only users with published posts
-                'joinType'=>'INNER JOIN',
-                'condition'=>'newsRegions.filial_id='.Yii::app()->params['regionId'],
-            ),
-        )
-        )->findAll(array(
-            'condition'=>'published=1',
-            'limit'=>4,
-        ));   
-        $this->render('index', array('eventModels'=>$eventModels));
-	}
-}
+    {
+       //var_dump(111);exit;
+       //echo 111;exit;
+       if(Yii::app()->params['currentMenuItem']->level!=1) return;
 
-?>
+       $criteria = new CDbCriteria();
+       $criteria->together = true; // relations
+       $criteria->with = array('newsRegions');
+       $criteria->compare('published', 1);
+       $criteria->compare('newsRegions.filial_id', array(Yii::app()->params['defaultRegionId'], Yii::app()->params['regionId']));
+       $criteria->order = 'date DESC';
+       $criteria->limit = 4;
+
+       $eventModels = News::model()->findAll($criteria);
+       $this->render('index', array('eventModels'=>$eventModels));
+    }   
+}

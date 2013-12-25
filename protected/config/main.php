@@ -39,17 +39,25 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
                         'showScriptName'=>false,
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
                                 '<_a:sitemap>' => 'site/<_a>/',
+                                //'company/events/page/<page:\d+>/*'=>'news/index',
+                            
+                                //'<controller>/<action>/<page:\d+>/*'=>'<controller>/<action>',
+                            
+                                
+                                //'company/events' => '',
+                                //'<controller:\w+>/<action:\w+>/*'=>'<controller>/<action>',
+                                
 //				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 //				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 //				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 //                                ''=>'xbanner/index',
+                            
                                 array(
                                     'class'=>'application.components.CategoryUrlRule',
                                     'connectionID'=> 'db',
@@ -108,7 +116,7 @@ return array(
                 'defaultRegionId' => 0,
                 'regionId' => 0,
                 'superGroup' => 1,
-                'host'=>'git-lbr.ru', //'lbr',
+                'host'=>'lbr.ru',
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
@@ -133,7 +141,11 @@ return array(
                         'Регионы'=>'/administrator/regions/',
                     ),
                     'Разные страницы'=>'/administrator/pages/',
-                    'Поиск'=>'/administrator/search/',
+                    'Поиск'=>array(
+                        'Поисковые запросы'=>'/administrator/search/',
+                        'Индексирование страниц'=>'/administrator/search/indexing/',
+                        'Топ запросов'=>'/administrator/search/top/'
+                    ),
                     'КП'=>array(
                         'КП'=>'/administrator/templateKp/',
                         'Шаблоны'=>'/administrator/template/',

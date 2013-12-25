@@ -1,3 +1,9 @@
+<?php
+    $info = explode('<br>', $data['user_info']);
+    $managerName = $info[0];
+    unset($info[0]);
+    $managerInfo = implode("<br>", $info);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -111,7 +117,7 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $clientName ?> !
+                                 <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Разрешите представить Вам наш обновленный каталог с широким ассортиментом 
@@ -144,7 +150,7 @@
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://git-lbr.ru/images/kp/lbr-photo.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://git-lbr.ru/images/kp/lbr-photo-samara.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -171,7 +177,7 @@
                             <div class="event-content">
                                 Поволжская агропромышленная неделя
                             </div>
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологиям заготовки кормов
                             </div>
@@ -187,14 +193,20 @@
                 <ul class="main-content-row">
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
+                            <!--ul class="main-content-row" style="font-size: 9pt;">
+                                <li>
+                                    <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                        Ваш персональный менеджер <? echo $data['user_info']; ?>
+                                    </span>
+                                </li>
+                            </ul-->
                             <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="width:82%">
+                                <li style="width:78%; min-width: 200px">
                                     <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
-                                        <?php echo $managerPhones ?></br>
-                                        <?php echo $managerEmail ?>
+                                        <? echo $managerInfo ?>
                                     </div>
                                 </li>
                             </ul>

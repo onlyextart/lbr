@@ -28,6 +28,7 @@ $makers = Makers::model()->findAll(array(
     <div class="b_images">
         <div class="b_images_overflow">
             <div class="b_images_conteiner">
+                <?php $cap = ''; ?>
                 <? foreach ($data->bannerImages as $indx=>$image){ ?>
                     <section class="b_images_one_image">
                         <? if ($indx==0){?>
@@ -35,12 +36,39 @@ $makers = Makers::model()->findAll(array(
                         <? }else{?>
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                             <?} if($image->type=='1'){?>
-                                <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
+                                <div class="time_to_buy">
+                                    <?php $cap = '<section class="b_images_one_image"><img src="/images/1.gif" data-src="/images/timetobuy/ttbWinter/general430.jpg" /></section>';?>
+                                    <div class="time_to_buy_description">
+                                        <span><?php echo $image->description; ?></span>
+                                    </div>
+                                    <?php if($image->top_left):?>
+                                        <div class="time_to_buy_top_left">
+                                            <span>экономия</span>
+                                            <span><?php echo $image->top_left;?> %</span>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->top_right):?>
+                                        <div class="time_to_buy_top_right">
+                                            
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->bottom_right):?>
+                                        <div class="time_to_buy_bottom_right">
+                                        </div>
+                                    <?php endif;?>
+                                    <?php if($image->bottom_left):?>
+                                        <div class="time_to_buy_bottom_left">
+                                            <span><?php echo $image->bottom_left; ?></span>
+                                        </div>
+                                    <?php endif;?>
+                                </div>
+                                <!--<div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>-->
                             <? }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
                             <? }?>
                     </section>
                 <? } ?>
+                <?php echo $cap; ?>
             </div>
         </div>
     </div>

@@ -1,7 +1,14 @@
+<?php
+    $info = explode('<br>', $data['user_info']);
+    $managerName = $info[0];
+    unset($info[0]);
+    $managerInfo = implode("<br>", $info);
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <title></title>
         <style>
             body{
@@ -111,11 +118,11 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $clientName ?> !
+                                 <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
-                                Благодарим Вас за сотрудничество в 2013 годую Искренне верим, 
-                                что подводя предварительные итоги года, он былл плодотворным и успешным. 
+                                Благодарим Вас за сотрудничество в 2013 году. Искренне верим, 
+                                что подводя предварительные итоги года, он был плодотворным и успешным. 
                                 Мы также надеемся и в дальнейшем быть полезными для Вас в Вашем нелегком труде.
                             </div>
                             <div style="margin-top: 31px; font-size: 12pt;" align="justify">
@@ -177,11 +184,11 @@
                             <div class="event-content">
                                 АгроТек Россия-2014 (в рамках выставки "Золотая осень-2014")
                             </div>
-                            <div class="event-header">07.11.2014 - 10.11.2014</div>
+                            <div class="event-header">07.10.2014 - 10.10.2014</div>
                             <div class="event-content">
                                 Агросалон - 2014
                             </div> 
-                            <div class="event-header">01.04.2014 - 30.06.2014</div>
+                            <div class="event-header">01.04.2015 - 30.06.2015</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>
@@ -197,14 +204,20 @@
                 <ul class="main-content-row">
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 60px">
+                            <!--ul class="main-content-row" style="font-size: 9pt;">
+                                <li>
+                                    <span style="margin-top: 30px; text-align: left; font-weight: 900">
+                                        Ваш персональный менеджер <? echo $data['user_info']; ?>
+                                    </span>
+                                </li>
+                            </ul-->
                             <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="width:82%">
+                                <li style="width:78%; min-width: 200px">
                                     <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
-                                        <?php echo $managerPhones ?></br>
-                                        <?php echo $managerEmail ?>
+                                        <? echo $managerInfo ?>
                                     </div>
                                 </li>
                             </ul>

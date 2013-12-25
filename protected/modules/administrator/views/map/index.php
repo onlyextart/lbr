@@ -33,7 +33,7 @@
 
 <h2 class="col ">Карта сайта Html</h2>
 <div class="menuTreeViewWrapper">
-    <div style="margin: 0 0 10px 5px;">Дата последнего обновления: <?php echo date("d.m.Y H:i:s.", $sitemapDate); ?></div>
+    <div>Дата последнего обновления: <?php echo date("d.m.Y H:i:s.", $sitemapDate); ?></div>
     <a href="/administrator/map/updateSitemapHtml/" class="btn btn-green">Обновить</a>
 </div>
 
