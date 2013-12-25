@@ -15,6 +15,10 @@ $this->widget('zii.widgets.grid.CGridView', array(
         'email',
         'work_time',
         'telephone',
+        'okrug_id'=>array(
+            'name'=>'okrug_id',
+            'value'=>'Yii::app()->params["districts"][$data->okrug_id]',
+        ),
         array(
             'class'=>'CButtonColumn',
             'template'=>'{update}{delete}',

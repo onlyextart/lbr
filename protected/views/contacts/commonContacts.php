@@ -21,7 +21,9 @@ foreach( $districts as $districtId=>$districtName ){
                 ':published'=>'1',
                 ':district_id'=>$districtId
             ),
+            'order'=>'name ASC',
             'group'=>'contact_id'
+            
         )
     );
     $districtNameFirstWord = strstr($districtName, ' ', true);
@@ -30,8 +32,9 @@ foreach( $districts as $districtId=>$districtName ){
     echo CHtml::closeTag('li');
     echo '<li><ul>';
     $emptySpace = (4-(count($regions)%4))%4;
-    $filialFotos = array();
+    $filialFotos = array();    
     foreach($regions as $region){
+        if($districtId==$region->contact->okrug_id){
         echo CHtml::openTag('li', array('class'=>'filial_caption'));
             //echo CHtml::link($region->contact->name, 'http://www.'.$region->contact->alias.'.lbr.ru/company/contacts/'.$region->contact->alias.'/');
             echo CHtml::link($region->contact->name, '/company/contacts/'.$region->contact->alias.'/');
@@ -43,7 +46,7 @@ foreach( $districts as $districtId=>$districtName ){
             }
             $emptySpace--;
         echo CHtml::closeTag('li');
-    }
+    }}
     foreach($filialFotos as $filialFoto){
         echo CHtml::openTag('li', array('class'=>'filial_caption'));
             echo '<img src="http://www.lbr.ru/'.$filialFoto.'">';
