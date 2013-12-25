@@ -99,7 +99,7 @@ class Contacts extends CActiveRecord
 			'info' => 'Информация',
 			'images' => 'Images',
 			'oneC_id' => '1C alias',
-            'okrug_id'=>'Округ'
+                        'okrug_id'=>'Округ'
 		);
 	}
 
@@ -128,7 +128,7 @@ class Contacts extends CActiveRecord
 		$criteria->compare('info',$this->info,true);
 		$criteria->compare('images',$this->images,true);
 		$criteria->compare('oneC_id',$this->oneC_id,true);
-        $criteria->compare('okrug_id',$this->okrug_id,true);
+                $criteria->compare('okrug_id',$this->okrug_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
