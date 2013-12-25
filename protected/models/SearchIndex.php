@@ -223,7 +223,7 @@ class SearchIndex extends CActiveRecord
             if(is_array($text)){
                 $result = '';
                 foreach ($text as $str){
-                    $str = preg_replace('/[^a-zA-ZА-Яа-я0-9-_.\/]isu/', ' ', strip_tags(html_entity_decode(strip_tags($str))));
+                    $str = mb_eregi_replace('/[^a-zA-ZА-Яа-я0-9-_.\/]isu/', ' ', strip_tags(html_entity_decode(strip_tags($str))));
 //                    $str = str_replace(array('.', '  '), array('. ', ' '),$str);
                     $result .= $str;
                 }

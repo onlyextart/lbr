@@ -133,4 +133,74 @@ class SearchController extends Controller
             throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
         }
     }
+    
+    public function actionTop(){
+        if(Yii::app()->user->checkAccess('search'))
+        {
+//            $sort = new CSort();
+//            $sort->sortVar = 'sort';
+//            // сортировка по умолчанию 
+//            $sort->defaultOrder = 'sorted ASC';
+            $dataProvider = new CActiveDataProvider('SearchRecommended');
+            $this->render('recommended/default', array('data'=>$dataProvider));
+        }else{
+            throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
+        }
+    }
+    
+    public function actionCreateTop(){
+        if(Yii::app()->user->checkAccess('search'))
+        {
+            $model = new SearchRecommended();
+            if (isset($_POST['SearchRecommended'])){
+                $model->attributes = $_POST['SearchRecommended'];
+                if($model->save()){
+                    Yii::app()->user->setFlash('saved_id', $model->id);
+                    Yii::app()->user->setFlash('message', 'Запись "'.$model->sorted.'" созданa успешно.');
+                    $this->redirect('/administrator/search/top/');
+                }
+            }
+            $this->renderPartial('recommended/editpage', array('model'=>$model), false, true);
+        }else{
+            throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
+        }
+    }
+    
+    public function actionEditTop($id){
+        if(Yii::app()->user->checkAccess('search'))
+        {
+            if(!$id)
+            {
+                return false;
+            }
+            $model = SearchRecommended::model()->findByPk($id);
+            if (isset($_POST['SearchRecommended'])){
+                $model->attributes = $_POST['SearchRecommended'];
+                if($model->save()){
+                    Yii::app()->user->setFlash('saved_id', $model->id);
+                    Yii::app()->user->setFlash('message', 'Запись "'.$model->sorted.'" успешно отредактированна.');
+                    $this->redirect('/administrator/search/top/');
+                }
+            }
+            $this->renderPartial('recommended/editpage', array('model'=>$model), false, true);
+        }else{
+            throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
+        }
+    }
+    
+    public function actionDeleteTop($id){
+        if(Yii::app()->user->checkAccess('search'))
+        {
+            if(!$id)
+            {
+                return false;
+            }
+            if(SearchRecommended::model()->deleteByPk($id)){
+                Yii::app()->user->setFlash('message', 'Запись удалена успешно.');
+                $this->redirect('/administrator/search/top/');
+            }
+        }else{
+            throw new CHttpException(403,Yii::t('yii','У Вас недостаточно прав доступа.'));
+        }
+    }
 }

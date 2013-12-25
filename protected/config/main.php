@@ -144,7 +144,7 @@ return array(
                     'Поиск'=>array(
                         'Поисковые запросы'=>'/administrator/search/',
                         'Индексирование страниц'=>'/administrator/search/indexing/',
-                        'Топ запросов'=>'/administrator/search/'
+                        'Топ запросов'=>'/administrator/search/top/'
                     ),
                     'КП'=>array(
                         'КП'=>'/administrator/templateKp/',
