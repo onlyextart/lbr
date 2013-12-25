@@ -23,65 +23,65 @@ RewriteRule .* index.php [F]
 
 
 RewriteCond %{REQUEST_URI} ^/home
-RewriteRule (.*) http://www.git-lbr.ru [R=301,L]
+RewriteRule (.*) http://www.lbr.ru [R=301,L]
 RewriteCond %{REQUEST_URI} ^/index\.html$
-RewriteRule (.*) http://www.git-lbr.ru [R=301,L]
+RewriteRule (.*) http://www.lbr.ru [R=301,L]
 RewriteCond %{REQUEST_URI} ^/robots.txt/
-RewriteRule (.*) http://www.git-lbr.ru/robots.txt [R=301,L]
+RewriteRule (.*) http://www.lbr.ru/robots.txt [R=301,L]
 
 RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.php\ HTTP/
-RewriteRule ^(([^/]+/)*)index\.php$ http://www.git-lbr.ru/$1 [R=301,L]
+RewriteRule ^(([^/]+/)*)index\.php$ http://www.lbr.ru/$1 [R=301,L]
 
-RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*)$ http://www.git-lbr.ru/tehnika/$1$2 [R=301,L]
-#RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*) http://www.git-lbr.ru/tehnika/$1$2 [R=301,L]
+RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*)$ http://www.lbr.ru/tehnika/$1$2 [R=301,L]
+#RewriteRule ^(kombajny-zernouborochnye/|traktory/|kormozagotovka/|teleskopicheskie-pogruzchiki/|frontalnye-traktornye-pogruzchiki/|shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/|klassicheskie-tekhnologii-pochvoobrabotki-i-seva/|vozdelyvanie-propashnykh-kultur/|ovoshchi-i-kartofel/|opryskivateli/|vnesenie-udobrenij/|kormorazdatchiki-i-kombikormovye-mini-zavody/|selkhoz-pritsepy-i-peregruzchiki/|sistemy-poliva-i-irigatsii/|zhatki-i-podborshchiki/|dorabotka-i-khranenie-zerna/)(.*) http://www.lbr.ru/tehnika/$1$2 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{HTTP_HOST} !^www\.(.+)$
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
-RewriteRule (.*) http://www.git-lbr.ru/$1/ [R=301,L]
+RewriteRule (.*) http://www.lbr.ru/$1/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{HTTP_HOST} !^www\.(.+)$
-RewriteRule (.*) http://www.git-lbr.ru/$1 [R=301,L]
+RewriteRule (.*) http://www.lbr.ru/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
 RewriteCond %{REQUEST_FILENAME} !robots.txt
-RewriteRule ^(.*)$ http://www.git-lbr.ru/$1/ [R=301,L]
+RewriteRule ^(.*)$ http://www.lbr.ru/$1/ [R=301,L]
 
-RewriteRule ^(contacts/)(.*[^getregionstable/]) http://www.git-lbr.ru/company/$1$2 [R=301,L]
-RewriteRule ^(news/)(.*) http://www.git-lbr.ru/company/events/$2 [R=301,L]
-RewriteRule ^(about/)(.*) http://www.git-lbr.ru/company/ [R=301,L]
-RewriteRule ^(vacancy/|company/vacancy)(.*) http://carrer.git-lbr.ru/vacancy/$2 [R=301,L]
-#http://www.git-lbr.ru/vacancy/ --> http://www.git-lbr.ru/company/vacancy/
-RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-atlant)(.*) http://www.git-lbr.ru/$1/frontalnye-traktornye-pogruzchiki/atlant/ [R=301,L]
-RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-gerkules)(.*) http://www.git-lbr.ru/$1/frontalnye-traktornye-pogruzchiki/gerkules/ [R=301,L]
-RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/637-grabli-kolesno-paltsevye-raptor/)(.*) http://www.git-lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/373-grabli-kolesno-paltsevye-raptor/ [R=301,L]
-RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/597-diskovye-borony-cut/)(.*) http://www.git-lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/329-diskovye-borony-cut/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/246-diskovye-seyalki-double-disk/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/246-diskovye-seyalki-double-disk/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/245-diskovye-seyalki-single-disk/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/245-diskovye-seyalki-single-disk/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/248-seyalka-mekhanicheskaya-2sf30/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/248-seyalka-mekhanicheskaya-2sf30/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/247-mekhanicheskie-seyalki-great-plains/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/247-mekhanicheskie-seyalki-great-plains/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/268-pnevmaticheskie-seyalki-nta3510/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/267-pnevmaticheskie-seyalki-great-plains/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/267-pnevmaticheskie-seyalki-great-plains/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/251-seyalka-kultivator-centurion/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/251-seyalka-kultivator-centurion/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/584-morris/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/584-morris/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/587-seyalka-maxim/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/587-seyalka-maxim/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/697-pnevmaticheskie-seyalki-spartan-607/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/701-pnevmaticheskie-seyalki-spartan-907/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/ [R=301,L]
-RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/)(.*) http://www.git-lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
+RewriteRule ^(contacts/)(.*[^getregionstable/]) http://www.lbr.ru/company/$1$2 [R=301,L]
+RewriteRule ^(news/)(.*) http://www.lbr.ru/company/events/$2 [R=301,L]
+RewriteRule ^(about/)(.*) http://www.lbr.ru/company/ [R=301,L]
+RewriteRule ^(vacancy/|company/vacancy)(.*) http://carrer.lbr.ru/vacancy/$2 [R=301,L]
+#http://www.lbr.ru/vacancy/ --> http://www.lbr.ru/company/vacancy/
+RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-atlant)(.*) http://www.lbr.ru/$1/frontalnye-traktornye-pogruzchiki/atlant/ [R=301,L]
+RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-gerkules)(.*) http://www.lbr.ru/$1/frontalnye-traktornye-pogruzchiki/gerkules/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/637-grabli-kolesno-paltsevye-raptor/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/373-grabli-kolesno-paltsevye-raptor/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/597-diskovye-borony-cut/)(.*) http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/329-diskovye-borony-cut/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/246-diskovye-seyalki-double-disk/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/246-diskovye-seyalki-double-disk/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/245-diskovye-seyalki-single-disk/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/245-diskovye-seyalki-single-disk/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/248-seyalka-mekhanicheskaya-2sf30/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/248-seyalka-mekhanicheskaya-2sf30/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/247-mekhanicheskie-seyalki-great-plains/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/247-mekhanicheskie-seyalki-great-plains/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/268-pnevmaticheskie-seyalki-nta3510/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/267-pnevmaticheskie-seyalki-great-plains/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/267-pnevmaticheskie-seyalki-great-plains/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/251-seyalka-kultivator-centurion/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/251-seyalka-kultivator-centurion/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/584-morris/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/584-morris/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/587-seyalka-maxim/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/587-seyalka-maxim/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/697-pnevmaticheskie-seyalki-spartan-607/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/701-pnevmaticheskie-seyalki-spartan-907/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
 
-RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
-RewriteRule ^tehnika/([^/]*)/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
-RewriteRule ^tehnika/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
-RewriteRule ^selskohozyaystvennaya-tehnika/$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
+RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
+RewriteRule ^tehnika/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
+RewriteRule ^tehnika/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
+RewriteRule ^selskohozyaystvennaya-tehnika/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
 
-#RedirectMatch 301 ^tehnika/(.*?[^/]/)(.*?[/]/)$ http://www.git-lbr.ru/selskohozyaystvennaya-tehnika/type/$1$2
+#RedirectMatch 301 ^tehnika/(.*?[^/]/)(.*?[/]/)$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1$2
 ## End - Custom redirects
 
 ##
@@ -93,11 +93,11 @@ RewriteRule ^selskohozyaystvennaya-tehnika/$ http://www.git-lbr.ru/selskohozyays
 # RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} robots.txt
-RewriteCond %{HTTP_HOST} ^www\.(.+)\.git-lbr\.ru$
+RewriteCond %{HTTP_HOST} ^www\.(.+)\.lbr\.ru$
 RewriteRule (.*)  /robotsRegion.txt [L]
 
 RewriteCond %{REQUEST_FILENAME} robots.txt
-RewriteCond %{HTTP_HOST} ^www\.git-lbr\.ru$
+RewriteCond %{HTTP_HOST} ^www\.lbr\.ru$
 RewriteRule (.*)  /rob.txt [L]
 
 ## Begin - Joomla! core SEF Section.
