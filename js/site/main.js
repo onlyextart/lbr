@@ -61,8 +61,8 @@ $(document).ready(function(){
     });
 	
     $('#choose_region').on('click', 'a', function() {
-        //if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
-        if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
+        if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr')) {
+//        if(setCookie('region', $(this).attr('contact'), '3', '/', '.git-lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.git-lbr.ru')) {
         //if(setCookie('region', $(this).attr('contact'), '3', '/', '.lbr.ru') && setCookie('filial', $(this).attr('title'), '3', '/', '.lbr.ru')) {
            return true;
         }

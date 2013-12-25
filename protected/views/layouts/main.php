@@ -1,19 +1,21 @@
 <?php 
 /* @var $this Controller */ 
-//$less = new lessc;
-//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+$less = new lessc;
+$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
+        <base href="/">
         <meta name="format-detection" content="telephone=no">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta content="all" name="robots">
         <meta content="dynamic" name="document-state">
         <meta content="2 days" name="revisit-after">
         <meta content="Global" name="distribution">
         <meta http-equiv="pragma" content="no-cache">
+        <meta name="cmsmagazine" content="6b789e24d2d8a2491fc5c5b10c8c99a5">
         <?php if(Yii::app()->params['currentMenuItem']->meta_keywords): ?>
             <meta name="keywords" content="<?php echo Yii::app()->params['currentMenuItem']->meta_keywords; ?>">
         <?php endif; ?>
@@ -171,5 +173,43 @@
             </div>
         </footer>
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+        var yaParams = {/*Здесь параметры визита*/};
+        </script>
+
+        <div style="display:none;">
+
+        <script type="text/javascript">
+        (function(w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter13203052 = new Ya.Metrika({id:13203052, enableAll: true, webvisor:true,params:window.yaParams||{ }});
+                }
+                catch(e) { }
+            });
+        })(window, "yandex_metrika_callbacks");
+        </script>
+        </div>
+        <script src="http://mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+        <noscript><div><img src="//mc.yandex.ru/watch/13203052" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <!-- Google Code for &#1058;&#1077;&#1075; &#1088;&#1077;&#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; -->
+        <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 937148831;
+        var google_conversion_label = "3KwoCLnvnwUQn4PvvgM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/937148831/?value=0&amp;label=3KwoCLnvnwUQn4PvvgM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
     </body>
 </html>
