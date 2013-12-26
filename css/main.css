@@ -1683,6 +1683,9 @@ header:after {
 .xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker img {
   max-width: 100%;
 }
+.xbanners_container .xbanners .third_banner .b_header h3 a {
+  font-size: 1.15em;
+}
 .xbanners_container .xbanners .second_banner_custrom .b_header {
   width: 100%;
   float: none;
