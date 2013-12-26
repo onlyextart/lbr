@@ -13,7 +13,7 @@
             </tr>
             <tr>
             <td>
-            <a href="http://www.git-lbr.ru/images/new_year/card-lt.gif">Нажмите для просмотра</a>
+            <a href="http://www.git-lbr.ru/images/new_year/card-lt.gif">РќР°Р¶РјРёС‚Рµ РґР»СЏ РїСЂРѕСЃРјРѕС‚СЂР°</a>
             </td>
             </tr>
         </table>
