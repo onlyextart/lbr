@@ -86,7 +86,7 @@ class NewsController extends Controller
                             }
                             
                             Yii::app()->user->setFlash('saved','Новость сохранена.');
-                            $this->redirect('http://lbr/administrator/news/update/id/'.$newsModel->id);
+                            $this->redirect('/administrator/news/update/id/'.$newsModel->id);
                         }
                     }
                 }
