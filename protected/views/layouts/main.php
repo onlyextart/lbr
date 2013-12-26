@@ -121,7 +121,7 @@
                 </a>
             </div>
             <? if (Yii::app()->params['currentMenuItem']->level==1){?>
-                <div id="top_banner"><p>Более <span>2 тысяч</span> единиц техники на <span>22 площадках</span> по всей россии. <span>100 тысяч</span> позиций запасных частей в наличии.</p></div>
+                <div id="top_banner"><p>Более <span>2 тысяч</span> единиц техники на <span>23 площадках</span> по всей россии. <span>100 тысяч</span> позиций запасных частей в наличии.</p></div>
             <?}?>
         </header>
         <div class="wrapper">

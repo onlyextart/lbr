@@ -1124,7 +1124,7 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.wrapper .search .search-result p.not-query {
+.wrapper .search .search-result .not-query {
   margin: 1em 0;
 }
 .wrapper .search .search-result .result-0,
@@ -1596,17 +1596,23 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker,
-.xbanners_container .xbanners .second_banner_custrom .b_header .b_makers .b_one_maker {
+.xbanners_container .xbanners .third_banner .b_header .b_makers,
+.xbanners_container .xbanners .second_banner_custrom .b_header .b_makers {
   max-width: 20%;
   float: right;
+}
+.xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker,
+.xbanners_container .xbanners .second_banner_custrom .b_header .b_makers .b_one_maker {
+  float: left;
+  max-width: 100%;
   margin: 0 .5em 0 0;
   padding: 0;
 }
 .xbanners_container .xbanners .third_banner .b_header .b_makers .b_one_maker img,
 .xbanners_container .xbanners .second_banner_custrom .b_header .b_makers .b_one_maker img {
   cursor: pointer;
-  height: 26px;
+  max-height: 26px;
+  max-width: 140px;
 }
 .xbanners_container .xbanners .third_banner .b_images,
 .xbanners_container .xbanners .second_banner_custrom .b_images {
@@ -2301,7 +2307,6 @@ show_regions_table_button_wrapper:after,
   height: 25px;
   width: 333px;
   padding: 0 20px;
-  width: 100%;
   margin-left: 20px;
 }
 #news_header a {
