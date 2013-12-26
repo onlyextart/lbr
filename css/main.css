@@ -1124,7 +1124,7 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.wrapper .search .search-result .not-query {
+.wrapper .search .search-result p.not-query {
   margin: 1em 0;
 }
 .wrapper .search .search-result .result-0,
