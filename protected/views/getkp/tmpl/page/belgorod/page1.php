@@ -1,3 +1,9 @@
+<?php
+    $info = explode('<br>', $data['user_info']);
+    $managerName = $info[0];
+    unset($info[0]);
+    $managerInfo = implode("<br>", $info);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -112,11 +118,11 @@
                     <li style="width: 588px">
                         <div class="content">
                             <div style="font-weight: 900; margin-top: 38px; margin-bottom: 37px; font-size: 12pt;">
-                                Уважаемый <?php echo $data['client'] ?> !
+                                <?php echo $data['client'] ?> !
                             </div>
                             <div style="margin-top: 41px; font-size: 12pt;" align="justify">
                                 Благодарим Вас за сотрудничество в 2013 году. Искренне верим, 
-                                что подводя предварительные итоги года, он былл плодотворным и успешным. 
+                                что подводя предварительные итоги года, он был плодотворным и успешным. 
                                 Мы также надеемся и в дальнейшем быть полезными для Вас в Вашем нелегком труде.
                             </div>
                             <div style="margin-top: 31px; font-size: 12pt;" align="justify">
@@ -167,29 +173,29 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">01.07.2014 - 31.08.2014</div>
-                            <div class="event-content">
-                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
-                            </div> 
-                            <div class="event-header">01.08.2014 - 30.09.2014</div>
-                            <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
-                            </div>
-                            <div class="event-header">09.2014</div>
-                            <div class="event-content">
-                                БелгородАгро - 2014
-                            </div>
-                            <div class="event-header">01.11.2014 - 30.04.2015</div>
+                            <div class="event-header">01.11.2013 - 30.04.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
-                            </div> 
-                            <div class="event-header">01.11.2014 - 30.04.2015</div>
+                            </div>
+                            <div class="event-header">01.11.2013 - 30.04.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по пропашным технологиям в растениеводстве
                             </div> 
-                            <div class="event-header">01.04.2015 - 30.06.2015</div>
+                            <div class="event-header">01.04.2014 - 30.06.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
+                            </div>
+                            <div class="event-header">01.07.2014 - 31.08.2014</div>
+                            <div class="event-content">
+                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций) на площадке Агромаркета</span>
+                            </div> 
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span>
+                            </div>
+                            <div class="event-header">09.2014</div>
+                            <div class="event-content">
+                                БелгородАгро - 2014 <br/><span style="font-size: 7pt">19-я Межрегиональная специализированная выставка</span>
                             </div>
                         </div>
                     </li>
@@ -203,11 +209,21 @@
                 <ul class="main-content-row">
                     <li style="width: 588px">
                         <div class="content" style="margin-bottom: 46px">
-                            <ul class="main-content-row" style="font-size: 9pt;">
+                            <!--ul class="main-content-row" style="font-size: 9pt;">
                                 <li>
                                     <span style="margin-top: 30px; text-align: left; font-weight: 900">
                                         Ваш персональный менеджер <? echo $data['user_info']; ?>
                                     </span>
+                                </li>
+                            </ul-->
+                            <ul class="main-content-row" style="font-size: 9pt;">
+                                <li style="width:78%; min-width: 200px">
+                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
+                                </li>
+                                <li style="">
+                                    <div style="text-align: left">
+                                        <? echo $managerInfo ?>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
