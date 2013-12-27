@@ -128,7 +128,7 @@ class Contacts extends CActiveRecord
 		$criteria->compare('info',$this->info,true);
 		$criteria->compare('images',$this->images,true);
 		$criteria->compare('oneC_id',$this->oneC_id,true);
-                $criteria->compare('okrug_id',$this->okrug_id,true);
+        $criteria->compare('okrug_id',$this->okrug_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -171,6 +171,7 @@ class Contacts extends CActiveRecord
         public function scopes()
         {
             return array(
+                'order'=>$this->getTableAlias(false, false).'.sorting ASC',
                 'published'=>array(
                     'condition'=>'published=1',
                 ),
