@@ -33,3 +33,4 @@ class ContactsController extends Controller
         $this->renderPartial('regionstable');
     }
 }
+?>
