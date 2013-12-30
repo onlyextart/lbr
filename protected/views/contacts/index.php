@@ -1,6 +1,8 @@
 <?php
 /* @var $this ContacsController */
 Yii::app()->clientScript->registerCssFile('/css/form.css');
+Yii::app()->clientScript->registerScriptFile('/js/site/XbannersSlider.js');
+Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
 ?>
 <h1><?php echo $contactModel->name ?></h1>
 <div class="contact_info">
@@ -48,6 +50,31 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     </table>
     
 </div>
+<?php
+$file = explode('/', $contactModel->images);
+unset($file[count($file)-1]);
+$dir = implode('/', $file);
+$path = $_SERVER['DOCUMENT_ROOT'] .'/'. $dir.'/';
+$images = scandir($path);
+if (false !== $images) {
+    $images = preg_grep('/\\.(?:png|gif|jpe?g)$/', $images); ?>
+    <div class="contact-images">
+        <?php if(!empty($images)): ?>
+            <div class="scrollRight"></div>
+            <div class="scrollLeft"></div>
+            <div class="c_images_overflow">
+                <div class="c_images_conteiner">
+                <?php
+                    foreach ($images as $image){
+                        echo '<section class="c_images_one_image">';
+                        echo '<img data-scr="/'.$dir.'/'.htmlspecialchars(urlencode($image)).'" src="/'.$dir.'/'.htmlspecialchars(urlencode($image)).'" alt="'.$contactModel->name.'" />';
+                        echo '</section>';
+                    }?>
+                </div>
+            </div>
+        <?php endif; ?>
+    </div>
+<?php } ?>
 <div class="contact_map">
     <?php echo $contactModel->map_code ?>
 </div>

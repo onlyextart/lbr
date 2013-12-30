@@ -9,7 +9,7 @@
 <div class="total">
     <div class="left">
     <div class="create-button">
-     <?
+     <?php
      echo CHtml::link('Создать', '/administrator/pages/createpage/', array('class'=>'btn-green btn ajax', 'id'=>'create'));
      ?>   
     </div>
@@ -36,7 +36,7 @@
     ?>
     </div>
     <div class="right">
-        <? 
+        <?php
         if ($mess == Yii::app()->user->getFlash('message')){
             echo '<div class="message success">'.$mess.'</div>';
         }
@@ -46,15 +46,15 @@
         <script>
             var tabs = new TabsStaticPages();
             tabs.init('#tabs');
-        </script><?
+        </script><?php
         }
         ?>
     </div>
 </div>
-<? if($data->pagination->pageCount!=0) { ?>
+<?php if($data->pagination->pageCount!=0) { ?>
     <style>
     .left .list-view .pager ul.yiiPager li.page{
-        width: <? echo 100/$data->pagination->pageCount; ?>%;
+        width: <?php echo 100/$data->pagination->pageCount; ?>%;
     }
     </style>
-<? }
+<?php }

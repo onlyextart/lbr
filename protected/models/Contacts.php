@@ -18,6 +18,7 @@
  * @property string $info
  * @property string $images
  * @property varchar(5) $oneC_id
+ * @property integer $okrug_id
  *
  * The followings are the available model relations:
  * @property BannerRegion[] $bannerRegions
@@ -55,10 +56,10 @@ class Contacts extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('published', 'numerical', 'integerOnly'=>true),
-			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id', 'safe'),
+			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id', 'safe', 'on'=>'search'),
+			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,6 +99,7 @@ class Contacts extends CActiveRecord
 			'info' => 'Информация',
 			'images' => 'Images',
 			'oneC_id' => '1C alias',
+                        'okrug_id'=>'Округ'
 		);
 	}
 
@@ -126,6 +128,7 @@ class Contacts extends CActiveRecord
 		$criteria->compare('info',$this->info,true);
 		$criteria->compare('images',$this->images,true);
 		$criteria->compare('oneC_id',$this->oneC_id,true);
+        $criteria->compare('okrug_id',$this->okrug_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -168,6 +171,7 @@ class Contacts extends CActiveRecord
         public function scopes()
         {
             return array(
+                'order'=>$this->getTableAlias(false, false).'.sorting ASC',
                 'published'=>array(
                     'condition'=>'published=1',
                 ),

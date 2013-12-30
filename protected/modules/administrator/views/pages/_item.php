@@ -1,5 +1,5 @@
 <li>
-<?
+<?php
 if(Yii::app()->user->checkAccess('editPage'))
 {
 //    echo CHtml::ajaxLink($data->name, '/administrator/pages/editpage/id/'.$data->id.'/', array('update'=>'.right','complete'=>'function(html){yw0update=$.fn.yiiListView;}'),array('id'=>'li_'.$data->id));

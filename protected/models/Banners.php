@@ -191,4 +191,39 @@ class Banners extends CActiveRecord
                 }
             }
         }
+        public static function getList($array, $change){
+            foreach($array as $n=>$category)
+            {
+                if($category->level==$level)
+                    echo CHtml::closeTag('li')."\n";
+                else if($category->level>$level)
+                    echo CHtml::openTag('ul', array('class'=>'list level-'.$category->level))."\n";
+                else
+                {
+                    echo CHtml::closeTag('li')."\n";
+
+                    for($i=$level-$category->level;$i;$i--)
+                    {
+                        echo CHtml::closeTag('ul')."\n";
+                        echo CHtml::closeTag('li')."\n";
+                    }
+                }
+
+                echo CHtml::openTag('li', array('class'=>$change==$category->id?'changed item':'item ajax','id'=>$category->id));
+                echo CHtml::openTag('span', array('class'=>'name'));
+                echo CHtml::encode($category->name);
+                echo CHtml::closeTag('span');
+                $level=$category->level;
+            }
+
+            for($i=$level;$i;$i--)
+            {
+                echo CHtml::closeTag('li')."\n";
+                echo CHtml::closeTag('ul')."\n";
+            }
+        }
+        
+        public static function getTreeArray($array){
+            var_dump($array);
+        }
 }

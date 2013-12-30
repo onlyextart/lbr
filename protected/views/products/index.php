@@ -14,7 +14,7 @@ $exp = $data->experience;
 $img = $data->productGalleries;
 $videos = $data->productVideos;
 
-$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias.'/';
+$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias;
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);

@@ -35,9 +35,13 @@ if(is_object($data))
          Yii::app()->getController()->renderPartial('tmpl/single/one-print', array('data'=>$array, 'filial'=>$filial, 'template'=>$template));   
 }
 else{
+    $suf = $suf2 = '';
+    if($data['print']==1){
+        $suf = 'p1';
+        $suf2 = '-print';
+    }
     if(in_array($data['temp_id'], $unique))
-        Yii::app()->getController()->renderPartial('tmpl/single/'.$data['temp_id'], array('data'=>$data, 'filial'=>$filial, 'template'=>$template));    
+        Yii::app()->getController()->renderPartial('tmpl/single/'.$data['temp_id'].$suf, array('data'=>$data, 'filial'=>$filial, 'template'=>$template));    
     else
-        Yii::app()->getController()->renderPartial('tmpl/single/one', array('data'=>$data, 'filial'=>$filial, 'template'=>$template));
+        Yii::app()->getController()->renderPartial('tmpl/single/one'.$suf2, array('data'=>$data, 'filial'=>$filial, 'template'=>$template));
 }
-  

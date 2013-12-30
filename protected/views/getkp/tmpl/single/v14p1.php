@@ -12,11 +12,11 @@
                     
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
                 <div class="right-20">
-                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
+                    <img src="http://www.git-lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
             <div class="one-page head-first-page">
-                <img src="http://www.lbr.ru/images/kp/percent.jpg" alt="percent" style="border: 0; position: absolute;"/>
+                <img src="http://www.git-lbr.ru/images/kp/percent.jpg" alt="percent" style="border: 0; position: absolute;"/>
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ВНИМАНИЕ!!! <br>СКИДКИ!!!</span>
                 </div>

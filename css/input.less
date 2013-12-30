@@ -171,7 +171,7 @@ header
                 .selected-region
                 {
                     width: 55%;
-                    float: right;
+                    float: left;
                 }
             }
             .select-region:after
@@ -219,6 +219,7 @@ header
             }
             li:hover{
                 background:#e1eded;
+                .rounded;
             }
             li.active{
                 background:#F7F7F7;
@@ -431,6 +432,105 @@ header:after{
             width:25px;
             margin-right: 15px;
         }
+        .contact-images
+        {
+            width: 350px;
+            margin-left: 20px;
+            margin-top: -50px;
+            height: 220px;
+            float: left;
+            position: relative;
+            .c_images_overflow
+            {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+                .c_images_conteiner
+                {
+                    width: 99999px;
+                    position: relative;
+                    left: 0px;
+                    height: 100%;
+                    section.c_images_one_image
+                    {
+                        width: 350px;
+                        float: left;
+                        position: relative;
+                        display: block;
+                        img
+                        {
+                            width: 100%;
+                            min-height: 100%;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .c_images_overflow:after
+            {
+                .clr;
+            }
+            .banner_loading_overflow{
+                position:absolute;
+                width:100%;
+                height:100%;
+                top:0;
+                left:0;
+                background:rgba(0,0,0,0.1);
+                img{
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    right:0px;
+                    bottom:0px;
+                    margin:auto;
+                    width:30px;
+                    height:30px;
+                }
+            }
+            .scrollRight {
+                    position: absolute;
+                    left: 100%;
+                    margin-left: -30px;
+                    background: url("/images/uploaded/right.png") repeat scroll 0% 0% transparent;
+                    width: 35px;
+                    height: 56px;
+                    top: 50%;
+                    margin-top: -28px;
+                    z-index: 1;
+                }
+                .scrollLeft {
+                    position: absolute;
+                    background: url("/images/uploaded/left.png") repeat scroll 0% 0% transparent;
+                    right: 100%;
+                    margin-right: -29px;
+                    width: 35px;
+                    height: 56px;
+                    top: 50%;
+                    margin-top: -28px;
+                    z-index: 1;
+                }
+                ul.banner_images_map {
+                    list-style: none outside none;
+                    display: block;
+                    width: 100%;
+                    position: absolute;
+                    left: 0px;
+                    height: 3px;
+                    padding: 0px;
+                    margin: 0px;
+                    bottom: 0px;
+                    background: none repeat scroll 0% 0% rgb(15, 151, 151);
+                    li{
+                        padding: 0px;
+                        margin: 0px;
+                        float: left;
+                        background: none repeat scroll 0% 0% rgb(15, 151, 151);
+                        height: 100%;
+                    }
+                }
+        }
         
         /*--CONTACT-END-----------------*/
         
@@ -529,7 +629,7 @@ header:after{
                 .rounded;
                 ul.product_tab_button
                 {
-                    oveflow: hidden;
+                    overflow: hidden;
                     .rounded(3px 3px 0 0);
                     .reset;
                     display: block;
@@ -843,7 +943,7 @@ header:after{
                 {
                     margin: 4px 1em 0;
                     padding: 0 1em;
-                    line-height: 20px;
+                    line-height: 21px;
                 }
                 .btn:hover
                 {
@@ -908,33 +1008,135 @@ header:after{
         }
         .search-result
         {
-            margin: 1em 0;
+            margin: 1.5em 0;
             padding: 0;
-            width: 70%;
             p
             {
                 margin: 0;
                 padding: 0;
             }
-            .one-result
+            .not-query
             {
-                padding: .5em 1em;
                 margin: 1em 0;
-                a
+            }
+            .result-0, .result-1, .result-2, .result-69
+            {
+                margin: 0;
+                padding: 0;
+                .result-header
                 {
-                    font-size: 18px;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
-                }
-                .small-link
-                {
-                    color: rgb(22, 150, 132);
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: nowrap;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    margin: 0;
                 }
             }
+            .result-0
+            {
+                float: left;
+                width: 49%;
+                padding-right: 1%;
+            }
+            .result-1
+            {
+                float: left;
+                width: 49%;
+                padding-left: 1%;
+            }
+            .result-2
+            {
+                clear: both;
+                width: 100%;
+                padding-top: 2em;
+            }
+            .result-69
+            {
+                width: 69%;
+            }
+            .one-result
+            {
+                padding: 0;
+                margin: 1em 0;
+                .one-header
+                {
+                    font-size: 17px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    a{
+                        font-weight: normal;
+                        text-decoration: none;
+                        color: rgb(22, 150, 132);
+                    }
+                    a:hover
+                    {
+                        text-decoration: underline;
+                    }
+                }
+                .one-breadcrums
+                {
+                    a, span
+                    {
+                        color: #999;
+                        text-decoration: none;
+                    }
+                    a:hover
+                    {
+                        text-decoration: underline;
+                    }
+                    span{
+                        margin-left: 5px;
+                    }
+                    span:first-child
+                    {
+                        margin-left: 0;
+                    }
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    color: #999;
+                }
+                .one-content
+                {
+                    
+                }
+            }
+            ul.yiiPager{
+                display: block;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                li{
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    padding: 0;
+                    margin: 0;
+                    a{
+                        border: 0px none;
+                        margin: 0px;
+                        padding: 0px;
+                        background: none repeat scroll 0% 0% transparent;
+                        color: rgb(119, 119, 119);
+                        padding: 7px 0;
+                        display: block;
+                    }
+                }
+                li.selected {
+                    border-bottom: 2px solid rgb(239, 127, 26);
+                    a{
+                        color: rgb(239, 127, 26);
+                    }
+                }
+            }
+            ul.yiiPager:after
+            {
+                .clr;
+            }
+        }
+        .search-result:after
+        {
+             .clr;
         }
     }
     .bottom-text
@@ -1068,6 +1270,89 @@ header:after{
                                 height: 100%;
                                 display: block;
                             }
+                            /*------Time-To-Buy---------*/
+                            .time_to_buy
+                            {
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                width: 100%;
+                                height: 100%;
+                                .time_to_buy_top_left
+                                {
+                                    width: 91px;
+                                    height: 67px;
+                                    padding-top: 23px;
+                                    top: 5px;
+                                    left: 5px;
+                                    line-height: 25px;
+                                    position: absolute;
+                                    background: url("/images/timetobuy/circle-time-to-buy.png") no-repeat center;
+                                    text-align: center;
+/*                                    -moz-transform: rotate(-20deg);  Для Firefox 
+                                    -ms-transform: rotate(-20deg);  Для IE 
+                                    -webkit-transform: rotate(-20deg);  Для Safari, Chrome, iOS 
+                                    -o-transform: rotate(-20deg);  Для Opera 
+                                    transform: rotate(-20deg);*/
+                                    span{
+                                        display: block;
+                                        font-family: Impact,Charcoal, sans-serif;
+                                        font-size: 30px;
+                                        text-transform: uppercase;
+                                        color: #333;
+                                    }
+                                    span:first-child{
+                                        font-size: 16px;
+                                    }
+                                }
+                                .time_to_buy_description
+                                {
+                                    text-align: right;
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 10px;
+                                    max-width: 65%;
+                                    span{
+                                        color: #424242;
+                                        font-size: 22px;
+                                        text-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 1px rgb(255, 255, 255),0px 0px 10px rgb(255, 255, 255);
+                                        font-weight: bold;
+                                    }
+                                }
+                                .time_to_buy_top_right
+                                {
+                                    width: 120px;
+                                    height: 30px;
+                                    top: 10px;
+                                    right: 10px;
+                                    position: absolute;
+                                    background: url("/images/timetobuy/sub-time-to-buy.png");
+                                }
+                                .time_to_buy_bottom_right
+                                {
+                                    bottom: 5px;
+                                    right: 5px;
+                                    position: absolute;
+                                    width: 170px;
+                                    height: 29px;
+                                    background: url("/images/timetobuy/top-produkt.png") no-repeat;
+                                }
+                                .time_to_buy_bottom_left
+                                {
+                                    bottom: 0px;
+                                    left: 0px;
+                                    position: absolute;
+                                    max-width: 295px;
+                                    background: none repeat scroll 0% 0% rgb(239, 127, 26);
+                                    color: white;
+                                    span{
+                                        display: block;
+                                        padding: 5px 15px;
+                                        font-family: 'Open Sans', sans-serif;
+                                    }
+                                }
+                            }
+                            /*----END-Time-To-Buy-------*/
                             .b_images_one_image_caption
                             {
                             }
@@ -1252,7 +1537,7 @@ header:after{
                 h3
                 {
                     float: left;
-                    max-width: 79%;
+                    max-width: 80%;
                     a
                     {
                         font-size: 1.3em;
@@ -1261,15 +1546,18 @@ header:after{
                 }
                 .b_makers
                 {
+                    max-width: 20%;
+                    float: right;
                     .b_one_maker
                     {
-                        max-width: 20%;
-                        float: right;
+                        float: left;
+                        max-width: 100%;
                         .reset(0 .5em 0 0);
                         img
                         {
                             cursor: pointer;
-                            height: 26px;
+                            max-height: 26px;
+                            max-width: 140px;
                         }
                     }
                 }
@@ -1345,6 +1633,25 @@ header:after{
             .b_header:after, .b_images:after, .b_caption:after
             {
                 .clr;
+            }
+        }
+        .third_banner
+        {
+            .b_header
+            {
+                .b_makers
+                {
+                    .b_one_maker{
+                        img{
+                            max-width: 100%;
+                        }  
+                    }   
+                }
+                h3{
+                    a{
+                        font-size: 1.15em;
+                    }
+                }
             }
         }
         .second_banner_custrom
@@ -1921,18 +2228,26 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     }
 }
 
+#show_regions_table_button{
+    
+/*    width: 100%;*/
+}
 #show_regions_table_button_wrapper{
-    float: left;
+    max-width: 90%;
+    color: rgb(22, 150, 132);
     overflow: hidden; 
     white-space: nowrap; 
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
-    max-width: 90%;
-    color: rgb(22, 150, 132);
+    float: left;
+ }
+ show_regions_table_button_wrapper:after,  .arrow-wrapper:after{
+     .clr;
  }
  .arrow-wrapper{
      width: 10%;
      float: left;
+     position: relative;
  }
  
  .arrow{
@@ -1941,7 +2256,7 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     background-repeat: no-repeat;
     height: 8px;
     position: absolute;
-    right: -15px;
+    right: -7px;
     top: 5px;
     width: 12px;
     margin-top:0;
@@ -1991,10 +2306,6 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
         margin: 0 0 10px 5px;
     }
     
-    .wrapper #content h1{
-        color: #000;
-    }
-    
     .list-view div a {
         color: #008873;
         text-decoration: underline;
@@ -2031,7 +2342,6 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
         height: 25px;
         width: 333px;
         padding: 0 20px;
-        width: 100%;
         margin-left: 20px;
     }
     #news_header a {

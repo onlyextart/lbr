@@ -79,7 +79,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=chat',
+			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
@@ -116,7 +116,7 @@ return array(
                 'defaultRegionId' => 0,
                 'regionId' => 0,
                 'superGroup' => 1,
-                'host'=>'lbr', //'git-lbr.ru', //
+                'host'=>'lbr.ru',
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
@@ -141,7 +141,11 @@ return array(
                         'Регионы'=>'/administrator/regions/',
                     ),
                     'Разные страницы'=>'/administrator/pages/',
-                    'Поиск'=>'/administrator/search/',
+                    'Поиск'=>array(
+                        'Поисковые запросы'=>'/administrator/search/',
+                        'Индексирование страниц'=>'/administrator/search/indexing/',
+                        'Топ запросов'=>'/administrator/search/top/'
+                    ),
                     'КП'=>array(
                         'КП'=>'/administrator/templateKp/',
                         'Шаблоны'=>'/administrator/template/',

@@ -1,0 +1,208 @@
+.left-20{
+    width: 35%;
+    float: left;
+}
+.left-80{
+    float: left;
+    width: 65%;
+}
+.left-20 #menu-filter{
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);
+    border-radius: 2px 2px 0 0;
+    padding: 0;
+    position: relative;
+}
+.left-20 #menu-filter span#filter-selected{
+    background: url("/images/bg_menu_admin.png") #f3f3f3 repeat-x top left;
+    line-height: 28px;
+    display: block;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 5;
+    position: relative;
+    border-bottom: 2px solid rgb(65, 131, 196);
+}
+.left-20 #menu-filter span#filter-selected:after{
+    content: '';
+    display: block;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat -64px 0px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+}
+.left-20 #menu-filter span#filter-selected.show:after{
+    background-position: 0px 0px;
+}
+.left-20 #menu-filter > ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: rgb(250,250,250);
+    padding: 0;
+    width: 99.5%;
+    border: 1px solid rgb(65, 131, 196);
+    border-top-width: 2px;
+    margin-top: -2px;
+    z-index: 10;
+}
+.left-20 #menu-filter ul.level-2 > li > span.name{
+    padding-left: 10px;
+}
+.left-20 #menu-filter ul.level-3 > li > span.name{
+    padding-left: 20px;
+}
+.left-20 #menu-filter ul.level-4 > li > span.name{
+    padding-left: 35px;
+}
+.left-20 #menu_subfilter{
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);
+    border-radius: 0px 0px 2px 2px;
+    padding-top: 3px;
+}
+.left-20 #menu_subfilter ul.level-2 > li > span.name{
+    padding-left: 25px;
+}
+.left-20 #menu_subfilter ul.level-3 > li > span.name{
+    padding-left: 35px;
+}
+.left-20 #menu_subfilter ul.level-3 > li > span.plus{
+    left: 15px;
+}
+.left-20 #menu_subfilter ul.level-4 > li > span.name{
+    padding-left: 45px;
+}
+.left-20 #menu_subfilter ul.level-4 > li > span.plus{
+    left: 25px;
+}
+.left-20 #menu_subfilter ul.level-5 > li > span.name{
+    padding-left: 55px;
+}
+.left-20 #menu_subfilter > ul{
+    display: block !important;
+}
+.left-80 ul, .left-20 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-80 .banners-content a{
+    color: rgb(65, 131, 196);
+    text-decoration: none;
+}
+.left-20 > ul.level-2{
+    padding-left: 0;
+}
+.left-20 > ul.level-2 > li > span.name{
+    padding-left: 10px;
+}
+.left-80 ul li, .left-20 ul li{
+    cursor: pointer;
+    position: relative;
+}
+.left-20 ul li span.name:hover{
+    background: rgb(65, 131, 196);
+    color: white;
+}
+.left-20 ul li span.name{
+    padding: 2px 5px;
+    display: block;
+}
+.left-80 .panel{
+
+}
+.left-80 .panel .btn{
+    float: right;
+    margin-right: 10px;
+}
+.wrapper:after, .left-80 .panel:after, .banners .items li:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.banners {
+    margin: 5px 10px 5px 20px;
+    background: rgb(238,238,238);
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);
+}
+.banners .items .empty{
+    line-height: 2em;
+    padding: 1em;
+}
+.banners .items li{
+    position: relative;
+    text-decoration: none;
+    padding: 0;
+    display: block;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.banners .items li a{
+    line-height: 24px;
+    color: rgb(65, 131, 196);
+    display: block;
+    float: right;
+}
+.banners .items li a.one-banner{
+    width: 96%;
+    padding: 0 2%;
+    position: relative;
+    z-index: 1;
+}
+.banners .items li a.down, .banners .items li a.up{
+    width: 20px;
+    height: 24px;
+    line-height: normal;
+    overflow: hidden;
+    text-indent: 100%;
+    /*border: 1px solid rgb(150,150,150);*/
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+}
+.banners .items li:first-child a.up{
+    display: none;
+}
+.banners .items li:last-child a.down{
+    display: none;
+}
+.banners .items li a.one-banner:hover{
+    text-decoration: underline;
+}
+.banners .items li a.up:hover,
+.banners .items li a.down:hover
+{
+    background-color: rgb(222,222,222);
+}
+.banners .items li a.up{
+    right: 21px;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat 3px -44px;
+    border-left: 1px solid rgb(222,222,222);
+}
+.banners .items li a.down{
+    border-left: 1px solid rgb(222,222,222);
+    right: 0px;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat -62px -44px;
+    
+}
+.changed > span.name{
+    background: rgb(238,238,238);
+    color: rgb(65, 131, 196);
+}
+.plus{
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    z-index: 6;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    background: none repeat scroll 0% 0% white;
+    box-shadow: 0px 0px 2px;
+    border-radius: 2px;
+    font-size: 10px;
+    cursor: default;
+}

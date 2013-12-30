@@ -1,4 +1,4 @@
-<h1>Поиск</h1>
+<h1>Поиск - Поисковые запросы</h1>
 <div class="total">
     <div class="center">
     <?php
@@ -25,10 +25,10 @@
     ?>
     </div>
 </div>
-<? if($data->pagination->pageCount!=0) { ?>
+<?php if($data->pagination->pageCount!=0) { ?>
     <style>
     .left .list-view .pager ul.yiiPager li.page{
-        width: <? echo 100/$data->pagination->pageCount; ?>%;
+        width: <?php echo 100/$data->pagination->pageCount; ?>%;
     }
     </style>
-<? } 
+<?php } 

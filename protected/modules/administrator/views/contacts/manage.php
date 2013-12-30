@@ -189,6 +189,11 @@ tinymce.init(tinymce.myOptions);
             <?php echo $form->labelEx( $contactModel, 'oneC_id'); ?>
             <?php echo $form->textField( $contactModel, 'oneC_id'); ?>
         </div>
+        <div class="row">
+            <?php echo $form->error( $contactModel, 'okrug_id'); ?>
+            <?php echo $form->labelEx( $contactModel, 'okrug_id'); ?>
+            <?php echo $form->dropDownList( $contactModel, 'okrug_id', Yii::app()->params['districts']); ?>
+        </div>        
     </div>
     <div class="admin_additional_features">
         <label>Дополнительные параметры</label>

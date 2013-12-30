@@ -149,6 +149,22 @@ class CategoryUrlRule extends CBaseUrlRule
         return false;
     }
     
+    public static function getParents($id){
+        if($id){
+            $menuItem = MenuItems::model()->findByPk($id);
+            $parents = $menuItem->ancestors()->findAll();
+            if(!empty($parents))
+            {
+                $return = array();
+                foreach ($parents as $parent){
+                    array_push($return, array('id'=>$parent->id, 'header'=>$parent->header, 'path'=>$parent->path));
+                }
+                return $return;
+            }
+        }
+    }
+
+
     private function paramsToString($params, $argumentName=null){
         $pathParamsString = "";
         foreach($params as $name=>$value){
