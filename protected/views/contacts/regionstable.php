@@ -281,27 +281,27 @@
     <h4>
         Выберите ваш регион
     </h4>
-    <?php
-    $districts = Regions::getDistricts();
-    $start = microtime(true);
-    foreach ($districts as $districtId => $districtName) {
-        if ($districtId == 6 || $districtId == 1 || $districtId == 0 || $districtId == 2) {
-            echo CHtml::openTag('ul');
+    <?php 
+        $districts = Regions::getDistricts();
+        $start = microtime(true);
+        foreach( $districts as $districtId=>$districtName ){
+            if($districtId==0 || $districtId==1 || $districtId==3 || $districtId==6){
+                echo CHtml::openTag('ul');
+            }
+                echo CHtml::openTag('li', array('class'=>'district_name'));
+                    echo $districtName;
+                echo CHtml::closeTag('li');
+                
+                $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.contact_id, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id")->queryAll();
+                foreach($regionsD as $region) {
+                    echo CHtml::openTag('li');
+                        $linkUrl = 'http://www.'.$region['alias'].'.lbr.ru'.$_POST['requesrUri'];
+                        echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
+                    echo CHtml::closeTag('li');
+                }
+            if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
+                echo CHtml::closeTag('ul');
+            }
         }
-        echo CHtml::openTag('li', array('class' => 'district_name', 'id'=>$districtId));
-        echo $districtName;
-        echo CHtml::closeTag('li');
-
-        $regionsD = Yii::app()->db->createCommand("SELECT *, r.id as regionid, r.contact_id, r.name as regionname from regions as r, contacts as c WHERE r.district_id='$districtId' AND r.contact_id=c.id ORDER BY r.name ASC")->queryAll();
-        foreach ($regionsD as $region) {
-            echo CHtml::openTag('li');
-            $linkUrl = 'http://www.' . $region['alias'] . '.'. $host . $_POST['requesrUri'];
-            echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
-            echo CHtml::closeTag('li');
-        }
-        if ($districtId == 6 || $districtId == 7 || $districtId == 5 || $districtId == 4) {
-            echo CHtml::closeTag('ul');
-        }
-    }
     ?>
 </div>
