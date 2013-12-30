@@ -17,7 +17,7 @@
     ?>
          <div class="news">
             <span class="news_date"><?php echo date('Y-m-d', strtotime($recent->date)) ?></span>  
-            <a href="http://www.<?php echo $host . CategoryUrlRule::getUrl($itemId['item_id'])?>"><?php echo $recent->header; ?></a>
+            <a href="http://www.<?php echo $host . CategoryUrlRule::getUrl($itemId['item_id'])?>/"><?php echo $recent->header; ?></a>
          </div>
     <?php endforeach; ?>
 </div>
