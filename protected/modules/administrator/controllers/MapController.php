@@ -27,7 +27,7 @@ class MapController extends Controller
         foreach($menuTreeArray as &$menuItem) {
             if(isset($menuItem[children])) {
                 if(is_array($menuItem[children])) {
-                    if(empty($menuItem[children])) {
+                    if(empty($menuItem[children]) && $menuItem['type'] == 0) {
                         $leafArray[] = $menuItem['id'];
                     }
                     $this->findLeaf($menuItem[children], $leafArray);
@@ -54,7 +54,7 @@ class MapController extends Controller
         $menuTreeArray = MapItems::getMenuTree();
 
         $this->findLeaf($menuTreeArray, $leafArray);
-        
+       
         $items = MapItems::getBanners(array_unique($leafArray));
         $this->addNodes($menuTreeArray, $items);
         
