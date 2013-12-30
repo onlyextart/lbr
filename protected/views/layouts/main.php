@@ -7,6 +7,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<?php
+        
+        $meta_title = Yii::app()->params['currentMenuItem']->meta_title;
+        $meta_description = Yii::app()->params['currentMenuItem']->meta_description;
+        $meta_keywords = Yii::app()->params['currentMenuItem']->meta_keywords;
+        
+        if(!$meta_title){
+            $meta_title = Yii::app()->params['meta_title'];
+        }
+        if(!$meta_description){
+            $meta_description = Yii::app()->params['meta_description'];
+        }
+        if(!$meta_keywords){
+            $meta_keywords = Yii::app()->params['meta_keywords'];
+        }
+        ?>
         <base href="/">
         <meta name="format-detection" content="telephone=no">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,11 +32,11 @@
         <meta content="Global" name="distribution">
         <meta http-equiv="pragma" content="no-cache">
         <meta name="cmsmagazine" content="6b789e24d2d8a2491fc5c5b10c8c99a5">
-        <?php if(Yii::app()->params['currentMenuItem']->meta_keywords): ?>
-            <meta name="keywords" content="<?php echo Yii::app()->params['currentMenuItem']->meta_keywords; ?>">
+        <?php if($meta_keywords): ?>
+            <meta name="keywords" content="<?php echo $meta_keywords; ?>">
         <?php endif; ?>
-        <meta name="description" content="<?php echo Yii::app()->params['currentMenuItem']->meta_description; ?>">
-	<title><?php echo Yii::app()->params['currentMenuItem']->meta_title; ?></title>
+        <meta name="description" content="<?php echo $meta_description; ?>">
+        <title><?php echo $meta_title; ?></title>
         
         <?php
         // Добавление css и javascript на страницу сайта

@@ -16,6 +16,14 @@ Disallow: /plugins/
 Disallow: /templates/
 Disallow: /tmp/
 Disallow: /search/
+Disallow: /users/
+Disallow: /komunalnaya-tehnika/
+Disallow: /selskohozyaystvennaya-tehnika/agregat/
+Disallow: /selskohozyaystvennaya-tehnika/news/
+Disallow: /selskohozyaystvennaya-tehnika/specialoffers/
+Disallow: /selskohozyaystvennaya-tehnika/techscheme/
+Disallow: /stroitelnaya-tehnika/
+Disallow: /stroitelnaya-tehnika/news/
 Disallow: *?*
 Host: www.lbr.ru
 
