@@ -54,13 +54,14 @@ class MapController extends Controller
         $menuTreeArray = MapItems::getMenuTree();
 
         $this->findLeaf($menuTreeArray, $leafArray);
+        
         $items = MapItems::getBanners(array_unique($leafArray));
         $this->addNodes($menuTreeArray, $items);
         
         $tree = $this->buildHtmlTree($menuTreeArray, 0);
         file_put_contents('images/file.html', $tree);
         $sitemapDate = filemtime('images/file.html');
-        
+
         $this->redirect(array('map/index'));
     }
     
@@ -74,25 +75,21 @@ class MapController extends Controller
             $tree = '<ul style = "list-style-type: ' . $listStyleType . ';" class="level_' . $level . '">';
             foreach($cats as $cat) {
                 $path = $cat['path'];
+                
                 if($path == '/index') { 
                     $path = '';
-                } else{
+                } else {
                     $find = strpos($path, 'www');
                     if($find) {
                         $path = 'http://' . substr($path, $find); 
                     }
                 }
                 
-                $display = $cat['published'] ? '': 'display: none';
+                $display = $cat['published'] ? '' : 'display: none';
                 $li = '<li style="' . $display . '"><a style="text-decoration: none" href="' . $path . '/">' . $cat['name'] . '</a>';
-                //var_dump($li);
+                
                 //href="/http://www.lbr.nichost.ru/spareparts/?c=83/">Запчасти</a>'
                 $find = strpos($li, '/http://');
-                //if($find){
-                    //$li1 = substr($li, 0, $find);
-                    //$li2 = substr($li, $find + 8);
-                    //$li = $li1 . ' = ' . $li;// . $li2; 
-                //}
                 $tree .= $li;
                 $tree .= $this->buildHtmlTree($cat['children'], $cat['level']);
                 $tree .= '</li>';
