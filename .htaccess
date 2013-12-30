@@ -55,7 +55,7 @@ RewriteRule ^(.*)$ http://www.lbr.ru/$1/ [R=301,L]
 RewriteRule ^(contacts/)(.*[^getregionstable/]) http://www.lbr.ru/company/$1$2 [R=301,L]
 RewriteRule ^(news/)(.*) http://www.lbr.ru/company/events/$2 [R=301,L]
 RewriteRule ^(about/)(.*) http://www.lbr.ru/company/ [R=301,L]
-RewriteRule ^(vacancy/|company/vacancy)(.*) http://carrer.lbr.ru/vacancy/$2 [R=301,L]
+RewriteRule ^(vacancy/|company/vacancy)(.*) http://career.lbr.ru/vacancy/$2 [R=301,L]
 #http://www.lbr.ru/vacancy/ --> http://www.lbr.ru/company/vacancy/
 RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-atlant)(.*) http://www.lbr.ru/$1/frontalnye-traktornye-pogruzchiki/atlant/ [R=301,L]
 RewriteRule ^(.*)(/frontalnye-traktornye-pogruzchiki/frontalnye-traktornye-pogruzchiki-gerkules)(.*) http://www.lbr.ru/$1/frontalnye-traktornye-pogruzchiki/gerkules/ [R=301,L]

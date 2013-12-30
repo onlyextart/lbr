@@ -112,7 +112,7 @@ class SiteController extends Controller
     public function actionSitemap(){
         $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
         $siteMapHtml = file_get_contents($siteMapFile);
-
+        Yii::app()->params['title'] = 'Карта сайта';
         $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
     }
 }
