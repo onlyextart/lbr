@@ -1,4 +1,4 @@
-<?
+<?php
 switch ($data->type){
     case '2':
         Yii::app()->getController()->renderPartial('items/_subsection_dieci', array('data'=>$data));

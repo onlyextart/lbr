@@ -170,33 +170,34 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
+                            <div class="event-header">01.02.2014 - 30.04.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(посадка)</span>
+                            </div>
                             <div class="event-header">13.03.2014 - 15.03.2014</div>
                             <div class="event-content">
-                                Агросезон - 2014
+                                Агросезон - 2014 <br/><span style="font-size: 7pt">8-я агропромышленная выставка</span>
                             </div> 
-                            <div class="event-header">01.07.2014 - 31.08.2014</div>
+                            <div class="event-header">01.04.2014 - 30.06.2014</div>
                             <div class="event-content">
-                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
+                                Расширенная экспозиция по технологии заготовки кормов
                             </div>
                             <div class="event-header">07.2014</div>
                             <div class="event-content">
-                                День Воронежского поля
+                                День Воронежского поля <br/><span style="font-size: 7pt">8-я агропромышленная выставка-демонстрация</span>
+                            </div>
+                            
+                            <div class="event-header">01.07.2014 - 31.08.2014</div>
+                            <div class="event-content">
+                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций) на площадке Агромаркета</span>
+                            </div>
+                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(уборка)</span>
                             </div>
                             <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
-                            </div> 
-                            <div class="event-header">01.02.2015 - 30.04.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
-                            </div> 
-                            <div class="event-header">01.07.2015 - 30.09.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
-                            </div>
-                            <div class="event-header">01.04.2015 - 30.06.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span>
                             </div>
                         </div>
                     </li>
