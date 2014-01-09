@@ -231,10 +231,21 @@ class MenuController extends Controller{
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">';
-        $menuItems = Yii::app()->db->createCommand("SELECT path from menu_items where published='1'")->queryAll();
+        $menuItems = Yii::app()->db->createCommand("SELECT path from menu_items where published='1' ORDER BY lft")->queryAll();
         foreach($menuItems as $menuItem){
-            $sitemap .='<url><loc>http://www.lbr.ru'.$menuItem['path'].'/</loc></url>
-';
+            $path = $menuItem['path'];
+            $find = strpos($path, 'www'); 
+            
+            if($find){
+                $path = 'http://' . substr($path, $find); 
+                $sitemap .='<url><loc>'.$path.'/</loc></url>';
+            } else {
+                if($path == '/index') { 
+                    $path = '';
+                }
+                $sitemap .='<url><loc>http://www.lbr.ru'.$path.'/</loc></url>';
+            }
+
         }
         $sitemap .='</urlset>';
         file_put_contents('sitemap.xml', $sitemap);
