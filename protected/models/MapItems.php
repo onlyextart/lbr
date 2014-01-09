@@ -55,7 +55,7 @@ class MapItems extends CActiveRecord
             $elementKatalog = Yii::app()->db->createCommand('SELECT lft, rt FROM menu_items WHERE name LIKE "Каталог%"')->queryRow();
 
             //$categories = Yii::app()->db->createCommand('SELECT id, path, level, name, published FROM menu_items WHERE lft NOT BETWEEN 642 AND 1249 ORDER BY lft')->queryAll();
-            $categories = Yii::app()->db->createCommand('SELECT id, path, level, name, published FROM menu_items WHERE lft NOT BETWEEN ' . $elementKatalog['lft'] . ' AND ' . $elementKatalog['rt'] . ' ORDER BY lft')->queryAll();
+            $categories = Yii::app()->db->createCommand('SELECT id, path, level, name, published, type FROM menu_items WHERE lft NOT BETWEEN ' . $elementKatalog['lft'] . ' AND ' . $elementKatalog['rt'] . ' ORDER BY lft')->queryAll();
             return(self::toHierarchy($categories, 'getMenuManageRow'));
         }
         
@@ -119,7 +119,7 @@ class MapItems extends CActiveRecord
                     $l = count($stack);
 
                     // Check if we're dealing with different levels
-                    while ($l > 0 && $stack[$l - 1]['level'] >= $item['level']) {
+                    while($l > 0 && $stack[$l - 1]['level'] >= $item['level']) {
                             array_pop($stack);
                             $l--;
                     }
