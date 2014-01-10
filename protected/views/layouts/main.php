@@ -189,6 +189,7 @@
             </div>
         </footer>
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
+        <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript">
         var yaParams = {/*Здесь параметры визита*/};
