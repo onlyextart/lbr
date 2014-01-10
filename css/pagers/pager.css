@@ -26,9 +26,9 @@ ul.yiiPager li
 ul.yiiPager a:link,
 ul.yiiPager a:visited
 {
-	border:solid 1px #9aafe5;
+	/*border:solid 1px #9aafe5;*/
 	font-weight:bold;
-	color:#0e509e;
+	/*color:#0e509e;*/
 	padding:1px 6px;
 	text-decoration:none;
 }
@@ -37,7 +37,7 @@ ul.yiiPager .page a
 {
 	font-weight:normal;
 }
-
+/*
 ul.yiiPager a:hover
 {
 	border:solid 1px #0e509e;
@@ -54,7 +54,7 @@ ul.yiiPager .hidden a
 {
 	border:solid 1px #DEDEDE;
 	color:#888888 !important;
-}
+}*/
 
 /**
  * Hide first and last buttons by default.
