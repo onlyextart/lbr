@@ -172,42 +172,42 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">11.02.2014 - 13.02.2014</div>
-                            <div class="event-content">
-                                Агропромышленный комплекс - 2014
-                            </div> 
-                            <div class="event-header">01.07.2014 - 31.08.2014</div>
-                            <div class="event-content">
-                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций)</span><br/> на площадке Агромаркета
-                            </div>
-                            <div class="event-header">08.2014</div>
-                            <div class="event-content">
-                                День поля "ВолгоградАГРО" - 2014
-                            </div>
-                            <div class="event-header">01.08.2014 - 30.09.2014</div>
-                            <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
-                            </div> 
-                            <div class="event-header">01.02.2015 - 30.04.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
-                            </div> 
-                            <div class="event-header">01.07.2015 - 30.09.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
-                            </div>
-                            
-                            <div class="event-header">01.11.2015 - 28.02.2016</div>
+                            <div class="event-header">01.11.2013 - 28.02.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.11.2015 - 30.04.2016</div>
+                            <div class="event-header">01.11.2013 - 30.04.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по пропашным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.04.2016 - 30.06.2016</div>
+                            <div class="event-header">01.02.2014 - 30.04.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(посадка)</span>
+                            </div>
+                            
+                            <div class="event-header">11.02.2014 - 13.02.2014</div>
+                            <div class="event-content">
+                                Агропромышленный комплекс - 2014 <br/><span style="font-size: 7pt">Межрегиональная выставка с международным участием</span>
+                            </div> 
+                            <div class="event-header">01.04.2014 - 30.06.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
+                            </div>
+                            <div class="event-header">01.07.2014 - 31.08.2014</div>
+                            <div class="event-content">
+                                Передовые технологии классического сева <br/><span style="font-size: 7pt">(расширенная экспозиция сеялок, посевных агрегатов, посевных комбинаций) на площадке Агромаркета</span> 
+                            </div>
+                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(уборка)</span>
+                            </div>
+                            <div class="event-header">08.2014</div>
+                            <div class="event-content">
+                                День поля "ВолгоградАГРО" - 2014 <br/><span style="font-size: 7pt">4-й Демонстрационнаый показ сельскохозяйственной техники с полевых условий</span>
+                            </div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span> 
                             </div>
                         </div>
                     </li>

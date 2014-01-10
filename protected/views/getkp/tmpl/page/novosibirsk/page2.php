@@ -170,22 +170,24 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
+                            <div class="event-header">01.05.2014 - 31.07.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технологии заготовки кормов
+                            </div>
+                            
                             <div class="event-header">07.2014 - 08.2014</div>
                             <div class="event-content">
                                 День поля
                             </div> 
                             <div class="event-header">01.08.2014 - 30.09.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span>
                             </div>
                             <div class="event-header">11.2014</div>
                             <div class="event-content">
-                                АгроСиб. Сибирский фермер - 2014
+                                АгроСиб. Сибирский фермер - 2014 <br/><span style="font-size: 7pt">20-я Международная агропромышленная выставка</span>
                             </div>
-                            <div class="event-header">01.05.2015 - 31.07.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
-                            </div> 
+                             
                         </div>
                     </li>
                     <li style="width: 51px; vertical-align: bottom">

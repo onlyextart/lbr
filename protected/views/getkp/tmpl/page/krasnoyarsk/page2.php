@@ -170,29 +170,30 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">01.08.2014 - 30.09.2014</div>
+                            <div class="event-header">01.02.2014 - 30.04.2014</div>
                             <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span>(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(посадка)</span>
+                            </div> 
+                            <div class="event-header">01.05.2014 - 31.07.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технологии заготовки кормов
+                            </div>
+                            <div class="event-header">01.07.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Расширенная экспозиция по технике для возделывания овощей <span style="font-size: 7pt">(уборка)</span>
                             </div> 
                             <div class="event-header">08.2014</div>
                             <div class="event-content">
                                 День поля
                             </div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span>
+                            </div> 
+                            
                             <div class="event-header">11.2014</div>
                             <div class="event-content">
-                                Агропромышленный форум Сибири - 2014
-                            </div>
-                            <div class="event-header">01.02.2015 - 30.04.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (посадка)
-                            </div> 
-                            <div class="event-header">01.07.2015 - 30.09.2015</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технике для возделывания овощей (уборка)
-                            </div> 
-                            <div class="event-header">01.05.2016 - 31.07.2016</div>
-                            <div class="event-content">
-                                Расширенная экспозиция по технологии заготовки кормов
+                                Агропромышленный форум Сибири - 2014<br/><span style="font-size: 7pt">Выставка-ярамарка продовольствия, спецтехники, оборудования, спецтехники, оборудования для пищевой и перерабатывающей промышленности</span>
                             </div>
                         </div>
                     </li>

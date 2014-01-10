@@ -19,7 +19,7 @@
 .xbanners_container .xbanners .first_banner .b_caption .b_makers 
 {
     height: 30px;
-    height:auto\0/;
+    height:auto;
 }
 .regions_table_wrapper, .xbanners_container .xbanners .second_banner_dieci .b_header h3 a,
 .xbanners_container .xbanners .third_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .b_images_one_image_caption p,
@@ -126,12 +126,12 @@ header #top_banner
 .wrapper #content .product_wrapper .product_content > div div.review_video 
 {
     margin-bottom: 15px;
-    margin-bottom: 0px\0/;
+    margin-bottom: 0px;
 }
 .wrapper #content .product_wrapper .product_content > div#features_content
 {
     margin-top: 1em;
-    margin-top: 0\0/;
+    margin-top: 0;
 }
 
 .wrapper #content .product_wrapper .product_header 
@@ -141,7 +141,7 @@ header #top_banner
 header #top_banner
 {
     margin-top: 5px;
-    margin-top: -5px\0/;
+    margin-top: -5px;
 }
 
 .main_menu_third_level #third_level_menu li a{

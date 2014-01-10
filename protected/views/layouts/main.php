@@ -7,6 +7,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<?php
+        
+        $meta_title = Yii::app()->params['currentMenuItem']->meta_title;
+        $meta_description = Yii::app()->params['currentMenuItem']->meta_description;
+        $meta_keywords = Yii::app()->params['currentMenuItem']->meta_keywords;
+        
+        if(!$meta_title){
+            $meta_title = Yii::app()->params['meta_title'];
+        }
+        if(!$meta_description){
+            $meta_description = Yii::app()->params['meta_description'];
+        }
+        if(!$meta_keywords){
+            $meta_keywords = Yii::app()->params['meta_keywords'];
+        }
+        ?>
         <base href="/">
         <meta name="format-detection" content="telephone=no">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,11 +32,11 @@
         <meta content="Global" name="distribution">
         <meta http-equiv="pragma" content="no-cache">
         <meta name="cmsmagazine" content="6b789e24d2d8a2491fc5c5b10c8c99a5">
-        <?php if(Yii::app()->params['currentMenuItem']->meta_keywords): ?>
-            <meta name="keywords" content="<?php echo Yii::app()->params['currentMenuItem']->meta_keywords; ?>">
+        <?php if($meta_keywords): ?>
+            <meta name="keywords" content="<?php echo $meta_keywords; ?>">
         <?php endif; ?>
-        <meta name="description" content="<?php echo Yii::app()->params['currentMenuItem']->meta_description; ?>">
-	<title><?php echo Yii::app()->params['currentMenuItem']->meta_title; ?></title>
+        <meta name="description" content="<?php echo $meta_description; ?>">
+        <title><?php echo $meta_title; ?></title>
         
         <?php
         // Добавление css и javascript на страницу сайта
@@ -104,7 +120,7 @@
                         <a href="/company/" title="О компании">О компании</a>
                     </li>
                     <li>
-                        <a href="http://carrer.git-lbr.ru/" title="Вакансии">Вакансии</a>
+                        <a href="http://career.lbr.ru/" title="Вакансии">Вакансии</a>
                     </li>
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
@@ -121,7 +137,7 @@
                 </a>
             </div>
             <? if (Yii::app()->params['currentMenuItem']->level==1){?>
-                <div id="top_banner"><p>Более <span>2 тысяч</span> единиц техники на <span>22 площадках</span> по всей россии. <span>100 тысяч</span> позиций запасных частей в наличии.</p></div>
+                <div id="top_banner"><p>Более <span>2 тысяч</span> единиц техники на <span>23 площадках</span> по всей россии. <span>100 тысяч</span> позиций запасных частей в наличии.</p></div>
             <?}?>
         </header>
         <div class="wrapper">

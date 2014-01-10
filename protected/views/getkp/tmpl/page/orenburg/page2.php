@@ -171,18 +171,20 @@
                     <li style="width: 207px; vertical-align: top; background-color: #efefef;">
                         <div class="sidebar">
                             <div style="font-weight: 900; padding-bottom: 15px">Наши выставки и экспозиции на площадке АгроМаркета:</div>
-                            <div class="event-header">01.08.2014 - 30.09.2014</div>
-                            <div class="event-content">
-                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители)</span><br/> на площадке Агромаркета
-                            </div> 
-                            <div class="event-header">01.02.2015 - 31.03.2015</div>
+                            <div class="event-header">01.02.2014 - 31.03.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по широкозахватным технологиям в растениеводстве
                             </div>
-                            <div class="event-header">01.04.2015 - 30.06.2015</div>
+                            <div class="event-header">01.04.2014 - 30.06.2014</div>
                             <div class="event-content">
                                 Расширенная экспозиция по технологии заготовки кормов
                             </div>
+                            <div class="event-header">01.08.2014 - 30.09.2014</div>
+                            <div class="event-content">
+                                Все для зяблевой обработки почвы <br/><span style="font-size: 7pt">(плуги, бороны, культиваторы, глубокорыхлители) на площадке Агромаркета</span>
+                            </div> 
+                            
+                            
                         </div>
                     </li>
                     <li style="width: 51px; vertical-align: bottom">
