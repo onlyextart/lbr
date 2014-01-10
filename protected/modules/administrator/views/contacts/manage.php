@@ -190,6 +190,11 @@ tinymce.init(tinymce.myOptions);
             <?php echo $form->textField( $contactModel, 'oneC_id'); ?>
         </div>
         <div class="row">
+            <?php echo $form->error( $contactModel, 'images'); ?>
+            <?php echo $form->labelEx( $contactModel, 'images'); ?>
+            <?php echo $form->textField( $contactModel, 'images'); ?>
+        </div>
+        <div class="row">
             <?php echo $form->error( $contactModel, 'okrug_id'); ?>
             <?php echo $form->labelEx( $contactModel, 'okrug_id'); ?>
             <?php echo $form->dropDownList( $contactModel, 'okrug_id', Yii::app()->params['districts']); ?>

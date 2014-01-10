@@ -5,10 +5,10 @@
  */
 
 if( $newsModel->isNewRecord ){
-    $pageHeader = 'Создание нового баннера';
+    $pageHeader = 'Создание новости';
 }
 else{
-    $pageHeader = 'Редактирование баннера "'.$newsModel->newsRegions[0]->description.'"';
+    $pageHeader = 'Редактирование новости "'.$newsModel->newsRegions[0]->description.'"';
 }
 ?>
 <h2>
