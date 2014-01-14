@@ -83,7 +83,12 @@ class ProductsController extends Controller{
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара создана.');
-            $this->redirect('/administrator/products/update/id/'.$productModel->id);
+            if($_POST['yt0'])
+            {
+                 $this->redirect('/administrator/products/');
+            }else{
+                $this->redirect('/administrator/products/update/id/'.$productModel->id);
+            }
         }
         
         $this->render('manage', array(
@@ -196,7 +201,12 @@ class ProductsController extends Controller{
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара успешно сохранена.');
-            $this->redirect('/administrator/products/update/id/'.$productModel->id);
+            if($_POST['yt0'])
+            {
+                 $this->redirect('/administrator/products/');
+            }else{
+                $this->redirect('/administrator/products/update/id/'.$productModel->id);
+            }
         }
         
         $this->render('manage', array(

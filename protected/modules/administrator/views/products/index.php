@@ -12,3 +12,10 @@ $this->Widget('zii.widgets.grid.CGridView', array(
 
 ?>
 <a href="/administrator/products/create/">Создать страницу товара</a>
+<script>
+$(function(){
+    <?php if(Yii::app()->user->hasFlash('saved')): ?>
+        alertify.success("<?php echo Yii::app()->user->getFlash('saved'); ?>");
+    <?php endif; ?>
+});
+</script>
