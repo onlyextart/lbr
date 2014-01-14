@@ -12,11 +12,11 @@
     </head>
 
     <body>
-        <table width="638" style="border-collapse: collapse; " cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+        <table width="638" style="border-collapse: collapse; border-bottom: 1px rgb(6, 69, 173) dashed" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
             <tr>
                 <td>
-                    <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 15px; color: #d3232a; font-weight: 900; text-transform: uppercase;">Внимание!</span> <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">ООО «Сеть Агромаркетов», в рамках программы по работе с ключевыми клиентами, предлагает вашему предприятию  приобрести оборудование для почвообработке в рассрочку на следующих условиях:
-                    </span><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-weight: bold; font-size: 15px; color: #d3232a; "><br>Аванс- 25%.
+                    <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 15px; color: rgb(6, 69, 173); font-weight: 900; text-transform: uppercase;">Внимание!</span> <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: rgb(6, 69, 173); font-size: 14px;">ООО «Сеть Агромаркетов», в рамках программы по работе с ключевыми клиентами, предлагает вашему предприятию  приобрести оборудование для почвообработке в рассрочку на следующих условиях:
+                    </span><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-weight: bold; font-size: 15px; color: rgb(6, 69, 173); "><br>Аванс- 25%.
                     Срок кредита – до 7 месяцев.
                     Промежуточные платежи – не более 10% в месяц.
                     % удорожания – 0%.
