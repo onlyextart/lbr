@@ -90,7 +90,7 @@
 <h2>
     <?php echo ($productModel->isNewRecord)?'Создание страницы товара':'Редактирование товара "'.$productModel->name.'"' ?>
 </h2>
-<script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="/js/tiny_mce/tiny_mce.js"></script>
 <script type="text/javascript">
 tinymce.myOptions = {
     theme: "modern",

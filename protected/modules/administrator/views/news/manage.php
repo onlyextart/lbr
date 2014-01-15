@@ -1,3 +1,4 @@
+
 <?php
 /*
  * $newsModel - модель новости
@@ -11,6 +12,24 @@ else{
     $pageHeader = 'Редактирование новости "'.$newsModel->newsRegions[0]->description.'"';
 }
 ?>
+<script type="text/javascript" src="/js/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript">
+tinymce.myOptions = {
+    theme: "modern",
+    plugins: [
+        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars code fullscreen",
+        "insertdatetime media nonbreaking save table contextmenu directionality",
+        "emoticons template paste textcolor"
+    ],
+    theme_advanced_resizing : true,
+    toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+    toolbar2: "print preview media | forecolor backcolor emoticons",
+    image_advtab: true
+}
+tinymce.myOptions.selector = ".with_tinymce"
+tinymce.init(tinymce.myOptions);
+</script>
 <h2>
     <?php echo $pageHeader ?>
 </h2>
@@ -56,10 +75,17 @@ $form = $this->beginWidget('CActiveForm');
                     </div>
                 </div>
                 
-                <div class="row">
-                    <?php echo $form->error( $regionalEvent , "[$regionId]content" ); ?>
-                    <?php echo $form->labelEx( $regionalEvent , "[$regionId]content" ); ?>
-                    <?php echo $form->textarea( $regionalEvent , "[$regionId]content", array('class'=>'with_tinymce') ); ?>
+                
+                <div class="row ">
+                    <?php echo $form->labelEx($regionalEvent,"[$regionId]content"); ?><br />
+                    <?php $this->widget('application.extensions.tinymce.TinyMce',
+                        array(
+                        'model'=>$regionalEvent,
+                        'attribute'=>'[$regionId]content',
+                        'editorTemplate'=>'full',
+                        'htmlOptions'=>array('rows'=>6, 'cols'=>50, 'class'=>'tinymce'),
+                        )); ?>
+                    <?php echo $form->error($regionalEvent,"[$regionId]content"); ?>
                 </div>
             </div>
             <?php endforeach; ?>
