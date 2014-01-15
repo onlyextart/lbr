@@ -13,4 +13,3 @@ if ($data->image_type=='1' || $data->image_type=='2')
     echo '<img src="'.$data->image.'" alt="'.$data->name.'" title="'.$data->name.'">';
 }
 echo '</div>';
-?>

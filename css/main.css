@@ -2258,12 +2258,14 @@ show_regions_table_button_wrapper:after,
   margin: 0;
   margin-bottom: 3px;
 }
-.news-menu-color a h3 {
+.news-menu-color a .h-3 {
+  display: block;
   color: #008873;
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 5px;
+  margin-top: 1em;
 }
 .news-menu-color >span {
   color: #FE6700;

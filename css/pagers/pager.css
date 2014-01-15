@@ -10,7 +10,7 @@
 
 ul.yiiPager
 {
-	font-size:11px;
+	font-size:12px;
 	border:0;
 	margin:0;
 	padding:0;
@@ -22,7 +22,7 @@ ul.yiiPager li
 {
 	display:inline;
 }
-
+/*
 ul.yiiPager a:link,
 ul.yiiPager a:visited
 {
@@ -52,15 +52,17 @@ ul.yiiPager .selected a
 
 ul.yiiPager .hidden a
 {
-	border:solid 1px #DEDEDE;
-	color:#888888 !important;
+	border: solid 1px #DEDEDE;
+	color: #888888;
 }
+*/
 
 /**
  * Hide first and last buttons by default.
  */
 
-/*ul.yiiPager .first,
+/*
+ul.yiiPager .first,
 ul.yiiPager .last
 {
 	display:none;

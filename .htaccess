@@ -52,7 +52,10 @@ RewriteCond %{REQUEST_URI} !^(.*)administrator(.*)$
 RewriteCond %{REQUEST_FILENAME} !robots.txt
 RewriteRule ^(.*)$ http://www.lbr.ru/$1/ [R=301,L]
 
-RewriteRule ^(contacts/)(.*[^getregionstable/]) http://www.lbr.ru/company/$1$2 [R=301,L]
+RewriteCond %{REQUEST_URI} !^(.*)getregionstable(.*)$
+RewriteRule ^(contacts/)(.*) http://www.lbr.ru/company/$1$2 [R=301,L]
+
+RewriteRule ^contacts/$ http://www.lbr.ru/company/contacts/ [R=301,L]
 RewriteRule ^(news/)(.*) http://www.lbr.ru/company/events/$2 [R=301,L]
 RewriteRule ^(about/)(.*) http://www.lbr.ru/company/ [R=301,L]
 RewriteRule ^(vacancy/|company/vacancy)(.*) http://career.lbr.ru/vacancy/$2 [R=301,L]

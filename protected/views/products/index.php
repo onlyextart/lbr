@@ -27,24 +27,24 @@ if ($data->maker)
     ?>
         <div class="p_maker_container">
             <div class="p_one_maker">
-                <? echo '<img src="'.$maker->logo.'" alt="'.$maker->logo.'" class="makerid'.$maker->id.'">'; ?>
+                <?php echo '<img src="'.$maker->logo.'" alt="'.$maker->logo.'" class="makerid'.$maker->id.'">'; ?>
             </div>
         </div>
     <?}?>
-        <h1><? echo $h1; ?></h1>
+        <h1><?php echo $h1; ?></h1>
         <a href="<? echo $link_manager;?>" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
         <a class="download-pdf-but" href="/products/getpdf?url=<?php echo urlencode(Yii::app()->params[currentMenuItem]->path); ?>" title="Скачать описание">Скачать описание</a>
     </div>
     <div class="product_content">
         <ul class="product_tab_button">
-            <? echo  strip_tags($review) ? '<li id="review" class="active_tab">Обзор</li>' : ''; ?>
-            <? echo  strip_tags($tech) ? '<li id="features">Технические характеристики</li>' : ''; ?>
-            <? echo  strip_tags($constr) ? '<li id="construct">Конструкционные особенности</li>' : ''; ?>
-            <? echo  strip_tags($exp) ? '<li id="experience">Опыт эксплуатации</li>' : ''; ?>
-            <? echo  $img ? '<li id="media">Фото и видео</li>' : ''; ?>
-            <? echo Yii::app()->user->checkAccess('readHowToSell')? '<li id="howtosell">Как продавать</li>':''; ?>
+            <?php echo  strip_tags($review) ? '<li id="review" class="active_tab">Обзор</li>' : ''; ?>
+            <?php echo  strip_tags($tech) ? '<li id="features">Технические характеристики</li>' : ''; ?>
+            <?php echo  strip_tags($constr) ? '<li id="construct">Конструкционные особенности</li>' : ''; ?>
+            <?php echo  strip_tags($exp) ? '<li id="experience">Опыт эксплуатации</li>' : ''; ?>
+            <?php echo  $img ? '<li id="media">Фото и видео</li>' : ''; ?>
+            <?php echo Yii::app()->user->checkAccess('readHowToSell')? '<li id="howtosell">Как продавать</li>':''; ?>
         </ul>
-        <?
+        <?php
             if (strip_tags($review)){
                 echo '<div id="review_content" class="active_tab">';
                 if($review_image){
@@ -57,10 +57,10 @@ if ($data->maker)
                 echo '</div>';
             }
         ?>
-        <? echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
-        <? echo  strip_tags($constr) ? '<div id="construct_content">'.$constr.'</div>' : ''; ?>
-        <? echo  strip_tags($exp) ? '<div id="experience_content">'.$exp.'</div>' : ''; ?>
-        <? 
+        <?php echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
+        <?php echo  strip_tags($constr) ? '<div id="construct_content">'.$constr.'</div>' : ''; ?>
+        <?php echo  strip_tags($exp) ? '<div id="experience_content">'.$exp.'</div>' : ''; ?>
+        <?php 
             if ($img || $videos)
             {
                 echo '<div id="media_content">';
@@ -73,7 +73,7 @@ if ($data->maker)
                             echo '<img src="'.$image->path.'" ';
                             echo 'alt="'.str_replace(array('"', '\'', '/', '\\'), '', $image->alt ? $image->alt: 'Фото '.$data->name).'" ';
                             echo 'title="'.str_replace(array('"', '\'', '/', '\\'), '', $image->title ? $image->title:'Фото '.$data->name).'" ';
-                            echo $image->description ? 'data-description="'.str_replace(array('"', '\'', '/', '\\'), '', $image->description).'">':'';
+                            echo $image->description ? 'data-description="'.str_replace(array('"', '\'', '/', '\\'), '', $image->description).'">':'>';
                         }
                         echo '</div>';
                     }
@@ -106,7 +106,7 @@ if ($data->maker)
                 echo '</div>';
             }
         ?>
-        <?
+        <?php
         if (Yii::app()->user->checkAccess('readHowToSell'))
         {
             Yii::app()->getController()->renderPartial('how-to-sell/default', array('data'=>$data->howToSells));

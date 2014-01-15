@@ -59,7 +59,7 @@
     <?php if( !empty($this->thirdLevelItems) ): ?>
     <div class="main_menu_third_level">
         <div class="main_menu_third_level_icon">
-            <a class="<?php echo 'menu_color_group_'.$this->menuBranch[3]->group->id ?>" href="<?php echo $this->menuBranch[3]->path ?>">
+            <a class="<?php echo 'menu_color_group_'.$this->menuBranch[3]->group->id ?>" href="<?php echo $this->menuBranch[3]->path ?>/">
                 <img src="<?php echo $this->menuBranch[3]->icon ?>" >
             </a>
         </div>
@@ -92,7 +92,7 @@
                 echo CHtml::openTag('li');
                     echo CHtml::link(
                         Yii::app()->params[currentMenuItem]->name,
-                        Yii::app()->params[currentMenuItem]->path
+                        Yii::app()->params[currentMenuItem]->path.'/'
                     );
                 echo CHtml::closeTag('li');
             if(is_array($productMenuItems) && !(empty($productMenuItems))){
