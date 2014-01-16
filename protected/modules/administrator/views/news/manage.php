@@ -12,23 +12,28 @@ else{
     $pageHeader = 'Редактирование новости "'.$newsModel->newsRegions[0]->description.'"';
 }
 ?>
-<script type="text/javascript" src="/js/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="/js/tinymce_3_x/tiny_mce.js"></script>
 <script type="text/javascript">
 tinymce.myOptions = {
-    theme: "modern",
-    plugins: [
-        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
-        "searchreplace wordcount visualblocks visualchars code fullscreen",
-        "insertdatetime media nonbreaking save table contextmenu directionality",
-        "emoticons template paste textcolor"
-    ],
-    theme_advanced_resizing : true,
-    toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
-    toolbar2: "print preview media | forecolor backcolor emoticons",
-    image_advtab: true
+        width: "100%",
+        mode : "textareas",
+        editor_selector: "with_tinymce",
+        theme : "advanced",
+        language : "ru",
+        plugins : "autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
+        relative_urls: false,
+        convert_urls : false,
+
+        theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
+        theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
+        theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen",
+        theme_advanced_buttons4 : "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",
+        theme_advanced_toolbar_location : "top",
+        theme_advanced_toolbar_align : "left",
+        theme_advanced_statusbar_location : "bottom",
+        theme_advanced_resizing : true,
+
 }
-tinymce.myOptions.selector = ".with_tinymce"
-tinymce.init(tinymce.myOptions);
 </script>
 <h2>
     <?php echo $pageHeader ?>
@@ -71,20 +76,14 @@ $form = $this->beginWidget('CActiveForm');
                     <div class="row ">
                         <?php echo $form->error( $regionalEvent , "[$regionId]description" ); ?>
                         <?php echo $form->labelEx( $regionalEvent , "[$regionId]description" ); ?>
-                        <?php echo $form->textField( $regionalEvent , "[$regionId]description", array('style'=>'width:95%') ); ?>
+                        <?php echo $form->textArea( $regionalEvent , "[$regionId]description", array('class'=>'with_tinymce')); ?>
                     </div>
                 </div>
                 
                 
                 <div class="row ">
                     <?php echo $form->labelEx($regionalEvent,"[$regionId]content"); ?><br />
-                    <?php $this->widget('application.extensions.tinymce.TinyMce',
-                        array(
-                        'model'=>$regionalEvent,
-                        'attribute'=>'[$regionId]content',
-                        'editorTemplate'=>'full',
-                        'htmlOptions'=>array('rows'=>6, 'cols'=>50, 'class'=>'tinymce'),
-                        )); ?>
+                    <?php echo $form->textArea($regionalEvent,"[$regionId]content", array('class'=>'with_tinymce')); ?>
                     <?php echo $form->error($regionalEvent,"[$regionId]content"); ?>
                 </div>
             </div>
@@ -108,6 +107,7 @@ $form = $this->beginWidget('CActiveForm');
         <div class="manage_buttons buttons">
             <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/news/', array('class'=>'btn del')); ?>
+            <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть', array('class'=>'btn btn-green')); ?>
             <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
             
         </div>
