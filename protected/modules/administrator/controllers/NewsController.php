@@ -171,5 +171,5 @@ class NewsController extends Controller
                     $menuContentModel->save();
                 }
             }
-        }
+        }        
 }
