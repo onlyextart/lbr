@@ -83,6 +83,7 @@ RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-t
 RewriteRule ^tehnika/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
 RewriteRule ^tehnika/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
 RewriteRule ^selskohozyaystvennaya-tehnika/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
+RewriteRule ^tehnika/traktory/mtz/263-traktory-belarus-82-892-mtz/$ http://www.lbr.ru/tehnika/traktory/mtz/263-traktory-belarus-892-mtz/ [R=301,L]
 
 #RedirectMatch 301 ^tehnika/(.*?[^/]/)(.*?[/]/)$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1$2
 ## End - Custom redirects
