@@ -56,10 +56,10 @@ class Contacts extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('published', 'numerical', 'integerOnly'=>true),
-			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id', 'safe'),
+			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id', 'safe', 'on'=>'search'),
+			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -99,7 +99,8 @@ class Contacts extends CActiveRecord
 			'info' => 'Информация',
 			'images' => 'Images',
 			'oneC_id' => '1C alias',
-                        'okrug_id'=>'Округ'
+            'okrug_id'=>'Округ',
+            'servis_regions'=>'Обслуживающие регионы'
 		);
 	}
 
@@ -129,6 +130,7 @@ class Contacts extends CActiveRecord
 		$criteria->compare('images',$this->images,true);
 		$criteria->compare('oneC_id',$this->oneC_id,true);
         $criteria->compare('okrug_id',$this->okrug_id,true);
+        $criteria->compare('servis_regions',$this->servis_regions,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

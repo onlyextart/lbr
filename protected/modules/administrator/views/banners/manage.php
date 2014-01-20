@@ -291,15 +291,8 @@ tinymce.myOptions = {
                     <div class="row ">
                         <?php echo $form->error( $regionalBanner , "[$regionId]name" ); ?>
                         <?php echo $form->labelEx( $regionalBanner , "[$regionId]name" ); ?>
-                        <?php echo $form->textArea( $regionalBanner , "[$regionId]name", array('class'=>'width = 95%')); ?>
+                        <?php echo $form->textArea( $regionalBanner , "[$regionId]name", array('class'=>'width = "95%"')); ?>
                     </div>
-                </div>
-                
-                
-                <div class="row ">
-                    <?php echo $form->labelEx($regionalBanner,"[$regionId]description"); ?><br />
-                    <?php echo $form->textArea($regionalBanner,"[$regionId]description", array('class'=>'with_tinymce')); ?>
-                    <?php echo $form->error($regionalBanner,"[$regionId]description"); ?>
                 </div>
                 <div class="banner_images_wrapper">
                     <div class="image_blank_form" style="display:none;">
@@ -318,6 +311,13 @@ tinymce.myOptions = {
                         <?php endif; ?>
                     <?php endforeach; ?>
                 </div>
+                
+                <div class="row ">
+                    <?php echo $form->labelEx($regionalBanner,"[$regionId]description"); ?><br />
+                    <?php echo $form->textArea($regionalBanner,"[$regionId]description", array('class'=>'with_tinymce')); ?>
+                    <?php echo $form->error($regionalBanner,"[$regionId]description"); ?>
+                </div>
+                
                 
             </div>
             <?php endforeach; ?>
@@ -339,6 +339,7 @@ tinymce.myOptions = {
         </div>
         <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/banners/', array('class'=>'btn del')); ?>
+            <?php echo CHtml::submitButton($bannerModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть', array('class'=>'btn btn-green')); ?>
             <?php echo CHtml::submitButton($bannerModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
         </div>
     </div>
