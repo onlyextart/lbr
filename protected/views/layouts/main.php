@@ -211,7 +211,7 @@
         <script src="http://mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
         <noscript><div><img src="//mc.yandex.ru/watch/13203052" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
-        <!-- Google Code for &#1058;&#1077;&#1075; &#1088;&#1077;&#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;&#1072; -->
+        <!-- Google Code for Тег ремаркетинга -->
         <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
         <script type="text/javascript">
         /* <![CDATA[ */
