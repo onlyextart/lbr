@@ -42,7 +42,7 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/sezon-moloka.jpg" width="638" border="0" /></td></tr>
+                    <tr style="max-height: 100px;" ><td><img src="http://www.git-lbr.ru/images/kp/sezon-moloka.jpg" width="638" border="0" /></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
