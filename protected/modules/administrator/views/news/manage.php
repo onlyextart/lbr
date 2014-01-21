@@ -284,6 +284,7 @@ $this->endWidget();
     .makers_table td{
         width:14%;
     }
+    
     ul.menuTreeView{
         padding-right: 10px;
     }

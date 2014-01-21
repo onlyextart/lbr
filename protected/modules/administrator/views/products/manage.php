@@ -20,7 +20,7 @@
     }
     .title_product_image_wrapper{
         min-height: 50px;
-        border-radius: 2px;
+        border-radius: 2px;git 
         border: 1px solid #ccc;
         box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
         width:50%;
@@ -198,7 +198,7 @@ tinyMCE.init({
         <div class="admin_additional_features_content">
             <?php
             $previouslyUploadedFiles = array();
-            if( !$bannerModel->isNewRecord ){
+            if( !$productModel->isNewRecord ){
                 foreach( $productFotoGallery as $image ):
                     $previouslyUploadedFiles[$image->path]="";
                 endforeach;
@@ -378,8 +378,8 @@ tinyMCE.init({
         </div>
         <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/products/', array('class'=>'btn del')); ?>
-            <?php echo CHtml::submitButton($bannerModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть', array('class'=>'btn btn-green')); ?>
-            <?php echo CHtml::submitButton($bannerModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
+            <?php echo CHtml::submitButton($productModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть', array('class'=>'btn btn-green')); ?>
+            <?php echo CHtml::submitButton($productModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
         </div>
     </div>
     <?php $this->endWidget(); ?>
