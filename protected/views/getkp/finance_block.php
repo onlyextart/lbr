@@ -3,7 +3,7 @@
             <tr>
                 <td>
                     <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; color: rgb(6, 69, 173); ">
-                    <?php echo $_REQUEST['finance_block_text'];    ?>
+                    <?php echo $finance_block_text;    ?>
                     </span> 
                 </td>
             </tr>
