@@ -18,7 +18,7 @@ class GetkpController extends Controller
                 $this->renderPartial('link', array('data'=>$return));
                 exit();
             }
-        }
+        }        
         if($_REQUEST['temp_id'])
         {
             $command = Yii::app()->db->createCommand();

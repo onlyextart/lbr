@@ -46,3 +46,4 @@ else{
         Yii::app()->getController()->renderPartial('tmpl/single/one'.$suf2, array('data'=>$data, 'filial'=>$filial, 'template'=>$template));
 }
   
+?>
