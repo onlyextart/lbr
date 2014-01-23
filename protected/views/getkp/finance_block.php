@@ -2,7 +2,7 @@
             <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
             <tr>
                 <td>
-                    <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; color: rgb(6, 69, 173); "><br>Аванс- 25%.
+                    <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; color: rgb(6, 69, 173); ">
                     <?php echo $_REQUEST['finance_block_text'];    ?>
                     </span> 
                 </td>
