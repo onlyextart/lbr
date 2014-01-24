@@ -159,7 +159,7 @@
                         <a href="/company/" title="О компании">О компании</a>
                     </li>
                     <li>
-                        <a href="http://career.lbr.ru/" title="Вакансии">Вакансии</a>
+                        <a href="http://career.lbr.ru/" title="Карьера">Карьера</a>
                     </li>
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
@@ -219,11 +219,11 @@
             </div>
             <div class="f-right">
                 <ul class="f-nav">
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="/company/">О компании</a></li>
-                    <li><a href="/company/vacancy/">Вакансии</a></li>
-                    <li class="parent"><a href="/company/contacts/">Контакты</a></li>
-                    <li><a href="/sitemap/">Карта сайта</a></li>
+                    <li><a href="/" title="ЛБР-агромаркет">Главная</a></li>
+                    <li><a href="/company/" title="О компании">О компании</a></li>
+                    <li><a href="http://career.lbr.ru/" title="Карьера">Карьера</a></li>
+                    <li class="parent"><a href="/company/contacts/" title="Контакты">Контакты</a></li>
+                    <li><a href="/sitemap/" title="Карта сайта">Карта сайта</a></li>
                 </ul>
             </div>
         </footer>
