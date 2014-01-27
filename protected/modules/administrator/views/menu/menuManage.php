@@ -101,6 +101,7 @@ else{
                     'class'=>'btn btn-green'
                 )
             );
+            echo CHtml::link('Закрыть', '', array('class'=>'btn del', 'onclick'=>'$("#menu_features").html(" ")'))
         ?>
         </div>
     </div>

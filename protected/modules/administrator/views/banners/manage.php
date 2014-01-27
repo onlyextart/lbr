@@ -84,7 +84,17 @@ tinymce.myOptions = {
     .admin_main_features{float:left; width:40%;}
     .admin_additional_features{float:left; width:60%;}
     .regional_features_wrapper{float: left; width: 100%;}
-    .banner_images_wrapper{width:69%; float: left; min-height:120px; border:1px solid #eee; position:relative; z-index:50;}
+    .banner_images_wrapper
+    {
+        width:65%;
+        float: left;
+        /*min-height:120px;*/
+        border:1px solid #eee;
+        position:relative;
+        background: #F5F5F5;
+        z-index:50;
+        padding: 1% 2%;
+    }
     .ui-dialog{z-index: 900;}
     .imageFeaturesForm{display: none;}
     .imageFeature{width:98%;}
@@ -360,7 +370,7 @@ tinymce.myOptions = {
         
         this.init = function(){
             //Инициализация табов
-            this.tabs = $( "#tabs" ).tabs();
+            this.tabs = $( "#tabs" ).tabs({ active: 1 });
             this.regionalFormsObject =  this.prepareRegionalForms();
            
             //Вставка заполненных форм в табы
@@ -390,7 +400,6 @@ tinymce.myOptions = {
                     //form[0].reset();
                 }
             });
-            
             //Инициализация изображений в регионе после загрузки страницы
             $('.dropped_image_wrapper').each(function(){
                 var imageWrapper = $(this);
@@ -445,6 +454,7 @@ tinymce.myOptions = {
                 self.tabs.tabs( "refresh" );
             });
             
+            $('#ui-id-1').click();
         }
         
         //Функция возвращает массив всех форм (для каждого региона в приложении)
@@ -477,7 +487,8 @@ tinymce.myOptions = {
             
             self.tabs.find( ".ui-tabs-nav" ).append( li );
             self.tabs.append( self.regionalFormsObject[regionId].attr({id:id}));
-            self.regionalFormsObject[regionId].find('.banner_images_wrapper').droppable({
+            var banner_images = self.regionalFormsObject[regionId].find('.banner_images_wrapper');
+            banner_images.droppable({
                 //activeClass: "ui-state-hover",
                 accept: ":not(.ui-dialog, .dropped_image_wrapper) ",
                 hoverClass: "ui-state-active",
@@ -486,13 +497,16 @@ tinymce.myOptions = {
                     $(this).append(image);
                     self.initImageForm(image, $(this) /*DroppableWrapper*/ );
                 }
-            }).sortable({
+            });
+            banner_images.sortable({
                 stop: function(){
                     $(this).find('.uploaded_file_wrapper').each(function(){
                         self.imageInputNameAttrProcessing($(this));
                     });
-                }
-            }).disableSelection();
+                },
+                placeholder: "uploaded_file_wrapper ui-state-highlight"
+            });
+            banner_images.disableSelection();
             
             self.tabs.tabs( "refresh" );
             self.tabCounter++;
