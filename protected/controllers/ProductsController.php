@@ -42,7 +42,6 @@ class ProductsController extends Controller{
             throw new CHttpException(404, 'Запрашиваемая страница не существует. Пункт меню не найден.');
         
         //$pageData = file_get_contents('');
-        
         $productModel = Products::model()->findByPk($menuItem->menuItemsContents[0]->page_id);
         
         if($productModel===null)
@@ -104,7 +103,7 @@ class ProductsController extends Controller{
         $mpdf=new mPDF('ru-RU','A4','','',15, 5, 7, 7, 10, 10);
         $mpdf->WriteHTML($stylesheet,1);
         $mpdf->WriteHTML($pageData,2);
-        $mpdf->Output('lbr.ru.pdf','D');
+        $mpdf->Output($menuItem->alias.'(www.lbr.ru).pdf','D');
         //echo($pageData);
     }
 }
