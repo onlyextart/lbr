@@ -35,11 +35,9 @@ class ProductsController extends Controller{
             'content'=>$val,
         ), 'product_id=:id', array(':id'=>$id));
     }
-    
-    public function actionGetPdf( $url ){
-        $menuItem = MenuItems::model()->find('path=:path', array(
-            ':path'=>$url,
-        ));
+    // $url - menu item ID
+    public function actionGetPdf($url){
+        $menuItem = MenuItems::model()->findByPk($url);
         if($menuItem === null || $menuItem->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE)
             throw new CHttpException(404, 'Запрашиваемая страница не существует. Пункт меню не найден.');
         
