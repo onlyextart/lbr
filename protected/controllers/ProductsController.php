@@ -41,14 +41,14 @@ class ProductsController extends Controller{
             ':path'=>$url,
         ));
         if($menuItem === null || $menuItem->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE)
-            throw new CHttpException(404, 'Запрашиваемая страница не существует');
+            throw new CHttpException(404, 'Запрашиваемая страница не существует. Пункт меню не найден.');
         
         //$pageData = file_get_contents('');
         
         $productModel = Products::model()->findByPk($menuItem->menuItemsContents[0]->page_id);
         
         if($productModel===null)
-            throw new CHttpException(404, 'Запрашиваемая страница не существует');
+            throw new CHttpException(404, 'Запрашиваемая страница не существует. Страница товара не найдена.');
         
         $makerModel = Makers::model()->findByPk($productModel->maker);
         $contactModel = Regions::model()->findByPk(Yii::app()->params['regionId'])->contact;

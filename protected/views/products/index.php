@@ -33,7 +33,7 @@ if ($data->maker)
     <?}?>
         <h1><?php echo $h1; ?></h1>
         <a href="<? echo $link_manager;?>" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
-        <a class="download-pdf-but" href="/products/getpdf?url=<?php echo urlencode(Yii::app()->params[currentMenuItem]->path); ?>" title="Скачать описание">Скачать описание</a>
+        <a class="download-pdf-but" href="/products/getpdf?url=<?php echo urlencode(Yii::app()->params[currentMenuItem]->path); ?>/" title="Скачать описание">Скачать описание</a>
     </div>
     <div class="product_content">
         <ul class="product_tab_button">
