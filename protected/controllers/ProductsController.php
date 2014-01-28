@@ -49,8 +49,12 @@ class ProductsController extends Controller{
             throw new CHttpException(404, 'Запрашиваемая страница не существует. Страница товара не найдена.');
         
         $makerModel = Makers::model()->findByPk($productModel->maker);
-        $contactModel = Regions::model()->findByPk(Yii::app()->params['regionId'])->contact;
-        //var_dump($contactModel);
+        $region_id = Yii::app()->params['regionId'];
+        if(!$region_id)
+            $region_id = 21; // Smolensk ID !WARNING. Это отстойный код, нужно сделать рефакторинг.
+        
+        $contactModel = Contacts::model()->findByPk($region_id);
+        
         $stylesheet = 'body {position:relative; font-size:12px; width:100%;}
                     .logoWrapper{width:200px; float:left;}
                     .logo{width:200px; float:left;}
