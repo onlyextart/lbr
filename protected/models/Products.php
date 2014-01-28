@@ -156,4 +156,8 @@ class Products extends CActiveRecord
                 }
                 return false;
         }
+        
+        protected function afterSave() {
+            parent::afterSave();
+        }
 }
