@@ -8,21 +8,12 @@ class ContactsController extends Controller
         $this->render( 'index', array( 'dataProvider'=>$dataProvider, ) );
     }
      public function actionCreate(){
-        $contactModel = new Contacts();
-        $contactFotoGallery = $contactModel->contactImages;
+        $contactModel = new Contacts();        
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];
             $contactIsValid = $contactModel->validate();
                 
-                if( isset($_POST['ContactImage']) ){
-                $contactFotoGallery = array();
-                foreach( $_POST['ContactImage'] as $imageNum => $foto ){
-                    $contactFotoGallery[$imageNum] = new ContactImage();
-                    $contactFotoGallery[$imageNum]->attributes = $foto;
-                    $contactFotoGallery[$imageNum]->sorting = $imageNum;
-                    $contactIsValid = $contactFotoGallery[$imageNum]->validate() && $contactIsValid;
-                    }
-                }
+                
                 if(isset($_POST['MenuItemConteintigThisContact'])){
                     foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
                         if($menuItem!='1')
@@ -35,12 +26,7 @@ class ContactsController extends Controller
                 }
                 if( $contactIsValid ){
                 $contactModel->save();                
-                if( isset($_POST['ContactImage']) ){
-                    foreach( $contactFotoGallery as $foto ){
-                        $foto->contact_id = $contactModel->id;
-                        $foto->save();
-                    }
-                }                
+                             
                 if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
                     foreach( $_POST['MenuItemConteintigThisContact'] as $menuItemId=>$value ){
                         if($value!='0'){
@@ -55,39 +41,20 @@ class ContactsController extends Controller
                 $this->redirect(array('/administrator/contacts/create/id/'.$contactModel->id));
             
         }
-        $this->render( 'manage', array( 'contactModel'=>$contactModel, 'contactFotoGallery'=>$contactFotoGallery) );
+        $this->render( 'manage', array( 'contactModel'=>$contactModel) );
     }
 
   public function actionUpdate( $id ){
-        $contactModel = Contacts::model()->findByPk( $id );
-        $contactFotoGallery = $contactModel->contactImages;
+        $contactModel = Contacts::model()->findByPk( $id );        
         
         if( isset($_POST['Contacts']) ){
             $contactModel->attributes = $_POST['Contacts'];
             $contactIsValid = $contactModel->validate();
-            if( isset($_POST['ContactImage']) ){
-                $contactFotoGalleryForDeleting = $contactFotoGallery;
-                foreach( $_POST['ContactImage'] as $imageNum => $foto ){
-                    if(!isset($contactFotoGallery[$imageNum]))
-                        $contactFotoGallery[$imageNum] = new ContactImage();
-                    $contactFotoGallery[$imageNum]->attributes = $foto;
-                    $contactFotoGallery[$imageNum]->sorting = $imageNum;
-                    $contactIsValid = $contactFotoGallery[$imageNum]->validate() && $contactIsValid;
-                    unset($contactFotoGalleryForDeleting[$imageNum]);
-                }
-            }
+            
                 
             if( $contactIsValid ){
                 $contactModel->save();
-                if( isset( $_POST['ContactImage'] ) ){
-                    foreach( $contactFotoGallery as $foto ){
-                        $foto->contact_id = $contactModel->id;
-                        $foto->save();
-                    }
-                    foreach( $contactFotoGalleryForDeleting as $deleteGalleryFoto ){
-                        $deleteGalleryFoto->delete();
-                    }
-                }                
+                               
                 
                 if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
                     $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
@@ -116,7 +83,7 @@ class ContactsController extends Controller
             $this->redirect('/administrator/contacts/update/id/'.$contactModel->id);
         }
         
-        $this->render( 'manage', array( 'contactModel'=>$contactModel, 'contactFotoGallery'=>$contactFotoGallery));
+        $this->render( 'manage', array( 'contactModel'=>$contactModel));
     }
     
     public function actionDelete( $id ){
