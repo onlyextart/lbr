@@ -87,7 +87,7 @@
         background-color: #E0E0E0;
     }
 </style>
-<h2>images/ContactsImages/barnaul/1-barnaul-ploshadka.jpg
+<h2>
     <?php echo ($contactModel->isNewRecord)?'Создание страницы контакта':'Редактирование контакта "'.$contactModel->name.'"' ?>
 </h2>
 <script type="text/javascript" src="/js/tinymce_3_x/tiny_mce.js"></script>
