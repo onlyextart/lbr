@@ -224,7 +224,7 @@
                                     </tr>
                                     <tr>
                                         <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveco, 74/101 или 93/127</span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">Iveko, 93/127</span></td>
                                     </tr>

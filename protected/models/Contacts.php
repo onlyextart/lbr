@@ -29,6 +29,9 @@
  */
 class Contacts extends CActiveRecord
 {
+    public $image;
+    public $icon; // атрибут для хранения загружаемой картинки статьи
+    public $del_img; // атрибут для удаления уже загруженной картинки
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -56,10 +59,11 @@ class Contacts extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('published', 'numerical', 'integerOnly'=>true),
+            array('image', 'file', 'types'=>'jpg, jpeg, gif, png'),            
 			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe'),
-			// The following rule is used by search().
+   // The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on'=>'search'),
+			array('id, name=>order ASC, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,6 +80,7 @@ class Contacts extends CActiveRecord
 			'pagesRegions' => array(self::HAS_MANY, 'PagesRegion', 'filial_id'),
 			'productsRegions' => array(self::HAS_MANY, 'ProductsRegion', 'filial_id'),
 			'regions' => array(self::HAS_MANY, 'Regions', 'contact_id'),
+            'contactImages' => array(self::HAS_MANY, 'ContactImage', 'contact_id'),
 		);
 	}
 
@@ -179,5 +184,6 @@ class Contacts extends CActiveRecord
                 ),
             );
         }
+        
         
 }
