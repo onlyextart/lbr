@@ -21,14 +21,14 @@
         </td>
     </tr>
 </table>
+<? endif;?>
 <?php
-	$finance_block = $_REQUEST['finance_block'];
+	$finance_block = $data['finance_block'];
         if ($finance_block=='1')
         {
-            $this->renderPartial('finance_block');
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
         }
 ?>
-<? endif;?>
 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; page-break-after: always; ">
     <tbody>
         <tr valign="top">

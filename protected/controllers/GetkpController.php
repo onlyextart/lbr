@@ -56,6 +56,7 @@ class GetkpController extends Controller
     private function setTable()
     {
         $model = new Kp();
+//        var_dump($_REQUEST); exit();
         $data = $_REQUEST;
         $prices = array();
         $prices_blue = array();

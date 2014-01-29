@@ -96,4 +96,11 @@ class Makers extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        public function defaultScope()
+        {
+                return array(
+                    'order'=>$this->getTableAlias(false, false).'.name ASC'
+                );
+        }
 }

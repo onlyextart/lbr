@@ -7,14 +7,16 @@
     width:120px;
     position:relative;
     padding: 4px;
-    border:1px solid #EEEEEE;
+    border:1px solid rgb(212,212,212);
     float:left;
     margin:5px;
-    height: 130px;
+    height: 100px;
+    overflow: hidden;
+    background: white;
 }
 .uploaded_file{
-    max-height:100px;
-    max-width:120px;
+    max-height:100%;
+    max-width:100%;
     position: absolute;
     margin: auto;
     top: 0;
@@ -35,5 +37,29 @@
     height: 100px;
     width: 120px;
     position: relative;
+}
+.focus-out
+{
+    position: relative;
+    border: 1px dashed #ccc;
+    padding: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+.focus-out:after
+{
+    content: 'Я съем Ваши картинки! : ) омном-омном-омном';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    text-align: center;
+    z-index: 1;
+    line-height: 95px;
+    font-size: 24px;
+    color: #888888;
 }
 /* END GROUP UPLOADED IMAGES */

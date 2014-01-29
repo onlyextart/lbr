@@ -35,24 +35,25 @@ class ProductsController extends Controller{
             'content'=>$val,
         ), 'product_id=:id', array(':id'=>$id));
     }
-    
-    public function actionGetPdf( $url ){
-        $menuItem = MenuItems::model()->find('path=:path', array(
-            ':path'=>$url,
-        ));
+    // $url - menu item ID
+    public function actionGetPdf($url){
+        $menuItem = MenuItems::model()->findByPk($url);
         if($menuItem === null || $menuItem->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE)
-            throw new CHttpException(404, 'Запрашиваемая страница не существует');
+            throw new CHttpException(404, 'Запрашиваемая страница не существует. Пункт меню не найден.');
         
         //$pageData = file_get_contents('');
-        
         $productModel = Products::model()->findByPk($menuItem->menuItemsContents[0]->page_id);
         
         if($productModel===null)
-            throw new CHttpException(404, 'Запрашиваемая страница не существует');
+            throw new CHttpException(404, 'Запрашиваемая страница не существует. Страница товара не найдена.');
         
         $makerModel = Makers::model()->findByPk($productModel->maker);
-        $contactModel = Regions::model()->findByPk(Yii::app()->params['regionId'])->contact;
-        //var_dump($contactModel);
+        $region_id = Yii::app()->params['regionId'];
+        if(!$region_id)
+            $region_id = 21; // Smolensk ID !WARNING. Это отстойный код, нужно сделать рефакторинг.
+        
+        $contactModel = Contacts::model()->findByPk($region_id);
+        
         $stylesheet = 'body {position:relative; font-size:12px; width:100%;}
                     .logoWrapper{width:200px; float:left;}
                     .logo{width:200px; float:left;}
@@ -102,7 +103,7 @@ class ProductsController extends Controller{
         $mpdf=new mPDF('ru-RU','A4','','',15, 5, 7, 7, 10, 10);
         $mpdf->WriteHTML($stylesheet,1);
         $mpdf->WriteHTML($pageData,2);
-        $mpdf->Output('lbr.ru.pdf','D');
+        $mpdf->Output($menuItem->alias.'(www.lbr.ru).pdf','D');
         //echo($pageData);
     }
 }

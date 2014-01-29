@@ -15,6 +15,14 @@ function OUploader( params ) {
         }
     });
     
+    $(document).bind({
+        focusout: function(){
+            $('#file-field').addClass('focus-out');
+        },
+        focusin: function(){
+            $('#file-field').removeClass('focus-out');
+        }
+    })
     this.upload = function(file) {
         // Сначала мы отправим пустой запрос на сервер. 
         // Это связано с тем, что иногда Safari некорректно обрабатывает

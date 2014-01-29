@@ -44,7 +44,7 @@ class Kp extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('control_number', 'numerical', 'integerOnly'=>true),
-			array('user, temp_id, price, price_blue, client, header, filial, filial_bottom', 'safe'),
+			array('user, temp_id, price, price_blue, client, header, filial, filial_bottom, finance_block, finance_block_text', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, user, temp_id, price, price_blue, client, header, filial, filial_bottom, control_number', 'safe', 'on'=>'search'),
@@ -101,7 +101,9 @@ class Kp extends CActiveRecord
 		$criteria->compare('filial',$this->filial,true);
 		$criteria->compare('filial_bottom',$this->filial_bottom,true);
 		$criteria->compare('control_number',$this->control_number);
-        $criteria->compare('price_blue',$this->price_blue,true);
+                $criteria->compare('price_blue',$this->price_blue,true);
+                $criteria->compare('finance_block',$this->price_blue,true);
+                $criteria->compare('finance_block_text',$this->price_blue,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
