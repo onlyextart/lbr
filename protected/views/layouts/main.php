@@ -46,18 +46,20 @@
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
         ?>
         <!--[if IE]>
-            <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
+            <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
         <![endif]-->
         <!--[if lt IE 9]>
-            <script type="text/javascript" src="<? echo Yii::app()->request->baseUrl;?>/js/selectivizr-min.js"></script>
+            <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/selectivizr-min.js"></script>
             <link rel="stylesheet" type="text/css" href="<? echo Yii::app()->request->baseUrl;?>/css/ie.css" />
         <![endif]-->
+        <?php if(Yii::app()->user->isGuest):?>
         <!-- google -->
         <?php Yii::app()->clientScript->registerScriptFile('/js/site/lbr.google.analytics.js'); ?>
         <!-- /google -->
         <!-- Yandex.Metrika counter -->
         <?php Yii::app()->clientScript->registerScriptFile('/js/site/lbr.yandex.metrika.js'); ?>
         <!-- /Yandex.Metrika counter -->
+        <?php endif; ?>
     </head>
     <body>
         <header>
