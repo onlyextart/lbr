@@ -107,4 +107,13 @@ class News extends CActiveRecord
                 }
                 return false;
         }
+        public function scopes()
+        {
+            return array(
+                'order'=>$this->getTableAlias(false, false).'.sorting ASC',
+                'published'=>array(
+                    'condition'=>'published=1',
+                ),
+            );
+        }
 }

@@ -8,12 +8,10 @@ class ContactsController extends Controller
         $this->render( 'index', array( 'dataProvider'=>$dataProvider, ) );
     }
      public function actionCreate(){
-        $contactModel = new Contacts();        
+        $contactModel = new Contacts();
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];
-            $contactIsValid = $contactModel->validate();
-                
-                
+            if( $contactModel->save() ){
                 if(isset($_POST['MenuItemConteintigThisContact'])){
                     foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
                         if($menuItem!='1')
@@ -24,37 +22,22 @@ class ContactsController extends Controller
                         $menuItemContant->save();
                     }
                 }
-                if( $contactIsValid ){
-                $contactModel->save();                
-                             
-                if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
-                    foreach( $_POST['MenuItemConteintigThisContact'] as $menuItemId=>$value ){
-                        if($value!='0'){
-                            $menuItemContentModel = new MenuItemsContent();
-                            $menuItemContentModel->item_id = $menuItemId;
-                            $menuItemContentModel->page_id = $contactModel->id;
-                            $menuItemContentModel->save();
-                        }
-                    }
-                }
+                $this->redirect('/administrator/contacts/index');
             }
-                $this->redirect(array('/administrator/contacts/create/id/'.$contactModel->id));
-            
         }
-        $this->render( 'manage', array( 'contactModel'=>$contactModel) );
+        $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
 
   public function actionUpdate( $id ){
-        $contactModel = Contacts::model()->findByPk( $id );        
+        $contactModel = Contacts::model()->findByPk( $id );
         
         if( isset($_POST['Contacts']) ){
             $contactModel->attributes = $_POST['Contacts'];
             $contactIsValid = $contactModel->validate();
             
                 
-            if( $contactIsValid ){
-                $contactModel->save();
-                               
+            if( $contactModel->save()){
+                $contactIsValid;
                 
                 if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
                     $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
@@ -83,14 +66,13 @@ class ContactsController extends Controller
             $this->redirect('/administrator/contacts/update/id/'.$contactModel->id);
         }
         
-        $this->render( 'manage', array( 'contactModel'=>$contactModel));
+        $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
     
     public function actionDelete( $id ){
         $contactModel = Contacts::model()->deleteByPk( $id );
         $this->redirect('/administrator/contacts/index');
     }
-       
     
     
     public function actionRegionsTransfer(){
