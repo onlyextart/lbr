@@ -58,8 +58,7 @@ class Contacts extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('published', 'numerical', 'integerOnly'=>true),
-            array('image', 'file', 'types'=>'jpg, jpeg, gif, png'),            
+			array('published', 'numerical', 'integerOnly'=>true),            
 			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe'),
    // The following rule is used by search().
 			// Please remove those attributes that should not be searched.
