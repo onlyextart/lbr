@@ -32,8 +32,8 @@ if ($data->maker)
         </div>
     <?}?>
         <h1><?php echo $h1; ?></h1>
-        <a href="<? echo $link_manager;?>" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
-        <a class="download-pdf-but" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
+        <a href="<?php echo $link_manager;?>" onclick="gaq_push('Товар', 'Связаться с менеджером', <?php echo $data->name; ?> );" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
+        <a class="download-pdf-but" onclick="gaq_push('Товар', 'Связаться с менеджером', <?php echo $data->name; ?> );" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
     </div>
     <div class="product_content">
         <ul class="product_tab_button">
@@ -114,3 +114,11 @@ if ($data->maker)
         ?>
     </div>
 </div>
+<script>
+    _trackEvent('Товар', 'Связаться с менеджером', <?php echo $data->name; ?>, <?php echo $data->id; ?>, true);
+    _trackEvent('Товар', 'Скачать описание', <?php echo $data->name; ?>, <?php echo $data->id; ?>, true);
+    function gaq_push(v, a, l){
+        if(_gaq.push(['_trackEvent', v, a, l]))
+            return true;
+    }
+</script>
