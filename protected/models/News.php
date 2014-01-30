@@ -41,7 +41,8 @@ class News extends CActiveRecord
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('header, alias, date, published', 'safe'),
+            array('date', 'required'),
+            array('header, alias, date, published', 'safe'),            
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('id, header, alias, date, published', 'safe', 'on'=>'search'),
@@ -88,7 +89,8 @@ class News extends CActiveRecord
         $criteria->compare('id',$this->id);
         $criteria->compare('header',$this->header,true);
         $criteria->compare('alias',$this->alias,true);
-        $criteria->compare('date',$this->date,true);
+        if ($this->date)  
+        $criteria->compare('date', $this->date, true);
         $criteria->compare('published',$this->published);
 
         return new CActiveDataProvider($this, array(
@@ -107,13 +109,7 @@ class News extends CActiveRecord
                 }
                 return false;
         }
-        public function scopes()
-        {
-            return array(
-                'order'=>$this->getTableAlias(false, false).'.sorting ASC',
-                'published'=>array(
-                    'condition'=>'published=1',
-                ),
-            );
-        }
+        
+       
+       
 }

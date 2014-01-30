@@ -3,9 +3,10 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-            $lastPartOfUrl = array_pop(array_filter(explode('/',Yii::app()->request->requestUri)));
-            $pos = strpos($lastPartOfUrl, '-');
-            $id = substr($lastPartOfUrl, 0, $pos);
+	        
+            
+            $id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
+            
             
             if(empty($id)){
                 $groupId = Yii::app()->params['currentMenuItem']->group_id; 
@@ -37,6 +38,7 @@ class NewsController extends Controller
 
                 $this->render('index', array('data' => $dataProvider));
             } else {
+                
                 $alias = substr($lastPartOfUrl, $pos + 1);
                 $data = Yii::app()->db->createCommand()
                     ->select('r.content, n.date, n.header')
@@ -44,7 +46,7 @@ class NewsController extends Controller
                     ->join('news n', 'n.id=r.news_id')
                     ->where('r.news_id=:id', array(':id' => $id))
                     ->queryRow()
-                ;
+                ;               
                 $this->render('view', array('data' => $data));
             }
 	}

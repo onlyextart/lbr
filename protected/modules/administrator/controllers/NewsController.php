@@ -19,6 +19,7 @@ class NewsController extends Controller
                 }
                 if( isset( $_POST['News'] ) ){
                     $newsModel->attributes = $_POST['News'];
+                    $newsModel->attributes=array('date'=>date('d.m.Y H:i:s'));
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
                         foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
@@ -34,8 +35,13 @@ class NewsController extends Controller
                                 $regionalNews[$regionId]->save();                                
                             }                                                        
                             
-                            Yii::app()->user->setFlash('saved','Новость создана.');
-                            $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+                            Yii::app()->user->setFlash('saved','Страница товара успешно создана.');
+            if($_POST['yt0'])
+            {
+                 $this->redirect('/administrator/news/');
+            }else{
+                $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+            }
                         }
                     }
                 }
@@ -111,7 +117,7 @@ class NewsController extends Controller
             {
                  $this->redirect('/administrator/news/');
             }else{
-                $this->redirect('/administrator/news/update/id/'.$productModel->id);
+                $this->redirect('/administrator/news/update/id/'.$newsModel->id);
             }
                         }
                     }

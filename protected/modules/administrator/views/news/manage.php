@@ -58,6 +58,11 @@ $form = $this->beginWidget('CActiveForm');
 <?php echo $form->labelEx($newsModel, 'published')  ?>
 <?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
 </div>
+<div class="row">
+<?php echo $form->error($newsModel, 'date')  ?>
+<?php echo $form->labelEx($newsModel, 'date')  ?>
+<?php echo $form->textField($newsModel, 'date')  ?>
+</div>
 </div>
 
 <div class="admin_additional_features">
@@ -142,6 +147,27 @@ $this->endWidget();
 </div>
 </div> 
 <script>
+    $(document).ready(function() {
+
+    $("#tabs").tabs();
+        //Код первой вкладки (стандартное использование)
+   $("#datepicker1").datepicker();
+   $("#datepicker2").datepicker($.datepicker.regional[""]);
+        //Код второй вкладки (иконка подсказка)
+   $("#datepicker3").datepicker({buttonImage:"datePicker.gif", showOn:"button", buttonImageOnly:true});
+        //Код третьей вкладки (ограничение диапазона дат)
+   $("#datepicker4").datepicker({minDate:-6,maxDate:+4,buttonImage:"datePicker.gif", showOn:"both", buttonImageOnly:true});
+        //Код четвертой вкладки (редактирование формата)
+   $("#datepicker5").datepicker({dateFormat:"yy-mm-dd"});
+   $("#datepicker6").datepicker({dateFormat:"yy/mm/dd"});
+   $("#datepicker7").datepicker({dateFormat:"DD MM dd, yy"});
+        //Код пятой вкладки (календарь)
+   $("#datepicker8").datepicker(); 
+        //Код шестой вкладки (анимация/панель с кнопками)
+   $("#datepicker9").datepicker({showAnim:"slide",showButtonPanel:true}); 
+
+    });
+    
     //RegionTabs
     function RegionalTabsManager(){
         this.tabTitle = $( "#tab_title" ); // Выпадающий список выбора региона
