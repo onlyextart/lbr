@@ -82,7 +82,7 @@
             
            #list li{
                 display: list-item;
-                list-style-image: url(http://lbr.ru/images/kp/lbr-list-style.jpg);
+                list-style-image: url(http://www.lbr.ru/images/kp/lbr-list-style.jpg);
                 margin-left: 75px;
             }
             
@@ -106,7 +106,7 @@
                     <li style="width: 588px">
                         <div class="content" style="margin-top: 89px; margin-bottom: 12px">
                             <div style="text-align:left; margin-bottom: 25px">
-                                <img src="http://lbr.ru/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
+                                <img src="http://www.lbr.ru/images/kp/lbr-logo.jpg" width="178px" alt="Logo" style="border: 0;"/>
                             </div>
                             <div style="text-align:right"><?php echo date("d.m.Y")?></div>
                         </div>
@@ -154,7 +154,7 @@
                         <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://lbr.ru/images/kp/lbr-photo-barnaul.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://www.lbr.ru/images/kp/lbr-photo-barnaul.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -212,7 +212,7 @@
                     </li>
                     <li style="width: 51px; vertical-align: bottom">
                         <div style="text-align: right;">
-                            <img src="http://lbr.ru/images/kp/lbr-side.jpg" height="92px" width="34px" alt="Logo" style="border: 0;"/>
+                            <img src="http://www.lbr.ru/images/kp/lbr-side.jpg" height="92px" width="34px" alt="Logo" style="border: 0;"/>
                         </div>
                     </li>
                 </ul>
