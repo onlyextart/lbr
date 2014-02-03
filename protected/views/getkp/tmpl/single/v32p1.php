@@ -27,11 +27,11 @@
                         <div class="header-text">Евро класс – Евро точность!<br />Без переплаты за бренд!</div>
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Разбрасыватели удобрений MXL-3000 на шасси KASTOR</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 80px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 80px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 15px;" src="http://www.git-lbr.ru/images/kp/kastor.jpg" border="0" />
+                                    <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/kastor.jpg" border="0" />
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -187,11 +187,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

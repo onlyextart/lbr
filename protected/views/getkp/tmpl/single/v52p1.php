@@ -27,11 +27,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Трактор McCORMICK TTX 230</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                             </div>
                             <div class="body-content">                                
                                     <div class="left-60"> 
-                                    <img style="margin-top: 15px; width: 440px;" src="http://www.git-lbr.ru/images/kp/amity-disk.jpg" border="0" />                                  
+                                    <img style="margin-top: 15px; width: 440px;" src="http://www.lbr.ru/images/kp/amity-disk.jpg" border="0" />                                  
                                     <table width="440px" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-bottom: 10px; margin-top: 15px"  align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr style="background: #d1d3d4; font-weight: bold;">
@@ -204,11 +204,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Высокопроизводительная зерновая сеялка Double Disk с исключительной заделкой семян</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/amity-logo.jpg" border="0" style="position: absolute; right: 0px; top: 20px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/amity-logo.jpg" border="0" style="position: absolute; right: 0px; top: 20px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="width-100 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/amity-disk1.jpg" border="0" style="width: 760px; margin-top: 5px;" />
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk1.jpg" border="0" style="width: 760px; margin-top: 5px;" />
                                                                       
                                     
                                 </div>                                
@@ -221,7 +221,7 @@
                                                                       
                                     Каждый сошник имеет индивидуальную настройку глубины и усилия давления на почву, что позволяет эффективно сеять в том числе и по колее трактора.                                      
                                     Точность сохраняется даже на больших скоростях. 
-                                    <img src="http://www.git-lbr.ru/images/kp/amity-disk2.jpg" border="0" style="float: right; margin: 5px 0 0 10px; width: 355px;" />                                     
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk2.jpg" border="0" style="float: right; margin: 5px 0 0 10px; width: 355px;" />                                     
                                     На ровных полях сеялка способна производить посев на скорости до 15 км/ч.                                    
                                     Идеально подходит для высева рапса и других мелкосеменных культур, где очень важно производить посев на постоянную и малую глубину.<br /> 
                                                                       
@@ -234,8 +234,8 @@
                                     </span> 
                                     <div style="width: 100%; height: 20px;"></div>
                                     <div class="left-40" style="width: 240px;">
-                                   <img src="http://www.git-lbr.ru/images/kp/amity-disk3.jpg" border="0" style="width: 240px;" /> 
-                                    <img src="http://www.git-lbr.ru/images/kp/amity-disk4.jpg" border="0" style="width: 240px;" />
+                                   <img src="http://www.lbr.ru/images/kp/amity-disk3.jpg" border="0" style="width: 240px;" /> 
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk4.jpg" border="0" style="width: 240px;" />
                                     </div>
                                     <div class="right-60 text" style="width: 500px;">
                                     <span class="span-red-left" style="margin-top: 20px;">3. В УСЛОВИЯХ СТЕРНИ</span>                                     
@@ -269,7 +269,7 @@
                         <div class="body-content">                            
                             <div class="body-content">                                                               
                                 <div class="width-100" style="text-align: center;">   
-                                <img src="http://www.git-lbr.ru/images/kp/amity-disk5.jpg" border="0" style="float: right; margin: 5px 0 0 10px; width: 325px;" />                             
+                                <img src="http://www.lbr.ru/images/kp/amity-disk5.jpg" border="0" style="float: right; margin: 5px 0 0 10px; width: 325px;" />                             
                                     <span style="color: black; clear: both; background: white; text-align: justify; font-size: 20px; font-family: FuturisXC,sans-serif;">Сеялкой можно засеять 150 га за день работы в поле с трактором всего 220 л.с.!</span>   
                                                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;">                                    
@@ -283,7 +283,7 @@
                                                                       
                                     
                                     </span> 
-                                    <img src="http://www.git-lbr.ru/images/kp/amity-disk6.jpg" border="0" style="float: right; margin: 5px 0 10px 10px; width: 100%;" />
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk6.jpg" border="0" style="float: right; margin: 5px 0 10px 10px; width: 100%;" />
                                                                                                
                                 </div>                              
                                 <div class="left-50"> 
@@ -347,7 +347,7 @@
                                 </table>                          
                                     </div>
                                     <div class="right-35 text" style="width: 350px;">                                    
-                                    <img src="http://www.git-lbr.ru/images/kp/amity-disk7.jpg" border="0" style="margin: 5px 0 10px 10px; width: 340px;" />
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk7.jpg" border="0" style="margin: 5px 0 10px 10px; width: 340px;" />
                                     </div>
                                     
                             </div>                             
@@ -387,11 +387,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -425,7 +425,7 @@
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 6px 152px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 6px 152px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 44px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

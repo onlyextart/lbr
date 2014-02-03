@@ -31,7 +31,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -65,7 +65,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains1.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains1.jpg" style="width: 100%;" border="0" />
                             </div>
                             
                         </div>
@@ -74,9 +74,9 @@
                             
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains2.jpg" border="0" />
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains3.jpg" border="0" />
-                                    <img style="margin-top: 5px; height: 138px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains4.jpg" border="0" />
+                                    <img style="margin-top: 5px;" src="http://www.lbr.ru/images/kp/seyalki-plains2.jpg" border="0" />
+                                    <img style="margin-top: 5px;" src="http://www.lbr.ru/images/kp/seyalki-plains3.jpg" border="0" />
+                                    <img style="margin-top: 5px; height: 138px;" src="http://www.lbr.ru/images/kp/seyalki-plains4.jpg" border="0" />
                                    
                                     
                                 </div>
@@ -109,8 +109,8 @@
                                     </span> 
                                </div>
                                 <div class="right-30 image">
-                                    <img style="margin-top: 15px; width: 228px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains5.jpg" border="0" />
-                                    <img style="margin-top: 15px; width: 228px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains6.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 228px;" src="http://www.lbr.ru/images/kp/seyalki-plains5.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 228px;" src="http://www.lbr.ru/images/kp/seyalki-plains6.jpg" border="0" />
                                                                     
                                     
                                 </div>
@@ -137,7 +137,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains7.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains7.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -231,11 +231,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

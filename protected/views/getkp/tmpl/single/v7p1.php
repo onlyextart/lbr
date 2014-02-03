@@ -18,7 +18,7 @@
             <div class="one-page head-first-page">
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Прицепной разбрасыватель минеральных удобрений</span>
-                    <div class="tect_dlg"><img src="http://www.git-lbr.ru/images/kp/tect_dlg.jpg" border="0" /></div>
+                    <div class="tect_dlg"><img src="http://www.lbr.ru/images/kp/tect_dlg.jpg" border="0" /></div>
                 </div>
                 <div class="first-header-text">МХL 3000 на шасси KASTOR – лучшая загрузка МТЗ 82!</div>
             </div>
@@ -28,11 +28,11 @@
                         <div class="head-content">
                             <span class="span-red-center">Евро класс – Евро точность! Без переплаты за бренд!</span>
                             <div class="h-2 left-85"><span>Разбрасыватели удобрений MXL-3000 на шасси KASTOR</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 43px; width: 30px;"/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 43px; width: 30px;"/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/MXL-3000.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/MXL-3000.jpg" border="0" />
                                 <span><b>Технические характеристики</b></span>
                                 <table style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1" width="361">
                                         <tbody>
@@ -128,11 +128,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

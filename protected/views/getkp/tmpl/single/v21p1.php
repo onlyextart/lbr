@@ -26,12 +26,12 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Гребнеобразователи FORMA</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -97,11 +97,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Гребнеобразователи IMAC</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/imac-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/imac-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img style="height: 240px;" src="http://www.git-lbr.ru/images/kp/invest-potato3.jpg" border="0" />
+                                <img style="height: 240px;" src="http://www.lbr.ru/images/kp/invest-potato3.jpg" border="0" />
                                 
                             </div>
                             <div class="right-50" style="font-size: 15px;">
@@ -127,7 +127,7 @@
                                     </span></div>                               
                                 
                                 
-                            </div><img style="width: 250px;margin-right: 30px; margin-top: 35px; height: 180px;" src="http://www.git-lbr.ru/images/kp/invest-potato4.jpg" border="0" align="left" />
+                            </div><img style="width: 250px;margin-right: 30px; margin-top: 35px; height: 180px;" src="http://www.lbr.ru/images/kp/invest-potato4.jpg" border="0" align="left" />
                             <table width="480" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="font-size: 14px; border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr style="background-color: #d1d3d4;">
@@ -192,12 +192,12 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Картофелесожалки KORA</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato5.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato6.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -274,12 +274,12 @@
                         <div class="head-content">
                         <div class="width-100"></div>
                             <div class="h-2 left-75"><span>Ботвоудалители IMAC</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/imac-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/imac-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato7.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato8.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">1. Быстрее и эффективнее!</span>
@@ -354,12 +354,12 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Картофелекопалки WEGA</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato9.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato9.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4" style="text-transform: uppercase;">1. БЕРЕЖНАЯ УБОРКА - КАЧЕСТВЕННЫЙ КАРТОФЕЛЬ!</span>
@@ -442,12 +442,12 @@
                         <div class="head-content">
                         <div class="width-100"></div>
                             <div class="h-2 left-75"><span>Картофелекопалки с боковой выгрузкой IMAC</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/imac-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/imac-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato10.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato11.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato10.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato11.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">1. Экономичная альтернатива!</span>
@@ -522,12 +522,12 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Картофелеуборочный комбайн BOLKO</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato12.jpg" width="358" border="0" />
-                                <img style="margin-top: 45px;" src="http://www.git-lbr.ru/images/kp/invest-potato13.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/invest-potato12.jpg" width="358" border="0" />
+                                <img style="margin-top: 45px;" src="http://www.lbr.ru/images/kp/invest-potato13.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 
@@ -619,11 +619,11 @@
                         
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Картофелеуборочный комбайн PYRA</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato14.jpg" border="0" />                               
+                                <img src="http://www.lbr.ru/images/kp/invest-potato14.jpg" border="0" />                               
                             </div>
                             <div class="right-50">
                                 <span class="h-4">1. Меньше радиус поворота на краю поля!</span>
@@ -691,14 +691,14 @@
                         
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Сортировщики картофеля и лука</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px; width: 70px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px; width: 70px;" /></div>
                             
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato15.jpg" border="0" />  
-                                <img src="http://www.git-lbr.ru/images/kp/invest-potato16.jpg" border="0" />                             
+                                <img src="http://www.lbr.ru/images/kp/invest-potato15.jpg" border="0" />  
+                                <img src="http://www.lbr.ru/images/kp/invest-potato16.jpg" border="0" />                             
                             </div>
                             <div class="right-50">
                                 <span class="h-4">1. КОМПАКТНЫЕ И УДОБНЫЕ!</span>
@@ -793,11 +793,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

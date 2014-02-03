@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
     </head>
     <body>
@@ -17,7 +17,7 @@
             </div>
             <div class="one-page head-first-page">
                 <div class="content-page" style="padding: 20px 20px 10px;">
-                    <img src="http://www.git-lbr.ru/images/kp/rostokes.png" style="position: absolute; z-index: 1; top: 4px; left: 15px;"/>
+                    <img src="http://www.lbr.ru/images/kp/rostokes.png" style="position: absolute; z-index: 1; top: 4px; left: 15px;"/>
                     <span class="bg-orange-header" style="width: 95%; text-align: right; font-size: 48px;">
                         СИЛА ТЕХНОЛОГИЙ!<br>GASPARDO
                     </span>
@@ -32,11 +32,11 @@
                 <div class="content-page" style="padding-bottom: 10px;">
                     <div class="head-content">
                         <div class="h-2 left-75" style="line-height: 28px; font-size: 18px;"><span>Навесная пневматическая сеялка точного высева SP 8</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/gaspardo-logo.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/gaspardo-logo.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/gaspardo-1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/gaspardo-1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="left-50">
                             <span class="text" style="margin: 5px 0 0;">
@@ -76,7 +76,7 @@
                             </table>
                         </div>
                         <div class="right-50 image" style="text-align: right;">
-                            <img src="http://www.git-lbr.ru/images/kp/gaspardo-2.jpg" style="width: 92%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/gaspardo-2.jpg" style="width: 92%" border="0" />
                         </div>
                     </div>
                     <div class="footer-content"></div>
@@ -89,11 +89,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75" style="line-height: 28px; font-size: 18px;"><span>Навесная пневматическая сеялка точного высева МТ 8</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/gaspardo-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/gaspardo-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/gaspardo-3.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/gaspardo-3.jpg" style="width:100%" border="0" />
                             </div>
                             
                             <div class="left-50">

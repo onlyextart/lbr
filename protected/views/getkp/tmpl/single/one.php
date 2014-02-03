@@ -32,30 +32,30 @@
 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; page-break-after: always; ">
     <tbody>
         <tr valign="top">
-            <td colspan="3"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+            <td colspan="3"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
         </tr>
         <tr>
-            <td  width="11"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+            <td  width="11"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
             <td>                   
                 <table style="border-collapse: collapse;" width="616" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
-                                        <td><img width="610" src="http://www.git-lbr.ru<? echo $template->big_image;?>" alt="<? echo $template->title;?>" title="<? echo $template->title;?>"/></td>
+                                        <td><img width="610" src="http://www.lbr.ru<? echo $template->big_image;?>" alt="<? echo $template->title;?>" title="<? echo $template->title;?>"/></td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <table style="border-collapse: collapse;" width="616" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                                                 <tbody>
                                                     <tr>
-                                                        <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
+                                                        <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
                                                         <td width="410" valign="top">
                                                             <?
-                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.git-lbr.ru/images/kp/10.gif', 'http://www.git-lbr.ru/images/kp/10.gif'), $template->description);
+                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif'), $template->description);
                                                                 echo $desc;
                                                             ?>
                                                         </td>
@@ -64,8 +64,8 @@
                                                                 $small = explode('||', $template->small_image);
                                                                 foreach ($small as $img) {
                                                                     if($img!='br'){
-                                                                        echo '<img width="190" src="http://www.git-lbr.ru'.$img.'" style="display: block;"/>';
-                                                                        echo '<img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>';
+                                                                        echo '<img width="190" src="http://www.lbr.ru'.$img.'" style="display: block;"/>';
+                                                                        echo '<img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>';
                                                                     }
                                                                             
                                                                 }
@@ -79,54 +79,54 @@
                                     <tr>
                                         <td>
                                             <? 
-                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.git-lbr.ru/images/kp/10.gif', 'http://www.git-lbr.ru/images/kp/10.gif'), $template->description2);
+                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif'), $template->description2);
                                                 echo $desc2;
                                                 ?>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                                 <tr>
-                                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td><span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
-                                        <td style="border-top: 2px solid grey;"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td style="border-top: 2px solid grey;"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <? if($data['show_footer']=='1' || !isset($data['show_footer'])):?>
                                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                                 <tr>
-                                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
                                                         <span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<? echo $filial['name']; ?>)!</span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
                                                         <span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
                                                         <span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                                     <td>
                                                         <span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                                     </td>
@@ -136,14 +136,14 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <? if($data['show_footer']=='1' || !isset($data['show_footer'])):?>
                                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                                 <tr>
-                                                    <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
+                                                    <td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: 'Trebuchet MS' sans-serif; font-size: 14px;">
                                                             <span>Ваш персональный менеджер:</span><br>
                                                             <? echo $data['user_info']; ?>
@@ -155,10 +155,10 @@
                                     </tr>
                             </table>
             </td>
-            <td width="11" ><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+            <td width="11" ><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
         </tr>
         <tr valign="bottom">
-            <td colspan="3"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+            <td colspan="3"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
         </tr>
     </tbody>
 </table>

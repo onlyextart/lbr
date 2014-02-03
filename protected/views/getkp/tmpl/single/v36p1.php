@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
     </head>
     <body>
@@ -15,9 +15,9 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
-            <div class="one-page head-first-page" style="background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') no-repeat scroll 10px 85px;">
+            <div class="one-page head-first-page" style="background: url('http://www.lbr.ru/images/kp/grynt.jpg') no-repeat scroll 10px 85px;">
                 <div class="content-page" style="padding-top: 10px;">
-                    <div class="width-100"><img src="http://www.git-lbr.ru/images/kp/zirka-big-logo.jpg" alt="Logo Zirka" style="border: 0;"/></div>
+                    <div class="width-100"><img src="http://www.lbr.ru/images/kp/zirka-big-logo.jpg" alt="Logo Zirka" style="border: 0;"/></div>
                     <span class="bg-orange-header" style="width: 93%;">
                         ВСЯ ЛИНЕЙКА ТЕХНИКИ ОТ ПРОИЗВОДИТЕЛЯ<br>
                         СО 140-ЛЕТНИМ СТАЖЕМ!
@@ -34,11 +34,11 @@
                         <div style="height: 10px; width: 100%;"></div>
                         <div class="red-border-bottom"><span class="grey-big" style="font-size: 24px;">КЛАССИЧЕСКИЕ ТЕХНОЛОГИИ ПОЧВООБРАБОТКИ И СЕВА</span></div>
                         <div class="h-2 left-75" style="line-height: 39px;"><span>сеялки зерновые астра5,4 (Cз, сзт)</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/zirka-1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/zirka-1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -117,11 +117,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">сеялки зерновые астра3,6 (сз, сзт, сзп)</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-2.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-2.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">
                                 <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -200,11 +200,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">культиваторы универсальные полярис (кшу)</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-3.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-3.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">
                                 <table width="460" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -275,11 +275,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">бороны дисковые 2-ух рядные паллада(бдн, бдп)</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-4.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-4.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">
                                 <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -385,11 +385,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">бороны дисковые 4-х рядные антарес (бдп)</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-5.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-5.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">
                                 <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -472,11 +472,11 @@
                             <div style="height: 10px; width: 100%;"></div>
                             <div class="red-border-bottom"><span class="grey-big" style="font-size: 24px;">ВОЗДЕЛЫВАНИЕ ПРОПАШНЫХ КУЛЬТУР</span></div>
                             <div class="h-2 left-90" style="line-height: 39px;"><span>пневматическая сеялка точного высева Веста 8-02 (упс8-02)</span></div>
-                            <div class="logo-maker right-10"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
+                            <div class="logo-maker right-10"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-6.jpg" border="0" />
                                 <div style="text-align: center;">
                                     <span class="red-small" style="font-size: 14px; text-align: center;">САМАЯ ПОПУЛЯРНАЯ СЕЯЛКА ДЛЯ ПРОПАШНЫХ КУЛЬТУР В РФ!</span>
                                 </div>
@@ -546,11 +546,11 @@
                     <div class="one-item" style="margin-bottom: 10px;">
                         <div class="head-content">
                             <div class="h-2 left-90" style="line-height: 39px;"><span>пропашные культиваторы альтаир 5,6-04 (крнВ 5,6-04)</span></div>
-                            <div class="logo-maker right-10"><img src="http://www.git-lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
+                            <div class="logo-maker right-10"><img src="http://www.lbr.ru/images/kp/zirka-small-logo.jpg" border="0" style="position: absolute; right: 0; top: 5px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/zirka-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-7.jpg" border="0" />
                             </div>
                             <div class="width-100">
                                 <div style="width: 100%; height: 13px;"></div>

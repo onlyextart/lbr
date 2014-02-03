@@ -25,11 +25,11 @@
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75"><span>Дискаторы Agrisem</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/agrisem1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/agrisem1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <span class="h-4">ИДЕАЛЬНАЯ ЗАДЕЛКА РАСТИТЕЛЬНЫХ ОСТАТКОВ!</span>
@@ -100,11 +100,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span style="font-size: 18px;">Культиваторы Maximulch с прикатывающим катком</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/argisem2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/argisem2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ОДОБРЕНО ВСЕМИ АГРОНОМАМИ ПЛАНЕТЫ!</span>
@@ -172,11 +172,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Глубокорыхлители CultiPlow</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/agrisem-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/agrisem3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/agrisem3.jpg" border="0" />
                                 <span class="text" style="padding-right: 10px;">                                    
                                     • Запатентованная технология Agrisem International заключается в образовании на почве складки и перемещении ее в виде волны, что исключает смешивание слоев почвы, способствует развитию корневой системы
                                 </span>
@@ -282,11 +282,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -319,7 +319,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 72px; padding: 0; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

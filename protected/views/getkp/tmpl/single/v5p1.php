@@ -27,11 +27,11 @@
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75"><span>Телескопические погрузчики Agri Farmer</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/dieci-main.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/dieci-main.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <span class="text">
@@ -114,11 +114,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span style="font-size: 18px;">Телескопические погрузчики Agri Star</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-40 image">
-                                <img src="http://www.git-lbr.ru/images/kp/dieci-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-1.jpg" border="0" />
                             </div>
                             <div class="right-60">
                                 <span class="text">
@@ -209,11 +209,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Телескопические погрузчики Agri Tech</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-70 image">
-                                <img src="http://www.git-lbr.ru/images/kp/dieci-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-2.jpg" border="0" />
                                 <table width="505" border="1" cellspacing="0" cellpadding="0" align=left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
                                         <td width="50%" align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">&nbsp;Модель</span></td>
@@ -327,11 +327,11 @@
                         </div>
                         <div class="right-30 image" style="text-align: right;">
                             <div class="width-100" style="height: 15px; width: 100%; background: white;"></div>
-                            <img src="http://www.git-lbr.ru/images/kp/dieci-3.jpg" />
+                            <img src="http://www.lbr.ru/images/kp/dieci-3.jpg" />
                         </div>
                         <div class="width-100 image">
                             <span class="h-4">ШИРОКИЙ ВЫБОР РАБОЧИХ ОРГАНОВ!</span>
-                            <img src="http://www.git-lbr.ru/images/kp/dieci-4.jpg" />
+                            <img src="http://www.lbr.ru/images/kp/dieci-4.jpg" />
                         </div>
                     </div>
                     <div class="footer">
@@ -362,11 +362,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -399,7 +399,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/dieci_bg.jpg') white no-repeat 60px 105px; padding-bottom: 10px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/dieci_bg.jpg') white no-repeat 60px 105px; padding-bottom: 10px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 48px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

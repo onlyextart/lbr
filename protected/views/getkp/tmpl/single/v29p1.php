@@ -26,11 +26,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Трактор McCORMICK TTX 230</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="width-100 image">
-                                    <img style="margin-top: 15px; width: 760px;" src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 760px;" src="http://www.lbr.ru/images/kp/rasprodaga-mccormic.jpg" border="0" />
                                    </div>
                                     <div class="left-50">
                                    <span class="h-4" style="font-size: 30px; line-height: 30px;">СОВРЕМЕННЫЙ. <br>ЕВРОПЕЙСКИЙ. <br>ЛУЧШИЙ ПО ЦЕНЕ!</span>
@@ -177,11 +177,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Трактор McCORMICK TTX 190</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="width-100 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/rasprodaga-mccormic1.jpg" border="0" style="width: 760px; margin-top: 5px;" />
+                                    <img src="http://www.lbr.ru/images/kp/rasprodaga-mccormic1.jpg" border="0" style="width: 760px; margin-top: 5px;" />
                                                                       
                                     
                                 </div>
@@ -380,11 +380,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -418,7 +418,7 @@
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/traktorproc.jpg') white no-repeat 26px 126px; background-size: 260px auto;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/traktorproc.jpg') white no-repeat 26px 126px; background-size: 260px auto;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

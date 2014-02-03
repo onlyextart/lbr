@@ -33,8 +33,8 @@
                                 <span class="text-red">При скорости работы в 12 – 15 км/ч сеялки с лёгкостью превосходят 12-ти и 18-ти метровые посевные комплексы с анкером или стрельчатой лапой, работающие со скоростью 8 км/ч, по производительности.</span>
                             </div>
                                 <div class="left-50 image">
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-spartan.jpg" border="0" />
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-spartan1.jpg" border="0" />                                    
+                                    <img style="margin-top: 5px;" src="http://www.lbr.ru/images/kp/seyalki-spartan.jpg" border="0" />
+                                    <img style="margin-top: 5px;" src="http://www.lbr.ru/images/kp/seyalki-spartan1.jpg" border="0" />                                    
                                    
                                     
                                 </div>
@@ -92,7 +92,7 @@
                                 
                                
                                 <div class="width-100 image">
-                                    <img style="margin-top: 15px; width: 760px;" src="http://www.git-lbr.ru/images/kp/seyalki-spartan2.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 760px;" src="http://www.lbr.ru/images/kp/seyalki-spartan2.jpg" border="0" />
                                     
                                                                     
                                     
@@ -108,10 +108,10 @@
                                 </div>
                             
                             <div class="left-50 image">
-                                <img style="margin-top: 15px; width: 370px;height: 230px;"" src="http://www.git-lbr.ru/images/kp/seyalki-spartan3.jpg" border="0" />
+                                <img style="margin-top: 15px; width: 370px;height: 230px;"" src="http://www.lbr.ru/images/kp/seyalki-spartan3.jpg" border="0" />
                             </div>
                             <div class="right-50 image">
-                                <img style="margin-top: 15px; width: 380px;height: 230px;"" src="http://www.git-lbr.ru/images/kp/seyalki-spartan4.jpg" border="0" />
+                                <img style="margin-top: 15px; width: 380px;height: 230px;"" src="http://www.lbr.ru/images/kp/seyalki-spartan4.jpg" border="0" />
                             </div>
                     </div>
                 </div>   
@@ -133,10 +133,10 @@
                                
                             
                             <div class="left-50 image">
-                                <img style="margin-top: 15px; width: 370px;height: 230px;"" src="http://www.git-lbr.ru/images/kp/seyalki-spartan5.jpg" border="0" />
+                                <img style="margin-top: 15px; width: 370px;height: 230px;"" src="http://www.lbr.ru/images/kp/seyalki-spartan5.jpg" border="0" />
                             </div>
                             <div class="right-50 image">
-                                <img style="margin-top: 15px; width: 380px;height: 230px;"" src="http://www.git-lbr.ru/images/kp/seyalki-spartan6.jpg" border="0" />
+                                <img style="margin-top: 15px; width: 380px;height: 230px;"" src="http://www.lbr.ru/images/kp/seyalki-spartan6.jpg" border="0" />
                             </div>
                             <div style="width: 100%; height: 20px;"></div>
                             <div class="width-100">
@@ -197,11 +197,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -234,7 +234,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 90px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 90px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: justify; font-size: 26px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .two-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(99, 99, 99); text-align: justify; font-size: 22px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}

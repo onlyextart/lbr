@@ -26,11 +26,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 90px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 90px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -117,11 +117,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепной опрыскиватель OZONE 2000</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/ozone-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/ozone-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya1.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -203,11 +203,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепной опрыскиватель BARGAM</span></div>
-                           <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya2.jpg" style="width: 100%; border: 0;" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya2.jpg" style="width: 100%; border: 0;" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. Экономия химикатов до 30%!!</span>
@@ -284,11 +284,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепной опрыскиватель BRANDT</span></div>
-                           <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border:0;" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border:0;" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. ЗАПАТЕНТОВАННЫЕ КОНУСНЫЕ НАКОНЕЧНИКИ – РАБОТА ПРИ СКОРОСТИ ВЕТРА БОЛЕЕ 30 КМ/ЧАС</span>
@@ -394,11 +394,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
