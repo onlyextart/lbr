@@ -58,7 +58,7 @@
                                                         <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
                                                         <td width="410" valign="top">
                                                             <?php
-                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif'), $template->description);
+                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif', 'http://git-lbr.ru/', 'http://www.git-lbr.ru/'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/', 'http://www.lbr.ru/'), $template->description);
                                                                 echo $desc;
                                                             ?>
                                                         </td>
@@ -83,7 +83,7 @@
                                     <tr>
                                         <td>
                                             <?php 
-                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif'), $template->description2);
+                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif', 'http://git-lbr.ru/', 'http://www.git-lbr.ru/'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/', 'http://www.lbr.ru/'), $template->description2);
                                                 echo $desc2;
                                                 ?>
                                         </td>
