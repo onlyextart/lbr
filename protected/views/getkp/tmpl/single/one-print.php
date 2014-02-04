@@ -45,7 +45,7 @@
                                         <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     </tr>
                                     <tr>
-                                        <td><img width="610" src="http://www.lbr.ru<? echo $template->big_image;?>" alt="<? echo $template->title;?>" title="<? echo $template->title;?>"/></td>
+                                        <td><img width="610" src="http://www.lbr.ru<?php echo $template->big_image;?>" alt="<? echo $template->title;?>" title="<? echo $template->title;?>"/></td>
                                     </tr>
                                     <tr>
                                         <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
@@ -57,13 +57,13 @@
                                                     <tr>
                                                         <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 10px;"/></td>
                                                         <td width="410" valign="top">
-                                                            <?
-                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC'), $template->description);
+                                                            <?php
+                                                                $desc = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif'), $template->description);
                                                                 echo $desc;
                                                             ?>
                                                         </td>
                                                         <td width="196" valign="top">
-                                                            <? 
+                                                            <?php 
                                                                 $small = explode('||', $template->small_image);
                                                                 foreach ($small as $img)
                                                                 {
@@ -82,8 +82,8 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <? 
-                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC'), $template->description2);
+                                            <?php 
+                                                $desc2 = str_replace(array('<p>', '</p>', '{price1}', '{price2}', '{price3}', '{price4}', '{price5}', '{price6}', '{price7}', '../../../images/kp/10.gif', '/administrator/images/kp/10.gif', 'Calibri', 'http://git-lbr.ru/images/kp/10.gif'), array('<span>', '</span>', $data['price1'], $data['price2'], $data['price3'], $data['price4'], $data['price5'], $data['price6'], $data['price7'], 'http://www.lbr.ru/images/kp/10.gif', 'http://www.lbr.ru/images/kp/10.gif', 'FuturisC', 'http://www.lbr.ru/images/kp/10.gif'), $template->description2);
                                                 echo $desc2;
                                                 ?>
                                         </td>
