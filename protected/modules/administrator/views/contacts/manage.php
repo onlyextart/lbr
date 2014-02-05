@@ -200,17 +200,20 @@ tinymce.init(tinymce.myOptions);
             <?php echo $form->labelEx( $contactModel, 'oneC_id'); ?>
             <?php echo $form->textField( $contactModel, 'oneC_id'); ?>
         </div>
-        <div class="row">
-            <?php echo $form->error( $contactModel, 'images'); ?>
-            <?php echo $form->labelEx( $contactModel, 'images'); ?>
-            <?php echo $form->textField( $contactModel, 'images'); ?>
-        </div>
+        
         <div class="row">
             <?php echo $form->error( $contactModel, 'okrug_id'); ?>
             <?php echo $form->labelEx( $contactModel, 'okrug_id'); ?>
             <?php echo $form->dropDownList( $contactModel, 'okrug_id', Yii::app()->params['districts']); ?>
-        </div>        
-    </div>
+        </div>  
+        
+        <div class="row">
+            <?php echo $form->error( $contactModel , 'images' ); ?>
+            <?php echo $form->labelEx( $contactModel , 'images' ); ?>
+            <?php echo $form->textField( $contactModel , 'images' ); ?>
+            <?php echo CHtml::hiddenField('uploadDir' , '/images/ContactsImages/'.$contactModel->alias.'/'); ?>
+        </div>
+</div>
     <div class="admin_additional_features">
         <label>Дополнительные параметры</label>
         
@@ -241,6 +244,64 @@ tinymce.init(tinymce.myOptions);
                     )
                 );
             ?>
+        </div>
+        <div class="admin_additional_features_content">
+        
+        <?php             
+            //$file = explode('/', $contactModel->images);
+//            unset($file[count($file)-1]);
+//            $dir = implode('/', $file);
+//            $path = $_SERVER['DOCUMENT_ROOT'] .'/'. $dir.'/';
+//            $images = scandir($path);
+//            if (false !== $images) {
+//            $images = preg_grep('/\\.(?:png|gif|jpe?g)$/', $images);            
+//                if(!empty($images)): 
+//                    foreach ($images as $image){                       
+//                        $previouslyUploadedFiles = '<img data-scr="/'.$dir.'/'.htmlspecialchars(urlencode($image)).'" src="/'.$dir.'/'.htmlspecialchars(urlencode($image)).'" alt="'.$contactModel->name.'" />';
+//                 }              
+//            
+//                endif; 
+//            } 
+$previouslyUploadedFiles = array();
+    $file = explode('/', $contactModel->images);
+    unset($file[count($file)-1]);
+    $dir = implode('/', $file);
+    $path = $_SERVER['DOCUMENT_ROOT'] .'/'. $dir.'/';
+    $images = scandir($path);
+        if (false !== $images) {
+        $images = preg_grep('/\\.(?:png|gif|jpe?g)$/', $images);        
+            if(!empty($images)){                 
+                    foreach ($images as $image){
+                     $allimage = '/'.$dir.'/'.$image;                     
+                    $previouslyUploadedFiles[$allimage] = "";
+                    
+                    }
+               
+            }
+   
+        }
+            $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
+                    //'url'=>'/images/ContactsImages/'.$contactModel->alias.'/',
+                    'template'=>array(
+                    'image',                   
+                   'deleteButton',
+                   array(
+                       'name'=>'hiddenField',
+                       'nameAttr'=>'imagePath[]', //default - imagePath[]
+                   )
+                   ),
+                   //'previouslyUploadedFiles'=>array(
+//                    $previouslyUploadedFiles=>array('radioButton'=>'checked'),                  
+//                    ),
+                    //'uploadDir'=>'/images/ContactsImages/'.$contactModel->alias.'/'
+                    'postParams'=>array(
+                       'uploadDir'=>'/images/ContactsImages/'.$contactModel->alias.'/'  
+                    ),                   
+                    'previouslyUploadedFiles'=>$previouslyUploadedFiles,
+                )
+            );
+            ?>
+        
         </div>
     </div>
     <div class="admin_content_features">        

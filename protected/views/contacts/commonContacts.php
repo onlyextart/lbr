@@ -1,4 +1,5 @@
 <div style="float:left; width:100%;">
+<a class="view_all_contacts" href="http://www.lbr/company/contacts/#bar">Посмотреть все контакты</a>
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="500">
         <param name="movie" value="/images/map1000px.swf">
         <param name="bgcolor" value="#ffffff">
@@ -11,7 +12,8 @@
     <!--<![endif]-->
     </object>
 </div>
-<ul class="contacts_list clearfix">
+<ul id="bar" class="contacts_list clearfix">
+
 <?php 
 $districts = Regions::getDistricts();
 asort($districts);
