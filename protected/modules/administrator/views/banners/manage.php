@@ -191,6 +191,7 @@ tinymce.myOptions = {
                             'banner_id='.$bannerModel->id.' GROUP BY path');
                     foreach( $allUniqueImagesInBanner as $image ){
                         $previouslyUploadedFiles[$image->path]="";
+                       
                     }
             }
             $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(

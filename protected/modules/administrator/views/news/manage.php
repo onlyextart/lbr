@@ -57,7 +57,7 @@ $form = $this->beginWidget('CActiveForm');
 <div class="row">
 <?php echo $form->error($newsModel, 'published')  ?>
 <?php echo $form->labelEx($newsModel, 'published')  ?>
-<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
+<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовывать"))  ?>
 </div>
 <div class="row">
 <?php echo $form->error($newsModel, 'date')  ?>
