@@ -1,4 +1,4 @@
-<?
+<?php
 $print = '';
 if(is_object($data))
 {
@@ -45,5 +45,3 @@ else{
     else
         Yii::app()->getController()->renderPartial('tmpl/single/one'.$suf2, array('data'=>$data, 'filial'=>$filial, 'template'=>$template));
 }
-  
-?>
