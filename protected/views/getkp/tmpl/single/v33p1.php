@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
         <style>
             .body-content .h-4
@@ -27,15 +27,15 @@
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75" style="line-height: 39px;"><span>навесное оборудование тур</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" border="0" style="position: absolute; right: 0px; top: -4px; width: 80px;" width="80"/></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo.jpg" border="0" style="position: absolute; right: 0px; top: -4px; width: 80px;" width="80"/></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/tur.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/tur.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100 image">
                             <span class="h-4">1. МОДЕЛЬНЫЙ РЯД ДЛЯ ЛЮБЫХ ТИПОВ РАБОТ И ТРАКТОРОВ</span>
-                            <img src="http://www.git-lbr.ru/images/kp/tur-1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/tur-1.jpg" style="width:100%" border="0" />
                             <table width="760" style="border-collapse: collapse; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" >
                                 <tbody>
                                     <tr>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="width-100 image">
                             <span class="h-4">2. ИТАЛЬЯНСКАЯ ГИДРАВЛИКА И ФУРНИТУРА</span>
-                            <img src="http://www.git-lbr.ru/images/kp/tur-2.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/tur-2.jpg" style="width:100%" border="0" />
                             <span class="h-4" style="padding: 15px 0;">3. ТРАНСФОРМАЦИЯ «ТРАКТОР-ПОГРУЗЧИК-ТРАКТОР» ЗА 20 МИНУТ!</span>
                         </div>
                         <div class="left-65">
@@ -108,7 +108,7 @@
                         <div class="body-content">
                             <div class="width-100 image">
                                 <span class="h-4">7. БОЛЬШОЙ ВЫБОР РАБОЧИХ ОРГАНОВ</span>
-                                <img src="http://www.git-lbr.ru/images/kp/tur-3.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/tur-3.jpg" style="width:100%" border="0" />
                             </div>
                         </div>
                     </div>

@@ -23,19 +23,19 @@
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
             <tr>
                 <td colspan="3" align="right">
-                    <img width="10" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img width="10" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
-                <td align="left" width="22"><img src="http://www.git-lbr.ru/images/kp/left-orange.jpg" width="22" height="99" border="0" style="display: block;"></td>
+                <td align="left" width="22"><img src="http://www.lbr.ru/images/kp/left-orange.jpg" width="22" height="99" border="0" style="display: block;"></td>
                 <td align="left" bgcolor="#f68121" width="594">
                     <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px; color: white; font-weight: 900; text-transform: uppercase;">ТРАКТОР MCCORMICK+ СЕЯЛКА SPARTAN 607 ОТ GREAT PLAINS=ДВОЙНАЯ ВЫГОДА</span>
                 </td>
-                <td align="right" width="22"><img src="http://www.git-lbr.ru/images/kp/right-orange.jpg" width="22" height="99" border="0" style="display: block;"></td>
+                <td align="right" width="22"><img src="http://www.lbr.ru/images/kp/right-orange.jpg" width="22" height="99" border="0" style="display: block;"></td>
             </tr>
             <tr>
                 <td colspan="3" align="right">
-                    <img width="10" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img width="10" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
@@ -46,7 +46,7 @@
         </table>
         <!-- TOP BLOCK END -->
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-            <tr><td><img width="20" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+            <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
             <tr>
                 <td>
                     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -60,8 +60,8 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td>
                                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -118,30 +118,30 @@
                                                 </tr>
                                             </table>
                                         </td>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td align="left">
                                             <span style="text-align: justify; font-family: 'Arial Black', Gadget, sans-serif; font-size: 16px; color: rgb(211, 35, 42); font-weight: 900; margin: 0;">
                                                 1.УДОБНАЯ ЗАМЕНА K-700
                                             </span><br>
-                                            <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif"/></span><br>
+                                            <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif"/></span><br>
                                             <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin: 0;">
                                                 Трехточечное  навесное  устройство.  Грузоподъемность 
                                                 -   до  10  500  кг.  Гидравлическая  система  (130  л/мин). 
                                                 Контроль глубины работы и подъема навесного обору-дования.</span><br>
-                                            <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" /></span><br>
+                                            <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" /></span><br>
                                             <span style="text-align: justify; font-family: 'Arial Black', Gadget, sans-serif; font-size: 16px; color: rgb(211, 35, 42); font-weight: 900; margin: 0;">
                                                 2. ВСЕГО 20 000 РУБ. ЗА ЛОШАДЬ!
                                             </span><br>
-                                            <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" /></span><br>
+                                            <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" /></span><br>
                                             <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin: 0;">
                                                 6-ти цилиндровый двигатель IVECO мощностью 225 л.с.
                                                 НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ.
                                                 МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.</span><br>
-                                            <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" /></span><br>
+                                            <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" /></span><br>
                                             <span style="display: block; text-align: justify; font-family: 'Arial Black', Gadget, sans-serif; font-size: 16px; color: rgb(211, 35, 42); font-weight: 900; margin: 0;">
                                                 3. ТРАКТОРИСТ– ЭТО ЧЕЛОВЕК.
                                             </span><br>
-                                            <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" /></span><br>
+                                            <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" /></span><br>
                                             <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin: 0;">
                                                 В данном классе тракторов реализована интегрирован-ная концепция подвески и комфорта вождения.
                                                 <br>В базовой комплектации трактора:
@@ -154,7 +154,7 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td> 
                             <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
@@ -173,11 +173,11 @@
                             </table> 
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -191,8 +191,8 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td width="638">
                             <span style="text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
@@ -205,7 +205,7 @@
                             </span>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -236,7 +236,7 @@
                                         <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin: 0;">
                                             В транспортном положении ширина сеялки составляет всего 3 метра, что соответствует европейским стандартам.
                                         </span><br>
-                                        <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></span>
+                                        <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></span>
                                         <table width="328" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
                                             <tr bgcolor="#d1d3d4">
                                                 <td align="center" width="200"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Модель</span></td>
@@ -256,13 +256,13 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right" width="300">
-                                        <img src="http://www.git-lbr.ru/images/kp/spartan-3.jpg" border="0" width="300"/>
-                                        <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                        <img src="http://www.git-lbr.ru/images/kp/spartan-4.jpg" border="0" width="300"/>
-                                        <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                        <img src="http://www.git-lbr.ru/images/kp/spartan-5.jpg" border="0" width="300"/>
+                                        <img src="http://www.lbr.ru/images/kp/spartan-3.jpg" border="0" width="300"/>
+                                        <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                        <img src="http://www.lbr.ru/images/kp/spartan-4.jpg" border="0" width="300"/>
+                                        <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                        <img src="http://www.lbr.ru/images/kp/spartan-5.jpg" border="0" width="300"/>
                                     </td>
                                    
                                 </tr>
@@ -270,17 +270,17 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td width="638">
                 <span style="font-family: Calibri, sans-serif; font-size: 20px; color: rgb(184, 189, 188); font-weight: bold; margin: 0;">
                     ПРИ СКОРОСТИ РАБОТЫ В12 – 15 КМ/Ч СЕЯЛКИ С ЛЁГКОСТЬЮ ПРЕВОСХОДЯТ  12-ТИ  И  18-ТИ МЕТРОВЫЕ ПОСЕВНЫЕ КОМПЛЕКСЫ С АНКЕРОМ ИЛИ СТРЕЛЬЧАТОЙ ЛАПОЙ, РАБОТАЮЩИЕ СО СКОРОСТЬЮ 8 КМ/Ч, ПО ПРОИЗВОДИТЕЛЬНОСТИ. 
                 </span><br>
-                <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif" /></span><br>
+                <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif" /></span><br>
                 <span style="text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                     ДВОЙНАЯ ЭКОНОМИЯ ПРИ ТОЙ ЖЕ ПРОИЗВОДИТЕЛЬНОСТИ:
                 </span><br>
@@ -290,7 +290,7 @@
                 <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px;  color: #222222; margin: 0;">
                     <b>Трактор 200 л.с. + сеялка Spartan 6 метров</b> = 1500 Га яровых + 2000 Га озимых при себестоимости 2500  рублей на каждый посеянный гектар в год
                 </span><br>
-                <span style="width: 100%;"><img src="http://www.git-lbr.ru/images/kp/10.gif"/></span><br>
+                <span style="width: 100%;"><img src="http://www.lbr.ru/images/kp/10.gif"/></span><br>
                 <span style="text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                     ПЛЮСЫ:
                 </span><br>
@@ -310,23 +310,23 @@
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr style="border-top: 2px solid grey; height: 10px; width: 100%">
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
                                             Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
@@ -338,31 +338,31 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                     </td>
@@ -371,13 +371,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
+                                    <td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
                                             Ваш персональный менеджер<br><br>
                                             <? echo $data['user_info']; ?>

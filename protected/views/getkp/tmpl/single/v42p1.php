@@ -26,12 +26,12 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Обрезчик ботвы лука KRUKOWIAK</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-1.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/luk-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -87,12 +87,12 @@
                 <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Обрезчик ботвы лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; width: 100px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; width: 100px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-3.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/luk-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-4.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -167,11 +167,11 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Копалка для лука KRUKOWIAK</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-5.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -228,12 +228,12 @@
                 <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Копалка для лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0; top: 15px; width: 100px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0; top: 15px; width: 100px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-6.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/luk-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-7.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -303,11 +303,11 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Подборщик лука Z-437</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="position: absolute; right: 0; top: 0px; width: 65px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-8.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -368,11 +368,11 @@
                 <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Подборщик лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0; top: 15px; width: 100px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0; top: 15px; width: 100px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/luk-9.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-9.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -477,11 +477,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

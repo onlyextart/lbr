@@ -54,11 +54,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуг оборотный IBIS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 60px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 60px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod1.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="left-50">
@@ -121,11 +121,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуг оборотный VIS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -182,15 +182,15 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Дискаторы Unia серии Ares</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-30 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-8.jpg" border="0" />
                             </div>
                             <div class="right-70" style="padding-left: 2%; width: 68%; margin-bottom: 10px;">
                                 <div class="width-100 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/euro-podhod4.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/euro-podhod4.jpg" border="0" />
                                 </div>
                                 <span class="h-4">УДИВИТЕЛЬНАЯ УНИВЕРСАЛЬНОСТЬ:</span>
                                 <span class="text">
@@ -269,11 +269,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Atlas</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 68px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 68px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod6.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ЗА 1 ПРОХОД ПРЕДПОСЕВНОЙ <br>КУЛЬТИВАТОР ATLAS ВЫПОЛНЯЕТ:</span>
@@ -325,11 +325,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Kombi</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 18px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 18px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod7.jpg" height="200" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod7.jpg" height="200" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ПРИКАТКА, РЫХЛЕНИЕ И СНОВА ПРИКАТКА!</span>
@@ -381,11 +381,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Viking</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 7px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 7px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod8.jpg" border="0" />
                                 
                                 <span class="left-90 text" style="line-height: 16px; margin: 0px;">Применяется для повседневной обработки зерновых, под сахарную свеклу, подсолнечник, кукурузу, для обработки паров, для работы после пахоты и дискования. <br><span class="span-red-left">ПРИЯТНО УДИВИТЕСЬ ЦЕНЕ!</span></span>
                          
@@ -457,11 +457,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Глубокорыхлитель KRET</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 62px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 62px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-podhod9.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod9.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -528,11 +528,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
