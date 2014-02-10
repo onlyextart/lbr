@@ -2,6 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" style="min-height: 100%">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <BASE href="v8config://eeaf5085-e783-4a57-9a05-1357ae55da33/mdobject/ide1ffff40-2647-407a-9655-20eb4c0de2b3/8eb4fad1-1fa6-403e-970f-2c12dbb43e23">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <META name=GENERATOR content="MSHTML 9.00.8112.16526">
     <title><? echo $template->title; ?></title>
 </head>
 <body>
