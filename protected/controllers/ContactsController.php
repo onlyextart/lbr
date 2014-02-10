@@ -17,6 +17,8 @@ class ContactsController extends Controller
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         //var_dump($contact_id);exit;
         if($contact_id==null){
+            $criteria = new CDbCriteria();
+            $criteria->order = 'name DESC';
             //$contactModels = Contacts::model()->findAll('published=1');
             //$this->render('commonContacts', array('contactModels'=>$contactModels));
             $this->render('commonContacts');
