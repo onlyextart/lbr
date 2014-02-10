@@ -36,15 +36,15 @@ function getRow($array){
     for($i = 1; $i<=count($array); $i++){
         $return .= '<tr>';
             $return .= '<td class="t-r-date">';
-                $return .= $array[$i]['date'];
+                $return .= '<span>'.$array[$i]['date'].'</span>';
             $return .= '</td>';
             $return .= '<td class="t-r-header">';
-                $return .= $array[$i]['caption'];
+                $return .= '<span>'.$array[$i]['caption'].'</span>';
             $return .= '</td>';
         $return .= '</tr>';
         $return .= '<tr>';
             $return .= '<td class="t-r-image">';
-                $return .= $array[$i]['image'];;
+                $return .= $array[$i]['image'];
             $return .= '</td>';
             $return .= '<td class="t-r-text">';
                 $return .= $array[$i]['text'];
@@ -65,7 +65,7 @@ function getCollum($array){
         for($k = 1; $k<=$c; $k++)
         {
             $return .= '<td class="width-'.$tdclass.'">';
-                $return .= '<div class="t-c-header"><span class="t-c-date">'.$array[$i][$k]['date'].'</span> '.$array[$i][$k]['caption'].'</div>';
+                $return .= '<div class="t-c-header"><span class="t-c-date">'.$array[$i][$k]['date'].'<span class="white">__</span>|</span> '.$array[$i][$k]['caption'].'</div>';
                 $return .= '<div class="t-c-image">'.$array[$i][$k]['image'].'</div>';
                 $return .= '<div class="t-c-text">'.$array[$i][$k]['text'].'</div>';
             $return .= '</td>';
@@ -136,7 +136,7 @@ function getCollum($array){
         font-family: Calibri;
         color: rgb(43,42,41);
         text-align: center;
-        font-size: 13.5px;
+        font-size: 16px;
     }
     .wrapper .w-wrapper .w-w-header
     {
@@ -150,6 +150,10 @@ function getCollum($array){
     .wrapper .collum-table
     {
         
+    }
+    .white
+    {
+        color: rgb(255,251,239);
     }
     .wrapper .collum-table .t-c-header
     {
