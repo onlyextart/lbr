@@ -161,7 +161,7 @@ function getCollum($array){
     .wrapper .collum-table .t-c-header
     {
         font-family: Calibri;
-        font-size: 13.5px;
+        font-size: 15px;
         color: rgb(43, 42, 41);
         font-weight: 900;
         margin-top: 15px;
