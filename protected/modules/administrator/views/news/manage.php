@@ -37,9 +37,24 @@ tinymce.myOptions = {
 }
 </script>
 <div class="form">
-<?php
-$form = $this->beginWidget('CActiveForm');
+
+<?php $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$newsModel->id,
+    'action'=>$action,
+    'enableClientValidation'=>true,
+    'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+            {     
+                if( hasError ){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }'
+    ),));
 ?>
+
 <div class="admin_main_features">
 <div class="row">
 <?php echo $form->error($newsModel, 'header')  ?>
@@ -60,9 +75,9 @@ $form = $this->beginWidget('CActiveForm');
 <?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовывать"))  ?>
 </div>
 <div class="row">
-<?php echo $form->error($newsModel, 'date')  ?>
-<?php echo $form->labelEx($newsModel, 'date')  ?>
-<?php echo $form->textField($newsModel, 'date')  ?>
+<?php echo $form->error($newsModel, 'date'); ?>
+<?php	echo $form->labelEx($newsModel, 'date');?>
+<?php   echo CHtml::textField('date', date("Y-m-d H:i", strtotime($newsModel->date))) ?>    
 </div>
 </div>
 
