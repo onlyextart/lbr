@@ -80,6 +80,7 @@ class ProductsController extends Controller{
                             $menuItemContentModel->save();
                         }
                     }
+                    $productModel->metaSave();
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара создана.');
@@ -198,6 +199,7 @@ class ProductsController extends Controller{
                     foreach( $menuItmemsContentModelsForDeleting as $deleteMenuItmemsContent ){
                         $deleteMenuItmemsContent->delete();
                     }
+                    $productModel->metaSave();
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара успешно сохранена.');
