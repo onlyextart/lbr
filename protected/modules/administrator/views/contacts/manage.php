@@ -93,7 +93,7 @@
 <script type="text/javascript" src="/js/tinymce_3_x/tiny_mce.js"></script>
 <script type="text/javascript">
 tinymce.myOptions = {
-    width: "100%",
+        width: "100%",
         mode : "textareas",
         editor_selector: "with_tinymce",
         theme : "advanced",
