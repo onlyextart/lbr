@@ -10,6 +10,20 @@ class ProductsController extends Controller{
             )
         );
     }
+
+    public function actionDelete( $id ){
+        $model = Products::model()->findByPk( $id );
+        if($model!==null){
+            //Удалить страницу из пунктов меню
+            $menuItem = MenuItemsContent::model()->with('item')->find(
+                'page_id='.$model->id.'
+                    AND item.type='.MenuItems::PRODUCT_MENU_ITEM_TYPE
+            );
+            $menuItem->delete();
+            //Удалить страницу
+            $model->delete();
+        }
+    }
     
     public function actionCreate(){
         $productModel = new Products();
