@@ -158,7 +158,7 @@ class Products extends CActiveRecord
         }
         
         //Метод генерирует мета теги страницы товара
-        protected function metaSave() {
+        public function metaSave() {
             //id пункта меню данного товара
             $id = Yii::app()->db->createCommand()->select('item_id')->from('menu_items_content')->where('page_id='.$this->id)->queryRow();
             
