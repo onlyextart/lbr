@@ -15,11 +15,15 @@ class ProductsController extends Controller{
         $model = Products::model()->findByPk( $id );
         if($model!==null){
             //Удалить страницу из пунктов меню
-            $menuItem = MenuItemsContent::model()->with('item')->find(
+            $menuItems = MenuItemsContent::model()->with('item')->findAll(
                 'page_id='.$model->id.'
                     AND item.type='.MenuItems::PRODUCT_MENU_ITEM_TYPE
             );
-            $menuItem->delete();
+            if($menuItems && !empty($menuItems)){
+                foreach($menuItems as $menuItem){
+                    $menuItem->delete();
+                }
+            }
             //Удалить страницу
             $model->delete();
         }
