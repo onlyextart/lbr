@@ -169,9 +169,9 @@
                                     <span class="span-red-left"><br />2. КОГДА ВОЖДЕНИЕ – ЭТО КОМФОРТ И УВЕРЕННОСТЬ</span>
                                     <span class="text" style="font-size: 16px; line-height: 20px;"> 
                                         <br />В базовой комплектации трактора:
-                                        • одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;
-                                        • кондиционер, отопление, вентиляция;
-                                        • пневматическая подвеска кабины.
+                                        <br />• одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;
+                                        <br />• кондиционер, отопление, вентиляция;
+                                        <br />• пневматическая подвеска кабины.
                                     </span>
                                     
                                     
@@ -225,14 +225,14 @@
                                     На ровных полях сеялка способна производить посев на скорости до 15 км/ч.                                    
                                     Идеально подходит для высева рапса и других мелкосеменных культур, где очень важно производить посев на постоянную и малую глубину.<br /> 
                                                                       
-                                    <span style="clear: both; color: rgb(211, 35, 42);  text-transform: uppercase; background: white; text-align: left; font-size: 18px; font-family: FuturisXC,sans-serif;"><br />2. СОШНИК-ВЕЗДЕХОД</span>   
+                                    <span style="clear: both; color: rgb(211, 35, 42);  text-transform: uppercase; background: white; text-align: left; font-size: 18px; font-family: FuturisXC,sans-serif;">2. СОШНИК-ВЕЗДЕХОД</span>   
                                     <span class="text" style="font-size: 16px; line-height: 20px;"> 
                                         Двухдисковый сошник опирается на прикатывающее колесо, которое служит одновременно копиром. 
                                         Такая конструкции позволяет производить индивидуальную сверхточную настройку глубины сева путем перемещения прикатывающего колеса относительно сошника.
                                         Также сошник имеет мощный литой двусторонний чистик дисков с автоматическим прижимом пружиной.
                                     </span>
                                     </span> 
-                                    <div style="width: 100%; height: 20px;"></div>
+                                    <div style="width: 100%; height: 10px;"></div>
                                     <div class="left-40" style="width: 240px;">
                                    <img src="http://www.lbr.ru/images/kp/amity-disk3.jpg" border="0" style="width: 240px;" /> 
                                     <img src="http://www.lbr.ru/images/kp/amity-disk4.jpg" border="0" style="width: 240px;" />
@@ -245,7 +245,7 @@
                                     </span>
                                     </div>
                                     <div class="right-60 text" style="width: 500px;">
-                                    <span class="span-red-left" style="margin-top: 80px;">4. МЕНЬШЕ ВРЕМЕНИ НА ЗАГРУЗКУ!</span>                                     
+                                    <span class="span-red-left" style="margin-top: 30px;">4. МЕНЬШЕ ВРЕМЕНИ НА ЗАГРУЗКУ!</span>                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;"> 
                                         Бункер выполнен из нержавеющей стали, расположен за сеялкой, имеет две оси и широкие шины 23,1R26 для снижения давления на почву, снабжен самозагрузочным шнеком 20 см с пластиковой спиралью для снижения травмирования семян. 
                                         Общий объем бункера 9865 литров, разделен на две секции: 5920 л под семена и 3945 л под минеральные удобрения. 
@@ -379,9 +379,7 @@
                     </div>
                 </div>
             </div>
-            </div>
-                </div>
-        </div>
+            </div>                
     </body>
 </html>
 <style>

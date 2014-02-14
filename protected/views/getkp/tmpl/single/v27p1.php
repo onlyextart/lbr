@@ -16,6 +16,7 @@
             </div>
             <div class="one-page head-first-page">
                 <div class="dieci-header">
+            
                     <span class="dieci-header-orange">NO-TILL. Лучшие машины!</span>
                 </div>
                 <span class="first-header-text">Побеждая себестоимость!</span>
@@ -933,7 +934,7 @@
         font-family: FuturisC,  sans-serif;
     }
     
-    .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
+    .one-page{page-break-after: always; width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: left;}
     .content-page{padding: 20px 20px 0;}

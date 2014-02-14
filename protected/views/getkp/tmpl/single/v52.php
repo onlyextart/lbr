@@ -52,10 +52,10 @@
                                     Гидравлическая система (130 л/мин). Контроль глубины работы и подъема навесного оборудования.<br />
                                     6-ти цилиндровый двигатель IVECO мощностью 225 л.с.<br />
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black text-transform: uppercase;">НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ.</span>
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black; text-transform: uppercase;">НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ.</span>
                                     <span><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;"/></span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black; text-transform: uppercase;">МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.</span>
-                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;""/>
+                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;"/>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />2. КОГДА ВОЖДЕНИЕ – ЭТО КОМФОРТ И УВЕРЕННОСТЬ</span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         В базовой комплектации трактора:
