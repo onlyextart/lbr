@@ -1,0 +1,184 @@
+/* 
+    Document   : static
+    Created on : 11.06.2013, 8:40:10
+    Author     : cheshenkov
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#tabs
+{
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);
+    background: #F6F7F6;
+    margin: 0;
+    padding: 0;
+}
+#tabs > div, #tabs > ul
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+#tabs > div
+{
+    width: 80%;
+    border-right: 1px solid rgb(65, 131, 196);
+}
+
+#tabs > div > div
+{
+    padding: .5em .5em .5em 0;
+}
+#tabs > div > div .mce-tinymce{
+    border-color: #D8D8D8;
+}
+#tabs > ul
+{
+    width: 19%;
+    border-radius: 0 2px 2px 0;
+}
+#tabs > ul li, #tabs > ul li a, #tabs > ul li span#add_tab
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    float: none;
+    line-height: 1em;
+    border-radius: 0;
+    cursor: default;
+}
+#tabs > ul > li
+{
+    position: static;
+    background: #F4F4F4;
+    border-bottom: 1px solid rgb(222, 222, 222)
+}
+#tabs > ul > li.ui-state-active, #tabs > ul > li:hover
+{
+    background: #EAEAEA;
+}
+#tabs > ul > li a
+{
+    outline: none;
+    float: left;
+    width: 70%;
+}
+#tabs > ul > li span
+{
+    display: inline-block;
+    margin-top: 3px;
+}
+#tabs > ul li a, #tabs > ul li span#add_tab{
+    padding: .4em 1em;
+    display: block;
+}
+#tabs > ul li span#add_tab
+{
+    background: rgb(65, 131, 196);
+    color: white;
+}
+#tabs > ul li ul.region_list
+{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    width: 77%;
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);
+    top: 0;
+    height: 92%;
+    padding:1% 2%;
+    background: rgba(238,238,238, .9);
+    display: none;
+}
+#tabs > ul li ul.region_list li.region
+{
+    float: left;
+    margin: 1%;
+    padding: .3em 1em;
+    box-shadow: 0px 0px 2px rgb(192, 192, 192);
+    background-color: #F7F7F7;
+    border-radius: 2px;
+    color: rgb(65, 131, 196);
+}
+#tabs > ul li ul.region_list li.selected
+{
+    color: #F7F7F7;
+    background-color: rgb(65, 131, 196);
+}
+
+.published input[type="checkbox"]
+{
+    width: auto;
+}
+.published label
+{
+    position: relative;
+}
+
+#tabs:after, #tabs > div:after, #tabs > ul:after, #tabs > ul li ul.region_list:after, #tabs > ul > li:after, .published:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.right .admin_additional_features_content
+{
+    box-shadow: 0px 0px 3px rgb(192, 192, 192);   
+}
+
+.right .admin_additional_features_content .menuTreeView
+{
+    padding: .5em 1em .2em;
+}
+.right .admin_additional_features_content .header-h4
+{
+    background: url("/images/bg_menu_admin.png") repeat-x scroll left top rgb(243, 243, 243);
+    line-height: 33px;
+    padding: 0 1em;
+}
+.right .admin_additional_features_content ul
+{
+    list-style: none;
+    border-top: 1px solid rgba(65, 131, 196, .2);
+}
+.right .admin_additional_features_content > ul
+{
+    background: rgb(245,245,245);
+    border-top: 1px solid rgb(65, 131, 196);
+}
+.right .admin_additional_features_content > ul > li > ul, .right .admin_additional_features_content > ul > li > ul > li > ul > li > ul
+{
+    background: white;
+}
+.right .admin_additional_features_content > ul > li > ul > li > ul, .right .admin_additional_features_content > ul > li > ul > li > ul > li > ul > li > ul
+{
+    background: rgb(245,245,245);
+}
+.right .admin_additional_features_content ul li
+{
+    margin: 0;
+    /*padding: 0;*/
+    cursor: default;
+    position: relative;
+}
+
+.right .admin_additional_features_content ul li.collapsable{
+    
+}
+/*.right .admin_additional_features_content li.expandable:hover, .admin_additional_features_content li.last:hover
+{
+    background-color: #F4F4F4;
+}*/
+.right .admin_additional_features_content input.menuItemCheckBox
+{
+    width: auto;
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 1px;
+    padding: 0px;
+    min-height: 10px;
+}

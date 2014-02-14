@@ -20,4 +20,29 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+        
+        public function init() {
+            parent::init();
+            $cook = $_COOKIE['region'];
+            $def = Yii::app()->params['defaultRegionId'];
+            $host = Yii::app()->params['host']; 
+            $path = Yii::app()->request->pathInfo;
+            $region = $def;
+            if(isset($cook) && !strstr($path, 'administrator') && !strstr($path, 'getkp') && !strstr($path, 'users')){
+                $domain = Yii::app()->db->createCommand(array(
+                    'select' =>'domain',
+                    'from' => 'contacts',
+                    'where' => 'id=:id',
+                    'params' => array(':id'=>$cook),
+                ))->queryScalar();
+                if($cook!=$def){
+                    $region = $cook;
+                }
+                if('www.'.$domain.'.'.$host != $_SERVER['HTTP_HOST']){
+                    Yii::app()->request->redirect('http://www.'.$domain.'.'.$host.Yii::app()->request->url);     
+                }
+            }
+            Yii::app()->params['regionId'] = $region;
+            return true;
+        }
 }

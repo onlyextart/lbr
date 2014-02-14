@@ -29,7 +29,8 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+	    //echo '111';	
+            $this->render('index');
 	}
 
 	/**
@@ -106,4 +107,13 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+        
+        
+        
+    public function actionSitemap(){
+        $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
+        $siteMapHtml = file_get_contents($siteMapFile);
+        Yii::app()->params['meta_title'] = 'Карта сайта';
+        $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
+    }
 }

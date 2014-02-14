@@ -1,0 +1,48 @@
+
+
+.list-view .pager {
+margin: 5px;
+text-align: left;
+}
+
+ul.yiiPager
+{
+	width: 900px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	
+	
+	color:#009966;
+	padding:1px 6px;
+	text-decoration:underline;
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+}
+
+
+ul.yiiPager .selected a
+{
+	background:#009966;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+	
+	color:#009966;
+}
+

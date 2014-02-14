@@ -1,1 +1,7 @@
-/nbproject/private/
+Git Bash.lnk
+.gitignore
+yii/
+images/
+assets/
+protected/data/
+nbproject/
