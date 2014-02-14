@@ -29,11 +29,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуг оборотный IBIS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 60px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 60px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-1.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="left-50">
@@ -96,11 +96,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуг оборотный VIS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -176,11 +176,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги навесные М950 и XMS 950</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/М950.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/М950.jpg" border="0" />
                                 <table width="361" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="font-size: 12px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr bgcolor="#d1d3d4">
                                         <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Модель</span></td>
@@ -228,11 +228,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HEKTOR</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/first-page.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/first-page.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4" style="font-size: 16px;">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!</span>
@@ -280,11 +280,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HERKULES</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/HERKULES.jpg" style="margin-left:-17px; width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/HERKULES.jpg" style="margin-left:-17px; width: 100%;" border="0" />
                                 <table width="363" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
                                         <td align="left" width="70%"><span style="font-family: sans-serif; font-size: 12px; ">&nbsp;Количество корпусов, шт.</span></td>
@@ -329,14 +329,14 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HERОS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-6.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-6.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-7.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">12 корпусов – это серьезно;<br>5,5 га/час – это рентабельно!<br>ВСПАШКА ПО-ВЗРОСЛОМУ!</span>
@@ -394,15 +394,15 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Дискаторы Unia серии Ares</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-30 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-8.jpg" border="0" />
                             </div>
                             <div class="right-70" style="padding-left: 2%; width: 68%">
                                 <div class="width-100 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/euro-9.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/euro-9.jpg" border="0" />
                                 </div>
                                 <span class="h-4">УДИВИТЕЛЬНАЯ УНИВЕРСАЛЬНОСТЬ:</span>
                                 <span class="text">
@@ -478,11 +478,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Atlas</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-10.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-10.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ЗА 1 ПРОХОД ПРЕДПОСЕВНОЙ <br>КУЛЬТИВАТОР ATLAS ВЫПОЛНЯЕТ:</span>
@@ -546,11 +546,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Kombi</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-11.jpg" height="200" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-11.jpg" height="200" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ПРИКАТКА, РЫХЛЕНИЕ И СНОВА ПРИКАТКА!</span>
@@ -614,11 +614,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Культиватор Viking</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-12.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-12.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="text">
@@ -689,11 +689,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Бороны пружинные Akzent</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/euro-13.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-13.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ФИЗИКА ПРОТИВ ХИМИИ<br>ПОБОРОТЬ СОРНЯК В РЯДКЕ!!!</span>
@@ -770,11 +770,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

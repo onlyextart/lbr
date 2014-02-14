@@ -26,7 +26,7 @@
         </tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-        <tr><td><img width="20" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -35,12 +35,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -67,9 +67,9 @@
                                     </span>
                                     
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" width="300" border="0" /><br />
-                                     <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" width="300" border="0" /><br />
+                                     <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                                      <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
                                             <tr style="background-color: #d1d3d4;">
@@ -106,12 +106,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -120,12 +120,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -145,10 +145,10 @@
                                        Достигается благодаря расположению выгрузного окна, форме и размеру измельчающих шнеков и специальной конструкции бункера. 
                                    Такой результат позволяет свести к минимуму попадание закисшего продукта в кормушку или на кормовой стол.
                                     </span>   
-                                    <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" width="300" border="0" />                                
+                                    <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" width="300" border="0" />                                
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo1.jpg" width="300" border="0" /> 
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo1.jpg" width="300" border="0" /> 
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; text-transform: uppercase;"><br />Стандартная комплектация:<br /></span>
                                         <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
                                        • смесительный корпус цельной конструкции <br />
@@ -220,12 +220,12 @@
                                             
                                         </tbody>
                                 </table>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -234,12 +234,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -266,11 +266,11 @@
                                     </span>  
                                                            
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right">
-                                    <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo3.jpg" width="300" border="0" /> 
-                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                    <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo4.jpg" width="300" border="0" />     
+                                    <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo3.jpg" width="300" border="0" /> 
+                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                    <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo4.jpg" width="300" border="0" />     
                                                                        
                                     </td>
                                    
@@ -309,12 +309,12 @@
                         
                     </tr>
                     
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
                             
                        
        
@@ -326,12 +326,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель рулонов Унибалл</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -384,9 +384,9 @@
                                         </tbody>
                                 </table>
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" width="300" border="0" /><br />
-                                    <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" width="300" border="0" />
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" width="300" border="0" /><br />
+                                    <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" width="300" border="0" />
                                     </td>
                                    
                                 </tr>
@@ -394,12 +394,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -408,12 +408,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель УНИБАЛЛ КРОНОС</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -432,10 +432,10 @@
                                     </span>
                                      
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo7.jpg" width="300" border="0" />
-                                    <img style="margin-right: 5px; margin-top: 10px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo8.jpg" width="143" border="0" />
-                                    <img style="margin-left: 5px; margin-top: 10px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo9.jpg" width="143" border="0" />
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo7.jpg" width="300" border="0" />
+                                    <img style="margin-right: 5px; margin-top: 10px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo8.jpg" width="143" border="0" />
+                                    <img style="margin-left: 5px; margin-top: 10px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo9.jpg" width="143" border="0" />
                                     </td>
                                    
                                 </tr>
@@ -473,12 +473,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -487,12 +487,12 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Измельчитель УНИБАЛЛ МИНИ</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -513,9 +513,9 @@
                                     </span>
                                      
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo10.jpg" width="300" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/sezon-moloka6.jpg" width="300" border="0" />
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo10.jpg" width="300" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/sezon-moloka6.jpg" width="300" border="0" />
                                     </td>
                                    
                                 </tr>
@@ -553,12 +553,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -567,7 +567,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Бочка для внесения жидких удобрений Питон 100</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/piton-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/piton-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -597,9 +597,9 @@
                                     </span>
                                     
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" width="300" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" width="300" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                                     <table width="300" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
                                         <tbody>
@@ -648,12 +648,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr> 
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr> 
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -662,7 +662,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Разбрасыватели универсальные PTU</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -685,10 +685,10 @@
                                     </span>
                                     
                                     </td>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo13.jpg" width="300" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                    <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo14.jpg" width="300" border="0" />
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo13.jpg" width="300" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                    <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo14.jpg" width="300" border="0" />
                                    
                                 </tr>
                             </table>
@@ -773,12 +773,12 @@
                         </td>
                         
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
                
         
                
@@ -790,23 +790,23 @@
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr style="border-top: 2px solid grey; height: 10px; width: 100%">
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
                                             Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
@@ -818,31 +818,31 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                     </td>
@@ -851,13 +851,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
+                                    <td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
                                             Ваш персональный менеджер<br><br>
                                             <? echo $data['user_info']; ?>

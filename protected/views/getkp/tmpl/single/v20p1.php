@@ -26,11 +26,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Самосвальные полуприцепы LMR</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 15px;" src="http://www.git-lbr.ru/images/kp/pricepi-i-polypricepi.jpg" border="0" />
+                                    <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi.jpg" border="0" />
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -165,14 +165,14 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Бункер-перегрузчик J&M Тип</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/jm-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/jm-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/pricepi-i-polypricepi2.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi2.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/pricepi-i-polypricepi3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi3.jpg" border="0" />
                                 <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
@@ -251,14 +251,14 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Универсальные прицепы Баркас</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/pricepi-i-polypricepi4.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi4.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/pricepi-i-polypricepi5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi5.jpg" border="0" />
                                 <table width="361" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
@@ -399,11 +399,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

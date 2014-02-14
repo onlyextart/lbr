@@ -26,7 +26,7 @@
         
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-        <tr><td><img width="20" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -35,20 +35,20 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 26px; font-weight: bolder;">Навесное оборудование ТУР</span></td>
-                                    <td align="right"><img src="http://www.git-lbr.ru/images/kp/traktor-logo-2.jpg" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/traktor-logo-2.jpg" style="display: block;"/></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/tur.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/tur.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td><span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                             1. МОДЕЛЬНЫЙ РЯД ДЛЯ ЛЮБЫХ ТИПОВ РАБОТ И ТРАКТОРОВ
                         </span></td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/tur-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/tur-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td> 
                             <table width="638" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: justify;">
@@ -79,14 +79,14 @@
                             </table> 
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td><span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                             2. ИТАЛЬЯНСКАЯ ГИДРАВЛИКА И ФУРНИТУРА
                         </span></td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/tur-2.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/tur-2.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <tr>
                         <td><span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                             3. ТРАНСФОРМАЦИЯ «ТРАКТОР-ПОГРУЗЧИК-ТРАКТОР» ЗА 20 МИНУТ!
@@ -95,7 +95,7 @@
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -107,7 +107,7 @@
                         </td>
                         <td rowspan="6"></td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td>
                             <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
@@ -119,7 +119,7 @@
                             </span>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td>
                             <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
@@ -127,11 +127,11 @@
                             </span>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
@@ -139,11 +139,11 @@
                 </span>
             </td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
         <tr>
-            <td><img src="http://www.git-lbr.ru/images/kp/tur-3.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td>
+            <td><img src="http://www.lbr.ru/images/kp/tur-3.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td>
         </tr>
-        <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -151,23 +151,23 @@
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom'];?></span></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr style="border-top: 2px solid grey; height: 10px; width: 100%">
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
                                             Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
@@ -179,31 +179,31 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['work_time']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['address']; ?></span><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td>
                                         <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: bold;"><? echo $filial['telephone']; ?></span>
                                     </td>
@@ -212,13 +212,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     </tr>
                     <tr>
                         <td>
                             <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                 <tr>
-                                    <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
+                                    <td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                     <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
                                             Ваш персональный менеджер<br><br>
                                             <? echo $data['user_info']; ?>

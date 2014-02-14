@@ -33,12 +33,12 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
                                 <table width="360" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
@@ -102,11 +102,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Кормораздатчики горизонтальные СЕНЬОР</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo1.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
                                 
                             </div>
@@ -140,7 +140,7 @@
                             
                             <div style="width: 100%; height: 10px;"></div>
                             <div class="right-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" border="0" />
                             </div></div>
                             
                             <div class="left-50" style="font-size: 15px;">
@@ -224,13 +224,13 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Вертикальный кормораздатчик Сеньор-8В</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: -7px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: -7px;"  /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo3.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo4.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
                                 
                             </div>
@@ -300,13 +300,13 @@
                             <div class="h-2"><span>Смесители-кормораздатчики</span></div>
                         </div>
                             <div class="h-2 left-75" style="margin-top: 0px;"><span>Измельчитель рулонов Унибалл</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 50px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 50px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -377,18 +377,18 @@
                 </div>                        
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ КРОНОС</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo7.jpg" border="0" />
                               
                             
                             
                             <div class="image">
-                            <img style="width: 180px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo8.jpg" width="180px" height="107px" border="0" />
-                                <img style="width: 180px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo9.jpg" width="180px" height="107px" border="0" />
+                            <img style="width: 180px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo8.jpg" width="180px" height="107px" border="0" />
+                                <img style="width: 180px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo9.jpg" width="180px" height="107px" border="0" />
                            </div></div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
@@ -445,13 +445,13 @@
                 </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ МИНИ</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 1px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 1px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo10.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo11.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo10.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo11.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
@@ -514,11 +514,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75" style="margin-top: 0px;"><span>Бочка PITON для жидкой органики и воды</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/piton-logo.jpg" border="0" style="position: absolute; right: 0px; top: 65px;" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/piton-logo.jpg" border="0" style="position: absolute; right: 0px; top: 65px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" style="width: 360; height: 230px; " border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" style="width: 360; height: 230px; " border="0" />
                             <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             
@@ -618,12 +618,12 @@
                  <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75" style="margin-top: 5px;"><span>Разбрасыватели универсальные PTU</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"/></div>
                         </div>
                        <div class="body-content">
                             <div class="left-50 image">
-                                <img style="width: 360; height: 150px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo13.jpg" border="0" />
-                                <img style="width: 360; height: 150px;" src="http://www.git-lbr.ru/images/kp/prof-zgivotnovodstvo14.jpg" border="0" />
+                                <img style="width: 360; height: 150px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo13.jpg" border="0" />
+                                <img style="width: 360; height: 150px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo14.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -765,11 +765,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -802,7 +802,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/cow.jpg') white no-repeat 8px 115px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/cow.jpg') white no-repeat 8px 115px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: justify; font-size: 26px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .two-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(99, 99, 99); text-align: justify; font-size: 22px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}

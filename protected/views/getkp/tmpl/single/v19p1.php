@@ -29,11 +29,11 @@
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/great-plains.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <span class="text">
-                            <img src="http://www.git-lbr.ru/images/kp/great-plains1.jpg" border="0" height="180" width="350" align="left" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains1.jpg" border="0" height="180" width="350" align="left" />
                                 Пропашная 8-рядная механическая-прицепная сеялка точного высева <b style="color: rgb(211,35,42);">Great Plains PD8070</b> предназначена для высева рядных культур (кукуруза, подсолнечник, соя, сорго) с междурядьем 70 см. 
                                 Сеялка оборудована приспособлением для внесения сухих гранулированных удобрений в междурядья ниже зоны высева семян. Сеялка также укомплектована дисковыми турбо-ножами для обработки почвы в зоне высева, что делает ее универсальной сеялкой для использования в нулевой технологии сева. 
                                 Контроль параметров высева количество семян на гектар, скорость движения, площадь посева осуществляется с помощью монитора Dickey-john.
@@ -55,7 +55,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-40 image">
-                                <img src="http://www.git-lbr.ru/images/kp/great-plains2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/great-plains2.jpg" border="0" />
                             </div>
                             <div class="right-60">
                                 <span class="text">
@@ -74,7 +74,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/great-plains3.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains3.jpg" style="width:100%" border="0" />
                         </div>
                             <div>
                                 <span class="text">
@@ -100,7 +100,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/great-plains4.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/great-plains4.jpg" style="width:100%" border="0" />
                             </div>
                             <div>
                                 <span class="text">
@@ -119,8 +119,8 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/great-plains5.jpg" style="width:360px; height: 236px; padding-right: 19px;" border="0" />
-                            <img src="http://www.git-lbr.ru/images/kp/great-plains6.jpg" style="width:377px; height: 236px;" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains5.jpg" style="width:360px; height: 236px; padding-right: 19px;" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains6.jpg" style="width:377px; height: 236px;" border="0" />
                         </div>
                             <div>
                                 <span class="text">
@@ -147,7 +147,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/great-plains7.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/great-plains7.jpg" style="width:100%" border="0" />
                             </div>
                             <div>
                                 <span class="text">
@@ -166,7 +166,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/great-plains8.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/great-plains8.jpg" style="width:100%" border="0" />
                             </div>
                             <div>
                                 <span class="text">
@@ -261,11 +261,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span style="font-size: 28px; text-transform: uppercase;">мобильные зерносушилКи MecMar</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-1.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -379,11 +379,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -416,7 +416,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 165px; padding-bottom: 10px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 165px; padding-bottom: 10px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 48px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

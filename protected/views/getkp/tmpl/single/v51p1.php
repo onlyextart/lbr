@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
         <style>
             .body-content .h-4
@@ -27,11 +27,11 @@
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75" style="line-height: 39px;"><span>Сеялка POLONEZ</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 9px; width: 35px;"/></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 9px; width: 35px;"/></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/polonez_dablo.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">                            
                             <table width="760" style="border-collapse: collapse; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" >
@@ -76,10 +76,10 @@
                         </div>
                         <div class="width-100 image">
                             <span class="h-4" style="color: black;">Высеваемые культуры:</span>
-                            <img src="http://www.git-lbr.ru/images/kp/polonez_dablo1.jpg" style="width:100%" border="0" />                            
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo1.jpg" style="width:100%" border="0" />                            
                         </div>
                         <div class="left-50 image" style="margin-top: 10px;">                            
-                            <img src="http://www.git-lbr.ru/images/kp/polonez_dablo2.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo2.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="right-50">
                         <span class="h-4" style="margin-left: 5px;">КАЧЕСТВЕННЫЙ ПОСЕВ ЭТО:</span>
@@ -111,8 +111,8 @@
                     <div class="one-item">                     
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/polonez_dablo3.jpg" style="width: 378px;" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/polonez_dablo4.jpg" style="width: 378px; height: 238px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/polonez_dablo3.jpg" style="width: 378px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/polonez_dablo4.jpg" style="width: 378px; height: 238px;" border="0" />
                             </div>
                             <div class="left-50">                                                               
                                 <span class="text" style="padding-right: 10px;">
@@ -125,7 +125,7 @@
                                     2. &nbsp;Гидравлические маркеры (следоразметчики). <br />
                                     3. &nbsp;Загрузочный помост со ступеньками.<br />
                                     4. Центральная и индивидуальная система регулировки заглубления сошников.<br />
-                                    <img src="http://www.git-lbr.ru/images/kp/polonez_dablo6.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/polonez_dablo6.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
                                     5. Комплект пружинных загортачей.<br />
                                     6. Следорыхлители тракторной колеи.<br />
                                     7. Бесступенчатая коробка передач. <br />
@@ -134,7 +134,7 @@
                                 </span>  
                                 <div style="width: 100%; height: 15px"></div>
                                 <span class="text" style="padding-right: 10px;">
-                                    <strong>ОПЦИИ:</strong><br /><img src="http://www.git-lbr.ru/images/kp/polonez_dablo7.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
+                                    <strong>ОПЦИИ:</strong><br /><img src="http://www.lbr.ru/images/kp/polonez_dablo7.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
                                     1. Анкерные сошники.<br />
                                     2. Комплект прикатки за каждым сошником.<br />
                                     3. Специальная комплектация Polonez «Травник» (обеспечивает с основным посевом зерновых подсев трав).
@@ -142,7 +142,7 @@
                                 </span> 
                                 <div style="width: 100%; height: 15px"></div>
                                 <span class="text" style="padding-right: 10px;">
-                                    <br /><img src="http://www.git-lbr.ru/images/kp/polonez_dablo8.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
+                                    <br /><img src="http://www.lbr.ru/images/kp/polonez_dablo8.jpg" style="float: right; margin: 5px 0 0 10px;  width: 170px;" border="0" />
                                     Специальная комплектация Polonez Dublo 4/1000 D – <span style="color: rgb(211, 35, 42); font-weight: bolder;">ВНЕСЕНИЕ МИНЕРАЛЬНЫХ УДОБРЕНИЙ</span> совместно с основным посевом. 
                                     В данном варианте бункер разделен на 2 части подвижной перегородкой: 600 дм3 – под зерно и 400 дм3 – под удобрения. 
                                     При необходимости перегородку можно сдвинуть и уменьшить отделение под удобрения.                                                                                               
@@ -155,7 +155,7 @@
                                     Катушки выполнены из высокопрочного пластика, специальная конструкция позволяет высевать и зерновые, и мелкосеменные культуры без замены катушки.
                                 </span> 
                                 <span class="text">
-                                <img src="http://www.git-lbr.ru/images/kp/polonez_dablo5.jpg" style="float: left; margin: 0 10px 0 0;  width: 170px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/polonez_dablo5.jpg" style="float: left; margin: 0 10px 0 0;  width: 170px;" border="0" />
                                     2-х дисковые сошники расположены на расстоянии 26 см друг от друга в «шахматном» порядке, что обеспечивает бесперебойную работу без забивания. 
                                     Также диски сошника расположены со смещением: производится самоочистка сошника, облегчается разрезание пожнивных остатков, улучшается проникновение сошника в почву, снижается налипание влажной почвы на диски. 
                                     Использование закрытого подшипника увеличивает надежность данного узла.
@@ -165,7 +165,7 @@
                                     При использовании данной технологии происходит экономия ГСМ и снижается уплотнение почвы за счет сокращения количества проходов, производительность увеличивается на 40%.
                                 </span>                                 
                                 <span class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/polonez_dablo9.jpg" style="width: 380px;"  border="0" />
+                                <img src="http://www.lbr.ru/images/kp/polonez_dablo9.jpg" style="width: 380px;"  border="0" />
                                 </span>
                                 <span class="text">                                
                                     <strong>Технический ресурс сеялки составляет 5-7 лет</strong> при средней степени загруженности 2 раза в год (озимый и яровой сев) по 250 га. 
@@ -216,11 +216,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

@@ -26,11 +26,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Трактор «БЕЛАРУС-2022»</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/belarus-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/belarus-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-1.jpg" border="0" />
                                 
                             </div>
                             <div class="right-50">
@@ -173,11 +173,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Плуг оборотный Vis L 5+1</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -249,11 +249,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Плуг оборотный Hektor 6</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-3.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -372,11 +372,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона дисковая Ares TXL 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-4.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -462,11 +462,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиваторы предпосевные Atlas XXL 6, 8, 9</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-5.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -581,11 +581,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Полярис-12</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/zirka-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/zirka-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-6.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -734,11 +734,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор стерневой Kos 5,4 и 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-7.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -917,11 +917,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая 3S-4000F</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-8.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1064,11 +1064,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Посевной комплекс Mazur 6 + Atlas XXL 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-9.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-9.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1115,11 +1115,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка точного высева YP-1625A</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-10.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-10.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1269,11 +1269,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка точного высева YP-1630F</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-11.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-11.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1400,11 +1400,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона зубовая Superharrow 18 м</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/summers-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/summers-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-12.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-12.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1458,11 +1458,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1559,11 +1559,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -1596,7 +1596,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.git-lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 40px 105px;}
+    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 40px 105px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}

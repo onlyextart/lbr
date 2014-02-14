@@ -89,7 +89,6 @@ class News extends CActiveRecord
         $criteria->compare('id',$this->id);
         $criteria->compare('header',$this->header,true);
         $criteria->compare('alias',$this->alias,true);
-        if ($this->date)  
         $criteria->compare('date', $this->date, true);
         $criteria->compare('published',$this->published);
 
@@ -97,7 +96,7 @@ class News extends CActiveRecord
             'criteria'=>$criteria,
         ));
     }
-    //Метод проверяет назначена ли данная страница контакта пункту меню для его отображения
+    //Метод проверяет назначена ли данная страница новости пункту меню для его отображения
         //Принимает единственный аргумент - ID пункта меню
         public function hasMenuItem( $menuItemId ){
                 if( !$this->isNewRecord ){
@@ -109,6 +108,28 @@ class News extends CActiveRecord
                 }
                 return false;
         }
+        
+        protected function afterSave() {
+            parent::afterSave();
+            if($this->isNewRecord){  
+    	  // если мы создаем новую новость, тогда нам необходимо создать 
+          // для нее запись в таблице MENU с ссылкой на родительскую таблицу
+             $menu = new MenuItems;
+             $menu->header = $this->header;
+             $menu->alias = $this->alias;
+             $menu->published = $this->published;
+             $menu->type = MenuItems::NEWS_MENU_ITEM_TYPE;
+             $menu->save();
+            } //else {
+ 	// иначе неободимо обновить данные в таблице MENU
+             MenuItems::model()->updateAll(array(    
+                                                'header'=>$this->header,
+                                                'alias'=>$this->alias,
+                                                'published'=>$this->published,
+                                                'type'=>MenuItems::NEWS_MENU_ITEM_TYPE
+                    ));
+            }
+        
         
        
        

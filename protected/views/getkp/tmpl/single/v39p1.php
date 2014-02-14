@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
         <style>
             .text{
@@ -21,7 +21,7 @@
                         ВЛАГИ ПО-АМЕРИКАНСКИ
                     </span>
                     <div style="float: right;">
-                        <img style="width: 170px" src="http://www.git-lbr.ru/images/kp/supernarrowplus-logo.jpg">
+                        <img style="width: 170px" src="http://www.lbr.ru/images/kp/supernarrowplus-logo.jpg">
                     </div>
                     <div class="one-item" style="margin-bottom: 0">
                         <div class="head-content">
@@ -31,7 +31,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img border="0" src="http://www.git-lbr.ru/images/kp/supernarrowplus-1.jpg" style="width:100%">
+                                <img border="0" src="http://www.lbr.ru/images/kp/supernarrowplus-1.jpg" style="width:100%">
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="font-size: 18px;  margin-top: 15px; text-align: left; text-transform: uppercase;">УНИВЕРСАЛЬНОСТЬ - 5 ОПЕРАЦИЙ ЗА ОДИН ПРОХОД:</span>
@@ -114,7 +114,7 @@
                            </div>
                            <div class="width-100">
                                 <div class="width-100 image">
-                                    <img border="0" src="http://www.git-lbr.ru/images/kp/supernarrowplus-2.jpg" style="width:100%">
+                                    <img border="0" src="http://www.lbr.ru/images/kp/supernarrowplus-2.jpg" style="width:100%">
                                 </div>
                            </div>
                            <div class="width-100" style="margin-top: 15px">

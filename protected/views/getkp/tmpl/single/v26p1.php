@@ -31,7 +31,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/tehnika-summers.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/tehnika-summers.jpg" style="width: 100%; margin: 10px;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -97,7 +97,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/tehnika-summers1.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/tehnika-summers1.jpg" style="width: 100%; margin: 10px;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -141,7 +141,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/tehnika-summers2.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/tehnika-summers2.jpg" style="width: 100%; margin: 10px;" border="0" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">Универсальность – 5 операций за один проход.</span>
@@ -221,11 +221,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -258,7 +258,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 10px 150px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 10px 150px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: justify; font-size: 26px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .two-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(99, 99, 99); text-align: justify; font-size: 22px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
