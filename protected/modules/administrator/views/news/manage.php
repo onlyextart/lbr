@@ -78,7 +78,7 @@ tinymce.myOptions = {
 <div class="row">
 <?php echo $form->error($newsModel, 'date'); ?>
 <?php	echo $form->labelEx($newsModel, 'date');?>
-<?php   echo $form->textField($newsModel, 'date'); ?>    
+<?php   echo CHtml::textField('date', date("Y-m-d H:i", strtotime($newsModel->date))) ?>    
 </div>
 </div>
 
