@@ -109,7 +109,7 @@ class News extends CActiveRecord
                 return false;
         }
         
-        protected function afterSave() {
+        /*protected function afterSave() {
             parent::afterSave();
             if($this->isNewRecord){  
     	  // если мы создаем новую новость, тогда нам необходимо создать 
@@ -129,7 +129,7 @@ class News extends CActiveRecord
                                                 'type'=>MenuItems::NEWS_MENU_ITEM_TYPE
                     ));
             }
-        
+        */
         
        
        
