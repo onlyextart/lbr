@@ -99,7 +99,7 @@ function getCollum($array){
         padding: 5px 15px;
         margin: 0;
         font-size: 16px;
-        background: #eee;
+        background: #ef7f1a;
     }
     .code > div
     {
@@ -129,7 +129,7 @@ function getCollum($array){
     .wrapper h1
     {
         font-family: Impact;
-        color: rgb(91,90,80);
+        color: #ef7f1a;
         text-align: center;
         font-size: 50px;
         margin: 0px 0 0 0;
@@ -143,7 +143,7 @@ function getCollum($array){
     }
     .wrapper .w-wrapper .w-w-header
     {
-        background: rgb(91,90,80);
+        background: #ef7f1a;
         color: white;
         font-family: Impact;
         font-size: 32px;
