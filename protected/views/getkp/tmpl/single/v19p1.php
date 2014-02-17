@@ -20,6 +20,16 @@
                 </div>
                 
                 <div class="first-header-text">Выгодные подсолнечник <br />и кукуруза - <br />современный подход <br />к посеву!</div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">

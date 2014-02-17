@@ -20,6 +20,16 @@
                     <span class="first-header-text">Техника Agrisem:</span>
                     <span class="second-header-text">обработка почвы<br>круглый год!</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+                <div style="width: 100%; height: 20px;"></div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">

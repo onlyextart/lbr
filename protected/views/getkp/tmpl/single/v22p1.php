@@ -10,20 +10,32 @@
             <div id="header">
                 <div class="left-75 header-text">
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
-                     <div style="width: 100%; height: 55px;"></div>
+                    <div class="right-20">
+                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
+                </div>
                 
             </div>
+            <div class="one-page head-first-page">
+              <div class="head-content-grey">
+                            <div class="h-2"><span>Опрыскиватели от А до Я - для любых задач и любого бюджета!</span></div>
+                            
+                        </div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+                </div>
             
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
-                    <div class="right-20">
-                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
-                </div>
-                        <div class="head-content-grey">
-                            <div class="h-2"><span>Опрыскиватели от А до Я - для любых задач и любого бюджета!</span></div>
-                            
-                        </div>
+                    
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
                             <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 90px; "/></div>
@@ -446,7 +458,7 @@
     .head-content .logo-maker{text-align: right; margin-top: 4px;}
     .body-content .h-4{display: block; font-family: FuturisXC, sans-serif; margin-top: 3px; font-size: 17px;}
     .body-content .h-3{display: block; font-family: FuturisXC, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 16px;}
-    .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 5px 0 0;}
+    .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 10px; text-align: center;}
     .head-content-grey .h-2{ color: #CC3333; font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
     
     .body-page .content-page{padding: 0 20px 10px;}

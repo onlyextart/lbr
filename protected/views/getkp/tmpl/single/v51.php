@@ -23,7 +23,15 @@
         <tr align="center">
             <td><span style="font-family: Calibri, sans-serif; font-size:36px; font-weight: bolder; color: #AAAAAA;">СЕЯЛКИ ЗЕРНОВЫЕ И ПОСЕВНЫЕ КОМПЛЕКСЫ НА ИХ БАЗЕ</span></td>
         </tr>
-        
+        <tr><td colspan="2"><span>
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
@@ -40,7 +48,7 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/polonez_dablo.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/polonez_dablo.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     
                     <tr>
@@ -86,7 +94,7 @@
                             Высеваемые культуры:
                         </span></td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/polonez_dablo1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/polonez_dablo1.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>                    
                 </table> 
             </td>
@@ -97,9 +105,9 @@
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                     <tr>
                         <td width="50%">
-                            <img src="http://www.lbr.ru/images/kp/polonez_dablo2.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/>
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo2.jpg" width="380px" style="display: block; margin-top: 2px;"/>
                         </td>
-                        <td><span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0 0 5px 10px;">
+                        <td width="50%"><span style="display: block; text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0 0 5px 10px;">
                    КАЧЕСТВЕННЫЙ ПОСЕВ ЭТО:
                 </span>
                 <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px; margin: 0 0 5px 10px;"><b>1. Равномерный посев на одинаковую глубину.</b><br />
@@ -109,7 +117,7 @@
                 <br />Всем вышеописанным требования полностью соответствует <b>сеялка POLONEZ</b>, предназначенная для высева всех зерновых, зернобобовых и масличных культур, включая РАПС, с нормой высева от 2 до 400 кг на га.</span>
                 </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>                    
+                    <tr><td colspan="2"><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>                    
                 </table> 
             </td>
         </tr>

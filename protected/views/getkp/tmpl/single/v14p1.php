@@ -16,11 +16,20 @@
                 </div>
             </div>
             <div class="one-page head-first-page">
-                <img src="http://www.lbr.ru/images/kp/percent.jpg" alt="percent" style="border: 0; position: absolute;"/>
+                <?php //<img src="http://www.lbr.ru/images/kp/percent.jpg" alt="percent" style="border: 0; position: absolute;"/>?>
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ВНИМАНИЕ!!! <br>СКИДКИ!!!</span>
                 </div>
                 <div class="first-header-text">НЕ УПУСТИТЕ ШАНС <br>КУПИТЬ ДЕШЕВЛЕ НА<br>3 000 000 РУБЛЕЙ!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">

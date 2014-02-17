@@ -43,6 +43,15 @@
                     <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 34px; color: rgb(211, 35, 42); font-weight: 900; text-transform: uppercase;">ПЕРЕХОДИТЬ НА НОЛЬ<br>СТАЛО ПРОЩЕ!</span>
                 </td>
             </tr>
+            <tr><td colspan="3">
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>            
         </table>
         <!-- TOP BLOCK END -->
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -60,7 +69,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td>
@@ -191,7 +200,7 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td width="638">
@@ -219,15 +228,15 @@
                                             с тяжелых стерневых и заканчивая работой по обработанной почве. Сошник оборудован двойными открывающими  дисками  со  смещением,  мягко  укладывающим 
                                             семена  за  счет  длинной  семенной  трубки,  за  которым 
                                             следует успокоитель, прижимая семена к дну борозды. 
-                                            Контроль глубины сева осуществляется Т-образной рукояткой на каждом сошнике, сошники следующие по ко-лее трактора имеют более жесткую настройку.
+                                            Контроль глубины сева осуществляется Т-образной рукояткой на каждом сошнике, сошники следующие по колее трактора имеют более жесткую настройку.
                                         </span><br>
                                         <span style="text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">
                                             3. ПО РАВНИНАМИ ХОЛМАМ.
                                         </span><br>
                                         <span style="text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 12px; line-height: 14px; text-indent: 1.5em; color: #222222; margin: 0;">
-                                            Отлично  зарекомендовавшая  себя  конструкция  ору-дий Spartan 607 позволяет сеялке независимо опускать-ся и подниматься при работе на неровных поверхностях.
+                                            Отлично  зарекомендовавшая  себя  конструкция  орудий Spartan 607 позволяет сеялке независимо опускаться и подниматься при работе на неровных поверхностях.
                                             Система гидравлического перераспределения веса способствует  увеличению  гибкости  сеялки  и  гарантирует 
-                                            равномерность распределения нагрузки по всей шири-не  захвата  орудия.  Боковые  секции  могут  опускаться 
+                                            равномерность распределения нагрузки по всей ширине  захвата  орудия.  Боковые  секции  могут  опускаться 
                                             вниз и подниматься вверх, что способствует превосходному копированию поверхности поля.
                                         </span><br>
                                         <span style="text-align: justify; font-family: Calibri, sans-serif; font-size: 20px; color: rgb(211, 35, 42); font-weight: bold; margin: 0;">

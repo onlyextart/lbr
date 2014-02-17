@@ -24,6 +24,16 @@
                 <div class="two-header-text">На технику для приготовления и раздачи кормов мы предлагаем Вам отличные условия оплаты в сезон: 30% предоплата и по 10% далее каждый месяц, срок действия акции (срок последнего платежа) до 1 мая!</div>
                 <div style="width: 100%; height: 10px;"></div>
                 <div class="first-header-text">ОКУПАЮТСЯ ЗА СЕЗОН ЗА СЧЕТ ПРИРОСТА НАДОЕВ И ИСКЛЮЧЕНИЯ ВЫБОРОЧНОГО ПОЕДАНИЯ КОРМА.</div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">

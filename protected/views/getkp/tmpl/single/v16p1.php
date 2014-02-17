@@ -19,6 +19,16 @@
                     <span class="dieci-header-orange">БОЛЬШОЙ <br>ОСЕННИЙ БОНУС !!!</span>
                 </div>
                 <div class="first-header-text">ВСЕМ, КТО В 2013 ГОДУ КУПИЛ ТРАКТОР МТЗ 82 В СЕТИ<br>АГРОМАРКЕТОВ ЛБР, - БОЛЬШИЕ ОСЕННИЕ СКИДКИНА<br>СЕЛЬХОЗМАШИНЫ, АГРЕГАТИРУЕМЫЕ С ТРАКТОРОМ.</div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -978,7 +988,7 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной МХ 950</span></div>
@@ -1085,7 +1095,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений прицепной RCW 5500</span></div>
@@ -1178,7 +1187,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений MXL3000 на шасси KASTOR</span></div>
@@ -2558,6 +2566,12 @@
                             </div>
                         </div>
                     </div>
+                    </div>
+                    </div>
+                     <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Погрузчики навесные TUR-14 и TUR-15</span></div>

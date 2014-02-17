@@ -19,8 +19,15 @@
                     <span class="first-header-text">Австрийский пакет решений</span>
                     <span class="second-header-text">для обработки<br>почвы</span>
                 </div>
-                <div class="flag">
-                    <img src="http://www.lbr.ru/images/kp/flag.jpg" alt="flag"/>
+                
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
                 </div>
             </div>
             <div class="one-page body-first-page">
@@ -175,6 +182,8 @@
                             </div>
                         </div>
                     </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги навесные М950 и XMS 950</span></div>
@@ -229,8 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
+            
             <div class="one-page body-page">
                 <div class="content-page">
                     <div class="one-item">
@@ -408,7 +416,7 @@
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 45px; padding: 5px 0; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 72px; font-family: FuturisXC, sans-serif;}
-    .flag{position: absolute; left: 20px; bottom: 20px;}
+    .flag{position: absolute; left: 20px; bottom: 135px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     

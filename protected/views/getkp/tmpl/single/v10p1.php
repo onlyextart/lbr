@@ -20,6 +20,15 @@
                     <span class="dieci-header-orange">ВЫГОДНО ВДВОЙНЕ! МТЗ 1221 ПО СТАРОЙ ЦЕНЕ И ТЕХНИКОЙ С ОСЕННИМИ СКИДКАМИ</span>
                 </div>
                 <div class="first-header-text">ДВОЙНОЙ УДАР <br>ПО ЦЕНАМ!!!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -779,6 +788,12 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
@@ -831,14 +846,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Jacek</span></div>
@@ -1110,7 +1117,15 @@
                                 </table>
                             </div>
                         </div>
-                    </div>                    
+                    </div> 
+                    <div style="width: 100%; height: 20px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялки точного высева PD-8070 и YP-825A</span></div>
@@ -1274,14 +1289,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 20px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="body-content">
                             <div class="left-50 image">
@@ -1662,7 +1669,6 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной MX 1600</span></div>
@@ -2139,6 +2145,64 @@
                             </div>
                         </div>
                     </div>
+                     <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Погрузчики навесные TUR-16</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/hydramet-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.lbr.ru/images/kp/mtz1221_21.jpg" border="0" />
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Модель</span>
+                                    </td>
+                                    <td>
+                                    <span>TUR-16</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Грузоподъемность, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>1650</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        <span class="price">Цена весенняя</span>
+                                        </td>
+                                        <td class="price">
+                                        <? echo $data['price_blue27']; ?>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                        <? echo $data['price27']; ?>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 100%; height: 10px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
@@ -2353,65 +2417,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
-                    <div class="one-item">
-                        <div class="head-content">
-                            <div class="h-2 left-85"><span>Погрузчики навесные TUR-16</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/hydramet-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
-                        </div>
-                        <div class="body-content">
-                            <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz1221_21.jpg" border="0" />
-                            </div>
-                            <div class="right-50">
-                                <span class="tech-bold"><b>Технические характеристики</b></span>
-                                <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                    <tbody>
-                                    <tr>
-                                    <td>
-                                    <span>Модель</span>
-                                    </td>
-                                    <td>
-                                    <span>TUR-16</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Грузоподъемность, кг</span>
-                                    </td>
-                                    <td>
-                                    <span>1650</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                        <span class="price">Цена весенняя</span>
-                                        </td>
-                                        <td class="price">
-                                        <? echo $data['price_blue27']; ?>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td>
-                                    <span class="price-spring">Цена осенняя</span>
-                                    </td>
-                                    <td class="price-spring">
-                                        <? echo $data['price27']; ?>
-                                    </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>

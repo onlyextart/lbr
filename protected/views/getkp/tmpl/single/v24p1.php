@@ -19,7 +19,15 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Профессиональная уборка лука!!</span>
                 </div>
-                
+               <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div> 
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -115,7 +123,7 @@
                                 <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. Полностью механическая – никакой гидравлики!</span>
                                 <span class="text">
-                                   Основным отличием данной модели от конкурентов является то, что машина полностью механическая, работает от ВОМ трактора, без необходимости использовать гидравлику трактора или собственную гидростанцию. 
+                                   Основным отличием данной модели является то, что машина полностью механическая, работает от ВОМ трактора, без необходимости использовать гидравлику трактора. 
                                    Расположенная в передней части вращающаяся планка подкапывает растущий впереди лук и загружает его вместе с землей на транспортер, где происходит последующая очистка лука от земли.                                 </span>
                             </div>
                             <div class="width-100">
@@ -151,7 +159,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">420x185</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">От 70</span></td>
                                             </tr>
                                             <tr>
@@ -216,7 +224,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">3,3</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">50</span></td>
                                             </tr>
                                             <tr>

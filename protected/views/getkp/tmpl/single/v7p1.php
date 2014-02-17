@@ -21,6 +21,15 @@
                     <div class="tect_dlg"><img src="http://www.lbr.ru/images/kp/tect_dlg.jpg" border="0" /></div>
                 </div>
                 <div class="first-header-text">МХL 3000 на шасси KASTOR – лучшая загрузка МТЗ 82!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-page">
                 <div class="content-page">

@@ -24,6 +24,15 @@
             <td><span style="display: block; font-family:  sans-serif; font-size:32px; text-align: right; font-weight: bolder; color: #d1232a;">Механические сеялки<br /> Great Plains</span><br><span style="display:block; font-family:  sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Выгода очевидна!<br />Технология безупречна!<br />надежность легендарна!</span>
             </td>
         </tr>
+        <tr><td colspan="2"><span>
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

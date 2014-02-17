@@ -23,6 +23,15 @@
         <tr align="right">
             <td><span style="font-family: Calibri, sans-serif; font-size:42px; font-weight: bolder; color: #d1232a;">Прицепной разбрасыватель минеральных удобрений</span><br><span style="font-family: Calibri, sans-serif;  text-align: right; font-size:48px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">МХL 3000 на шасси KASTOR – лучшая загрузка МТЗ 82!</span></td>
         </tr>
+        <tr><td>
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
@@ -52,7 +61,7 @@
                                         <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Трактор «БЕЛАРУС-1221/1220»</span>
                                         <br>
                                         <table width="300" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; text-align: center;">
-                                    <tr bgcolor="#d1d3d4" style="text-align: justify;">
+                                    <tr style="text-align: justify;">
                                     <span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bolder;">1. 2 в 1, лучшие качества от прицепных и навесных разбрасывателей!<br /></span>
                                     <span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px; text-align: justify;">•  Объём 3 000 литров! Больше производительности при высокой точности внесения!<br /></span>
                                     <span style="font-family: FuturisC, Calibri, sans-serif; font-size: 14px; text-align: justify;">•  Сокращение агротехнических сроков внесения удобрений, уменьшение парка техники.<br /></span>

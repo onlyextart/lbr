@@ -21,6 +21,15 @@
                     <span class="second-header-text">в овощном хозяйстве<br>на подсобных работах!</span>
                     <span class="orange-text-right">Для тракторов мощностью 120 л.с.</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -186,10 +195,10 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-6.jpg" border="0" height="200px" />
                             </div>
                             <div class="right-50">
-                                <span class="text" style="line-height: 23px;">
+                                <span class="text" style="line-height: 16px;">
                                     • <b>Увеличенная платформа.</b>
                                     <br>• Повороты, развороты без проблем в узких местах
                                     <br>• <b>100% итальянских комплектующих:</b> надежная итальянская гидравлика и тормозная система.
