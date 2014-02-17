@@ -29,6 +29,8 @@
  */
 class Contacts extends CActiveRecord
 {
+    public $icon; // атрибут для хранения загружаемой картинки статьи
+    public $del_img; // атрибут для удаления уже загруженной картинки
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -55,11 +57,18 @@ class Contacts extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('published', 'numerical', 'integerOnly'=>true),
+			array('published', 'numerical', 'integerOnly'=>true), 
+            array('del_img', 'boolean'),       
 			array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe'),
-			// The following rule is used by search().
+   // The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on'=>'search'),
+            array('icon', 'file',
+      'types'=>'jpg, gif, png',
+      'maxSize'=>1024 * 1024 * 10, // 10 MB
+      'allowEmpty'=>'true',
+      'tooLarge'=>'Файл весит больше 10 MB. Пожалуйста, загрузите файл меньшего размера.',
+    ),
+			array('id, name=>order ASC, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -76,6 +85,7 @@ class Contacts extends CActiveRecord
 			'pagesRegions' => array(self::HAS_MANY, 'PagesRegion', 'filial_id'),
 			'productsRegions' => array(self::HAS_MANY, 'ProductsRegion', 'filial_id'),
 			'regions' => array(self::HAS_MANY, 'Regions', 'contact_id'),
+            'contactImages' => array(self::HAS_MANY, 'ContactImage', 'contact_id'),
 		);
 	}
 
@@ -97,10 +107,12 @@ class Contacts extends CActiveRecord
 			'map_code' => 'Map Code',
 			'message_email' => 'Сообщение',
 			'info' => 'Информация',
-			'images' => 'Images',
+			'images' => 'Images',            
 			'oneC_id' => '1C alias',
             'okrug_id'=>'Округ',
-            'servis_regions'=>'Обслуживающие регионы'
+            'servis_regions'=>'Обслуживающие регионы',
+            'icon' => 'Картинка к статье',
+            'del_img'=>'Удалить картинку?'
 		);
 	}
 
@@ -170,6 +182,16 @@ class Contacts extends CActiveRecord
                 }
                 return false;
         }
+        
+        protected function afterSave(){
+            parent::afterSave();
+            if(!is_dir($_SERVER['DOCUMENT_ROOT'].'/images/ContactsImages/'.$this->alias)){
+                mkdir($_SERVER['DOCUMENT_ROOT'].'/images/ContactsImages/'.$this->alias);
+            }
+            return true;
+        }
+        
+        
         public function scopes()
         {
             return array(
@@ -179,5 +201,6 @@ class Contacts extends CActiveRecord
                 ),
             );
         }
+        
         
 }

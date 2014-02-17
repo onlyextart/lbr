@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
         <style>
             .capture{
@@ -58,7 +58,7 @@
                             <span>Телескопический погрузчик Agri Star 37.7</span>
                         </div>
                         <div class="logo-maker right-25" style="margin-top: 13px; width: 66px;">
-                            <img border="0" src="http://www.git-lbr.ru/images/kp/agri-star-logo.jpg">
+                            <img border="0" src="http://www.lbr.ru/images/kp/agri-star-logo.jpg">
                         </div>
                     </div>
                     <div class="body-content">
@@ -68,7 +68,7 @@
                             ДО МИЛЛИМЕТРА!
                         </div>
                         <div class="width-100 image" style="margin-left: -38px; width: 105% !important">
-                            <img border="0" style="width:100%" src="http://www.git-lbr.ru/images/kp/agri-star-1.png">
+                            <img border="0" style="width:100%" src="http://www.lbr.ru/images/kp/agri-star-1.png">
                         </div>
                         <div style="float: left; position: relative; width: 65%;">
                             <span class="text" style="margin: 5px 0 0;">
@@ -95,11 +95,11 @@
                                 </span>
                             </div>
                             <div class="left-35">
-                                <img border="0" style="width: 32%; margin-left: 10px" src="http://www.git-lbr.ru/images/kp/agri-star-3.jpg">
+                                <img border="0" style="width: 32%; margin-left: 10px" src="http://www.lbr.ru/images/kp/agri-star-3.jpg">
                             </div>
                         </div>
                         <div style="text-align: right; float: right; position: relative; width: 35%;">
-                            <img border="0" style="width: 89%; margin-top: 10px" src="http://www.git-lbr.ru/images/kp/agri-star-2.jpg">
+                            <img border="0" style="width: 89%; margin-top: 10px" src="http://www.lbr.ru/images/kp/agri-star-2.jpg">
                             <div style="text-align: left; margin-left: 30px; font-weight: 900; font-family: 'Trebuchet MS', Helvetica, sans-serif;">Комплектация</div>
                             <ul style="text-align: left; font-family: FuturisC,sans-serif; line-height: 1.5; font-size: 14px; margin-left: 10px;" align="justify">
                                 <li>Закрытая кабина со звукоизоляцией, обогевом и вентиляцией</li>
@@ -123,7 +123,7 @@
                 <div class="content-page">
                     <div class="capture" style="padding: 20px 0 10px;">4. Большой выбор рабочих органов!</div>
                     <div class="left-40">
-                        <img border="0" style="width: 100%; margin-top: 10px" src="http://www.git-lbr.ru/images/kp/agri-star-4.jpg">
+                        <img border="0" style="width: 100%; margin-top: 10px" src="http://www.lbr.ru/images/kp/agri-star-4.jpg">
                     </div>
                     <div class="left-60">
                         <table height="1" cellspacing="0" cellpadding="0" border="1" bgcolor="#FFFFFF" align="left"  style="float: right; height: 1px; border-bottom: 1px black solid; font-size: 14px; margin-top: 5px;">

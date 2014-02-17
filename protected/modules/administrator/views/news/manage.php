@@ -12,19 +12,21 @@ else{
     $pageHeader = 'Редактирование новости "'.$newsModel->newsRegions[0]->description.'"';
 }
 ?>
+<script type="text/javascript" src="/js/timepicker/timepicker.js"></script>
 <script type="text/javascript" src="/js/tinymce_3_x/tiny_mce.js"></script>
 <script type="text/javascript">
+
 tinymce.myOptions = {
         width: "100%",
         mode : "textareas",
         editor_selector: "with_tinymce",
         theme : "advanced",
         language : "ru",
-        plugins : "autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
+        plugins : "jbimages,autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
         relative_urls: false,
         convert_urls : false,
 
-        theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
+        theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect,jbimages",
         theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
         theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen",
         theme_advanced_buttons4 : "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",
@@ -35,13 +37,26 @@ tinymce.myOptions = {
 
 }
 </script>
-<h2>
-    <?php echo $pageHeader ?>
-</h2>
-<?php
-$form = $this->beginWidget('CActiveForm');
+<div class="form">
+
+<?php $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$newsModel->id,
+    'action'=>$action,
+    'enableClientValidation'=>true,
+    'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+            {     
+                if( hasError ){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }'
+    ),));
 ?>
 
+<div class="admin_main_features">
 <div class="row">
 <?php echo $form->error($newsModel, 'header')  ?>
 <?php echo $form->labelEx($newsModel, 'header')  ?>
@@ -58,15 +73,45 @@ $form = $this->beginWidget('CActiveForm');
 <div class="row">
 <?php echo $form->error($newsModel, 'published')  ?>
 <?php echo $form->labelEx($newsModel, 'published')  ?>
-<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
+<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовывать"))  ?>
 </div>
-
+<div class="row">
+<?php echo $form->error($newsModel, 'date'); ?>
+<?php	echo $form->labelEx($newsModel, 'date');?>
+<?php   echo $form->textField($newsModel, 'date'); ?>    
+</div>
+</div>
 
 <div class="admin_additional_features">
         <label>Дополнительные параметры</label>
-        
-        
-    <div class="regional_features_wrapper">
+        <h3>Пункты меню отображающие страницу новости</h3>
+        <div class="admin_additional_features_content">
+            <?php
+                //получение массива дерева меню
+                function getMenuItemConteintigStatusClosure( $newsModel )
+                {
+                    $status = function( $menuItemId ) use ( &$newsModel ){       
+                        return $newsModel->hasMenuItem( $menuItemId );       
+                    };
+                    return $status;
+                }
+                $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $newsModel );
+                $this->widget('CTreeView', array(
+                    'data' => MenuItems::getMenuTreeWithCheckbox(
+                            'MenuItemConteintigThisNews', 
+                            $menuItemConteintigStatusClosure,
+                            array(MenuItems::NEWS_MENU_ITEM_TYPE)
+                        ), 
+                    'animated'=>100, 
+                    'htmlOptions'=>array(
+                        'class'=>'menuTreeView'
+                        )
+                    )
+                );
+            ?>
+        </div>
+        </div>
+        <div class="regional_features_wrapper">
         <div class="all_regions_forms">
             <?php foreach( $regionalNews as $regionId => $regionalEvent ): ?>
             <div class="regional_features <?php if( !$regionalEvent->isNewRecord || 
@@ -80,11 +125,12 @@ $form = $this->beginWidget('CActiveForm');
                     </div>
                 </div>
                 
-                
+                <div style="width:100%; float: left; margin-top: 10px; margin-bottom: 30px;">
                 <div class="row ">
                     <?php echo $form->labelEx($regionalEvent,"[$regionId]content"); ?><br />
                     <?php echo $form->textArea($regionalEvent,"[$regionId]content", array('class'=>'with_tinymce')); ?>
                     <?php echo $form->error($regionalEvent,"[$regionId]content"); ?>
+                </div>
                 </div>
             </div>
             <?php endforeach; ?>
@@ -104,21 +150,43 @@ $form = $this->beginWidget('CActiveForm');
             <ul>
             </ul>
         </div>
-        <div class="manage_buttons buttons">
+       
             <div class="manage_buttons buttons">
             <?php echo CHtml::link('Закрыть', '/administrator/news/', array('class'=>'btn del')); ?>
             <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать и закрыть':'Сохранить и закрыть', array('class'=>'btn btn-green')); ?>
             <?php echo CHtml::submitButton($newsModel->isNewRecord?'Создать':'Сохранить', array('class'=>'btn btn-green')); ?>
             
         </div>
-        </div>
-    </div>
+    
     <?
 $this->endWidget();
 ?>   
 </div>
- 
-<script>
+</div> 
+<script>  
+   
+    
+    $.datepicker.regional['ru'] = {
+            closeText: 'Закрыть',
+            prevText: '&#x3c;Пред',
+            nextText: 'След&#x3e;',
+            currentText: 'Сегодня',
+            monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+            monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'],
+            dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
+            dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
+            dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+            dateFormat: 'dd.mm.yy',
+            firstDay: 1,
+            isRTL: false,
+        };
+        $.datepicker.setDefaults($.datepicker.regional['ru']); 
+        $( "#News_date" ).datetimepicker({
+            dateFormat: 'yy-mm-dd',
+            timeFormat: 'HH:mm:ss',
+        });
+        
+    
     //RegionTabs
     function RegionalTabsManager(){
         this.tabTitle = $( "#tab_title" ); // Выпадающий список выбора региона
@@ -276,14 +344,7 @@ $this->endWidget();
     .admin_additional_features{float:left; width:60%;}
     .regional_features_wrapper{float: left; width: 100%;}    
     .ui-dialog{z-index: 900;}    
-    .makers_table input{
-        width:auto;
-        min-height: 0px;
-        box-shadow:none;
-    }
-    .makers_table td{
-        width:14%;
-    }
+    
     
     ul.menuTreeView{
         padding-right: 10px;

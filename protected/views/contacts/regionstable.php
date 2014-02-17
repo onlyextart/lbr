@@ -285,7 +285,7 @@
         $districts = Regions::getDistricts();
         $start = microtime(true);
         foreach( $districts as $districtId=>$districtName ){
-            if($districtId==0 || $districtId==1 || $districtId==3 || $districtId==6){
+            if($districtId==6 || $districtId==0 || $districtId==2 || $districtId==4){                
                 echo CHtml::openTag('ul');
             }
                 echo CHtml::openTag('li', array('class'=>'district_name'));
@@ -299,7 +299,7 @@
                         echo CHtml::link($region['regionname'], $linkUrl, array('title' => $region['regionname'], 'id' => $region['regionid'], 'contact' => $region['contact_id']));
                     echo CHtml::closeTag('li');
                 }
-            if($districtId==0 || $districtId==2 || $districtId==5 || $districtId==7){
+            if($districtId==6 || $districtId==1 || $districtId==3 || $districtId==7){
                 echo CHtml::closeTag('ul');
             }
         }

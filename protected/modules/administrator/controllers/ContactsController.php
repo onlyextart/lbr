@@ -9,9 +9,13 @@ class ContactsController extends Controller
     }
      public function actionCreate(){
         $contactModel = new Contacts();
+        $contactFotoGallery = $contactModel->images;
         if( isset( $_POST['Contacts'] ) ){
             $contactModel->attributes = $_POST['Contacts'];
-            if( $contactModel->save() ){
+            
+            
+            if( $contactModel->save() ){                
+            }
                 if(isset($_POST['MenuItemConteintigThisContact'])){
                     foreach($_POST['MenuItemConteintigThisContact'] as $menuItemId=>$menuItem){
                         if($menuItem!='1')
@@ -23,21 +27,22 @@ class ContactsController extends Controller
                     }
                 }
                 $this->redirect('/administrator/contacts/index');
-            }
+            
         }
         $this->render( 'manage', array( 'contactModel'=>$contactModel ) );
     }
 
   public function actionUpdate( $id ){
         $contactModel = Contacts::model()->findByPk( $id );
+        $contactFotoGallery = $contactModel->images;
         
         if( isset($_POST['Contacts']) ){
             $contactModel->attributes = $_POST['Contacts'];
             $contactIsValid = $contactModel->validate();
             
                 
-            if( $contactIsValid ){
-                $contactModel->save();
+            if( $contactModel->save()){
+                $contactIsValid;
                 
                 if( isset( $_POST['MenuItemConteintigThisContact'] ) ){
                     $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
@@ -74,6 +79,18 @@ class ContactsController extends Controller
         $this->redirect('/administrator/contacts/index');
     }
     
+    public function moveUploadedImages(){            
+            foreach($contactModel->images as $image){
+               if(strpos($image, 'uploaded')!==false){
+                    $filenameArray = explode('/', trim($image,'\/'));
+                   copy (  $_SERVER['DOCUMENT_ROOT'].$image,  $_SERVER['DOCUMENT_ROOT'].'/images/ContactsImages/'.$this->alias.'/'.$filenameArray[(count($filenameArray)-1)] );
+                    unlink (  $_SERVER['DOCUMENT_ROOT'].$image );
+                    $image = '/images/ContactsImages/'.$this->alias.'/'.$filenameArray[(count($filenameArray)-1)];
+                   $image->save();
+                }
+            }
+            }
+       
     
     public function actionRegionsTransfer(){
         exit();
@@ -141,5 +158,22 @@ class ContactsController extends Controller
             $menuItemContentModel->item_id = $contactsMenuItem->id;
             $menuItemContentModel->save();
         }
+    }
+}
+class ElfinderController extends CController
+{
+    public function actions()
+    {
+        return array(
+            'connector' => array(
+                'class' => 'ext.elFinder.ElFinderConnectorAction',
+                'settings' => array(
+                    'root' => Yii::getPathOfAlias('webroot') . '/uploads/',
+                    'URL' => Yii::app()->baseUrl . '/uploads/',
+                    'rootAlias' => 'Home',
+                    'mimeDetect' => 'none'
+                )
+            ),
+        );
     }
 }

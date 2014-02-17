@@ -41,7 +41,8 @@ class News extends CActiveRecord
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('header, alias, date, published', 'safe'),
+            array('date', 'required'),
+            array('header, alias, date, published', 'safe'),            
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('id, header, alias, date, published', 'safe', 'on'=>'search'),
@@ -88,11 +89,48 @@ class News extends CActiveRecord
         $criteria->compare('id',$this->id);
         $criteria->compare('header',$this->header,true);
         $criteria->compare('alias',$this->alias,true);
-        $criteria->compare('date',$this->date,true);
+        $criteria->compare('date', $this->date, true);
         $criteria->compare('published',$this->published);
 
         return new CActiveDataProvider($this, array(
             'criteria'=>$criteria,
         ));
     }
+    //Метод проверяет назначена ли данная страница новости пункту меню для его отображения
+        //Принимает единственный аргумент - ID пункта меню
+        public function hasMenuItem( $menuItemId ){
+                if( !$this->isNewRecord ){
+                    if( MenuItemsContent::model()->with('item')->find( 'page_id='.$this->id.
+                            ' AND item_id='.$menuItemId.
+                            ' AND item.type='.MenuItems::NEWS_MENU_ITEM_TYPE ) !== null){
+                        return true;
+                    }
+                }
+                return false;
+        }
+        
+        /*protected function afterSave() {
+            parent::afterSave();
+            if($this->isNewRecord){  
+    	  // если мы создаем новую новость, тогда нам необходимо создать 
+          // для нее запись в таблице MENU с ссылкой на родительскую таблицу
+             $menu = new MenuItems;
+             $menu->header = $this->header;
+             $menu->alias = $this->alias;
+             $menu->published = $this->published;
+             $menu->type = MenuItems::NEWS_MENU_ITEM_TYPE;
+             $menu->save();
+            } //else {
+ 	// иначе неободимо обновить данные в таблице MENU
+             MenuItems::model()->updateAll(array(    
+                                                'header'=>$this->header,
+                                                'alias'=>$this->alias,
+                                                'published'=>$this->published,
+                                                'type'=>MenuItems::NEWS_MENU_ITEM_TYPE
+                    ));
+            }
+        */
+        
+       
+       
 }

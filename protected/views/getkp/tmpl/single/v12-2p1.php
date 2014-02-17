@@ -17,22 +17,30 @@
             </div>
             <div class="one-page head-first-page">
                 <div class="dieci-header">
-                    <span class="dieci-header-orange">БОЛЬШОЙ ОСЕННИЙ БОНУС !!!</span>
+                    <span class="dieci-header-orange">ВАШИ САМЫЕ ВЫГОДНЫЕ <br>200 ЛОШАДЕЙ!</span>
                 </div>
-                <div class="first-header-text">Всем, кто в 2013 году купил трактор МТЗ 2022 в сети агромаркетов ЛБР, - большие осенние скидки на сельхозмашины, агрегатируемые с трактором.</div>
+                <div class="first-header-text">ПОЧТИ В ДВА РАЗА<br>ДЕШЕВЛЕ<br>ЕВРОПЕЙСКИХ АНАЛОГОВ!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
-            
-            <div class="one-page body-page">
+            <div class="one-page body-first-page">
                 <div class="content-page">
                     <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Плуг оборотный Vis L 5+1</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -83,15 +91,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue1']; ?>
+                                           <? echo $data['price_blue2']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price1']; ?>
+                                    <? echo $data['price2']; ?>
                                     </td>
                                     </tr>
                                     </tbody>  
@@ -104,11 +112,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Плуг оборотный Hektor 6</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-3.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -207,15 +215,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue2']; ?>
+                                           <? echo $data['price_blue3']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price2']; ?>
+                                    <? echo $data['price3']; ?>
                                     </td>
                                     </tr>
                                     </tbody>    
@@ -227,11 +235,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона дисковая Ares TXL 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-4.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -290,15 +298,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue3']; ?>
+                                           <? echo $data['price_blue4']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price3']; ?>
+                                    <? echo $data['price4']; ?>
                                     </td>
                                     </tr>
                                     </tbody>    
@@ -317,11 +325,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиваторы предпосевные Atlas XXL 6, 8, 9</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-5.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -402,27 +410,29 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue4']; ?>
-                                           </td>                                           
-                                           <td class="price">
                                            <? echo $data['price_blue5']; ?>
                                            </td>
+                                           
                                            <td class="price">
                                            <? echo $data['price_blue6']; ?>
+                                           </td>
+                                           
+                                           <td class="price">
+                                           <? echo $data['price_blue7']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
-                                    </td>
-                                    <td class="price-spring">
-                                    <? echo $data['price4']; ?>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
                                     <? echo $data['price5']; ?>
                                     </td>
                                     <td class="price-spring">
                                     <? echo $data['price6']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                    <? echo $data['price7']; ?>
                                     </td>
                                     </tr>
                                     </tbody>   
@@ -434,11 +444,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Полярис-12</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/zirka-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/zirka-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-6.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -567,15 +577,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue7']; ?>
+                                           <? echo $data['price_blue8']; ?>
                                            </td>
                                         </tr>
                                        <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price7']; ?>
+                                    <? echo $data['price8']; ?>
                                     </td>
                                     </tr>
                                     </tbody>   
@@ -584,14 +594,21 @@
                         </div>
                     </div>
                     <div style="width: 100%; height: 15px;"></div>
-                    <div class="one-item">
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
+                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор стерневой Kos 5,4 и 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 10px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-7.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -722,33 +739,36 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td colspan="2" class="price">
-                                           <? echo $data['price_blue8']; ?>
-                                           </td>
-                                           <td class="price">
                                            <? echo $data['price_blue9']; ?>
                                            </td>
+                                           
                                            <td class="price">
                                            <? echo $data['price_blue10']; ?>
                                            </td>
+                                           
                                            <td class="price">
                                            <? echo $data['price_blue11']; ?>
+                                           </td>
+                                           
+                                           <td class="price">
+                                           <? echo $data['price_blue12']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td colspan="2" class="price-spring">
-                                    <? echo $data['price8']; ?>
-                                    </td>
-                                    <td class="price-spring">
                                     <? echo $data['price9']; ?>
                                     </td>
                                     <td class="price-spring">
                                     <? echo $data['price10']; ?>
-                                    </td>                                    
+                                    </td>
                                     <td class="price-spring">
                                     <? echo $data['price11']; ?>
+                                    </td>
+                                    <td class="price-spring">
+                                    <? echo $data['price12']; ?>
                                     </td>
                                     </tr>
                                     </tbody>       
@@ -756,22 +776,14 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая 3S-4000F</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-8.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -894,15 +906,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue12']; ?>
+                                           <? echo $data['price_blue13']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price12']; ?>
+                                    <? echo $data['price13']; ?>
                                     </td>
                                     </tr>
                                     </tbody>      
@@ -914,11 +926,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Посевной комплекс Mazur 6 + Atlas XXL 6,0</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-9.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-9.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -945,15 +957,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue13']; ?>
+                                           <? echo $data['price_blue14']; ?>
                                            </td>
                                         </tr>
                                       <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price13']; ?>
+                                    <? echo $data['price14']; ?>
                                     </td>
                                     </tr>
                                     </tbody>   
@@ -961,15 +973,21 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 25px;"></div>
+                    </div>
+                    </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 15px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка точного высева YP-1625A</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-10.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-10.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1092,15 +1110,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue14']; ?>
+                                           <? echo $data['price_blue15']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price14']; ?>
+                                    <? echo $data['price15']; ?>
                                     </td>
                                     </tr>
                                     </tbody>    
@@ -1108,22 +1126,14 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 25px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка точного высева YP-1630F</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-11.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-11.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1230,15 +1240,15 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue15']; ?>
+                                           <? echo $data['price_blue16']; ?>
                                            </td>
                                         </tr>
                                         <tr>
                                     <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <? echo $data['price15']; ?>
+                                    <? echo $data['price16']; ?>
                                     </td>
                                     </tr>
                                     </tbody>    
@@ -1246,15 +1256,22 @@
                             </div>
                         </div>
                     </div>
-                     <div style="width: 100%; height: 30px;"></div>
+                    <div style="width: 100%; height: 25px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона зубовая Superharrow 18 м</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/summers-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/summers-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz2022-12.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz2022-12.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1277,7 +1294,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                         <td>
-                                    <span class="price-spring">Бонус-цена</span>
+                                    <span class="price-spring">Цена осенняя</span>
                                     </td>
                                         </tr>
                                         <tr>
@@ -1294,10 +1311,10 @@
                                         <span>&nbsp;5298,01</span>
                                         </td>
                                         <td class="price">
-                                           <? echo $data['price_blue16']; ?>
+                                           <? echo $data['price_blue17']; ?>
                                            </td>
                                         <td class="price-spring">
-                                    <? echo $data['price16']; ?>
+                                    <? echo $data['price17']; ?>
                                     </td>
                                         </tr>
                                     </tbody>    
@@ -1308,11 +1325,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/logo-expom.jpg" border="0" style="position: absolute; right: 0px; top: -3px; width: 60px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1363,7 +1380,7 @@
                                            <span class="price">Цена весенняя</span>
                                            </td>
                                            <td class="price">
-                                           <? echo $data['price_blue17']; ?>
+                                           <? echo $data['price_blue18']; ?>
                                            </td>
                                         </tr>
                                         
@@ -1372,14 +1389,14 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                        <? echo $data['price17']; ?>
+                                        <? echo $data['price18']; ?>
                                     </td>
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
@@ -1409,11 +1426,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -1446,9 +1463,9 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right; }
+    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 40px 105px;}
     .content-page{padding: 20px 20px 0;}
-    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 32px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
+    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}

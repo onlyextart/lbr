@@ -21,6 +21,15 @@
                     </div>
                     <span class="second-header-text">сЕялка - главный <br>фактор урожая!</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -30,11 +39,11 @@
                         </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Механическая сеялка POLONEZ</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 55px; right: 0;"/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/disc-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/disc-1.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="text">
@@ -78,11 +87,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Механическая сеялка MAZUR</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; top: 5px; right: 0;"/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/disc-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/disc-2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="text">
@@ -122,14 +131,20 @@
                 <div class="content-page">
                     <div class="one-item" style="margin-bottom: 0;">
                         <div class="head-content">
-                            <div class="h-2 left-75"><span style="font-size: 18px;">пневматическая сеялка MASTER DRILL D 600</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="h-2 left-75"><span style="font-size: 18px;">пневматическая сеялка MASTER DRILL D 600 <br />с 2-х дисковым сошником</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/disc-3.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/disc-3.jpg" style="width: 100%;" border="0" />
                             </div>
-                            <div style="position: absolute; right: 10px; bottom: 15px;">
+                            <div class="width-100">
+                            <span class="text">
+                                    <span style="font-size: 20px; font-weight: bolder;">Быстро, точно, без забивания!</span>
+                                    <span style="font-size: 15px;"><br />Идеально подходят для эффективного высева в ходе ступенчатых режимов работы с незначительной требуемой мощностью.</span>
+                                </span>
+                            </div>
+                            <div style="position: absolute; right: 10px; bottom: 80px;">
                                 <table width="358" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr>
                                         <td><span>Рабочая ширина, м</span></td><td><span>6</span></td>
@@ -157,6 +172,56 @@
                             </div>
                         </div>
                     </div>
+                    <div class="one-item" style="margin-bottom: 0;">
+                        <div class="head-content">
+                            <div class="h-2 left-75"><span style="font-size: 18px;">Пневматическая сеялка  Super Drill D 400<br /> с 2-х дисковым сошником</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="width-100 image">
+                                <img src="http://www.lbr.ru/images/kp/drill400.jpg" style="width: 100%; height: 80%;" border="0" />
+                            </div>
+                            <div class="left-45">
+                            <span class="text">
+                                    
+                                    <span style="font-size: 15px;">Надежна, проста в управлении и позволяет производить точную заделку семян при точной дозированной их подаче. 
+                                    Большой бункер для посевного материала при рабочей ширине 4 м позволяет добиться хорошей производительности в расчете на единицу площади.<br />
+                                    </span>
+                                </span>
+                                
+                            </div>
+                            <div class="right-50">
+                            <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tr>
+                                            <td><span>Рабочая ширина, м</span></td><td><span>4</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Количество рядов (сошников), шт.</span></td><td><span>33</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Емкость семенного ящика, дм<sup>3</sup></span></td><td><span>870</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Производительность, га/час</span></td><td><span>3,2</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>Требуемая мощность трактора, л.с.</span></td><td><span>80</span></td>
+                                        </tr>
+                                        <tr>                                       
+                                            <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                     </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div class="one-item">
                         <div class="head-content-grey">
                             <div class="h-2"><span>классичЕский посЕв с прЕдпосЕвной обработкой</span></div>
@@ -174,7 +239,7 @@
                                 </div>
                                 <div class="body-content">
                                     <div class="width-100 image">
-                                        <img src="http://www.git-lbr.ru/images/kp/disc-6.jpg"  border="0" />
+                                        <img src="http://www.lbr.ru/images/kp/disc-6.jpg"  border="0" />
                                     </div>
                                 </div>
                             </div>
@@ -184,11 +249,11 @@
                                 </div>
                                 <div class="head-content">
                                     <div class="h-2 left-75" style="margin-top: 0;"><span style="font-size: 18px;">+дискатор ARES</span></div>
-                                    <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0; top: 85px;"/></div>
+                                    <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0; top: 85px;"/></div>
                                 </div>
                                 <div class="body-content">
                                     <div class="width-100 image">
-                                        <img src="http://www.git-lbr.ru/images/kp/disc-7.jpg"  border="0" />
+                                        <img src="http://www.lbr.ru/images/kp/disc-7.jpg"  border="0" />
                                     </div>
                                 </div>
                             </div>
@@ -241,17 +306,18 @@
                 </div>
             </div>
         </div>
-        
+        </div>
+            </div>
     </body>
 </html>
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -284,7 +350,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 58px; padding: 5px 0; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 52px; font-family: FuturisXC, sans-serif;}

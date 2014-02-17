@@ -25,9 +25,10 @@ class MainMenuWidget extends CWidget
                 $rootmenuModel=MenuItems::model()->findByPk($rootmenu);
             }
             $this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
-            
-            $this->menuBranch=$this->currentMenuItem->ancestors()->findAll();
-            array_push($this->menuBranch, $this->currentMenuItem);
+            if($this->currentMenuItem){
+                $this->menuBranch=$this->currentMenuItem->ancestors()->findAll();
+                array_push($this->menuBranch, $this->currentMenuItem);
+            }
         } else {
             $cookieRootmenuId = new CHttpCookie('rootmenu', $this->menuBranch[1]->id);
             $cookieRootmenuId->expire = time()+60*60*24*1; 

@@ -8,30 +8,39 @@
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
             <tr>
                 <td align="right">
-                    <img width="10" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img width="10" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                     <tr>
                         <td align="left" width="15">
-                            <img src="http://www.git-lbr.ru/images/kp/left-orange.jpg" width="22" height="99" border="0" style="display: block;">
+                            <img src="http://www.lbr.ru/images/kp/left-orange.jpg" width="22" height="99" border="0" style="display: block;">
                         </td>
                         <td align="left" bgcolor="#f68121" width="594">
                             <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 28px; color: white; font-weight: 900; text-transform: uppercase;">ТЕХНОЛОГИЯ ЗАКРЫТИЯ<br>ВЛАГИ ПО-АМЕРИКАНСКИ</span>
                         </td>
                         <td align="right" width="15">
-                            <img src="http://www.git-lbr.ru/images/kp/right-orange.jpg" width="22" height="99" border="0" style="display: block;">
+                            <img src="http://www.lbr.ru/images/kp/right-orange.jpg" width="22" height="99" border="0" style="display: block;">
                         </td>
                         <td>
-                            <img width="170px" src="http://www.git-lbr.ru/images/kp/supernarrowplus-logo.jpg" style="display: block;"/>
+                            <img width="170px" src="http://www.lbr.ru/images/kp/supernarrowplus-logo.jpg" style="display: block;"/>
                         </td>
                     </tr>
+                    <tr><td colspan="4">
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
                 </table>
             </tr>
             <tr>
                 <td>
-                    <img width="10" src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img width="10" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
@@ -50,12 +59,12 @@
                     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
                         <tr>
                             <td align="right">
-                                <img src="http://www.git-lbr.ru/images/kp/supernarrowplus-1.jpg" width="638px" style="display: block; margin-top: 2px;"/>
+                                <img src="http://www.lbr.ru/images/kp/supernarrowplus-1.jpg" width="638px" style="display: block; margin-top: 2px;"/>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                             </td>
                         </tr>
                         <tr>
@@ -65,7 +74,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                             </td>
                         </tr>
                         <tr>
@@ -143,7 +152,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
@@ -162,12 +171,12 @@
                     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
                         <tr>
                             <td align="right">
-                                <img src="http://www.git-lbr.ru/images/kp/supernarrowplus-2.jpg" width="638px" style="display: block; margin-top: 2px;"/>
+                                <img src="http://www.lbr.ru/images/kp/supernarrowplus-2.jpg" width="638px" style="display: block; margin-top: 2px;"/>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                             </td>
                         </tr>
                         <tr>
@@ -187,7 +196,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                             </td>
                         </tr>
                         <tr>
@@ -200,7 +209,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                 </td>
             </tr>
             <tr>
@@ -252,23 +261,23 @@
                             <td>
                                 <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                     <tr>
-                                        <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 14px;"><? echo $data['filial_bottom']; ?></span></td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                         <tr>
-                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                         </tr>
                         <tr style="border-top: 2px solid grey; height: 10px; width: 100%">
-                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                         </tr>
                         <tr>
                             <td>
                                 <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                     <tr>
-                                        <!--td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td-->
+                                        <!--td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td-->
                                         <td>
                                             <span style="font-family: Calibri, sans-serif; font-size: 14px; text-align: justify;">
                                                 Всю подробную информацию по заинтересовавшим Вас моделям техники, а так же опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
@@ -280,31 +289,31 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                         </tr>
                         <tr>
                             <td>
                                 <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                     <tr>
-                                        <!--td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td-->
+                                        <!--td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td-->
                                         <td>
                                             <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: 900;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><? echo $filial['name']; ?></b>)!</span><br>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td>
                                             <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: 900;"><? echo $filial['work_time']; ?></span><br>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td>
                                             <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: 900;"><? echo $filial['address']; ?></span><br>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td>
                                             <span style="font-family: Calibri, sans-serif; font-size: 14px; font-weight: 900;"><? echo $filial['telephone']; ?></span>
                                         </td>
@@ -313,13 +322,13 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                         </tr>
                         <tr>
                             <td>
                                 <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                     <tr>
-                                        <!--td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td-->
+                                        <!--td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td-->
                                         <td width="400" align="right" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 14px;">
                                                 Ваш персональный менеджер<br><br>
                                                 <? echo $data['user_info']; ?>

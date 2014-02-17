@@ -156,4 +156,27 @@ class Products extends CActiveRecord
                 }
                 return false;
         }
+        
+        //Метод генерирует мета теги страницы товара
+        public function metaSave() {
+            //id пункта меню данного товара
+            $id = Yii::app()->db->createCommand()->select('item_id')->from('menu_items_content')->where('page_id='.$this->id)->queryRow();
+            
+            if(!isset($id) || $id===NULL){
+                Yii::app()->user->setFlash('saved','Не найден пункт меню. Возможно Вы еще не создали пункт меню для данной страницы, либо не привязали эту страницу к необходимому пункту меню. Мета-теги НЕ будут сгенерированы.');
+//                throw new CHttpException(404, 'Не найден пункт меню. Возможно Вы еще не создали пункт меню для данной страницы, либо не привязали эту страницу к необходимому пункту меню');
+                return parent::afterSave();
+            }
+            $menu_item = MenuItems::model()->findByPk($id['item_id']);
+            
+            if(empty($menu_item->meta_description))
+                $menu_item->meta_description = preg_replace('/\s[^\s]+$/', '', substr(strip_tags($this->review), 0, 130));
+            
+            if(empty($menu_item->meta_title))
+                $menu_item->meta_title = $this->name. ' купить в ЛБР-агромаркет.';
+            
+            $menu_item->saveNode();
+            
+            return parent::afterSave();
+        }
 }

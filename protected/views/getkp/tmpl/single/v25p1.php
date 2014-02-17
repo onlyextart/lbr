@@ -19,6 +19,15 @@
                     <span class="dieci-header-orange">Органика и минералка -<br /> профессиональное<br /> внесение удобрений!</span>
                 </div>
                 <div class="first-header-text">Вносить,<br /> а не разбрасывать!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -26,11 +35,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Навесные разбрасыватели MX</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 15px;" src="http://www.git-lbr.ru/images/kp/organika-i-mineralka.jpg" border="0" />
+                                    <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/organika-i-mineralka.jpg" border="0" />
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -215,7 +224,7 @@
                                     <span class="text" style="font-size: 13px; line-height: 20px;"> 
                                         Использование разбрасывателей МХ с погрузчиком «BIG BAGOW» позволяет получить экономию времени и количества техники, задействованной на этапе внесения удобрений.<br />
                                     </span>
-                                    <div><img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka1.jpg" width="380" border="0" /></div>
+                                    <div><img src="http://www.lbr.ru/images/kp/organika-i-mineralka1.jpg" width="380" border="0" /></div>
                                     
                                 </div>
                                 
@@ -233,14 +242,14 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепные разбрасыватели RCW 5500</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka2.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka2.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka3.jpg" border="0" />
                                 <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -327,18 +336,11 @@
                                 <span class="text">
                                     Предпосевная подготовка и подкормка по всходам. Минералка, доломит, известь, сухие дефекаты, костная мука и т.д. 
                                     <br /><b>«Проходимец»</b> – широкие колеса, обеспечивающие хорошее соприкосновение с почвой и постоянный привод подающего транспортёра. 
-                                    <br /><b>«Заботливый»</b> – ленточный транспорт (в отличии от планчатого) обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений или разрушений. 
+                                    <br /><b>«Заботливый»</b> – ленточный транспорт обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений. 
                                     <br /><b>Точный</b> – дозирующий аппарат позволяет оптимально подобрать норму внесения удобрений. 
                                     <br /><b>Универсальный</b> – комплектация двумя типами тарелок позволяет работать без дополнительных затрат с любыми типами удобрений, как гранулированными, так и порошкообразными или пылевидными. 
                                     Комплектация тарелками для крайнего высева позволяет работать по краю поля без потерь дорогостоящих удобрений.                                  
-                                </span>
-                                <span class="span-red-left">3. DLG ПРЕДУПРЕЖДАЕТ! ЗАЧЕМ ПЕРЕПЛАЧИВАТЬ?</span>
-                                <span class="text">
-                                    Разбрасыватели удобрений RCW прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
-                                    Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
-                                    Разбрасыватели RCW ни чем не уступают таким грандам, как Amazone, RAUH или Sulky, при этом выигрыш в цене составляет не менее 30%.                                   
-                                </span>
-                                
+                                </span>                                
                             </div>                            
                         </div>
                     </div>    
@@ -352,14 +354,14 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепные разбрасыватели RCW10000</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka4.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka4.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka5.jpg" border="0" />
                                 <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -434,10 +436,7 @@
                                 <span class="span-red-left">1. МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!</span>
                                 <span class="text">
                                     <b>Экономический эффект.</b> В период проведения предпосевной подготовки или подкормки по всходам большое значение имеют сроки проведения работ по внесению минеральных удобрений. 
-                                    Экономических эффект от применения прицепных разбрасывателей на площади от 300 га просчитывается достаточно легко. 
-                                    При работе с минеральными удобрениями разбрасыватель на 5 000 литров при производительности 13 га в час обработает примерно 25 га за один выход в поле. 
-                                    Навесной разбрасыватель минеральных удобрений на 1 000 литров – около 5 га за один выход в поле. 
-                                    Отсюда видно, что применение прицепного разбрасывателя позволяет:<br /> 
+                                    Применение прицепного разбрасывателя позволяет:<br /> 
                                     а) сократить время на внесение – экономия заработной платы;<br />
                                     б) уменьшить количество проходов по полю – экономия ГСМ;<br />
                                     в) сэкономить парк техники для внесения удобрений благодаря большому объёму и универсальности разбрасывателя.
@@ -446,7 +445,7 @@
                                 <span class="text">
                                     Предпосевная подготовка и подкормка по всходам. Минералка, доломит, известь, сухие дефекаты, костная мука и т.д. 
                                     <br /><b>«Проходимец»</b> – широкие колеса, обеспечивающие хорошее соприкосновение с почвой и постоянный привод подающего транспортёра. 
-                                    <br /><b>«Заботливый»</b> – ленточный транспорт (в отличии от планчатого) обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений или разрушений. 
+                                    <br /><b>«Заботливый»</b> – ленточный транспорт обеспечивает бережную подачу гранул к разбрасывающим органам без их повреждений или разрушений. 
                                     <br /><b>Точный</b> – дозирующий аппарат позволяет оптимально подобрать норму внесения удобрений. 
                                     <br /><b>Универсальный</b> – комплектация двумя типами тарелок позволяет работать без дополнительных затрат с любыми типами удобрений, как гранулированными, так и порошкообразными или пылевидными. 
                                     Комплектация тарелками для крайнего высева позволяет работать по краю поля без потерь дорогостоящих удобрений.                                  
@@ -455,7 +454,7 @@
                                 <span class="text">
                                     Разбрасыватели удобрений RCW прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
                                     Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
-                                    Разбрасыватели RCW ни чем не уступают таким грандам, как Amazone, RAUH или Sulky, при этом выигрыш в цене составляет не менее 30%.                                   
+                                    Разбрасыватели RCW ни чем не уступают Amazone, RAUH или Sulky, при этом выигрыш в цене составляет не менее 30%.                                   
                                 </span>
                                 
                             </div>                            
@@ -471,11 +470,11 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Разбрасыватели минеральных удобрений MXL 3 000 на шасси Kastor</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka6.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka6.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
                                 
@@ -606,12 +605,12 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Разбрасыватели универсальные PTU</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka8.jpg" style="width: 378px;" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka9.jpg" style="width: 378px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka8.jpg" style="width: 378px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka9.jpg" style="width: 378px;" border="0" />
                             </div>
                             <div class="left-50 image">
                                 <span class="span-red-left">УНИВЕРСАЛЬНЫЙ ПРОФЕССИОНАЛ:</span>
@@ -731,11 +730,11 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Бочка для внесения жидких удобрений Питон 100</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/piton-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/piton-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/organika-i-mineralka10.jpg" style="width: 360;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka10.jpg" style="width: 360;" border="0" />
                             <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             
@@ -871,11 +870,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

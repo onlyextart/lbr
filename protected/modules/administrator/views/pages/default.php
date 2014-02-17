@@ -1,7 +1,7 @@
 <?php
     Yii::app()->clientScript->registerCssFile('/css/admin/users/users.css');
     Yii::app()->clientScript->registerCssFile('/css/admin/users/static.css');
-    Yii::app()->clientScript->registerScriptFile('/js/tinymce/tinymce.min.js');
+    Yii::app()->clientScript->registerScriptFile('/js/tinymce_3_x/tiny_mce.js');
     Yii::app()->clientScript->registerScriptFile('/js/admin/AjaxContentLoader.js');
     Yii::app()->clientScript->registerScriptFile('/js/admin/static.js');
 ?>

@@ -16,21 +16,31 @@
             </div>
             <div class="one-page head-first-page">
                 <div class="dieci-header">
+            
                     <span class="dieci-header-orange">NO-TILL. Лучшие машины!</span>
                 </div>
                 <span class="first-header-text">Побеждая себестоимость!</span>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+        ?>
+                </div>
             </div>
-            <div class="one-page body-first-page">
+            <div class="one-page body-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Глубокорыхлители SS1300 и SS1700</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-1.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-1.jpg" border="0" />
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -106,11 +116,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span style="font-size: 19px;">агрегат для основной обработки почвы туРбочиЗель тс</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-2.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-2.jpg" border="0" />
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -159,11 +169,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>туРбо-тилл тт3000</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-3.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-3.jpg" border="0" />
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -221,11 +231,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>механические сеялки точного высева сPH 2000F, работающие по технологии NO TILL</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-4.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-4.jpg" border="0" />
                                     <table width="360" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
@@ -276,12 +286,12 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Пневматическая сеялка точного высева Spartan 607</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-5.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-6.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-5.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-6.jpg" border="0" />
                                     
                                 </div>
                                 <div class="right-50" style="text-align: center;">
@@ -326,8 +336,8 @@
                                     <div style="width: 100%; height: 5px;"></div>
                                 <div class="left-50 image">
                                     <div style="width: 100%; height: 15px;"></div>
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-7.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-8.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-7.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-8.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left">3) По РаВнинам и холмам.</span>
@@ -379,13 +389,13 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Пневматическая сеялка точного высева Spartan 907</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-9.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-10.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-11.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-9.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-10.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-11.jpg" border="0" />
                                     
                                 </div>
                                 <div class="right-50" style="text-align: center;">
@@ -395,9 +405,7 @@
                                         предназначена для работы по технологии минимальной или нулевой 
                                         обработки почвы и имеет двухдисковый сошник с передним разрезным 
                                         турбодиском, такая концепция позволят использовать сеялку в других 
-                                        технологиях.  Режущие  турбодиски  оснащены  предохранительными 
-                                        пружинами. Ничто не мешает их снять и работать по подготовленной 
-                                        почве.
+                                        технологиях.  
                                     </span>
                                     <span class="span-red-left">2) ПРоПашноЙсошниКна ЗеРноВоЙсеялКе!</span>
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em; margin-bottom: 0;">
@@ -469,14 +477,14 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Пневматическая сеялка точного высева NTA-3510 с бункерной тележкой ADC2350</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-12.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-13.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-14.jpg" border="0" />
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-15.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-12.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-13.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-14.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-15.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left">1) ПеРеходить на ноль стало ПРоЩе!</span>
@@ -554,15 +562,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="one-item">
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2"><span>Прицепная 24-х рядная пропашная сеялка точного высева YP-2425ас пневматическим высевающим аппаратом и ЖКУ</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-16.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-16.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em;">
@@ -596,22 +611,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
                     <div class="one-item">
                         <div class="body-content">
                             <div style="width: 100%; height: 1px;"></div>
                             <div class="head-content">
                                 <div class="h-2"><span>новая 16-ти рядная механическая сеялка точного высева YP-1630F с пневматической подачей удобрений из отдельного бункера</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 67px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 67px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-17.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-17.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em;">
@@ -640,7 +649,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="one-item">
+                    
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85">
@@ -648,15 +665,15 @@
                                         Пневматическая сеялка точного высева Single Disc с минимальной степенью воздействия на почву
                                     </span>
                                 </div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/amity-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/amity-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-18.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-18.jpg" border="0" />
                                     <div style="width: 100%; height: 30px;"></div>
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-19.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-19.jpg" border="0" />
                                     <div style="width: 100%; height: 30px;"></div>
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-20.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-20.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left" style="padding-top: 10px;">1) Под любую технолоГию.</span>
@@ -731,10 +748,9 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div class="page-break"></div>
+                     </div>
+                      </div>
+                    <div class="page-break"></div>
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
@@ -743,11 +759,11 @@
                             <div style="width: 100%; height: 1px;"></div>
                             <div class="head-content">
                                 <div class="h-2"><span>самоходный опрыскиватель Bargam GRIMAC 3500</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0; width: 100px;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0; width: 100px;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-21.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-21.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em;">
@@ -809,11 +825,11 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>самоходный опрыскиватель MAC 5000S</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/bargam-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0; width: 100px;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0; width: 100px;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img src="http://www.git-lbr.ru/images/kp/gp-22.jpg" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/gp-22.jpg" border="0" />
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em; margin: 6px 0 9px;">
@@ -898,11 +914,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

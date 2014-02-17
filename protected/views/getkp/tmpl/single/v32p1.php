@@ -19,6 +19,16 @@
                     <span class="dieci-header-orange">Прицепной<br />разбрасыватель<br /> минеральных удобрений</span>
                 </div>
                 <div class="first-header-text">МХL 3000 на шасси KASTOR –<br />лучшая загрузка МТЗ 82!</div>
+           <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+           
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -27,11 +37,11 @@
                         <div class="header-text">Евро класс – Евро точность!<br />Без переплаты за бренд!</div>
                             <div class="head-content">
                                 <div class="h-2 left-85"><span>Разбрасыватели удобрений MXL-3000 на шасси KASTOR</span></div>
-                                <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 80px; "/></div>
+                                <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 80px; "/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 15px;" src="http://www.git-lbr.ru/images/kp/kastor.jpg" border="0" />
+                                    <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/kastor.jpg" border="0" />
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -187,11 +197,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -270,7 +280,7 @@
     .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
     .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
-    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,sans-serif;}
+    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; text-align: left; font-size: 18px; padding: 5px 0 0; font-family: FuturisXC,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,sans-serif;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85, .left-45

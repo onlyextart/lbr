@@ -2362,3 +2362,10 @@ ul.yiiPager .selected a {
 .pageNumbers {
   display: inline;
 }
+.view_all_contacts{
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color:#333;
+    position: absolute;
+    top: 580px;
+    left: 250px;
+}

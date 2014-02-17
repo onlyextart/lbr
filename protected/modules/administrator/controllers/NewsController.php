@@ -1,5 +1,4 @@
 <?php
-
 class NewsController extends Controller
 {
 	public function actionIndex()
@@ -19,6 +18,7 @@ class NewsController extends Controller
                 }
                 if( isset( $_POST['News'] ) ){
                     $newsModel->attributes = $_POST['News'];
+                    $newsModel->attributes=array('date'=>date("Y-m-d H:i:s", strtotime($newsModel->date)));
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
                         foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
@@ -34,8 +34,13 @@ class NewsController extends Controller
                                 $regionalNews[$regionId]->save();                                
                             }                                                        
                             
-                            Yii::app()->user->setFlash('saved','Новость создана.');
-                            $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+                            Yii::app()->user->setFlash('saved','Страница новости успешно создана.');
+            if($_POST['yt0'])
+            {
+                 $this->redirect('/administrator/news/');
+            }else{
+                $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+            }
                         }
                     }
                 }
@@ -45,12 +50,12 @@ class NewsController extends Controller
                     )
                 );
 	}
-        
+       
 	public function actionUpdate( $id )
 	{
 		$newsModel = News::model()->findBypk( $id );
 		$filialModels = Contacts::model()->findAll();
-                $regionalNews = array();
+        $regionalNews = array();
                 
                 //�������� ������ ������ news ��� ������� �������
                 foreach( $filialModels as $filial ){
@@ -62,6 +67,7 @@ class NewsController extends Controller
                 }
                 if( isset( $_POST['News'] ) ){
                     $newsModel->attributes = $_POST['News'];
+                    $newsModel->attributes=array('date'=>date("Y-m-d H:i:s", strtotime($newsModel->date)));
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
                         foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
@@ -84,9 +90,35 @@ class NewsController extends Controller
                                     $regionalEvent->delete();
                                 }
                             }
-                            
-                            Yii::app()->user->setFlash('saved','Новость сохранена.');
-                            $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+                            if( isset( $_POST['MenuItemConteintigThisNews'] ) ){
+                    $menuItmemsContentModels = MenuItemsContent::model()->with('item')->findAll(
+                        'page_id='.$newsModel->id.
+                        ' AND item.type='.MenuItems::NEWS_MENU_ITEM_TYPE
+                    );
+                    $menuItmemsContentModelsForDeleting = $menuItmemsContentModels;
+                    $menuItmemsContentNum = 0;
+                    foreach( $_POST['MenuItemConteintigThisNews'] as $menuItemId=>$value ){
+                        if($value!='0'){
+                            if(!isset($menuItmemsContentModels[$menuItmemsContentNum]))
+                                $menuItmemsContentModels[$menuItmemsContentNum] = new MenuItemsContent();
+                            $menuItmemsContentModels[$menuItmemsContentNum]->item_id = $menuItemId;
+                            $menuItmemsContentModels[$menuItmemsContentNum]->page_id = $newsModel->id;
+                            $menuItmemsContentModels[$menuItmemsContentNum]->save();
+                            unset( $menuItmemsContentModelsForDeleting[$menuItmemsContentNum] );
+                            $menuItmemsContentNum++;
+                        }
+                    }
+                    foreach( $menuItmemsContentModelsForDeleting as $deleteMenuItmemsContent ){
+                        $deleteMenuItmemsContent->delete();
+                    }
+                }
+                            Yii::app()->user->setFlash('saved','Страница новости успешно сохранена.');
+            if($_POST['yt0'])
+            {
+                 $this->redirect('/administrator/news/');
+            }else{
+                $this->redirect('/administrator/news/update/id/'.$newsModel->id);
+            }
                         }
                     }
                 }
@@ -171,5 +203,18 @@ class NewsController extends Controller
                     $menuContentModel->save();
                 }
             }
-        }        
+        } 
+        public function actionContactMenuItems(){
+        exit();
+
+        $newsMenuItems = MenuItems::model()->findAll('type=:type', array(':type'=>  MenuItems::NEWS_MENU_ITEM_TYPE));
+        
+        foreach($newsMenuItems as $newsMenuItem){
+            $newsModel = News::model()->find('name=:name', array(':name'=>$newsMenuItem->name));
+            $menuItemContentModel = new MenuItemsContent;
+            $menuItemContentModel->page_id = $newsModel->id;
+            $menuItemContentModel->item_id = $newsMenuItem->id;
+            $menuItemContentModel->save();
+        }
+    }       
 }

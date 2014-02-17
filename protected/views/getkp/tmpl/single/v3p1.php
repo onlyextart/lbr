@@ -19,19 +19,26 @@
                     <span class="first-header-text">Австрийский пакет решений</span>
                     <span class="second-header-text">для обработки<br>почвы</span>
                 </div>
-                <div class="flag">
-                    <img src="http://www.git-lbr.ru/images/kp/flag.jpg" alt="flag"/>
+                
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
                 </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HEKTOR</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/first-page.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/first-page.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <span class="h-4">ОРУДИЕ ПОВЫШЕННОЙ МАНЕВРЕННОСТИ И ТОЧНОСТИ НА ПАХОТЕ!</span>
@@ -83,11 +90,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HERKULES</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/HERKULES.jpg" style="margin-left:-17px; width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/HERKULES.jpg" style="margin-left:-17px; width: 100%;" border="0" />
                                 <table width="363" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr>
                                         <td align="left" width="70%"><span style="font-family: sans-serif; font-size: 12px; ">&nbsp;Количество корпусов, шт.</span></td>
@@ -124,11 +131,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги полунавесные оборотные VN plus HERОS</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/HERОS.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/HERОS.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">12 корпусов – это серьезно;<br>5,5 га/час – это рентабельно!<br>ВСПАШКА ПО-ВЗРОСЛОМУ!</span>
@@ -175,14 +182,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Плуги навесные М950 и XMS 950</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/М950.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/М950.jpg" border="0" />
                                 <table width="361" cellspacing="0" cellpadding="0" align="left" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                     <tr bgcolor="#d1d3d4">
                                         <td align="left" width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">&nbsp;Модель</span></td>
@@ -229,18 +238,17 @@
                     </div>
                 </div>
             </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
+            
             <div class="one-page body-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Глубокорыхлители Terra Dig</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/logo1.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/terra.jpg" style="margin-left:-11px; width: 100%;"  border="0" />
+                                <img src="http://www.lbr.ru/images/kp/terra.jpg" style="margin-left:-11px; width: 100%;"  border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">Реально ГЛУБОКОрыхлитель!</span>
@@ -367,11 +375,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -404,11 +412,11 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.git-lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
+    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 25px 60px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 45px; padding: 5px 0; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 72px; font-family: FuturisXC, sans-serif;}
-    .flag{position: absolute; left: 20px; bottom: 20px;}
+    .flag{position: absolute; left: 20px; bottom: 135px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     .header-2{display: block; color: #6e7071; background: none !important; font-size: 16px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
     

@@ -25,6 +25,7 @@ Disallow: /selskohozyaystvennaya-tehnika/techscheme/
 Disallow: /stroitelnaya-tehnika/
 Disallow: /stroitelnaya-tehnika/news/
 Disallow: *?*
+Disallow: *.pdf
 Host: www.lbr.ru
 
 Sitemap: http://www.lbr.ru/sitemap.xml

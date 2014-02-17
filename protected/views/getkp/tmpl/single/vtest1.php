@@ -28,7 +28,7 @@
             </tr>
         </table>
         <table width="638" style="border-collapse: collapse; border-bottom: 1px rgb(6, 69, 173) dashed" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
-            <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+            <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
             <tr>
                 <td>
                     <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: rgb(6, 69, 173); font-size: 14px;">ООО «Сеть Агромаркетов», в рамках программы по работе с ключевыми клиентами, предлагает вашему предприятию  приобрести оборудование для почвообработки в рассрочку на следующих условиях:
@@ -40,20 +40,20 @@
                     </span> 
                 </td>
             </tr>
-            <tr><td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+            <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         </table>
-        <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
+        <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF" style="border-collapse: collapse;">
             <tbody>
                 <tr>
-                    <td width="11"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                    <td width="11"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                     <td>          
                         <table style="border-collapse: collapse;" width="616" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
                             <tr>
-                                <td><img width="610" src="http://www.git-lbr.ru/images/uploaded/КП---Agrisem-Cultiplow1379065957.jpg" alt="ГЛУБОКОРЫХЛИТЕЛИ" title="ГЛУБОКОРЫХЛИТЕЛИ"/></td>
+                                <td><img width="610" src="http://www.lbr.ru/images/uploaded/КП---Agrisem-Cultiplow1379065957.jpg" alt="ГЛУБОКОРЫХЛИТЕЛИ" title="ГЛУБОКОРЫХЛИТЕЛИ"/></td>
                             </tr>
                             <tr>
-                                <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                             </tr>
                             <tr>
                                 <td>
@@ -67,35 +67,35 @@
                                                                 <td style="text-align: justify;"><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 17px; color: #d3232a; font-weight: 900; text-transform: uppercase;">1. ЭКОНОМЬТЕ ТОПЛИВО С AGRISEM!</span><br /><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">Широкое расположение стоек с лапами и уникальное строение лапы позволяет уменьшить износ деталей и снизить потребление энергии.</span></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><img style="display: block;" src="http://www.git-lbr.ru/images/kp/10.gif" alt="" /></td>
+                                                                <td><img style="display: block;" src="http://www.lbr.ru/images/kp/10.gif" alt="" /></td>
                                                             </tr>
                                                             <tr>
                                                                 <td style="text-align: justify;"><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 17px; color: #d3232a; font-weight: 900; text-transform: uppercase;">2. ВЕСЬ СЕКРЕТ В ЛАПЕ!</span><br /><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">Запатентованная лапа со смещенным режущим элементом обеспечивает вертикальное поднятие в отличие от других лап, которые поднимают почву по косой или спрессовывают ее горизонтально. Вертикальное поднятие является полностью однородным!</span></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><img style="display: block;" src="http://www.git-lbr.ru/images/kp/10.gif" alt="" /></td>
+                                                                <td><img style="display: block;" src="http://www.lbr.ru/images/kp/10.gif" alt="" /></td>
                                                             </tr>
                                                             <tr>
                                                                 <td style="text-align: justify;"><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 17px; color: #d3232a; font-weight: 900; text-transform: uppercase;">3. ЗАПАТЕНТОВАННАЯ ВОЛНА!</span><br /><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">Чтобы способствовать развитию корневой системы, нужно повышать пористость почвы без смешивания слоев во избежание разрушения структуры и растворения органических веществ. Запатентованная технология Agrisem International заключается в образовании на почве складки и перемещении ее в виде волны.</span></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><img style="display: block;" src="http://www.git-lbr.ru/images/kp/10.gif" alt="" /></td>
+                                                                <td><img style="display: block;" src="http://www.lbr.ru/images/kp/10.gif" alt="" /></td>
                                                             </tr>
                                                             <tr>
                                                                 <td style="text-align: justify;"><span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 17px; color: #d3232a; font-weight: 900; text-transform: uppercase;">4. ВЕСЬ В РАБОТЕ!</span><br /><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">Транспортная ширина глубокорыхлителя Cultiplow полностью совпадает с транспортной шириной, что обеспечивает его компактность.</span></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><img style="display: block;" src="http://www.git-lbr.ru/images/kp/10.gif" alt="" /></td>
+                                                                <td><img style="display: block;" src="http://www.lbr.ru/images/kp/10.gif" alt="" /></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>                            </td>
                                                 <td width="196" valign="top">
-                                                    <img width="196" src="http://www.git-lbr.ru/images/uploaded/КП---Agrisem-Cultiplow.jpg" style="display: block;"/>
-                                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                                    <img width="196" src="http://www.git-lbr.ru/images/uploaded/КП---Agrisem-Cultiplow1.jpg" style="display: block;"/>
-                                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                                    <img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                                    <img width="196" src="http://www.git-lbr.ru/images/uploaded/КП---Agrisem-Cultiplow2.jpg" style="display: block;"/><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/>                            </td>
+                                                    <img width="196" src="http://www.lbr.ru/images/uploaded/КП---Agrisem-Cultiplow.jpg" style="display: block;"/>
+                                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                                    <img width="196" src="http://www.lbr.ru/images/uploaded/КП---Agrisem-Cultiplow1.jpg" style="display: block;"/>
+                                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                                                    <img width="196" src="http://www.lbr.ru/images/uploaded/КП---Agrisem-Cultiplow2.jpg" style="display: block;"/><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>                            </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -165,37 +165,37 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                             </tr>
                             <tr style="height: 2px; background: grey;">
-                                <td height="2" style="height: 2px; background: grey;"><img width="616" height="2" src="http://www.git-lbr.ru/images/kp/10g.gif" style="display: block; width: 616px; height: 2px;"/></td>
+                                <td height="2" style="height: 2px; background: grey;"><img width="616" height="2" src="http://www.lbr.ru/images/kp/10g.gif" style="display: block; width: 616px; height: 2px;"/></td>
                             </tr>
                             <tr>
-                                <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                             </tr>
                             <tr>
                                 <td>
                                     <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                         <tr>
-                                            <td width="10"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                            <td width="10"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                             <td>
                                                 <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (Барнаул)!</span><br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                             <td>
                                                 <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold;">Время работы: 8.00-17.00</span><br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                             <td>
                                                 <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold;">Адрес филиала: 656067 Барнаул, ул. Попова, 216</span><br>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                            <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                             <td>
                                                 <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold;">Телефоны: +7 (3852) 60-17-33, +7(3852)29-9870, 29-9871, 29-9872, 29-9873</span>
                                             </td>
@@ -204,13 +204,13 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                             </tr>
                             <tr>
                                 <td>
                                     <table style="border-collapse: collapse;" width="600" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                                         <tr>
-                                            <td width="5"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
+                                            <td width="5"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; width: 7px;"/></td>
                                             <td width="400" align="right" style="text-align: left;"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 14px;">
                                                     Михайлов Евгений Сергеевич<br>Телефон: +7 928 2203119<br>E-mail: mihaylov@lbr.ru
                                                 </span></td>
@@ -220,10 +220,10 @@
                             </tr>
                         </table>
                     </td>
-                    <td width="11" ><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                    <td width="11" ><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                 </tr>
                 <tr valign="top">
-                    <td colspan="3"><img src="http://www.git-lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                    <td colspan="3"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                 </tr>
             </tbody>
         </table>
