@@ -20,6 +20,15 @@
                 </div>
                 <div class="first-header-text">Экономия 400 тысяч рублей</div>
                 <div class="first-header-text" style="color: #FF9933;">Всего за 9,9 млн. руб.</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -221,7 +230,7 @@
                                                                       
                                     Каждый сошник имеет индивидуальную настройку глубины и усилия давления на почву, что позволяет эффективно сеять в том числе и по колее трактора.                                      
                                     Точность сохраняется даже на больших скоростях. 
-                                    <img src="http://www.lbr.ru/images/kp/amity-disk2.jpg" border="0" style="float: right; margin: 5px 0 0 10px; width: 355px;" />                                     
+                                    <img src="http://www.lbr.ru/images/kp/amity-disk2.jpg" border="0" height="170px" style="float: right; margin: 5px 0 0 10px; width: 355px;" />                                     
                                     На ровных полях сеялка способна производить посев на скорости до 15 км/ч.                                    
                                     Идеально подходит для высева рапса и других мелкосеменных культур, где очень важно производить посев на постоянную и малую глубину.<br /> 
                                                                       
@@ -234,18 +243,18 @@
                                     </span> 
                                     <div style="width: 100%; height: 10px;"></div>
                                     <div class="left-40" style="width: 240px;">
-                                   <img src="http://www.lbr.ru/images/kp/amity-disk3.jpg" border="0" style="width: 240px;" /> 
+                                   <img src="http://www.lbr.ru/images/kp/amity-disk3.jpg" border="0" style="width: 240px; height: 155px;" /> 
                                     <img src="http://www.lbr.ru/images/kp/amity-disk4.jpg" border="0" style="width: 240px;" />
                                     </div>
                                     <div class="right-60 text" style="width: 500px;">
-                                    <span class="span-red-left" style="margin-top: 20px;">3. В УСЛОВИЯХ СТЕРНИ</span>                                     
+                                    <span class="span-red-left" style="margin-top: 5px;">3. В УСЛОВИЯХ СТЕРНИ</span>                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;"> 
                                         Если нужно посеять в твердую почву или в поле имеющие растительные остатки, можно увеличивать давление сошника на грунт, как отдельно для каждого сошника, так и сразу для всей сеялки гидравлически (из кабины трактора).
                                         Пружинная регулировка давления создает предварительное давление на каждый сошник.
                                     </span>
                                     </div>
                                     <div class="right-60 text" style="width: 500px;">
-                                    <span class="span-red-left" style="margin-top: 30px;">4. МЕНЬШЕ ВРЕМЕНИ НА ЗАГРУЗКУ!</span>                                     
+                                    <span class="span-red-left" style="margin-top: 5px;">4. МЕНЬШЕ ВРЕМЕНИ НА ЗАГРУЗКУ!</span>                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;"> 
                                         Бункер выполнен из нержавеющей стали, расположен за сеялкой, имеет две оси и широкие шины 23,1R26 для снижения давления на почву, снабжен самозагрузочным шнеком 20 см с пластиковой спиралью для снижения травмирования семян. 
                                         Общий объем бункера 9865 литров, разделен на две секции: 5920 л под семена и 3945 л под минеральные удобрения. 

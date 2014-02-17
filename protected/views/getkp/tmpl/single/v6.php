@@ -39,6 +39,15 @@
                     <span style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 18px; color: white; font-weight: 800;">ДЛЯ ТРАКТОРОВ МОЩНОСТЬЮ 120 Л.С.</span>
                 </td>
             </tr>
+            <tr><td colspan="2"><span style="text-align: justify;">
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
         </table>
         <!-- TOP BLOCK END -->
 
@@ -71,7 +80,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-1.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td> 
@@ -126,7 +135,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-2.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-2.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     </table> 
                 </td>
             </tr>
@@ -183,7 +192,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-4.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/mtz-4.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td> 

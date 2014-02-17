@@ -12,17 +12,33 @@
         </style>
     </head>
     <body>
-        <div id="wrapper">
+        <div id="wrapper">           
+                <div id="header">
+                <div class="left-75 header-text">
+                    
+                    <span class="header-2"><? echo $data['header']; ?> </span></div>
+                <div class="right-20">
+                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
+                </div>
+            </div>
             <div class="one-page head-first-page">
-                <div class="content-page" style="padding: 20px 20px 10px;">
-                    <span class="bg-orange-header" style="width: 70%; float: left; text-align: left; font-size: 38px;">
-                        ТЕХНОЛОГИЯ ЗАКРЫТИЯ
-                        <br>
-                        ВЛАГИ ПО-АМЕРИКАНСКИ
-                    </span>
-                    <div style="float: right;">
-                        <img style="width: 170px" src="http://www.lbr.ru/images/kp/supernarrowplus-logo.jpg">
+                <div class="content-page">
+                    <div class="dieci-header">
+                        <span class="dieci-header-orange">Технология закрытия<br /> влаги по-американски</span>
                     </div>
+                    </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+            </div>
+             <div class="one-page body-first-page">
+                <div class="content-page">
                     <div class="one-item" style="margin-bottom: 0">
                         <div class="head-content">
                             <div class="h-2 left-75" style="text-transform: none; font-size: 21px; ">
@@ -121,15 +137,7 @@
                                 <span class="h-4" style="color: #000; font-size: 18px; text-align: left; text-transform: uppercase;">1. НЕПРЕВЗОЙДЕННАЯ СИСТЕМА КОПИРОВАНИЯ РЕЛЬЕФА!</span>
                                 <span class="h-4" style="color: #000; font-size: 18px; text-align: left; text-transform: uppercase;">2. СИСТЕМА ПАРАЛЛЕЛОГРАМНОЙ ПОДВЕСКИ СЕКЦИЙ БОРОНЫ С ХОДОМ 80 СМ!</span>
                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="padding-top: 20px; color: #000; font-size: 18px; text-align: left; text-transform: uppercase; font-family: FuturisXC,sans-serif;">3. ТРЕБУЕМАЯ МОЩНОСТЬ ТРАКТОРА ОТ 250 Л.С.!</div>
+                           <div style="padding-top: 20px; color: #000; font-size: 18px; text-align: left; text-transform: uppercase; font-family: FuturisXC,sans-serif;">3. ТРЕБУЕМАЯ МОЩНОСТЬ ТРАКТОРА ОТ 250 Л.С.!</div>
                     <span class="text">
                         Широкозахватная зубовая борона предназначена для распределения растительных остатков после уборки и заделки в почву. 
                         Весной - для закрытия влаги перед севом, довсходового боронования посевов, заделки семян многолетних трав и повсходового боронования 
@@ -173,6 +181,15 @@
                             </tr>
                         </tbody>
                     </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    
                     <div class="footer" style="margin-top: 20px">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
@@ -198,3 +215,5 @@
         </div>
     </body>
 </html>
+<style>
+.dieci-header-orange{width: 80%; text-align: left; font-family: FuturisXC, sans-serif; text-transform: uppercase; font-size: 28px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white;}</style>

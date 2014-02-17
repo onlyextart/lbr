@@ -60,7 +60,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/spartan-1.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td>
@@ -191,7 +191,7 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/spartan-2.jpg"  width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                     <tr>
                         <td width="638">

@@ -46,6 +46,15 @@
                         ПО-ЕВРОПЕЙСКИ</span>
                 </td>
             </tr>
+            <tr><td colspan="3">
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
         </table>
         <!-- TOP BLOCK END -->
         <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -63,7 +72,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/gaspardo-1.jpg" width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/gaspardo-1.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                         <tr>
                             <td>
@@ -154,7 +163,7 @@
                                 </table>
                             </td>
                         </tr>
-                        <tr><td><img src="http://www.lbr.ru/images/kp/gaspardo-3.jpg"  width="638" style="display: block; width: 100%; margin-top: 2px;"/></td></tr>
+                        <tr><td><img src="http://www.lbr.ru/images/kp/gaspardo-3.jpg"  width="638" style="display: block; margin-top: 2px;"/></td></tr>
                         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif"/></td></tr>
                         <tr>
                             <td>

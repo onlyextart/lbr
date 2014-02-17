@@ -20,6 +20,16 @@
                     <span class="dieci-header-orange">ВЫГОДНО ВДВОЙНЕ! МТЗ 1523<br> ПО СТАРОЙ ЦЕНЕ И ТЕХНИКОЙ<br> С ОСЕННИМИ СКИДКАМИ</span>
                 </div>
                 <div class="first-header-text">ДВОЙНОЙ УДАР <br>ПО ЦЕНАМ!!!</div>
+                
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -849,7 +859,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz1523-8.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz1523-8.jpg" border="0" height="210px" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1166,6 +1176,15 @@
                         </div>
                     </div>
                     <div style="width: 100%; height: 15px;"></div>
+                    
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель органических удобрений PTU 14S</span></div>
@@ -1264,14 +1283,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прицеп самосвальный LMR 18</span></div>

@@ -20,8 +20,17 @@
                     <span class="dieci-header-orange">NO-TILL. Лучшие машины!</span>
                 </div>
                 <span class="first-header-text">Побеждая себестоимость!</span>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+        ?>
+                </div>
             </div>
-            <div class="one-page body-first-page">
+            <div class="one-page body-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="body-content">
@@ -396,9 +405,7 @@
                                         предназначена для работы по технологии минимальной или нулевой 
                                         обработки почвы и имеет двухдисковый сошник с передним разрезным 
                                         турбодиском, такая концепция позволят использовать сеялку в других 
-                                        технологиях.  Режущие  турбодиски  оснащены  предохранительными 
-                                        пружинами. Ничто не мешает их снять и работать по подготовленной 
-                                        почве.
+                                        технологиях.  
                                     </span>
                                     <span class="span-red-left">2) ПРоПашноЙсошниКна ЗеРноВоЙсеялКе!</span>
                                     <span class="text" style="font-size: 12px; line-height: 14px; text-indent: 1.5em; margin-bottom: 0;">
@@ -555,7 +562,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="one-item">
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2"><span>Прицепная 24-х рядная пропашная сеялка точного высева YP-2425ас пневматическим высевающим аппаратом и ЖКУ</span></div>
@@ -597,12 +611,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
                     <div class="one-item">
                         <div class="body-content">
                             <div style="width: 100%; height: 1px;"></div>
@@ -641,7 +649,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="one-item">
+                    
+                    
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2 left-85">
@@ -732,10 +748,9 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-            <div class="page-break"></div>
+                     </div>
+                      </div>
+                    <div class="page-break"></div>
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
@@ -934,7 +949,7 @@
         font-family: FuturisC,  sans-serif;
     }
     
-    .one-page{page-break-after: always; width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
+    .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: left;}
     .content-page{padding: 20px 20px 0;}

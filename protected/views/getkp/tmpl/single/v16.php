@@ -23,6 +23,15 @@
         <tr align="right">
             <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">БОЛЬШОЙ ОСЕННИЙ БОНУС!!!<br /></span><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ВСЕМ, КТО В 2013 ГОДУ КУПИЛ ТРАКТОР МТЗ 82 В СЕТИ АГРОМАРКЕТОВ ЛБР, - БОЛЬШИЕ ОСЕННИЕ СКИДКИ НА СЕЛЬХОЗМАШИНЫ, АГРЕГАТИРУЕМЫЕ С ТРАКТОРОМ. </span></td>
         </tr>
+        <tr><td colspan="2"><span>
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

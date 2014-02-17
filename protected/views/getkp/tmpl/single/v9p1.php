@@ -19,6 +19,15 @@
                     <span class="dieci-header-orange">ВЫГОДНО ВДВОЙНЕ! МТЗ 82 ПО СТАРОЙ ЦЕНЕ И ТЕХНИКОЙ С ОСЕННИМИ СКИДКАМИ</span>
                 </div>
                 <div class="first-header-text">ДВОЙНОЙ УДАР <br>ПО ЦЕНАМ!!!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -477,7 +486,6 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Полярис-4</span></div>
@@ -629,7 +637,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Стерневые культиваторы серии KOS</span></div>
@@ -685,7 +692,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Междурядный культиватор Thema 8</span></div>
@@ -764,7 +770,6 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая Polonez 4</span></div>
@@ -980,7 +985,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Количество рядов(сошников), шт.</span>
+                                        <span>Количество рядов, шт.</span>
                                         </td>
                                         <td colspan="2">
                                         <span>47</span>
@@ -1007,7 +1012,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Производительность, га/ч</span>
+                                        <span>Производительность,га/ч</span>
                                         </td>
                                         <td><span>4,8</span>
                                         </td>
@@ -1171,7 +1176,6 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений навесной МХ 950</span></div>
@@ -1278,7 +1282,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений прицепной RCW 5500</span></div>
@@ -1371,7 +1374,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель удобрений MXL3000 на шасси KASTOR</span></div>
@@ -1493,7 +1495,6 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Разбрасыватель органических удобрений PTU 6.0/13A</span></div>
@@ -1599,7 +1600,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_16.jpg" border="0" height="400px" />
+                                <img src="http://www.lbr.ru/images/kp/mtz82_16.jpg" border="0" height="390px" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2751,10 +2752,16 @@
                             </div>
                         </div>
                     </div>
+                    </div>    
+                    </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Погрузчики навесные TUR-14 и TUR-15</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/hydramet-logo.jpg" border="0" style="position: absolute; right: 0px; top: -7px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/hydramet-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
@@ -2834,8 +2841,7 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
+            </div>
         
     </body>
 </html>

@@ -27,6 +27,15 @@
                             <img width="170px" src="http://www.lbr.ru/images/kp/supernarrowplus-logo.jpg" style="display: block;"/>
                         </td>
                     </tr>
+                    <tr><td colspan="4">
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
                 </table>
             </tr>
             <tr>
