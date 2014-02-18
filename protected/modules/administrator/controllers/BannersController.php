@@ -30,7 +30,7 @@ class BannersController extends Controller
             // Выбор банеров текущего пункта меню
             $criteria = new CDbCriteria();
             $criteria->condition = 'item_id=:item_id';
-//            $criteria->order = 'page_id ASC';
+//            $criteria->order = 'sorting ASC';
             $criteria->params = array(
                 ':item_id'=>$sub,
             );
