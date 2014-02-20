@@ -53,39 +53,16 @@ $k = count($data->bannerRegions)-1;
                 <?php foreach ($data->bannerImages as $indx=>$image){ ?>
                     <section class="b_images_one_image">
                         <? if ($indx==0){?>
-                        <img src="<? echo $image->path; ?>" data-src="<? echo $image->path; ?>" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
-                        <? }else{?>
-                        <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
-                            <?} if($image->type=='1'){?>
-                            <?php $cap = '<section class="b_images_one_image"><img src="/images/1.gif" data-src="/images/timetobuy/ttbWinter/general480x250.jpg" /></section>';?>
-                                <div class="time_to_buy">
-                                    <div class="time_to_buy_description">
-                                        <span><?php echo $image->description; ?></span>
-                                    </div>
-                                    <?php if($image->top_left):?>
-                                        <div class="time_to_buy_top_left">
-                                            <span>экономия</span>
-                                            <span><?php echo $image->top_left;?> %</span>
-                                        </div>
-                                    <?php endif;?>
-                                    <?php if($image->top_right):?>
-                                        <div class="time_to_buy_top_right">
-                                            
-                                        </div>
-                                    <?php endif;?>
-                                    <?php if($image->bottom_right):?>
-                                        <div class="time_to_buy_bottom_right">
-                                        </div>
-                                    <?php endif;?>
-                                    <?php if($image->bottom_left):?>
-                                        <div class="time_to_buy_bottom_left">
-                                            <span><?php echo $image->bottom_left; ?></span>
-                                        </div>
-                                    <?php endif;?>
-                                </div>
-                            <? }elseif($image->description && $image->description!=''){ ?>
+                                <img src="<? echo $image->path; ?>" data-src="<? echo $image->path; ?>" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
+                        <?php }else{?>
+                                <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
+                        <?php }
+                            if($image->type=='1' || $image->type=='2'){
+                                $cap = '<section class="b_images_one_image"><img src="/images/1.gif" data-src="/images/timetobuy/ttbWinter/general480x250.jpg" /></section>';
+                                Yii::app()->getController()->renderPartial('items/timetobuy', array('image'=>$image));
+                            }elseif($image->description && $image->description!=''){ ?>
                                 <div class="b_images_one_image_caption"><p><? echo $image->description; ?></p></div>
-                            <? }?>
+                    <?php   }?>
                     </section>
                 <?php } ?>
                 <?php echo $cap; ?>
