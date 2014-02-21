@@ -1488,7 +1488,12 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
+                    </div>
+                    </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка точного высева Sigma 5</span></div>

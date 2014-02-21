@@ -15,12 +15,26 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
+                            
+            <div class="header-red-line">РАБОЧИЕ ОРГАНЫ ДЛЯ ТЕЛЕСКОПИЧЕСКИХ ПОГРУЗЧИКОВ</div>
+            <div class="one-page head-first-page">
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+                </div>
+               
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">Рабочие органы для телескопических погрузчиков</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/dieci-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/dieci-logo.jpg" border="0" style="position: absolute; top: 25px; right: -2px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
@@ -89,7 +103,7 @@
                             
                         </div>
                        <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/dieci-organ-2.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-org-2.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">                            
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -106,7 +120,7 @@
                                     </table>
                             </div>
                             <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/dieci-organ-3.jpg" style="width:100%; margin-top: 15px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-org-3.jpg" style="width:100%; margin-top: 15px;" border="0" />
                             </div>
                             <div class="width-100">                            
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -121,7 +135,7 @@
                                     </table>
                             </div>
                             <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/dieci-organ-4.jpg" style="width:100%; margin-top: 15px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-org-4.jpg" style="width:100%; margin-top: 15px;" border="0" />
                             </div>
                             <div class="width-100">                            
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -148,35 +162,28 @@
                             
                         </div>
                        <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/dieci-organ-5.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/dieci-org-5.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">                            
-                           <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                    <tbody>
-                                        <tr style="background: white; font-weight: normal;">
-                                        <td width="15%">Длина  - 1,3 м
-                                        <br />Грузоп-сть  - 2 т</td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>
-                                        <td width="15%">Длина  - 1,3 м
-                                        <br />Грузоп-сть  - 2 т</td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price24']; ?></span></td>
-                                        <td rowspan="2" width="12,5%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price26']; ?></span></td>
-                                        <td rowspan="2" width="12,5%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price27']; ?></span></td>
-                                        <td rowspan="2" width="15%">Длина  - 1 м
-                                        <br />Грузоп-сть  - 2,5 т</td>
-                                        <td rowspan="2" width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price28']; ?></span></td>
-                                        </tr>
-                                        <tr>
-                                        <td>Длина  - 2,5 м
-                                        <br />Грузоп-сть  - 1,2 т</td>
-                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price23']; ?></span></td>
-                                        <td>Длина  - 1,3 м
-                                        <br />Грузоп-сть  - 2 т</td>
-                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price25']; ?></span></td>
-                                        
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                           <table style="border-collapse: collapse; height: 1px; border-bottom-width: 1px; border-bottom-color: black; border-bottom-style: solid; font-size: 13px; width: 760px;" border="1" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+                                <tbody>
+                                <tr style="background: white; font-weight: normal;">
+                                <td width="15%">Длина - 1,3 м <br />Грузоп-сть - 2 т</td>
+                                <td width="10%"><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price22']; ?></span></td>
+                                <td width="15%">Длина - 1,3 м <br />Грузоп-сть - 2 т</td>
+                                <td width="10%"><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price24']; ?></span></td>
+                                <td rowspan="2" colspan="2" width="12,5%"><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price26']; ?></span><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price27']; ?></span></td>
+                                <td rowspan="2" width="15%">Длина - 1 м <br />Грузоп-сть - 2,5 т</td>
+                                <td rowspan="2" width="10%"><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price28']; ?></span></td>
+                                </tr>
+                                <tr>
+                                <td>Длина - 2,5 м <br />Грузоп-сть - 1,2 т</td>
+                                <td><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price23']; ?></span></td>
+                                <td>Длина - 2,5 м <br />Грузоп-сть - 1,2 т</td>
+                                <td><span style="font-family: FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: #d3232a;"><? echo $data['price25']; ?></span></td>
+                                </tr>
+                                </tbody>
+                                </table>
                             </div>
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/dieci-organ-6.jpg" style="width:100%; margin-top: 15px;" border="0" />
@@ -185,18 +192,18 @@
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                     <tbody>
                                         <tr style="background: white; font-weight: normal;">
-                                        <td rowspan="2" width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price29']; ?></span></td>
+                                        <td rowspan="2" width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price28']; ?></span></td>
                                         <td width="15%"><span style="text-align: center;">Ширина - 2,1 м</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price30']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price29']; ?></span></td>
                                         <td width="15%"><span style="text-align: center;">Ширина - 2,1 м</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
-                                        <td rowspan="2" width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price34']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
+                                        <td rowspan="2" width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
                                         </tr>
                                         <tr>
                                         <td width="15%"><span style="text-align: center;">Ширина - 2,5 м</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price31']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price30']; ?></span></td>
                                         <td width="15%"><span style="text-align: center;">Ширина - 2,4 м</span></td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price33']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price32']; ?></span></td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -208,13 +215,13 @@
                             <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 13px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                     <tbody>
                                         <tr style="background: white; font-weight: normal;">
-                                        <td width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price35']; ?></span></td>
+                                        <td width="25%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price34']; ?></span></td>
                                         <td width="15%">Ширина - 2,5 м</td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price36']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price35']; ?></span></td>
                                         <td width="15%">Объем  - 330 л</td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price37']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price36']; ?></span></td>
                                         <td width="15%">Объем  - 400 л</td>
-                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price38']; ?></span></td>
+                                        <td width="10%"><span style="font-family:FuturisC,  sans-serif; font-size: 15px; text-align: center; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price37']; ?></span></td>
                                         </tr>
                                         </tbody>
                                     </table>

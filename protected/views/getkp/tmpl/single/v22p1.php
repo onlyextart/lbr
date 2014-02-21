@@ -38,15 +38,15 @@
                     
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 90px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 11px; height: 45px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" height="254px" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ<br /> НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
                                 <span class="text">
                                    Каждый год в России продается более 900 навесных опрыскивателей Mosquito.
                                 </span>
@@ -160,11 +160,11 @@
                                 <div class="width-100">
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="30%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
+                                            <td width="27%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
+                                            <td width="19%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>

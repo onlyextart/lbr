@@ -20,16 +20,13 @@
         </tr>
     </table>
     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
-        <tr align="right">
-            <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">Осенняя распродажа<br />тракторов McCormick</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Современный,<br />европейский,<br />лучший по цене</span>
-            </td>
-        </tr>
+       
         <tr><td colspan="2"><span>
         <?php 
 	$finance_block = $data['finance_block'];
         if ($finance_block=='1')
         {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
         }
 ?>
         </span></td></tr>
@@ -43,44 +40,51 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Трактор McCORMICK TTX 230</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" /></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">УПС 6 – универсальная пневматическая <br />сеялка точного высева</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/zirka-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/rasprodaga-mccormic.jpg" width="638" border="0" /></td></tr>
+                    
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                        <td width="328px"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
+                            <table width="328" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr><td><img src="http://www.lbr.ru/images/kp/ups6.jpg" width="318" border="0" /></td></tr>
                                 <tr valign="top">
-                                    <td width="328">                                        
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1.УДОБНАЯ ЗАМЕНА K-700</span>
+                                    <td width="328">
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                         Трехточечное навесное устройство. Грузоподъемность - до 10 500 кг. 
-                                    Гидравлическая система (130 л/мин). Контроль глубины работы и подъема навесного оборудования.<br />
+                                         <strong>Сеялка УПС 6</strong> предназначена для пунктирного высеивания калиброванных и некалиброванных семян кукурузы, подсолнечника, клещевины, сорго, сои,
+                                          а также семян кормовых бобов, фасоли, люпина с одновременным, раздельным от семян внесением гранулированных минеральных удобрений и прикатыванием почвы в рядках.<br />
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. ВСЕГО 20 000 РУБ. ЗА ЛОШАДЬ!</span>
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">КАЧЕСТВЕННЫЙ ПОСЕВ</span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        6-ти цилиндровый двигатель IVECO мощностью 225 л.с. НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ. 
-                                        МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.
+                                        • Снижение дробления семян в 10 раз по сравнению с механическими сеялками.<br />
+                                        • За счет расположения оси опорноприводных колес на одной линии с зерновыми сошниками достигается синхронное копирование рельефа поля как рамой, так и посевной секцией.<br /> 
+                                        • Полуавтоматическая сцепка обеспечивает быстрое и безопасное соединение сеялки с трактором.<br />
                                     </span>
                                     
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. ТРАКТОРИСТ – ЭТО ЧЕЛОВЕК.</span>
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">РАВНОМЕРНОСТЬ</span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        В данном классе тракторов реализована интегрированная концепция подвески и комфорта вождения. <br />
-                                        В базовой комплектации трактора: <br />
-                                        • одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;<br />
-                                        • кондиционер, отопление, вентиляция;<br />
-                                        • пневматическая подвеска кабины.<br />
+                                        • Точный однозерновой посев семян разных культур с нормой высева от 2 до 43 штук на погонный метр.<br />
+                                        • Гребенчатый сбрасыватель двойников семян обеспечивает точный однозерновой посев. На высевающем диске установлена ворошилка.<br />
+                                        • Прикатывание почвы в засеянных рядках улучшает контакт между семенами и влажной почвой на дне борозд, обеспечивает капилярный подъем влаги и создаёт благоприятные условия для более раннего и дружного прорастания семян.
                                     </span>  
-                                                                      
+                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ТУКОВЫСЕЕВАЮЩАЯ СИСТЕМА</span>
+                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                        • Через туковые сошники возможность внесения минеральных удобрений в стороне от рядка с необходимой величиной смещения, что исключает вредное воздействие туков на семена.<br />
+                                        • Все валы привода зерновых и туковых высевающих аппаратов смонтированы на подшипниках качения.<br />
+                                        • В туковом бункере установлены пластиковые втулки, которые препятствуют произвольному просыпанию минеральных удобрений.<br />
+                                        • Предусмотрен разгрузочный люк для удаления остатков минеральных удобрений.<br />
+                                        </span>                                
                                      
                                     </td>
                                     <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                  </td>
+                                  
+                                  <td>
                                    
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                     <span style="font-family: Calibri, sans-serif; font-size: 30px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">СОВРЕМЕННЫЙ.<br />ЕВРОПЕЙСКИЙ.<br />ЛУЧШИЙ ПО ЦЕНЕ!</span>
+                                    <td><img src="http://www.lbr.ru/images/kp/ups6_1.jpg" width="300" border="0" />                                     
                                      <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
                                     <table width="300" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         
@@ -88,69 +92,69 @@
                                         
                                             <tr style="background-color: #d1d3d4;">
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Модель</strong></span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>TTX 230 M/У</strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>УПС 6 02</strong></span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ДВИГАТЕЛЬ</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">FTP IVECO Common Rail Euro III</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Тип машины</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">навесная</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Число цилиндров, шт./рабочий объем, л</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">6/6728</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Ширина захвата, м</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">4,2</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Максимальная мощность, кВт (л.с)</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">165 (225)</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество рядков, шт.</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">6</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, см<sup>3</sup></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">380</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Ширина междурядий, мм</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">450,600,700,900</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ТРАНСМИССИЯ</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"></span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочая скорость, км/ч</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">3,6-9</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Коробка передач</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">XtraSpeed 8 Powershifts/Shuttle</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">2,26-3,78</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Максимальная скорость, км/ч</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">40- ограничена электроникой</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Емкость бункера (суммарная), дм<sup>3</sup><br />
+                                                - для семян<br />
+                                                - для удобрений</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><br />150<br />192</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество передач вперед/назад</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">32/24</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Нормы высева<br />
+                                                - для семян, шт/п.м.<br />
+                                                - для удобрений, кг/га</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><br />2-43<br />50-250</span></td>
                                             </tr>                                            
                                              <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса без балласта (зависит от комплектации), кг</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">7 700</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Глубина заделки семян, мм</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">40-120</span></td>
                                             </tr>
-                                            
-                                        </tbody>
-                                </table>
-                                    </td>
-                                   
-                                </tr>
-                                <table width="638" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin-top: 10px;">
-                                        
-                                        <tbody>
-                                        
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Габаритные размеры, мм<br />
+                                                - в рабочем положении<br />
+                                                - в транспортном положении</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><br />1700х4900х1600<br />5450х2300х2360</span></td>
+                                            </tr>
                                             <tr style="background-color: #d1d3d4;">
-                                                <td width="70%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Модель</strong></span></td>
-                                                <td width="30%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Цена</strong></span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса, кг</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">1074±3%</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трактор “MC TTX 230” (c механическим управлением диапазонов переключения передач) пр-во РФ</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price1']; ?></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трактор McCORMICK TTX 230 E ( с электронным управлением диапазонов переключения передач) пр-во Италия</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Агрегатируется с тракторами, л.с. (тс)</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">80 (1,4)</span></td>
                                             </tr>                                            
                                             
                                         </tbody>
                                 </table>
+                                
+                                    </td>
+                                   
+                                </tr>                               
                                 
                             </table>
                         </td>
@@ -163,144 +167,7 @@
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
        
-      <tr>
-            <td>
-                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Трактор McCORMICK TTX 190</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/rasprodaga-mccormic1.jpg" width="638" border="0" /></td></tr>
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td width="328">                                        
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. McCORMICK – РЕАЛЬНО ВЫГОДНАЯ ЦЕНА!</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                         10 % выигрыша в цене на многофункциональный трактор с богатой базовой комплектацией среди европейских тракторов аналогичного класса.<br />
-                                    </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. НА ВСЕ РУКИ МАСТЕР!</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Тракторы многофункциональны и незаменимы в работе при агрегатировании с:<br />
-                                        • зерноперегрузчиками;<br />
-                                        • с прицепами;<br />
-                                        • с косилкой-бабочкой;<br />
-                                        • с пропашными 12-ти (16-ти)-рядными сеялками;<br />
-                                        • с навесными и полунавесными плугами;<br />
-                                        • с фронтальными погрузчиками;<br />
-                                        • с бочками для внесения удобрений;<br />
-                                        • свеклоуборочными комплексами «ВИК»;<br />
-                                        • и так далее, и так далее, и так далее!
-                                    </span>
-                                    
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. КАБИНА КЛАССА ЛЮКС В СТАНДАРТНОЙ КОМПЛЕКТАЦИИ:</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        • одна из самых больших кабин в этом классе с эргономичным, понятным и надежным управлением;<br />
-                                        • кондиционер, отопление, вентиляция;<br />
-                                        • пневматическая подвеска кабины.<br />
-                                    </span>  
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">4. ТРАКТОР – ДОЛГОЖИТЕЛЬ!</span>
-                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Наработка 15 000 моточасов до 1-го капитального ремонта!<br />
-                                    </span> 
-                                                                      
-                                     
-                                    </td>
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right">                                    
-                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/>
-                                    <table width="300" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
-                                        
-                                        <tbody>
-                                        
-                                            <tr style="background-color: #d1d3d4;">
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>Модель</strong></span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>TTX 190 (T3)</strong></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ДВИГАТЕЛЬ</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">FTP IVECO Common Rail Euro III</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Число цилиндров, шт./рабочий объем, л</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">6/6728</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Максимальная мощность, кВт (л.с)</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">146 (199)</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем топливного бака, см<sup>3</sup></span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">350</span></td>
-                                            </tr>
-                                            <tr style="background-color: #d1d3d4;">
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ТРАНСМИССИЯ</span></td>
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Коробка передач</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">XtraSpeed 8 Powershifts/Shuttle</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Максимальная скорость, км/ч</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">40 – ограничена электроникой</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество передач вперед/назад</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">32/24</span></td>
-                                            </tr>
-                                            <tr style="background-color: #d1d3d4;">
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">ГИДРАВЛИЧЕСКАЯ СИСТЕМА</span></td>
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность, л/мин</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">129</span></td>
-                                            </tr>
-                                            <tr style="background-color: #d1d3d4;">
-                                                <td colspan="2" style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">НАВЕСНОЕ УСТРОЙСТВО</span></td>
-                                                
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Трехточечное, максимальная грузоподъемность на концах тяг, кг</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">10 500</span></td>
-                                            </tr>                                             
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса без балласта (зависит от комплектации), кг</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">7 700</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена</span></td>
-                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price3']; ?></span></td>
-                                            </tr>
-                                        </tbody>
-                                </table>
-                                    </td>
-                                   
-                                </tr>
-                                
-                            </table>
-                        </td>
-                        
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                </table> 
-                 
-            </td>
-        </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
-        
-              
-               
-        
-               
+      
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">

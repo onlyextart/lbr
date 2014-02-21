@@ -33,7 +33,6 @@
             
             <div class="one-page body-first-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Плуг оборотный IBIS L3+1</span></div>
@@ -192,7 +191,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Atlas XXL 4,0</span></div>
@@ -268,6 +266,7 @@
                             </div>
                         </div>
                     </div>
+                     <div style="width: 100%; height: 40px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Viking CH 6,8</span></div>

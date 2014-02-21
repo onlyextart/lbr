@@ -14,6 +14,16 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
+            <div class="one-page head-first-page head-second-page">
+                <div style="text-align: justify;">
+                <div style="height: 15px;"></div>
+                <div style="margin-top: 15px; margin-left: 20px; margin-right: 20px;">
+                <span style="font-family:FuturisC, sans-serif; text-align: justify; font-size: 20px; font-weight: bold; color: rgb(6, 69, 173);">
+                «Финансовые продукты ЛБР! Очень доступно! Крайне выгодно! Самые выгодные условия по нашей программе продажи техники в кредит Аванс - 25%. Срок кредита – до 7 месяцев. Промежуточные платежи – не более 10% в месяц. % удорожания – 0%. Дополнительное обеспечение не требуется!»</span>
+                </div>
+          
+                </div>
+            </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
@@ -152,7 +162,47 @@
                                             </tr>
                                             
                                         </tbody>
-                                    </table>
+                                    </table>                                    
+                                    
+                                    </div>
+                                <div class="left-50" style="text-align: center;">
+                                <img src="http://www.lbr.ru/images/kp/ups6.jpg" border="0" style="width: 380px; margin-top: 5px;" />
+                                
+                                    <span class="text" style="font-size: 14px; line-height: 20px;">
+                                    <br /><strong>Сеялка УПС 6</strong> предназначена для пунктирного высеивания калиброванных и некалиброванных семян кукурузы, подсолнечника, клещевины, сорго, сои,
+                                     а также семян кормовых бобов, фасоли, люпина с одновременным, раздельным от семян внесением гранулированных минеральных удобрений и прикатыванием почвы в рядках.
+                                     </span>
+                                    <span class="span-red-left">КАЧЕСТВЕННЫЙ ПОСЕВ</span>
+                                    <span class="text" style="font-size: 14px; line-height: 20px;"> 
+                                        • Снижение дробления семян в 10 раз по сравнению с механическими сеялками.
+                                        <br />• За счет расположения оси опорноприводных колес на одной линии с зерновыми сошниками достигается синхронное копирование рельефа поля как рамой, так и посевной секцией.
+                                         <br />• Полуавтоматическая сцепка обеспечивает быстрое и безопасное соединение сеялки с трактором.
+                                    </span>
+                                    
+                                    <span class="span-red-left">РАВНОМЕРНОСТЬ</span>
+                                    <span class="text" style="font-size: 14px; line-height: 20px;"> 
+                                        • Точный однозерновой посев семян разных культур с нормой высева от 2 до 43 штук на погонный метр.
+                                        <br />• Гребенчатый сбрасыватель двойников семян обеспечивает точный однозерновой посев. На высевающем диске установлена ворошилка.
+                                        <br />• Прикатывание почвы в засеянных рядках улучшает контакт между семенами и влажной почвой на дне борозд, обеспечивает капилярный подъем влаги и создаёт благоприятные условия для более раннего и дружного прорастания семян.
+                                    </span>
+                                    
+                                </div>                              
+                                
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Конец первой страницы -->
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
+                        <div class="body-content">   
+                                <div class="right-50">
+                                <div style="width: 100%; height: 20px;"></div>
+                                
                                     <span class="span-red-left" style="margin-left: 19px;">Кукуруза- подсолнечник</span>
                                     <table width="361" style="border-collapse:  collapse; font-size: 14px; height: 1px; border-bottom: 1px black solid; margin-bottom: 10px; margin-left: 19px;"  align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -192,55 +242,28 @@
                                             
                                         </tbody>
                                     </table>
-                                    
                                     <span class="text" style="font-size: 14px; margin-left: 19px; line-height: 20px;"> 
                                     <span style="color: rgb(211, 35, 42);  text-transform: uppercase; background: white; text-align: left; font-size: 18px; font-family: FuturisXC,sans-serif;">
                                     <br />ПРИКАТКА, ЗАГРЕБАТЕЛИ, ШЛЕЙФ-РЕЙКА</span>
                                         – для улучшения заделки семян и устойчивости посевных секций при работе кукурузных сеялок
-                                    </span>
-                                    </div>
-                                <div class="left-50" style="text-align: center;">
-                                <img src="http://www.lbr.ru/images/kp/ups6.jpg" border="0" style="width: 380px; margin-top: 5px;" />
-                                
-                                    <span class="text" style="font-size: 14px; line-height: 20px;">
-                                    <br /><strong>Сеялка УПС 6</strong> предназначена для пунктирного высеивания калиброванных и некалиброванных семян кукурузы, подсолнечника, клещевины, сорго, сои,
-                                     а также семян кормовых бобов, фасоли, люпина с одновременным, раздельным от семян внесением гранулированных минеральных удобрений и прикатыванием почвы в рядках.
-                                     </span>
-                                    <span class="span-red-left">КАЧЕСТВЕННЫЙ ПОСЕВ</span>
-                                    <span class="text" style="font-size: 14px; line-height: 20px;"> 
-                                        • Снижение дробления семян в 10 раз по сравнению с механическими сеялками.
-                                        <br />• За счет расположения оси опорноприводных колес на одной линии с зерновыми сошниками достигается синхронное копирование рельефа поля как рамой, так и посевной секцией.
-                                         <br />• Полуавтоматическая сцепка обеспечивает быстрое и безопасное соединение сеялки с трактором.
-                                    </span>
-                                    
+                                    </span>                                    
+                                   </div>   
+                                <div class="left-50" style="text-align: center;"> 
+                                <div style="width: 100%; height: 20px;"></div>                               
                                     <span class="span-red-left">РАВНОМЕРНОСТЬ</span>
                                     <span class="text" style="font-size: 14px; line-height: 20px;"> 
                                         • Точный однозерновой посев семян разных культур с нормой высева от 2 до 43 штук на погонный метр.
                                         <br />• Гребенчатый сбрасыватель двойников семян обеспечивает точный однозерновой посев. На высевающем диске установлена ворошилка.
                                         <br />• Прикатывание почвы в засеянных рядках улучшает контакт между семенами и влажной почвой на дне борозд, обеспечивает капилярный подъем влаги и создаёт благоприятные условия для более раннего и дружного прорастания семян.
                                     </span>
-                                    <span class="span-red-left">ТУКОВЫСЕЕВАЮЩАЯ СИСТЕМА</span>
-                                    <span class="text" style="font-size: 14px; line-height: 20px;"> 
-                                        • Через туковые сошники возможность внесения минеральных удобрений в стороне от рядка с необходимой величиной смещения, что исключает вредное воздействие туков на семена.
-                                        <br />• Все валы привода зерновых и туковых высевающих аппаратов смонтированы на подшипниках качения.
-                                        <br />• В туковом бункере установлены пластиковые втулки, которые препятствуют произвольному просыпанию минеральных удобрений.
-                                        <br />• Предусмотрен разгрузочный люк для удаления остатков минеральных удобрений.                                    
-                                        </span>                                    
                                     
+                                                           
                                 </div>                              
-                                
-                            </div>                             
+                                                 
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--Конец первой страницы -->
-            <div class="one-page body-page">
-                <div class="content-page">
                     <div style="width: 100%; height: 20px;"></div>
                         
-                
-                    <div style="width: 100%; height: 20px;"></div>
                                             
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
