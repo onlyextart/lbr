@@ -28,7 +28,12 @@ class GetkpController extends Controller
             $filial = $command->queryRow();
             if(!in_array($_REQUEST['temp_id'], $this->unique))
                 $temp = TemplateKp::model()->findByPk($_REQUEST['temp_id']);
-            $this->renderPartial('index', array('data'=>$_REQUEST, 'filial'=>$filial, 'template'=>$temp, 'unique'=>$this->unique));
+            
+            if($_REQUEST['temp_id']=='news'){
+                $this->renderPartial('news', array('data'=>$_REQUEST));
+            }else{
+                $this->renderPartial('index', array('data'=>$_REQUEST, 'filial'=>$filial, 'template'=>$temp, 'unique'=>$this->unique));
+            }
         }
     }
                 
