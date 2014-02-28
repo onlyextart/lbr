@@ -736,6 +736,21 @@ header:after{
                         }
 
                     }
+                    div.review_photo.action
+                    {
+                        .time_to_buy_top_left
+                        {
+                          overflow: hidden;
+                          text-indent: 100%;
+                          background: url("/images/timetobuy/action.png") transparent no-repeat center;
+                          height: 88px;
+                          width: 90px;
+                          padding: 0px;
+                          margin: 0px;
+                          top: 15px;
+                          left: 15px;
+                        }
+                    }
                     div.review_video
                     {
                         display: block;
@@ -1350,6 +1365,13 @@ header:after{
                                         padding: 5px 15px;
                                         font-family: 'Open Sans', sans-serif;
                                     }
+                                }
+                            }
+                            .time_to_buy.action
+                            {
+                                .time_to_buy_top_left
+                                {
+                                    background: url("/images/timetobuy/action.png") no-repeat center;
                                 }
                             }
                             /*----END-Time-To-Buy-------*/
@@ -2241,7 +2263,7 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
     -o-text-overflow: ellipsis;
     float: left;
  }
- show_regions_table_button_wrapper:after,  .arrow-wrapper:after{
+ #show_regions_table_button_wrapper:after,  .arrow-wrapper:after{
      .clr;
  }
  .arrow-wrapper{
@@ -2263,7 +2285,7 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
   }
   
   /*-------News------------------------*/
-    .list-view li a h{
+    .list-view li a .h-3{
         color: #008873;
         font-size: 16px;
         font-weight: bold;
