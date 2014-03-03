@@ -20,6 +20,15 @@
                     <span class="dieci-header-orange">сушКа и логистиКа <br>хранения</span>
                 </div>
                 <div class="first-header-text">КуКурузу и семечКу сушим сами!!!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">

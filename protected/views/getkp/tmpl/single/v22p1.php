@@ -10,31 +10,43 @@
             <div id="header">
                 <div class="left-75 header-text">
                     <span class="header-2"><? echo $data['header']; ?> </span></div>
-                     <div style="width: 100%; height: 55px;"></div>
+                    <div class="right-20">
+                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
+                </div>
                 
             </div>
+            <div class="one-page head-first-page">
+              <div class="head-content-grey">
+                            <div class="h-2"><span>Опрыскиватели от А до Я - для любых задач и любого бюджета!</span></div>
+                            
+                        </div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+                </div>
             
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
-                    <div class="right-20">
-                    <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
-                </div>
-                        <div class="head-content-grey">
-                            <div class="h-2"><span>Опрыскиватели от А до Я - для любых задач и любого бюджета!</span></div>
-                            
-                        </div>
+                    
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 90px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 11px; height: 45px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" height="254px" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ<br /> НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
                                 <span class="text">
                                    Каждый год в России продается более 900 навесных опрыскивателей Mosquito.
                                 </span>
@@ -148,11 +160,11 @@
                                 <div class="width-100">
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="30%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
-                                            <td width="10%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
+                                            <td width="27%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="8%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
+                                            <td width="19%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
@@ -446,7 +458,7 @@
     .head-content .logo-maker{text-align: right; margin-top: 4px;}
     .body-content .h-4{display: block; font-family: FuturisXC, sans-serif; margin-top: 3px; font-size: 17px;}
     .body-content .h-3{display: block; font-family: FuturisXC, sans-serif; color:rgb(211, 35, 42); margin-top: 8px; font-size: 16px;}
-    .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 5px 0 0;}
+    .head-content-grey{border-bottom: 3px solid rgb(211, 35, 42); margin-bottom: 10px; padding: 10px; text-align: center;}
     .head-content-grey .h-2{ color: #CC3333; font-family: FuturisXC, sans-serif; margin-top: 8px; font-size: 25px; text-transform: uppercase;}
     
     .body-page .content-page{padding: 0 20px 10px;}

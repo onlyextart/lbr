@@ -19,6 +19,16 @@
                     <span class="dieci-header-orange">Выгодная логистика.<br />Прицепы и полуприцепы.</span>
                 </div>
                 <div class="first-header-text">Товарищ, нервы в кулак<br /> сожми - купи прицеп и<br /> урожай увози!</div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -123,13 +133,13 @@
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left">1. 3 В 1 И ДАЖЕ БОЛЬШЕ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 20px;">                                        
+                                    <span class="text" style="font-size: 15px; line-height: 18px;">                                        
                                         • перевозка зерна, сенажа и зелёной массы объёмом до 40 куб.м;<br />
                                         • загрузка сеялок семенами и минеральными удобрениями в период проведения посевных работ;<br />
                                         • безопасная погрузка и разгрузка овощей, опционально устанавливается комплект овощник (гаситель падения в кузов и козырёк разгрузки на борт).<br>
                                     </span>
                                     <span class="span-red-left">2. НАДЁЖНОСТЬ – РЕЗУЛЬТАТ ОПЫТА И ОСНАЩЕНИЯ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 20px;"> 
+                                    <span class="text" style="font-size: 15px; line-height: 18px;"> 
                                         <b>Богатая базовая комплектация:</b><br />                                       
                                         • один ярус надставных бортов в базовой комплектации;<br />
                                         • боковая стабилизация кузова (гидромеханическая) – безопасность при работе на неровных поверхностях;<br />
@@ -142,7 +152,7 @@
                                         • двухкомпонентная краска TIKURILLA – эффективная защита от коррозии!;<br />
                                     </span>
                                     <span class="span-red-left">3. ПРИЦЕП НЕ РОСКОШЬ, А СРЕДСТВО ПОЛУЧЕНИЯ ПРИБЫЛИ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 20px;">                                                                         
+                                    <span class="text" style="font-size: 15px; line-height: 18px;">                                                                         
                                         • Возим не прицеп, а грузы! Меньшая собственная масса по сравнению с аналогами за счёт уникальной конструкции кузова. Позволяет получить до 20% экономии ГСМ.<br />
                                         • Меньше ездим, больше возим! Увеличенный объём кузова в стандартной комплектации. Позволяет экономить ГСМ и время на перевозку 1 куб.м груза. Конусный кузов позволяет полностью и за короткое время произвести разгрузку прицепа.<br />
                                         • Не требуется независимой гидросистемы! Полная адаптация, как к отечественным, так и импортным тракторам. Возможность установки комбинированной тормозной системы, как под гидро, так и под пневмотормоза.<br />
@@ -161,7 +171,7 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div style="width: 100%; height: 20px;"></div>
+                    <div style="width: 100%; height: 10px;"></div>
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Бункер-перегрузчик J&M Тип</span></div>
@@ -175,9 +185,9 @@
                                 <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi3.jpg" border="0" />
                                 <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">J&M 818</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">J&M 1118</span></td>
+                                            <td width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">J&M 818</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">J&M 1118</span></td>
                                         </tr>
                                         <tr  bgcolor="#d1d3d4">
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Общая вместимость, м<sup>3</sup></span></td>
@@ -255,10 +265,10 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi4.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi4.jpg" style="width: 100%;" height="360px" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi5.jpg" border="0"  height="213px"/>
                                 <table width="361" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
@@ -284,17 +294,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Высота платформы, мм</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1130</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1200</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Высота с одним ярусом бортов, мм</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1630</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1800</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Высота с двумя ярусами бортов, мм</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2130</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2400</span></td>
-                                        </tr>
+                                        </tr>                                        
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Ширина колеи, мм</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1500</span></td>
@@ -363,6 +363,7 @@
                                 </span>
                             </div>                            
                         </div>
+                    </div>
                     </div>
                     </div>
                     <div class="page-break"></div>
@@ -481,7 +482,7 @@
     .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
     .dieci-orange-text-header{padding-right: 10px; font-family: FuturisXC, sans-serif; font-size: 56px; color: rgb(245,130,32); text-transform: uppercase; text-align: right}
     .tect_dlg{float: right; margin-top: 25px; margin-right: 20px;}
-    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; text-align: left; font-size: 18px; padding: 15px 0 0; font-family: FuturisXC,sans-serif;}
+    .span-red-left{ clear: both; display: block; text-transform: uppercase; background: white; text-align: left; font-size: 18px; padding: 3px 0 0; font-family: FuturisXC,sans-serif;}
     .span-red-center{ clear: both; display: block;  background: white; color: rgb(211, 35, 42); text-transform: uppercase; text-align: center; font-size: 30px; padding: 5px 0; font-family: FuturisXC,sans-serif;}
     
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75, .left-65, .left-85, .left-45

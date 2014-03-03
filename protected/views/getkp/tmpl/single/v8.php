@@ -23,6 +23,15 @@
         <tr align="right">
             <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">Сеялка Spartan от Great Plains 607 + Трактор McCormick = двойная выгода</span><br><span style="font-family: Calibri, sans-serif;  text-align: right; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Переходить на ноль стало проще!</span></td>
         </tr>
+        <tr><td>
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

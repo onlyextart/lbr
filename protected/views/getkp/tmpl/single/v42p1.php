@@ -19,7 +19,15 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ЭФФЕКТИВНАЯ УБОРКА ЛУКА!</span>
                 </div>
-                
+              <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>  
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -101,15 +109,9 @@
                                 <span class="text">
                                    Опционально устанавливаемый на обрезчике контроль высоты обрезания ботвы минимизирует ошибки оператора, улучшая качество уборки лука на 30%!
                                 </span>
-                            </div>
+                            </div>                            
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. ЛЕГКОСТЬ И ПРОСТОТА ОБСЛУЖИВАНИЯ ОБРЕЗЧИКА!</span>
-                                <span class="text">
-                                   Верхняя крышка обрезчика легко поднимается вверх, что позволяет проводить обслуживание обрезчика и замену рабочих органов без сложной разборки элементов обрезчика.
-                                </span>
-                            </div>
-                            <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">3. СВЕРХПРОЧНЫЕ НОЖИ ДЛЯ ОБРЕЗАНИЯ БОТВЫ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">2. СВЕРХПРОЧНЫЕ НОЖИ ДЛЯ ОБРЕЗАНИЯ БОТВЫ!</span>
                                 <span class="text">
                                    Ножи, изготовленные из высококачественной стали, расположены под углом 45 градусов, что создает воздушный поток, которые приподнимает ботву луку, позволяя обрезать ботву даже со сломанного или поврежденного лука. 
                                    Лезвия, используемые на обрезчике ботвы двухсторонние. При стачивании одной стороны, можно легко использовать другую просто перевернув лезвие.
@@ -121,9 +123,9 @@
                                <table width="380" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin: 10px 0px;">
                                         <tbody>
                                             <tr style="background-color: #d1d3d4;">
-                                                <td width="32%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
-                                                <td width="34%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 м</strong></strong></span></td>
-                                                <td width="34%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 с автоматическим контролем рабочей высоты</strong></strong></span></td>
+                                                <td width="40%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td width="30%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 м</strong></strong></span></td>
+                                                <td width="30%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 с автоматическим контролем рабочей высоты</strong></strong></span></td>
                                             </tr>
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Рабочая ширина, м</span></td>
@@ -141,7 +143,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span></td>
                                             </tr>  
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность,л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">От 60</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span></td>
                                             </tr>                                           
@@ -182,7 +184,7 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;"><br />2. ВАЛОК БЕЗ ПРОВОЛОК!</span>
+                                <span class="h-4" style="text-transform: uppercase;">2. ВАЛОК БЕЗ ПРОВОЛОК!</span>
                                 <span class="text">
                                    В задней части копалки расположен прикатывающий каток, предназначенный для уплотнения почвы перед укладкой лука. 
                                    В задней части копалки установлены отражатели, которые укладывают лук в ровный валок для облегчения последующей сборки подборщиком.
@@ -245,13 +247,13 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;"><br />2. КОПАЙ ЛУК И КАРТОФЕЛЬ ОДНОЙ КОПАЛКОЙ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">2. КОПАЙ ЛУК И КАРТОФЕЛЬ ОДНОЙ КОПАЛКОЙ!</span>
                                 <span class="text">
                                    Опционально на копалке возможна установка лемехов, для выкапывания картофеля, что делает данную машину универсальным помощников для овощных хозяйств.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;"><br />3. НАДЕЖНЫЙ ТРАНСПОРТЕР – ЗАЛОГ УСПЕШНОЙ УБОРОЧНОЙ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">3. НАДЕЖНЫЙ ТРАНСПОРТЕР – ЗАЛОГ УСПЕШНОЙ УБОРОЧНОЙ!</span>
                                 <span class="text">
                                    Установленные по стандарту усиленные замки решетки транспортера позволяют использовать копалку даже на тяжелых почвах без повреждения приемного транспортера. 
                                    Шаг цепи транспортера 44 мм. Длина транспортера 2000 м с перепадами для очистки лука от грязи.

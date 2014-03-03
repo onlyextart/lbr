@@ -26,6 +26,15 @@
             <span style="display:block; font-family: Calibri, sans-serif;  text-align: justify; font-size:33px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ОКУПАЮТСЯ ЗА СЕЗОН ЗА СЧЕТ ПРИРОСТА НАДОЕВ И ИСКЛЮЧЕНИЯ ВЫБОРОЧНОГО ПОЕДАНИЯ КОРМА.</span>
             </td>
         </tr>
+        <tr><td>
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

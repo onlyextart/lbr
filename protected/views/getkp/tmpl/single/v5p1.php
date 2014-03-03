@@ -22,7 +22,16 @@
                 <div class="width-100 dieci-black-header">На площадке АгроМаркета вас ждут самые популярные модели</div>
                 <div class="dieci-orange-text-header">телескопических<br>погрузчиков Dieci</div>
                 <div class="first-header-text">Выберите свой погрузчик!</div>
-            </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+            </div>           
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="head-content">
@@ -236,12 +245,12 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">6,04</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузо-ть на максимальном вылете, кг </span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1.200</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">400</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузо-ть на максимальной высоте, кг </span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2500</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1500</span></td>
                                     </tr>
@@ -251,7 +260,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">100</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность задней трехточечной навески, кг</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузо-ть задней трехточечной навески, кг</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4000</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4000</span></td>
                                     </tr>
@@ -266,7 +275,7 @@
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 12px; ">Vario System</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Гидравлическая система, л/мин; бар</span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 12px; ">110/240</span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 12px; ">110/240</span></td>
                                     </tr>

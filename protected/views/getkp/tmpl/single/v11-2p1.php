@@ -20,6 +20,16 @@
                     <span class="dieci-header-orange">БОЛЬШОЙ<br /> ОСЕННИЙ БОНУС !!!</span>
                 </div>
                 <div class="first-header-text">Всем, кто в 2013 году купил трактор МТЗ 1523 в сети агромаркетов ЛБР, - большие осенние скидки на сельхозмашины, агрегатируемые с трактором.</div>
+           <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
+           
             </div>
             
             
@@ -261,6 +271,15 @@
                         </div>
                     </div>
                     
+                    
+                    <div style="width: 100%; height: 15px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Полярис-8,5</span></div>
@@ -400,14 +419,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 15px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор стерневой Kos 3,7</span></div>
@@ -539,7 +550,13 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
+                    </div>
+                    </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая 2SF30</span></div>
@@ -686,7 +703,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона зубовая Superharrow 14м</span></div>
@@ -745,14 +761,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 10px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Jacek</span></div>
@@ -836,7 +844,14 @@
                             </div>
                         </div>
                     </div> 
-                    <div style="width: 100%; height: 25px;"></div>
+                    <div style="width: 100%; height: 10px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>

@@ -10,6 +10,24 @@ class ProductsController extends Controller{
             )
         );
     }
+
+    public function actionDelete( $id ){
+        $model = Products::model()->findByPk( $id );
+        if($model!==null){
+            //Удалить страницу из пунктов меню
+            $menuItems = MenuItemsContent::model()->with('item')->findAll(
+                'page_id='.$model->id.'
+                    AND item.type='.MenuItems::PRODUCT_MENU_ITEM_TYPE
+            );
+            if($menuItems && !empty($menuItems)){
+                foreach($menuItems as $menuItem){
+                    $menuItem->delete();
+                }
+            }
+            //Удалить страницу
+            $model->delete();
+        }
+    }
     
     public function actionCreate(){
         $productModel = new Products();
@@ -80,6 +98,7 @@ class ProductsController extends Controller{
                             $menuItemContentModel->save();
                         }
                     }
+                    $productModel->metaSave();
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара создана.');
@@ -198,6 +217,7 @@ class ProductsController extends Controller{
                     foreach( $menuItmemsContentModelsForDeleting as $deleteMenuItmemsContent ){
                         $deleteMenuItmemsContent->delete();
                     }
+                    $productModel->metaSave();
                 }
             }
             Yii::app()->user->setFlash('saved','Страница товара успешно сохранена.');

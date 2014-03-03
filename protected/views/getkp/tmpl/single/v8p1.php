@@ -20,7 +20,17 @@
                     <span class="dieci-header-orange">Сеялка Spartan от Great Plains 607 + Трактор <br>McCormick = двойная выгода</span>
                 </div>
                 <div class="first-header-text">Переходить на ноль <br>стало проще!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
+            
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">

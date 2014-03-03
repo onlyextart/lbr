@@ -40,8 +40,8 @@ class MenuController extends Controller{
     public function actionMenuTree(){
         $menuModel = MenuItems::model()->findAll();
         //$roots - Все корни меню
-        $roots = MenuItems::model()->roots()->findAll();
-        $menuTreeArray = MenuItems::getMenuTree($roots);
+//        $roots = MenuItems::model()->roots()->findAll();
+        $menuTreeArray = MenuItems::getMenuTree();
         $this->addCreateItemButtonInTree($menuTreeArray);
         $this->renderPartial('menuTree', array(
             'menuModel'=>$menuModel,

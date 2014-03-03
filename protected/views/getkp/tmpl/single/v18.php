@@ -23,6 +23,15 @@
         <tr align="right">
             <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">ЕВРОПЕЙСКИЕ ЗЕРНОВЫЕ СЕЯЛКИ ПО ЦЕНЕ АНАЛОГОВ ИЗ СТРАН СНГ!</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">СЕЯЛКА - ГЛАВНЫЙ ФАКТОР УРОЖАЯ!</span></td>
         </tr>
+        <tr><td colspan="2"><span>
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
@@ -74,8 +83,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">80</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -144,8 +153,8 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">100-120</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
@@ -172,8 +181,8 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">ПНЕВМАТИЧЕСКАЯ СЕЯЛКА MASTER DRILL D 600</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">ПНЕВМАТИЧЕСКАЯ СЕЯЛКА MASTER DRILL D 600 С 2-Х ДИСКОВЫМ СОШНИКОМ</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -184,7 +193,9 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
                                 <tr valign="top">
                                     <td width="328">
-                                     
+                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 20px; color: #222222; line-height: 16px;"><b>Быстро, точно, без забивания! </b></span>
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;"><br />Идеально подходят для эффективного высева в ходе ступенчатых режимов работы с незначительной требуемой мощностью.
+                                    </span>
                                     
                                      <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tbody>
@@ -209,14 +220,81 @@
                                                 <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">100-120</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                             </tr>
                                         </tbody>
                                 </table>
                                     </td>
                                     <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right"><img src="http://www.lbr.ru/images/kp/disc-3.jpg" width="300" border="0" />
+                                    </td>
+                                   
+                                </tr>
+                            </table>
+                        </td>
+                        
+                    </tr>
+                </table> 
+                 
+            </td>
+            
+        </tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">ПНЕВМАТИЧЕСКАЯ СЕЯЛКА MASTER DRILL D 400 С 2-Х ДИСКОВЫМ СОШНИКОМ</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr valign="top">
+                                    <td width="328">
+                                      
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">Надежна, проста в управлении и позволяет производить точную заделку семян при точной дозированной их подаче. Большой бункер для посевного материала при рабочей ширине 4 м позволяет добиться хорошей производительности в расчете на единицу площади.
+                                    </span>
+                                    
+                                     <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочая ширина, м</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">4</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество рядов (сошников),  шт.</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">33</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Емкость семенного ящика, дм3</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">870</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">3,2</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
+                                                <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                                    </td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/drill400.jpg" width="300" border="0" />
                                     </td>
                                    
                                 </tr>
@@ -236,7 +314,7 @@
             
         </tr>
         
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -296,10 +374,10 @@
                                     </tr>
                                     <tr>
                                         <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена руб с НДС</span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                     </tr>
                                         </tbody>
                                         

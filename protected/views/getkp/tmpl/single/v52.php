@@ -24,6 +24,15 @@
             <td align="center"><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">Трактор McCORMICK TTX 230, 230 л.с<br /> +<br /> американский посевной комплекс<br /> шириной захвата 13,7 метра</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Экономия 400 тысяч рублей. Всего за 9,9 млн. руб.</span>
             </td>
         </tr>
+        <tr><td colspan="2"><span>
+        <?php 
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </span></td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
@@ -52,10 +61,10 @@
                                     Гидравлическая система (130 л/мин). Контроль глубины работы и подъема навесного оборудования.<br />
                                     6-ти цилиндровый двигатель IVECO мощностью 225 л.с.<br />
                                     </span>
-                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black text-transform: uppercase;">НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ.</span>
+                                    <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black; text-transform: uppercase;">НИЗКИЕ ЭКСПЛУАТАЦИОННЫЕ РАСХОДЫ.</span>
                                     <span><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;"/></span>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: black; text-transform: uppercase;">МИНИМУМ ВРЕМЕНИ НА ПРОВЕДЕНИЕ ТО.</span>
-                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;""/>
+                                    <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; height: 5px;"/>
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;"><br />2. КОГДА ВОЖДЕНИЕ – ЭТО КОМФОРТ И УВЕРЕННОСТЬ</span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         В базовой комплектации трактора:

@@ -27,6 +27,15 @@
                         НОВЫХ ДВУХ!
                     </span>
                 </div>
+                 <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -279,7 +288,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/zirka-4.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/zirka-4.jpg" style="width:100%" border="0" height="258px" />
                             </div>
                             <div class="width-100">
                                 <table width="760" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">

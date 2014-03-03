@@ -19,7 +19,7 @@
                 <div class="content-page">
                     <span class="first-header-text">ЕВРОПЕЙСКИЙ ПОДХОД</span>
                     <span class="second-header-text">к весенним полевым<br>работам!</span>
-                </div>
+                
                  <div class="orange-background-center">
                    <span> Внимание! Оплата в рассрочку!</span>
                 </div>
@@ -46,6 +46,9 @@
                     </table>
                 </div>
             </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
@@ -520,8 +523,8 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
+            </div>
+        
         
     </body>
 </html>

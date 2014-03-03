@@ -14,6 +14,7 @@
                             <td><span style="color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;"><? echo $data['header']; ?> </span></td>
                             <td width="160" align="right"><span style="text-decoration: none;"><a style="text-decoration: none;" href="http://www.lbr.ru/" target="_blank"><img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Логотип ЛБР-Агромаркет" width="150" height="100" border="0" /></a></span></td>
                         </tr>
+                        
                     </tbody>
                 </table>
             </td>
@@ -23,6 +24,15 @@
         <tr align="right">
             <td><span style="font-family: Calibri, sans-serif; font-size:32px; font-weight: bolder; color: #d1232a;">ВНИМАНИЕ!!! <br /> СКИДКИ!!!</span><br><span style="font-family: Calibri, sans-serif;  text-align: right; font-size:38px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">НЕ УПУСТИТЕ ШАНС КУПИТЬ ДЕШЕВЛЕ НА 3.000.000 РУБЛЕЙ!</span></td>
         </tr>
+        <tr><td>
+        <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_block', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+        </td></tr>
     </table>
      <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
         <tr><td><img width="20" src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

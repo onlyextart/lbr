@@ -30,7 +30,7 @@ class BannersController extends Controller
             // Выбор банеров текущего пункта меню
             $criteria = new CDbCriteria();
             $criteria->condition = 'item_id=:item_id';
-//            $criteria->order = 'page_id ASC';
+//            $criteria->order = 'sorting ASC';
             $criteria->params = array(
                 ':item_id'=>$sub,
             );
@@ -157,7 +157,12 @@ class BannersController extends Controller
                             }
                             $bannerModel->moveUploadedImages();
                             Yii::app()->user->setFlash('saved','Баннер создан.');
-                            $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
+                            if($_POST['yt0'])
+                            {
+                                $this->redirect('/administrator/banners/');
+                            }else{
+                                $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
+                            }
                         }
                     }
                 }
@@ -316,7 +321,12 @@ class BannersController extends Controller
                             }
                             $bannerModel->moveUploadedImages();
                             Yii::app()->user->setFlash('saved','Баннер сохранен.');
-                            $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
+                            if($_POST['yt0'])
+                            {
+                                $this->redirect('/administrator/banners/');
+                            }else{
+                                $this->redirect('/administrator/banners/update/id/'.$bannerModel->id);
+                            }
                         }
                     }
                 }

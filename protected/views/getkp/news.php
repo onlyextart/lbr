@@ -2,6 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" style="min-height: 100%">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <BASE href="v8config://eeaf5085-e783-4a57-9a05-1357ae55da33/mdobject/ide1ffff40-2647-407a-9655-20eb4c0de2b3/8eb4fad1-1fa6-403e-970f-2c12dbb43e23">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <META name=GENERATOR content="MSHTML 9.00.8112.16526">
     <title><? echo $template->title; ?></title>
 </head>
 <body>
@@ -36,15 +39,15 @@ function getRow($array){
     for($i = 1; $i<=count($array); $i++){
         $return .= '<tr>';
             $return .= '<td class="t-r-date">';
-                $return .= $array[$i]['date'];
+                $return .= '<span>'.$array[$i]['date'].'</span>';
             $return .= '</td>';
             $return .= '<td class="t-r-header">';
-                $return .= $array[$i]['caption'];
+                $return .= '<span>'.$array[$i]['caption'].'</span>';
             $return .= '</td>';
         $return .= '</tr>';
         $return .= '<tr>';
             $return .= '<td class="t-r-image">';
-                $return .= $array[$i]['image'];;
+                $return .= $array[$i]['image'];
             $return .= '</td>';
             $return .= '<td class="t-r-text">';
                 $return .= $array[$i]['text'];
@@ -65,7 +68,7 @@ function getCollum($array){
         for($k = 1; $k<=$c; $k++)
         {
             $return .= '<td class="width-'.$tdclass.'">';
-                $return .= '<div class="t-c-header"><span class="t-c-date">'.$array[$i][$k]['date'].'</span> '.$array[$i][$k]['caption'].'</div>';
+                $return .= '<div class="t-c-header"><span class="t-c-date">'.$array[$i][$k]['date'].'<span class="white">__</span>|</span> '.$array[$i][$k]['caption'].'</div>';
                 $return .= '<div class="t-c-image">'.$array[$i][$k]['image'].'</div>';
                 $return .= '<div class="t-c-text">'.$array[$i][$k]['text'].'</div>';
             $return .= '</td>';
@@ -96,7 +99,7 @@ function getCollum($array){
         padding: 5px 15px;
         margin: 0;
         font-size: 16px;
-        background: #eee;
+        background: #ef7f1a;
     }
     .code > div
     {
@@ -126,7 +129,7 @@ function getCollum($array){
     .wrapper h1
     {
         font-family: Impact;
-        color: rgb(91,90,80);
+        color: #ef7f1a;
         text-align: center;
         font-size: 50px;
         margin: 0px 0 0 0;
@@ -136,11 +139,11 @@ function getCollum($array){
         font-family: Calibri;
         color: rgb(43,42,41);
         text-align: center;
-        font-size: 13.5px;
+        font-size: 16px;
     }
     .wrapper .w-wrapper .w-w-header
     {
-        background: rgb(91,90,80);
+        background: #ef7f1a;
         color: white;
         font-family: Impact;
         font-size: 32px;
@@ -151,10 +154,14 @@ function getCollum($array){
     {
         
     }
+    .white
+    {
+        color: rgb(255,251,239);
+    }
     .wrapper .collum-table .t-c-header
     {
         font-family: Calibri;
-        font-size: 13.5px;
+        font-size: 15px;
         color: rgb(43, 42, 41);
         font-weight: 900;
         margin-top: 15px;

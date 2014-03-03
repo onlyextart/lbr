@@ -19,7 +19,15 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Выгодные<br /> инвестиции<br /> в картофель!!!</span>
                 </div>
-                
+               <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div> 
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -251,7 +259,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1,6</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора,л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">50</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">75</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">75</span></td>
@@ -300,12 +308,12 @@
                             
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 2F 75-80-85-90</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 75</span></td>
-                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 90</span></td>
+                                            <td width="40%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 2F 75-80-85-90</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 75</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">TF 4F 90</span></td>
                                         </tr>
-                                        <tr  bgcolor="#d1d3d4">
+                                        <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Кол-во рядков</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">2x75-80-90</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">4х75</span></td>
@@ -318,7 +326,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1500</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Требуемая мощность,л.с.</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">50</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">70</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
@@ -330,7 +338,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1000</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Производительность,га/ч</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">0,6-1</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,2-2,1</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1,4-2,5</span></td>
@@ -470,9 +478,9 @@
                             
                                 <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1400</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1650</span></td>
+                                            <td width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1400</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PD1650</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Междурядье, см</span></td>
@@ -500,7 +508,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">360</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Необходимая мощность трактора, л.с.</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 80</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">От 110</span></td>
                                         </tr>
@@ -623,8 +631,9 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/invest-potato14.jpg" border="0" />                               
+                                <img src="http://www.lbr.ru/images/kp/invest-potato14.jpg" border="0" height="265px" />                                                              
                             </div>
+                            
                             <div class="right-50">
                                 <span class="h-4">1. Меньше радиус поворота на краю поля!</span>
                                 <span class="text">
@@ -645,11 +654,14 @@
                                 </span>
                             
                             
-                                <table width="380" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                
+                            </div>
+                            <div class="left-40">
+                            <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin-left: 0; margin-right: 0;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 1500</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 3000</span></td>
+                                            <td width="50%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 1500</span></td>
+                                            <td width="25%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">PYRA 3000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Емкость бункера, кг</span></td>

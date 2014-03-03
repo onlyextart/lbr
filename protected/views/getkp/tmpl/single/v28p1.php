@@ -22,6 +22,15 @@
                     </div>
                     <span class="second-header-text">Сделайте молоко<br /> рентабельным!</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -32,8 +41,8 @@
                             <div class="h-2"><span>Смесители-кормораздатчики</span></div>
                         </div>
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px;"  /></div>
+                            <div class="h-2 left-80"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 60px;"  /></div>
                             
                         </div>
                         <div class="body-content">
@@ -74,7 +83,7 @@
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
                                 
                                 Максимальная скорость загрузки за счет использования фронтальной фрезы. 
-                                Превосходное перемешивание и измельчение. Высочайшая надежность в любой ситуации. 
+                                Превосходное перемешивание и измельчение.
                                 Наилучшая инвестиция для будущего: 
                                 никакой потери времени, рационализация труда, легкое управление и комфорт, высочайшая производительность.                                                             
                             </div>
@@ -128,20 +137,13 @@
                             <div>
                                 <span class="h-4" style="text-transform: uppercase;">Выгрузка кормовой смеси свыше 99%</span>
                                 <span class="text">
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" border="0" align="right" />
                                    Достигается благодаря расположению выгрузного окна, форме и размеру измельчающих шнеков и специальной конструкции бункера. 
                                    Такой результат позволяет свести к минимуму попадание закисшего продукта в кормушку или на кормовой стол.
                                 </span>
-                            </div>                            
-                            
-                            
-                       
-                        
-                            
-                            
-                            <div style="width: 100%; height: 10px;"></div>
-                            <div class="right-50 image">
-                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo2.jpg" border="0" />
-                            </div></div>
+                            </div>
+                            <div class="right-50"></div>
+                            </div>
                             
                             <div class="left-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -240,8 +242,7 @@
                                 
                                 <span class="text">
                                    Прицепной смеситель кормораздатчик с вертикальной одношнековой системой измельчения разработан для работы с целыми круглыми или прямоугольными тюками с добавлением других компонентов. 
-                                   Мобильный и компактный кормораздатчик СЕНЬОР рекомендован и подходит для использования не только на типовых фермах, но и на фермах семейного типа. 
-                                   В кормораздатчике сочетаются новейшие технологии, простота обслуживания и эксплуатации с надежностью системы вертикального перемешивания. 
+                                   Мобильный и компактный кормораздатчик СЕНЬОР рекомендован и подходит для использования не только на типовых фермах, но и на фермах семейного типа.
                                    <br /><b>Мощный и надежный итальянский редуктор,</b> приводящий в действие шнек большого диаметра с ножами из износостойкой стали, позволяет с легкостью измельчать и перемешивать целые тюки и рулоны. 
                                 </span>
                             </div>
@@ -305,8 +306,8 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" border="0" />
-                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" border="0" height="221px" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" border="0" height="211px" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -613,8 +614,12 @@
                             </div>                            
                         </div>
                     </div>
-                       
-            
+                  </div>
+                  </div>     
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
                  <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75" style="margin-top: 5px;"><span>Разбрасыватели универсальные PTU</span></div>
@@ -728,13 +733,6 @@
                             </div>                             
                         </div>
                     </div>
-                 </div>   
-             </div>   
-               <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                
-                <div class="content-page">
                     <div style="width: 100%; height: 20px;"></div>
                                             
                     <div class="footer">
@@ -757,8 +755,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
             
+             </div> 
         </div>
     </body>
 </html>
