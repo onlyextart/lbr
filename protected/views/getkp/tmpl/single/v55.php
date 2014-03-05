@@ -49,15 +49,12 @@
                             </table>
                         </td>
                     </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/sigma.jpg" width="638" border="0" /></td></tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/sigma.jpg" width="638" style="display: block; margin-top: 2px;"/></td></tr>
                     <tr>
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr><td colspan="2"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                                
-                                    <tr>                                    
-                                    
-                                    <td width="400">
+                                <tr><td width="638" colspan="2"><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                                <tr><td width="400">
                                    <span style="display: block; text-align: justify; font-family: sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
                                         Навесные пневматические сеялки точного высева <strong>SIGMA 5</strong>, производства итальянской фирмы SFOGGIA, применяются для высева семян как в обработанную, так и в не обработанную почву (при наличии остатков культур) с использованием специальной комплектации высевающего модуля.<br />
                                     Прочная конструкция сеялки, удобство и гибкость в эксплуатации, а также соблюдение всех параметров посева, позволяют использовать сеялку на <strong>скорости 10-12 км/ч</strong>. 
@@ -81,6 +78,9 @@
                         </td>
                         
                     </tr>
+                    </table>
+            </td>
+            </tr>   
             <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -328,8 +328,7 @@
                                 </tr>
                             </table>
                         </td>
-                    </tr>
-                </table> 
+                    </tr>                
             </td>
         </tr>
     </table>
