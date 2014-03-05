@@ -109,7 +109,7 @@ tinymce.myOptions = {
         theme_advanced_toolbar_location : "top",
         theme_advanced_toolbar_align : "left",
         theme_advanced_statusbar_location : "bottom",
-        theme_advanced_resizing : true,
+        theme_advanced_resizing : true
 }
 tinymce.myOptions.selector = ".with_tinymce"
 tinymce.init(tinymce.myOptions);
@@ -216,9 +216,6 @@ tinymce.init(tinymce.myOptions);
 </div>
     <div class="admin_additional_features">
         <label>Дополнительные параметры</label>
-        
-        
-        
         <h3>Пункты меню отображающие страницу товара</h3>
         <div class="admin_additional_features_content">
             <?php
@@ -302,6 +299,112 @@ $previouslyUploadedFiles = array();
             );
             ?>
         
+        </div>
+        <div class="director">
+            <style>
+                .director{
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    clear: both;
+                    float: none;
+                    box-shadow: 0 0 5px rgb(200,200,200);
+                    background: #F5F5F5;
+                }
+                .director .header
+                {
+                    font-size: 18px;
+                }
+                .director .d-content
+                {
+                    position: relative;
+                }
+                .director .d-content .row.photo
+                {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    border-radius: 5px;
+                    background: #DDD;
+                    border: 1px dashed #BBB;
+                    width: 100px;
+                    height: 150px;
+                    overflow: hidden;
+                    text-align: center;
+                    margin: 0;
+                }
+                .director .d-content .photo:after
+                {
+                    display: block;
+                    content: 'Фотография';
+                    color: #AAA;
+                    position: absolute;
+                    top: 65px;
+                    width: 100%;
+                    text-align: center;
+                }
+                .director .d-content .row.photo-text
+                {
+                    position: absolute;
+                    top: 160px;
+                    left: 10px;
+                    margin: 0;
+                    
+                }
+                .director .d-content .row.photo-text input
+                {
+                    width: 103px;
+                }
+                .director .d-content .row
+                {
+                    margin-left: 140px;
+                }
+                .director .d-content .photo img
+                {
+                    position: relative;
+                    z-index: 1;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            </style>
+            <span class="header">Директор филиала</span>
+            <div class="d-content">
+                <div class="row photo">
+                    <?php $url_director = $contactModel->director_photo; ?>
+                    <?php if($url_director): ?>
+                        <img src="<?php echo $url_director; ?>">
+                    <?php else:
+                            $url_director = '/images/director/'.$contactModel->alias.'.jpg';
+                         endif;?>
+                </div>
+                <div class="row photo-text">
+                    <input type="text" readonly="readonly" name="Contacts[director_photo]" value="<?php echo $url_director;?>">
+                </div>
+                <div class="row">
+                    <?php echo $form->error( $contactModel, 'director_name'); ?>
+                    <?php echo $form->labelEx( $contactModel, 'director_name'); ?>
+                    <?php echo $form->textField( $contactModel, 'director_name'); ?>
+                </div>
+                <div class="row">
+                    <?php echo $form->error( $contactModel, 'director_surname'); ?>
+                    <?php echo $form->labelEx( $contactModel, 'director_surname'); ?>
+                    <?php echo $form->textField( $contactModel, 'director_surname'); ?>
+                </div>
+                <div class="row">
+                    <?php echo $form->error( $contactModel, 'director_secondname'); ?>
+                    <?php echo $form->labelEx( $contactModel, 'director_secondname'); ?>
+                    <?php echo $form->textField( $contactModel, 'director_secondname'); ?>
+                </div>
+                <div class="row">
+                    <?php echo $form->error( $contactModel, 'director_phone'); ?>
+                    <?php echo $form->labelEx( $contactModel, 'director_phone'); ?>
+                    <?php echo $form->textField( $contactModel, 'director_phone'); ?>
+                </div>
+                <div class="row">
+                    <?php echo $form->error( $contactModel, 'director_email'); ?>
+                    <?php echo $form->labelEx( $contactModel, 'director_email'); ?>
+                    <?php echo $form->textField( $contactModel, 'director_email'); ?>
+                </div>
+            </div>
         </div>
     </div>
     <div class="admin_content_features">        
