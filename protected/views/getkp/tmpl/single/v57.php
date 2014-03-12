@@ -1,4 +1,5 @@
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style>
         p{mso-line-height-rule:exactly !important; line-height: 13pt;}
     </style>
@@ -16,7 +17,7 @@
                     <tr>
                         <td style="width: 170px; padding: 10px 20px 10px 10px; ">
                             <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style="border: 0; text-decoration: none;"> 
-                                <img src="logo-white.jpg" width="160" height="64" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                <img src="cid:1" width="160" height="64" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                             </a>
                         </td>
                         <td style="text-align: right; padding-bottom: 10px; padding-right: 10px" valign="bottom">
@@ -62,7 +63,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="padding: 20px 10px 0 0; text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a/" title="Пневматические пропашные сеялки точного высева YP-825A" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_content=GREAT%20PLAINS%20YP-825A&utm_campaign=GREAT%20PLAINS%20YP-825A" title="Пневматические пропашные сеялки точного высева YP-825A" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0;">
                                                     </a>
                                                 </td>
@@ -70,7 +71,7 @@
                                         </table>
                                     </td>
                                     <td>
-                                        <img src="1.png" width="450" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="cid:2" width="450" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                             </table>
@@ -129,7 +130,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/" title="Культиваторы предпосевные Viking" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=VIKING&utm_campaign=VIKING" title="Культиваторы предпосевные Viking" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -546,9 +547,6 @@
             <td style="padding: 20px 0 10px; width: 400px;" valign="top">
                 <table width="400" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF"  style="height: 10px; border:0; border-collapse: collapse; overflow: hidden; ">
                     <tr>
-                        <td width="120">
-                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/manager/saushkin-moscow.jpg" width="98" height="146" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
-                        </td>
                         <td valign="top">
                             <p style="padding: 0; font-size: 12pt; font-weight: bold; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Ваш персональный менеджер:</p>
                             <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['user_info']; ?></p>
