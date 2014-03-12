@@ -16,7 +16,7 @@
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f39314"  style="border:0; border-collapse: collapse; border-bottom: 2px solid white;">
                     <tr>
                         <td style="width: 170px; padding: 10px 20px 10px 10px; ">
-                            <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style="border: 0; text-decoration: none;"> 
+                            <a href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style="border: 0; text-decoration: none;"> 
                                 <img src="cid:1" width="160" height="64" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                             </a>
                         </td>
@@ -173,7 +173,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/" title="Бороны пружинные Akzent" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20AKZENT&utm_campaign=UNIA%20AKZENT" title="Бороны пружинные Akzent" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0;  float: right;">
                                                     </a>
                                                 </td>
@@ -234,7 +234,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/" title="Плуги оборотные навесные Ibis" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20IBIS&utm_campaign=UNIA%20IBIS" title="Плуги оборотные навесные Ibis" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -309,7 +309,7 @@
                                 </tr>
                                 <tr>
                                     <td style="text-align: right;">
-                                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" title="Прикатывающие катки Expom" style="border: 0; text-decoration: none;">
+                                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=EXPOM%20JACEK&utm_campaign=EXPOM%20JACEK" title="Прикатывающие катки Expom" style="border: 0; text-decoration: none;">
                                             <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                         </a>
                                     </td>
@@ -368,7 +368,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/" title="Навесные разбрасыватели минеральных удобрений МХ" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20MX%20950H&utm_campaign=UNIA%20MX%20950H" title="Навесные разбрасыватели минеральных удобрений МХ" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -434,7 +434,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/" title="Телескопические погрузчики серии Agri Farmer" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=DIECI%20AGRI%20FARMER&utm_campaign=DIECI%20AGRI%20FARMER" title="Телескопические погрузчики серии Agri Farmer" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -498,7 +498,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/" title="ВЫБЕРИ СВОЙ ПОГРУЗЧИК" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=DIECI&utm_campaign=DIECI" title="ВЫБЕРИ СВОЙ ПОГРУЗЧИК" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -566,7 +566,7 @@
     <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
         <tr>
             <td style="width: 170px; padding: 10px 0; ">
-                <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;" style="font-weight: bold; font-size: 12pt;">www.lbr.ru</a>
+                <a href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;" style="font-weight: bold; font-size: 12pt;">www.lbr.ru</a>
             </td>
             <td style="text-align: center; padding-bottom: 10px; padding-right: 10px" valign="bottom">
                 <!-- Menu -->
@@ -576,7 +576,7 @@
                         <td>
                             <table width="120" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; border-right: 1px solid #333333; text-align: center;">
                                 <tr>
-                                    <td><a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/" title="Сельскохозяйственная техника" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Сельхозтехника</a></td>
+                                    <td><a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%A1%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0&utm_campaign=selskohozyaystvennaya-tehnika" title="Сельскохозяйственная техника" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Сельхозтехника</a></td>
                                 </tr>
                             </table>
                         </td>
@@ -592,7 +592,7 @@
                         <td>
                             <table width="70" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; border-right: 1px solid #333333; text-align: center;">
                                 <tr>
-                                    <td><a href="http://www.lbr.ru/service/" title="Сервис" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Сервис</a></td>
+                                    <td><a href="http://www.lbr.ru/service/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81&utm_campaign=service" title="Сервис" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Сервис</a></td>
                                 </tr>
                             </table>
                         </td>
@@ -600,7 +600,7 @@
                         <td>
                             <table width="80" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; text-align: center;">
                                 <tr>
-                                    <td><a href="http://www.lbr.ru/company/contacts/" title="Контакты ЛБР-Агромаркет" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Контакты</a></td>
+                                    <td><a href="http://www.lbr.ru/company/contacts/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B&utm_campaign=contacts" title="Контакты ЛБР-Агромаркет" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;">Контакты</a></td>
                                 </tr>
                             </table>
                         </td>
