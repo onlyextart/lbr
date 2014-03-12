@@ -25,7 +25,7 @@
                         <table width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#f39314"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td style="padding-top: 10px;">
-                                        <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;">Уважаемый <?php echo $data['client']; ?>,</p>
+                                        <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>,</p>
                                         <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;">Вы являетесь для нас очень важным партнером. В этом месяце мы подобрали для Вас самые актуальные предложения по технике.</p>
                                         <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;">Теперь выбор нужной машины или агрегата стал еще проще – на расстоянии одного клика и нескольких минут</p>
                                     </td>
