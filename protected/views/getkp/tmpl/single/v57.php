@@ -426,13 +426,17 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding: 20px 0 30px;">
+                                                <td style="padding: 20px 0 0px;">
                                                     <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">КРАТКО о ПОГРУЗЧИКЕ можно сказать следующее:  </p>
-                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold; padding-left: 15px;">НЕДОРОГОЙ.</p>
-                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold; padding-left: 15px;">МНОГОФУНЦИОНАЛЬНЫЙ.</p>
-                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold; padding-left: 15px;">ЭКОНОМИЧНЫЙ.</p>
-                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold; padding-left: 15px;">ТОЧНЫЙ.</p>
-                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold; padding-left: 15px;">ПРОИЗВОДИТЕЛЬНЫЙ.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 0px 0 30px 15px;">
+                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">НЕДОРОГОЙ.</p>
+                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">МНОГОФУНЦИОНАЛЬНЫЙ.</p>
+                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">ЭКОНОМИЧНЫЙ.</p>
+                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">ТОЧНЫЙ.</p>
+                                                    <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 13pt; font-weight: bold;">ПРОИЗВОДИТЕЛЬНЫЙ.</p>
                                                 </td>
                                             </tr>
                                             <tr>
