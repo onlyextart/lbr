@@ -73,7 +73,7 @@
                                         </table>
                                     </td>
                                     <td>
-                                        <img src="cid:2" width="450" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="cid:2" width="449" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                         <!--<img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/1.png" width="449" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
                                     </td>
                                 </tr>
