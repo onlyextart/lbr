@@ -8,45 +8,47 @@
     <style>
         p{mso-line-height-rule:exactly !important; line-height: 13pt;}
     </style>
-    <table cellspacing="0" cellpadding="0" width="800" align="center" bgcolor="#808080"  style="width: 840px; background: #808080; margin: 0 auto; padding: 0px; border: 0;">
+    <table width="840" cellspacing="0" cellpadding="0" align="center"  style="border:0; border-collapse: collapse;">
         <tr>
-            <td style="padding: 20px 0 20px;">
+            <td>
+                <td>
+                    <a href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                        <img src="cid:1" width="840" height="174" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                    </a>
+                </td>
+        </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="800" align="center" bgcolor="#D8E5ED"  style="width: 840px; background: #D8E5ED; margin: 0 auto; padding: 0px; border: 0;">
+        <tr>
+            <td style="padding: 10px 0 20px;">
                 <!-- START -->
-                
-                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f39314"  style="border:0; border-collapse: collapse; border-bottom: 2px solid white;">
+                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td style="width: 170px; padding: 10px 20px 10px 10px; ">
-                            <a href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style="border: 0; text-decoration: none;"> 
-                                <img src="cid:1" width="160" height="64" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
-                            </a>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>,</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Вы являетесь для нас очень важным партнером. В этом месяце мы подобрали для Вас самые актуальные предложения по технике.</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Теперь выбор нужной машины или агрегата стал еще проще – на расстоянии одного клика и нескольких минут</p>
                         </td>
-                        <td style="text-align: right; padding-bottom: 10px; padding-right: 10px" valign="bottom">
-                        
-                        <table width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#f39314"  style="border:0; border-collapse: collapse;">
-                                <tr>
-                                    <td style="padding-top: 10px;">
-                                        <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>,</p>
-                                        <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;">Вы являетесь для нас очень важным партнером. В этом месяце мы подобрали для Вас самые актуальные предложения по технике.</p>
-                                        <p style="padding: 0; font-size: 12pt; font-style: italic; font-family: Calibri; color: white; margin: 0; text-align: left; line-height: 13pt;">Теперь выбор нужной машины или агрегата стал еще проще – на расстоянии одного клика и нескольких минут</p>
-                                    </td>
-                                </tr>
-                        </table>
-                        
-                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;  border-top: 3px solid #f39314;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 <!-- Первая строка с большим блоком -->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 0px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="759" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td colspan="2">
                                         <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: #E31E24; margin: 0;  padding-right: 10px; text-transform: uppercase;">Новинка</span>
@@ -64,7 +66,7 @@
                                             <tr>
                                                 <td style="padding: 20px 10px 0 0; text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_content=GREAT%20PLAINS%20YP-825A&utm_campaign=GREAT%20PLAINS%20YP-825A" title="Пневматические пропашные сеялки точного высева YP-825A" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -72,32 +74,33 @@
                                     </td>
                                     <td>
                                         <img src="cid:2" width="450" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <!--<img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/1.png" width="449" height="241" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Вторая строка с двумая блоками-->
-                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="border:0; border-collapse: collapse;">
+                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="border:0; border-collapse: collapse;">
                     <tr>
                         <td style="width: 390px; padding-right: 10px;" valign="top" align="left">
                             <table width="390" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_small.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                                 </tr>
                                 <tr>
-                                    <td style="padding: 10px 20px;">
-                                        <table width="350" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                                    <td style="padding: 10px 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                                        <table width="348" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td valign="center" style="padding-right: 15px; width: 16px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
@@ -107,10 +110,10 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <table width="350" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                                        <table width="349" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td>
-                                                   <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/2.jpg" width="350" height="129" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
+                                                   <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/2.jpg" width="349" height="129" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                                 </td>
                                             </tr>
                                             <tr>
@@ -131,7 +134,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=VIKING&utm_campaign=VIKING" title="Культиваторы предпосевные Viking" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -139,18 +142,18 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_small.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                                 </tr>
                             </table>
                         </td>
                         <td style="width: 390px; padding-left: 10px;" valign="top" align="right">
                             <table width="390" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_small.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                                 </tr>
                                 <tr>
-                                    <td style="padding: 10px 20px;">
-                                        <table width="350" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                                    <td style="padding: 10px 20px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                                        <table width="348" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td valign="center" style="padding-right: 15px; width: 16px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
@@ -160,10 +163,10 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <table width="350" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                                        <table width="349" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td>
-                                                   <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/3.jpg" width="350" height="146" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
+                                                   <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/3.jpg" width="349" height="146" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                                 </td>
                                             </tr>
                                             <tr>
@@ -174,7 +177,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20AKZENT&utm_campaign=UNIA%20AKZENT" title="Бороны пружинные Akzent" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0;  float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0;  float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -182,7 +185,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                                    <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_small.jpg" width="390" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                                 </tr>
                             </table>
                         </td>
@@ -190,20 +193,20 @@
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Третья строка с одним блоком -->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 5px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 5px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td valign="top" style="width: 370px; padding-right: 10px;">
+                                    <td valign="top" style="width: 370px; padding-right: 9px;">
                                         <table width="370" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td valign="center" style="padding-right: 15px; width: 16px;">
@@ -235,7 +238,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20IBIS&utm_campaign=UNIA%20IBIS" title="Плуги оборотные навесные Ibis" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -246,23 +249,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Четвертая строка с одним блоком -->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 0px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td valign="center" style="padding-right: 15px; width: 22px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/expom-logo.jpg" width="22" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
@@ -275,10 +278,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px 20px 5px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 10px 20px 5px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td valign="top" style="width: 370px; padding-right: 10px;">
+                                    <td valign="top" style="width: 370px; padding-right: 9px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/5.jpg" width="370" height="146" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                     </td>
                                     <td valign="top" style="width: 380px;">
@@ -289,8 +292,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 5px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 5px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td style="padding-bottom: 10px;">
                                         <p style="padding: 0; font-size: 13pt; font-family: Calibri; color: black; margin: 0; text-align: justify; line-height: 13pt; font-weight: bold;">Рост урожайности на 10-15%</p>
@@ -310,7 +313,7 @@
                                 <tr>
                                     <td style="text-align: right;">
                                         <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=EXPOM%20JACEK&utm_campaign=EXPOM%20JACEK" title="Прикатывающие катки Expom" style="border: 0; text-decoration: none;">
-                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                         </a>
                                     </td>
                                 </tr>
@@ -318,23 +321,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Пятая строка с одним блоком -->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 0px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td valign="center" style="padding-right: 15px; width: 16px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
@@ -347,11 +350,11 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px 20px 5px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 10px 20px 5px;border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td style="width: 370px; padding-right: 10px;">
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/7.jpg" width="370" height="189" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
+                                    <td style="width: 369px; padding-right: 10px;">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/7.jpg" width="369" height="189" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                     </td>
                                     <td valign="top">
                                         <table width="380" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
@@ -369,7 +372,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=UNIA%20MX%20950H&utm_campaign=UNIA%20MX%20950H" title="Навесные разбрасыватели минеральных удобрений МХ" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -380,23 +383,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Шестая строка с одним блоком -->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 5px 20px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 5px 20px 0px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td valign="center" style="padding-right: 15px; width: 54px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/dieci-logo.jpg" width="54" height="14" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
@@ -409,14 +412,14 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px 20px 5px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 10px 20px 5px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
                                     <td style="width: 370px; padding-right: 10px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/8.jpg" width="370" height="276" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                     </td>
                                     <td valign="top">
-                                        <table width="380" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                                        <table width="379" cellspacing="0" cellpadding="0" align="top" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                             <tr>
                                                 <td style="padding: 20px 0 0;">
                                                     <p style="padding: 0; font-size: 10pt; font-family: Calibri; color: black; margin: 0; text-align: left; line-height: 15pt;">Быстрая и легкоуправляемая  машина с многочисленными рабочими органами, такими как,  например, ковши, захваты для рулонов, разнообразные вилы и т.д. делают её обязательной в парке техники для всех хозяйств.</p>
@@ -435,7 +438,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=DIECI%20AGRI%20FARMER&utm_campaign=DIECI%20AGRI%20FARMER" title="Телескопические погрузчики серии Agri Farmer" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -446,37 +449,42 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_white_re.jpg" width="800" height="8" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
                 <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#808080"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #808080; line-height: 0; height: 20px;">_</span></td></tr>
+                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
                 </table>
                 
                 <!-- Седьмая строка с одним блоком  DIECI с полосками-->
                 <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_dieci.jpg" width="800" height="19" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/top_line_dieci_re.jpg" width="800" height="19" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 15px 20px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 15px 20px 0px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td valign="center">
-                                        <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: #E31E24; margin: 0; padding-right: 10px;">ТЕСТ-ДРАЙВ</span>
+                                    <td valign="center" style="width: 110px; padding-right: 10px;">
+                                        <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: #E31E24; margin: 0;">ТЕСТ-ДРАЙВ</span>
+                                    </td>
+                                    <td valign="center" style="width: 622px;">
                                         <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">Приглашение на Тест-драйв DIECI и Акцию по DIECI</span>
+                                    </td>
+                                    <td valign="center">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/dieci-logo.jpg" width="54" height="14" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px 20px 15px;">
-                            <table width="760" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+                        <td style="padding: 10px 20px 15px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                                 <tr>
-                                    <td style="width: 370px; padding-right: 10px;">
+                                    <td style="width: 370px; padding-right: 9px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/march/9.jpg" width="370" height="278" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                     </td>
                                     <td valign="top">
@@ -499,7 +507,7 @@
                                             <tr>
                                                 <td style="text-align: right;">
                                                     <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=DIECI&utm_campaign=DIECI" title="ВЫБЕРИ СВОЙ ПОГРУЗЧИК" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more.jpg" width="113" height="25" style="border:0; float: right;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -510,7 +518,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_dieci.jpg" width="800" height="19" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/bot_line_dieci_re.jpg" width="800" height="19" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                 </table>
                 
@@ -519,7 +527,7 @@
         </tr>
     </table>
     <!-- Контакты -->
-    <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="height: 10px; border:0; border-collapse: collapse; overflow: hidden; ">
+<!--    <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="height: 10px; border:0; border-collapse: collapse; overflow: hidden; ">
         <tr>
             <td colspan="2" style="padding: 15px 0 0;">
                 <p style="padding: 0; font-size: 12pt; font-weight: bold; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Ждем Вас в филиале ЛБР-АгроМаркет (<?php echo $filial['name']; ?>)!</p>
@@ -555,24 +563,24 @@
                 </table>
             </td>
         </tr>
-    </table>
+    </table>-->
 
     <!-- Разделитель -->
-    <table width="840" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
+<!--    <table width="840" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="height: 20px; border:0; border-collapse: collapse; overflow: hidden;">
         <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #FFFFFF; line-height: 0; height: 20px;">_</span></td></tr>
-    </table>
+    </table>-->
 
 
-    <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
+<!--    <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
         <tr>
             <td style="width: 170px; padding: 10px 0; ">
                 <a href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style="color: #333333; text-decoration: none; font-size: 10pt; font-family: 'Trebuchet MS'; padding: 0;" style="font-weight: bold; font-size: 12pt;">www.lbr.ru</a>
             </td>
             <td style="text-align: center; padding-bottom: 10px; padding-right: 10px" valign="bottom">
-                <!-- Menu -->
+                 Menu 
                 <table width="350" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse;">
                     <tr>
-                        <!-- Первый пункт меню -->
+                         Первый пункт меню 
                         <td>
                             <table width="120" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; border-right: 1px solid #333333; text-align: center;">
                                 <tr>
@@ -580,7 +588,7 @@
                                 </tr>
                             </table>
                         </td>
-                        <!-- Второй пункт меню -->
+                         Второй пункт меню 
                         <td>
                            <table width="80" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; border-right: 1px solid #333333; text-align: center;">
                                <tr>
@@ -588,7 +596,7 @@
                                </tr>
                            </table>
                        </td>
-                       <!-- Третий пункт меню -->
+                        Третий пункт меню 
                         <td>
                             <table width="70" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; border-right: 1px solid #333333; text-align: center;">
                                 <tr>
@@ -596,7 +604,7 @@
                                 </tr>
                             </table>
                         </td>
-                        <!-- Четверты пункт меню -->
+                         Четверты пункт меню 
                         <td>
                             <table width="80" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: collapse; text-align: center;">
                                 <tr>
@@ -606,6 +614,14 @@
                         </td>
                     </tr>
                 </table>
+            </td>
+        </tr>
+    </table>-->
+    
+    <table width="840" cellspacing="0" cellpadding="0" align="center"  style="border:0; border-collapse: collapse;">
+        <tr>
+            <td>
+                <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/footer.jpg" width="840" height="65" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
             </td>
         </tr>
     </table>
