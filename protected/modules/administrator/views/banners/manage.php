@@ -207,6 +207,9 @@ tinymce.myOptions = {
                             });
                         }',
                     'previouslyUploadedFiles'=>$previouslyUploadedFiles,
+                    'postParams'=>array(
+                       'uploadDir'=>'/images/banners/'.$bannerModel->id.'/'  
+                    ),
                 )
             );
             ?>
