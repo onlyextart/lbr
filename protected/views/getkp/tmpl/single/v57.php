@@ -510,8 +510,8 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=DIECI&utm_campaign=DIECI" title="ВЫБЕРИ СВОЙ ПОГРУЗЧИК" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
+                                                    <a href="http://www.lbr.ru/company/contacts/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B&utm_campaign=contacts" title="Связаться с нами" style="border: 0; text-decoration: none;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/contans.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
                                             </tr>
