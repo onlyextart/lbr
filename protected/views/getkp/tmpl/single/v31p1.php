@@ -22,6 +22,15 @@
                     </div>
                     <span class="second-header-text">Выгода очевидна!<br />Технология безупречна!<br />надежность легендарна!</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -31,7 +40,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -65,7 +74,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains1.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains1.jpg" style="width: 100%;" border="0" />
                             </div>
                             
                         </div>
@@ -74,9 +83,8 @@
                             
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains2.jpg" border="0" />
-                                    <img style="margin-top: 5px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains3.jpg" border="0" />
-                                    <img style="margin-top: 5px; height: 138px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains4.jpg" border="0" />
+                                    <img style="margin-top: 5px;" src="http://www.lbr.ru/images/kp/seyalki-plains2.jpg" border="0" />
+                                    <img style="margin-top: 5px; height: 138px;" src="http://www.lbr.ru/images/kp/seyalki-plains4.jpg" border="0" />
                                    
                                     
                                 </div>
@@ -84,15 +92,15 @@
                                     <span class="h-4" style="text-align: left; text-transform: uppercase;">1. Минимальная требуемая мощность на один<br /> метр ширины захвата<br /> механической сеялки:</span>
                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;">
-                                    <br />- 2S-2600F-8,0м- от 130 л.с.<br />
+                                    - 2S-2600F-8,0м- от 130 л.с.<br />
                                     - 3S-3000F-9,1м- от 150 л.с.<br />
                                     - 3S-4000F- 12м- от 180 л.с<br />
-                                    - 3S-5000F- 15м- от 250 л.с.<br />
+                                    - 3S-5000F- 15м- от 250 л.с.
                                     </span>
-                                     <span class="h-4" style="text-align: left; text-transform: uppercase;"><br /><br />2. Сошник вездеход</span>
+                                     <span class="h-4" style="text-align: left; text-transform: uppercase;">2. Сошник вездеход</span>
                                     
                                     <span class="text" style="font-size: 16px; line-height: 20px;">
-                                    <br />
+                                    
                                     Все сеялки оснащены сошником 00 серии с индивидуальным прикатывающим колесом и настройкой глубины сева, системой внесения минеральных удобрений, контролем высева и маркерами с тяжелыми ступицами и зазубренным диском.
                                      В стандарте клапан для работы с тракторами отечественного производства.
                                     </span>                                    
@@ -109,8 +117,8 @@
                                     </span> 
                                </div>
                                 <div class="right-30 image">
-                                    <img style="margin-top: 15px; width: 228px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains5.jpg" border="0" />
-                                    <img style="margin-top: 15px; width: 228px;" src="http://www.git-lbr.ru/images/kp/seyalki-plains6.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 228px;" src="http://www.lbr.ru/images/kp/seyalki-plains5.jpg" border="0" />
+                                    <img style="margin-top: 15px; width: 228px;" src="http://www.lbr.ru/images/kp/seyalki-plains6.jpg" border="0" />
                                                                     
                                     
                                 </div>
@@ -137,7 +145,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/seyalki-plains7.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/seyalki-plains7.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="width-100">
                                 
@@ -231,11 +239,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

@@ -114,8 +114,10 @@ class CategoryUrlRule extends CBaseUrlRule
                 $rootmenuModel=MenuItems::model()->findByPk($rootmenu);
             }
             $breadcrumbsCurrentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$ancestors[3]->alias));
-            $breadcrumbsMenuBranch=$breadcrumbsCurrentMenuItem->ancestors()->findAll();
-            $breadcrumbsMenuBranch[] = $breadcrumbsCurrentMenuItem;
+            if($breadcrumbsCurrentMenuItem){
+                $breadcrumbsMenuBranch=$breadcrumbsCurrentMenuItem->ancestors()->findAll();
+                $breadcrumbsMenuBranch[] = $breadcrumbsCurrentMenuItem;
+            }
         }
         
         foreach($breadcrumbsMenuBranch as $ancestor){

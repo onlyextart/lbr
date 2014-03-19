@@ -21,16 +21,25 @@
                     <span class="second-header-text">в овощном хозяйстве<br>на подсобных работах!</span>
                     <span class="orange-text-right">Для тракторов мощностью 120 л.с.</span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75"><span>Трактор Беларус 1221</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/belarus-logo.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/belarus-logo.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/mtz-1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/mtz-1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
                             <table style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; position: absolute; right: 0; top: 260px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1" width="380">
@@ -66,11 +75,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span style="font-size: 18px;">Комплекты колес низкого давления<br>и для работы в междурядье</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-2.jpg" style="width: 100%;" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-2.jpg" style="width: 100%;" />
                             </div>
                         </div>
                     </div>
@@ -83,11 +92,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span style="font-size: 18px;">Погрузчик навесной ТУР</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-3.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="text" style="line-height: 23px;">
@@ -115,18 +124,18 @@
                                 </table>
                             </div>
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-4.jpg" style="width: 100%" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-4.jpg" style="width: 100%" />
                             </div>
                         </div>
                     </div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Универсальный прицеп Баркас</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-5.jpg" border="0" />
                                 <span class="h-4" style="font-size:13px;">НАДЁЖНОСТЬ – 100% ИТАЛЬЯНСКАЯ КОМПЛЕКТАЦИЯ</span>
                                 <span class="text" style="margin-top: 0; font-family:FuturisXC, sans-serif;">Высота погрузки всего 1,13 метра!</span>
                                 <span class="h-4" style="font-size:13px;">ПРИВЛЕКАТЕЛЬНАЯ ЦЕНА. ВСЕГДА В НАЛИЧИИ! –</span>
@@ -182,14 +191,14 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Универсальный прицеп Баркас XL</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/traktor-logo-2.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-6.jpg" border="0" height="200px" />
                             </div>
                             <div class="right-50">
-                                <span class="text" style="line-height: 23px;">
+                                <span class="text" style="line-height: 16px;">
                                     • <b>Увеличенная платформа.</b>
                                     <br>• Повороты, развороты без проблем в узких местах
                                     <br>• <b>100% итальянских комплектующих:</b> надежная итальянская гидравлика и тормозная система.
@@ -234,11 +243,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Самосвальные полуприцепы LMR</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="left-70 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mtz-7.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz-7.jpg" border="0" />
                                 <span class="text" style="width: 90%">
                                     <b>Богатая базовая комплектация:</b><br>
                                     • один ярус надставных бортов в базовой комплектации;
@@ -252,7 +261,7 @@
                             </div>
                             <div class="right-30">
                                 <div class="image">
-                                    <img src="http://www.git-lbr.ru/images/kp/mtz-8.jpg" style="width: 100%;" border="0" />
+                                    <img src="http://www.lbr.ru/images/kp/mtz-8.jpg" style="width: 100%;" border="0" />
                                 </div>
                                 <span class="text">
                                     <b>Безопасная погрузка и разгрузка овощей, опционально устанавливается комплект овощник (гаситель падения в кузов и козырёк разгрузки на борт).</b>
@@ -326,11 +335,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
@@ -363,7 +372,7 @@
     
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
-    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.git-lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 25px 110px;}
+    .head-first-page{margin-bottom: 20px; padding-bottom: 20px; text-align: right;  background: url('http://www.lbr.ru/images/kp/bg_mtz.jpg') white no-repeat 25px 110px;}
     .content-page{padding: 20px 20px 0;}
     .first-header-text{display: block; text-transform: uppercase; background: rgb(211, 35, 42); color: white; text-align: center; font-size: 72px; padding: 0; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 42px; font-family: FuturisXC, sans-serif; margin-bottom: 15px; margin-top: 5px}

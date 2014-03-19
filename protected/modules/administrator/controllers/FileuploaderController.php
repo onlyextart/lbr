@@ -9,7 +9,7 @@ class FileuploaderController extends Controller
         //папка для хранения файлов
         (isset($_POST['uploadDir']))?$this->uploadDir = $_POST['uploadDir']:$this->uploadDir = '/images/uploaded/'; 
         $allowedExt = array('jpg', 'jpeg', 'png', 'gif');
-        $maxFileSize = 2 * 1024 * 1024; //2 MB
+        $maxFileSize = 5 * 1024 * 1024; //5 MB
         //если получен файл
         if (isset($_FILES)) {
             //проверяем размер и тип файла

@@ -12,8 +12,10 @@ else{
     $pageHeader = 'Редактирование новости "'.$newsModel->newsRegions[0]->description.'"';
 }
 ?>
+<script type="text/javascript" src="/js/timepicker/timepicker.js"></script>
 <script type="text/javascript" src="/js/tinymce_3_x/tiny_mce.js"></script>
 <script type="text/javascript">
+
 tinymce.myOptions = {
         width: "100%",
         mode : "textareas",
@@ -36,9 +38,24 @@ tinymce.myOptions = {
 }
 </script>
 <div class="form">
-<?php
-$form = $this->beginWidget('CActiveForm');
+
+<?php $form = $this->beginWidget('CActiveForm', array('id'=>'form'.$newsModel->id,
+    'action'=>$action,
+    'enableClientValidation'=>true,
+    'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+            {     
+                if( hasError ){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }'
+    ),));
 ?>
+
 <div class="admin_main_features">
 <div class="row">
 <?php echo $form->error($newsModel, 'header')  ?>
@@ -56,12 +73,12 @@ $form = $this->beginWidget('CActiveForm');
 <div class="row">
 <?php echo $form->error($newsModel, 'published')  ?>
 <?php echo $form->labelEx($newsModel, 'published')  ?>
-<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовавыть"))  ?>
+<?php echo $form->dropDownList($newsModel, 'published', array (1=>"Опубликовать", 0=>"Не опубликовывать"))  ?>
 </div>
 <div class="row">
-<?php echo $form->error($newsModel, 'date')  ?>
-<?php echo $form->labelEx($newsModel, 'date')  ?>
-<?php echo $form->textField($newsModel, 'date')  ?>
+<?php echo $form->error($newsModel, 'date'); ?>
+<?php	echo $form->labelEx($newsModel, 'date');?>
+<?php   echo $form->textField($newsModel, 'date'); ?>    
 </div>
 </div>
 
@@ -146,27 +163,29 @@ $this->endWidget();
 ?>   
 </div>
 </div> 
-<script>
-    $(document).ready(function() {
-
-    $("#tabs").tabs();
-        //Код первой вкладки (стандартное использование)
-   $("#datepicker1").datepicker();
-   $("#datepicker2").datepicker($.datepicker.regional[""]);
-        //Код второй вкладки (иконка подсказка)
-   $("#datepicker3").datepicker({buttonImage:"datePicker.gif", showOn:"button", buttonImageOnly:true});
-        //Код третьей вкладки (ограничение диапазона дат)
-   $("#datepicker4").datepicker({minDate:-6,maxDate:+4,buttonImage:"datePicker.gif", showOn:"both", buttonImageOnly:true});
-        //Код четвертой вкладки (редактирование формата)
-   $("#datepicker5").datepicker({dateFormat:"yy-mm-dd"});
-   $("#datepicker6").datepicker({dateFormat:"yy/mm/dd"});
-   $("#datepicker7").datepicker({dateFormat:"DD MM dd, yy"});
-        //Код пятой вкладки (календарь)
-   $("#datepicker8").datepicker(); 
-        //Код шестой вкладки (анимация/панель с кнопками)
-   $("#datepicker9").datepicker({showAnim:"slide",showButtonPanel:true}); 
-
-    });
+<script>  
+   
+    
+    $.datepicker.regional['ru'] = {
+            closeText: 'Закрыть',
+            prevText: '&#x3c;Пред',
+            nextText: 'След&#x3e;',
+            currentText: 'Сегодня',
+            monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+            monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'],
+            dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
+            dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
+            dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+            dateFormat: 'dd.mm.yy',
+            firstDay: 1,
+            isRTL: false,
+        };
+        $.datepicker.setDefaults($.datepicker.regional['ru']); 
+        $( "#News_date" ).datetimepicker({
+            dateFormat: 'yy-mm-dd',
+            timeFormat: 'HH:mm:ss',
+        });
+        
     
     //RegionTabs
     function RegionalTabsManager(){

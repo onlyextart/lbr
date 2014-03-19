@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <link href="http://www.git-lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
+        <link href="http://www.lbr.ru/css/kp.css" type="text/css" rel="stylesheet" />
         <title></title>
     </head>
     <body>
@@ -27,16 +27,25 @@
                         стало Проще!
                     </span>
                 </div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="head-content">
                         <div class="h-2 left-75" style="line-height: 39px;"><span>трактор McCORMICK TTX 230</span></div>
-                        <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/mccormick-logo.jpg" border="0" /></div>
+                        <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" /></div>
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
-                            <img src="http://www.git-lbr.ru/images/kp/spartan-1.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/spartan-1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="left-50">
                             <span class="h-4" style="font-size: 30px; line-height: 30px;">СОВРЕМЕННЫЙ. <br>ЕВРОПЕЙСКИЙ. <br>ЛУЧШИЙ ПО ЦЕНЕ!</span>
@@ -137,11 +146,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-80"><span style="line-height: 39px;">Пневматическая сеялка точного высева Spartan 607</span></div>
-                            <div class="logo-maker right-20"><img src="http://www.git-lbr.ru/images/kp/great-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-20"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/spartan-2.jpg" style="width:100%" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/spartan-2.jpg" style="width:100%" border="0" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4">1. ПЕРЕХОДИТЬ НА НОЛЬ СТАЛО ПРОЩЕ!</span>
@@ -150,9 +159,9 @@
                                 </span>
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/spartan-3.jpg" border="0" /><br><br>
-                                <img src="http://www.git-lbr.ru/images/kp/spartan-4.jpg" border="0" /><br><br>
-                                <img src="http://www.git-lbr.ru/images/kp/spartan-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/spartan-3.jpg" border="0" /><br><br>
+                                <img src="http://www.lbr.ru/images/kp/spartan-4.jpg" border="0" /><br><br>
+                                <img src="http://www.lbr.ru/images/kp/spartan-5.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">2. ПРОПАШНОЙ СОШНИК НА ЗЕРНОВОЙ СЕЯЛКЕ!</span>
@@ -160,11 +169,10 @@
                                     Независимый  сошник  на  параллелограмме  обеспечивает точность высева семян во всех условиях, начиная 
                                     с тяжелых стерневых и заканчивая работой по обработанной почве. Сошник оборудован двойными открывающими  дисками  со  смещением,  мягко  укладывающим 
                                     семена  за  счет  длинной  семенной  трубки,  за  которым следует успокоитель, прижимая семена к дну борозды. 
-                                    Контроль глубины сева осуществляется Т-образной рукояткой на каждом сошнике, сошники следующие по ко-лее трактора имеют более жесткую настройку.
-                                </span>
+                                    </span>
                                 <span class="h-4">3. ПО РАВНИНАМИ ХОЛМАМ.</span>
                                 <span class="text">
-                                    Отлично  зарекомендовавшая  себя  конструкция  орудий Spartan 607 позволяет сеялке независимо опускать-ся и подниматься при работе на неровных поверхностях.
+                                    Отлично  зарекомендовавшая  себя  конструкция  орудий Spartan 607 позволяет сеялке независимо опускаться и подниматься при работе на неровных поверхностях.
                                     Система гидравлического перераспределения веса способствует  увеличению  гибкости  сеялки  и  гарантирует 
                                     равномерность распределения нагрузки по всей ширине  захвата  орудия.  Боковые  секции  могут  опускаться 
                                     вниз и подниматься вверх, что способствует превосходному копированию поверхности поля.

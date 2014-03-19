@@ -260,6 +260,8 @@ class MenuItems extends CActiveRecord
                 foreach ($collection as $node) {
                     $item = $node;
                     $item['expanded'] = ( isset($_REQUEST['OpenItems'] ) && in_array( $node[id], $_REQUEST['OpenItems'] ) )?true:false;
+//                    var_dump('$item[text]=self::'.$rowBuildFunction.'($item, $checkBoxNameAttr, $checkStatus, $activeItemType);');
+//                    exit();
                     eval('$item[text]=self::'.$rowBuildFunction.'($item, $checkBoxNameAttr, $checkStatus, $activeItemType);');
                     $item['children'] = array();
                     
@@ -469,7 +471,7 @@ class MenuItems extends CActiveRecord
         
         static function getItemIdByPath($path){
         if( $path === ''){
-            $this->desiredMenuItem = MenuItems::model()->find('level=1');
+            $desiredMenuItem = MenuItems::model()->find('level=1');
         }
         else{
             $path = trim($path, '\/');

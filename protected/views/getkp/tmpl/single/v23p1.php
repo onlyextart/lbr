@@ -24,6 +24,16 @@
                 <div class="two-header-text">На технику для приготовления и раздачи кормов мы предлагаем Вам отличные условия оплаты в сезон: 30% предоплата и по 10% далее каждый месяц, срок действия акции (срок последнего платежа) до 1 мая!</div>
                 <div style="width: 100%; height: 10px;"></div>
                 <div class="first-header-text">ОКУПАЮТСЯ ЗА СЕЗОН ЗА СЧЕТ ПРИРОСТА НАДОЕВ И ИСКЛЮЧЕНИЯ ВЫБОРОЧНОГО ПОЕДАНИЯ КОРМА.</div>
+            
+            <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -33,7 +43,7 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka.jpg" style="width: 100%; margin: 10px;" border="0" />
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">Легко измельчает целые тюки!!!</span>
@@ -63,7 +73,7 @@
                             </div>
                             <div style="width: 100%; height: 10px;"></div>
                             <div class="right-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka1.jpg" border="0" />
                             </div>
                             <div class="left-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -150,8 +160,8 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka2.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka3.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -225,7 +235,7 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka4.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
@@ -294,8 +304,8 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka5.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/sezon-moloka6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sezon-moloka6.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
@@ -382,11 +392,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

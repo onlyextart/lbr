@@ -20,6 +20,15 @@
                     <span class="dieci-header-orange">сушКа и логистиКа <br>хранения</span>
                 </div>
                 <div class="first-header-text">КуКурузу и семечКу сушим сами!!!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -49,11 +58,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>мобильные зерносушилКи MecMar</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-45 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-1.jpg" border="0" />
                             </div>
                             <div class="right-55">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -158,11 +167,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>вакуумный перегрузчик GraIN Vac5200ех</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/bandit-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/bandit-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -237,11 +246,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>пневматические транпортеры Pom awgustow</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/pom-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/pom-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-3.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-3.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="text">
@@ -385,11 +394,11 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>шнековые транспортеры Pom awgustow</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/pom-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/pom-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-4.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <div style="width: 100%; height: 20px;"></div>
@@ -615,7 +624,7 @@
                         <div style="width: 100%; height: 20px;"></div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/sush-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/sush-5.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -694,11 +703,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

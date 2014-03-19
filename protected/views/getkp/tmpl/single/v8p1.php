@@ -20,17 +20,27 @@
                     <span class="dieci-header-orange">Сеялка Spartan от Great Plains 607 + Трактор <br>McCormick = двойная выгода</span>
                 </div>
                 <div class="first-header-text">Переходить на ноль <br>стало проще!</div>
+                <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
             </div>
+            
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Трактор McCORMICK TTX 230</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.git-lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0; "/></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mccormick-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mccormick1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mccormick1.jpg" border="0" />
                                 <table style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1" width="361">
                                         <tbody>
                                             <tr bgcolor="#d1d3d4">
@@ -147,7 +157,7 @@
                             </span>
                         <div class="body-content">
                             <div class="left-50  image">
-                                <img src="http://www.git-lbr.ru/images/kp/mccormick2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mccormick2.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">Двойная экономия при той же производительности:</span>
@@ -182,11 +192,11 @@
                         <div class="body-content">
                             <div class="width-100">
                                 <br><br>
-                                <img src="http://www.git-lbr.ru/images/kp/mccormick3.jpg" style="width: 100%;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mccormick3.jpg" style="width: 100%;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/mccormick4.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/mccormick5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mccormick4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mccormick5.jpg" border="0" />
                             </div>
                             <div class="right-50">
                                 <span class="h-4">3. По равнинам и холмам.</span>
@@ -228,11 +238,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after

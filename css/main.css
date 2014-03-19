@@ -215,6 +215,14 @@
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_29 a:after {
   background: #ffffaa;
 }
+.menu_color_group_30 {
+  background-color: #7fff00;
+  border-color: #7fff00;
+  color: #7fff00;
+}
+.main_menu_wrapper .main_menu_second_level li.menu_color_group_30 a:after {
+  background: #7fff00;
+}
 body {
   font-size: 13px;
   font-family: 'Trebuchet MS';
@@ -907,6 +915,17 @@ header:after {
   left: .4em;
   max-width: 110px;
 }
+.wrapper #content .product_wrapper .product_content > div div.review_photo.action .time_to_buy_top_left {
+  overflow: hidden;
+  text-indent: 100%;
+  background: url("/images/timetobuy/action.png") transparent no-repeat center;
+  height: 88px;
+  width: 90px;
+  padding: 0px;
+  margin: 0px;
+  top: 15px;
+  left: 15px;
+}
 .wrapper #content .product_wrapper .product_content > div div.review_video {
   display: block;
   width: 49%;
@@ -1434,6 +1453,9 @@ header:after {
   display: block;
   padding: 5px 15px;
   font-family: 'Open Sans', sans-serif;
+}
+.xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy.action .time_to_buy_top_left {
+  background: url("/images/timetobuy/action.png") no-repeat center;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner:after {
   content: '';
@@ -2226,7 +2248,7 @@ header .menu.main .menuMainTop:after {
   -o-text-overflow: ellipsis;
   float: left;
 }
-show_regions_table_button_wrapper:after,
+#show_regions_table_button_wrapper:after,
 .arrow-wrapper:after {
   content: '';
   display: block;
@@ -2248,7 +2270,7 @@ show_regions_table_button_wrapper:after,
   width: 12px;
   margin-top: 0;
 }
-.list-view li a h {
+.list-view li a .h-3 {
   color: #008873;
   font-size: 16px;
   font-weight: bold;

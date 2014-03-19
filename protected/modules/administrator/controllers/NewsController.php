@@ -1,5 +1,4 @@
 <?php
-
 class NewsController extends Controller
 {
 	public function actionIndex()
@@ -19,7 +18,7 @@ class NewsController extends Controller
                 }
                 if( isset( $_POST['News'] ) ){
                     $newsModel->attributes = $_POST['News'];
-                    $newsModel->attributes=array('date'=>date('d.m.Y H:i:s'));
+                    $newsModel->attributes=array('date'=>date("Y-m-d H:i:s", strtotime($newsModel->date)));
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
                         foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
@@ -35,7 +34,7 @@ class NewsController extends Controller
                                 $regionalNews[$regionId]->save();                                
                             }                                                        
                             
-                            Yii::app()->user->setFlash('saved','Страница товара успешно создана.');
+                            Yii::app()->user->setFlash('saved','Страница новости успешно создана.');
             if($_POST['yt0'])
             {
                  $this->redirect('/administrator/news/');
@@ -51,12 +50,12 @@ class NewsController extends Controller
                     )
                 );
 	}
-        
+       
 	public function actionUpdate( $id )
 	{
 		$newsModel = News::model()->findBypk( $id );
 		$filialModels = Contacts::model()->findAll();
-                $regionalNews = array();
+        $regionalNews = array();
                 
                 //�������� ������ ������ news ��� ������� �������
                 foreach( $filialModels as $filial ){
@@ -68,6 +67,7 @@ class NewsController extends Controller
                 }
                 if( isset( $_POST['News'] ) ){
                     $newsModel->attributes = $_POST['News'];
+                    $newsModel->attributes=array('date'=>date("Y-m-d H:i:s", strtotime($newsModel->date)));
                     $newsRegionalDataIsValid = true;
                     if( isset( $_POST['NewsRegion'] ) ){
                         foreach( $_POST['NewsRegion'] as $regionId => $newsRegionalData ){
@@ -112,7 +112,7 @@ class NewsController extends Controller
                         $deleteMenuItmemsContent->delete();
                     }
                 }
-                            Yii::app()->user->setFlash('saved','Страница товара успешно сохранена.');
+                            Yii::app()->user->setFlash('saved','Страница новости успешно сохранена.');
             if($_POST['yt0'])
             {
                  $this->redirect('/administrator/news/');

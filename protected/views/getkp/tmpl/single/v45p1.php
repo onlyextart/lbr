@@ -8,12 +8,12 @@
         <table cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
             <tr>
                 <td>
-                    <img src="http://www.git-lbr.ru/images/new_year/card-eng.gif" alt="New Year" width="100%" />
+                    <img src="http://www.lbr.ru/images/new_year/card-eng.gif" alt="New Year" width="100%" />
                 </td>
             </tr>
             <tr>
             <td>
-            <a href="http://www.git-lbr.ru/images/new_year/card-lt.gif">Click to view</a>
+            <a href="http://www.lbr.ru/images/new_year/card-lt.gif">Click to view</a>
             </td>
             </tr>
         </table>

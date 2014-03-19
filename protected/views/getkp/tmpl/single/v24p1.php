@@ -19,22 +19,30 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Профессиональная уборка лука!!</span>
                 </div>
-                
+               <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div> 
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Обрезчик ботвы лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka.jpg" style="width: 100%; margin: 10px;" border="0" />
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka1.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka1.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka2.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -103,19 +111,19 @@
                         <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Копалка для лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka4.jpg" border="0" />
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka5.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. Полностью механическая – никакой гидравлики!</span>
                                 <span class="text">
-                                   Основным отличием данной модели от конкурентов является то, что машина полностью механическая, работает от ВОМ трактора, без необходимости использовать гидравлику трактора или собственную гидростанцию. 
+                                   Основным отличием данной модели является то, что машина полностью механическая, работает от ВОМ трактора, без необходимости использовать гидравлику трактора. 
                                    Расположенная в передней части вращающаяся планка подкапывает растущий впереди лук и загружает его вместе с землей на транспортер, где происходит последующая очистка лука от земли.                                 </span>
                             </div>
                             <div class="width-100">
@@ -151,7 +159,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">420x185</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">От 70</span></td>
                                             </tr>
                                             <tr>
@@ -165,12 +173,12 @@
                 <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Подборщик лука SIMON</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.git-lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.git-lbr.ru/images/kp/yborka-luka6.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka6.jpg" border="0" />
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -216,7 +224,7 @@
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">3,3</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Требуемая мощность, л.с.</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">50</span></td>
                                             </tr>
                                             <tr>
@@ -269,11 +277,11 @@
 <style>
 /*    @font-face {
         font-family: FuturisC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisC.otf);  Путь к файлу со шрифтом 
     }
     @font-face {
         font-family: FuturisXC;  Имя шрифта 
-        src: url(http://www.git-lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
+        src: url(http://www.lbr.ru/images/kp/FuturisXC.otf);  Путь к файлу со шрифтом 
     }*/
     .after-page-break{display: block;}
     .after-page-break:after
