@@ -12,15 +12,4 @@ class m140324_142828_add_column_kp extends CDbMigration
 		echo "m140324_142828_add_column_kp does not support migration down.\n";
 		return false;
 	}
-
-	/*
-	// Use safeUp/safeDown to do migration with transaction
-	public function safeUp()
-	{
-	}
-
-	public function safeDown()
-	{
-	}
-	*/
 }
