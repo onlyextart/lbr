@@ -1,15 +1,15 @@
 <?php
 
-class m140127_095005_drop_table_contactsImage extends CDbMigration
+class m140324_142828_add_column_kp extends CDbMigration
 {
 	public function up()
 	{
-	   $this->droptable('contactsImage');
+	   $this->addColumn('kp', 'product_info', 'TEXT');
 	}
 
 	public function down()
 	{
-		echo "m140127_095005_drop_table_contactsImage does not support migration down.\n";
+		echo "m140324_142828_add_column_kp does not support migration down.\n";
 		return false;
 	}
 
