@@ -49,6 +49,7 @@ class GetkpController extends Controller
         {
             $data->price = unserialize($data->price);
             $data->price_blue = unserialize($data->price_blue);
+            $data->product_info = unserialize($data->product_info);
             if(!in_array($data->temp_id, $this->unique))
                 $temp = TemplateKp::model()->findByPk($data->temp_id);
             
@@ -66,6 +67,8 @@ class GetkpController extends Controller
         $data = $_REQUEST;
         $prices = array();
         $prices_blue = array();
+        $product_info = array();
+                
         if($data['price_count'])
         {
             for($i=1; $i<=$data['price_count']; $i++)
@@ -74,9 +77,15 @@ class GetkpController extends Controller
             for($b=1; $b<=$data['price_count']; $b++)
                 array_push($prices_blue, $data['price_blue'.$b]);    
         }
+        if($data['product_info_count'])
+        {
+            for($i=1; $i<=$data['product_info_count']; $i++)
+                array_push($prices, $data['product_info'.$i]);   
+        }
        
         $data['price'] = serialize($prices);
         $data['price_blue'] = serialize($prices_blue);
+        $data['product_info'] = serialize($product_info);
         $data['control_number'] = rand('1000000', '9999999');
         $data['user'] = $data['user_info'];
         $model->attributes = $data;

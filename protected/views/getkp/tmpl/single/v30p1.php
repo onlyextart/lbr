@@ -26,16 +26,7 @@
                         Переходить на ноль<br> 
                         стало Проще!
                     </span>
-                </div>
-                <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
+                </div>                
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -45,6 +36,15 @@
                     </div>
                     <div class="body-content">
                         <div class="width-100 image">
+                        <div style="text-align: justify;">
+                <?php
+	$finance_block = $data['finance_block'];
+        if ($finance_block=='1')
+        {
+            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
+        }
+?>
+                </div>
                             <img src="http://www.lbr.ru/images/kp/spartan-1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="left-50">
