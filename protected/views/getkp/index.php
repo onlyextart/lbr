@@ -27,16 +27,16 @@ if(is_object($data))
         }
     }
     
-    foreach ($data as $prop=>$val)
+    foreach ($data as $prop=>$info)
     {
-        if(is_array($val))
+        if(is_array($info))
         {
-            foreach ($val as $i=>$product_info)
+            foreach ($info as $i=>$product_info)
             {
                 $array['product_info'.($i+1)] = $product_info;
             }
         }else{
-            $array[$prop]=$val;
+            $array[$prop]=$info;
         }
     }
     
