@@ -196,7 +196,8 @@ tinymce.myOptions = {
             }
             $this->Widget('ext.fileuploaderWidget.FileuploaderWidget', array(
                     'template'=>array(
-                        'image',
+                    'image',                   
+                   'deleteButton',
                     ),
                     'uploadCallback'=>'
                         function( $newUploadedFileWrapper ){
@@ -206,6 +207,9 @@ tinymce.myOptions = {
                                 revert: true
                             });
                         }',
+                    'postParams'=>array(
+                       'uploadDir'=>'/images/banners/'.$bannerModel->id.'/'  
+                    ),   
                     'previouslyUploadedFiles'=>$previouslyUploadedFiles,
                     'postParams'=>array(
                        'uploadDir'=>'/images/banners/'.$bannerModel->id.'/'  

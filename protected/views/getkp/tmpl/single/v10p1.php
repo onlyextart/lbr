@@ -38,9 +38,9 @@
                                 <img src="http://www.lbr.ru/images/kp/mtz1221_2.jpg" border="0" />
                                 
                             </div>
-                            <div style="position: absolute; bottom: 261px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
-                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin: 10px;">
-                                    <? echo $data['product_info1']; ?>
+                            <div style="position: absolute; bottom: 261px; width: 361px; text-align: justify; margin: 10px;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white;">
+                                    <? echo $data['product_info11']; ?>
                                 </div>
                             </div>
                             <div class="right-50">
@@ -193,9 +193,9 @@
                                 <img src="http://www.lbr.ru/images/kp/mtz1221_3.jpg" border="0" />
                                 
                             </div>
-                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
-                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin: 10px;">
-                                    <? echo $data['product_info1']; ?>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  margin: 10px;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white;">
+                                    <? echo $data['product_info11']; ?>
                                 </div>
                             </div>
                             <div class="right-50">

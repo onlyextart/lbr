@@ -80,7 +80,7 @@ class GetkpController extends Controller
         if($data['product_info_count'])
         {
             for($i=1; $i<=$data['product_info_count']; $i++)
-                array_push($prices, $data['product_info'.$i]);   
+                array_push($product_info, $data['product_info'.$i]);   
         }
        
         $data['price'] = serialize($prices);

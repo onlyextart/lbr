@@ -13,6 +13,7 @@ class FileuploaderController extends Controller
         //если получен файл
         if (isset($_FILES)) {
             //проверяем размер и тип файла
+            die(var_dump($_FILES));            
             $ext = end(explode('.', strtolower($_FILES['Filedata']['name'])));
             if (!in_array($ext, $allowedExt)) {
                 return;
