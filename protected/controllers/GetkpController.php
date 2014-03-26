@@ -67,7 +67,7 @@ class GetkpController extends Controller
         $data = $_REQUEST;
         $prices = array();
         $prices_blue = array();
-        $product_info = array();
+        $products_info = array();
                 
         if($data['price_count'])
         {
@@ -80,12 +80,12 @@ class GetkpController extends Controller
         if($data['product_info_count'])
         {
             for($i=1; $i<=$data['product_info_count']; $i++)
-                array_push($product_info, $data['product_info'.$i]);   
+                array_push($products_info, $data['product_info'.$i]);   
         }
        
         $data['price'] = serialize($prices);
         $data['price_blue'] = serialize($prices_blue);
-        $data['product_info'] = serialize($product_info);
+        $data['product_info'] = serialize($products_info);
         $data['control_number'] = rand('1000000', '9999999');
         $data['user'] = $data['user_info'];
         $model->attributes = $data;
