@@ -20,13 +20,26 @@ if(is_object($data))
                     
                 }
                 
-            }
+            }            
             $mas1 = true;
         }else{
             $array[$prop]=$val;
         }
     }
-   
+    
+    foreach ($data as $prop=>$val)
+    {
+        if(is_array($val))
+        {
+            foreach ($val as $i=>$product_info)
+            {
+                $array['product_info'.($i+1)] = $product_info;
+            }
+        }else{
+            $array[$prop]=$val;
+        }
+    }
+    
     $array['user_info'] = $array['user'];
         
     if(in_array($data->temp_id, $unique))
