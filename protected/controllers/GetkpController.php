@@ -76,6 +76,8 @@ class GetkpController extends Controller
                 
             for($b=1; $b<=$data['price_count']; $b++)
                 array_push($prices_blue, $data['price_blue'.$b]);    
+            
+            
         }
         if($data['product_info_count'])
         {

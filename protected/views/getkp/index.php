@@ -3,42 +3,23 @@ $print = '';
 if(is_object($data))
 {
     $array = array();
-    $mas1 = false;
     foreach ($data as $prop=>$val)
     {
+        
+        
         if(is_array($val))
         {
             foreach ($val as $i=>$price)
             {
-                if ($mas1 == false){
-                    
-                    $array['price'.($i+1)] = $price;
-                                      
-                }
-                else {
-                    $array['price_blue'.($i+1)] = $price;
-                    
-                }
-                
+                $array[$prop.($i+1)] = $price;                
             }            
-            $mas1 = true;
-        }else{
-            $array[$prop]=$val;
+        }
+        else{
+            $array[$prop] = $val;
         }
     }
     
-    foreach ($data as $prop=>$info)
-    {
-        if(is_array($info))
-        {
-            foreach ($info as $i=>$product_info)
-            {
-                $array['product_info'.($i+1)] = $product_info;
-            }
-        }else{
-            $array[$prop]=$info;
-        }
-    }
+    
     
     $array['user_info'] = $array['user'];
         

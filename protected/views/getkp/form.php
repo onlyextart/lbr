@@ -21,7 +21,11 @@ and open the template in the editor.
             <div><span>Price 3:</span><input name="price3" value="91011" type="text"></div>
             <div><span>Price 4:</span><input name="price4" value="4321" type="text"></div>
             <div><span>Price 5:</span><input name="price5" value="98765" type="text"></div>
-            <div><span>Product Info</span><input name="product_info1" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
+            <div><span>Product Info 1</span><input name="product_info1" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
+            <div><span>Product Info 2</span><input name="product_info2" value="" type="text"></div>
+            <div><span>Product Info 3</span><input name="product_info3" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
+            <div><span>Product Info 4</span><input name="product_info4" value="" type="text"></div>
+            <div><span>Product Info 5</span><input name="product_info5" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
             <div><span>Client:</span><input name="client" value="Василий И.И" type="text"></div>
             <div><span>User:</span><input name="user" value="user" type="text"></div>
             <div><span>User info:</span><textarea name="user_info" type="text">Жориков Иван Васильевич<br>Скайп: jora<br>Мыло: jora@lbr.ru</textarea></div>
