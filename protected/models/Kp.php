@@ -15,7 +15,7 @@
  * @property string $filial_bottom
  * @property integer $control_number
  * @property integer $finance_block
- * @property integer $product_info
+ * @property string $product_info
  */
 class Kp extends CActiveRecord
 {
