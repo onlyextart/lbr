@@ -2,7 +2,7 @@
 
 if ($data->image_type=='1' || $data->image_type=='2' || $data->image_type=='3')
 {
-    $class_ = $data->image_type=='1'? '' : 'action';
+    $class_ = $data->image_type!='2'? '' : 'action';
     echo '<div class="review_photo time_to_buy '.$class_.'">';
     echo '<img src="'.$data->image.'" alt="'.$data->name.'" title="'.$data->name.'">';
     echo $data->image_top_left ? '<span class="time_to_buy_top_left">'.$data->image_top_left.'</span>':'';
