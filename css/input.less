@@ -2328,6 +2328,37 @@ footer:after, .wrapper .search .search-form form:after, .wrapper .search .search
         }
     }
     
+    table.table-in-news
+    {
+        border-collapse: collapse;
+        border: 0;
+        width: 100%;
+        thead
+        {
+            tr
+            {
+                background: #E6E6E6;
+                td
+                {
+                    font-weight: bold;
+                    font-size: 1.1em;
+                }
+            }
+        }
+        tr:nth-child(even) {
+            background: white; /* Цвет фона */
+        } 
+        tr:nth-child(odd) {
+            background: #F8F7F2; /* Цвет фона */
+        } 
+        td
+        {
+            padding: 4px 7px;
+            border-color: rgb(200, 200, 200);
+            p{.reset;}
+        }
+    }
+    
     .menuTreeViewWrapper div{
         margin: 0 0 10px 5px;
     }

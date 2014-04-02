@@ -2303,6 +2303,32 @@ header .menu.main .menuMainTop:after {
 .news a {
   color: #828282;
 }
+table.table-in-news {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+}
+table.table-in-news thead tr {
+  background: #E6E6E6;
+}
+table.table-in-news thead tr td {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+table.table-in-news tr:nth-child(even) {
+  background: white;
+}
+table.table-in-news tr:nth-child(odd) {
+  background: #F8F7F2;
+}
+table.table-in-news td {
+  padding: 4px 7px;
+  border-color: #c8c8c8;
+}
+table.table-in-news td p {
+  margin: 0;
+  padding: 0;
+}
 .menuTreeViewWrapper div {
   margin: 0 0 10px 5px;
 }
