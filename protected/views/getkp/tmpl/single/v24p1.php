@@ -18,16 +18,7 @@
             <div class="one-page head-first-page">
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Профессиональная уборка лука!!</span>
-                </div>
-               <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div> 
+                </div>               
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -38,11 +29,16 @@
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
-                                <img src="http://www.lbr.ru/images/kp/yborka-luka.jpg" style="width: 100%; margin: 10px;" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka.jpg" style="width: 100%; height: 275px; margin-bottom: 10px;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 298px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/yborka-luka1.jpg" border="0" />
-                                <img src="http://www.lbr.ru/images/kp/yborka-luka2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka1.jpg" border="0" style="height: 245px;" />
+                                <img src="http://www.lbr.ru/images/kp/yborka-luka2.jpg" border="0" style="height: 245px;"/>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -73,10 +69,6 @@
                                             <tr style="background-color: #d1d3d4;">
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 м</strong></strong></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Рабочая ширина, м</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1,5</span></td>
                                             </tr>
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Изменяемая колея, мм</span></td>
@@ -118,6 +110,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/yborka-luka4.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/yborka-luka5.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 792px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -179,6 +176,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/yborka-luka6.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 70px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">

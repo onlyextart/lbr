@@ -23,18 +23,7 @@
                 </div>
             </div>
                             
-            <div class="header-red-line">СЕЯЛКИ ЗЕРНОВЫЕ И ПОСЕВНЫЕ КОМПЛЕКСЫ НА ИХ БАЗЕ</div>
-            <div class="one-page head-first-page">
-            <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
-                </div>
+            <div class="header-red-line">СЕЯЛКИ ЗЕРНОВЫЕ И ПОСЕВНЫЕ КОМПЛЕКСЫ НА ИХ БАЗЕ</div>            
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="head-content">
@@ -42,9 +31,15 @@
                         <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 9px; width: 35px;"/></div>
                     </div>
                     <div class="body-content">
+                    <div style="position: absolute; bottom: 665px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
+                            </div>
                         <div class="width-100 image">
-                            <img src="http://www.lbr.ru/images/kp/polonez_dablo.jpg" style="width:100%" border="0" height="350px" />
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo.jpg" style="width:100%" border="0" height="290px" />
                         </div>
+                        
                         <div class="width-100">                            
                             <table width="760" style="border-collapse: collapse; border-bottom: 1px black solid; font-size: 12px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" >
                                 <tbody>
@@ -88,10 +83,10 @@
                         </div>
                         <div class="width-100 image">
                             <span class="h-4" style="color: black;">Высеваемые культуры:</span>
-                            <img src="http://www.lbr.ru/images/kp/polonez_dablo1.jpg" style="width:100%" border="0" />                            
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo1.jpg" style="width:100%; height: 150px;" border="0" />                            
                         </div>
                         <div class="left-50 image" style="margin-top: 10px;">                            
-                            <img src="http://www.lbr.ru/images/kp/polonez_dablo2.jpg" style="width:100%" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/polonez_dablo2.jpg" style="width:100%; height: 220px;" border="0" />
                         </div>
                         <div class="right-50">
                         <span class="h-4" style="margin-left: 5px;">КАЧЕСТВЕННЫЙ ПОСЕВ ЭТО:</span>
@@ -125,6 +120,11 @@
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/polonez_dablo3.jpg" style="width: 370px;" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/polonez_dablo4.jpg" style="width: 370px; height: 233px;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="left-50">                                                               
                                 <span class="text" style="padding-right: 10px;">
@@ -193,7 +193,8 @@
                             </div>                             
                         </div>
                     </div>
-                    </div>
+                </div>
+            </div>
             <div class="page-break"></div>
             <div class="after-page-break"></div>
             <div class="one-page body-page">

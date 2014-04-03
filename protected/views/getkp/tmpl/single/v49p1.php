@@ -15,40 +15,11 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
-            <div class="one-page head-first-page" style="height: 580px;">
+            <div class="one-page head-first-page">
                 <div class="content-page">
                     <span class="first-header-text">ЕВРОПЕЙСКИЙ ПОДХОД</span>
-                    <span class="second-header-text">к весенним полевым<br>работам!</span>
-                
-                 <div class="orange-background-center">
-                   <span> Внимание! Оплата в рассрочку!</span>
-                </div>
-                <div class="orange-text-center">
-                <span>0% переплат - это выгодно</span>
-                </div>
-                <div>
-                    <table align="center" style="width: 740px; border-collapse: collapse; border: 1px solid; ">
-                    <tr style="background: #FFFF00;">
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Авансовый платеж</td>
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Внесение аванса</td>
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Окончательный расчет <br />(до 7 месяцев)</td>
-                    </tr>
-                    <tr>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">15%</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">до 01.02.14</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">ежемесячные платежи 10%; последний платеж 25%</td>
-                    </tr>
-                    <tr>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">25%</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">после 01.02.14</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">ежемесячные платежи 10%; последний платеж 15%</td>
-                    </tr>                    
-                    </table>
-                </div>
-            </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
+                    <span class="second-header-text">к весенним полевым<br>работам!</span></div>
+            </div>            
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
@@ -62,6 +33,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/euro-podhod1.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 50px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="left-50">
@@ -128,7 +104,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/euro-podhod2.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/euro-podhod2.jpg" border="0" style="height: 280px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 6px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -190,6 +171,11 @@
                         <div class="body-content">
                             <div class="left-30 image">
                                 <img src="http://www.lbr.ru/images/kp/euro-8.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 344px; right: 26px; width: 491px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-70" style="padding-left: 2%; width: 68%; margin-bottom: 10px;">
                                 <div class="width-100 image">
@@ -278,6 +264,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/euro-podhod6.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 170px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="h-4">ЗА 1 ПРОХОД ПРЕДПОСЕВНОЙ <br>КУЛЬТИВАТОР ATLAS ВЫПОЛНЯЕТ:</span>
                                 <span class="text">
@@ -333,6 +324,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/euro-podhod7.jpg" height="200" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 150px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="h-4">ПРИКАТКА, РЫХЛЕНИЕ И СНОВА ПРИКАТКА!</span>
@@ -392,6 +388,11 @@
                                 
                                 <span class="left-90 text" style="line-height: 16px; margin: 0px;">Применяется для повседневной обработки зерновых, под сахарную свеклу, подсолнечник, кукурузу, для обработки паров, для работы после пахоты и дискования. <br><span class="span-red-left">ПРИЯТНО УДИВИТЕСЬ ЦЕНЕ!</span></span>
                          
+                            </div>
+                            <div style="position: absolute; bottom: 83px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="text" style="margin: 0px;">
@@ -465,6 +466,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/euro-podhod9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 58px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -608,7 +614,7 @@
         margin-bottom: 4px;
         font-weight: bold;
     }
-    .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 18px;}
+    .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 15px;}
     .left-10, .left-20, .left-30, .left-40, .left-50, .left-60, .left-70, .left-80, .left-90, .left-75
     {
         float: left;

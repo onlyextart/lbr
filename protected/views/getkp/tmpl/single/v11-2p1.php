@@ -20,21 +20,8 @@
                     <span class="dieci-header-orange">БОЛЬШОЙ<br /> ОСЕННИЙ БОНУС !!!</span>
                 </div>
                 <div class="first-header-text">Всем, кто в 2013 году купил трактор МТЗ 1523 в сети агромаркетов ЛБР, - большие осенние скидки на сельхозмашины, агрегатируемые с трактором.</div>
-           <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
-           
-            </div>
-            
-            
-            
-            <div class="one-page body-page">
+           </div>
+           <div class="one-page body-page">
                 <div class="content-page">
                     <div style="width: 100%; height: 20px;"></div>
                     <div class="one-item">
@@ -44,8 +31,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz1523-2.jpg" border="0" />
-                                
+                                <img src="http://www.lbr.ru/images/kp/mtz1523-2.jpg" border="0" style="height: 170px;" />                                
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <br>
@@ -120,6 +111,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-3.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -203,7 +199,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz1523-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz1523-4.jpg" border="0" style="height: 190px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -287,7 +288,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz1523-5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz1523-5.jpg" border="0" style="height: 320px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -428,6 +434,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-6.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 8px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; font-size: 12px; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -550,13 +561,6 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Сеялка зерновая 2SF30</span></div>
@@ -565,6 +569,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-7.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 21px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -703,6 +712,14 @@
                             </div>
                         </div>
                     </div>
+                    </div>
+                    </div>
+                    <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>
+                    
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Борона зубовая Superharrow 14м</span></div>
@@ -711,6 +728,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-8.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -769,6 +791,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1221_22.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info8']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -844,14 +871,6 @@
                             </div>
                         </div>
                     </div> 
-                    <div style="width: 100%; height: 10px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прикатывающий каток Maximus</span></div>
@@ -860,6 +879,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523_23.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info9']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -935,6 +959,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 9px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info10']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1025,6 +1054,12 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">                    
                     <div style="width: 100%; height: 15px;"></div>
                     <div class="one-item">
                         <div class="head-content">
@@ -1034,6 +1069,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-10.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info11']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1123,18 +1163,7 @@
                                 </table>
                             </div>
                         </div>
-                    </div>
-                    <div style="width: 100%; height: 55px;"></div>
-                    
-                    <div style="width: 100%; height: 25px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
-                    <div class="one-item">
+                    </div><div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прицеп самосвальный LMR 18</span></div>
                             <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
@@ -1142,6 +1171,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-11.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 18px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info12']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1217,6 +1251,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz1523-12.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info13']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="font-size: 13.5px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1258,6 +1297,7 @@
                             </div>
                         </div>
                     </div>
+                    <div style="width: 100%; height: 25px;"></div>
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>

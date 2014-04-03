@@ -19,17 +19,7 @@
                     <span class="dieci-header-orange">Прицепной<br />разбрасыватель<br /> минеральных удобрений</span>
                 </div>
                 <div class="first-header-text">МХL 3000 на шасси KASTOR –<br />лучшая загрузка МТЗ 82!</div>
-           <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
-           
-            </div>
+          </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
                     <div class="one-item">
@@ -42,6 +32,44 @@
                             <div class="body-content">
                                 <div class="left-50 image">
                                     <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/kastor.jpg" border="0" />
+                                   <div style="position: absolute; bottom: 148px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
+                            </div>                                    
+                                </div>
+                                <div class="right-50" style="text-align: center;">
+                                    <span class="span-red-left">1. 2 в 1, лучшие качества от прицепных и навесных разбрасывателей!</span>
+                                    <span class="text" style="font-size: 15px; line-height: 20px;">                                        
+                                        • Объём 3 000 литров! Больше производительности при высокой точности внесения!<br />
+                                        • Сокращение агротехнических сроков внесения удобрений, уменьшение парка техники.<br />
+                                        • Высокая равномерность и точная регулировка! Управление дозой внесения с помощью шнекового дозатора с плавной бесступенчатой регулировкой.<br />
+                                        • Меньше времени на настройки! Управление дозой внесения из кабины трактора.<br />
+                                        • Система подачи материала на разбрасывающие диски обеспечивает бережное обращение с гранулами, что повышает эффективность применения разбрасывателя.<br />
+                                    </span>
+                                    <span class="span-red-left">2. Уникальность в продуманности!</span>
+                                    <span class="text" style="font-size: 15px; line-height: 20px;"> 
+                                        • Шасси, используемое для разбрасывателя MXL, имеет широкие колёса низкого давления на шинах 400/60 х 15.5 14 PR и регулируемую колесную базу в диапазоне 1500 – 1800 мм. 
+                                        Идеальное решение для подкормки по всходам!<br />
+                                    </span>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            
+            
+                    
+                <div class="page-break"></div>
+                <div class="after-page-break"></div>
+                <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 20px;"></div>
+                    <div class="body-content">
+                                <div class="left-50">                                    
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -136,40 +164,15 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="right-50" style="text-align: center;">
-                                    <span class="span-red-left">1. 2 в 1, лучшие качества от прицепных и навесных разбрасывателей!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 20px;">                                        
-                                        • Объём 3 000 литров! Больше производительности при высокой точности внесения!<br />
-                                        • Сокращение агротехнических сроков внесения удобрений, уменьшение парка техники.<br />
-                                        • Высокая равномерность и точная регулировка! Управление дозой внесения с помощью шнекового дозатора с плавной бесступенчатой регулировкой.<br />
-                                        • Меньше времени на настройки! Управление дозой внесения из кабины трактора.<br />
-                                        • Система подачи материала на разбрасывающие диски обеспечивает бережное обращение с гранулами, что повышает эффективность применения разбрасывателя.<br />
-                                    </span>
-                                    <span class="span-red-left">2. Уникальность в продуманности!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 20px;"> 
-                                        • Шасси, используемое для разбрасывателя MXL, имеет широкие колёса низкого давления на шинах 400/60 х 15.5 14 PR и регулируемую колесную базу в диапазоне 1500 – 1800 мм. 
-                                        Идеальное решение для подкормки по всходам!<br />
-                                    </span>
+                                <div class="right-50" style="text-align: center;">                                 
                                     <span class="span-red-left">3. Платить за название или за качество?!</span>
                                     <span class="text" style="font-size: 15px; line-height: 20px;">                                                                         
                                         • Уникальное соотношение ширины и точности внесения. Рассеивание удобрения в большом рабочем диапазоне (до 36 метров). Точность внесения подтверждена тестами DLG (Германия). <br />
                                         • Разбрасыватели ничем не уступают в равномерности и надёжности таким грандам, как Amazone, RAUH или Sulky. <b>Выигрыш в цене составляет не менее 30%!</b><br />
                                         
                                     </span>
-                                    
                                 </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-               
-            
-            
-                    
-           
-                <div class="content-page">
-                    <div style="width: 100%; height: 20px;"></div>
-                                            
+                            </div>                        
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
