@@ -19,16 +19,6 @@
                     <span class="dieci-header-orange">БОЛЬШОЙ <br>ОСЕННИЙ БОНУС !!!</span>
                 </div>
                 <div class="first-header-text">ВСЕМ, КТО В 2013 ГОДУ КУПИЛ ТРАКТОР МТЗ 82 В СЕТИ<br>АГРОМАРКЕТОВ ЛБР, - БОЛЬШИЕ ОСЕННИЕ СКИДКИНА<br>СЕЛЬХОЗМАШИНЫ, АГРЕГАТИРУЕМЫЕ С ТРАКТОРОМ.</div>
-            
-            <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -41,6 +31,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_3.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -128,6 +123,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_4.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -200,7 +200,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_5.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz82_5.jpg" border="0" style="height: 230px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -282,6 +287,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_6.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 86px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -436,6 +446,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_7.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 60px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -504,6 +519,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_8.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 61px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -590,6 +610,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 43px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -745,6 +770,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_10.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 3px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info8']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; font-size: 12px; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -895,6 +925,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_11.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 11px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info9']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -997,6 +1032,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_12.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info10']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1104,6 +1144,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_13.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 20px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info11']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1195,6 +1240,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_14.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 47px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info12']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1318,6 +1368,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_15.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 13px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info13']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1415,6 +1470,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_16.jpg" border="0" height="400px" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info14']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1554,6 +1614,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_17.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info15']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; font-size: 12px; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1690,6 +1755,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_18.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 49px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info16']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1861,6 +1931,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_19.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info17']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1981,6 +2056,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_20.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info18']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="font-size: 14px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -2095,6 +2175,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_21.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info19']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -2161,6 +2246,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_22.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 7px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info20']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2236,6 +2326,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_23.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 91px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info21']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2350,6 +2445,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_24.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 53px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info22']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2501,6 +2601,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_25.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info23']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -2580,6 +2685,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_26.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
                             </div>
                             <div class="right-50 image">
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">

@@ -14,38 +14,13 @@
                     <img src="http://www.lbr.ru/images/kp/logo.jpg" alt="Logo" style="border: 0;"/>
                 </div>
             </div>
-            <div class="one-page head-first-page" style="height: 580px;">
+            <div class="one-page head-first-page">
                 <div class="content-page">
                     <div class="dieci-header">
                         <span class="dieci-header-orange">ЕвропЕйскиЕ зЕрновыЕ сЕялки по цЕнЕ аналогов из стран снг!</span>
                     </div>
                     <span class="second-header-text">сЕялка - главный <br>фактор урожая!</span>
-                </div>
-                <div class="orange-background-center">
-                   <span> Внимание! Оплата в рассрочку!</span>
-                </div>
-                <div class="orange-text-center">
-                <span>0% переплат - это выгодно</span>
-                </div>
-                <div>
-                    <table align="center" style="width: 740px; border-collapse: collapse; border: 1px solid; ">
-                    <tr style="background: #FFFF00;">
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Авансовый платеж</td>
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Внесение аванса</td>
-                        <td style="font-weight: bolder; font-family: FuturisC, sans-serif; font-size: 24px; text-align: center;">Окончательный расчет <br />(до 7 месяцев)</td>
-                    </tr>
-                    <tr>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">15%</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">до 01.02.14</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">ежемесячные платежи 10%; последний платеж 25%</td>
-                    </tr>
-                    <tr>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">25%</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">после 01.02.14</td>
-                        <td style="font-family: FuturisC, sans-serif; font-size: 18px; text-align: center;">ежемесячные платежи 10%; последний платеж 15%</td>
-                    </tr>                    
-                    </table>
-                </div>
+                </div>  
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -60,6 +35,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/seyalka.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="text">
@@ -109,6 +89,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/seyalka2.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 25px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="text">
                                     <b>Опционально:</b>
@@ -145,15 +130,20 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div class="one-item">                        
+                    <div class="one-item" style="margin-bottom: 5px;">                        
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Пневматическая сеялка Master Drill D600</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; top: 4px; right: 0;"/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/seyalka3.jpg" border="0" />
-                                
+                            </div>
+                            <div style="position: absolute; bottom: 225px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
+                            </div>  
                             <div class="left-50">
                             <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr>
@@ -203,16 +193,21 @@
                                 
                             </div>
                         </div>
-                    </div>
-                    <div class="one-item">                        
+                    
+                    <div class="one-item" style="margin-bottom: 5px;">                        
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Зерновая сеялка Super Drill D400</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; top: 8px; right: 0;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/logo1.jpg" border="0" style="position: absolute; top: 4px; right: 0;"/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/seyalka4.jpg" border="0" />
-                            
+                                <img src="http://www.lbr.ru/images/kp/seyalka4.jpg" border="0"/>
+                            </div>
+                            <div style="position: absolute; bottom: 127px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
+                            </div>
                             <table width="361" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin-left: 0px;">
                                         <tr>
                                             <td align="left"><span>Рабочая ширина, м</span></td>
@@ -249,9 +244,10 @@
                                 </span>
                                 
                             </div>
-                        </div>
-                    </div>
-                    <div class="footer">
+                        
+                    
+                </div>
+                <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">
                             <span>
                                 Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
@@ -270,10 +266,9 @@
                             </span>
                         </div>
                     </div>
-                </div>
+            </div>
             </div>
         </div>
-        
     </body>
 </html>
 <style>

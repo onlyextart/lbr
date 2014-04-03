@@ -18,16 +18,7 @@
             <div class="one-page head-first-page">
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ЭФФЕКТИВНАЯ УБОРКА ЛУКА!</span>
-                </div>
-              <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>  
+                </div>              
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -40,6 +31,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/luk-1.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/luk-2.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 108px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -58,7 +54,7 @@
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">3. УНИВЕРСАЛЬНОСТЬ - ЗАЛОГ УСПЕХА!</span>
                                 <span class="text">
-                                   Конструкция обрезчика позволяет навешивать его как на передний, так и на задний ВОМ трактора.
+                                   Возможность навешивать обрезчик как на передний, так и на задний ВОМ трактора.
                                 </span>
                             </div>  
                             
@@ -67,15 +63,10 @@
                                <table width="380" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin: 10px 0px;">
                                         <tbody>
                                             <tr style="background-color: #d1d3d4;">
-                                                <td width="32%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
-                                                <td width="34%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука<br /> 1,2 м</strong></strong></span></td>
-                                                <td width="34%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука<br /> 1,5 м</strong></strong></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Рабочая ширина захвата штанги</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1,2 м</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1,5 м</span></td>
-                                            </tr>    
+                                                <td width="50%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td width="25%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик<br /> 1,2 м</strong></strong></span></td>
+                                                <td width="25%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик<br /> 1,5 м</strong></strong></span></td>
+                                            </tr>                                               
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Производительность, га/ч</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">до 0,7</span></td>
@@ -94,27 +85,31 @@
                 </div>
                 <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Обрезчик ботвы лука SIMON</span></div>
+                            <div class="h-2 left-75" style="margin-top: 5px;"><span>Обрезчик ботвы лука SIMON</span></div>
                             <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/simon-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px; width: 100px;" /></div>
                         </div>
                         <div class="body-content">                            
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/luk-3.jpg" border="0" />
-                                <img src="http://www.lbr.ru/images/kp/luk-4.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/luk-3.jpg" border="0" style="height: 245px;" />
+                                <img src="http://www.lbr.ru/images/kp/luk-4.jpg" border="0" style="height: 155px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 181px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. АВТОМАТИЧЕСКИЙ КОНТРОЛЬ ВЫСОТЫ ОБРЕЗАНИЯ БОТВЫ!</span>
                                 <span class="text">
-                                   Опционально устанавливаемый на обрезчике контроль высоты обрезания ботвы минимизирует ошибки оператора, улучшая качество уборки лука на 30%!
+                                   Минимизирует ошибки оператора, улучшая качество уборки лука на 30%!
                                 </span>
                             </div>                            
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. СВЕРХПРОЧНЫЕ НОЖИ ДЛЯ ОБРЕЗАНИЯ БОТВЫ!</span>
+                                <span class="h-4" style="text-transform: uppercase;">2. СВЕРХПРОЧНЫЕ НОЖИ!</span>
                                 <span class="text">
                                    Ножи, изготовленные из высококачественной стали, расположены под углом 45 градусов, что создает воздушный поток, которые приподнимает ботву луку, позволяя обрезать ботву даже со сломанного или поврежденного лука. 
-                                   Лезвия, используемые на обрезчике ботвы двухсторонние. При стачивании одной стороны, можно легко использовать другую просто перевернув лезвие.
                                 </span>
                             </div>  
                             
@@ -123,15 +118,10 @@
                                <table width="380" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285; margin: 10px 0px;">
                                         <tbody>
                                             <tr style="background-color: #d1d3d4;">
-                                                <td width="40%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
-                                                <td width="30%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 м</strong></strong></span></td>
-                                                <td width="30%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик ботвы лука 1,5 с автоматическим контролем рабочей высоты</strong></strong></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Рабочая ширина, м</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1,5</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span></td>
-                                            </tr> 
+                                                <td width="50%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td width="25%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик 1,5 м</strong></strong></span></td>
+                                                <td width="25%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>Обрезчик 1,5 м с авт. контролем рабочей высоты</strong></strong></span></td>
+                                            </tr>                                            
                                             <tr>
                                                 <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Изменяемая колея, мм</span></td>
                                                 <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">1400-2000</span></td>
@@ -174,6 +164,11 @@
                         <div class="body-content">                            
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/luk-5.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 77px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -236,6 +231,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/luk-6.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/luk-7.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 324px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
@@ -311,6 +311,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/luk-8.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 143px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 
                             <div class="width-100">
@@ -375,6 +380,11 @@
                         <div class="body-content">                            
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/luk-9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 119px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">                               
                                 

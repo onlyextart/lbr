@@ -24,16 +24,6 @@
                 <div class="two-header-text">На технику для приготовления и раздачи кормов мы предлагаем Вам отличные условия оплаты в сезон: 30% предоплата и по 10% далее каждый месяц, срок действия акции (срок последнего платежа) до 1 мая!</div>
                 <div style="width: 100%; height: 10px;"></div>
                 <div class="first-header-text">ОКУПАЮТСЯ ЗА СЕЗОН ЗА СЧЕТ ПРИРОСТА НАДОЕВ И ИСКЛЮЧЕНИЯ ВЫБОРОЧНОГО ПОЕДАНИЯ КОРМА.</div>
-            
-            <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -44,6 +34,11 @@
                         <div class="body-content">
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka.jpg" style="width: 100%; margin: 10px;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">Легко измельчает целые тюки!!!</span>
@@ -163,6 +158,11 @@
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka2.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka3.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
+                            </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase; color: black; font-size: 14px;">Запатентованная конструкция системы измельчения!</span>
@@ -237,6 +237,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka4.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
+                            </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
                                 
@@ -306,6 +311,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka5.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/sezon-moloka6.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">

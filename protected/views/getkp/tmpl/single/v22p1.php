@@ -19,22 +19,12 @@
               <div class="head-content-grey">
                             <div class="h-2"><span>Опрыскиватели от А до Я - для любых задач и любого бюджета!</span></div>
                             
-                        </div>
-            
-            <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
-                </div>
+              </div>
+            </div>
             
             <div class="one-page body-first-page">
                 <div class="content-page">
-                    <div class="one-item">
+                    <div class="one-item" style="margin-bottom: 0px;">
                     
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
@@ -43,6 +33,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" height="254px" />
+                            </div>
+                            <div style="position: absolute; bottom: 139px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -60,7 +55,7 @@
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">3. КОМПАКТНОСТЬ И МАНЕВРЕННОСТЬ!</span>
                                 <span class="text">
-                                   Благодаря компактности и высокой маневренности навесных опрыскивателей Mosquito (производство Польша), их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.
+                                   Благодаря компактности и высокой маневренности навесных опрыскивателей Mosquito, их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.
                                 </span>
                             </div>
                             </div>
@@ -134,6 +129,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya1.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 159px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -221,6 +221,11 @@
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya2.jpg" style="width: 100%; border: 0;" />
                             </div>
+                            <div style="position: absolute; bottom: 308px; width: 760px; text-align: center;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
+                            </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. Экономия химикатов до 30%!!</span>
                                 <span class="text">
@@ -301,6 +306,11 @@
                         <div class="body-content">
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border:0;" />
+                            </div>
+                            <div style="position: absolute; bottom: 376px; width: 760px; text-align: center;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. ЗАПАТЕНТОВАННЫЕ КОНУСНЫЕ НАКОНЕЧНИКИ – РАБОТА ПРИ СКОРОСТИ ВЕТРА БОЛЕЕ 30 КМ/ЧАС</span>

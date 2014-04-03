@@ -18,16 +18,7 @@
             <div class="one-page head-first-page">
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Выгодные<br /> инвестиции<br /> в картофель!!!</span>
-                </div>
-               <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div> 
+                </div>               
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -40,6 +31,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/invest-potato.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/invest-potato2.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -111,6 +107,11 @@
                             <div class="left-50 image">
                                 <img style="height: 240px;" src="http://www.lbr.ru/images/kp/invest-potato3.jpg" border="0" />
                                 
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -207,6 +208,11 @@
                                 <img src="http://www.lbr.ru/images/kp/invest-potato5.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/invest-potato6.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
+                            </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
                                 <span class="h-4" style="text-transform: uppercase;">1. ПРОСТАЯ И НАДЕЖНАЯ!!</span>
@@ -289,6 +295,11 @@
                                 <img src="http://www.lbr.ru/images/kp/invest-potato7.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/invest-potato8.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="h-4">1. Быстрее и эффективнее!</span>
                                 <span class="text">
@@ -368,6 +379,11 @@
                             
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/invest-potato9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="h-4" style="text-transform: uppercase;">1. БЕРЕЖНАЯ УБОРКА - КАЧЕСТВЕННЫЙ КАРТОФЕЛЬ!</span>
@@ -457,6 +473,11 @@
                                 <img src="http://www.lbr.ru/images/kp/invest-potato10.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/invest-potato11.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="h-4">1. Экономичная альтернатива!</span>
                                 <span class="text">
@@ -536,6 +557,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/invest-potato12.jpg" width="358" border="0" />
                                 <img style="margin-top: 45px;" src="http://www.lbr.ru/images/kp/invest-potato13.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 
@@ -633,7 +659,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/invest-potato14.jpg" border="0" height="265px" />                                                              
                             </div>
-                            
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info8']; ?>
+                                </div>
+                            </div>                            
                             <div class="right-50">
                                 <span class="h-4">1. Меньше радиус поворота на краю поля!</span>
                                 <span class="text">
@@ -711,6 +741,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/invest-potato15.jpg" border="0" />  
                                 <img src="http://www.lbr.ru/images/kp/invest-potato16.jpg" border="0" />                             
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info9']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="h-4">1. КОМПАКТНЫЕ И УДОБНЫЕ!</span>

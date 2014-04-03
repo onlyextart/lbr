@@ -18,16 +18,7 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">ВЫГОДНО ВДВОЙНЕ! МТЗ 82 ПО СТАРОЙ ЦЕНЕ И ТЕХНИКОЙ С ОСЕННИМИ СКИДКАМИ</span>
                 </div>
-                <div class="first-header-text">ДВОЙНОЙ УДАР <br>ПО ЦЕНАМ!!!</div>
-                <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
+                <div class="first-header-text">ДВОЙНОЙ УДАР <br>ПО ЦЕНАМ!!!</div>                
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -41,6 +32,11 @@
                                 <img src="http://www.lbr.ru/images/kp/mtz82_1.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/mtz82_2.jpg" border="0" />
                                 
+                            </div>
+                            <div style="position: absolute; bottom: 286px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <br>
@@ -70,7 +66,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Мощность,кВт</span>
+                                    <span>Мощность, кВт</span>
                                     <span>(л.с.)</span>
                                     </td>
                                     <td>
@@ -84,7 +80,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Числоцилиндров</span>
+                                    <span>Число цилиндров</span>
                                     </td>
                                     <td>
                                     <span>4</span>
@@ -95,7 +91,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Рабочийобъем,л</span>
+                                    <span>Рабочий объем,л</span>
                                     </td>
                                     <td>
                                     <span>4,75</span>
@@ -106,33 +102,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Емкостьтопливных баков,л</span>
-                                    </td>
-                                    <td>
-                                    
-                                    <span>130</span>
-                                    </td>
-                                    <td>
-                                    
-                                    <span>130</span>
-                                    </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td>
-                                    
-                                    <span>Коробкапередач</span>
-                                    </td>
-                                    <td>
-                                    <span>механическая, ступенчатая</span>
-                                    </td>
-                                    <td>
-                                    <span>механическая, ступенчатая</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Числопередач:</span>
+                                    <span>Число передач:</span>
                                     <span>вперед/назад</span>
                                     </td>
                                     <td>
@@ -159,7 +129,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Размерышин (стандарт) переднихколес</span>
+                                    <span>Размеры шин (стандарт) передних колес</span>
                                     </td>
                                     <td>
                                     
@@ -172,7 +142,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Размерышин (стандарт)задних колес</span>
+                                    <span>Размеры шин (стандарт)задних колес</span>
                                     </td>
                                     <td>
                                     
@@ -185,7 +155,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Грузоподъемность гидронавесной системынаоси подвеса,кг</span>
+                                    <span>Грузоподъемность гидронавесной системы на оси подвеса,кг</span>
                                     </td>
                                     <td>
                                     
@@ -207,7 +177,7 @@
                                     </td>
                                     <td>
                                     <span>Передняя ось(80.1), передний ведущий мост портального типа с коническими редукторами(82.1). Возможна установка кабин</span>
-                                    <span>высотой до2600 мм.</span>
+                                    <span>высотой до 2600 мм.</span>
                                     </td>
                                     <td>
                                     <span>Передний ведущий мост</span>
@@ -259,6 +229,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_3.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -333,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 50px;"></div>
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Дискатор Ares TL 3.0</span></div>
@@ -342,6 +317,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_4.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 3px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -404,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 50px;"></div>
+                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Культиватор предпосевной Kombi 3,0</span></div>
@@ -413,6 +393,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_5.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -479,7 +464,67 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 50px;"></div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Стерневые культиваторы серии KOS</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.lbr.ru/images/kp/mtz82_7.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 60px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                        <td><span>Модель</span></td>
+                                        <td><span>KOS 2,6 B</span></td>
+                                        <td><span>KOS 2,6 S</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Рабочая ширина захвата, м</span></td>
+                                        <td colspan="2"><span>2,6</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Масса, кг</span></td>
+                                        <td><span>830</span></td>
+                                        <td><span>1050</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Количество зубьев, шт.</span></td>
+                                        <td colspan="2"><span>6</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Количество дисков, шт.</span></td>
+                                        <td colspan="2"><span>7</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Требуемая мощность, л.с</span></td>
+                                        <td><span>80-100</span></td>
+                                        <td><span>90-120</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="price">Цена весенняя</span></td>
+                                        <td class="price"><span><? echo $data['price_blue7']; ?></span></td>
+                                        <td class="price"><span><? echo $data['price_blue8']; ?></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="price-spring">Цена осенняя</span></td>
+                                        <td class="price-spring"><span><? echo $data['price7']; ?></span></td>
+                                        <td class="price-spring"><span><? echo $data['price8']; ?></span></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 100%; height: 10px;"></div>
                 </div>
             </div>
             <div class="page-break"></div>
@@ -494,6 +539,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_6.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 86px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -637,61 +687,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="one-item">
-                        <div class="head-content">
-                            <div class="h-2 left-85"><span>Стерневые культиваторы серии KOS</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
-                        </div>
-                        <div class="body-content">
-                            <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_7.jpg" border="0" />
-                            </div>
-                            <div class="right-50">
-                                <span class="tech-bold"><b>Технические характеристики</b></span>
-                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                    <tbody>
-                                    <tr>
-                                        <td><span>Модель</span></td>
-                                        <td><span>KOS 2,6 B</span></td>
-                                        <td><span>KOS 2,6 S</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>Рабочая ширина захвата, м</span></td>
-                                        <td colspan="2"><span>2,6</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>Масса, кг</span></td>
-                                        <td><span>830</span></td>
-                                        <td><span>1050</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>Количество зубьев, шт.</span></td>
-                                        <td colspan="2"><span>6</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>Количество дисков, шт.</span></td>
-                                        <td colspan="2"><span>7</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>Требуемая мощность, л.с</span></td>
-                                        <td><span>80-100</span></td>
-                                        <td><span>90-120</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="price">Цена весенняя</span></td>
-                                        <td class="price"><span><? echo $data['price_blue7']; ?></span></td>
-                                        <td class="price"><span><? echo $data['price_blue8']; ?></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="price-spring">Цена осенняя</span></td>
-                                        <td class="price-spring"><span><? echo $data['price7']; ?></span></td>
-                                        <td class="price-spring"><span><? echo $data['price8']; ?></span></td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Междурядный культиватор Thema 8</span></div>
@@ -700,6 +696,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_8.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 87px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -763,7 +764,106 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Борона пружинная Akzent 9</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.lbr.ru/images/kp/mtz82_11.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 10px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info8']; ?>
+                                </div>
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                        <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>Модель</span>
+                                    </td>
+                                    <td>
+                                    <span>Akzent 9</span>
+                                    <span>ЛАЙТ</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>Akzent 9</span>
+                                    </td>
+                                    <td>
+                                    <span>Akzent 9</span>
+                                    <span>ПРОФИ</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Масса, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>865</span>
+                                    </td>
+                                    <td>
+                                    <span>870</span>
+                                    </td>
+                                    <td>
+                                    <span>870</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Требуемая мощность, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>80-90</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>80-90</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>80-90</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span class="price">Цена весенняя</span>
+                                    </td>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue14']; ?></span>
+                                    </td>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue15']; ?></span>
+                                    </td>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue16']; ?></span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price14']; ?></span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price15']; ?></span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price16']; ?></span>
+                                    </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="page-break"></div>
@@ -778,6 +878,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_9.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 42px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info9']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -933,6 +1038,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_10.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 60px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info10']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1076,47 +1186,76 @@
                     </div>
                     <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-85"><span>Борона пружинная Akzent 9</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                            <div class="h-2 left-85"><span>Разбрасыватель органических удобрений PTU 6.0/13A</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_11.jpg" border="0" />
+                                <img src="http://www.lbr.ru/images/kp/mtz82_15.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 12px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info11']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                        <tbody>
+                                    <tbody>
                                     <tr>
                                     <td>
-                                    <span>&nbsp;</span>
-                                    <span>Модель</span>
+                                    <span>Марка</span>
                                     </td>
                                     <td>
-                                    <span>Akzent 9</span>
-                                    <span>ЛАЙТ</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    <span>Akzent 9</span>
-                                    </td>
-                                    <td>
-                                    <span>Akzent 9</span>
-                                    <span>ПРОФИ</span>
+                                    <span>PTU-6.0/13A</span>
                                     </td>
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Масса, кг</span>
+                                    <span>Грузоподъемность, т</span>
                                     </td>
                                     <td>
-                                    <span>865</span>
+                                    <span>8</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Ширина разбрасывания, м</span>
                                     </td>
                                     <td>
-                                    <span>870</span>
+                                    <span>6-8</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Рабочая скорость, км/ч</span>
                                     </td>
                                     <td>
-                                    <span>870</span>
+                                    <span>12</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Привод тормозов</span>
+                                    </td>
+                                    <td>
+                                    <span>гидро или пневмо</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Задний гидроборт</span>
+                                    </td>
+                                    <td>
+                                    <span>есть</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Привод транспортера</span>
+                                    </td>
+                                    <td>
+                                    <span>гидро</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1124,16 +1263,7 @@
                                     <span>Требуемая мощность, л.с.</span>
                                     </td>
                                     <td>
-                                    <span>&nbsp;</span>
-                                    <span>80-90</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    <span>80-90</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    <span>80-90</span>
+                                    <span>80-100</span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1141,13 +1271,7 @@
                                     <span class="price">Цена весенняя</span>
                                     </td>
                                     <td class="price">
-                                    <span><? echo $data['price_blue14']; ?></span>
-                                    </td>
-                                    <td class="price">
-                                    <span><? echo $data['price_blue15']; ?></span>
-                                    </td>
-                                    <td class="price">
-                                    <span><? echo $data['price_blue16']; ?></span>
+                                    <span><? echo $data['price_blue20']; ?></span>
                                     </td>
                                     </tr>
                                     <tr>
@@ -1155,13 +1279,7 @@
                                     <span class="price-spring">Цена осенняя</span>
                                     </td>
                                     <td class="price-spring">
-                                    <span><? echo $data['price14']; ?></span>
-                                    </td>
-                                    <td class="price-spring">
-                                    <span><? echo $data['price15']; ?></span>
-                                    </td>
-                                    <td class="price-spring">
-                                    <span><? echo $data['price16']; ?></span>
+                                    <span><? echo $data['price20']; ?></span>
                                     </td>
                                     </tr>
                                     </tbody>
@@ -1169,7 +1287,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
                 </div>
             </div>
             <div class="page-break"></div>
@@ -1184,6 +1301,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_12.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info11']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1291,6 +1413,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_13.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 19px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info12']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1382,6 +1509,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_14.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 47px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info13']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1495,104 +1627,7 @@
             <div class="after-page-break"></div>
             <div class="one-page body-page">
                 <div class="content-page">
-                    <div class="one-item">
-                        <div class="head-content">
-                            <div class="h-2 left-85"><span>Разбрасыватель органических удобрений PTU 6.0/13A</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
-                        </div>
-                        <div class="body-content">
-                            <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_15.jpg" border="0" />
-                            </div>
-                            <div class="right-50">
-                                <span class="tech-bold"><b>Технические характеристики</b></span>
-                                <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                    <tbody>
-                                    <tr>
-                                    <td>
-                                    <span>Марка</span>
-                                    </td>
-                                    <td>
-                                    <span>PTU-6.0/13A</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Грузоподъемность, т</span>
-                                    </td>
-                                    <td>
-                                    <span>8</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Ширина разбрасывания, м</span>
-                                    </td>
-                                    <td>
-                                    <span>6-8</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Рабочая скорость, км/ч</span>
-                                    </td>
-                                    <td>
-                                    <span>12</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Привод тормозов</span>
-                                    </td>
-                                    <td>
-                                    <span>гидро или пневмо</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Задний гидроборт</span>
-                                    </td>
-                                    <td>
-                                    <span>есть</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Привод транспортера</span>
-                                    </td>
-                                    <td>
-                                    <span>гидро</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Требуемая мощность, л.с.</span>
-                                    </td>
-                                    <td>
-                                    <span>80-100</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span class="price">Цена весенняя</span>
-                                    </td>
-                                    <td class="price">
-                                    <span><? echo $data['price_blue20']; ?></span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span class="price-spring">Цена осенняя</span>
-                                    </td>
-                                    <td class="price-spring">
-                                    <span><? echo $data['price20']; ?></span>
-                                    </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Опрыскиватели навесные MOSQUITO</span></div>
@@ -1601,6 +1636,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_16.jpg" border="0" height="390px" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info14']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -1740,6 +1780,11 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_17.jpg" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 28px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info15']; ?>
+                                </div>
+                            </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
                                 <table width="380" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -1861,6 +1906,130 @@
                             </div>
                         </div>
                     </div>
+                    <div class="one-item">
+                        <div class="head-content">
+                            <div class="h-2 left-85"><span>Гребнеобразователи FORMA</span></div>
+                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.lbr.ru/images/kp/mtz82_19.jpg" border="0" style="height: 260px;" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info16']; ?>
+                                </div>
+                            </div>
+                            <div class="right-50">
+                                <span class="tech-bold"><b>Технические характеристики</b></span>
+                                <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <tbody>
+                                    <tr>
+                                    <td>
+                                    <span>Модель</span>
+                                    </td>
+                                    <td>
+                                    <span>FORMA 2</span>
+                                    </td>
+                                    <td>
+                                    <span>FORMA 4</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Рабочая ширина, м</span>
+                                    </td>
+                                    <td>
+                                    <span>1,5</span>
+                                    </td>
+                                    <td>
+                                    <span>3,0</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Количество гребней</span>
+                                    </td>
+                                    <td>
+                                    <span>2</span>
+                                    </td>
+                                    <td>
+                                    <span>4</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Производительность,га/ч</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;0,5-0,7</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;1,0-1,4</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Требуемая мощность трактора, л.с.</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;От 35</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;От 55</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Габариты: длина/ширина/высота, мм</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>1890/1770/1120</span>
+                                    </td>
+                                    <td>
+                                    <span>&nbsp;</span>
+                                    <span>1189/3280/1120</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span>Вес, кг</span>
+                                    </td>
+                                    <td>
+                                    <span>420</span>
+                                    </td>
+                                    <td>
+                                    <span>700</span>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    <span class="price">Цена весенняя</span>
+                                    </td>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue30']; ?></span>
+                                    </td>
+                                    <td class="price">
+                                    <span><? echo $data['price_blue31']; ?></span>
+                                    </td>
+                                    </tr>
+                                     <tr>
+                                    <td>
+                                    <span class="price-spring">Цена осенняя</span>
+                                    </td>
+                                    <td class="price-spring">
+                                    <span><? echo $data['price30']; ?></span>
+                                    </td>  
+                                    <td class="price-spring">
+                                    <span><? echo $data['price31']; ?></span>
+                                    </td>                                 
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="page-break"></div>
@@ -1876,6 +2045,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_18.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 49px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info17']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2036,127 +2210,7 @@
                                 </table>
                             </div>
                         </div>
-                    </div>
-                    <div style="width: 100%; height: 15px;"></div>
-                    <div class="one-item">
-                        <div class="head-content">
-                            <div class="h-2 left-85"><span>Гребнеобразователи FORMA</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
-                        </div>
-                        <div class="body-content">
-                            <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/mtz82_19.jpg" border="0" />
-                            </div>
-                            <div class="right-50">
-                                <span class="tech-bold"><b>Технические характеристики</b></span>
-                                <table width="380" style="font-size: 13px; border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
-                                    <tbody>
-                                    <tr>
-                                    <td>
-                                    <span>Модель</span>
-                                    </td>
-                                    <td>
-                                    <span>FORMA 2</span>
-                                    </td>
-                                    <td>
-                                    <span>FORMA 4</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Рабочая ширина, м</span>
-                                    </td>
-                                    <td>
-                                    <span>1,5</span>
-                                    </td>
-                                    <td>
-                                    <span>3,0</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Количество гребней</span>
-                                    </td>
-                                    <td>
-                                    <span>2</span>
-                                    </td>
-                                    <td>
-                                    <span>4</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Производительность,га/ч</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;0,5-0,7</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;1,0-1,4</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Требуемая мощность трактора, л.с.</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;От 35</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;От 55</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Габариты: длина/ширина/высота, мм</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    <span>1890/1770/1120</span>
-                                    </td>
-                                    <td>
-                                    <span>&nbsp;</span>
-                                    <span>1189/3280/1120</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span>Вес, кг</span>
-                                    </td>
-                                    <td>
-                                    <span>420</span>
-                                    </td>
-                                    <td>
-                                    <span>700</span>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                    <td>
-                                    <span class="price">Цена весенняя</span>
-                                    </td>
-                                    <td class="price">
-                                    <span><? echo $data['price_blue30']; ?></span>
-                                    </td>
-                                    <td class="price">
-                                    <span><? echo $data['price_blue31']; ?></span>
-                                    </td>
-                                    </tr>
-                                     <tr>
-                                    <td>
-                                    <span class="price-spring">Цена осенняя</span>
-                                    </td>
-                                    <td class="price-spring">
-                                    <span><? echo $data['price30']; ?></span>
-                                    </td>  
-                                    <td class="price-spring">
-                                    <span><? echo $data['price31']; ?></span>
-                                    </td>                                 
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                   
                     <div style="width: 100%; height: 15px;"></div>
                     <div class="one-item">
                         <div class="head-content">
@@ -2166,6 +2220,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_20.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info18']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2264,14 +2323,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 20px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Пресс-подборщик рулонный Колумбия Парма</span></div>
@@ -2280,6 +2331,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_21.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 3px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info19']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2338,7 +2394,13 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 50px;"></div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 30px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прицеп самосвальный LMR 10</span></div>
@@ -2347,6 +2409,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_22.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 7px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info20']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2422,6 +2489,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_23.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 90px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info21']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2520,14 +2592,6 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 100%; height: 30px;"></div>
-                </div>
-            </div>
-            <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
-                    <div style="width: 100%; height: 10px;"></div>
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Прицеп самосвальный Баркас 6</span></div>
@@ -2536,6 +2600,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_24.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 54px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info22']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2678,6 +2747,13 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="after-page-break"></div>
+            <div class="one-page body-page">
+                <div class="content-page">
+                    <div style="width: 100%; height: 10px;"></div>                    
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Универсальный прицеп Баркас XL</span></div>
@@ -2686,6 +2762,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_25.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info23']; ?>
+                                </div>
                             </div>
                             <div class="right-50">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -2752,12 +2833,6 @@
                             </div>
                         </div>
                     </div>
-                    </div>    
-                    </div>
-                    <div class="page-break"></div>
-            <div class="after-page-break"></div>
-            <div class="one-page body-page">
-                <div class="content-page">
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-85"><span>Погрузчики навесные TUR-14 и TUR-15</span></div>
@@ -2766,6 +2841,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/mtz82_26.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 100px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info24']; ?>
+                                </div>
                             </div>
                             <div class="right-50 image">
                             <img src="http://www.lbr.ru/images/kp/mtz82_27.jpg" border="0" />
@@ -2839,8 +2919,8 @@
                             </span>
                         </div>
                     </div>
-                </div>
-            </div>
+                    </div>    
+                    </div>
             </div>
         
     </body>

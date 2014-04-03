@@ -21,16 +21,7 @@
                         <span class="dieci-header-orange">Техника для профессионального<br /> животноводства</span>
                     </div>
                     <span class="second-header-text">Сделайте молоко<br /> рентабельным!</span>
-                </div>
-                <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
+                </div>                
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -39,74 +30,7 @@
                 </div>
                 <div class="head-content-grey">
                             <div class="h-2"><span>Смесители-кормораздатчики</span></div>
-                        </div>
-                        <div class="head-content">
-                            <div class="h-2 left-80"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 60px;"  /></div>
-                            
-                        </div>
-                        <div class="body-content">
-                            <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" border="0" />
-                                <div style="width: 100%; height: 10px;"></div>
-                                <table width="360" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
-                                        <tbody>
-                                            <tr style="background-color: #d1d3d4;">
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>LIMOUSINE 23</strong></strong></span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Скорость, км/ч</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">до 30</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Ширина фрезы, см</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">200</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Длина канала, см</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">60</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Габариты ДхШхВ, мм</span></td>
-                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">10430х2350х3290</span></td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
-                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                            </tr>
-                                        </tbody>
-                                </table>
-                            </div>
-                            <div class="right-50" style="font-size: 15px;">
-                                <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
-                                
-                                Максимальная скорость загрузки за счет использования фронтальной фрезы. 
-                                Превосходное перемешивание и измельчение.
-                                Наилучшая инвестиция для будущего: 
-                                никакой потери времени, рационализация труда, легкое управление и комфорт, высочайшая производительность.                                                             
-                            </div>
-                            <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">Стандартная комплектация:</span>
-                                <span class="text">
-                                   • Двигатель John Deere 173 л.с.<br />
-                                   • Фреза, шириной 200 см. с двумя режимами работы: на низких оборотах для загрузки материала без измельчения и повреждения, и на 800 об/мин. для измельчения материала. <br />
-                                   • Сверхточная система взвешивания «GRAPHIC»<br />
-                                   • Усиленные ножи с вольфрамовым покрытием<br />
-                                   • Усиленная ванна, толщина днища – 20 мм.<br />
-                                   • Гидропривод фрезы, гидравлическая блокировка стрелы фрезы<br />
-                                   • Загрузочный люк на стреле фрезы для загрузки мучнистых продуктов и витаминных добавок.<br />
-                                   • Двухскоростная коробка передач <br />
-                                   • Противорежущие ножи с гидравлическим управлением<br />
-                                   • Полный комплект светового оборудования, датчики заднего хода.
-                                </span>
-                            </div>
-                            
-                            </div>
-                            
-                            
-                        </div>
+                        </div>                       
                     </div>
                     <div class="one-item">
                         <div class="head-content">
@@ -118,6 +42,11 @@
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo1.jpg" border="0" />
                                 <div style="width: 100%; height: 10px;"></div>
                                 
+                            </div>
+                            <div style="position: absolute; bottom: 417px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
@@ -236,6 +165,11 @@
                                 <div style="width: 100%; height: 10px;"></div>
                                 
                             </div>
+                            <div style="position: absolute; bottom: 232px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
+                            </div>
                             <div class="right-50" style="font-size: 15px;">
                                 
                             <div>
@@ -296,18 +230,103 @@
                     </div>
                     <div style="width: 100%; height: 10px;"></div>
                         <div class="one-item">
+                     <div class="head-content">
+                            <div class="h-2 left-80"><span>Cамоходный кормораздатчик LIMOUSINE 23 куб.м.</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: -3px;"  /></div>
+                            
+                        </div>
+                        <div class="body-content">
+                            <div class="left-50 image">
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo.jpg" border="0" />
+                                <div style="position: absolute; bottom: 185px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
+                            </div>
+                                <div style="width: 100%; height: 10px;"></div>
+                                <table width="360" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tbody>
+                                            <tr style="background-color: #d1d3d4;">
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>LIMOUSINE 23</strong></strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Скорость, км/ч</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">до 30</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Ширина фрезы, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">200</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Длина канала, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">60</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; text-align: left;">&nbsp;Габариты ДхШхВ, мм</span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">10430х2350х3290</span></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                            </div>
+                            <div class="right-50" style="font-size: 15px;">
+                                <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
+                                
+                                Максимальная скорость загрузки за счет использования фронтальной фрезы. 
+                                Превосходное перемешивание и измельчение.
+                                Наилучшая инвестиция для будущего: 
+                                никакой потери времени, рационализация труда, легкое управление и комфорт, высочайшая производительность.                                                             
+                            </div>
+                            <div class="width-100">
+                                <span class="h-4" style="text-transform: uppercase;">Стандартная комплектация:</span>
+                                <span class="text">
+                                   • Двигатель John Deere 173 л.с.<br />
+                                   • Фреза, шириной 200 см. с двумя режимами работы: на низких оборотах для загрузки материала без измельчения и повреждения, и на 800 об/мин. для измельчения материала. <br />
+                                   • Сверхточная система взвешивания «GRAPHIC»<br />
+                                   • Усиленные ножи с вольфрамовым покрытием<br />
+                                   • Усиленная ванна, толщина днища – 20 мм.<br />
+                                   • Гидропривод фрезы, гидравлическая блокировка стрелы фрезы<br />
+                                   • Загрузочный люк на стреле фрезы для загрузки мучнистых продуктов и витаминных добавок.<br />
+                                   • Двухскоростная коробка передач <br />
+                                   • Противорежущие ножи с гидравлическим управлением<br />
+                                   • Полный комплект светового оборудования, датчики заднего хода.
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    
+                    
+                    </div>
+                    </div>
+                <div class="page-break"></div>
+                <div class="after-page-break"></div>
+                <div class="one-page body-page">
+                <div class="content-page">
+                <div style="width: 100%; height: 10px;"></div>
+                        <div class="one-item">
                         <div class="head-content">
                         <div class="head-content-grey">
                             <div class="h-2"><span>Смесители-кормораздатчики</span></div>
                         </div>
                             <div class="h-2 left-75" style="margin-top: 0px;"><span>Измельчитель рулонов Унибалл</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 50px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 45px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo5.jpg" border="0" height="221px" />
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo6.jpg" border="0" height="211px" />
+                            </div>
+                            <div style="position: absolute; bottom: 246px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
@@ -365,25 +384,23 @@
                             </div>
                         </div>
                     </div> 
-                    
-                    </div>
-                    </div>
-                <div class="page-break"></div>
-                <div class="after-page-break"></div>
-                <div class="one-page body-page">
-                <div class="content-page">
                     <div style="width: 100%; height: 20px;"></div>
                 <div class="one-item">
                 <div class="right-20">                    
                 </div>                        
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ КРОНОС</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: -3px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo7.jpg" border="0" />
+                                <div style="position: absolute; bottom: 203px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
                               
                             
                             
@@ -441,18 +458,30 @@
                     </div>
                        
             
-                 <div class="one-item">
+                 
+                 </div>   
+             </div>   
+             <div class="page-break"></div>
+                <div class="after-page-break"></div>
+                <div class="one-page body-page">
+                <div class="content-page">
+                <div class="one-item">
                 <div class="right-20">                    
                 </div>
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Измельчитель УНИБАЛЛ МИНИ</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 1px;"  /></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/rbs-logo.jpg" border="0" style="position: absolute; right: 0px; top: 6px; width: 50px;"  /></div>
                             
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo10.jpg" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo11.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 254px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100" style="font-family: FuturisC, sans-serif; text-align: justify; font-size: 14px;">
@@ -503,12 +532,6 @@
                             </div>
                         </div>
                     </div>
-                 </div>   
-             </div>   
-             <div class="page-break"></div>
-                <div class="after-page-break"></div>
-                <div class="one-page body-page">
-                <div class="content-page">
                  <div class="one-item">
                  <div class="head-content-grey">
                             <div class="h-2" style="margin-bottom: 0px;"><span>Внесение органических удобрений</span></div>
@@ -519,7 +542,12 @@
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
-                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" style="width: 360; height: 230px; " border="0" />
+                                <img src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo12.jpg" style="width: 360; " border="0" />
+                                <div style="position: absolute; bottom: 220px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info7']; ?>
+                                </div>
+                            </div>
                             <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             
@@ -623,12 +651,17 @@
                  <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75" style="margin-top: 5px;"><span>Разбрасыватели универсальные PTU</span></div>
-                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 0px;"/></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" style="position: absolute; right: 0px; top: 15px;"/></div>
                         </div>
                        <div class="body-content">
                             <div class="left-50 image">
                                 <img style="width: 360; height: 150px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo13.jpg" border="0" />
                                 <img style="width: 360; height: 150px;" src="http://www.lbr.ru/images/kp/prof-zgivotnovodstvo14.jpg" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 473px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info8']; ?>
+                                </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 

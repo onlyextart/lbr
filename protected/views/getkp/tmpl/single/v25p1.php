@@ -18,16 +18,7 @@
                 <div class="dieci-header">
                     <span class="dieci-header-orange">Органика и минералка -<br /> профессиональное<br /> внесение удобрений!</span>
                 </div>
-                <div class="first-header-text">Вносить,<br /> а не разбрасывать!</div>
-                <div style="text-align: justify;">
-                <?php
-	$finance_block = $data['finance_block'];
-        if ($finance_block=='1')
-        {
-            $this->renderPartial('finance_zont', array('finance_block_text'=>$data['finance_block_text']));
-        }
-?>
-                </div>
+                <div class="first-header-text">Вносить,<br /> а не разбрасывать!</div>                
             </div>
             <div class="one-page body-first-page">
                 <div class="content-page">
@@ -40,6 +31,11 @@
                             <div class="body-content">
                                 <div class="left-50 image">
                                     <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/organika-i-mineralka.jpg" border="0" />
+                                    <div style="position: absolute; bottom: 514px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info1']; ?>
+                                </div>
+                            </div>
                                    
                                     <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
@@ -248,6 +244,11 @@
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka2.jpg" style="width: 100%;" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info2']; ?>
+                                </div>
+                            </div>
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka3.jpg" border="0" />
                                 <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
@@ -359,6 +360,11 @@
                         <div class="body-content">
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka4.jpg" style="width: 100%;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info3']; ?>
+                                </div>
                             </div>
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka5.jpg" border="0" />
@@ -475,6 +481,11 @@
                         <div class="body-content">
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka6.jpg" style="width: 100%;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info4']; ?>
+                                </div>
                             </div>
                             <div class="left-50 image">
                                 
@@ -612,6 +623,11 @@
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka8.jpg" style="width: 378px;" border="0" />
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka9.jpg" style="width: 378px;" border="0" />
                             </div>
+                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info5']; ?>
+                                </div>
+                            </div>
                             <div class="left-50 image">
                                 <span class="span-red-left">УНИВЕРСАЛЬНЫЙ ПРОФЕССИОНАЛ:</span>
                                 <span class="text" style="padding-right: 10px;">
@@ -735,6 +751,11 @@
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka10.jpg" style="width: 360;" border="0" />
+                                <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                                <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
+                                    <? echo $data['product_info6']; ?>
+                                </div>
+                            </div>
                             <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             
