@@ -211,6 +211,9 @@ tinymce.myOptions = {
                        'uploadDir'=>'/images/banners/'.$bannerModel->id.'/'  
                     ),   
                     'previouslyUploadedFiles'=>$previouslyUploadedFiles,
+                    'postParams'=>array(
+                       'uploadDir'=>'/images/banners/'.$bannerModel->id.'/'  
+                    ),
                 )
             );
             ?>
