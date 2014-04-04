@@ -16,7 +16,6 @@
     padding: 10px 0;
 }
 table, tr, td{
-    display: block;
     position: relative;
     border-collapse: separate;
     background: transparent;
