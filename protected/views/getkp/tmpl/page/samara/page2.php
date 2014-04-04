@@ -95,7 +95,7 @@
                                     <tr>
                                         <td width="130px">
                                             <p style="margin-left: 38px; margin-right: 26px; margin-top: 31px; font-size: 12pt;">
-                                                <img src="http://www.lbr.ru/images/kp/lbr-photo-samara.jpg" height="146px" width="101px" alt="photo" style="border: 0;"/>
+                                                <img src="http://www.lbr.ru/images/kp/lbr-photo-samara2.jpg" height="146px" width="101px" alt="photo" style="border: 0;"/>
                                             </p> 
                                         </td>
                                         <td>
@@ -104,7 +104,7 @@
                                                 <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px;">
                                                     <span><img src="http://www.lbr.ru/images/kp/line.jpg" width="163px" height="3px" alt="line" style="border: 0;"/></span>
                                                     <span style="text-align: right;">
-                                                        Канаков А.С.
+                                                        Москвин Н.В.
                                                     </span>
                                                 </div>
                                             </div>

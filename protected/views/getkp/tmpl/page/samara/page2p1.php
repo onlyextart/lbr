@@ -150,7 +150,7 @@
                         <div class="content" style="margin-top: 91px; margin-bottom: 110px;">
                             <ul class="main-content-row">
                                 <li style="">
-                                    <img src="http://www.lbr.ru/images/kp/lbr-photo-samara.jpg" height="146px" alt="Logo" style="border: 0;"/>
+                                    <img src="http://www.lbr.ru/images/kp/lbr-photo-samara2.jpg" height="146px" alt="Logo" style="border: 0;"/>
                                 </li>
                                 <li style="vertical-align: bottom;">
                                     <div style="margin-left: 31px; font-size: 9pt; position: relative">
@@ -158,7 +158,7 @@
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Канаков А.С.
+                                                Москвин Н.В.
                                             </span>
                                         </div>
                                     </div>

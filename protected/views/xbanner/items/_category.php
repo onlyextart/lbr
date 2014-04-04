@@ -36,7 +36,7 @@ $makers = Makers::model()->findAll(array(
                         <? }else{?>
                         <img data-src="<? echo $image->path; ?>" src="/images/1.gif" alt="<? echo $image->alt; ?>" title="<? echo $image->title; ?>">
                         <?  }
-                            if($image->type=='1' || $image->type=='2'){
+                            if($image->type=='1' || $image->type=='2' || $image->type=='3'){
                                 if($image->type=='1')
                                     $cap = '<section class="b_images_one_image"><img src="/images/1.gif" data-src="/images/timetobuy/ttbWinter/general430.jpg" /></section>';
                                 Yii::app()->getController()->renderPartial('items/timetobuy', array('image'=>$image));

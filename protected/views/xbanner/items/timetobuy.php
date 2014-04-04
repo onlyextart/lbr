@@ -1,7 +1,7 @@
 <?php
-    $class_ = $image->type=='1'?'':'action';
+    $class_ = $image->type!='2'?'':'action';
 ?>
-<div class="time_to_buy <? echo $class_;?>">
+<div class="time_to_buy <?php echo $class_;?>">
     <div class="time_to_buy_description">
         <span><?php echo $image->description; ?></span>
     </div>
@@ -17,12 +17,15 @@
 
     <?php if($image->top_right):?>
         <div class="time_to_buy_top_right">
-
+            <span><?php // echo $image->top_right;?></span>
         </div>
     <?php endif;?>
 
     <?php if($image->bottom_right):?>
-        <div class="time_to_buy_bottom_right">
+        <div class="time_to_buy_bottom_right credit">
+            <?php if($image->type=='3'): ?>
+                <img src="/images/timetobuy/credit.png" alt="Рассрочка">
+            <?php endif;?>
         </div>
     <?php endif;?>
 

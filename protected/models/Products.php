@@ -30,7 +30,8 @@ class Products extends CActiveRecord
 	
         const DEFAULT_IMAGE_TYPE = 0;
         const TIMETOBUY_IMAGE_TYPE = 1;
-        const ACTION_IMAGE_TYPE = 1;
+        const ACTION_IMAGE_TYPE = 2;
+        const CREDIT_IMAGE_TYPE = 3;
         /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -143,6 +144,7 @@ class Products extends CActiveRecord
             $types[BannerImages::DEFAULT_IMAGE_TYPE] = 'Обычное';
             $types[BannerImages::TIMETOBUY_IMAGE_TYPE] = 'Время покупать';
             $types[BannerImages::ACTION_IMAGE_TYPE] = 'Акция';
+            $types[BannerImages::CREDIT_IMAGE_TYPE] = 'Рассрочка';
             return $types;
         }
         

@@ -1421,7 +1421,7 @@ header:after {
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_description span {
   color: #424242;
-  font-size: 22px;
+  font-size: 20px;
   text-shadow: 0px 0px 10px #ffffff, 0px 0px 1px #ffffff, 0px 0px 10px #ffffff;
   font-weight: bold;
 }
@@ -1440,6 +1440,14 @@ header:after {
   width: 170px;
   height: 29px;
   background: url("/images/timetobuy/top-produkt.png") no-repeat;
+}
+.xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_bottom_right.credit {
+  background: none;
+}
+.xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_bottom_right.credit img {
+  float: right;
+  width: auto;
+  height: auto;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_bottom_left {
   bottom: 0px;
@@ -2302,6 +2310,32 @@ header .menu.main .menuMainTop:after {
 }
 .news a {
   color: #828282;
+}
+table.table-in-news {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+}
+table.table-in-news thead tr {
+  background: #E6E6E6;
+}
+table.table-in-news thead tr td {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+table.table-in-news tr:nth-child(even) {
+  background: white;
+}
+table.table-in-news tr:nth-child(odd) {
+  background: #F8F7F2;
+}
+table.table-in-news td {
+  padding: 4px 7px;
+  border-color: #c8c8c8;
+}
+table.table-in-news td p {
+  margin: 0;
+  padding: 0;
 }
 .menuTreeViewWrapper div {
   margin: 0 0 10px 5px;
