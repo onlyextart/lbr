@@ -16,6 +16,7 @@
  * @property integer $control_number
  * @property integer $finance_block
  * @property string $product_info
+ * @property string $login
  */
 class Kp extends CActiveRecord
 {
@@ -46,10 +47,10 @@ class Kp extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('control_number', 'numerical', 'integerOnly'=>true),
-			array('user, temp_id, price, price_blue, client, header, filial, filial_bottom, finance_block, finance_block_text, product_info', 'safe'),
+			array('user, temp_id, price, price_blue, client, header, filial, filial_bottom, finance_block, finance_block_text, product_info, login', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user, temp_id, price, price_blue, client, header, filial, filial_bottom, control_number, finance_block, finance_block_text, product_info', 'safe', 'on'=>'search'),
+			array('id, user, temp_id, price, price_blue, client, header, filial, filial_bottom, control_number, finance_block, finance_block_text, product_info, login', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -83,6 +84,7 @@ class Kp extends CActiveRecord
             'finance_block' => 'finance_block',
             'finance_block_text' => 'finance_block_text',
             'product_info' => 'product_info',
+            'login' => 'Login',
             
 		);
 	}
@@ -111,6 +113,7 @@ class Kp extends CActiveRecord
                 $criteria->compare('finance_block',$this->price_blue,true);
                 $criteria->compare('finance_block_text',$this->price_blue,true);
                 $criteria->compare('product_info',$this->product_info,true);
+                $criteria->compare('login',$this->login,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
