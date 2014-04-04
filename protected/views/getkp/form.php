@@ -13,7 +13,7 @@ and open the template in the editor.
             <div><span>Add:</span><input name="add" value="0" type="text"></div>
             <div><span>ID:</span><input name="temp_id" value="2" type="text"></div>
             <div><span>Header:</span><textarea name="header" type="text">Приветствие для Василия И.И.</textarea></div>
-            <div><span>Finance_block:</span><input name="finance_block" value="1" type="text"></div>
+            <div><span>Finance_block:</span><input name="finance_block" value="0" type="text"></div>
             <div><span>Finance text:</span><input name="finance_block_text" type="text"></div>
             <div><span>Price count:</span><input name="price_count" value="5" type="text"></div>
             <div><span>Price 1:</span><input name="price1" value="1234" type="text"></div>
