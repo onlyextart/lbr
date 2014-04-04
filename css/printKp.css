@@ -1,19 +1,34 @@
+*
+{
+    font-family: FuturisC !important;
+}
 .table
 {
     border-radius: 20px;
     margin: 0 auto;
-    width: 800px;
-    margin-top: 20px;
     overflow: hidden;
     box-shadow: 0 0 15px rgb(150,150,150);
+}
+.w-800
+{
+    width: 800px;
+    margin-top: 20px;
     padding: 10px 0;
+}
+table, tr, td{
+    display: block;
+    position: relative;
+    border-collapse: separate;
+    background: transparent;
 }
 .grey-table, .pink-table
 {
     width: 365px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgb(150,150,150);
-    overflow: hidden;
+}
+.table-smal-white
+{
+    width: 315px;
+    padding: 5px 0;
 }
 .grey-table
 {
@@ -38,8 +53,13 @@
 /*------START---MEDIA-------*/
 @media print
 {
+  .w-800
+  {
+      margin: 10px 10px 0;
+  }
   .page-break
   {
+      height: 10px;
       display:block; page-break-before:always;
   }
   #wrapper .after-page-break

@@ -4,7 +4,7 @@ if($data['show_header']=='1'  || !isset($data['show_footer'])):
 endif;
  ?>
 <!-- Блок Первый: -->
-<div class="table">
+<div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr>
         <td>
@@ -29,7 +29,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/expom-61/mail-1.jpg" width="760" height="415" style="border: 0; float: left;" alt="Логотип Expom">
+                                    <img src="http://www.lbr.ru/images/kp/expom-61/print-1.jpg" width="760" style="border: 0; float: left;" alt="Логотип Expom">
                                 </td>
                             </tr>
                         </table>
@@ -87,10 +87,10 @@ endif;
                                             <td style="width: 315px;">
                                                 <!-- Маленький блок с закруглениями:-->
                                                 <table width="315" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-small-top-line.jpg" width="315" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
                                                     <tr>
                                                         <td>
-                                                            <table width="315" cellspacing="0" cellpadding="0" bgcolor="#EEEEEE" valign="top" align="top" style="border: 0; border-collapse: collapse; background: #EEEEEE;">
+                                                            <div class="table table-smal-white">
+                                                            <table width="315" cellspacing="0" cellpadding="0" valign="top" align="top" style="border: 0; border-collapse: collapse;">
                                                                 <tr>
                                                                     <td style="padding: 5px 0px 5px 20px;">
                                                                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: normal; color: black; text-align: justify;">
@@ -98,13 +98,13 @@ endif;
                                                                         </p>
                                                                     </td>
                                                                     <td style="padding: 0px 20px;">
-                                                                        <img src="http://www.lbr.ru/images/kp/default/mail-exclamation-mark-orange.jpg" width="29" height="90" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                                        <img src="http://www.lbr.ru/images/kp/default/print-exclamation-mark-orange.png" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
                                                                     </td>
                                                                 </tr>
                                                             </table>
+                                                            </div>
                                                         </td>
                                                     </tr>
-                                                    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-small-bot-line.jpg" width="315" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
                                                 </table>
                                                 <!-- Маленький блок с закруглениями;-->
                                             </td> 
@@ -234,7 +234,7 @@ endif;
 <div class="page-break"></div>
 <div class="after-page-break"></div>
 <!-- Блок Второй: -->
-<div class="table">
+<div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr>
         <td>
@@ -353,9 +353,10 @@ endif;
                             <tr valign="top">
                                 <td width="365">
                                     <!-- Маленький блок с закруглениями:-->
-                                    <table class="grey-table" width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
+                                                <div class="table grey-table">
                                                 <table width="365" height="610" cellspacing="0" cellpadding="0" bgcolor="#e6e7e8" valign="top" align="top" style="border: 0; border-collapse: collapse; background: #e6e7e8;">
                                                     <tr>
                                                         <td style="padding-bottom: 10px;">
@@ -418,21 +419,23 @@ endif;
                                                         </td>
                                                     </tr>
                                                 </table>
+                                                </div>
                                             </td>
                                         </tr>
                                     </table>
                                     <!-- Маленький блок с закруглениями;-->
                                 </td>
                                 <td width="30">
-                                    <table width="30" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr><td style="padding-top: 80px;"><img src="http://www.lbr.ru/images/kp/default/arrow-right-orange-normal.jpg" width="30" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+                                    <table width="30" cellspacing="0" cellpadding="0" style="border: 0; border-collapse: collapse; background: transparent; position: relative;">
+                                        <tr><td style="padding-top: 80px;"><img src="http://www.lbr.ru/images/kp/default/arrow-right-orange-normal.png" width="50" style="border: 0; float: left; position: absolute; z-index: 1; left: -5px; " alt="Картинки не отображаются"></td></tr>
                                     </table>
                                 </td>
                                 <td width="365">
                                     <!-- Маленький блок с закруглениями:-->
-                                    <table class="pink-table" width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
+                                                <div class="table pink-table">
                                                 <table width="365" height="610" cellspacing="0" cellpadding="0" bgcolor="#fee2c9" valign="top" align="top" style="border: 0; border-collapse: collapse; background: #fee2c9;">
                                                     <tr>
                                                         <td style="padding-bottom: 10px;">
@@ -481,6 +484,7 @@ endif;
                                                         </td>
                                                     </tr>
                                                 </table>
+                                                </div>
                                             </td>
                                         </tr>
                                     </table>

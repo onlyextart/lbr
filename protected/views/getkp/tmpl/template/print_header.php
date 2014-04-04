@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="http://www.lbr.ru/css/printKp.css" type="text/css" rel="stylesheet" />
+    <link href="<?php echo Yii::app()->request->baseUrl;?>/css/printKp.css" type="text/css" rel="stylesheet" />
     <style>
         p{mso-line-height-rule:exactly !important; line-height: 13pt;}
         a, a:active, a:visited{color:black;}
