@@ -14,6 +14,9 @@
                 <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                     <tr>
                         <td style="padding-left: 20px; width: 610px;">
+                            <div class="header-text">
+                                <?php echo $data['header']; ?>
+                            </div>
                         </td>
                         <td style="padding-right: 20px; width: 150px;">
                             <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">

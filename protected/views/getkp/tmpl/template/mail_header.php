@@ -24,6 +24,9 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding-left: 20px; width: 610px;">
+                                        <p style="margin: 0; padding: 0; color: #6e7071; background: none !important; font-size: 16px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;">
+                                            <?php echo $data['header']; ?>
+                                        </p>
                                     </td>
                                     <td style="padding-right: 20px; width: 150px;">
                                         <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">

@@ -1,18 +1,12 @@
-    <table width="800" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-        <tr>
-            <td>
-                <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                    <tr>
-                        <td style="padding-left: 20px; width: 610px;">
-                        </td>
-                        <td style="padding-right: 20px; width: 150px;">
-                            <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                                <img src="http://www.lbr.ru/images/kp/default/mail-lbr-logo-orange.jpg" width="150" height="75" style="border: 0; float: right;" alt="Логотип ЛБР-Агромаркет">
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</body>
+    <div class="footer">
+        <div class="info">
+            Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера. 
+        </div>
+        <div class="filial">
+            <div class="f-h1">Ждем Вас в филиале ЛБР-АгроМаркет (<?php echo $filial['name']; ?>)!</div>
+            <div class="f-time"><?php echo $filial['work_time']; ?></div>
+            <div class="f-address"><?php echo $filial['address']; ?></div>
+            <div class="f-phone"><?php echo $filial['telephone']; ?></div>
+        </div>
+        <?php echo AuthUser::getPasteboard($data['login']); ?>
+    </div>

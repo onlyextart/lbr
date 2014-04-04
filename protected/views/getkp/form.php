@@ -27,7 +27,7 @@ and open the template in the editor.
             <div><span>Product Info 4</span><input name="product_info4" value="" type="text"></div>
             <div><span>Product Info 5</span><input name="product_info5" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
             <div><span>Client:</span><input name="client" value="Василий И.И" type="text"></div>
-            <div><span>User:</span><input name="user" value="user" type="text"></div>
+            <div><span>Login:</span><input name="login" value="vasiliyan" type="text"></div>
             <div><span>User info:</span><textarea name="user_info" type="text">Жориков Иван Васильевич<br>Скайп: jora<br>Мыло: jora@lbr.ru</textarea></div>
             <div><span>Filial:</span><input name="filial" value="BRN" type="text"></div>
             <div><span>Filial bottom:</span><textarea name="filial_bottom" type="text"> filial bottom</textarea></div>
