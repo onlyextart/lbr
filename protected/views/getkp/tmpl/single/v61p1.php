@@ -1,11 +1,11 @@
 <?php
 if($data['show_header']=='1'  || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
  ?>
 <!-- Блок Первый: -->
+<div class="table">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/default/mail-expom-logo.jpg" width="23" height="27" style="border: 0; float: left;" alt="Логотип Expom">
@@ -228,13 +228,14 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
+</div>
 <!-- Блок Первый; -->
-
+<div class="page-break"></div>
+<div class="after-page-break"></div>
 <!-- Блок Второй: -->
+<div class="table">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -335,25 +336,6 @@ endif;
 
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding: 15px 20px 0;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
-                            <tbody>
-                                <tr>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Cambridge ∅500 мм</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Cambridge ∅530 мм</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Crosskill ∅510 мм</td>
-                                </tr>
-                                <tr>
-                                    <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/expom-61/mail-4.jpg" width="245" height="112" style="border: 0; float: left;" alt="Картинки не отображаются"></td>
-                                    <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/expom-61/mail-5.jpg" width="245" height="112" style="border: 0; float: left;" alt="Картинки не отображаются"></td>
-                                    <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/expom-61/mail-6.jpg" width="245" height="112" style="border: 0; float: left;" alt="Картинки не отображаются"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </td>
-                </tr>
                 <tr valign="bottom">
                     <td style="padding: 15px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -371,8 +353,7 @@ endif;
                             <tr valign="top">
                                 <td width="365">
                                     <!-- Маленький блок с закруглениями:-->
-                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-top-line-grey-370.jpg" width="365" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+                                    <table class="grey-table" width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
                                                 <table width="365" height="610" cellspacing="0" cellpadding="0" bgcolor="#e6e7e8" valign="top" align="top" style="border: 0; border-collapse: collapse; background: #e6e7e8;">
@@ -439,7 +420,6 @@ endif;
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line-grey-370.jpg" width="365" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
                                     </table>
                                     <!-- Маленький блок с закруглениями;-->
                                 </td>
@@ -450,8 +430,7 @@ endif;
                                 </td>
                                 <td width="365">
                                     <!-- Маленький блок с закруглениями:-->
-                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-top-line-pink-370.jpg" width="365" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+                                    <table class="pink-table" width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
                                                 <table width="365" height="610" cellspacing="0" cellpadding="0" bgcolor="#fee2c9" valign="top" align="top" style="border: 0; border-collapse: collapse; background: #fee2c9;">
@@ -504,7 +483,6 @@ endif;
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line-pink-370.jpg" width="365" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
                                     </table>
                                     <!-- Маленький блок с закруглениями;-->
                                 </td>
@@ -516,11 +494,11 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
+</div>
 <!-- Блок Второй; -->
 
 <?php
-if($data['show_footer']=='1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_footer']=='1' || !isset($data['print_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;

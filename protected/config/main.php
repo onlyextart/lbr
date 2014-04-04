@@ -76,6 +76,13 @@ return array(
                         // показываем значения параметров
                         'enableParamLogging' => true,
 		),
+                'db_auth' => array(
+                    'class' => 'CDbConnection',
+                    'connectionString' => 'sqlite:' . dirname(__FILE__) . '/../../../data/auth.db',
+                    'initSQLs' => array(
+                        'PRAGMA foreign_keys = ON',
+                    ),
+                ),
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(

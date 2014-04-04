@@ -1,0 +1,58 @@
+.table
+{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(150,150,150);
+    padding: 10px 0;
+}
+.grey-table, .pink-table
+{
+    width: 365px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(150,150,150);
+    overflow: hidden;
+}
+.grey-table
+{
+    background: #e6e7e8;
+}
+.pink-table
+{
+    background: #fee2c9;
+}
+.after-page-break
+{
+    display: block;
+}
+.after-page-break:after
+{
+    content: '- - - - - - - - - - - - - - - - - - - - Разрыв страницы - - - - - - - - - - - - - - - - - - - -';
+    display: block;
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+/*------START---MEDIA-------*/
+@media print
+{
+  .page-break
+  {
+      display:block; page-break-before:always;
+  }
+  #wrapper .after-page-break
+  {
+      width: 800px;
+      height: 8px;
+      display: block;
+      color: white;
+  }
+  .after-page-break:after
+  {
+      content: '';
+      display: none;
+  }
+}
+/*------EDN---MEDIA-------*/
