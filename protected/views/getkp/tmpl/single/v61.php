@@ -34,7 +34,7 @@ endif;
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
                             <tr>
-                                <td style="background: rgba(204, 51, 51, 0.8); padding: 5px 15px;">
+                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                         <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                             <?php echo $data['product_info1']; ?>
                                         </p>
