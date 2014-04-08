@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Плуг оборотный навесной Ibis</a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Плуг оборотный навесной Ibis<span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/unia-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Unia">
@@ -130,7 +130,7 @@ endif;
                                     <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr> 
                                             <td style="padding: 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis2.jpg" width="340" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis2.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -181,7 +181,7 @@ endif;
                                 <table width="150" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td style="padding: 0px 5px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis3.jpg" width="150px" height="210px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis3.jpg" width="150px" height="210px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -192,17 +192,17 @@ endif;
                                                     Специально под ваш тип почвы:
                                                 </p>
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                    4 СЕРИИ ПЛУГОВ:<br />
-                                                    • M – для супер легких почв<br />
-                                                    • L – для легких почв<br />
-                                                    • XL – для среднетяжелых почв<br />
-                                                    • XXL – для тяжелых каменистых почв 
+                                                    <strong>4 СЕРИИ ПЛУГОВ:</strong><br />
+                                                    • <strong>M</strong> – для супер легких почв<br />
+                                                    • <strong>L</strong> – для легких почв<br />
+                                                    • <strong>XL</strong> – для среднетяжелых почв<br />
+                                                    • <strong>XXL</strong> – для тяжелых каменистых почв 
                                                 </p>
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                    <br />3 СИСТЕМЫ ЗАЩИТЫ:<br />
-                                                    • Защита срезным болтом – для легких, среднетяжелых, не очень каменистых почв;<br />
-                                                    • Рессорная система защиты – для тяжелых каменистых почв;<br />
-                                                    • Гидравлическая система защиты – универсальная система защиты. <br />
+                                                    <br /><strong>3 СИСТЕМЫ ЗАЩИТЫ:</strong><br />
+                                                    • <strong>Защита срезным болтом</strong> – для легких, среднетяжелых, не очень каменистых почв;<br />
+                                                    • <strong>Рессорная система защиты</strong> – для тяжелых каменистых почв;<br />
+                                                    • <strong>Гидравлическая система защиты</strong> – универсальная система защиты. <br />
                                                 </p>
                                             </td>
                                         </tr>
@@ -216,13 +216,13 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800px" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Первый; -->
 
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800px" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -272,7 +272,7 @@ endif;
                                     <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr> 
                                             <td style="padding: 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis4.jpg" width="340" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis4.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -284,7 +284,7 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td colspan="2" style="padding-right: 10px; text-align: center; ">                                                
-                                                <span style="font-weight: bolder;">Для обычных условий работы (в стандарте):</span>
+                                                <span style="font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; color: black;"><strong>Для обычных условий работы (в стандарте):</strong></span>
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -294,7 +294,7 @@ endif;
                                                 </p>
                                             </td>
                                            <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis5.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis5.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -304,7 +304,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis6.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis6.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -314,7 +314,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis7.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis7.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -324,7 +324,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis8.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis8.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -333,7 +333,7 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td colspan="2" style="padding: 10px 10px 0 10px; text-align: justify; ">                                                
-                                                <span style="font-weight: bolder;">Для улучшенной работы в специфических условиях (опции):</span>
+                                                <span style="font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; color: black;"><strong>Для улучшенной работы в специфических условиях (опции):</strong></span>
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -343,7 +343,7 @@ endif;
                                                 </p>
                                             </td>
                                            <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis9.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis9.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -366,7 +366,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis11.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis11.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -376,7 +376,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis12.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis12.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -386,7 +386,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis13.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis13.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -396,7 +396,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis14.jpg" width="160px" style=" height: ; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis14.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
