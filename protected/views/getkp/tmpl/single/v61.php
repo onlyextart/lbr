@@ -18,7 +18,7 @@ endif;
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/default/mail-expom-logo.jpg" width="23" height="27" style="border: 0; float: left;" alt="Логотип Expom">
+                                    <img src="http://www.lbr.ru/images/kp/default/mail-expom-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Expom">
                                 </td>
                             </tr>
                         </table>
