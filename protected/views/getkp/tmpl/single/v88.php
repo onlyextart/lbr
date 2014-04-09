@@ -132,7 +132,7 @@
                                 <td style="padding: 10px 0; width: 380px; vertical-align: middle;">                                    
                                      <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr> 
-                                            <td style="padding: 0px 20px;">
+                                            <td style="padding: 0px 20px; width: 340px;">
                                                 <img src="http://www.lbr.ru/images/kp/kondition/tractor.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>

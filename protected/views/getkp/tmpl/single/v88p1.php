@@ -7,21 +7,21 @@
         a, a:active, a:visited{color:black;}
     </style>
 </head>
-<div class="table w-800">
+<div class="table w-800" style="padding-top: 0;">
 
                 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
                     <tr style="background: #f58220;">
-                        <td>
+                        <td style="padding-top: 5px;">
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: #f58220;">
                                 <tr valign="top">
-                                    <td style="padding-left: 20px; width: 610px; padding-bottom: 15px; padding-top: 5px;">
+                                    <td style="padding-left: 20px; width: 610px; padding-bottom: 15px; padding-top: 10px;">
                                         <p style="margin: 0; padding: 0; color: white; background: none !important; line-height: 20px; font-size: 20px; font-weight: bolder; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;">
                                             КАЧЕСТВЕННЫЙ СЕРВИС<br />
                                             СЕЛЬХОЗТЕХНИКИ<br />
                                             ОТ КОМАНДЫ ПРОФЕССИОНАЛОВ
                                         </p>
                                     </td>
-                                    <td style="padding-right: 20px; padding-top: 10px; width: 150px;">
+                                    <td style="padding-right: 20px; padding-top: 15px; width: 150px;">
                                         <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                             <img src="http://www.lbr.ru/images/kp/default/lbr_logo_white.png" width="150" style="border: 0; float: right;" alt="Логотип ЛБР-Агромаркет">
                                         </a>

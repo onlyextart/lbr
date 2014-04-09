@@ -130,7 +130,7 @@ endif;
                                     <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr> 
                                             <td style="padding: 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis2.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis2e.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -181,7 +181,7 @@ endif;
                                 <table width="150" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td style="padding: 0px 5px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis3.jpg" width="150px" height="210px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis3e.jpg" width="150px" height="210px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -272,7 +272,7 @@ endif;
                                     <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr> 
                                             <td style="padding: 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis4.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis4e.jpg" width="340px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -294,7 +294,7 @@ endif;
                                                 </p>
                                             </td>
                                            <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis5.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis5e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -304,7 +304,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis6.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis6e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -314,7 +314,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis7.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis7e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -324,7 +324,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis8.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis8e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
@@ -343,7 +343,7 @@ endif;
                                                 </p>
                                             </td>
                                            <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis9.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis9e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -356,7 +356,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis10.jpg" height="147px" style="display: block; margin-left: 35px; border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis10e.jpg" height="147px" style="display: block; margin-left: 35px; border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -366,7 +366,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis11.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis11e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -376,7 +376,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis12.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis12e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -386,7 +386,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis13.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis13e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                         <tr valign="top">
@@ -396,7 +396,7 @@ endif;
                                                 </p>
                                             </td>
                                             <td style="padding: 10px 10px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis14.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
+                                                <img src="http://www.lbr.ru/images/kp/ibis-62/ibis14e.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
                                     </table>
