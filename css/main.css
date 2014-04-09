@@ -1267,10 +1267,10 @@ header:after {
 .wrapper .bottom-text h6 {
   font-size: 1em;
 }
-.wrapper .bottom-text div * {
+.wrapper .bottom-text div > * {
   display: none;
 }
-.wrapper .bottom-text div :first-child {
+.wrapper .bottom-text div > :first-child {
   display: block;
 }
 .wrapper .bottom-text .bottom-more {
