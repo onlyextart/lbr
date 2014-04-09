@@ -1,11 +1,11 @@
 <?php
 if($data['show_header']=='1'  || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
  ?>
 <!-- Блок Первый: -->
+<div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Культиватор стерневой KOS <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span>
+                                        Культиватор стерневой KOS
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
@@ -32,18 +32,18 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/kos-65/mail-1.jpg" width="760" height="410" style="border: 0; float: left;" alt="Логотип Expom">
+                                    <div class="img-wrapper">
+                                        <img src="http://www.lbr.ru/images/kp/kos-65/print-1.jpg" width="760" style="border: 0; float: left;" alt="Логотип Expom">
+                                        <div class="orange-plash">Крошит, рыхлит, перемешивает в любых условиях!</div>
+                                        
+                                        <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                            <div class="img-fin-block" style="right: 0; bottom: 80px; max-width: 500px;">
+                                                <?php echo $data['product_info1']; ?>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
                                 </td>
                             </tr>
-                            <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
-                            <tr>
-                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
-                                        <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                            <?php echo $data['product_info1']; ?>
-                                        </p>
-                                </td>
-                            </tr>
-                            <?php endif; ?>
                             <tr>
                                 <td>
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -68,7 +68,7 @@ endif;
                                 <td style="padding: 10px 20px 10px 0; text-align: center;" width="260">
                                     <img src="http://www.lbr.ru/images/kp/kos-65/mail-2.jpg" width="240" style="border: 0; float: left; " alt="Картинки не отображаются">
                                 </td>
-                                <td style="padding: 10px 20px 10px 0; text-align: center;" width="250">
+                                <td style="padding: 10px 10px 10px 0; text-align: center;" width="260">
                                     <img src="http://www.lbr.ru/images/kp/kos-65/mail-3.jpg" width="150" style="border: 0;" alt="Картинки не отображаются">
                                 </td>
                                 <td style="padding: 10px 0px 10px 0; text-align: center;" width="250">
@@ -84,7 +84,7 @@ endif;
                                         • подрезка сорняков
                                     </p>
                                 </td>
-                                <td style="padding: 0px 20px 10px 0;" width="250">
+                                <td style="padding: 0px 10px 10px 0;" width="260">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; ">
                                         • измельчение растительных остатков
                                     </p>
@@ -107,24 +107,18 @@ endif;
                                        Мощные лапы, работа на глубину до 20 см
                                     </p>
                                 </td>
-                                <td style="padding: 0px 20px 10px 0;" width="250">
+                                <td style="padding: 0px 10px 10px 0;" width="260">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; ">
                                         Сферические диски, расположенные под углом друг	к другу
                                     </p>
                                 </td>
-                                <td style="padding: 0px 0px 10px 0;" width="250">
+                                <td style="padding: 0px 20px 10px 0;" width="250">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; ">
                                         Трубчатый вал, диам. 500 мм
                                     </p>
                                 </td>
                             </tr>
-                            <tr valign="top">
-                                <td colspan="3" style="padding: 5px 0;">
-                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px;">
-                                        <b>Бонусное применение:</b> для	культивации лугов, пастбищ и многолетних пахот
-                                    </p>
-                                </td>
-                            </tr>
+                           
                         </table>
                     </td></tr>
                     <tr><td style="padding: 10px 20px 0;">
@@ -161,13 +155,14 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
+</div>
 <!-- Блок Первый; -->
-
+<div class="page-break"></div>
+<div class="after-page-break"></div>
 <!-- Блок Второй: -->
+<div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -232,7 +227,7 @@ endif;
                             </tr>
                             <tr valign="top">
                                 <td style="padding: 5px 0 0 0;">
-                                    <img src="http://www.lbr.ru/images/kp/kos-65/mail-9.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/kos-65/mail-9.jpg" width="360" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -244,7 +239,7 @@ endif;
                             </tr>
                             <tr valign="top">
                                 <td style="padding: 5px 0 0 0;">
-                                    <img src="http://www.lbr.ru/images/kp/kos-65/mail-10.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/kos-65/mail-10.jpg" width="360" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -369,15 +364,20 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <tr valign="top">
+                    <td colspan="2" style="padding: 0px 20px 0;">
+                        <?php
+                        if($data['show_footer']=='1' || !isset($data['show_footer'])):
+                            Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+                        endif;
+                        ?>
+                    </td>
+                </tr>
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
+</div>
 <!-- Блок Второй; -->
-
-<?php
-if($data['show_footer']=='1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</body>

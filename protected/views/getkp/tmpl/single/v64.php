@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/324-plugi-oborotnye-navesnye-vis/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Плуги оборотные полунавесные VIS
+                                        Плуги оборотные полунавесные VIS <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span>
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
