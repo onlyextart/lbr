@@ -1306,6 +1306,7 @@ header:after {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  position: relative;
 }
 .xbanners_container .xbanners .one_banner .b_header img {
   float: left;
