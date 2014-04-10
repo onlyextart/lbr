@@ -33,7 +33,7 @@
             display: inline;
         }
     </style>
-        <a class="edit" href="/administrator/banners/update/id/<?php echo $data->id;?>/">
+    <a class="edit" target="_blank" href="/administrator/banners/update/id/<?php echo $data->id;?>/">
             <i class="icon"></i><span class="text">Редактировать</span>
         </a>
 <?php endif;
