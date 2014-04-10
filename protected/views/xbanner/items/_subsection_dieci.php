@@ -30,6 +30,7 @@ $k = count($data->bannerRegions)-1;
 ?>
 
 <div class="one_banner second_banner_dieci">
+    <?php Yii::app()->getController()->renderPartial('edit', array('data'=>$data)); ?>
     <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[$k]->name; ?></a></h3></div>
     <div class="b_images">
         <div class="b_images_overflow">

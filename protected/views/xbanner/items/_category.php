@@ -1,4 +1,4 @@
-<?
+<?php
 
 $link = CategoryUrlRule::getUrl($data->bannerLinks[0]->menu_item_id);
 
@@ -14,6 +14,7 @@ $makers = Makers::model()->findAll(array(
 ?>
 
 <div class="one_banner third_banner">
+    <?php Yii::app()->getController()->renderPartial('edit', array('data'=>$data)); ?>
     <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[0]->name; ?></a></h3>
     <? if (!empty($makers)){ ?>
         <div class="b_makers">     

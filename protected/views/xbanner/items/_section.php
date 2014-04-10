@@ -40,6 +40,7 @@ $makers = Makers::model()->findAll(array(
 $k = count($data->bannerRegions)-1;
 ?>
 <div class="one_banner first_banner">
+    <?php Yii::app()->getController()->renderPartial('edit', array('data'=>$data)); ?>
     <div class="b_header">
         <?php if ($data->icon && $data->icon!='0'){
             echo '<img src="'.$data->icon.'" alt="'.$data->bannerRegions[$k]->name.'" title="'.$data->bannerRegions[$k]->name.'">';

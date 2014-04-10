@@ -195,6 +195,12 @@ class MenuController extends Controller{
         $nextSibilingNode = $model->next()->find();
         if( $nextSibilingNode !== null){
             $model->moveAfter($nextSibilingNode);
+        }else{
+            $parent = $model->parent()->find();
+            $nextParent = $parent->next()->find();
+            if($nextParent !== null){
+                $model->moveAsLast($nextParent);
+            }
         }
     }
     
@@ -203,6 +209,12 @@ class MenuController extends Controller{
         $nextSibilingNode = $model->prev()->find();
         if( $nextSibilingNode !== null){
             $model->moveBefore($nextSibilingNode);
+        }else{
+            $parent = $model->parent()->find();
+            $prevParent = $parent->prev()->find();
+            if($prevParent !== null){
+                $model->moveAsLast($prevParent);
+            }
         }
     }
     
