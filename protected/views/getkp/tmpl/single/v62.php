@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Плуг оборотный навесной Ibis<span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Плуг оборотный навесной Ibis<span style="font-size: 12px; color: #2518B4; font-weight: normal;">&nbsp;(подробнее...)</span></a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/unia-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Unia">
