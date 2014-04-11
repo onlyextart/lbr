@@ -187,12 +187,16 @@ endif;
                             Мощная  надежная  рама  из  сплошной  трубы  повышенной  прочности <span style="font-weight: 900; color: #F58220;">позволяет  монтировать  до  9  корпусов, обеспечивает стабильность плуга во время работы.</span>
                         </p>    
                     </td></tr>
-                    <!-- ССылка-кнопка подробнее -->
-                    <tr><td style="text-align: right; padding-top: 0px; padding-right: 13px;">
-                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/324-plugi-oborotnye-navesnye-vis/" target="_blank" style="text-decoration: none; border: 0;">
-                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
-                        </a>
-                    </td></tr>
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/324-plugi-oborotnye-navesnye-vis/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -422,12 +426,16 @@ endif;
                         </table>
                     </td>
                 </tr>
-                <!-- ССылка-кнопка подробнее -->
-                <tr><td colspan="2" style="text-align: right; padding-top: 10px; padding-right: 13px;">
-                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/324-plugi-oborotnye-navesnye-vis/" target="_blank" style="text-decoration: none; border: 0;">
-                        <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
-                    </a>
-                </td></tr>
+                <!-- Ссылка-кнопка подробнее -->
+                <?php
+                    Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                            array(
+                                'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/324-plugi-oborotnye-navesnye-vis/',
+                                'colspan' => 2,
+                                'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                )
+                            );
+                ?>
             </table>
             <!-- Внутренности блока; -->
         </td>

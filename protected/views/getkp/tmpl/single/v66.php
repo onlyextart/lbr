@@ -179,12 +179,16 @@ endif;
                             </tr>
                         </table>
                     </td></tr>
-                    <!-- ССылка-кнопка подробнее -->
-                    <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
-                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/" target="_blank" style="text-decoration: none; border: 0;">
-                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
-                        </a>
-                    </td></tr>
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -336,12 +340,16 @@ endif;
                                 </tbody>
                             </table>
                     </td></tr>
-                    <!-- ССылка-кнопка подробнее -->
-                    <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
-                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/" target="_blank" style="text-decoration: none; border: 0;">
-                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
-                        </a>
-                    </td></tr>
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
             <!-- Внутренности блока; -->
         </td>
