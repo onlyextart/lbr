@@ -184,6 +184,12 @@ endif;
                     <tr><td style="padding: 0 20px;">
                             <img src="http://www.lbr.ru/images/kp/profi-63/mail-4.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                     </td></tr>
+                    <!-- ССылка-кнопка подробнее -->
+                    <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
+                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/frontalnye-traktornye-pogruzchiki/" target="_blank" style="text-decoration: none; border: 0;">
+                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                        </a>
+                    </td></tr>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -295,6 +301,12 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <!-- ССылка-кнопка подробнее -->
+                <tr><td style="text-align: right; padding-top: 5px; padding-right: 13px;">
+                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/frontalnye-traktornye-pogruzchiki/" target="_blank" style="text-decoration: none; border: 0;">
+                        <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                    </a>
+                </td></tr>
             </table>
             <!-- Внутренности блока; -->
         </td>

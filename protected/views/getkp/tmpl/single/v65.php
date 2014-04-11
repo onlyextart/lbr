@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Культиватор стерневой KOS <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span>
+                                        Культиватор стерневой KOS
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
@@ -155,6 +155,12 @@ endif;
                                 </td>
                             </tr>
                         </table>
+                    </td></tr>
+                    <!-- ССылка-кнопка подробнее -->
+                    <tr><td style="text-align: right; padding-top: 0px; padding-right: 13px;">
+                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/" target="_blank" style="text-decoration: none; border: 0;">
+                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                        </a>
                     </td></tr>
                 <!-- Контент первого блока; -->
             </table>
@@ -369,6 +375,12 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <!-- ССылка-кнопка подробнее -->
+                <tr><td colspan="2" style="text-align: right; padding-top: 5px; padding-right: 13px;">
+                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/" target="_blank" style="text-decoration: none; border: 0;">
+                        <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                    </a>
+                </td></tr>
             </table>
             <!-- Внутренности блока; -->
         </td>
