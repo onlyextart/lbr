@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus</a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/default/mail-expom-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Expom">
@@ -231,6 +231,12 @@ endif;
                                 </td>
                             </tr>
                         </table>
+                    </td></tr>
+                    <!-- ССылка-кнопка подробнее -->
+                    <tr><td style="text-align: right; padding-top: 0px; padding-right: 13px;">
+                            <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" target="_blank" style="text-decoration: none; border: 0;">
+                                <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                            </a>
                     </td></tr>
                 <!-- Контент первого блока; -->
             </table>
@@ -521,6 +527,12 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <!-- ССылка-кнопка подробнее -->
+                <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
+                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" target="_blank" style="text-decoration: none; border: 0;">
+                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                        </a>
+                </td></tr>
             </table>
             <!-- Внутренности блока; -->
         </td>

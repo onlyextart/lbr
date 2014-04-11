@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Предпосевной культиватор Kombi <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span>
+                                        Предпосевной культиватор Kombi
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
@@ -179,7 +179,12 @@ endif;
                             </tr>
                         </table>
                     </td></tr>
-                    
+                    <!-- ССылка-кнопка подробнее -->
+                    <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
+                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/" target="_blank" style="text-decoration: none; border: 0;">
+                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                        </a>
+                    </td></tr>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -330,6 +335,12 @@ endif;
                                     </tr>
                                 </tbody>
                             </table>
+                    </td></tr>
+                    <!-- ССылка-кнопка подробнее -->
+                    <tr><td style="text-align: right; padding-top: 10px; padding-right: 13px;">
+                        <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/" target="_blank" style="text-decoration: none; border: 0;">
+                            <img src="http://www.lbr.ru/images/kp/default/button_more_orange.jpg" width="174" style="text-decoration: none; border: 0; float: right;" alt="Картинки не отображаются">
+                        </a>
                     </td></tr>
             </table>
             <!-- Внутренности блока; -->
