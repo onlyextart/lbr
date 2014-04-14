@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus <span style="font-size: 12px; color: #2518B4; font-weight: normal;">(подробнее...)</span></a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">Прикатывающие прицепные катки Jacek и Maximus</a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/default/mail-expom-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Expom">
@@ -223,8 +223,8 @@ endif;
                                     </table>
                                     <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
-                                            <td style="padding: 10px 0px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/expom-61/mail-2.jpg" width="370" height="141" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                            <td style="padding: 10px 0px 0; text-align: right;">
+                                                <img src="http://www.lbr.ru/images/kp/expom-61/mail-2.jpg" width="370" height="141" style="border: 0; float: right;" alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                     </table>
@@ -232,6 +232,10 @@ endif;
                             </tr>
                         </table>
                     </td></tr>
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array('link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/', 'colspan' => false, 'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'));
+                    ?>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -521,6 +525,10 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <!-- Ссылка-кнопка подробнее -->
+                <?php
+                    Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array('link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/', 'colspan' => false, 'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'));
+                ?>
             </table>
             <!-- Внутренности блока; -->
         </td>

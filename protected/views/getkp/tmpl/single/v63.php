@@ -184,6 +184,16 @@ endif;
                     <tr><td style="padding: 0 20px;">
                             <img src="http://www.lbr.ru/images/kp/profi-63/mail-4.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                     </td></tr>
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/frontalnye-traktornye-pogruzchiki/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -295,6 +305,16 @@ endif;
                         </table>
                     </td>
                 </tr>
+                <!-- Ссылка-кнопка подробнее -->
+                <?php
+                    Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                            array(
+                                'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/frontalnye-traktornye-pogruzchiki/',
+                                'colspan' => false,
+                                'style' => 'text-align: right; padding-top: 5px; padding-right: 13px;'
+                                )
+                            );
+                ?>
             </table>
             <!-- Внутренности блока; -->
         </td>
