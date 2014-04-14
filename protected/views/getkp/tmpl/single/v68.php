@@ -210,7 +210,7 @@ endif;
                                         </tr>
                                         <tr>
                                             <td style="padding: 0;">
-                                                <img src="http://www.lbr.ru/images/kp/68-viking/mail-4.jpg" height="170" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                <img src="http://www.lbr.ru/images/kp/68-viking/mail-5.jpg" height="170" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                             <td style="padding: 0px 0 0 30px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
