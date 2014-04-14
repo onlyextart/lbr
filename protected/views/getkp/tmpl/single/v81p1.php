@@ -17,10 +17,10 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye/306-borona-diskovaya-summers-diamond-disk/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Дисковая борона Summers Diamond Disc<span style="font-size: 12px; color: #2518B4; font-weight: normal;">&nbsp;(подробнее...)</span></a>
+                                        Дисковая борона Summers Diamond Disc</a>
                                     </a>
                                 </td>
-                                <td style="padding-bottom: 3px;">
+                                <td style="padding-bottom: 3px; text-align: right;">
                                     <img src="http://www.lbr.ru/images/kp/summers-logo.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
@@ -327,13 +327,7 @@ endif;
                                  <td style="padding: 10px 0 0 0;">
                                     <img src="http://www.lbr.ru/images/kp/81-diamond/diamond5.jpg" width="378"  style="border: 0; float: left;" alt="Стрелка вправо">
                                  </td>
-                             </tr> 
-                             <tr valign="top">                                                        
-                                 <td colspan="2" style="padding: 10px 0 0 0;">
-                                    <img src="http://www.lbr.ru/images/kp/81-diamond/diamond6.jpg" width="765"  style="border: 0; float: left;" alt="Стрелка вправо">
-                                 </td>
                              </tr>
-                             
                         </table>
                     </td></tr>                
                 <tr valign="top">

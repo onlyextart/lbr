@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Пневматическая сеялка Spartan-607<span style="font-size: 12px; color: #2518B4; font-weight: normal;">&nbsp;(подробнее...)</span></a>
+                                        Пневматическая сеялка Spartan-607</a>
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
@@ -304,7 +304,16 @@ endif;
                     </td>
                     
                 </tr>                
-                
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
             <!-- Внутренности блока; -->
         </td>

@@ -17,7 +17,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye/306-borona-diskovaya-summers-diamond-disk/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Дисковая борона Summers Diamond Disc<span style="font-size: 12px; color: #2518B4; font-weight: normal;">&nbsp;(подробнее...)</span></a>
+                                        Дисковая борона Summers Diamond Disc</a>
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px;">
@@ -335,7 +335,16 @@ endif;
                              
                         </table>
                     </td></tr>                
-                
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye/306-borona-diskovaya-summers-diamond-disk/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
             <!-- Внутренности блока; -->
         </td>
