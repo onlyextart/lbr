@@ -20,7 +20,7 @@ endif;
                                         Дисковая борона Summers Diamond Disc<span style="font-size: 12px; color: #2518B4; font-weight: normal;">&nbsp;(подробнее...)</span></a>
                                     </a>
                                 </td>
-                                <td style="padding-bottom: 3px;">
+                                <td style="padding-bottom: 3px; text-align: right;">
                                     <img src="http://www.lbr.ru/images/kp/summers-logo.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
