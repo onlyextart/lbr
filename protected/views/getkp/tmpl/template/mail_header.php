@@ -1,5 +1,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <style>
         p{mso-line-height-rule:exactly !important; line-height: 13pt;}
         a, a:active, a:visited{color:black;}
