@@ -40,12 +40,12 @@ class FileuploaderWidget extends CWidget{
     /**
      * Путь к скрипту загрузчику
      */
-    public $url = '/administrator/fileuploader/upload';
+    public $url = '/administrator/fileuploader/upload/';
     
     /**
      * Путь к скрипту удаления файлов
      */
-    public $deleteUrl = '/administrator/fileuploader/delete';
+    public $deleteUrl = '/administrator/fileuploader/delete/';
    
     /**
      * javascript функция вызываемая после загрузки файла
