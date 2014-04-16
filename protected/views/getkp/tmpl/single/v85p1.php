@@ -29,7 +29,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/85-orlik/orlik.jpg" width="760" height="325" style="border: 0; float: left;" alt="Логотип Expom">
+                                    <img src="http://www.lbr.ru/images/kp/85-orlik/orlik.jpg" width="760" style="border: 0; float: left;" alt="Логотип Expom">
                                 </td>
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -43,7 +43,7 @@ endif;
                             <?php endif; ?>
                         </table>
                     </td></tr>
-                <tr><td style="padding: 20px 20px;">
+                <tr><td style="padding: 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                              <tr valign="top">
                                 <td style="width: 30px; padding: 10px 0 0 0;">
@@ -61,7 +61,7 @@ endif;
                 <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                            <tr valign="top">
-                                <td style="padding: 10px 0; width: 380px;">
+                                <td style="padding: 0 0; width: 380px;">
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td colspan="2" style="padding-right: 10px; text-align: center; ">                                                
@@ -89,11 +89,15 @@ endif;
                                                 </p>
                                             </td>
                                         </tr>
-                                        
+                                        <tr valign="top">
+                                            <td colspan="2" style="padding: 0 10px 10px 0; text-align: justify; vertical-align:middle; ">
+                                                <img src="http://www.lbr.ru/images/kp/85-orlik/orlik5.jpg" width="370px" style="border: 0; float: left;" alt="Ibis">
+                                            </td>
+                                        </tr>
                                         
                                     </table>
                                 </td>
-                                <td style="padding: 10px 0; width: 380px;">
+                                <td style="padding: 0 0; width: 380px;">
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td style="padding: 0 10px 15px 0; text-align: justify; ">
@@ -124,7 +128,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td style="padding: 0 10px 15px 0; text-align: justify; ">
+                                            <td style="padding: 0 10px 0 0; text-align: justify; ">
                                                 <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220; ">
                                                  Возможность дополнительного повышения качества подготовки почвы перед посевом
                                                 </span>
@@ -134,7 +138,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td style="padding: 0 10px 15px 0; text-align: justify; ">
+                                            <td style="padding: 0 10px 0 0; text-align: justify; ">
                                                 <table>
                                                 <tr>
                                                     <td style="padding: 0 10px 10px 0; text-align: justify; vertical-align:middle; ">
@@ -149,11 +153,7 @@ endif;
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr valign="top">
-                                            <td style="padding: 0 10px 15px 0;">
-                                            
-                        </td>          
-                        </tr>
+                                        
                         </table>
                         </td>
                         </tr>

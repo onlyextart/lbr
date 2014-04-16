@@ -57,7 +57,7 @@ endif;
                                                         <td style="width: 30px; padding: 10px 0 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
-                                                        <td style="padding: 10px 0 0 0;">
+                                                        <td style="padding: 10px 10px 0 0;">
                                                             <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; font-style: italic; color: #F58220; ">Минимальная и традиционная технология почвообработки и посева
                                                             </p>
@@ -67,7 +67,7 @@ endif;
                                                         <td style="width: 30px; padding: 10px 0 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
-                                                        <td style="padding: 17px 0 0 0;">
+                                                        <td style="padding: 17px 10px 0 0;">
                                                             <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; font-style: italic; color: black; text-align: center; ">Лучшая сеялка для мелкозерновых, рапса и сои
                                                             </p>
@@ -77,7 +77,7 @@ endif;
                                                         <td style="width: 30px; padding: 10px 0 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
-                                                        <td style="padding: 10px 0 0 0;">
+                                                        <td style="padding: 10px 10px 0 0;">
                                                             <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; font-style: italic; color: black; text-align: center; ">Возможность засеять с Double Disc 200-250 га за день работы в поле с трактором всего 220 л.с.!
                                                             </p>
@@ -182,6 +182,16 @@ endif;
                         </table>
                     </td></tr>  
                 <!-- Контент первого блока; -->
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/246-diskovye-seyalki-double-disk/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
             <!-- Внутренности блока; -->
         </td>
@@ -345,7 +355,7 @@ endif;
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
                                     'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/246-diskovye-seyalki-double-disk/',
-                                    'colspan' => false,
+                                    'colspan' => 2,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
                                 );
