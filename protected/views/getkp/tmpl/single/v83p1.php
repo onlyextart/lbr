@@ -32,7 +32,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/83-YP825/yp825.jpg" width="760" height="250px" style="border: 0; float: left;" alt="Логотип GreatPlains">
+                                    <img src="http://www.lbr.ru/images/kp/83-YP825/yp825.jpg" width="760" style="border: 0; float: left;" alt="Логотип GreatPlains">
                                 </td>
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -233,12 +233,7 @@ endif;
                         <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                     </td>
                 </tr>
-                 <tr>                    
-                    <td colspan="2" >
-                        <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-2.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
-                    </td>
-                </tr>
-                        
+                 
                         </table>
                     </td></tr>  
                 <!-- Контент первого блока; -->
@@ -283,8 +278,8 @@ endif;
                                                         </td>
                                                     </tr>    
                                                     <tr valign="top">                                                        
-                                                        <td colspan="2" style="padding: 17px 10px 0 0;">
-                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-3.jpg" width="378" height="300px" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                        <td align="center" colspan="2" style="padding: 17px 10px 0 0;">
+                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-3.jpg" width="241" height="300px" style="border: 0;" alt="Картинки не отображаются">
                                                         </td>
                                                     </tr>  
                                                     <tr valign="top">                                                        
@@ -296,8 +291,8 @@ endif;
                                                         </td>
                                                     </tr>
                                                      <tr valign="top">                                                        
-                                                        <td colspan="2" style="padding: 17px 10px 0 0;">
-                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-6.jpg" width="378" height="230px" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                        <td align="center" colspan="2" style="padding: 5px 10px 0 0;">
+                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-6.jpg" width="294" height="230px" style="border: 0;" alt="Картинки не отображаются">
                                                         </td>
                                                     </tr>
                                                     </table>
@@ -335,7 +330,7 @@ endif;
                                                         </td>
                                                     </tr> 
                                                      <tr valign="top">                                                        
-                                                        <td style="padding: 17px 0 0 0;">
+                                                        <td style="padding: 5px 0 0 0;">
                                                            <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-5.jpg" width="378" style="border: 0; float: left;" alt="Картинки не отображаются">
                                                         </td>
                                                     </tr>

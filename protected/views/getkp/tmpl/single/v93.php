@@ -146,7 +146,15 @@ endif;
                                         </tr>
                                         
                                         <!-- Ссылка-кнопка подробнее -->
-                                        
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/press-podborshchiki/668-press-podborshchiki-columbia/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
                                     </table>
                                 </td>
                             </tr>
