@@ -71,6 +71,7 @@ class GetkpController extends Controller
         $data = $_REQUEST;
         $prices = array();
         $prices_blue = array();
+        $prices_min = array();
         $products_info = array();
                 
         if($data['price_count'])
@@ -80,6 +81,9 @@ class GetkpController extends Controller
                 
             for($b=1; $b<=$data['price_count']; $b++)
                 array_push($prices_blue, $data['price_blue'.$b]);    
+            
+            for($b=1; $b<=$data['price_count']; $b++)
+                array_push($prices_min, $data['price_min'.$b]);    
             
             
         }
@@ -91,6 +95,7 @@ class GetkpController extends Controller
        
         $data['price'] = serialize($prices);
         $data['price_blue'] = serialize($prices_blue);
+        $data['price_min'] = serialize($prices_min);
         $data['product_info'] = serialize($products_info);
         $data['control_number'] = rand('1000000', '9999999');
         $data['user'] = $data['user_info'];
@@ -112,7 +117,13 @@ class GetkpController extends Controller
     
     public function actionTest($v)
     {
-        $this->renderPartial('tmpl/single/'.$v);
+        $path = Yii::getPathOfAlias('application.views.getkp'). '/tmpl/single/'.$v.'.php';
+
+        if (file_exists($path)){
+            $this->renderPartial('tmpl/single/'.$v);
+        }else{
+            echo 'Запрошенной КП не существует.';
+        }
     }
     
     public function actionPage($v, $f = false)
