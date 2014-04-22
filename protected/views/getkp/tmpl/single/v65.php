@@ -380,9 +380,6 @@ endif;
                                 </tr>
                             </tbody>
                         </table>
-                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 12px; color: black; text-align: left; ">
-                            * Также все модели доступны с пружинной защитой зубьев
-                        </p>
                     </td>
                 </tr>
                 <!-- Ссылка-кнопка подробнее -->

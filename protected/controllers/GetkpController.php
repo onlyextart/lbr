@@ -53,6 +53,7 @@ class GetkpController extends Controller
         {
             $data->price = unserialize($data->price);
             $data->price_blue = unserialize($data->price_blue);
+            $data->price_min = unserialize($data->price_min);
             $data->product_info = unserialize($data->product_info);
             if(!in_array($data->temp_id, $this->unique))
                 $temp = TemplateKp::model()->findByPk($data->temp_id);
