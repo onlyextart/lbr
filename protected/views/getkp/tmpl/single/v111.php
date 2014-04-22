@@ -843,13 +843,13 @@ endif;
                                 </tr>
                                 <tr>
                                     <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: #6E7071; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;">Цена обычная с НДС, руб.</td>
-                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price_11']; ?></td>
-                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price_12']; ?></td>
+                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price11']; ?></td>
+                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price12']; ?></td>
                                 </tr>
                                 <tr>
                                     <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: left; color: #F58220; font-weight: 900; border-right: 1px solid grey; border-bottom: 1px solid grey;">ЦЕНА ПО АКЦИИ С НДС, руб.</td>
-                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price_11']*0.9); ?></td>
-                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price_12']*0.9); ?></td>
+                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price11']*0.9); ?></td>
+                                    <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price12']*0.9); ?></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -968,11 +968,11 @@ endif;
                                             </tr>
                                             <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: #6E7071; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;">Цена обычная с НДС, руб.</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price_13']; ?></td>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; text-decoration: line-through;"><?php echo $data['price13']; ?></td>
                                             </tr>
                                             <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: left; color: #F58220; font-weight: 900; border-right: 1px solid grey; border-bottom: 1px solid grey;">ЦЕНА ПО АКЦИИ С НДС, руб.</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price_13']*0.9); ?></td>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo round($data['price13']*0.9); ?></td>
                                             </tr>
                                         </tbody>
                                     </table>
