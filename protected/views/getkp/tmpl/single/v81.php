@@ -159,6 +159,16 @@ endif;
                         </table>
                     </td></tr>
                 <!-- Контент первого блока; -->
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye/306-borona-diskovaya-summers-diamond-disk/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
             <!-- Внутренности блока; -->
         </td>

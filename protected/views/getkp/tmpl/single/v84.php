@@ -194,7 +194,18 @@ endif;
                         </table>
                     </td></tr>  
                 <!-- Контент первого блока; -->
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
             </table>
+            
             <!-- Внутренности блока; -->
         </td>
     </tr>
@@ -303,18 +314,21 @@ endif;
                         </table>
                     </td>
                     
-                </tr>                
-                <!-- Ссылка-кнопка подробнее -->
+                </tr>
+                
+                        <!-- Ссылка-кнопка подробнее -->
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
                                     'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/',
-                                    'colspan' => false,
+                                    'colspan' => 2,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
                                 );
-                    ?>
+                    ?>     
+                
             </table>
+            
             <!-- Внутренности блока; -->
         </td>
     </tr>
