@@ -16,7 +16,7 @@ endif;
                             <tr>
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/315-glubokorykhliteli-great-plains-serii-1300/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         Глубокорыхлитель Great Plains серии SS</a>
                                     </a>
                                 </td>
@@ -140,36 +140,58 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                                        <td style="padding: 10px 10px 0 10px;">
-                                                        <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                                        <td style="padding: 10px 0 0 0;">
+                                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                                         <tr valign="top">                                                                                                               
-                                                        <td style="padding: 0 0 0 10px;">    
-                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Ранняя подготовка почвы к посеву </span>
-                                                            </p>
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Заделка органических и минеральных удобрений</span> 
-                                                           
+                                                        <td style="padding: 0;">    
+                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">Рама не порвется</span><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;"> – оснащен мощной рамой с высокой прочностью на разрыв. 
+                                                                </span>
+                                                        </p>
+                                                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">Крыловидный наконечник</span><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;"> эффективно работает на любых типах почв и увеличивает ширину захвата каждой стойки. 
+                                                                </span>
+                                                        </p>   
                                                             
-                                                            </p>
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Оздоравливает почву и позволяет экономить химикаты для борьбы с сорняками</span> 
-                                                           </p>
                                                         </td>
-                                                         <td style="padding: 0 10px 0 10px;">    
-                                                        <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till8.jpg" width="100px" style="border: 0; float: right;" alt="Ibis">
+                                                         <td style="padding: 0 0 0 10px;">    
+                                                        <img src="http://www.lbr.ru/images/kp/91-ss/ss3.jpg" width="170px" style="border: 0; float: right;" alt="Ibis">
                                                         </td> 
                                                     </tr>
                                                     </table>
                                                         </td>
                                                     </tr>
+                                        <tr valign="top">                                                        
+                                                        <td style="width: 333px; padding: 10px 0px 0 0;">
+                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; text-align: center; ">Турбодиски</span>
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: center; "> облегчают прохождение стойки и корневых растений.</span>
+                                                            </p>
+                                                        </td>
+                                                    </tr>  
+                                        <tr valign="top">                                                        
+                                            <td style="padding: 0 0 5px 0;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                    <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;">Установлены перед каждой стойкой! 
+                                                    </span>
+                                                </p> 
+                                            </td>
+                                        </tr>  
 
 
                                        <tr valign="top">                                                        
                                             <td style="padding: 5px 0 15px 0;">
-                                                <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till3.jpg" width="380" style="border: 0; float: left;" alt="double-disk">
+                                                <img src="http://www.lbr.ru/images/kp/91-ss/ss4.jpg" width="380" style="border: 0; float: left;" alt="double-disk">
                                             </td>
-                                        </tr>                                       
+                                        </tr>  
+                                        <tr valign="top">                                                        
+                                            <td style="padding: 5px 0 0 0;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                   <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  #f58220;"> Возможность удлинения рамы</span> орудия при увеличении мощности трактора.
+                                                                
+                                                </p>
+                                            </td>
+                                        </tr>                                     
                                     </table>                               
                                 </td>
                             </tr> 
@@ -179,7 +201,7 @@ endif;
                 <!-- Ссылка-кнопка подробнее -->
                 <?php
                 Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/',
+                    'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/315-glubokorykhliteli-great-plains-serii-1300/',
                     'colspan' => false,
                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                         )
@@ -208,118 +230,75 @@ endif;
                                 <td style="padding: 10px 0 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
 
-                                        <tr><td colspan="2">
-                                                <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr valign="top">                                                        
-                                                        <td style="width: 161px; padding: 10px 0 0 0;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: black; text-align: center; ">
-                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 18px; color: #F58220; ">Особенности технологии
-                                                            </p>                                    
-                                                        </td>
-                                                    </tr>                                                    
-                                                </table>
-                                            </td></tr>
+                                        
                                         <tr valign="top">
                                             <td>
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
-                                                        <td style="padding: 0 0 10px;">
+                                                        <td style="padding: 10px 0 0 0;">
+                                                        <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                                        <tr valign="top">                                                                                                               
+                                                        <td style="padding: 0;">    
+                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">ЛАПЫ</span>
+                                                        </p>
+                                                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                               <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;">Имеют возможность установки на междурядья 76 см, для лучшего эффекта расстояние между стойками не должно двукратно превышать глубину обработки. 
+                                                                </span>
+                                                        </p>   
                                                             
-                                                                <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till4.jpg" width="365" style="border: 0; float: left;" alt="double-disk">
-                                            
                                                         </td>
-                                                    </tr>                                                    
-                                                       
-                                                    <tr>
-                                                        <td style="padding: 10px 15px 10px 0;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">Режущий турбо-диск</span><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;">– отлично проникают в почву и разрезает ее; уменьшает заминание стеблей. 
-                                                                Волны турбо-дисков входят в грунт в вертикальном положении.</span>
-                                                            </p>                                                            
-                                                        </td>
-                                                    </tr>
-                                                    <tr valign="top">
-                                                        <td style="padding: 0 0 10px;">
-                                                            <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till6.jpg" width="365" style="border: 0; float: left;" alt="double-disk">
-                                           
-                                                        </td>
-                                                    </tr> 
-                                                    <tr valign="top">
-                                                        <td style="padding: 0 0 10px;">
-                                                            <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till7.jpg" width="365" style="border: 0; float: left;" alt="double-disk">
-                                                        </td>
-                                                    </tr>                                                    
-                                                                                                          
-                                                                                                      
-                                                </table>
-                                            </td>
-                                            <td>
-                                                <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr valign="top">                                                        
-                                                        <td style="padding: 0 0 15px 18px;">
-                                                            <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till5.jpg" width="370" style="border: 0; float: left;" alt="double-disk">
-                                                        </td>
-                                                    </tr>
-                                                     <tr valign="top">                                                        
-                                                        <td style="padding: 0 0 15px 18px;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">Гидравлическое перераспределение веса</span>
-                                                            </p>  
-                                                            <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;">Равномерное давление на грунт по всей ширине машины. 
-                                                            Перепускной клапан перераспределяет вес с центральной секции на боковые.</span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr valign="top">
-                                                        <td style="padding: 10px 10px 0 10px;">
-                                                        <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
-                                                        <tr valign="top">
-                                                        <td style="padding: 0 10px 0 10px;">    
-                                                        <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till8.jpg" width="100px" style="border: 0; float: left;" alt="Ibis">
-                                                        </td>                                                        
-                                                        <td style="padding: 0 0 0 10px;">    
-                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Ранняя подготовка почвы к посеву </span>
-                                                            </p>
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Заделка органических и минеральных удобрений</span> 
-                                                           
-                                                            
-                                                            </p>
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
-                                                            <span style="color: black;">• Оздоравливает почву и позволяет экономить химикаты для борьбы с сорняками</span> 
-                                                           </p>
-                                                        </td>
+                                                         <td style="padding: 0 0 0 10px;">    
+                                                        <img src="http://www.lbr.ru/images/kp/91-ss/ss5.jpg" width="170px" style="border: 0; float: right;" alt="Ibis">
+                                                        </td> 
                                                     </tr>
                                                     </table>
                                                         </td>
-                                                    </tr>
-                                                        <tr><td style="padding: 10px 0 0 15px;">
+                                                    </tr>                                                   
+                                                       
+                                                    <tr>
+                                                        <td style="padding: 10px 0 10px 0;">
                                                             <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Модель</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">3000ТТ</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">4000ТТ</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Серия</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">SS 1300</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">SS 1700</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Рабочая ширина, м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">9</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">12,2</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Количество стоек, шт.</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">5</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">8</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Транспортная высота, м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4,2</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4,4</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Вес, кг</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1438</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2000</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Транспортная ширина, м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4,7</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">5,3</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3,81</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">6</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Мощность трактора, л.с.</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">от 240</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">от 310</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Расстояние между стойками, см</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">76</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">76</td>
+                                                                    </tr>
+                                                                     <tr>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Требуемая мощность, л.с., в зависимости от влажности, глубины и состояния почвы</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">250-380</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">380-485</td>
+                                                                    </tr>
+                                                                     <tr>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Зазор между рамой и наконечником стойки, см</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">99,1</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">99,1</td>
+                                                                    </tr>
+                                                                     <tr>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Максимальная рабочая глубина, см</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">45,7</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">45,7</td>
                                                                     </tr>
                                                                     
                                                                     <tr>
@@ -328,29 +307,46 @@ endif;
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price2']; ?></td>
                                                                     </tr>
                                                                 </tbody>
-                                                            </table>                                                          
+                                                            </table>                                                                
+                                                        </td>
+                                                    </tr>                                                   
+                                                                                                     
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <tr valign="top">                                                        
+                                                        <td style="padding: 0 0 15px 18px;">
+                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220;">УПЛОТНИТЕЛЬНЫЙ КАТОК</span>
+                                                            </p>  
+                                                            <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color:  black;">Предназначен для выравнивания и уплотнения поверхности, следом за стойками глубокорыхлителя.</span>
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
-                                                                <tr valign="top">                                                        
-                                                                    <td style="padding: 10px 0 15px 17px;">
-                                                                        <img src="http://www.lbr.ru/images/kp/94-turbo-till/turbo-till9.jpg" width="370" style="border: 0; float: left;" alt="double-disk">
-                                                                    </td>
-                                                                </tr>                                                    
-                                                            </table>
+                                                    <tr valign="top">                                                        
+                                                        <td style="padding: 0 0 15px 18px;">
+                                                            <img src="http://www.lbr.ru/images/kp/91-ss/ss6.jpg" width="370" style="border: 0; float: left;" alt="double-disk">
                                                         </td>
-                                                    </tr>                                                 
+                                                    </tr>                                                     
+                                                    <tr valign="top">                                                        
+                                                        <td style="padding: 0 0 15px 18px;">
+                                                            <img src="http://www.lbr.ru/images/kp/91-ss/ss7.jpg" width="370" style="border: 0; float: left;" alt="double-disk">
+                                                        </td>
+                                                    </tr>                                           
                                                 </table>
                                             </td>
                                         </tr>
+                                        <tr>
+                                <td colspan="3" style="padding-top: 3px;">
+                                    <img src="http://www.lbr.ru/images/kp/91-ss/ss8.jpg" width="760" style="border: 0; float: left;" alt="Логотип Expom">
+                                </td>
+                            </tr>
                                     </table>
                                 </td></tr>           
                             <!-- Ссылка-кнопка подробнее -->
                             <?php
                             Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                                'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/',
+                                'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/315-glubokorykhliteli-great-plains-serii-1300/',
                                 'colspan' => 2,
                                 'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
