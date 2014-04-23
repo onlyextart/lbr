@@ -11,10 +11,10 @@ class FileuploaderController extends Controller
         $allowedExt = array('jpg', 'jpeg', 'png', 'gif');
         $maxFileSize = 5 * 1024 * 1024; //5 MB
         //если получен файл
-        if (isset($_FILES)) {
+        if (isset($_FILES) && !empty($_FILES)) {
             //проверяем размер и тип файла
-            die(var_dump($_FILES));            
-            $ext = end(explode('.', strtolower($_FILES['Filedata']['name'])));
+            $ext_array = explode('.', $_FILES['Filedata']['name']);
+            $ext = end($ext_array);
             if (!in_array($ext, $allowedExt)) {
                 return;
             }
