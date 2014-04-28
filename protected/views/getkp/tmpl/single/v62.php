@@ -20,7 +20,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/unia-logo.jpg" width="23" height="27" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
-                            </tr>
+                            </tr>k
                         </table>
                     </td></tr>
                 <!-- Заголовок со ссылкой и логотипом; -->
