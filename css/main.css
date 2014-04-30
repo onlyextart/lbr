@@ -2439,3 +2439,6 @@ ul.yiiPager .selected a {
   margin: 0;
   text-align: left;
 }
+.clear_table td {
+  padding: 5px 10px;
+}
