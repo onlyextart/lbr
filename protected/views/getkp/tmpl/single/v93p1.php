@@ -512,7 +512,7 @@ endif;
                     </tr>
                     
                     
-                     <tr valign="top">
+                <tr valign="top">
                     <td colspan="2" style="padding: 0px 20px 0;">
                         <?php
                         if($data['show_footer']=='1' || !isset($data['show_footer'])):

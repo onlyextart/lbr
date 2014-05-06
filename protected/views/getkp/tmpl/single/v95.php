@@ -85,7 +85,7 @@ endif;
                                                     </tr>
                                                     <tr valign="top">                                                        
                                                         <td colspan="2" style="width: 160px; padding: 17px 10px 0 0;">
-                                                            <p style="border margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                                                            <p style="border: 0; margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; text-align: center; ">Способность глубокорыхлителя Erath Master работать в тяжелых условиях</span>
                                                             </p>
                                                         </td>
