@@ -79,6 +79,7 @@ RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/s
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/701-pnevmaticheskie-seyalki-spartan-907/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/ [R=301,L]
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
 RewriteRule ^(.*)(selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
+RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/348-seyalki-tochnogo-vyseva-kinze-twin-line/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/ [R=301,L]
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
 RewriteRule ^tehnika/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
