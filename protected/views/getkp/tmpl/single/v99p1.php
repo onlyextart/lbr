@@ -32,7 +32,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/71-polonez/polonez.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/99-fw36/fw36.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -82,8 +82,7 @@ endif;
                                                    Тип упаковки: вращающаяся платформа. 
                                                    Загрузка рулона производится сбоку в направлении движения трактора при помощи бокового вилочного загрузчика. 
                                                    Сбор и обмотка рулонов происходит во время проезда до следующего рулона или к месту складирования. 
-                                                   Контроль и управление производится непосредственно из кабины трактора.
-                                                   
+                                                   Контроль и управление производится непосредственно из кабины трактора.                                                   
                                                 </p>
                                             </td>
                                         </tr>
