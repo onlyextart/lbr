@@ -144,7 +144,7 @@ tinyMCE.init({
         )
     ); 
 ?>
-    <div class="admin_main_features">
+    <div class="admin_main_features hide">
         <div class="row">
             <?php echo $form->error( $productModel, 'name'); ?>
             <?php echo $form->labelEx( $productModel, 'name'); ?>
@@ -302,6 +302,38 @@ tinyMCE.init({
                     )
                 );
             ?>
+        </div>
+        <h3>Технические характеристики</h3>
+        <div class="admin_additional_features_measure">
+            <div class="admin_additional_features">
+                <h3>Добавить техническую характеристику</h3>
+                <div class="measure">
+                    <div>
+                        <span>Заголовок</span>
+                        <input id="tech-label" type="text" t-id="">
+                    </div>
+                    <div>
+                        <span>Единицы измерения</span>
+                        <input id="measure-label" type="text" m-id="">
+                    </div>
+                    <?php echo CHtml::link('Добавить', '#', array('id'=>'add-measure')); ?>
+                </div>
+            </div>
+            <div style="clear: both">Добавленные технические характеристики</div>
+            <div class="admin_additional_features">
+                <h3>Section 1</h3>
+                <div>
+                    1111
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                    1111
+                </div>
+            </div>
+        </div>
+        <h3>Значения технических характеристик для дочерних товаров</h3>
+        <div class="admin_additional_features_technical_options">
+            <!--input-->
         </div>
     </div>
     <div class="admin_content_features">
@@ -642,8 +674,39 @@ tinyMCE.init({
         var tabsManager = new RegionalTabsManager();
         tabsManager.init();
         $( "#product_features_tabs" ).tabs();
-        $(".admin_additional_features").accordion({ header: "h3" , collapsible: true, active:false, heightStyle: "content"});
+        $(".admin_additional_features").accordion({ header: "> h3" , collapsible: true, active:false, heightStyle: "content"});
+        $('.admin_main_features').removeClass('hide');
         $(".menuTreeView li:even",this).addClass("even_menu_item"); 
         $(".menuTreeView li:odd",this).addClass("odd_menu_item");
+        $('#add-measure').on('click', function() {
+            var tLabel = $('#tech-label').val();
+            var tId = $('#tech-label').attr('t-id');
+            var mLabel = $('#measure-label').val();
+            var mId = $('#measure-label').attr('m-id');
+            $.ajax({
+                type: 'POST',
+                url: '/administrator/mightiness/addMeasure',
+                dataType: 'json',
+                data:{
+                    techLabel: tLabel,
+                    tId: tId,
+                    measureLabel: mLabel,
+                    mId: mId,
+                },
+                success: function(response) {
+                    if(response.error) {
+                        if(response.measureLabel == '') $('#measure-label').addClass('measure-error');
+                        else $('#measure-label').removeClass('measure-error');
+                        if(response.techLabel == '') $('#tech-label').addClass('measure-error'); 
+                        else $('#tech-label').removeClass('measure-error');
+                    } else {
+                        $('#measure-label').removeClass('measure-error');
+                        $('#tech-label').removeClass('measure-error');
+                        $('#measure-label').val('');
+                        $('#tech-label').val('');
+                        alertify.success('Сохранена техническая характеристика "'+response.techLabel+'"');
+                    }
+            }});
+        });
     })
 </script>

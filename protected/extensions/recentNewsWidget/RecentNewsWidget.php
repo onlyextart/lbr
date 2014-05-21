@@ -3,8 +3,6 @@ class RecentNewsWidget extends CWidget
 {
     public function run()
     {
-       //var_dump(111);exit;
-       //echo 111;exit;
        if(Yii::app()->params['currentMenuItem']->level!=1) return;
 
        $criteria = new CDbCriteria();

@@ -526,4 +526,28 @@ header .menu:after, .right form .name:after, .right form .description:after,.rig
 }
 .admin_main_features{float:left; width:40%;}
 .admin_additional_features{float:left; width:60%;}
+.measure span {
+    width: 40%;
+    display: block;
+    float: left;
+}
+.measure-error {
+    border: 1px solid red;
+}
+#add-measure {
+    width: auto;
+    padding: 3px 20px;
+    background: url("/css/ui/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+#add-measure:hover {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
 /* END GROUP ADMIN_ADDITIONAL FEATURES */

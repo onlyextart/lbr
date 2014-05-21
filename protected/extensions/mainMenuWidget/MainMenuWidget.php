@@ -16,7 +16,9 @@ class MainMenuWidget extends CWidget
             return;
         //Yii::app()->clientScript->registerCssFile('/css/menuGroups.css');
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
-        
+        /*echo '<pre>';
+        var_dump($this->desiredMenuItem); 
+        exit;*/
         if($this->menuBranch[1]->alias=='tehnika'){
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu === null){
@@ -64,7 +66,9 @@ class MainMenuWidget extends CWidget
                     'level='.($this->startLevel+1).' AND published=1'
             );
         }
-            
+        /*    echo '<pre>';
+        var_dump($this->secondLevelItems); 
+        exit;*/
         if( isset($this->menuBranch[3]) ){
             $this->thirdLevelItems = $this->menuBranch[3]->descendants()->with('group')->findAll(
                     'level='.($this->startLevel+2).' AND published=1'

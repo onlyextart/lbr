@@ -12,6 +12,7 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::CONTACT_MENU_ITEM_TYPE=>'contacts',
         MenuItems::STATIC_MENU_ITEM_TYPE=>'pages',
         MenuItems::NEWS_MENU_ITEM_TYPE=>'news',
+        MenuItems::MIGHTINESS_MENU_ITEM_TYPE=>'mightiness',
     );
     
     public function createUrl($manager, $route, $params, $ampersand)
@@ -26,61 +27,12 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
-        //$start = microtime(true);
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
         }
-        else{/*
-            //Разбиваем запрос на массив по символу "/"
-            $queryPathArray = explode('/', 'index/'.$pathInfo );
-            //"переворачиваем" его для обхода начиная с последнего елемента
-            $queryPathArrayReversed = array_reverse( $queryPathArray );
-            foreach( $queryPathArrayReversed as $i=>$partOfPath ){
-                //находим модели всех пунктов меню в которых поле alias равен части пути
-//                $menuItemsModel = MenuItems::model()->findAll(
-//                    'lower(alias)=:alias AND published=1',
-//                    array(
-//                        ':alias'=>mb_strtolower($partOfPath),
-//                    )
-//                );
-                $menuItemsModel = MenuItems::model()->findAll(
-                    array(
-                        'condition'=>'alias=:alias',
-                        'params'=>array(':alias'=>mb_strtolower($partOfPath)),
-                        'select'=>'level, alias, lft, rt, root',
-                    )
-                );
-                //Если не найдено ни одной записи
-                if( empty($menuItemsModel) ){
-                    return false; // не применяем данное правило
-                }
-
-                foreach( $menuItemsModel as $menuItemModelNum => $menuItemModel ){
-                    //Предки пункта меню
-                    $ancestors = $menuItemModel->ancestors()->findAll();
-                    //если первый предок является корневым пунктом меню
-                    //и количество предков (+ текущий узел) в базе данных совпадает с количесвом уровней в url
-                    if( $ancestors[0]->level == '1' && (count($ancestors)+1)==count($queryPathArray) ){
-                        //проверяем соответствие частей пути полям alias соответствующих предков
-                        foreach($ancestors as $ancestorNum => $ancestor){
-                            if(mb_strtolower($ancestor->alias) !== mb_strtolower($queryPathArray[$ancestorNum])){
-                                continue(2);
-                            }
-                        }
-                        $this->desiredMenuItem = $menuItemModel;
-                        break;
-                    }
-                    else{
-                        continue;
-                    }
-                }
-                if($this->desiredMenuItem !== null){
-                    break;
-                }
-            }
-         */
+        else{
             $this->desiredMenuItem = MenuItems::model()->find(
                     'path=:path',
                     array(':path'=>'/'.$pathInfo)
@@ -105,6 +57,7 @@ class CategoryUrlRule extends CBaseUrlRule
         
         $breadcrumbs = array();
         $breadcrumbsMenuBranch = $ancestors;
+        
         if( is_array($ancestors) && $ancestors[1]->alias=='tehnika'){
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu===null){
@@ -129,10 +82,12 @@ class CategoryUrlRule extends CBaseUrlRule
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;
         
         Yii::app()->params['currentMenuBranch'] = $ancestors;
+        
         return self::$controllers[$this->desiredMenuItem->type];
     }
     
-    static function getUrl( $pageId, $recursive = false ){
+    static function getUrl( $pageId, $recursive = false )
+    {
         if(!$recursive){
             $menuItemModel=Yii::app()->db->createCommand("SELECT path from menu_items where id='".$pageId."'")->queryRow();
             return $menuItemModel[path];

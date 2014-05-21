@@ -3,8 +3,6 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-	        
-            
             $id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
             
             
