@@ -1,23 +1,26 @@
 <?php
 
 /**
- * This is the model class for table "tech_characteristic".
+ * This is the model class for table "product_tech_characteristic".
  *
- * The followings are the available columns in table 'tech_characteristic':
+ * The followings are the available columns in table 'product_tech_characteristic':
  * @property integer $id
- * @property string $title
+ * @property integer $product_id
  * @property integer $measure_id
+ * @property integer $tech_id
  *
  * The followings are the available model relations:
  * @property ProductRangeValue[] $productRangeValues
+ * @property TechCharacteristic $tech
  * @property Measure $measure
+ * @property Products $product
  */
-class TechCharacteristic extends CActiveRecord
+class ProductTechCharacteristic extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return TechCharacteristic the static model class
+	 * @return ProductTechCharacteristic the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -29,7 +32,7 @@ class TechCharacteristic extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'tech_characteristic';
+		return 'product_tech_characteristic';
 	}
 
 	/**
@@ -40,10 +43,10 @@ class TechCharacteristic extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title', 'safe'),
+			array('product_id, measure_id, tech_id', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title', 'safe', 'on'=>'search'),
+			array('id, product_id, measure_id, tech_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,6 +59,9 @@ class TechCharacteristic extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'productRangeValues' => array(self::HAS_MANY, 'ProductRangeValue', 'tech_id'),
+			'tech' => array(self::BELONGS_TO, 'TechCharacteristic', 'tech_id'),
+			'measure' => array(self::BELONGS_TO, 'Measure', 'measure_id'),
+			'product' => array(self::BELONGS_TO, 'Products', 'product_id'),
 		);
 	}
 
@@ -66,7 +72,9 @@ class TechCharacteristic extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'title' => 'Title',
+			'product_id' => 'Product',
+			'measure_id' => 'Measure',
+			'tech_id' => 'Tech',
 		);
 	}
 
@@ -82,7 +90,9 @@ class TechCharacteristic extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('title',$this->title,true);
+		$criteria->compare('product_id',$this->product_id);
+		$criteria->compare('measure_id',$this->measure_id);
+		$criteria->compare('tech_id',$this->tech_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

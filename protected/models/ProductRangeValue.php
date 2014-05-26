@@ -11,7 +11,7 @@
  * @property double $val_int
  *
  * The followings are the available model relations:
- * @property TechCharacteristic $tech
+ * @property ProductTechCharacteristic $tech
  * @property ProductRange $range
  */
 class ProductRangeValue extends CActiveRecord
@@ -59,7 +59,7 @@ class ProductRangeValue extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'tech' => array(self::BELONGS_TO, 'TechCharacteristic', 'tech_id'),
+			'tech' => array(self::BELONGS_TO, 'ProductTechCharacteristic', 'tech_id'),
 			'range' => array(self::BELONGS_TO, 'ProductRange', 'range_id'),
 		);
 	}

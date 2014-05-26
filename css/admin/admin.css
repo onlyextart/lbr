@@ -122,7 +122,7 @@ header .menu > ul.nav{
     list-style: none;
     position: relative;
 }
-header .menu > ul.nav:after{
+header .menu > ul.nav:after, .edit-features:before{
     content: '';
     clear: both;
     display: block;
@@ -526,28 +526,152 @@ header .menu:after, .right form .name:after, .right form .description:after,.rig
 }
 .admin_main_features{float:left; width:40%;}
 .admin_additional_features{float:left; width:60%;}
-.measure span {
-    width: 40%;
-    display: block;
-    float: left;
+.admin_additional_features_measure .admin_additional_features, .admin_additional_features_technical_options .admin_additional_features{float:left; width:95%;}
+.admin_additional_features_measure>div{margin-bottom: 10px;}
+div.form .admin_additional_features_measure input {
+    margin: 0 !important; 
+    padding: 0 !important;
+    min-height: 22px;
 }
+
+.measure span, #all-child-products .admin_additional_features_content span{
+    width: 30%;
+    display: inline-block;
+    display: -moz-inline-stack;
+}
+
 .measure-error {
     border: 1px solid red;
 }
-#add-measure {
+.admin-btn {
     width: auto;
     padding: 3px 20px;
-    background: url("/css/ui/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
-    border: 1px solid #D3D3D3;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    border: 1px solid #DCDCDC !important;
     text-decoration: none;
     line-height: 22px;
+    margin-right: 5px;
 }
 
 #add-measure:hover {
     cursor: pointer;
 }
 
+.edit-features{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-top: 25px;
+    color: #008672;
+    font-weight: bold;
+}
+
 .hide{
     display: none;
 }
+
+#all-child-products .ui-state-default.new {
+    background-color: #60B044;
+    background-image: linear-gradient(#8ADD6D, #60B044);
+}
 /* END GROUP ADMIN_ADDITIONAL FEATURES */
+/* TABLE IN TECHNICAL_CHARACTERISTICS */
+.admin_additional_features_measure table{
+    *border-collapse: collapse; /* Для IE7 и страше */
+    border-spacing: 0;
+    width: 96%;  
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;
+}
+.admin_additional_features_measure table tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; 
+}
+.admin_additional_features_measure table tr input{
+    width: 100%;
+    min-width: 100%;
+}
+.admin_additional_features_measure table td span{
+    width: 100%;
+    min-width: 100%;
+    display: block;
+}
+.admin_additional_features_measure table td, .admin_additional_features_measure table th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 5px 10px;
+    text-align: left;    
+}
+.admin_additional_features_measure table td{
+     padding: 3px 10px;
+}
+.admin_additional_features_measure table th {
+    text-align: center;
+    background-color: #F5F5F5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    background-image:    -moz-linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    background-image:     -ms-linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    background-image:      -o-linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    background-image:         linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.admin_additional_features_measure table td:first-child, .admin_additional_features_measure table th:first-child {
+    border-left: none;
+}
+
+.admin_additional_features_measure table th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.admin_additional_features_measure table th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.admin_additional_features_measure table tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.admin_additional_features_measure table tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.admin_additional_features_measure table tr span.update-measure, .admin_additional_features_measure table tr span.del-measure {
+    background: url("/images/confirm-icon.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+.admin_additional_features_measure table tr span.update-measure.hide{
+    display: none;
+}
+.admin_additional_features_measure table tr span.del-measure{
+    background: url("/images/delete-icon.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+}
+.admin_additional_features_measure table tr span.del-measure:hover, .admin_additional_features_measure table tr span.update-measure:hover {
+    cursor: pointer;
+}
+/* END TABLE IN TECHNICAL_CHARACTERISTICS */
