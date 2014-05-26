@@ -1,33 +1,47 @@
-$(document).ready(function(){
+$(function(){
     // Add measure
     $('.admin_additional_features_measure #add-measure').on('click', function() {
         var tLabel = $.trim($('#tech-label').val());
         $('#tech-label').val('');
         if(tLabel != '') {
             //var tId = $('#tech-label').attr('t-id'); // если характеристика уже существует
-            var element = '<tr tch-id="111">'+
+            var table = $("#all-features");
+            var element = '<tr tch-id="">'+
                 '<td>' + tLabel + '</td>' +
-                '<td><input type="text" m-id="111" value="666" class="measure-title"/></td>' +
-                '<td><input type="text" value="666" class="measure-reduction"/></td>' +
+                '<td><input type="text" m-id="" class="measure-title"/></td>' +
+                '<td><input type="text" class="measure-reduction"/></td>' +
                 '<td><span class="update-measure"></span></td>' +
                 '<td><span class="del-measure"></span></td>' +
             '</tr>';
-            $("#all-features").append(element);
+            if(!table.has( "th" ).length) {
+                table.removeClass('hide');
+                table.append(
+                    '<tr>'+
+                        '<th>Название технической характеристики</th>'+
+                        '<th>Полное название единицы измерения</th>'+
+                        '<th>Сокращенное название единицы измерения</th>'+
+                        '<th>Обновить</th>'+
+                        '<th>Удалить</th>'+
+                    '</tr>'
+                );
+            }
+            table.append(element);
         }
     });
     // Delete measure
-    $('.admin_additional_features_measure .del-measure').on('click', function() {
-        //console.log(555);
+    $('.admin_additional_features_measure table').on('click', "td .del-measure", function() {
         var element = $(this).parent().parent();
         $.ajax({
             type: 'POST',
             url: '/administrator/mightiness/delMeasure',
             dataType: 'json',
             data:{
-                id: element.attr('tch-id'),
+                tId: element.attr('tch-id'),
             },
             success: function(response) {
+                var text = $('[tch-id='+element.attr('tch-id')+'] td:first-child').html();
                 element.remove();
+                alertify.success('Удалена характеристика "'+text+'"');
         }});
     });
     
@@ -49,7 +63,7 @@ $(document).ready(function(){
         $(this).remove(); 
         parent.text(newVal);
         parent.parent().removeClass('clicked');
-        parent.parent().parent().find('.update-measure').removeClass('hide');
+        if(parent.attr('val') != newVal) parent.parent().parent().find('.update-measure').removeClass('hide');
     });
     
    /* press Enter button*/
@@ -85,4 +99,4 @@ $(document).ready(function(){
             }
         });
     });
-})
+});

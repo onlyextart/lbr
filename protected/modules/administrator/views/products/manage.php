@@ -2,7 +2,7 @@
     if(!$productModel->isNewRecord) {
         $allProductTechCharacteristics = array();
         $allChildProducts = array();
-        $techCharacteristics = ProductTechCharacteristic::model()->findAll(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$productModel->id), 'order'=>'id desc'));
+        $techCharacteristics = ProductTechCharacteristic::model()->findAll(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$productModel->id)));
         foreach($techCharacteristics as $characteristic){
             $measure = Measure::model()->findByPk($characteristic->measure_id);
             $techChar = TechCharacteristic::model()->findByPk($characteristic->tech_id);
@@ -339,15 +339,15 @@ tinyMCE.init({
                 <input type="text" id="tech-label" t-id=""/>
                 <?php echo CHtml::link('Добавить', '#', array('id'=>'add-measure', 'class'=>'admin-btn')); ?>
             </div>     
-            <table id="all-features">
-                <tr>
-                    <th>Название технической характеристики</th>
-                    <th>Полное название единицы измерения</th>
-                    <th>Сокращенное название единицы измерения</th>
-                    <th>Обновить</th>
-                    <th>Удалить</th>
-                </tr>
+            <table id="all-features" class="<?php echo (!count($allProductTechCharacteristics))? 'hide':'' ?>">
                 <?php if(count($allProductTechCharacteristics)): ?>
+                    <tr>
+                        <th>Название технической характеристики</th>
+                        <th>Полное название единицы измерения</th>
+                        <th>Сокращенное название единицы измерения</th>
+                        <th>Обновить</th>
+                        <th>Удалить</th>
+                    </tr>
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                         <tr tch-id="<?php echo $techCharId ?>">
                             <td><?php echo $techChar['techCharTitle'] ?></td>
@@ -779,72 +779,70 @@ tinyMCE.init({
                 }
             });
         });
-        /******************************************************************/
-                
-        /*$('.update-measure').on('click', function() {
-            var params = [];
-            var element = $(this).parent();
-            params['techCharTitle'] = element.find('.tech-char-title').val();
-            params['measureTitle'] = element.find('.measure-title').val();
-            params['measureReduction'] = element.find('.measure-reduction').val();
-            $.ajax({
-                type: 'POST',
-                url: '/administrator/mightiness/updateMeasure',
-                dataType: 'json',
-                data:{
-                    id: element.attr('tech-id'),
-                    params: params,
-                },
-                success: function(response) {
-                    var labelTitle = element.prev('h3').html();
-                    var index = labelTitle.indexOf('</span>')+7;
-                    labelTitle = labelTitle.substring(0,index);
-                    element.prev('h3').html(labelTitle+params[0]);
-                    alertify.success('Дочерний товар "'+params[0]+'"сохранен успешно');
-                    
-                }
-            });
-        });*/
-        $('.update-measure').click(function() {
-            alert(111);
-        });
-        /*$('.update-measure').on('click', function() {
-           // console.log(555);
-            
-            
+        /******************************************************************/        
+        $('table').on('click', "td .update-measure", function() {
             var element = $(this).parent().parent();
             var tLabel = element.first();
+            var tId = element.attr('tch-id');
             var mLabel = element.find('.measure-title');
             var mReduction = element.find('.measure-reduction');
-            var id = element.attr('tch-id');
             var mId = mLabel.attr('m-id');
-            if(id == ''){
-                console.log(11);
+            
+            if(tId == '') {
+                mLabelText = $.trim(mLabel.val());
+                mReductionText = $.trim(mReduction.val());
+                if( mLabelText != '' && mReductionText != '' ) {
+                    mLabel.removeClass('measure-error');
+                    mReduction.removeClass('measure-error');
+                    $.ajax({
+                        type: 'POST',
+                        url: '/administrator/mightiness/addMeasure',
+                        dataType: 'json',
+                        data:{
+                            productId: <?php echo $productModel->id; ?>,
+                            tId: tId,
+                            techLabel: tLabel.text(),
+                            mId: mId,
+                            measureLabel: mLabelText,
+                            measureReduction: mReductionText,
+                        },
+                        success: function(response) {
+                            element.attr('tch-id', response.id);
+                            mLabel.parent().parent().find('.update-measure').addClass('hide');
+                            mTitleParent = mLabel.parent();
+                            mLabel.remove();
+                            mTitleParent.append('<span class="measure-title" m-id="">'+mLabelText+'</span>');
+                            mReductionParent = mReduction.parent();
+                            mReduction.remove();
+                            mReductionParent.append('<span class="measure-reduction">'+mReductionText+'</span>');
+                            alertify.success('Добавлена техническая характеристика "'+response.techLabel+'"');
+                    }});
+                } else {
+                    if( mLabelText == '') mLabel.addClass('measure-error');
+                    else mLabel.removeClass('measure-error');
+                    if( mReductionText == '') mReduction.addClass('measure-error');
+                    else mReduction.removeClass('measure-error');
+                }
+            } else {
+                mLabelText = $.trim(mLabel.text());
+                mReductionText = $.trim(mReduction.text());
                 $.ajax({
                     type: 'POST',
-                    url: '/administrator/mightiness/addMeasure',
+                    url: '/administrator/mightiness/updateMeasure',
                     dataType: 'json',
                     data:{
-                        productId: <?php //echo $productModel->id; ?>,
-                        tId: id,
+                        productId: <?php echo $productModel->id; ?>,
+                        tId: tId,
                         techLabel: tLabel.text(),
                         mId: mId,
-                        measureLabel: mLabel.val(),
-                        measureReduction: mReduction.val(),
+                        measureLabel: mLabelText,
+                        measureReduction: mReductionText,
                     },
                     success: function(response) {
-                        if(response.error) {
-                            if(response.measureLabel == '') mLabel.addClass('measure-error');
-                            else mLabel.removeClass('measure-error');
-                            if(response.measureReduction == '') mReduction.addClass('measure-error'); 
-                            else mReduction.removeClass('measure-error');
-                        } else {
-                            alertify.success('Сохранена техническая характеристика "'+response.techLabel+'"');
-                        }
+                        mLabel.parent().parent().find('.update-measure').addClass('hide');
+                        alertify.success('Обновлена техническая характеристика "'+response.techLabel+'"');
                 }});
-                
-            } else console.log(22); 
-        });*/
-        
-    })
+            }
+        });
+    });
 </script>

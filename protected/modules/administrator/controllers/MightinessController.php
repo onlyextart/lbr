@@ -5,7 +5,6 @@ class MightinessController extends Controller{
     }*/
     public function actionAddMeasure()
     {
-        $error = false;
         $productId = trim($_POST['productId']);
         $techId = $_POST['tId'];
         $techLabel = trim($_POST['techLabel']);
@@ -13,31 +12,59 @@ class MightinessController extends Controller{
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
         $productTechCharId = '';
-        /*if($techLabel == '') $error = true;
-        if($measureLabel == '') $error = true;
-        if(!$error) {
-            $measure = new Measure;
-            $measure->title = $measureLabel;
-            $measure->reduction = $measureReduction;
-
-            $techChar = new TechCharacteristic;
-            $techChar->title = $techLabel;
-            
-            if($techChar->save() && $measure->save()){
-                $productTechChar = new ProductTechCharacteristic;
-                $productTechChar->measure_id = $measure->id;
-                $productTechChar->tech_id = $techChar->id;
-                $productTechChar->product_id = $productId;
-                if($productTechChar->save()) $productTechCharId = $productTechChar->id;
-            }
-        }*/
         
-        $array = array('error'=>$error, 'techLabel'=>$techLabel, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction, 'id' => $productTechCharId);
+        if(empty($measureId)) $measure = new Measure;
+        else $measure = Measure::model()->findByPk($measureId);
+        
+        $measure->title = $measureLabel;
+        $measure->reduction = $measureReduction;
+        
+        if(empty($techId)) $techChar = new TechCharacteristic;
+        else $techChar = TechCharacteristic::model()->findByPk($techId);
+        $techChar->title = $techLabel;
+        
+        if($techChar->save() && $measure->save()) {
+            $productTechChar = new ProductTechCharacteristic;
+            $productTechChar->measure_id = $measure->id;
+            $productTechChar->tech_id = $techChar->id;
+            $productTechChar->product_id = $productId;
+            if($productTechChar->save()) $productTechCharId = $productTechChar->id;
+        }
+        
+        $array = array('techLabel'=>$techLabel, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction, 'id' => $productTechCharId);
         echo json_encode($array);
     }
+    
+    public function actionUpdateMeasure()
+    {
+        $productId = trim($_POST['productId']);
+        $techId = $_POST['tId'];
+        $techLabel = trim($_POST['techLabel']);
+        $measureId = $_POST['mId'];
+        $measureLabel = trim($_POST['measureLabel']);
+        $measureReduction = trim($_POST['measureReduction']);
+        
+        $measure = Measure::model()->findByPk($measureId);
+        $measure->title = $measureLabel;
+        $measure->reduction = $measureReduction;
+        
+        if($measure->save()) {
+            $productTechChar = ProductTechCharacteristic::model()->findByPk($techId);
+            $productTechChar->measure_id = $measure->id;
+            $productTechChar->tech_id = $techChar->id;
+            $productTechChar->product_id = $productId;
+            $productTechChar->save();
+        }
+        
+        $array = array('techLabel'=>$techLabel, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction);
+        echo json_encode($array);
+    }
+    
     public function actionDelMeasure()
     {
-        $id = $_POST['id'];
+        $techId = $_POST['tId'];
+        if(!empty($techId)) ProductTechCharacteristic::model()->deleteByPk($techId);
+        echo true;
     }
     
     public function actionUpdateChildProduct()
