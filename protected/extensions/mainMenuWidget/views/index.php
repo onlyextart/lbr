@@ -24,6 +24,8 @@
             <?php 
             foreach( $this->secondLevelItems as $itemNum => $secondLevelItem){
                 $colorCssClass='menu_color_group_'.$secondLevelItem->group->id;
+                //echo '<pre>';
+                //var_dump(($this->menuBranch[3]->id==$secondLevelItem->id)?$this->menuBranch[3]->id . ' = ' . $secondLevelItem->id:'');
                 echo CHtml::openTag('li', array(
                     'class'=>( isset($this->menuBranch[3]) && $this->menuBranch[3]->id==$secondLevelItem->id )?
                     'active '.$colorCssClass:$colorCssClass,
