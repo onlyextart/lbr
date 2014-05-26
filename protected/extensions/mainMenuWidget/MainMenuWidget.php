@@ -14,10 +14,7 @@ class MainMenuWidget extends CWidget
         $this->currentMenuItem = Yii::app()->params['currentMenuItem'];
         if($this->currentMenuItem->level == 1 || $this->currentMenuItem==null)
             return;
-        //Yii::app()->clientScript->registerCssFile('/css/menuGroups.css');
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
-        //echo '<pre>';
-        //var_dump($this->menuBranch);exit;
         if($this->menuBranch[1]->alias=='tehnika') {
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu === null){
