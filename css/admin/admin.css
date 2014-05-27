@@ -529,11 +529,14 @@ header .menu:after, .right form .name:after, .right form .description:after,.rig
 .admin_additional_features_measure .admin_additional_features, .admin_additional_features_technical_options .admin_additional_features{float:left; width:95%;}
 .admin_additional_features_measure>div{margin-bottom: 10px;}
 div.form .admin_additional_features_measure input {
-    margin: 0 !important; 
-    padding: 0 !important;
-    min-height: 22px;
+    margin: 0 !important;
+    /*padding: 0 !important;*/
+    min-height: 30px;
 }
-
+#tech-label{ 
+    width: 100%;
+    padding: 0 10px;
+}
 .measure span, #all-child-products .admin_additional_features_content span{
     width: 30%;
     display: inline-block;
@@ -553,7 +556,9 @@ div.form .admin_additional_features_measure input {
     line-height: 22px;
     margin-right: 5px;
 }
-
+#add-measure{
+    float: left;
+}
 #add-measure:hover {
     cursor: pointer;
 }
@@ -674,4 +679,37 @@ div.form .admin_additional_features_measure input {
 .admin_additional_features_measure table tr span.del-measure:hover, .admin_additional_features_measure table tr span.update-measure:hover {
     cursor: pointer;
 }
+.ui-accordion .admin_additional_features_measure.ui-accordion-content {
+    overflow: visible;
+}
 /* END TABLE IN TECHNICAL_CHARACTERISTICS */
+/* QUICK SEARCH RESULT */
+.measure-search-container{
+    width: 60%;
+    float: left;
+    margin-right: 5px !important;
+    margin-bottom: 10px;
+    /*z-index: 1000 !important;
+    position: relative;*/
+}
+.quick-result, .quick-result-measure {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    list-style: none outside none;
+    position: absolute;
+    width: 55%;
+    z-index: 99999 !important;
+    color: #008672;
+}
+.quick-result-measure{width: 35%;}
+.quick-result > *, .quick-result-measure > * {
+    border-bottom: 1px solid #E6E6E6;
+    cursor: default;
+    display: block;
+    padding: 0.3em 1em;
+}
+.quick-result span, .quick-result-measure span {
+    cursor: pointer;
+}
+/* END QUICK SEARCH RESULT */

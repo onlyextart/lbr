@@ -336,8 +336,13 @@ tinyMCE.init({
         <h3>Технические характеристики</h3>
         <div class="admin_additional_features_measure admin_additional_features_content">
             <div>
-                <input type="text" id="tech-label" t-id=""/>
+                <div class="measure-search-container">
+                    <input type="text" id="tech-label" t-id="" />
+                    <ul class="quick-result"></ul>
+                    <ul class="quick-result-measure"></ul>
+                </div>
                 <?php echo CHtml::link('Добавить', '#', array('id'=>'add-measure', 'class'=>'admin-btn')); ?>
+                <div style="clear: both"></div>
             </div>     
             <table id="all-features" class="<?php echo (!count($allProductTechCharacteristics))? 'hide':'' ?>">
                 <?php if(count($allProductTechCharacteristics)): ?>
@@ -787,8 +792,7 @@ tinyMCE.init({
             var mLabel = element.find('.measure-title');
             var mReduction = element.find('.measure-reduction');
             var mId = mLabel.attr('m-id');
-            
-            if(tId == '') {
+            if(mLabel.prop("tagName").toLowerCase() == 'input') {
                 mLabelText = $.trim(mLabel.val());
                 mReductionText = $.trim(mReduction.val());
                 if( mLabelText != '' && mReductionText != '' ) {
@@ -815,7 +819,7 @@ tinyMCE.init({
                             mReductionParent = mReduction.parent();
                             mReduction.remove();
                             mReductionParent.append('<span class="measure-reduction">'+mReductionText+'</span>');
-                            alertify.success('Добавлена техническая характеристика "'+response.techLabel+'"');
+                            alertify.success('Сохранена техническая характеристика "'+response.techLabel+', '+response.measureReduction+'"');
                     }});
                 } else {
                     if( mLabelText == '') mLabel.addClass('measure-error');
@@ -831,18 +835,38 @@ tinyMCE.init({
                     url: '/administrator/mightiness/updateMeasure',
                     dataType: 'json',
                     data:{
-                        productId: <?php echo $productModel->id; ?>,
-                        tId: tId,
-                        techLabel: tLabel.text(),
                         mId: mId,
                         measureLabel: mLabelText,
                         measureReduction: mReductionText,
                     },
                     success: function(response) {
                         mLabel.parent().parent().find('.update-measure').addClass('hide');
-                        alertify.success('Обновлена техническая характеристика "'+response.techLabel+'"');
+                        alertify.success('Обновлена техническая характеристика "'+element.find('td:first-child').html()+'"');
                 }});
             }
+        });
+        
+        // Delete measure
+        $('.admin_additional_features_measure table').on('click', "td .del-measure", function() {
+            var element = $(this).parent().parent();
+            var mTitle = element.find('.measure-title');
+            var tId = element.attr('tch-id');
+            if(tId != '' && mTitle.prop("tagName").toLowerCase() != 'input') {
+                $.ajax({
+                    type: 'POST',
+                    url: '/administrator/mightiness/delMeasure',
+                    dataType: 'json',
+                    data:{
+                        productId: <?php echo $productModel->id; ?>,
+                        tId: tId,
+                        mId: mTitle.attr('m-id'),
+                    },
+                    success: function(response) {
+                        var text = $('[tch-id='+element.attr('tch-id')+'] td:first-child').html();
+                        element.remove();
+                        alertify.success('Удалена характеристика "'+text+'"');
+                }});
+            } else element.remove();
         });
     });
 </script>

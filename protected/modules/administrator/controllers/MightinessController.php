@@ -1,8 +1,6 @@
 <?php
-class MightinessController extends Controller{
-    /*public function actionIndex(){
-        
-    }*/
+class MightinessController extends Controller
+{
     public function actionAddMeasure()
     {
         $productId = trim($_POST['productId']);
@@ -12,23 +10,35 @@ class MightinessController extends Controller{
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
         $productTechCharId = '';
+        if(empty($techId)) {
+            $search = new SearchLog();
+            $id = '';
+            if($search->prepareSqlite()) {
+                $id = Yii::app()->db->createCommand()
+                    ->select('id')
+                    ->from('tech_characteristic')
+                    ->where('lower(title) like lower("'.$techLabel.'")')
+                    ->queryScalar()
+                ;
+            }
+            
+            if(!empty($id)) $techChar = TechCharacteristic::model()->findByPk($id);
+            else $techChar = new TechCharacteristic;
+        } else $techChar = TechCharacteristic::model()->findByPk($techId);
+        $techChar->title = $techLabel;
         
         if(empty($measureId)) $measure = new Measure;
         else $measure = Measure::model()->findByPk($measureId);
-        
         $measure->title = $measureLabel;
         $measure->reduction = $measureReduction;
-        
-        if(empty($techId)) $techChar = new TechCharacteristic;
-        else $techChar = TechCharacteristic::model()->findByPk($techId);
-        $techChar->title = $techLabel;
         
         if($techChar->save() && $measure->save()) {
             $productTechChar = new ProductTechCharacteristic;
             $productTechChar->measure_id = $measure->id;
             $productTechChar->tech_id = $techChar->id;
             $productTechChar->product_id = $productId;
-            if($productTechChar->save()) $productTechCharId = $productTechChar->id;
+            $productTechChar->save();
+            $productTechCharId = $productTechChar->id;
         }
         
         $array = array('techLabel'=>$techLabel, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction, 'id' => $productTechCharId);
@@ -37,9 +47,6 @@ class MightinessController extends Controller{
     
     public function actionUpdateMeasure()
     {
-        $productId = trim($_POST['productId']);
-        $techId = $_POST['tId'];
-        $techLabel = trim($_POST['techLabel']);
         $measureId = $_POST['mId'];
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
@@ -47,23 +54,18 @@ class MightinessController extends Controller{
         $measure = Measure::model()->findByPk($measureId);
         $measure->title = $measureLabel;
         $measure->reduction = $measureReduction;
-        
-        if($measure->save()) {
-            $productTechChar = ProductTechCharacteristic::model()->findByPk($techId);
-            $productTechChar->measure_id = $measure->id;
-            $productTechChar->tech_id = $techChar->id;
-            $productTechChar->product_id = $productId;
-            $productTechChar->save();
-        }
-        
-        $array = array('techLabel'=>$techLabel, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction);
+        $measure->save();
+
+        $array = array('measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction);
         echo json_encode($array);
     }
     
     public function actionDelMeasure()
     {
         $techId = $_POST['tId'];
-        if(!empty($techId)) ProductTechCharacteristic::model()->deleteByPk($techId);
+        $measureId = $_POST['mId'];
+        $productId = $_POST['productId'];
+        if(!empty($techId)) ProductTechCharacteristic::model()->deleteAll('tech_id = :tech_id and product_id = :product_id and measure_id = :measure_id', array(':tech_id'=>$techId, ':product_id'=>$productId, ':measure_id'=>$measureId));
         echo true;
     }
     
@@ -122,5 +124,58 @@ class MightinessController extends Controller{
         
         $array = array('params'=>$params);
         echo json_encode($array);
+    }
+    
+    public function actionSearch()
+    {
+        $query = trim($_GET['q']);
+        $result = array();
+        $search = new SearchLog();
+        if($search->prepareSqlite()) {
+            if (!empty($query)){
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title')
+                    ->from('tech_characteristic')
+                    ->where('lower(title) like lower("%'.$query.'%")')
+                    ->limit(7)
+                    ->queryAll();
+            } else { // !!! наиболее употребляемые
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title')
+                    ->from('tech_characteristic')
+                    //->where('lower(title) like lower("%'.$query.'%")')
+                    ->limit(7)
+                    ->queryAll();
+            }
+        }
+        
+        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
+    }
+    
+    public function actionSearchMeasure()
+    {
+        $query = trim($_GET['q']);
+        $result = array();
+        $search = new SearchLog();
+        if($search->prepareSqlite()) {
+            if (!empty($query)){
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title, reduction')
+                    ->from('measure')
+                    ->where('lower(title) like lower("%'.$query.'%")')
+                    ->order('title')
+                    ->limit(7)
+                    ->queryAll();
+            } else { // !!! наиболее употребляемые
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title, reduction')
+                    ->from('measure')
+                    //->where('lower(title) like lower("%'.$query.'%")')
+                    ->limit(7)
+                    ->queryAll();
+            }
+        }
+        
+        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
     }
 }
