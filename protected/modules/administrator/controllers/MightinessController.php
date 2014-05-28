@@ -47,16 +47,50 @@ class MightinessController extends Controller
     
     public function actionUpdateMeasure()
     {
+        $productId = trim($_POST['productId']);
+        $techId = $_POST['tId'];
         $measureId = $_POST['mId'];
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
+        $productTechChar = new ProductTechCharacteristic;
         
-        $measure = Measure::model()->findByPk($measureId);
-        $measure->title = $measureLabel;
-        $measure->reduction = $measureReduction;
-        $measure->save();
-
-        $array = array('measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction);
+        if(empty($measureId)) {
+            $search = new SearchLog();
+            if($search->prepareSqlite()) {
+                $measureId = Yii::app()->db->createCommand()
+                    ->select('id')
+                    ->from('measure')
+                    ->where('lower(title) like lower("'.$measureLabel.'")')
+                    ->queryScalar()
+                ;
+            }
+            if(empty($measureId)){
+                $measure = new Measure;
+                $measure->title = $measureLabel;
+                $measure->reduction = $measureReduction;
+                $measure->save();
+                $measureId = $measure->id;
+            }
+        }
+        
+        if(mb_strtolower($measureLabel, 'utf-8') == 'лошадиные силы') {
+            $productTechChar->measure_id = $measureId;
+            $productTechChar->tech_id = $techId;
+            $productTechChar->product_id = $productId;
+            $productTechChar->save();
+        } else{
+            $productTechChar = ProductTechCharacteristic::model()->find('product_id = :productId and tech_id = :techId', array(':productId'=>$productId, ':techId'=>$techId));
+            if($productTechChar->measure_id == $measureId) {
+                $measure = Measure::model()->findByPk($measureId);
+                $measure->title = $measureLabel;
+                $measure->reduction = $measureReduction;
+                $measure->save();
+            } else {
+                $productTechChar->measure_id = $measureId;
+                $productTechChar->save();
+            }
+        }
+        $array = array('measureId'=>$measureId, 'measureLabel'=>$measureLabel, 'measureReduction'=>$measureReduction, 'id' => $productTechChar->id);
         echo json_encode($array);
     }
     
@@ -69,33 +103,63 @@ class MightinessController extends Controller
         echo true;
     }
     
-    public function actionUpdateChildProduct()
+    public function actionSearch()
     {
-        $id = $_POST['id'];
-        $params = array_filter($_POST['params']);
-        $product = ProductRange::model()->findByPk($id);
-        if(trim($params[0]) != $product->title) {
-            $product->title = trim($params[0]);
-            $product->save();
-        }
-        // если пустое значение нужно null вставить
-        //var_dump($params);
-        
-        foreach($params as $key=>$value) {
-            if($key){
-                $value = trim($value);
-                $rangeValue = ProductRangeValue::model()->find(array('condition'=>'range_id=:id and tech_id=:tId', 'params'=>array(':id'=>$product->id, ':tId'=>$key)));
-                if(is_numeric($value)) {
-                    $rangeValue->val_int = $value;
-                    $rangeValue->val_text = null;
-                } else {
-                    $rangeValue->val_text = $value;
-                    $rangeValue->val_int = null;
-                }
-                $rangeValue->save();
+        $query = trim($_GET['q']);
+        $result = array();
+        $search = new SearchLog();
+        if($search->prepareSqlite()) {
+            if (!empty($query)){
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title')
+                    ->from('tech_characteristic')
+                    ->where('lower(title) like lower("%'.$query.'%")')
+                    ->limit(7)
+                    ->queryAll();
+            } else {
+                // find the most frequently used
+                $result = Yii::app()->db->createCommand("SELECT t.id, t.title, 
+                    count(p.id) AS num
+                    FROM tech_characteristic t
+                    LEFT JOIN product_tech_characteristic p ON t.id = p.tech_id
+                    GROUP BY t.id
+                    ORDER BY num desc, t.title
+                    LIMIT 7")->queryAll()
+                ;
             }
         }
-        echo true;
+        
+        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
+    }
+    
+    public function actionSearchMeasure()
+    {
+        $query = trim($_GET['q']);
+        $result = array();
+        $search = new SearchLog();
+        if($search->prepareSqlite()) {
+            if (!empty($query)){
+                $result = Yii::app()->db->createCommand()
+                    ->select('id, title, reduction')
+                    ->from('measure')
+                    ->where('lower(title) like lower("%'.$query.'%")')
+                    ->order('title')
+                    ->limit(7)
+                    ->queryAll();
+            } else {
+                // find the most frequently used
+                $result = Yii::app()->db->createCommand("SELECT m.id, m.title, m.reduction,
+                    count(p.id) AS num
+                    FROM measure m
+                    LEFT JOIN product_tech_characteristic p ON m.id = p.measure_id
+                    GROUP BY m.id
+                    ORDER BY num desc, m.title
+                    LIMIT 7")->queryAll()
+                ;
+            }
+        }
+        
+        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
     }
     
     public function actionAddChildProduct()
@@ -126,56 +190,50 @@ class MightinessController extends Controller
         echo json_encode($array);
     }
     
-    public function actionSearch()
+    public function actionUpdateChildProduct()
     {
-        $query = trim($_GET['q']);
-        $result = array();
-        $search = new SearchLog();
-        if($search->prepareSqlite()) {
-            if (!empty($query)){
-                $result = Yii::app()->db->createCommand()
-                    ->select('id, title')
-                    ->from('tech_characteristic')
-                    ->where('lower(title) like lower("%'.$query.'%")')
-                    ->limit(7)
-                    ->queryAll();
-            } else { // !!! наиболее употребляемые
-                $result = Yii::app()->db->createCommand()
-                    ->select('id, title')
-                    ->from('tech_characteristic')
-                    //->where('lower(title) like lower("%'.$query.'%")')
-                    ->limit(7)
-                    ->queryAll();
+        $id = $_POST['id'];
+        $parentId = $_POST['parentId'];
+        $params = array_filter($_POST['params']);
+        $product = ProductRange::model()->findByPk($id);
+        if(trim($params[0]) != $product->title) {
+            $product->title = trim($params[0]);
+            $product->save();
+        }
+
+        // если пустое значение нужно null вставить
+        // var_dump($params);
+
+        foreach($params as $key=>$value) {
+            if($key){
+                $value = trim($value);
+                $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$parentId, ':tId'=>$key)));
+                $rangeValue = ProductRangeValue::model()->find(array('condition'=>'range_id=:id and tech_id=:tId', 'params'=>array(':id'=>$id, ':tId'=>$productTechChar->id)));
+                if(empty($rangeValue)) {
+                    $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$parentId, ':tId'=>$key)));
+                    $rangeValue = new ProductRangeValue;
+                    $rangeValue->range_id = $id;
+                    $rangeValue->tech_id = $productTechChar->id;
+                }
+                if(ctype_digit(str_replace(',', '', $value)) || ctype_digit(str_replace('.', '', $value))) {
+                    $value = str_replace(',', '.', $value);
+                    $rangeValue->val_int = $value;
+                    $rangeValue->val_text = null;
+                } else {
+                    $rangeValue->val_text = $value;
+                    $rangeValue->val_int = null;
+                }
+                $rangeValue->save();
             }
         }
-        
-        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
+        echo true;
     }
     
-    public function actionSearchMeasure()
+    public function actionDeleteChildProduct()
     {
-        $query = trim($_GET['q']);
-        $result = array();
-        $search = new SearchLog();
-        if($search->prepareSqlite()) {
-            if (!empty($query)){
-                $result = Yii::app()->db->createCommand()
-                    ->select('id, title, reduction')
-                    ->from('measure')
-                    ->where('lower(title) like lower("%'.$query.'%")')
-                    ->order('title')
-                    ->limit(7)
-                    ->queryAll();
-            } else { // !!! наиболее употребляемые
-                $result = Yii::app()->db->createCommand()
-                    ->select('id, title, reduction')
-                    ->from('measure')
-                    //->where('lower(title) like lower("%'.$query.'%")')
-                    ->limit(7)
-                    ->queryAll();
-            }
-        }
-        
-        $this->renderPartial('application.views.mightiness.quickSearch', array('data' =>$result));
+        $id = $_POST['id'];
+        ProductRange::model()->deleteByPk($id);
+        echo true;
+        //echo $id;
     }
 }

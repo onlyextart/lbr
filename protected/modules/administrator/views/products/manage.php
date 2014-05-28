@@ -11,8 +11,8 @@
             $allProductTechCharacteristics[$techChar->id]['measureReduction'] = $measure->reduction;
             $allProductTechCharacteristics[$techChar->id]['mId'] = $characteristic->measure_id;
         }
-        $childProducts = ProductRange::model()->findAll(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$productModel->id), 'order'=>'id desc'));
-        //echo '<pre>';
+        $childProducts = ProductRange::model()->findAll(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$productModel->id), 'order'=>'id desc', 'order'=>'title'));
+        
         foreach($childProducts as $child) {
             $allChildProducts[$child->id]['title'] = $child->title;
             $techCharValues = ProductRangeValue::model()->findAll(array('condition'=>'range_id=:id', 'params'=>array(':id'=>$child->id)));
@@ -20,11 +20,15 @@
                 $val = '';
                 if(!empty($value->val_int)) $val = $value->val_int;
                 else if(!empty($value->val_text)) $val = $value->val_text;
-                $allChildProducts[$child->id][$value->tech_id] = $val;
-            }
-            //var_dump($allChildProducts);
+                $productTechChar = ProductTechCharacteristic::model()->findByPk($value->tech_id); //findAll(array('condition'=>'product_id=:id and tech_id = :tId', 'params'=>array(':id'=>$child->id, ':tId'=>$value->tech_id)));
+                $allChildProducts[$child->id][$productTechChar->tech_id] = $val;
+            }    
         }
-        //exit;
+        
+        /*echo '<pre>';
+        var_dump($allChildProducts);
+        var_dump($allChildProducts[16][43]);
+        exit;*/
     }
 ?>
 <style>
@@ -372,12 +376,12 @@ tinyMCE.init({
                 <div class="measure admin_additional_features_content">
                     <div>
                         <span>Заголовок</span>
-                        <input v-id="0" type="text">
+                        <input v-id="0" type="text"/>
                     </div>
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                     <div>
                         <span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>
-                        <input type="text" v-id="<?php echo $techCharId; ?>">
+                        <input type="text" v-id="<?php echo $techCharId; ?>"/>
                     </div>
                     <?php endforeach; ?>
                     <?php echo CHtml::link('Добавить', '#', array('id'=>'add-product-child', 'class'=>'admin-btn')); ?>
@@ -390,15 +394,15 @@ tinyMCE.init({
                     <div class="admin_additional_features_content" ch-id="<?php echo $childProductId; ?>">
                         <div>
                             <span>Заголовок</span>
-                            <input type="text" v-id="0" value="<?php echo $childProduct['title'] ?>">
+                            <input type="text" v-id="0" value="<?php echo $childProduct['title'] ?>"/>
                         </div>
                         <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                         <div>
                             <span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>
-                            <input type="text" v-id="<?php echo $techCharId; ?>" value="<?php echo (array_key_exists($techCharId, $childProduct))? $childProduct[$techCharId]:'' ?>">
+                            <input type="text" v-id="<?php echo $techCharId; ?>" value="<?php echo (array_key_exists($techCharId, $childProduct))? ProductRangeValue::floatNumber($childProduct[$techCharId]):'' ?>"/>
                         </div>
                         <?php endforeach; ?>
-                        <?php echo CHtml::link('Обновить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'update-product-child admin-btn')), CHtml::link('Удалить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'delete-measure admin-btn')); ?>
+                        <?php echo CHtml::link('Обновить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'update-product-child admin-btn')), CHtml::link('Удалить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'del-product-child  admin-btn')); ?>
                     </div>
                 <?php endforeach; ?>
             </div>    
@@ -748,13 +752,13 @@ tinyMCE.init({
         $(".menuTreeView li:even",this).addClass("even_menu_item"); 
         $(".menuTreeView li:odd",this).addClass("odd_menu_item");
         
-        /****************************************/
-        /* ----- add Product Child and values ---- */
+        /* ----- add Product Child and it's values ---- */
         $('#add-product-child').on('click', function() {
-            var element = $(this).parent();
+            var container = $(this).parent();
             var params = [];
-            element.find('[v-id]').each(function(index){
+            container.find('[v-id]').each(function(index){
                 params[$(this).attr('v-id')] = $(this).val();
+                $(this).val('');
             });
             $.ajax({
                 type: 'POST',
@@ -766,25 +770,56 @@ tinyMCE.init({
                 },
                 success: function(response) {
                     var element = '<h3 class="new">'+response.params['title']+'</h3>'+
-                            '<div class="admin_additional_features_content" ch-id="'+response.params['id']+'">';
+                            '<div class="admin_additional_features_content" ch-id="'+response.params['id']+'">'+
+                            '<div>'+
+                                '<span>Заголовок</span>'+
+                                '<input type="text" v-id="0" value="'+response.params['title']+'"/>'+
+                            '</div>'
+                    ;
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                     var val = response.params[<?php echo $techCharId; ?>];
                     element += '<div>' +
                         '<span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>' +
-                        '<input v-id="<?php echo $techCharId; ?>" type="text" value="'+val+'">' +
+                        '<input v-id="<?php echo $techCharId; ?>" type="text" value="'+val+'"/>' +
                     '</div>';
                     <?php endforeach; ?>
+                    element += '<a class="update-product-child admin-btn" href="#" t-id="tech-char-'+response.params['id']+'">Обновить</a>'+
+                        '<a class="del-product-child admin-btn" href="#">Удалить</a>'
+                    ;
                     element += '</div>';
                     $("#all-child-products").prepend(element).accordion( "refresh" );
                     
-                    element.find('[v-id]').each(function(index){
-                        $(this).val('');
-                    });
                     alertify.success('Сохранен дочерний товар "'+response.params['title']+'"');
                 }
             });
         });
-        /******************************************************************/        
+        /* ----- update Product Child and it's values ---- */
+        $('.update-product-child').on('click', function() {
+            var params = [];
+            var element = $(this).parent();
+            element.find('[v-id]').each(function(index){
+                params[$(this).attr('v-id')] = $(this).val();
+            });
+            $.ajax({
+                type: 'POST',
+                url: '/administrator/mightiness/updateChildProduct',
+                dataType: 'json',
+                data:{
+                    id: element.attr('ch-id'),
+                    parentId: <?php echo $productModel->id; ?>,
+                    params: params,
+                },
+                success: function(response) {
+                    var labelTitle = element.prev('h3').html();
+                    var index = labelTitle.indexOf('</span>')+7;
+                    labelTitle = labelTitle.substring(0,index);
+                    element.prev('h3').html(labelTitle+params[0]);
+                    alertify.success('Дочерний товар "'+params[0]+'" сохранен успешно');
+                }
+            });
+        });
+        
+        /* ----- update measure ---- */   
         $('table').on('click', "td .update-measure", function() {
             var element = $(this).parent().parent();
             var tLabel = element.first();
@@ -835,6 +870,8 @@ tinyMCE.init({
                     url: '/administrator/mightiness/updateMeasure',
                     dataType: 'json',
                     data:{
+                        productId: <?php echo $productModel->id; ?>,
+                        tId: tId,
                         mId: mId,
                         measureLabel: mLabelText,
                         measureReduction: mReductionText,
@@ -846,7 +883,7 @@ tinyMCE.init({
             }
         });
         
-        // Delete measure
+        /* ----- delete measure ---- */
         $('.admin_additional_features_measure table').on('click', "td .del-measure", function() {
             var element = $(this).parent().parent();
             var mTitle = element.find('.measure-title');

@@ -5,39 +5,41 @@ $(function(){
         var tLabel = $.trim(input.val());
         input.val('');
         if(tLabel != '') {
-            var tId = input.attr('t-id'); // если характеристика уже существует
             var table = $("#all-features");
-            var element = '<tr tch-id="' + tId + '">'+
-                '<td>' + tLabel + '</td>' +
-                '<td><input type="text" m-id="" class="measure-title"/></td>' +
-                '<td><input type="text" class="measure-reduction"/></td>' +
-                '<td><span class="update-measure"></span></td>' +
-                '<td><span class="del-measure"></span></td>' +
-            '</tr>';
-    
-            if(tLabel.toLowerCase() == 'Требуемая мощность'.toLowerCase() || tLabel.toLowerCase() == 'Собственная мощность'.toLowerCase()) {
-                element = '<tr tch-id="' + tId + '">'+
+            var tId = input.attr('t-id'); 
+            if(!table.has('[tch-id='+tId+']').length) {// если характеристика уже существует
+                var element = '<tr tch-id="' + tId + '">'+
                     '<td>' + tLabel + '</td>' +
-                    '<td><span class="measure-title" m-id="">Лошадиные силы</span></td>' +
-                    '<td><span class="measure-reduction">л.с.</span></td>' +
+                    '<td><input type="text" m-id="" class="measure-title"/></td>' +
+                    '<td><input type="text" class="measure-reduction"/></td>' +
                     '<td><span class="update-measure"></span></td>' +
                     '<td><span class="del-measure"></span></td>' +
                 '</tr>';
-            }
-            
-            if(!table.has( "th" ).length) {
-                table.removeClass('hide');
-                table.append(
-                    '<tr>'+
-                        '<th>Название технической характеристики</th>'+
-                        '<th>Полное название единицы измерения</th>'+
-                        '<th>Сокращенное название единицы измерения</th>'+
-                        '<th>Обновить</th>'+
-                        '<th>Удалить</th>'+
-                    '</tr>'
-                );
-            }
-            table.append(element);
+
+                if(tLabel.toLowerCase() == 'Требуемая мощность'.toLowerCase() || tLabel.toLowerCase() == 'Собственная мощность'.toLowerCase()) {
+                    element = '<tr tch-id="' + tId + '">'+
+                        '<td>' + tLabel + '</td>' +
+                        '<td><span class="measure-title" m-id="">Лошадиные силы</span></td>' +
+                        '<td><span class="measure-reduction">л.с.</span></td>' +
+                        '<td><span class="update-measure"></span></td>' +
+                        '<td><span class="del-measure"></span></td>' +
+                    '</tr>';
+                }
+
+                if(!table.has( "th" ).length) {
+                    table.removeClass('hide');
+                    table.append(
+                        '<tr>'+
+                            '<th>Название технической характеристики</th>'+
+                            '<th>Полное название единицы измерения</th>'+
+                            '<th>Сокращенное название единицы измерения</th>'+
+                            '<th>Обновить</th>'+
+                            '<th>Удалить</th>'+
+                        '</tr>'
+                    );
+                }
+                table.append(element);
+            } else alert('Характеристика "'+tLabel+'" (id = '+tId+') уже была добавлена');
         }
     });
     
@@ -56,10 +58,12 @@ $(function(){
         var newVal = $.trim($(this).val());
         var parent = $(this).parent();
         if (newVal == '') newVal = parent.attr('val');
-        $('.quick-result-measure').fadeOut(200);
+        $('.quick-result-measure').fadeOut(200).promise().done(function(){
+            parent.parent().removeClass('clicked');    
+        });
         $(this).remove(); 
         parent.text(newVal);
-        parent.parent().removeClass('clicked');
+        
         if(parent.attr('val') != newVal) parent.parent().parent().find('.update-measure').removeClass('hide');
     });
     
@@ -68,34 +72,10 @@ $(function(){
         if(e.which == 13) {
             var element = $( ".clicked" );
             element.find( "input" ).focusout();
-            element.removeClass("clicked");
+            //element.removeClass("clicked");
         }
     });
     
-    /* Child product and it's value */
-    $('.update-product-child').on('click', function() {
-        var params = [];
-        var element = $(this).parent();
-        element.find('[v-id]').each(function(index){
-            params[$(this).attr('v-id')] = $(this).val();
-        });
-        $.ajax({
-            type: 'POST',
-            url: '/administrator/mightiness/updateChildProduct',
-            dataType: 'json',
-            data:{
-                id: element.attr('ch-id'),
-                params: params,
-            },
-            success: function(response) {
-                var labelTitle = element.prev('h3').html();
-                var index = labelTitle.indexOf('</span>')+7;
-                labelTitle = labelTitle.substring(0,index);
-                element.prev('h3').html(labelTitle+params[0]);
-                alertify.success('Дочерний товар "'+params[0]+'"сохранен успешно');
-            }
-        });
-    });
     /* Quick search for technical characteristic */
     $('#tech-label').focus(function() {
         $('#tech-label').blur(function(){
@@ -125,17 +105,17 @@ $(function(){
         element.attr('t-id', $(this).attr('s-id'));
     });
     /* Quick search for measure */
-    //$('.admin_additional_features_measure table').on('focus', "td input.measure-title, td span.measure-title input", function() {
-    $('.admin_additional_features_measure table').on('focus', "td input.measure-title", function() {
+    $('.admin_additional_features_measure table').on('focus', "td input.measure-title, td span.measure-title input", function() {
         var pos = $(this).position();
         var top = $(this).outerHeight() + pos.top;
         $('.quick-result-measure').css('top', top);
         $('.quick-result-measure').css('left', pos.left);
         parent = $(this).parent();
         parent.addClass('clicked');
-        $(this).blur(function(){
-            parent.removeClass('clicked');
-            $('.quick-result-measure').fadeOut(200);
+        $(this).blur(function() {
+            $('.quick-result-measure').fadeOut(200).promise().done(function(){
+                parent.removeClass('clicked');
+            });
         });
         
         $('.quick-result-measure').fadeIn(200);
@@ -147,6 +127,7 @@ $(function(){
     });
     $('.admin_additional_features_measure table').on('keyup', "td input.measure-title, td span.measure-title input", function() {
         $('.quick-result-measure').fadeIn(200); 
+        $(this).attr('m-id', '');
         $.ajax({
             'url': '/administrator/mightiness/searchMeasure/',
             'data': {q: $.trim($(this).val()), ajax: true},
@@ -154,17 +135,44 @@ $(function(){
         });
     });
     $(".quick-result-measure").on('click', 'span', function () {
-        //var element = $('.clicked');
-        alert($(this).text());
-        //element.val($(this).text());
-        //element.attr('t-id', $(this).attr('s-id'));
+        var str = $(this).text();
+        var lastIndex = str.lastIndexOf("(");
+        var measureText = str.substring(0, lastIndex);
+        var reduction = str.substring(lastIndex+1, str.length - 1);
+        var element = $('td.clicked');
+        if(element.has('input').length == 0) {
+            element = element.find('span');
+            element.attr('m-id',$(this).attr('s-id'));
+            element.text(measureText);
+            var root = element.parent().parent();
+            root.find('.measure-reduction').text(reduction);
+            root.find('.update-measure').removeClass('hide');
+        } else {
+            element = element.find('input');
+            element.attr('m-id',$(this).attr('s-id'));
+            element.val(measureText);
+            element.parent().parent().find('.measure-reduction').val(reduction);
+        }
     });
-    
-    /*$('.admin_additional_features_measure table').on('focus', "td input.measure-title, td input.measure-reduction", function() {
-        parent = $(this).parent();
-        parent.addClass('clicked');
-        $(this).blur(function(){
-            parent.removeClass('clicked');
+    /* ----- delete Product Child and it's values ---- */
+    $('.del-product-child').on('click', function() {
+        var params = [];
+        var element = $(this).parent();
+        element.find('[v-id]').each(function(index){
+            params[$(this).attr('v-id')] = $(this).val();
         });
-    });*/
+        $.ajax({
+            type: 'POST',
+            url: '/administrator/mightiness/deleteChildProduct',
+            dataType: 'json',
+            data:{
+                id: element.attr('ch-id'),
+            },
+            success: function(response) {
+                element.prev().remove();
+                element.remove();
+                alertify.success('Дочерний товар "'+params[0]+'" удален');
+            }
+        });
+    });
 });
