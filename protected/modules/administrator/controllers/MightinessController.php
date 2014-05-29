@@ -10,11 +10,11 @@ class MightinessController extends Controller
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
         $productTechCharId = '';
+        
         if(empty($techId)) {
             $search = new SearchLog();
-            $id = '';
             if($search->prepareSqlite()) {
-                $id = Yii::app()->db->createCommand()
+                $techId = Yii::app()->db->createCommand()
                     ->select('id')
                     ->from('tech_characteristic')
                     ->where('lower(title) like lower("'.$techLabel.'")')
@@ -22,19 +22,23 @@ class MightinessController extends Controller
                 ;
             }
             
-            if(!empty($id)) $techChar = TechCharacteristic::model()->findByPk($id);
+            if(!empty($techId)) $techChar = TechCharacteristic::model()->findByPk($techId);
             else $techChar = new TechCharacteristic;
         } else $techChar = TechCharacteristic::model()->findByPk($techId);
         $techChar->title = $techLabel;
         
-        if(empty($measureId)) $measure = new Measure;
-        else $measure = Measure::model()->findByPk($measureId);
-        $measure->title = $measureLabel;
-        $measure->reduction = $measureReduction;
+        if(!empty($measureLabel)) {
+            if(empty($measureId)) $measure = new Measure;
+            else $measure = Measure::model()->findByPk($measureId);
+            $measure->title = $measureLabel;
+            $measure->reduction = $measureReduction;
+            $measure->save();
+            $measureId = $measure->id;
+        }
         
-        if($techChar->save() && $measure->save()) {
+        if($techChar->save()) {
             $productTechChar = new ProductTechCharacteristic;
-            $productTechChar->measure_id = $measure->id;
+            $productTechChar->measure_id = $measureId;
             $productTechChar->tech_id = $techChar->id;
             $productTechChar->product_id = $productId;
             $productTechChar->save();
@@ -49,11 +53,18 @@ class MightinessController extends Controller
     {
         $productId = trim($_POST['productId']);
         $techId = $_POST['tId'];
+        $techLabel = $_POST['techLabel'];
         $measureId = $_POST['mId'];
         $measureLabel = trim($_POST['measureLabel']);
         $measureReduction = trim($_POST['measureReduction']);
         $productTechChar = new ProductTechCharacteristic;
         
+        if(empty($techId)) {
+            $techChar = new TechCharacteristic;
+            $techChar->title = $techLabel;
+            $techChar->save();
+            $techId = $techChar->id;
+        }
         if(empty($measureId)) {
             $search = new SearchLog();
             if($search->prepareSqlite()) {
@@ -200,8 +211,7 @@ class MightinessController extends Controller
             $product->title = trim($params[0]);
             $product->save();
         }
-
-        // если пустое значение нужно null вставить
+        // !!!! если пустое значение нужно null вставить
         // var_dump($params);
 
         foreach($params as $key=>$value) {

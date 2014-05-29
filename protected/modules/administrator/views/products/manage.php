@@ -398,7 +398,7 @@ tinyMCE.init({
                         </div>
                         <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                         <div>
-                            <span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>
+                            <span><?php echo (!empty($techChar['measureReduction']))? $techChar['techCharTitle'].', '.$techChar['measureReduction'] : $techChar['techCharTitle'] ?></span>
                             <input type="text" v-id="<?php echo $techCharId; ?>" value="<?php echo (array_key_exists($techCharId, $childProduct))? ProductRangeValue::floatNumber($childProduct[$techCharId]):'' ?>"/>
                         </div>
                         <?php endforeach; ?>
@@ -777,7 +777,7 @@ tinyMCE.init({
                             '</div>'
                     ;
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
-                    var val = response.params[<?php echo $techCharId; ?>];
+                    var val = response.params['<?php echo $techCharId; ?>'];
                     element += '<div>' +
                         '<span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>' +
                         '<input v-id="<?php echo $techCharId; ?>" type="text" value="'+val+'"/>' +
@@ -794,12 +794,14 @@ tinyMCE.init({
             });
         });
         /* ----- update Product Child and it's values ---- */
-        $('.update-product-child').on('click', function() {
+        //$('.update-product-child').on('click', function() {
+        $('#all-child-products').on('click', ".update-product-child", function() {
             var params = [];
             var element = $(this).parent();
             element.find('[v-id]').each(function(index){
                 params[$(this).attr('v-id')] = $(this).val();
             });
+            
             $.ajax({
                 type: 'POST',
                 url: '/administrator/mightiness/updateChildProduct',
@@ -822,7 +824,7 @@ tinyMCE.init({
         /* ----- update measure ---- */   
         $('table').on('click', "td .update-measure", function() {
             var element = $(this).parent().parent();
-            var tLabel = element.first();
+            var tLabel = element.children().first();
             var tId = element.attr('tch-id');
             var mLabel = element.find('.measure-title');
             var mReduction = element.find('.measure-reduction');
@@ -830,7 +832,7 @@ tinyMCE.init({
             if(mLabel.prop("tagName").toLowerCase() == 'input') {
                 mLabelText = $.trim(mLabel.val());
                 mReductionText = $.trim(mReduction.val());
-                if( mLabelText != '' && mReductionText != '' ) {
+                //if( mLabelText != '' && mReductionText != '' ) {
                     mLabel.removeClass('measure-error');
                     mReduction.removeClass('measure-error');
                     $.ajax({
@@ -856,12 +858,12 @@ tinyMCE.init({
                             mReductionParent.append('<span class="measure-reduction">'+mReductionText+'</span>');
                             alertify.success('Сохранена техническая характеристика "'+response.techLabel+', '+response.measureReduction+'"');
                     }});
-                } else {
+                /*} else {
                     if( mLabelText == '') mLabel.addClass('measure-error');
                     else mLabel.removeClass('measure-error');
                     if( mReductionText == '') mReduction.addClass('measure-error');
                     else mReduction.removeClass('measure-error');
-                }
+                }*/
             } else {
                 mLabelText = $.trim(mLabel.text());
                 mReductionText = $.trim(mReduction.text());
@@ -872,6 +874,7 @@ tinyMCE.init({
                     data:{
                         productId: <?php echo $productModel->id; ?>,
                         tId: tId,
+                        techLabel: tLabel.text(),
                         mId: mId,
                         measureLabel: mLabelText,
                         measureReduction: mReductionText,

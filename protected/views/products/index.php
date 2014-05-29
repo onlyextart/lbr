@@ -13,11 +13,23 @@ $constr = $data->construct_features;
 $exp = $data->experience;
 $img = $data->productGalleries;
 $videos = $data->productVideos;
-
+/////
+//$productRange = ProductRange::model()->find(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$data->id)));
+$productRange = Yii::app()->db->createCommand()
+    ->select('id, title, reduction')
+    ->from('product_range')
+    ->where('product_id = '.$data->id)
+    ->order('title')
+    ->queryAll()
+;
 $link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias;
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);
+}
+function sortByTechCharTitle($a, $b)
+{
+    return strnatcmp($a['techCharTitle'], $b['techCharTitle']);
 }
 ?>
 <div class="product_wrapper">    
@@ -57,7 +69,76 @@ if ($data->maker)
                 echo '</div>';
             }
         ?>
-        <?php echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
+        <?php // echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
+        <?php // вынести в отдельную функцию !!!!
+            if(!empty($productRange)) {
+                echo '<div id="features_content">';
+                echo '<p>
+                    <strong style="color: #008080; font-family: arial, helvetica, sans-serif; font-size: 12pt; line-height: 1.3em;">
+                    <span style="color: #ff6600;">
+                        <strong>Технические характеристики</strong><br>
+                    </span>
+                    </strong>
+                </p>';
+                echo '<table class="content_TABLE" border="1" style="border-color: #000000; border-width: 1px;">
+                         <tbody>'
+                ;
+                echo '<tr style="background-color: #f4f4f4;">';
+                echo '<td style="text-align: center;">
+                    <span style="font-size: small;">
+                        <strong><span style="font-family: arial, helvetica, sans-serif;">Модель</span></strong>
+                    </span>
+                </td>';
+                foreach($productRange as $childRange) {
+                    echo '<td style="text-align: center;">
+                            <span style="font-size: small;">
+                                <strong><span style="font-family: arial, helvetica, sans-serif;">'.$childRange['title'].'</span></strong>
+                            </span>
+                        </td>'
+                    ;
+                }
+                echo '</tr>';
+                
+                $allProductTechCharacteristics = array();
+                $allChildProducts = array();
+                $techCharacteristics = ProductTechCharacteristic::model()->findAll(array('condition'=>'product_id=:id', 'params'=>array(':id'=>$data->id)));
+                foreach($techCharacteristics as $characteristic) {
+                    $measure = Measure::model()->findByPk($characteristic->measure_id);
+                    $techChar = TechCharacteristic::model()->findByPk($characteristic->tech_id);
+                    $allProductTechCharacteristics[$techChar->id]['techCharTitle'] = $techChar->title;
+                    $allProductTechCharacteristics[$techChar->id]['measureTitle'] = $measure->title;
+                    $allProductTechCharacteristics[$techChar->id]['measureReduction'] = $measure->reduction;
+                    $allProductTechCharacteristics[$techChar->id]['mId'] = $characteristic->measure_id;
+                }
+                uasort($allProductTechCharacteristics, 'sortByTechCharTitle'); 
+                foreach($allProductTechCharacteristics as $techCharId=>$techChar)
+                {
+                    $prodTChar = ProductTechCharacteristic::model()->find(array('condition'=>'tech_id=:tId and product_id=:id', 'params'=>array(':tId'=>$techCharId, ':id'=>$data->id)));
+                    $title = $techChar['techCharTitle'];
+                    if(!empty($techChar['measureReduction'])) $title .= ', '.$techChar['measureReduction'];
+                    
+                    echo '<tr>';
+                    echo '<td><span style="font-family: arial, helvetica, sans-serif; font-size: small;">'.$title.'</span></td>';
+                    foreach($productRange as $childRange) {
+                        $techValue = ProductRangeValue::model()->find(array('condition'=>'tech_id=:tId and range_id=:id', 'params'=>array(':tId'=>$prodTChar->id, ':id'=>$childRange['id'])));
+                        $val = '';
+                        if(!empty($techValue->val_int))$val = ProductRangeValue::floatNumber($techValue->val_int);
+                        else if(!empty($techValue->val_text)) $val = $techValue->val_text;
+                        echo '<td style="text-align: center;">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small;">'.
+                            $val.'</span>
+                            </td>'
+                        ;
+                    }
+                    echo '</tr>';
+                }
+                
+                echo '</tbody></table>';
+                echo '</div>';
+            } 
+            
+            //echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; 
+        ?>
         <?php echo  strip_tags($constr) ? '<div id="construct_content">'.$constr.'</div>' : ''; ?>
         <?php echo  strip_tags($exp) ? '<div id="experience_content">'.$exp.'</div>' : ''; ?>
         <?php 
