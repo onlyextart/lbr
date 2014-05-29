@@ -21,7 +21,7 @@ endif;
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/makers/famarol-logo.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
+                                    <img src="http://www.lbr.ru/images/uploaded/Pronar.png" height="30" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
                         </table>

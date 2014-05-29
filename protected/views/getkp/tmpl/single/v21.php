@@ -214,7 +214,106 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Картофелесожалки KORA</span></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Гребнеобразователь с активной фрезой</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr valign="top">
+                                    <td width="328">
+                                    
+                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">1.	УНИВЕРСАЛЬНЫЙ ПОМОЩНИК. </span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Предназначен для активного измельчения почвы с междурядьем для посадки картофеля 70, 75 и 90 см. После легкого переоборудования возможно использование гребнеобразователя в качестве фрезы для предварительной обработки почвы (опция).
+                                    </span>
+                                   <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />2.	ПОД КАРТОФЕЛЬ И ПОД ОВОЩИ! </span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Возможна установка прикатывающих роликов с гидравлическим приводом для создания гряды для выращивания моркови, свеклы и других овощей (опция). Диаметр роликов возможен от 480 до 580 мм.
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />3.	4 В 1<br /></span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Возможность комбинации гребнеобразующей фрезы с овощной сеялкой или картофелесажалкой в единый агрегат. Таким образом, агрегат выполняет 4 функции одновременно: обработка почвы,  посадка картофеля, внесение удобрений, создание гребней.
+                                    </span>
+                                     <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tbody>
+                                            <tr style="background-color: #d1d3d4;">
+                                                <td width="46%" style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td width="18%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>2RF165</strong></strong></span></td>
+                                                <td width="18%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>4RF310</strong></strong></span></td>
+                                                <td width="18%" style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>4 RF375</strong></strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Количество рядков</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">2 x 75</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4 x 75</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4 x 90</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Вес, кг</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">980</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1400</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1800</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Ширина, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1500</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">3650</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Необходимая мощность трактора, мин л.с</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">60</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">110</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">120</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;ВОМ, об./мин</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                            </tr> 
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Производительность, га/час</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,25-0,45</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,45-0,90</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,54 - 1,1 </span></td>
+                                            </tr>                                            
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                                    </td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/struik_grebn.jpg" width="300" border="0" />
+                                    </td>
+                                   
+                                </tr>
+                            </table>
+                        </td>
+                        
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                </table> 
+                 
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Картофелесажалки KORA</span></td>
                                     <td align="right"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
                                 </tr>
                             </table>
@@ -303,7 +402,100 @@
             </td>
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
-               
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Ботвоудалитель Struik</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr valign="top">
+                                    <td width="328">
+                                    
+                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">1. Быстрее и эффективнее!</span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Предназначен для удаления ботвы картофеля.  Агрегат приподнимает, срезает и измельчает ботву, равномерно укладывая остатки в междурядье. Машина может навешиваться на заднюю или переднюю часть трактора (в стандартной комплектации навешивается позади трактора).
+                                    </span>
+                                   <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />2.	Идеальное копирование гребня! </span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        Вертикально расположенные ножи различной длины предназначены для копирования гребня, что обеспечивает качественное удаление и измельчение ботвы по всей форме гребня.
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;"><br />3.	Простота – залог успеха! <br /></span>
+                                        <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
+                                        «Окошки» расположенные в верхней части ботвоудалителя обеспечивают свободный доступ к рабочим органам, позволяя без проблем проводить техническое обслуживание ботвоудалителя.
+                                    </span>
+                                     <table width="328" border="1" cellspacing="0" cellpadding="0" align="left" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tbody>
+                                            <tr style="background-color: #d1d3d4;">
+                                                <td style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong>&nbsp;Модель</strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>2 LKA 75</strong></strong></span></td>
+                                                <td style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><strong><strong>4 LKA 75</strong></strong></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Количество рядков</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">2 x 75</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4 x 75</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Вес, кг</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">480</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">870</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Ширина, см</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">160</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">315</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Необходимая мощность трактора, л.с.</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">55</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">70-80</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;ВОМ, об./мин</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1000</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Производительность, га/час</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,6 – 1,1</span></td>
+                                                <td style="text-align: center;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1,2-2,1</span></td>
+                                            </tr>                                            
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">&nbsp;Цена руб, с НДС</span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
+                                                <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                                    </td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="center"><img src="http://www.lbr.ru/images/kp/stuik_botv.jpg" width="300" border="0" /><br />
+                                    <img style="margin-top: 10px;" src="http://www.lbr.ru/images/kp/stuik_botv1.jpg" width="148" height="120" border="0" />
+                                    
+                                    <img style="margin-top: 10px;" src="http://www.lbr.ru/images/kp/stuik_botv2.jpg" width="148" height="120" border="0" />
+                                    </td>
+                                   
+                                </tr>
+                            </table>
+                        </td>
+                        
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                </table> 
+                 
+            </td>
+        </tr>
         
         <tr>
             <td>
@@ -548,7 +740,7 @@
                                     </span>
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">3. Бережная уборка картофеля - всегда!</span>
                                         <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
-                                        Комбайн оснащен бункером для картофеля с гидравлическим приводом объемом 1500 или 3000 кг. 
+                                        Комбайн оснащен бункером для картофеля с гидравлическим приводом объемом 3000 кг. 
                                     В стандартной комплектации на выходе из бункера установлен эластичный рукав, предназначенный для минимизации степени повреждения картофеля при падении.
                                     </span>
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">4. Универсальный помощник!</span>
@@ -607,7 +799,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Сортировщики картофеля и лука</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="width: 70px;" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/krukowiak-logo.jpg" border="0" style="width: 50px;" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -621,7 +813,7 @@
                                     
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">1. КОМПАКТНЫЕ И УДОБНЫЕ!</span>
                                         <span style="display: block; text-align: justify; font-family: FuturisC, Calibri, sans-serif; font-size: 14px; color: #222222; line-height: 16px;">
-                                        Площадь хранения сортировщика М-616 составляет всего 7 кв.м! 
+                                        Площадь хранения сортировщика составляет всего 7 кв.м! 
                                     Конструкция рамы шасси позволяет быстро сложить комплекс одному человек и легко перемещать машину в любое место помещения с твердым полом.
                                     </span>
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-align: left; text-transform: uppercase;">2. РАБОТА В УДОВОЛЬСТВИЕ!</span>

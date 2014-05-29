@@ -179,16 +179,6 @@ endif;
                                         </tr>    
                                        
                                        
-                                        
-                                        <?php
-                                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
-                                            array(
-                                                'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/pritsepnye-kormouborochnye-kombajny/602-silosorezki-evro-kir-1-5/',
-                                                'colspan' => 2,
-                                                'style' => 'text-align: right; padding-top: 10px; padding-right: 0;'
-                                                )
-                                            );
-                                        ?>
                                     </table>
                                     <!-- Ссылка-кнопка подробнее -->
                                 </td>
