@@ -121,19 +121,19 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 8px 0 10px;">
-                                                <img src="http://www.lbr.ru/images/kp/70-ares/ares1.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            <td style="padding: 8px 0 10px; text-align: center;">
+                                                <img src="http://www.lbr.ru/images/kp/70-ares/ares1.jpg" width="300" style="border: 0;"  alt="Картинки не отображаются">
                                             </td>
                                         </tr> 
                                         <tr>
-                                            <td style="padding: 0 10px 0 0;">
+                                            <td style="padding: 10px 10px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
                                                    <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220; ">Высокая производительность</span> за счет возможности работать со скоростью до 15 км/час.                                                    
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 10px 10px 0 0;">
+                                            <td style="padding: 20px 10px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
                                                    <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220; ">Ширина захвата агрегатов для небольших и средних хозяйств</span> – от 4 до 6 м.                                                    
                                                 </p>

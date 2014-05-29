@@ -305,9 +305,9 @@ endif;
                                                     <tr valign="top">
                                             <td style="padding: 5px 10px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
-                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black">• Защита срезным болтом (модель типа B)</span> – при достижении предельной нагрузки на стойку болт разрывается,
-                                                    и стойка уходит назад, пропуская через себя камни, корни деревьев и т.д. 
-                                                    Чтобы вернуть стойку в рабочее положение, ее необходимо выдвинуть вперед и снова зафиксировать срезным болтом. 
+                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black">• Рессорная защита (модель типа S)</span> – при наезде на препятствие стойка уходит назад, 
+                                                   рессора прогибается, проходит препятствие и возвращает стойку в исходное положение. 
+                                                   <b>Для работы на тяжелых, на каменистых почвах.</b> 
                                                 </p>
                                             </td>
                                             <td style="padding: 5px 0 0 0; vertical-align: middle; text-align: right;">
@@ -321,9 +321,9 @@ endif;
                                             <td colspan="2" style="padding: 0;">
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
-                                            <td style="padding: 5px 10px 0 0;">
+                                            <td style="padding: 5px 10px 0 0; vertical-align: middle;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
-                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black">• Удержание заданной глубины обработки и контроль стабильности хода агрегата</span> – комплектация резиновыми опорными колесами: 
+                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220">Удержание заданной глубины обработки и контроль стабильности хода агрегата</span> – комплектация резиновыми опорными колесами: 
                                                 </p>
                                             </td>
                                             <td style="padding: 5px 0 0 0; vertical-align: middle; text-align: right;">
