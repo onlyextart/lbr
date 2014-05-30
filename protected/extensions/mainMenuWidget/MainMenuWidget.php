@@ -14,20 +14,33 @@ class MainMenuWidget extends CWidget
         $this->currentMenuItem = Yii::app()->params['currentMenuItem'];
         if($this->currentMenuItem->level == 1 || $this->currentMenuItem==null)
             return;
-        //Yii::app()->clientScript->registerCssFile('/css/menuGroups.css');
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
-        
-        if($this->menuBranch[1]->alias=='tehnika'){
+        if($this->menuBranch[1]->alias=='tehnika') {
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu === null){
                 $rootmenuModel=MenuItems::model()->find('path=:path', array(':path'=>'/selskohozyaystvennaya-tehnika/type'));
             } else {
                 $rootmenuModel=MenuItems::model()->findByPk($rootmenu);
             }
-            $this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
-            if($this->currentMenuItem){
+            //$this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
+            /*************************/
+            // if few products have the same aliases
+            $allDescendants = $rootmenuModel->descendants()->findAll('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
+            if(count($allDescendants) > 1) {
+                $curCategory = MenuItems::model()->findByPk(Yii::app()->params['currentMenuItem']->menuItemsContents[0]->item_id)->ancestors()->findAll();
+                $path = '';
+                foreach($curCategory as $key=>$category) {
+                    if($key != 0 && $key != 1){
+                        if(!empty($path))$path .= '/';
+                        $path .= $category->alias;
+                    }
+                }
+                $this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias and path like :path', array(':alias'=>$this->menuBranch[3]->alias, ':path'=>'%'.$path.'%'));
+            } else $this->currentMenuItem = $rootmenuModel->descendants()->find('alias=:alias', array(':alias'=>$this->menuBranch[3]->alias));
+            /********************************/
+            if($this->currentMenuItem) {
                 $this->menuBranch=$this->currentMenuItem->ancestors()->findAll();
-                array_push($this->menuBranch, $this->currentMenuItem);
+                array_push($this->menuBranch, $this->currentMenuItem);   
             }
         } else {
             $cookieRootmenuId = new CHttpCookie('rootmenu', $this->menuBranch[1]->id);

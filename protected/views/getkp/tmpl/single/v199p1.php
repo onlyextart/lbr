@@ -1,0 +1,1 @@
+<img src="http://www.lbr.ru/images/kp/199-z4/print-1.png" width="900" height="1194">
