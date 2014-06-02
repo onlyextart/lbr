@@ -78,6 +78,8 @@ RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/s
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/697-pnevmaticheskie-seyalki-spartan-607/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/697-pnevmaticheskie-seyalki-spartan-607/ [R=301,L]
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/701-pnevmaticheskie-seyalki-spartan-907/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/ [R=301,L]
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki-i-posevnye-kompleksy/)(.*) http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/kartofelesazhalki/614-kartofelesazhalki-wm-kartoffeltechnik/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/kartofelesazhalki/ [R=301,L]
+RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/251-seyalka-kultivator-centurion/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/ [R=301,L]
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
 RewriteRule ^tehnika/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]

@@ -612,7 +612,7 @@ tinyMCE.init({
 
             // Функция добавления таба региона
             this.addTab = function ( regionId ) {
-                //Если не выбран регион не выбран
+                //Если не выбран регион
                 if( regionId==null ){
                     return;
                 }
@@ -629,8 +629,13 @@ tinyMCE.init({
                         _self.tabs.append( $(data.responseText).attr({id:id}));
                         _self.tabs.tabs( "refresh" );
                         _self.tabCounter++;
-                        tinymce.myOptions.selector = '#'+id+' .with_tinymce'
-                        tinymce.init(tinymce.myOptions)
+                        (function(id){
+                            var id = id;
+                            setTimeout(function(){
+                            tinymce.myOptions.selector = '#'+id+' .with_tinymce';
+                             tinymce.init(tinymce.myOptions);
+                        }, 10);
+                        })(id);
                     }
                 })
             }
