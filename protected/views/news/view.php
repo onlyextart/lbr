@@ -1,5 +1,5 @@
 <?php 
-   echo '<h2>' . $data['header'] . '</h2>';
+   echo '<h1>' . $data['header'] . '</h1>';
    echo CHtml::openTag('dl', array(
        'class' => 'article-info'
     ));
