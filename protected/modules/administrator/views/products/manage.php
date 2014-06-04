@@ -24,11 +24,6 @@
                 $allChildProducts[$child->id][$productTechChar->tech_id] = $val;
             }    
         }
-        
-        /*echo '<pre>';
-        var_dump($allChildProducts);
-        var_dump($allChildProducts[16][43]);
-        exit;*/
     }
 ?>
 <style>

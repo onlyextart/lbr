@@ -122,7 +122,7 @@ class CategoryUrlRule extends CBaseUrlRule
     }
 
 
-    private function paramsToString($params, $argumentName=null){
+    private function paramsToString($params, $argumentName=null) {
         $pathParamsString = "";
         foreach($params as $name=>$value){
             if(is_array($value)){

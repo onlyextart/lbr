@@ -414,7 +414,7 @@ header .menu.main .menuMainTop li:hover {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-header .menu.main .menuMainTop li.active {
+header .menu.main .menuMainTop li.active, .mightiness-ico-wrapper img.active {
   background: #F7F7F7;
   color: #f7f7f7;
   border-radius: 3px;
@@ -700,7 +700,7 @@ header:after {
   width: 100%;
   height: 50px;
 }
-.wrapper #content .product_wrapper .product_header h1 {
+.wrapper #content .product_wrapper .product_header h1, .mightinessTitle {
   vertical-align: middle;
   display: table-cell;
   color: #0f9797;
@@ -851,7 +851,7 @@ header:after {
 .wrapper #content .product_wrapper .product_content ul.product_tab_button li:first-child:before {
   border-left: 0;
 }
-.wrapper #content .product_wrapper .product_content ul.product_tab_button:after {
+.wrapper #content .product_wrapper .product_content ul.product_tab_button:after, .mightiness-ico-wrapper:after {
   content: '';
   display: block;
   clear: both;
@@ -2442,3 +2442,66 @@ ul.yiiPager .selected a {
 .clear_table td {
   padding: 7px;
 }
+
+/* mightiness table style */
+.mightinessSelector{
+    margin-bottom: 20px;
+    float: left;
+}
+.mightiness-ico-wrapper{
+    float: right;
+}
+.mightiness-ico-wrapper img{
+    width: 20px;
+    heigh: 19px;
+    border: 1px solid white;
+}
+.mightiness-ico-wrapper img:hover{
+    cursor: pointer;
+}
+.mightinessTable{
+    border-collapse: collapse; 
+    border-color: #000000; 
+    width: 100%;
+}
+.mightinessTable td, .mightinessTable th {
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    text-align: left;
+}
+.mightinessTable a{
+    text-decoration: none;
+    color: #0F9797;
+    font-weight: 900;
+}
+.mightinessTable img{
+    width: 50%;
+    display: table-caption;
+    margin: 0 auto;
+}
+.mightinessTable.mightinessTableFullView img{
+    width: 40%;
+}
+.mightinessTableFullView td:last-child img{
+    width: 100%;
+}
+.mightinessTableFullView td{
+    width: 40%;
+}
+.mightinessTableFullView td:last-child{
+    width: 10%;
+}
+.mightinessTableFullView div:first-child{
+    padding-bottom: 10px;
+}
+
+.mightinessTableShort td:last-child{
+    width: 70%;
+    vertical-align: top;
+}
+
+ul.mightinessTable
+{
+    list-style-image: url('/images/sqpurple.gif');
+} 
+
