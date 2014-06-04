@@ -4,7 +4,7 @@ $(document).ready(function(){
     if(setFilialName){
         $('#show_regions_table_button').html(setFilialName).attr('title', setFilialName);
     }
-	 
+
     $('body').append('<div id="choose_region"></div>');
     $('.bottom-text div *:nth-child(2)').show();
     $('.bottom-more').click(function(){
@@ -71,6 +71,11 @@ $(document).ready(function(){
     $(document).on('click', '.regions_table_cover', function() {
         $(this).remove();
         $('.regions_table_wrapper').remove();
+    });
+    
+    // Webcom asked
+    $(".ext2").each(function(){
+	   $(this).replaceWith('<a href="'+$(this).attr("data-key")+'">'+$(this).html()+'</a>');
     });
 })
 
