@@ -1,5 +1,5 @@
 <div class="mightinessSelector">
-    Выберите мощность трактора:
+    Выберите мощность:
     <select id="mightiness-for-tractor">
         <option value="0" val="choice">Выберите мощность</option>
         <option value="1" val="80">До 80 л.с.</option>
@@ -26,22 +26,31 @@
         else $('.mightiness-ico-wrapper img[view=1]').addClass('active');
         
         $('.mightiness-ico-wrapper img').click(function(){
-            var view = $(this).attr('view');
-            sessionStorage.setItem('mightinessActiveView', view);
-            $('.mightiness-ico-wrapper img.active').removeClass('active');    
-            $(this).addClass('active');
-            sendData($('#mightiness-for-tractor').find(':selected').attr('val'), view);
+            if(!$(this).hasClass('disabled')){
+                var view = $(this).attr('view');
+                sessionStorage.setItem('mightinessActiveView', view);
+                $('.mightiness-ico-wrapper img.active').removeClass('active');    
+                $(this).addClass('active');
+                sendData($('#mightiness-for-tractor').find(':selected').attr('val'), view);
+            }
         });
         
         $('#mightiness-for-tractor').change(function() {
-            var view = parseInt(sessionStorage.getItem('mightinessActiveView'));
-            if(!isNaN(view)) view = 1;
-            sessionStorage.setItem('mightinessOption', this.value);
-            sendData($('option:selected', this).attr('val'), view);
+            if(!$(this).hasClass('disabled')) {
+                var view = parseInt(sessionStorage.getItem('mightinessActiveView'));
+                if(!isNaN(view)) view = 1;
+                sessionStorage.setItem('mightinessOption', this.value);
+                sendData($('option:selected', this).attr('val'), view);
+            }
         });
         
         function sendData(val, view)
         {
+            $('.mightiness-ico-wrapper img').each(function(){
+                $(this).addClass('disabled');
+            });
+            $('#mightiness-for-tractor').addClass('disabled');
+                
             var from = to = '';
             if(val != 'choice') {
                 var index = val.indexOf('-');
@@ -64,6 +73,7 @@
                 cache: false,
                 success: function(response) {
                     document.location.href = "<?php echo Yii::app()->getBaseUrl(true) ?>/selskohozyaystvennaya-tehnika/mightiness/";
+                    
                 }
             });
         }

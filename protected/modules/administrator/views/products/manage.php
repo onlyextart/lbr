@@ -364,10 +364,10 @@ tinyMCE.init({
                 <?php endif; ?>
            </table>
         </div>
-        <h3>Значения технических характеристик для дочерних товаров</h3>
+        <h3>Значения технических характеристик для моделей</h3>
         <div class="admin_additional_features_technical_options admin_additional_features_content">
             <div class="admin_additional_features">
-                <h3>Добавить дочерний товар</h3>
+                <h3>Добавить модель</h3>
                 <div class="measure admin_additional_features_content">
                     <div>
                         <span>Заголовок</span>
@@ -382,7 +382,7 @@ tinyMCE.init({
                     <?php echo CHtml::link('Добавить', '#', array('id'=>'add-product-child', 'class'=>'admin-btn')); ?>
                 </div>
             </div>
-            <div class="edit-features">Редактировать существующие дочерние товары</div>
+            <div class="edit-features">Редактировать существующие модели</div>
             <div class="admin_additional_features" id="all-child-products">
                 <?php foreach($allChildProducts as $childProductId=>$childProduct): ?>
                     <h3><?php echo $childProduct['title'] ?></h3>
@@ -400,7 +400,70 @@ tinyMCE.init({
                         <?php echo CHtml::link('Обновить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'update-product-child admin-btn')), CHtml::link('Удалить', '#', array('t-id'=>'tech-char-'.$techCharId, 'class'=>'del-product-child  admin-btn')); ?>
                     </div>
                 <?php endforeach; ?>
-            </div>    
+            </div>
+        </div>
+        <h3>Технологическая схема</h3>
+        <div class="admin_additional_features_content">
+            <?php
+                //получение массива дерева меню
+                /*function getMenuItemConteintigStatusClosure( $productModel )
+                {
+                    $status = function( $menuItemId ) use ( &$productModel ){       
+                        return $productModel->hasMenuItem( $menuItemId );       
+                    };
+                    return $status;
+                }
+                $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $productModel );
+                $this->widget('CTreeView', array(
+                    'data' => MenuItems::getMenuTreeWithCheckbox(
+                            'MenuItemConteintigThisProduct', 
+                            $menuItemConteintigStatusClosure,
+                            array(MenuItems::PRODUCT_MENU_ITEM_TYPE)
+                        ), 
+                    'animated'=>100, 
+                    'htmlOptions'=>array(
+                        'class'=>'menuTreeView'
+                        )
+                    )
+                );*/
+                $my_data = array(
+                    array(
+                        'text'     => 'Все',
+                        'expanded' => false, // будет развернута ветка или нет (по умолчанию)
+                        'children' => array(
+                             array(
+                                'text' => 'Node 1.1', /*.CHtml::checkBox( 
+                                    $checkBoxNameAttr."[$item[id]]",
+                                    $checkStatus( $item[id] ),
+                                    array('class'=>'menuItemCheckBox', in_array( $item[type], $activeItemType )?'':'disabled'=>'disabled')
+                                ),*/
+                             ),   
+                             array(
+                                'text' => 'Node 1.2',
+                             ),   
+                             array(
+                                'text' => 'Node 1.3',
+                             ),             
+                        ),
+                    ),
+                );
+                
+                $this->widget('CTreeView', array(
+                    'data'        => $my_data,
+                    'animated'    => 100, 
+                    'htmlOptions' => array(
+                        'class' => 'menuTreeView'
+                    )
+                ));
+                
+                /*
+                $rowHtml=$item[name].CHtml::checkBox( 
+                    $checkBoxNameAttr."[$item[id]]",
+                    $checkStatus( $item[id] ),
+                    array('class'=>'menuItemCheckBox', in_array( $item[type], $activeItemType )?'':'disabled'=>'disabled')
+                );
+                */
+            ?>
         </div>
         <?php endif; ?>
     </div>

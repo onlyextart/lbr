@@ -700,7 +700,7 @@ header:after {
   width: 100%;
   height: 50px;
 }
-.wrapper #content .product_wrapper .product_header h1, .mightinessTitle {
+.wrapper #content .product_wrapper .product_header h1{
   vertical-align: middle;
   display: table-cell;
   color: #0f9797;
@@ -1297,7 +1297,7 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.xbanners_container .xbanners .one_banner {
+.xbanners_container .xbanners .one_banner, .mightinessTableShort, .mightinessTableFullView{
   margin: 0 0 20px;
   padding: 0;
   -moz-box-shadow: 0 0px 4px 1px rgba(50,50,50,0.5);
@@ -1964,7 +1964,7 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_first_level li:hover {
   background: #e1eded;
 }
-.main_menu_wrapper .main_menu_first_level:after {
+.main_menu_wrapper .main_menu_first_level:after{
   content: "";
   position: absolute;
   bottom: -4px;
@@ -2459,6 +2459,16 @@ ul.yiiPager .selected a {
 .mightiness-ico-wrapper img:hover{
     cursor: pointer;
 }
+.mightiness-ico-wrapper img.disabled{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+.mightiness-ico-wrapper img.disabled{
+    cursor: default;
+}
 .mightinessTable{
     border-collapse: collapse; 
     border-color: #000000; 
@@ -2474,6 +2484,7 @@ ul.yiiPager .selected a {
     color: #0F9797;
     font-weight: 900;
 }
+
 .mightinessTable img{
     width: 50%;
     display: table-caption;
@@ -2494,7 +2505,6 @@ ul.yiiPager .selected a {
 .mightinessTableFullView div:first-child{
     padding-bottom: 10px;
 }
-
 .mightinessTableShort td:last-child{
     width: 70%;
     vertical-align: top;
@@ -2502,6 +2512,19 @@ ul.yiiPager .selected a {
 
 ul.mightinessTable
 {
-    list-style-image: url('/images/sqpurple.gif');
-} 
-
+    list-style-image: url('/images/ico-mightiness-li.png');
+    margin: 15px;
+    padding: 0;
+}
+ul.mightinessTable li{
+    margin-bottom: 5px;
+}
+ul.mightinessTableText a{
+    color: #000000 !important;
+    font-weight: normal;
+}
+.mightinessTableFullView th{
+  box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
+  -moz-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
+}

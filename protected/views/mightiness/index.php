@@ -1,9 +1,9 @@
-<div class="mightinessTitle">Подбор по мощности трактора</div>
+<h1>По мощности трактора</h1>
 <?php $this->widget('ext.mightinessWidget.MightinessWidget'); ?>
 <?php
 if(!empty($data)) {
     if(Yii::app()->session->get("mightinessView") == 3){
-        echo '<ul class="mightinessTable">';
+        echo '<ul class="mightinessTable mightinessTableText">';
         foreach($data as $key => $value) {
             if(!empty($data[$key])){
                 foreach($value as $product) {
