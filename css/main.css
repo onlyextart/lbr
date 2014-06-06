@@ -2442,3 +2442,7 @@ ul.yiiPager .selected a {
 .clear_table td {
   padding: 7px;
 }
+
+span.ext2:hover{
+    cursor: pointer;
+}
