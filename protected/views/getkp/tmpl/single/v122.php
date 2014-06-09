@@ -72,7 +72,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -117,7 +117,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -168,7 +168,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -224,7 +224,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -280,7 +280,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -410,7 +410,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
@@ -515,7 +515,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/',
+                                    'link' => 'http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/303-teleskopicheskie-pogruzchiki-serii-agri-star/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )

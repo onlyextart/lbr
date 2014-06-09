@@ -124,7 +124,7 @@ endif;
                                             </td>
                                         </tr>  
                                         <tr valign="top">                                            
-                                            <td style="padding: 20px 0 0;">
+                                            <td style="padding: 25px 0 0;">
                                                 <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-1.jpg" width="380" style="border: 0; float: left;"  alt="Картинки не отображаются">
                                             </td>
                                         </tr> 
@@ -145,7 +145,7 @@ endif;
                                             <td colspan="2" style="padding: 5px 0 0;">
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top"> 
-                                            <td colspan="2" style="padding: 0 0 10px;">
+                                            <td colspan="2" style="padding: 0 0 5px;">
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
                                                     <td style="padding: 5px 10px 0 0;">
@@ -175,8 +175,51 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                        <td colspan="2">
-                                        <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
+                                            <td colspan="2" style="padding: 0;">
+                                                <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-4.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>                
+                                    </table>
+                                </td>
+                            </tr>   
+                        </table>
+                    </td></tr> 
+                                                 
+                <!-- Контент первого блока; -->
+                <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/376-rotornye-grabli-voroshilki-evrogvr-6/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
+            </table>
+            <!-- Внутренности блока; -->
+        </td>
+    </tr>
+    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+</table>
+<!-- Блок Первый; -->
+<!-- Блок Второй: -->
+<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr>
+        <td>
+            <!-- Внутренности блока: -->
+            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                 <tr><td style="padding: 0 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td width="380" style="max-height: 876px;">
+                                    <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                        
+                                        
+                                        <tr>
+                                            <td colspan="2" style="padding: 5px 0 0 0;">
+                                                <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Модель</td>
@@ -220,32 +263,43 @@ endif;
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                        </td>
-                                        </tr>               
-                                    </table>
+                                            </td>
+                                        </tr>
+                                                                       
+                                </table>
                                 </td>
-                            </tr>   
+                                <td width="380" style="padding-left: 10px; max-height: 876px;">
+                                    <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                         
+                                         <tr>
+                                            <td colspan="2" style="padding: 5px 0 0 0;">
+                                                <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-3.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>                                       
+                                    </table>                                    
+                                </td>
+                            </tr>
                         </table>
-                    </td></tr> 
-                                                 
-                <!-- Контент первого блока; -->
-                <!-- Ссылка-кнопка подробнее -->
+                    </td></tr>
+                                           
+                    <!-- Ссылка-кнопка подробнее -->
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/376-rotornye-grabli-voroshilki-evrogvr-6/',
+                                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/press-podborshchiki/360-tyukovoj-press-podborshchik-z-511/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
                                 );
                     ?>
+                    
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
     <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
-<!-- Блок Первый; -->
+<!-- Блок Второй; -->
 <?php
 if($data['show_footer']=='1' || !isset($data['show_footer'])):
     Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));

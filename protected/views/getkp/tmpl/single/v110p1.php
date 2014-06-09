@@ -122,6 +122,11 @@ endif;
                                                    что способствует непрерывной работе, т.к. не требуется совершать вынужденные остановки.                                                                                                     
                                                 </p>
                                             </td>
+                                        </tr>  
+                                        <tr valign="top">                                            
+                                            <td style="padding: 25px 0 0;">
+                                                <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-1.jpg" width="380" style="border: 0; float: left;"  alt="Картинки не отображаются">
+                                            </td>
                                         </tr> 
                                 </table>
                                 </td>
@@ -140,7 +145,7 @@ endif;
                                             <td colspan="2" style="padding: 5px 0 0;">
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top"> 
-                                            <td colspan="2" style="padding: 0 0 10px;">
+                                            <td colspan="2" style="padding: 0 0 5px;">
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
                                                     <td style="padding: 5px 10px 0 0;">
@@ -170,8 +175,44 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                        <td colspan="2">
-                                        <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
+                                            <td colspan="2" style="padding: 0;">
+                                                <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-4.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>                
+                                    </table>
+                                </td>
+                            </tr>   
+                        </table>
+                    </td></tr> 
+                                                 
+                <!-- Контент первого блока; -->
+                
+            </table>
+            <!-- Внутренности блока; -->
+        </td>
+    </tr>
+</table>
+<!-- Блок Первый; -->
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
+<!-- Блок Второй: -->
+<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+    <tr>
+        <td>
+            <!-- Внутренности блока: -->
+            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                 <tr><td style="padding: 0 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td width="380" style="max-height: 876px;">
+                                    <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                        
+                                        
+                                        <tr>
+                                            <td colspan="2" style="padding: 5px 0 0 0;">
+                                                <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Модель</td>
@@ -198,8 +239,12 @@ endif;
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Габаритные размеры (ДхШхВ), м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">5,0х6,3х1,4</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Габаритные размеры<br />- длина, м<br />-ширина, м<br />-высота, м</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><br />5,0<br />6,3<br />1,4</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Масса</td>
+                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">900</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Требуемая мощность трактора, л.с.</td>
@@ -211,16 +256,27 @@ endif;
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                        </td>
-                                        </tr>               
-                                    </table>
+                                            </td>
+                                        </tr>
+                                                                       
+                                </table>
                                 </td>
-                            </tr>   
+                                <td width="380" style="padding-left: 10px; max-height: 876px;">
+                                    <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                         
+                                         <tr>
+                                            <td colspan="2" style="padding: 5px 0 0 0;">
+                                                <img src="http://www.lbr.ru/images/kp/110-euro6/euro6-3.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>                                       
+                                    </table>                                    
+                                </td>
+                            </tr>
                         </table>
-                    </td></tr> 
-                                                 
-                <!-- Контент первого блока; -->
-                <tr valign="top">
+                    </td></tr>
+            </table>
+                                    
+                    <tr valign="top">
                     <td colspan="2" style="padding: 0px 20px 0;">
                         <?php
                         if($data['show_footer']=='1' || !isset($data['show_footer'])):
@@ -229,12 +285,11 @@ endif;
                         ?>
                     </td>
                 </tr>
-            </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
 </table>
-<!-- Блок Первый; -->
+<!-- Блок Второй; -->
 </div>
 </body>
 </html>
