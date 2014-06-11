@@ -16,7 +16,7 @@ endif;
                             <tr>
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         Пропашные сеялки точного высева YР-1625А и YР-2425А</a>
                                     </a>
                                 </td>
@@ -127,7 +127,7 @@ endif;
                 <!-- Ссылка-кнопка подробнее -->
                 <?php
                 Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/',
+                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/',
                     'colspan' => false,
                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                         )
@@ -362,7 +362,7 @@ endif;
                             <!-- Ссылка-кнопка подробнее -->
                             <?php
                             Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                                'link' => 'http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/',
+                                'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/',
                                 'colspan' => 2,
                                 'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
