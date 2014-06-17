@@ -2528,3 +2528,32 @@ ul.mightinessTableText a{
   -moz-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
   -webkit-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
 }
+
+#tech-schema span{
+    font-weight: bold;
+    font-size:16px; 
+    margin-left: 15px;
+    color: #0F9797;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#tech-schema p{
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+
+#load-tech-schema{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+#tech-schema-results ul{
+    padding: 0;
+    margin: 0 15px 0 20px;
+}
+#tech-schema-results tr:first-child{
+    text-align: center;
+}
+#tech-schema-results{
+    margin-left: 15px;
+}

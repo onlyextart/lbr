@@ -9,6 +9,7 @@ class m140604_083300_add_column_description_for_product_range extends CDbMigrati
             try
             {
                 $this->addColumn('product_range', 'description', 'TEXT');
+                
                 $transaction->commit();
             }
             catch(Exception $e)

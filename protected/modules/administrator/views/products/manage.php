@@ -405,64 +405,13 @@ tinyMCE.init({
         <h3>Технологическая схема</h3>
         <div class="admin_additional_features_content">
             <?php
-                //получение массива дерева меню
-                /*function getMenuItemConteintigStatusClosure( $productModel )
-                {
-                    $status = function( $menuItemId ) use ( &$productModel ){       
-                        return $productModel->hasMenuItem( $menuItemId );       
-                    };
-                    return $status;
-                }
-                $menuItemConteintigStatusClosure = getMenuItemConteintigStatusClosure( $productModel );
-                $this->widget('CTreeView', array(
-                    'data' => MenuItems::getMenuTreeWithCheckbox(
-                            'MenuItemConteintigThisProduct', 
-                            $menuItemConteintigStatusClosure,
-                            array(MenuItems::PRODUCT_MENU_ITEM_TYPE)
-                        ), 
-                    'animated'=>100, 
-                    'htmlOptions'=>array(
-                        'class'=>'menuTreeView'
-                        )
-                    )
-                );*/
-                $my_data = array(
-                    array(
-                        'text'     => 'Все',
-                        'expanded' => false, // будет развернута ветка или нет (по умолчанию)
-                        'children' => array(
-                             array(
-                                'text' => 'Node 1.1', /*.CHtml::checkBox( 
-                                    $checkBoxNameAttr."[$item[id]]",
-                                    $checkStatus( $item[id] ),
-                                    array('class'=>'menuItemCheckBox', in_array( $item[type], $activeItemType )?'':'disabled'=>'disabled')
-                                ),*/
-                             ),   
-                             array(
-                                'text' => 'Node 1.2',
-                             ),   
-                             array(
-                                'text' => 'Node 1.3',
-                             ),             
-                        ),
-                    ),
-                );
-                
-                $this->widget('CTreeView', array(
-                    'data'        => $my_data,
-                    'animated'    => 100, 
-                    'htmlOptions' => array(
-                        'class' => 'menuTreeView'
-                    )
-                ));
-                
-                /*
-                $rowHtml=$item[name].CHtml::checkBox( 
-                    $checkBoxNameAttr."[$item[id]]",
-                    $checkStatus( $item[id] ),
-                    array('class'=>'menuItemCheckBox', in_array( $item[type], $activeItemType )?'':'disabled'=>'disabled')
-                );
-                */
+            $this->widget('CTreeView', array(
+                'data'        => $this->loadTechSchemaTree($productModel->id),
+                'animated'    => 100, 
+                'htmlOptions' => array(
+                    'class' => 'menuTreeView'
+                )
+            ));
             ?>
         </div>
         <?php endif; ?>

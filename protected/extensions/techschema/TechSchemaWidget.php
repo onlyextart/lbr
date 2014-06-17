@@ -1,5 +1,5 @@
 <?php
-class MightinessWidget extends CWidget
+class TechSchemaWidget extends CWidget
 {
     public function run()
     {

@@ -1,7 +1,7 @@
 <?php
 class ProductsController extends Controller{
     
-    public function actionIndex(){
+    public function actionIndex() {
         $dataProvider=new CActiveDataProvider('Products');
         $this->render(
             'index', 
@@ -13,7 +13,7 @@ class ProductsController extends Controller{
 
     public function actionDelete( $id ){
         $model = Products::model()->findByPk( $id );
-        if($model!==null){
+        if($model!==null) { 
             //Удалить страницу из пунктов меню
             $menuItems = MenuItemsContent::model()->with('item')->findAll(
                 'page_id='.$model->id.'
@@ -29,12 +29,14 @@ class ProductsController extends Controller{
         }
     }
     
-    public function actionCreate(){
+    public function actionCreate()
+    {
         $productModel = new Products();
         $productFotoGallery = $productModel->productGalleries;
         $productVideoGallery = $productModel->productVideos;
         $productRegionalData = $productModel->productsRegions;
         $makers = Makers::model()->findAll();
+        
         if( isset($_POST['Products']) ){
             $productModel->attributes = $_POST['Products'];
             $productIsValid = $productModel->validate();
@@ -120,7 +122,7 @@ class ProductsController extends Controller{
         
     }
     
-    public function actionUpdate( $id ){
+    public function actionUpdate( $id ) {
         $productModel = Products::model()->findByPk( $id );
         $productFotoGallery = $productModel->productGalleries;
         $productVideoGallery = $productModel->productVideos;
@@ -143,7 +145,7 @@ class ProductsController extends Controller{
                 }
             }
             
-            if( isset($_POST['ProductGallery']) ){
+            if( isset($_POST['ProductGallery']) ) {
                 $productFotoGalleryForDeleting = $productFotoGallery;
                 foreach( $_POST['ProductGallery'] as $imageNum => $foto ){
                     if(!isset($productFotoGallery[$imageNum]))
@@ -220,11 +222,43 @@ class ProductsController extends Controller{
                     $productModel->metaSave();
                 }
             }
+            
+            ProductTechSchema::model()->deleteAll("product_id = :id", array('id' => $productModel->id));
+            if(isset($_POST['schema']) || isset($_POST['stage'])) {
+                /*if(isset($_POST['schema'])){
+                    foreach ($_POST['schema'] as $id => $flag) {
+                        $stages = Yii::app()->db->createCommand()
+                            ->from('tech_schema_stage')
+                            ->where('schema_id=:id', array(':id'=>$id))
+                            ->queryAll()
+                        ;
+                        if(!empty($stages)){
+                            foreach($stages as $stage){
+                                $productTechSchema = new ProductTechSchema;
+                                $productTechSchema->product_id = $productModel->id;
+                                $productTechSchema->stage_id = $stage['id'];
+                                $productTechSchema->save();
+                            }
+                        }
+                    }
+                }*/
+                
+                if(isset($_POST['stage'])) {
+                    foreach ($_POST['stage'] as $id => $flag) {
+                        if(!ProductTechSchema::model()->exists('product_id=:product and stage_id=:stage', array('product'=>$productModel->id, 'stage'=>$id))){
+                            $productTechSchema = new ProductTechSchema;
+                            $productTechSchema->product_id = $productModel->id;
+                            $productTechSchema->stage_id = $id;
+                            $productTechSchema->save();
+                        }
+                    }
+                }
+            }
+            
             Yii::app()->user->setFlash('saved','Страница товара успешно сохранена.');
-            if($_POST['yt0'])
-            {
+            if($_POST['yt0']) {
                  $this->redirect('/administrator/products/');
-            }else{
+            } else {
                 $this->redirect('/administrator/products/update/id/'.$productModel->id);
             }
         }
@@ -376,5 +410,61 @@ class ProductsController extends Controller{
             var_dump($productFromJlbr[id]);
         }
         echo('done');
+    }
+    
+    public function loadTechSchemaTree($productId) {
+        $productSchema = array();
+        $roots = TechSchema::model()->roots()->findAll();
+        if(!empty($roots)){
+            $productSchema = array(
+                array(
+                    'text'     => 'Технологические циклы',
+                    'expanded' => false, // будет развернута ветка или нет (по умолчанию)
+                    'children' => array(),
+                ),
+            );
+
+            foreach ($roots as $root) {
+                $branch = array(
+                    'text' => $root->title,
+                );
+                $cycle = TechSchema::model()->findByPk($root->id);
+                $descendants=$cycle->descendants()->findAll();
+
+                if(!empty($descendants)) {
+                    $branch = array(
+                        'text' => $root->title,
+                        'expanded' => false,
+                        'children' => array(),
+                    );
+                    foreach ($descendants as $descendant) {
+                        $branchStages = array(
+                            'text' => $descendant->title, //.CHtml::CheckBox('schema['.$descendant->id.']', false, array('class'=>'menuItemCheckBox')),
+                            'expanded' => false,
+                            'children' => array(),
+                        );
+                        $stages = Yii::app()->db->createCommand()
+                            ->from('tech_schema_stage')
+                            ->where('schema_id=:id', array(':id'=>$descendant->id))
+                            ->order('level')
+                            ->queryAll()
+                        ;
+                        if(!empty($stages)){
+                            foreach ($stages as $stage){
+                                $stageModel = TechStage::model()->findByPk($stage['stage_id']);
+                                $flag = false;
+                                
+                                if(ProductTechSchema::model()->exists('product_id=:product and stage_id=:stage', array('product'=>$productId, 'stage'=>$stage['id']))) $flag = true;
+                                $branchStages['children'][] = array('text' => $stageModel->title.CHtml::CheckBox('stage['.$stage['id'].']', $flag, array('class'=>'menuItemCheckBox')));
+                            }
+                        }
+
+                        $branch['children'][] = $branchStages;
+                    }
+                }
+                $productSchema[0]['children'][] = $branch;
+            }
+        }
+        return $productSchema;
     }
 }
