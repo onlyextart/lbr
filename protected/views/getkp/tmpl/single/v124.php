@@ -115,7 +115,7 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding: 0;">
-                                               <img src="http://www.lbr.ru/images/kp/124-yp/yp4.jpg" width="380" height="260" style="border: 0; float: left;" alt="double-disk">
+                                               <img src="http://www.lbr.ru/images/kp/124-yp/yp4.jpg" width="380" style="border: 0; float: left;" alt="double-disk">
                                             </td>
                                         </tr> 
                                     </table>                               
