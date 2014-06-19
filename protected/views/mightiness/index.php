@@ -1,5 +1,6 @@
 <h1>По мощности трактора</h1>
 <?php $this->widget('ext.mightinessWidget.MightinessWidget'); ?>
+<div id=""></div>
 <?php
 if(!empty($data)) {
     if(Yii::app()->session->get("mightinessView") == 3){
@@ -55,5 +56,6 @@ if(!empty($data)) {
         echo '</tbody></table>';
     }
 } else echo 'Нет товаров с выбранной мощностью';
+
     
 

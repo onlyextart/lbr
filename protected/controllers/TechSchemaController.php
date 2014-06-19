@@ -3,54 +3,98 @@ class TechSchemaController extends Controller
 {
     public function actionIndex()
     {
-        /*$result = $productList = array();
-        $showCycle = $_POST['chk_group'];
-        //var_dump($showCycle); exit;
-        if(!empty($showCycle)){
-            foreach($showCycle as $key=>$value) {
-                $cycleName = TechSchema::model()->findByPk($key)->title;
-                $stages = TechSchemaStage::model()->findAll('schema_id = :id', array(':id'=>$key)); 
-                foreach($stages as $stage) {
-                    $result[$cycleName][$stage['stage_id']] = TechStage::model()->findByPk($stage['stage_id'])->title;//] = array(111, 222);
-                    $productList[$stage['stage_id']] = array(111, 222);
-                }
-            }
-        }*/
         $schemaIds = $_POST['schemaIds'];
         if(!empty($schemaIds)) {
-            $response = $result = $productList = array();
+            $result = $productList = array();
+            $view = $_POST['view'];
+            $response = '';
             foreach($schemaIds as $id) {
                 $cycleName = TechSchema::model()->findByPk($id)->title;
-                $stages = TechSchemaStage::model()->findAll('schema_id = :id', array(':id'=>$id)); 
+                $stages = TechSchemaStage::model()->findAll(array('order'=>'level', 'condition'=>'schema_id = :id', 'params'=>array(':id'=>$id)));
                 foreach($stages as $stage) {
-                    $result[$cycleName][$stage['stage_id']] = TechStage::model()->findByPk($stage['stage_id'])->title;//] = array(111, 222);
-                    $productList[$stage['stage_id']] = array(111, 222);
+                    $result[$cycleName][$stage['id']] = TechStage::model()->findByPk($stage['stage_id'])->title;
+                    $products = ProductTechSchema::model()->findAll('stage_id = :id', array(':id'=>$stage['id']));
+                    if(!empty($products)) {
+                        foreach($products as $product){
+                            $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
+                            $href = MenuItems::model()->findByPk($item_id)->path;
+                            $productList[$cycleName][$stage['id']][] = array(
+                                'name' => Products::model()->findByPk($product['product_id'])->name,
+                                'path' => $href,
+                            );
+                        }
+                    } else $productList[$cycleName][$stage['id']][] = null;
+                }
+            }
+
+            if(!empty($result)) {
+                if($view == 1){
+                    foreach($result as $key => $value){
+                        $label = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
+                        if(!empty($label)) $label = '<img src="'.$label.'" />';
+                        else $label = $key;
+                        $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5"><tr>';  
+                        $response .= '<td>Этапы заготовки</td>';
+                        foreach($value as $v) {
+                            $response .= '<td>'.$v.'</td>';
+                        }
+
+                        $response .= '</tr><tr><td>'.$label.'</td>';
+                        foreach($productList[$key] as $id => $products) {
+                            $label = TechSchemaStage::model()->findByPk($id)->img;
+                            $response .= '<td><div class="product-list-wrapper">';
+                            if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                            $response .= '<ul>';
+                            foreach($products as $product) {
+                                if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
+                            }
+                            $response .= '</ul></div></td>';
+                        }
+
+                        $response .= '</tr></table></div>';
+                    }
+                } else {
+                    foreach($result as $key => $value){
+                        $response .= '<div><table class="table-tech-stage" border="1" cellspacing="0" cellpadding="5"><tr>';  
+                        $response .= '<td>Этапы заготовки</td>';
+                        foreach($value as $v) {
+                            $response .= '<td>'.$v.'</td>';
+                        }
+                        $response .= '</tr><tr><td>'.$key.'</td>';
+                        foreach($productList[$key] as $products) {
+                            $response .= '<td><ul>';
+                            foreach($products as $product) {
+                                if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
+                            }
+                            $response .= '</ul></td>';
+                        }
+
+                        $response .= '</tr></table></div>';
+                    }
                 }
             }
             
-            if(!empty($result)){
-                $response = '<table width="100%" border="1" cellspacing="0" cellpadding="0"><tr>';    
+            /*
+            if(!empty($result)){ 
                 foreach($result as $key => $value){
-                    $response .= '<td rowspan="2">'.$key.'</td>';
-                    foreach($value as $v){
+                    $response .= '<div><table class="table-tech-stage-with-img" border="1" cellspacing="0" cellpadding="5"><tr>';  
+                    $response .= '<td>Этапы технологии</td>';
+                    foreach($value as $v) {
                         $response .= '<td>'.$v.'</td>';
                     }
-                }
-                $response .= '</tr><tr>';
-                foreach($productList as $products){
-                    $response .= '<td>';
-                    if(!empty($products)){
-                        $response .= '<ul>';
-                        foreach($products as $product){
-                            $response .= '<li>'.$product.'</li>';
+                    $response .= '</tr><tr><td>'.$key.'</td>';
+                    foreach($productList[$key] as $products) {
+                        $response .= '<td><ul>';
+                        foreach($products as $product) {
+                            if(!empty($product)) $response .= '<li>'.$product.'</li>';
                         }
-                        $response .= '</ul>';
+                        $response .= '</ul></td>';
                     }
-                    $response .= '</td>';
+                    
+                    $response .= '</tr></table></div><br>';
                 }
-                $response .= '</tr></table>';
-            }
-            //echo $response;
+            }*/
+            
             $array = array('data'=>$response);
             echo json_encode($array);
         } else $this->render('index', array('data'=>$result, 'productList'=>$productList));

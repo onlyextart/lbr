@@ -20,7 +20,7 @@ class m140609_120705_add_table_tech_schema extends CDbMigration
                 $this->createTable('tech_stage', array(
                     'id' => 'pk',
                     'title' => 'text',
-                    'img' => 'text',
+                    //'img' => 'text',
                     //'schema_id' => 'INTEGER CONSTRAINT [schema_id] REFERENCES [tech_schema]([id]) ON DELETE CASCADE ON UPDATE CASCADE',
                 ));
                 
@@ -29,6 +29,7 @@ class m140609_120705_add_table_tech_schema extends CDbMigration
                     'schema_id' => 'INTEGER CONSTRAINT [schema_id] REFERENCES [tech_schema]([id]) ON DELETE CASCADE ON UPDATE CASCADE',
                     'stage_id' => 'INTEGER CONSTRAINT [stage_id] REFERENCES [tech_stage]([id]) ON DELETE CASCADE ON UPDATE CASCADE',
                     'level' => 'int',
+                    'img' => 'text',
                 ));
                 
                 $this->createTable('product_tech_schema', array(

@@ -79,26 +79,31 @@ class MightinessController extends Controller
         $stage->schema_id = 7;
         $stage->stage_id = 1;
         $stage->level = 1;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 7;
         $stage->stage_id = 3;
         $stage->level = 2;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 7;
         $stage->stage_id = 4;
         $stage->level = 3;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 7;
         $stage->stage_id = 6;
         $stage->level = 4;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 7;
         $stage->stage_id = 7;
         $stage->level = 5;
+        $stage->img = '';
         $stage->save();
         
         // сено
@@ -106,31 +111,37 @@ class MightinessController extends Controller
         $stage->schema_id = 4;
         $stage->stage_id = 1;
         $stage->level = 1;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 4;
         $stage->stage_id = 2;
         $stage->level = 2;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 4;
         $stage->stage_id = 3;
         $stage->level = 3;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 4;
         $stage->stage_id = 4;
         $stage->level = 4;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 4;
         $stage->stage_id = 6;
         $stage->level = 5;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 4;
         $stage->stage_id = 7;
         $stage->level = 6;
+        $stage->img = '';
         $stage->save();
         
         // сенаж
@@ -138,31 +149,37 @@ class MightinessController extends Controller
         $stage->schema_id = 5;
         $stage->stage_id = 1;
         $stage->level = 1;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 5;
         $stage->stage_id = 3;
         $stage->level = 2;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 5;
         $stage->stage_id = 4;
         $stage->level = 3;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 5;
         $stage->stage_id = 5;
         $stage->level = 4;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 5;
         $stage->stage_id = 6;
         $stage->level = 5;
+        $stage->img = '';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = 5;
         $stage->stage_id = 7;
         $stage->level = 6;
+        $stage->img = '';
         $stage->save();
         
         // силос
@@ -193,9 +210,8 @@ class MightinessController extends Controller
         $stage->save();
         */
         
-        
-        
 /************************************************************/
+        
         $from = Yii::app()->session->get("selectFrom");
         $to = Yii::app()->session->get("selectTo");
         $result = array();

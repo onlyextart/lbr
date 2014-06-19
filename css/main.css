@@ -414,7 +414,7 @@ header .menu.main .menuMainTop li:hover {
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-header .menu.main .menuMainTop li.active, .mightiness-ico-wrapper img.active {
+header .menu.main .menuMainTop li.active, .mightiness-ico-wrapper img.active, .tech-schema-ico-wrapper img.active {
   background: #F7F7F7;
   color: #f7f7f7;
   border-radius: 3px;
@@ -2451,12 +2451,12 @@ ul.yiiPager .selected a {
 .mightiness-ico-wrapper{
     float: right;
 }
-.mightiness-ico-wrapper img{
+.mightiness-ico-wrapper img, .tech-schema-ico-wrapper img, .tech-schema-print img{
     width: 20px;
-    heigh: 19px;
+    height: 19px;
     border: 1px solid white;
 }
-.mightiness-ico-wrapper img:hover{
+.mightiness-ico-wrapper img:hover, .tech-schema-ico-wrapper img:hover, .tech-schema-print img:hover{
     cursor: pointer;
 }
 .mightiness-ico-wrapper img.disabled{
@@ -2528,7 +2528,8 @@ ul.mightinessTableText a{
   -moz-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
   -webkit-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
 }
-
+/* end mightiness table style */
+/* technological schema and stage style */
 #tech-schema span{
     font-weight: bold;
     font-size:16px; 
@@ -2547,13 +2548,109 @@ ul.mightinessTableText a{
     margin-bottom: 30px;
 }
 
-#tech-schema-results ul{
-    padding: 0;
-    margin: 0 15px 0 20px;
+.tech-schema-ico-label{
+    padding-right: 10px;
+    float: left;
 }
-#tech-schema-results tr:first-child{
-    text-align: center;
+.tech-schema-ico-wrapper, .tech-schema-print{
+    float: right;
 }
+
+.tech-schema-print{
+    margin-right: 20px;   
+}
+.tech-schema-print img{
+    height: 18px;
+}
+
 #tech-schema-results{
     margin-left: 15px;
 }
+
+#tech-schema-results tr:first-child td, #tech-schema-results tr:not(:first-child) td:first-child{
+    text-align: center;
+}
+#tech-schema-results tr:not(:first-child) td{
+    padding: 0;
+    margin: 0;
+}
+
+#tech-schema-results tr:first-child td:first-child img{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+}
+
+table.table-tech-stage-with-img, table.table-tech-stage{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+table.table-tech-stage-with-img{
+    background-color: #ebedec;
+}
+table.table-tech-stage-with-img ul {
+    list-style-image: url(/images/schema/mark.png); 
+    padding: 0;
+    margin: 0 11px;
+    min-height: 10px;
+    font-size: 12px;
+}
+table.table-tech-stage-with-img ul li, table.table-tech-stage ul li {
+    margin-bottom: 5px;
+}
+table.table-tech-stage-with-img ul a:link, table.table-tech-stage-with-img ul a:visited, table.table-tech-stage ul a:link, table.table-tech-stage ul a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+table.table-tech-stage-with-img tr:first-child td:not(:first-child)
+{
+    background-color: #c3cad0;
+    color: #ffffff;
+    font-weight: bold;
+}
+table.table-tech-stage-with-img tr:first-child td:first-child
+{
+    background-color: #efc825;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+table.table-tech-stage-with-img tr:not(:first-child) td:not(:first-child){
+    vertical-align: top;
+}
+table.table-tech-stage-with-img tr:not(:first-child) td:first-child{
+    width: 120px;
+    height: 300px;
+}
+table.table-tech-stage tr:not(:first-child) td:first-child{
+    width: 120px;
+}
+table.table-tech-stage-with-img tr:not(:first-child) td
+{
+    height: 300px;
+}
+table.table-tech-stage-with-img td img{
+    height: 100%;
+}
+table.table-tech-stage-with-img td:not(:first-child) img{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+table.table-tech-stage-with-img .product-list-wrapper {
+    background-color: #ffffff;
+    padding: 10px;
+    min-height: 280px;
+    border-radius: 3px;
+    border: 1px solid #d8d9d9;
+}
+
+#tech-schema-results table.table-tech-stage td{
+    padding: 5px;
+}
+#tech-schema-results table.table-tech-stage ul {
+    padding: 0;
+    margin: 0 15px;
+}
+/* technological schema and stage style */
