@@ -175,7 +175,7 @@ endif;
                                             <td width="10%" style="padding: 0 0 0 10px;">
                                                 <img src="http://www.lbr.ru/images/kp/126-gaspardo/gaspardo4.jpg" width="100" style="border: 0; float: left;" alt="double-disk">
                                             </td>
-                                            <td width="90%" style="padding: 0 0 0 10px; vertical-align: middle;">
+                                            <td style="padding: 0 0 0 10px; vertical-align: middle;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
                                                     Прикатывающие двухдюймовые «V»-образные колеса помогают семени плотно прилегать к борозде (семена не выветриваются и не вымываются при сильном дожде).
                                                 </p>

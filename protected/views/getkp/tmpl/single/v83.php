@@ -283,7 +283,7 @@ endif;
                                                     </tr>    
                                                     <tr valign="top">                                                        
                                                         <td colspan="2" style="padding: 17px 10px 0 0;">
-                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-3.jpg" width="378" height="300px" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                           <img src="http://www.lbr.ru/images/kp/83-YP825/yp825-3.jpg" width="378" style="border: 0; float: left;" alt="Картинки не отображаются">
                                                         </td>
                                                     </tr>  
                                                     <tr valign="top">                                                        

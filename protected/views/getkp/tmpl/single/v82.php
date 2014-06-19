@@ -73,14 +73,6 @@ endif;
                                                             </p>
                                                         </td>
                                                     </tr>
-                                                    
-                                                     <tr valign="top">                                                        
-                                                        <td colspan="2" style="padding: 17px 10px 0 0;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #F58220; text-align: center; ">Точность посева до 99,9%:</span>                                                                
-                                                            </p>                                                            
-                                                        </td>
-                                                    </tr>
                                                      <tr valign="top">                                                        
                                                         <td colspan="2" style="padding: 17px 10px 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/82-summers/summers1.jpg" width="378" style="border: 0; float: left;" alt="Стрелка вправо">
