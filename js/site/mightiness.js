@@ -31,8 +31,7 @@ var mightiness = {
         $('.mightiness-ico-wrapper img').each(function(){
             $(this).addClass('disabled');
         });
-        $('#mightiness-for-tractor').addClass('disabled');
-
+        $('#mightiness-for-tractor').prop('disabled', 'disabled');
         var from = to = '';
         if(val != 'choice') {
             var index = val.indexOf('-');
@@ -54,15 +53,11 @@ var mightiness = {
             dataType: 'json',
             cache: false,
             success: function(response) {
-                //document.location.href = mightiness.data.baseUrl + "/selskohozyaystvennaya-tehnika/mightiness2/";
-                
-                
                 $('#mightiness-results').html(response.data);
                 $('.mightiness-ico-wrapper img').each(function(){
                     $(this).removeClass('disabled');
                 });
-                $('#mightiness-for-tractor').removeClass('disabled');
-                
+                $('#mightiness-for-tractor').prop('disabled', false);
             }
         });
     }

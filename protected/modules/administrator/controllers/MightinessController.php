@@ -180,10 +180,12 @@ class MightinessController extends Controller
         
         $product = new ProductRange;
         $product->title = trim($params[0]);
+        //$product->description = trim($params['description']);
         $product->product_id = $productId;
         if($product->save()) {
             foreach($params as $key => $value){
-                if($key){
+               // if($key != 0 && $key != 'description'){
+                if($key != 0){
                     $value = trim($value);
                     $productValues = new ProductRangeValue;
                     $productValues->range_id = $product->id;
@@ -195,6 +197,7 @@ class MightinessController extends Controller
             }
             $params['id'] = $product->id;
             $params['title'] = $product->title;
+            //$params['description'] = $product->title;
         }
         
         $array = array('params'=>$params);
@@ -211,6 +214,11 @@ class MightinessController extends Controller
             $product->title = trim($params[0]);
             $product->save();
         }
+        if(trim($params['description']) != $product->description) {
+            $product->description = trim($params['description']);
+            $product->save();
+        }
+        
         // !!!! если пустое значение нужно null вставить
         // var_dump($params);
 

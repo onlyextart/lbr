@@ -373,6 +373,10 @@ tinyMCE.init({
                         <span>Заголовок</span>
                         <input v-id="0" type="text"/>
                     </div>
+                    <!--div>
+                        <span>Краткое описание</span>
+                        <input v-id="description" type="text"/>
+                    </div-->
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                     <div>
                         <span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>
@@ -391,6 +395,10 @@ tinyMCE.init({
                             <span>Заголовок</span>
                             <input type="text" v-id="0" value="<?php echo $childProduct['title'] ?>"/>
                         </div>
+                        <!--div>
+                            <span>Краткое описание</span>
+                            <input type="text" v-id="description" value="<?php //echo $childProduct['description'] ?>"/>
+                        </div-->
                         <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                         <div>
                             <span><?php echo (!empty($techChar['measureReduction']))? $techChar['techCharTitle'].', '.$techChar['measureReduction'] : $techChar['techCharTitle'] ?></span>
