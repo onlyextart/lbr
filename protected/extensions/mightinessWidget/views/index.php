@@ -1,11 +1,3 @@
-<script>
-    $(function() {
-        mightiness.data = {
-            baseUrl : '<?php echo Yii::app()->getBaseUrl(true) ?>',
-        };
-        mightiness.init();
-    });
-</script>
 <div class="mightinessSelector">
     Выберите мощность:
     <select id="mightiness-for-tractor">
@@ -25,5 +17,13 @@
     <img view="3" src="<?php echo Yii::app()->getBaseUrl(true).'/images/ico-mightiness-text.png'; ?>">
 </div>
 <div style="clear: both"></div>
+<script>
+    $(function() {
+        mightiness.data = {
+            baseUrl : '<?php echo Yii::app()->getBaseUrl(true) ?>',
+        };
+        mightiness.init();
+    });
+</script>
 
 

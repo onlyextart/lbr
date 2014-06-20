@@ -22,8 +22,7 @@ var mightiness = {
                 if(!isNaN(view)) view = 1;
                 sessionStorage.setItem('mightinessOption', this.value);
                 
-                if($('#mightiness-for-tractor').find(':selected').attr('val') == 'choice') $('#mightiness-results').html('');
-                else mightiness.sendData($('option:selected', this).attr('val'), view);
+                mightiness.sendData($('option:selected', this).attr('val'), view);
             }
         });
     },
@@ -45,7 +44,7 @@ var mightiness = {
 
         $.ajax({
             type: "POST",
-            url: "/mightiness/loadProducts/",
+            url: "/mightiness/saveSelectedOption/",
             data:{
                 from: from,
                 to: to,
@@ -54,15 +53,7 @@ var mightiness = {
             dataType: 'json',
             cache: false,
             success: function(response) {
-                //document.location.href = mightiness.data.baseUrl + "/selskohozyaystvennaya-tehnika/mightiness2/";
-                
-                
-                $('#mightiness-results').html(response.data);
-                $('.mightiness-ico-wrapper img').each(function(){
-                    $(this).removeClass('disabled');
-                });
-                $('#mightiness-for-tractor').removeClass('disabled');
-                
+                document.location.href = mightiness.data.baseUrl + "/selskohozyaystvennaya-tehnika/mightiness/";
             }
         });
     }
