@@ -147,13 +147,6 @@ endif;
                                         </tbody>
                                    </table>                         
                                 </td>
-                            </tr>  
-                            <tr valign="top">
-                                <td width="700" style="padding: 0 40px; text-align: center;">
-                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">                                                   
-                                        * Гидростатическая трансмиссия позволяет погрузчику передвигаться плавно, с точностью до сантиметра, что позволяет выполнять погруза – разгрузочные работы с высокой точностью и аккуратностью.                                    
-                                    </p>
-                                </td>
                             </tr>
                         </table>
                     </td></tr> 
