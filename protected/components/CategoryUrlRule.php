@@ -14,7 +14,6 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::NEWS_MENU_ITEM_TYPE=>'news',
         MenuItems::MIGHTINESS_MENU_ITEM_TYPE=>'mightiness',
         MenuItems::TECHSCHEMA_MENU_ITEM_TYPE=>'techschema',
-        MenuItems::TECHCYCLE_MENU_ITEM_TYPE=>'techcycle',
     );
     
     public function createUrl($manager, $route, $params, $ampersand)
