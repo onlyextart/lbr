@@ -10,7 +10,7 @@ table.table-tech-stage-with-img, table.table-tech-stage{
     max-width: 100%;
     margin-bottom: 10px;
 }
-table.table-tech-stage-with-img{
+table.table-tech-stage-with-img, table.table-tech-stage-with-img .label.label-empty{
     background-color: #ebedec;
 }
 table.table-tech-stage-with-img ul {
@@ -27,7 +27,7 @@ table.table-tech-stage-with-img ul a:link, table.table-tech-stage-with-img ul a:
     text-decoration: none;
     color: #000000;
 }
-table.table-tech-stage-with-img tr:first-child td:not(:first-child)
+table.table-tech-stage-with-img tr:first-child td:not(:first-child), table.table-tech-stage-with-img td.label
 {
     background-color: #c3cad0;
     color: #ffffff;
@@ -47,6 +47,7 @@ table.table-tech-stage-with-img tr:not(:first-child) td:first-child{
     width: 120px;
     height: 300px;
 }
+
 table.table-tech-stage tr:not(:first-child) td:first-child{
     width: 120px;
 }
@@ -74,9 +75,18 @@ table.table-tech-stage-with-img .product-list-wrapper {
 table.table-tech-stage td{
     padding: 5px;
 }
+
 table.table-tech-stage ul {
     padding: 0;
-    margin: 0 15px;
+    margin: 5px 20px;
+    min-height: 20px;
+}
+
+table.table-tech-stage-with-img td.label{
+    width: auto !important;
+    height: auto !important;
+    text-align: center !important;
+    vertical-align: middle !important;
 }
 
 

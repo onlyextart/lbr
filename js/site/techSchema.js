@@ -24,6 +24,8 @@ var techSchema = {
     loadTechSchema : function(){
         var schemaIds = [];
         var nodes = $('input[name^=chk_group]');
+        var activeView = parseInt(sessionStorage.getItem('techSchemaActiveView'));
+        if(isNaN(activeView)) activeView = 1;
         
         $('.tech-schema-ico-wrapper img').each(function(){
             $(this).addClass('disabled');

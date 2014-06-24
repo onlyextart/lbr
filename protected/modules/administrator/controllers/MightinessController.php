@@ -177,15 +177,15 @@ class MightinessController extends Controller
     {
         $params = array_filter($_POST['params']);
         $productId = $_POST['productId'];
-        
+        $description = trim($_POST['description']);
+        //var_dump($description); exit;
         $product = new ProductRange;
         $product->title = trim($params[0]);
-        //$product->description = trim($params['description']);
+        if(!empty($description)) $product->description = $description;
         $product->product_id = $productId;
         if($product->save()) {
             foreach($params as $key => $value){
-               // if($key != 0 && $key != 'description'){
-                if($key != 0){
+                if($key != 0) {
                     $value = trim($value);
                     $productValues = new ProductRangeValue;
                     $productValues->range_id = $product->id;
@@ -197,7 +197,7 @@ class MightinessController extends Controller
             }
             $params['id'] = $product->id;
             $params['title'] = $product->title;
-            //$params['description'] = $product->title;
+            $params['description'] = $description;
         }
         
         $array = array('params'=>$params);
@@ -208,19 +208,19 @@ class MightinessController extends Controller
     {
         $id = $_POST['id'];
         $parentId = $_POST['parentId'];
+        $description = trim($_POST['description']);
         $params = array_filter($_POST['params']);
         $product = ProductRange::model()->findByPk($id);
         if(trim($params[0]) != $product->title) {
             $product->title = trim($params[0]);
             $product->save();
         }
-        if(trim($params['description']) != $product->description) {
-            $product->description = trim($params['description']);
+        if($description != $product->description && !empty($description)) {
+            $product->description = $description;
             $product->save();
         }
         
         // !!!! если пустое значение нужно null вставить
-        // var_dump($params);
 
         foreach($params as $key=>$value) {
             if($key){

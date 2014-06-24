@@ -15,6 +15,7 @@
         
         foreach($childProducts as $child) {
             $allChildProducts[$child->id]['title'] = $child->title;
+            $allChildProducts[$child->id]['description'] = $child->description;
             $techCharValues = ProductRangeValue::model()->findAll(array('condition'=>'range_id=:id', 'params'=>array(':id'=>$child->id)));
             foreach($techCharValues as $value){
                 $val = '';
@@ -373,10 +374,10 @@ tinyMCE.init({
                         <span>Заголовок</span>
                         <input v-id="0" type="text"/>
                     </div>
-                    <!--div>
+                    <div>
                         <span>Краткое описание</span>
                         <input v-id="description" type="text"/>
-                    </div-->
+                    </div>
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                     <div>
                         <span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>
@@ -395,10 +396,10 @@ tinyMCE.init({
                             <span>Заголовок</span>
                             <input type="text" v-id="0" value="<?php echo $childProduct['title'] ?>"/>
                         </div>
-                        <!--div>
+                        <div>
                             <span>Краткое описание</span>
-                            <input type="text" v-id="description" value="<?php //echo $childProduct['description'] ?>"/>
-                        </div-->
+                            <input type="text" v-id="description" value="<?php echo $childProduct['description'] ?>"/>
+                        </div>
                         <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
                         <div>
                             <span><?php echo (!empty($techChar['measureReduction']))? $techChar['techCharTitle'].', '.$techChar['measureReduction'] : $techChar['techCharTitle'] ?></span>
@@ -771,8 +772,10 @@ tinyMCE.init({
         $('#add-product-child').on('click', function() {
             var container = $(this).parent();
             var params = [];
+            var description = '';
             container.find('[v-id]').each(function(index){
-                params[$(this).attr('v-id')] = $(this).val();
+                if($(this).attr('v-id') == 'description') description = $(this).val();
+                else params[$(this).attr('v-id')] = $(this).val();
                 $(this).val('');
             });
             $.ajax({
@@ -782,6 +785,7 @@ tinyMCE.init({
                 data:{
                     params: params,
                     productId: <?php echo $productModel->id; ?>,
+                    description: description,
                 },
                 success: function(response) {
                     var element = '<h3 class="new">'+response.params['title']+'</h3>'+
@@ -789,6 +793,10 @@ tinyMCE.init({
                             '<div>'+
                                 '<span>Заголовок</span>'+
                                 '<input type="text" v-id="0" value="'+response.params['title']+'"/>'+
+                            '</div>'+
+                            '<div>'+
+                                '<span>Краткое описание</span>'+
+                                '<input type="text" v-id="description" value="'+response.params['description']+'"/>'+
                             '</div>'
                     ;
                     <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
@@ -809,14 +817,17 @@ tinyMCE.init({
             });
         });
         /* ----- update Product Child and it's values ---- */
-        //$('.update-product-child').on('click', function() {
         $('#all-child-products').on('click', ".update-product-child", function() {
             var params = [];
             var element = $(this).parent();
+            var description = '';
             element.find('[v-id]').each(function(index){
-                params[$(this).attr('v-id')] = $(this).val();
+                if($(this).attr('v-id') == 'description') description = $(this).val();
+                else params[$(this).attr('v-id')] = $(this).val();
             });
             
+            element.find('[v-id = "description"]');
+            params['description'] = 
             $.ajax({
                 type: 'POST',
                 url: '/administrator/mightiness/updateChildProduct',
@@ -825,6 +836,7 @@ tinyMCE.init({
                     id: element.attr('ch-id'),
                     parentId: <?php echo $productModel->id; ?>,
                     params: params,
+                    description: description,
                 },
                 success: function(response) {
                     var labelTitle = element.prev('h3').html();

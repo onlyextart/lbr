@@ -28,6 +28,7 @@ class m140520_071725_tables_for_tech_characteristics extends CDbMigration
                 $this->createTable('product_range',array(
                     'id' => 'pk',
                     'title' => 'text',
+                    'description' => 'text',
                     'product_id' => 'INTEGER CONSTRAINT [product_id] REFERENCES [products]([id]) ON DELETE CASCADE ON UPDATE CASCADE',
                 ));
                 

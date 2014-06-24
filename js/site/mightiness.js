@@ -1,7 +1,8 @@
 var mightiness = {
     init : function(){
-        var activeStatus = parseInt(sessionStorage.getItem('mightinessOption'));
-        $('#mightiness-for-tractor').val(activeStatus);
+        //var activeStatus = parseInt(sessionStorage.getItem('mightinessOption'));
+        //$('#mightiness-for-tractor').val(activeStatus);
+        
         var activeView = parseInt(sessionStorage.getItem('mightinessActiveView'));
         if(!isNaN(activeView)) $('.mightiness-ico-wrapper img[view='+activeView+']').addClass('active');
         else $('.mightiness-ico-wrapper img[view=1]').addClass('active');
@@ -20,7 +21,7 @@ var mightiness = {
             if(!$(this).hasClass('disabled')) {
                 var view = parseInt(sessionStorage.getItem('mightinessActiveView'));
                 if(!isNaN(view)) view = 1;
-                sessionStorage.setItem('mightinessOption', this.value);
+                //sessionStorage.setItem('mightinessOption', this.value);
                 
                 if($('#mightiness-for-tractor').find(':selected').attr('val') == 'choice') $('#mightiness-results').html('');
                 else mightiness.sendData($('option:selected', this).attr('val'), view);
@@ -41,7 +42,6 @@ var mightiness = {
                 to = val.substring(index+1);
             }
         }
-
         $.ajax({
             type: "POST",
             url: "/mightiness/loadProducts/",
