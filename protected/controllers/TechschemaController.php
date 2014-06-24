@@ -150,7 +150,7 @@ class TechschemaController extends Controller
 
                             $response .= '</tr></table></div>';
                         } else {
-                            $response .= '<div><table class="table-tech-stage" border="1" cellspacing="0" cellpadding="5">';
+                            $response .= '<div><table class="table-tech-stage" border="0" cellspacing="0" cellpadding="5">';
                             $response .= '<tr>';  
                             $response .= '<td class="label">Этапы заготовки</td>';
                             $count = 0;
@@ -164,7 +164,7 @@ class TechschemaController extends Controller
                                 $count++;
                             }
                             $response .= '</tr>';
-                            $response .= '<tr><td rowspan="'.($rowCount*2-1).'" class="label">'.$key.'</td>';
+                            $response .= '<tr><td rowspan="'.($rowCount*2-1).'" class="label label-title">'.$key.'</td>';
                             $count = 0;
                             foreach($productList[$key] as $id => $products) {
                                 if($count < $dividend) {

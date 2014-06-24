@@ -2586,7 +2586,7 @@ table.table-tech-stage-with-img, table.table-tech-stage{
     max-width: 100%;
     margin-bottom: 10px;
 }
-table.table-tech-stage-with-img, table.table-tech-stage-with-img .label.label-empty{
+table.table-tech-stage-with-img, table.table-tech-stage, table.table-tech-stage-with-img .label.label-empty{
     background-color: #ebedec;
 }
 table.table-tech-stage-with-img ul {
@@ -2657,9 +2657,38 @@ table.table-tech-stage-with-img .product-list-wrapper {
 #tech-schema-results table.table-tech-stage td{
     padding: 5px;
 }
+#tech-schema-results table.table-tech-stage td {
+    border-right: 1px solid;
+    /*border-top: 1px solid;*/
+}
+#tech-schema-results table.table-tech-stage td.label:not(.label-title) {
+    /*border-right: 1px solid;*/
+    /*border-top: 1px solid;*/
+    border-bottom: 1px solid;
+}
+#tech-schema-results table.table-tech-stage td:not(.label) {
+    /*border-right: 1px solid;*/
+    /*border-top: 1px solid;*/
+    border-bottom: 1px solid;
+}
+#tech-schema-results table.table-tech-stage tr{
+    /*border: 1px solid;*/
+}
+#tech-schema-results table.table-tech-stage{
+    border: 1px solid;
+}
 #tech-schema-results table.table-tech-stage ul {
     padding: 0;
     margin: 5px 20px;
     min-height: 15px;
 }
+/*
+#tech-schema input[type='checkbox']{
+    border:none;
+    background:transparent;border:0;//for IE
+    box-shadow: none;
+    -webkit-appearance: none !important;
+    -moz-appearance:    none !important;
+    appearance:         none !important;
+}*/
 /* technological schema and stage style */
