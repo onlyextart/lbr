@@ -1,5 +1,5 @@
 <?php
-class TechSchemaController extends Controller
+class TechschemaController extends Controller
 {
     public function actionIndex()
     {
