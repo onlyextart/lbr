@@ -2666,7 +2666,7 @@ table.table-tech-stage-with-img .product-list-wrapper {
     /*border-top: 1px solid;*/
     border-bottom: 1px solid;
 }
-#tech-schema-results table.table-tech-stage td:not(.label) {
+#tech-schema-results table.table-tech-stage tr:not(:last-child) td:not(.label) {
     /*border-right: 1px solid;*/
     /*border-top: 1px solid;*/
     border-bottom: 1px solid;
