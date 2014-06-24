@@ -40,12 +40,15 @@ var techSchema = {
             }
         }
         if(schemaIds.length > 0) {
+            var activeView = parseInt(sessionStorage.getItem('techSchemaActiveView'));
+            if(isNaN(activeView)) activeView = 1;
+            
             $.ajax({
                 type: 'POST',
                 url: '/selskohozyaystvennaya-tehnika/techschema/',
                 dataType: 'json',
                 data:{
-                    view: sessionStorage.getItem('techSchemaActiveView'),
+                    view: activeView,
                     schemaIds: schemaIds,
                 },
                 success: function(response) {
