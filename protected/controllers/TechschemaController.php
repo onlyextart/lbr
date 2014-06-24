@@ -209,25 +209,6 @@ class TechschemaController extends Controller
                         }
                     }
                 }
-                /*else {
-                    foreach($result as $key => $value){
-                        $response .= '<div><table class="table-tech-stage" border="1" cellspacing="0" cellpadding="5"><tr>';  
-                        $response .= '<td>Этапы заготовки</td>';
-                        foreach($value as $v) {
-                            $response .= '<td>'.$v.'</td>';
-                        }
-                        $response .= '</tr><tr><td>'.$key.'</td>';
-                        foreach($productList[$key] as $products) {
-                            $response .= '<td><ul>';
-                            foreach($products as $product) {
-                                if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
-                            }
-                            $response .= '</ul></td>';
-                        }
-
-                        $response .= '</tr></table></div>';
-                    }
-                }*/
             }
             
             $array = array('data'=>$response);
