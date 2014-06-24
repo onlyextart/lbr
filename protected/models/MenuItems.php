@@ -34,6 +34,8 @@ class MenuItems extends CActiveRecord
         const STATIC_MENU_ITEM_TYPE = 3;
         const NEWS_MENU_ITEM_TYPE = 4;
         const LINK_MENU_ITEM_TYPE = 5;
+        const MIGHTINESS_MENU_ITEM_TYPE = 6;
+        const TECHSCHEMA_MENU_ITEM_TYPE = 7;
         
 	/**
 	 * Returns the static model of the specified AR class.
@@ -466,62 +468,64 @@ class MenuItems extends CActiveRecord
             $types[MenuItems::STATIC_MENU_ITEM_TYPE] = 'Статическая страница';
             $types[MenuItems::NEWS_MENU_ITEM_TYPE] = 'Страница новости';
             $types[MenuItems::LINK_MENU_ITEM_TYPE] = 'Внешняя ссылка';
+            $types[MenuItems::MIGHTINESS_MENU_ITEM_TYPE] = 'Мощность трактора';
+            $types[MenuItems::TECHSCHEMA_MENU_ITEM_TYPE] = 'Технологический цикл';
             return $types;
         }
         
         static function getItemIdByPath($path){
-        if( $path === ''){
-            $desiredMenuItem = MenuItems::model()->find('level=1');
-        }
-        else{
-            $path = trim($path, '\/');
-            //Разбиваем запрос на массив по символу "/"
-            $queryPathArray = explode('/', 'index/'.$path );
-            //"переворачиваем" его для обхода начиная с последнего елемента
-            $queryPathArrayReversed = array_reverse( $queryPathArray );
-            foreach( $queryPathArrayReversed as $i=>$partOfPath ){
-                //находим модели всех пунктов меню в которых поле alias равен части пути
-                $menuItemsModel = MenuItems::model()->findAll(
-                    'lower(alias)=:alias AND published=1',
-                    array(
-                        ':alias'=>mb_strtolower($partOfPath),
-                    )
-                );
-                //Если не найдено ни одной записи
-                if( empty($menuItemsModel) ){
-                    return false; // нет такого пункта меню
-                }
+            if( $path === ''){
+                $desiredMenuItem = MenuItems::model()->find('level=1');
+            }
+            else{
+                $path = trim($path, '\/');
+                //Разбиваем запрос на массив по символу "/"
+                $queryPathArray = explode('/', 'index/'.$path );
+                //"переворачиваем" его для обхода начиная с последнего елемента
+                $queryPathArrayReversed = array_reverse( $queryPathArray );
+                foreach( $queryPathArrayReversed as $i=>$partOfPath ){
+                    //находим модели всех пунктов меню в которых поле alias равен части пути
+                    $menuItemsModel = MenuItems::model()->findAll(
+                        'lower(alias)=:alias AND published=1',
+                        array(
+                            ':alias'=>mb_strtolower($partOfPath),
+                        )
+                    );
+                    //Если не найдено ни одной записи
+                    if( empty($menuItemsModel) ){
+                        return false; // нет такого пункта меню
+                    }
 
-                foreach( $menuItemsModel as $menuItemModelNum => $menuItemModel ){
-                    //Предки пункта меню
-                    $ancestors = $menuItemModel->ancestors()->findAll();
-                    //если первый предок является корневым пунктом меню
-                    //и количество предков (+ текущий узел) в базе данных совпадает с количесвом уровней в url
-                    if( $ancestors[0]->level == '1' && (count($ancestors)+1)==count($queryPathArray) ){
-                        //проверяем соответствие частей пути полям alias соответствующих предков
-                        foreach($ancestors as $ancestorNum => $ancestor){
-                            if(mb_strtolower($ancestor->alias) !== mb_strtolower($queryPathArray[$ancestorNum])){
-                                continue(2);
+                    foreach( $menuItemsModel as $menuItemModelNum => $menuItemModel ){
+                        //Предки пункта меню
+                        $ancestors = $menuItemModel->ancestors()->findAll();
+                        //если первый предок является корневым пунктом меню
+                        //и количество предков (+ текущий узел) в базе данных совпадает с количесвом уровней в url
+                        if( $ancestors[0]->level == '1' && (count($ancestors)+1)==count($queryPathArray) ){
+                            //проверяем соответствие частей пути полям alias соответствующих предков
+                            foreach($ancestors as $ancestorNum => $ancestor){
+                                if(mb_strtolower($ancestor->alias) !== mb_strtolower($queryPathArray[$ancestorNum])){
+                                    continue(2);
+                                }
                             }
+                            $desiredMenuItem = $menuItemModel;
+                            break;
                         }
-                        $desiredMenuItem = $menuItemModel;
+                        else{
+                            continue;
+                        }
+                    }
+                    if($desiredMenuItem !== null){
                         break;
                     }
-                    else{
-                        continue;
-                    }
-                }
-                if($desiredMenuItem !== null){
-                    break;
                 }
             }
+            //Если не найден искомый пункт меню
+            if($desiredMenuItem === null){
+                return false; // нет такого пункта меню
+            }
+
+            return $desiredMenuItem->id;
         }
-        //Если не найден искомый пункт меню
-        if($desiredMenuItem === null){
-            return false; // нет такого пункта меню
-        }
-        
-        return $desiredMenuItem->id;
-    }
         
 }
