@@ -2657,7 +2657,7 @@ table.table-tech-stage-with-img .product-list-wrapper {
 #tech-schema-results table.table-tech-stage td{
     padding: 5px;
 }
-#tech-schema-results table.table-tech-stage td {
+#tech-schema-results table.table-tech-stage td:not(.label-last) {
     border-right: 1px solid;
     /*border-top: 1px solid;*/
 }

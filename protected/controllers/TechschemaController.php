@@ -160,7 +160,10 @@ class TechschemaController extends Controller
                             }
                             
                             foreach($temp as $v) {
-                                if($count < $dividend) $response .= '<td class="label">'.$temp[$count]['val'].'</td>';
+                                if($count < $dividend) {
+                                    if($count+1 == $dividend)$response .= '<td class="label label-last">'.$temp[$count]['val'].'</td>';
+                                    else $response .= '<td class="label">'.$temp[$count]['val'].'</td>';
+                                }
                                 $count++;
                             }
                             $response .= '</tr>';
@@ -169,7 +172,8 @@ class TechschemaController extends Controller
                             foreach($productList[$key] as $id => $products) {
                                 if($count < $dividend) {
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
-                                    $response .= '<td><ul>';
+                                    if($count == $dividend-1)$response .= '<td class="label-last"><ul>';
+                                    else $response .= '<td><ul>';
                                     foreach($products as $product) {
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                     }
@@ -192,14 +196,17 @@ class TechschemaController extends Controller
                                         $response .= '<td class="label">'.$v['val'].'</td>';
                                 }
                                 $response .= '</tr><tr>';
+                                
                                 foreach($productList[$key] as $id => $products) {
                                     if(in_array($id, $keyInDiapazon)){
                                         $label = TechSchemaStage::model()->findByPk($id)->img;
+                                        //if($count == $dividend-1)$response .= '<td class="label-last"><ul>';
+                                        //else $response .= '<td><ul>';
                                         $response .= '<td><ul>';
                                         foreach($products as $product) {
                                             if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                         }
-                                        $response .= '</ul></div></td>';
+                                        $response .= '</ul></td>';
                                     }
                                 }
                                 $response .= '</tr>';   
