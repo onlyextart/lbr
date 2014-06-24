@@ -22,12 +22,12 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		'gii'=>array(
-			'class'=>'system.gii.GiiModule',
-			'password'=>'admin',
-			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1','*'),
-		),
+		//'gii'=>array(
+		//	'class'=>'system.gii.GiiModule',
+		//	'password'=>'admin',
+		//	// If removed, Gii defaults to localhost only. Edit carefully to taste.
+		//	'ipFilters'=>array('127.0.0.1','::1','*'),
+		//),
                 'administrator',
                 'users',
 	),
@@ -123,8 +123,8 @@ return array(
                 'defaultRegionId' => 0,
                 'regionId' => 0,
                 'superGroup' => 1,
-                //'host'=>'lbr.ru',
-                'host'=>'lbr.test',
+                'host'=>'lbr.ru',
+                //'host'=>'lbr.test',
                 'menuadmin'=>array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
