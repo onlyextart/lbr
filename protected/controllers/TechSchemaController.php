@@ -3,6 +3,7 @@ class TechSchemaController extends Controller
 {
     public function actionIndex()
     {
+        echo 111; exit;
         $schemaIds = $_POST['schemaIds'];
         if(!empty($schemaIds)) {
             $result = $productList = array();
