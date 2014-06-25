@@ -190,25 +190,64 @@ class TechschemaController extends Controller
                                         $keyInDiapazon[] = $temp[$c]['key'];
                                     }
                                 }
+                                
                                 $response .= '<tr>';
+                                $count = 0;
+                                $len = count($keyInDiapazon);
                                 foreach($temp as $k=>$v) {
-                                    if(in_array($v['key'], $keyInDiapazon)) 
-                                        $response .= '<td class="label">'.$v['val'].'</td>';
+                                    if(in_array($v['key'], $keyInDiapazon)) {
+                                        if($i+1 != $rowCount) {
+                                           if($count == $len-1) $response .= '<td class="label label-last">'.$v['val'].'</td>';
+                                           else $response .= '<td class="label">'.$v['val'].'</td>';
+                                        } else $response .= '<td class="label">'.$v['val'].'</td>';
+                                        $count++;
+                                    }
                                 }
                                 $response .= '</tr><tr>';
                                 
+                                /*if($count-1 < $dividend) {
+                                    // var_dump($count);exit;
+                                    for( ; $count < $dividend; $count++) {
+                                       if($count+1 == $dividend) $response .= '<td class="label-last"></td>';
+                                       else $response .= '<td></td>';
+                                    }
+                                }*/
+                                
+                                $count = 0;
+                                $len = count($keyInDiapazon);
                                 foreach($productList[$key] as $id => $products) {
-                                    if(in_array($id, $keyInDiapazon)){
+                                    if(in_array($id, $keyInDiapazon)) {
                                         $label = TechSchemaStage::model()->findByPk($id)->img;
-                                        //if($count == $dividend-1)$response .= '<td class="label-last"><ul>';
-                                        //else $response .= '<td><ul>';
-                                        $response .= '<td><ul>';
+                                        if($i+1 != $rowCount) {
+                                            if($count == $len-1) $response .= '<td class="label-last"><ul>';
+                                            else $response .= '<td><ul>';
+                                        } else $response .= '<td><ul>';
+                                        //
+                                        
+                                        //$response .= '<td><ul>';
+                                        
                                         foreach($products as $product) {
                                             if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                         }
                                         $response .= '</ul></td>';
+                                        $count++;
                                     }
                                 }
+                                
+                                //var_dump($count);exit;
+                                //$count -= 1;
+                                //var_dump($dividend); exit;
+                                
+                                if($count-1 < $dividend) {
+                                    // var_dump($count);exit;
+                                    for( ; $count < $dividend; $count++) {
+                                       //if($count+1 == $dividend) 
+                                           $response .= '<td class="label-last"><ul></ul></td>';
+                                       //else 
+                                         //  $response .= '<td><ul></ul></td>';
+                                    }
+                                }
+                                
                                 $response .= '</tr>';   
                             }
                             

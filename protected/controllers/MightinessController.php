@@ -118,7 +118,7 @@ class MightinessController extends Controller
     public function actionAddValues()
     {
         
-        $root = new TechSchema;
+        /*$root = new TechSchema;
         $root->title = 'Кормозаготовка';
         $root->saveNode();
         $root = new TechSchema;
@@ -728,6 +728,8 @@ class MightinessController extends Controller
         $stage->level = 6;
         $stage->img = '/images/schema/min-till/min-till6.jpg';
         $stage->save();
+        */
+        TechSchemaStage::model()->deleteAll('schema_id=:id', array('id'=>13));
         
         // Vertical-Till
         $stage = new TechSchemaStage();
@@ -769,31 +771,31 @@ class MightinessController extends Controller
         
         // No-Till
         $stage = new TechSchemaStage();
-        $stage->schema_id = 13;
+        $stage->schema_id = 12;
         $stage->stage_id = 34;
         $stage->level = 1;
         $stage->img = '/images/schema/no-till/no-till1.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
-        $stage->schema_id = 13;
+        $stage->schema_id = 12;
         $stage->stage_id = 29;
         $stage->level = 2;
         $stage->img = '/images/schema/no-till/no-till2.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
-        $stage->schema_id = 13;
+        $stage->schema_id = 12;
         $stage->stage_id = 31;
         $stage->level = 3;
         $stage->img = '/images/schema/no-till/no-till3.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
-        $stage->schema_id = 13;
+        $stage->schema_id = 12;
         $stage->stage_id = 32;
         $stage->level = 4;
         $stage->img = '/images/schema/no-till/no-till4.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
-        $stage->schema_id = 13;
+        $stage->schema_id = 12;
         $stage->stage_id = 33;
         $stage->level = 5;
         $stage->img = '/images/schema/no-till/no-till5.jpg';
