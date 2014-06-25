@@ -3,7 +3,7 @@
 <div id="mightiness-results"></div>
 
 <?php
-echo CHtml::link('Добавить в базу значения', '/mightiness/addValues/', array('class'=>'btn-admin'));
+//echo CHtml::link('Добавить в базу значения', '/mightiness/addValues/', array('class'=>'btn-admin'));
 /*
 if(!empty($data)) {
     if(Yii::app()->session->get("mightinessView") == 3){
