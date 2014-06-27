@@ -774,7 +774,6 @@ tinyMCE.init({
         $(".menuTreeView li:odd",this).addClass("odd_menu_item");
         
         /* ----- add Product Child and it's values ---- */
-        <?php if(!$productModel->isNewRecord): ?>
         $('#add-product-child').on('click', function() {
             var container = $(this).parent();
             var params = [];
@@ -941,6 +940,5 @@ tinyMCE.init({
                 }});
             } else element.remove();
         });
-        <?php endif; ?>
     });
 </script>

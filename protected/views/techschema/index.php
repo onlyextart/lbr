@@ -1,12 +1,12 @@
 <h1>По технологическому циклу</h1>
 <div class="tech-schema-ico-wrapper">
     <div class="tech-schema-ico-label">Варианты отображения:</div> 
-    <img src="http://www.lbr.test/images/ico-mightiness-img-and-text.png" view="1">
-    <img src="http://www.lbr.test/images/ico-mightiness-text.png" view="2">
+    <img src="http://www.lbr.ru/images/ico-mightiness-img-and-text.png" view="1">
+    <img src="http://www.lbr.ru/images/ico-mightiness-text.png" view="2">
 </div>
 <div class="tech-schema-print" style="display: none">
     <div class="tech-schema-ico-label">Распечатать:</div> 
-    <img id="tech-schema-print" src="http://www.lbr.test/images/ico-print.png">
+    <img id="tech-schema-print" src="http://www.lbr.ru/images/ico-print.png">
 </div>
 <div id="tech-schema">
      <?php $roots = TechSchema::model()->roots()->findAll(); ?>
