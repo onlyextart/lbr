@@ -241,7 +241,7 @@ endif;
                                     </table> 
                                     </td>
                                     <td style="vertical-align: top;">
-                                    <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="255" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
                                             <td style="padding: 10px 15px 0 0; text-align: left;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: left; ">
