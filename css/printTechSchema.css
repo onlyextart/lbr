@@ -1,19 +1,23 @@
-body{
-    -webkit-print-color-adjust:exact;
-}
-table.table-tech-stage-with-img tr:first-child td, table.table-tech-stage-with-img tr:not(:first-child) td:first-child, table.table-tech-stage tr:first-child td, table.table-tech-stage tr:not(:first-child) td:first-child{
+tr:first-child td, tr:not(:first-child) td:first-child, table.table-tech-stage td.label{
     text-align: center;
 }
-table.table-tech-stage-with-img tr:not(:first-child) td{
+tr:not(:first-child) td:not(.label){
     padding: 0;
     margin: 0;
 }
+
+tr:first-child td:first-child img{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+}
+
 table.table-tech-stage-with-img, table.table-tech-stage{
     width: 100%;
     max-width: 100%;
     margin-bottom: 10px;
 }
-table.table-tech-stage-with-img, table.table-tech-stage-with-img .label.label-empty{
+table.table-tech-stage-with-img, table.table-tech-stage, table.table-tech-stage-with-img .label.label-empty{
     background-color: #ebedec;
 }
 table.table-tech-stage-with-img ul {
@@ -30,12 +34,13 @@ table.table-tech-stage-with-img ul a:link, table.table-tech-stage-with-img ul a:
     text-decoration: none;
     color: #000000;
 }
-table.table-tech-stage-with-img tr:first-child td:not(:first-child), table.table-tech-stage-with-img td.label
+table.table-tech-stage-with-img tr:first-child td:not(:first-child), table.table-tech-stage-with-img .label
 {
     background-color: #c3cad0;
     color: #ffffff;
     font-weight: bold;
 }
+    
 table.table-tech-stage-with-img tr:first-child td:first-child
 {
     background-color: #efc825;
@@ -50,7 +55,12 @@ table.table-tech-stage-with-img tr:not(:first-child) td:first-child{
     width: 120px;
     height: 300px;
 }
-
+table.table-tech-stage-with-img td.label{
+    width: auto !important;
+    height: auto !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
 table.table-tech-stage tr:not(:first-child) td:first-child{
     width: 120px;
 }
@@ -78,18 +88,24 @@ table.table-tech-stage-with-img .product-list-wrapper {
 table.table-tech-stage td{
     padding: 5px;
 }
+table.table-tech-stage td:not(.label-last) {
+    border-right: 1px solid;
+}
+table.table-tech-stage td.label:not(.label-title) {
+    border-bottom: 1px solid;
+}
+table.table-tech-stage tr:not(:last-child) td:not(.label) {
+    border-bottom: 1px solid;
+}
 
+table.table-tech-stage{
+    border: 1px solid;
+}
 table.table-tech-stage ul {
     padding: 0;
     margin: 5px 20px;
-    min-height: 20px;
+    min-height: 15px;
 }
 
-table.table-tech-stage-with-img td.label{
-    width: auto !important;
-    height: auto !important;
-    text-align: center !important;
-    vertical-align: middle !important;
-}
 
 
