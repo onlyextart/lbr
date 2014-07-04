@@ -32,6 +32,7 @@ class AdministratorModule extends CWebModule
                         Yii::app()->clientScript->registerScriptFile('/js/ui/jquery-ui-1.10.1.admin.min.js');
                         Yii::app()->clientScript->registerScriptFile('/js/alertify.min.js');
                         Yii::app()->clientScript->registerScriptFile('/js/admin/admin.js');
+                        Yii::app()->clientScript->registerScriptFile('/js/admin/mightiness.js');
                         
                         if(Yii::app()->user->isGuest){
                             Yii::app()->user->returnUrl = Yii::app()->request->requestUri;

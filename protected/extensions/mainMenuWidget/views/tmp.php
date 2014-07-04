@@ -5,7 +5,7 @@
                 <a href="#">По типу машин</a>
             </li>
             <li style="background:#99d9ea;">
-                <a href="#">Новости вашего региона</a>
+                <a href="#">По технологической схеме</a>
             </li>
             <li style="background:#fff200;">
                 <a href="#">Специальные предложения</a>

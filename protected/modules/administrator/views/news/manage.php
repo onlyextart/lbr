@@ -5,7 +5,7 @@
  * $regionalNews - массив региональных данных новости
  */
 
-if( $newsModel->isNewRecord ){
+if( $newsModel->isNewRecord ) {
     $pageHeader = 'Создание новости';
 }
 else{

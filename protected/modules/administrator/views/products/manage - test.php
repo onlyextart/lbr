@@ -173,7 +173,7 @@ tinyMCE.init({
         )
     ); 
 ?>
-    <div class="admin_main_features hide">
+    <div class="admin_main_features">
         <div class="row">
             <?php echo $form->error( $productModel, 'name'); ?>
             <?php echo $form->labelEx( $productModel, 'name'); ?>
@@ -332,7 +332,8 @@ tinyMCE.init({
                 );
             ?>
         </div>
-        <?php if(!$productModel->isNewRecord): ?>
+    </div>
+    <?php if(!$productModel->isNewRecord): ?>
         <h3>Технические характеристики</h3>
         <div class="admin_additional_features_measure admin_additional_features_content">
             <div>
@@ -424,7 +425,6 @@ tinyMCE.init({
             ?>
         </div>
         <?php endif; ?>
-    </div>
     <div class="admin_content_features">
         <div id="product_features_tabs">
             <ul>
@@ -773,174 +773,55 @@ tinyMCE.init({
         $(".menuTreeView li:even",this).addClass("even_menu_item"); 
         $(".menuTreeView li:odd",this).addClass("odd_menu_item");
         
-        /* ----- add Product Child and it's values ---- */
         <?php if(!$productModel->isNewRecord): ?>
-        $('#add-product-child').on('click', function() {
-            var container = $(this).parent();
-            var params = [];
-            var description = '';
-            container.find('[v-id]').each(function(index){
-                if($(this).attr('v-id') == 'description') description = $(this).val();
-                else params[$(this).attr('v-id')] = $(this).val();
-                $(this).val('');
-            });
-            $.ajax({
-                type: 'POST',
-                url: '/administrator/mightiness/addChildProduct',
-                dataType: 'json',
-                data:{
-                    params: params,
-                    productId: <?php echo $productModel->id; ?>,
-                    description: description,
-                },
-                success: function(response) {
-                    var element = '<h3 class="new">'+response.params['title']+'</h3>'+
-                            '<div class="admin_additional_features_content" ch-id="'+response.params['id']+'">'+
-                            '<div>'+
-                                '<span>Заголовок</span>'+
-                                '<input type="text" v-id="0" value="'+response.params['title']+'"/>'+
-                            '</div>'+
-                            '<div>'+
-                                '<span>Краткое описание</span>'+
-                                '<input type="text" v-id="description" value="'+response.params['description']+'"/>'+
-                            '</div>'
-                    ;
-                    <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
-                    var val = response.params['<?php echo $techCharId; ?>'];
-                    element += '<div>' +
-                        '<span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>' +
-                        '<input v-id="<?php echo $techCharId; ?>" type="text" value="'+val+'"/>' +
-                    '</div>';
-                    <?php endforeach; ?>
-                    element += '<a class="update-product-child admin-btn" href="#" t-id="tech-char-'+response.params['id']+'">Обновить</a>'+
-                        '<a class="del-product-child admin-btn" href="#">Удалить</a>'
-                    ;
-                    element += '</div>';
-                    $("#all-child-products").prepend(element).accordion( "refresh" );
-                    
-                    alertify.success('Сохранен дочерний товар "'+response.params['title']+'"');
-                }
-            });
-        });
-        /* ----- update Product Child and it's values ---- */
-        $('#all-child-products').on('click', ".update-product-child", function() {
-            var params = [];
-            var element = $(this).parent();
-            var description = '';
-            element.find('[v-id]').each(function(index){
-                if($(this).attr('v-id') == 'description') description = $(this).val();
-                else params[$(this).attr('v-id')] = $(this).val();
-            });
-            
-            element.find('[v-id = "description"]');
-            params['description'] = 
-            $.ajax({
-                type: 'POST',
-                url: '/administrator/mightiness/updateChildProduct',
-                dataType: 'json',
-                data:{
-                    id: element.attr('ch-id'),
-                    parentId: <?php echo $productModel->id; ?>,
-                    params: params,
-                    description: description,
-                },
-                success: function(response) {
-                    var labelTitle = element.prev('h3').html();
-                    var index = labelTitle.indexOf('</span>')+7;
-                    labelTitle = labelTitle.substring(0,index);
-                    element.prev('h3').html(labelTitle+params[0]);
-                    alertify.success('Дочерний товар "'+params[0]+'" сохранен успешно');
-                }
-            });
-        });
-        
-        /* ----- update measure ---- */   
-        $('table').on('click', "td .update-measure", function() {
-            var element = $(this).parent().parent();
-            var tLabel = element.children().first();
-            var tId = element.attr('tch-id');
-            var mLabel = element.find('.measure-title');
-            var mReduction = element.find('.measure-reduction');
-            var mId = mLabel.attr('m-id');
-            if(mLabel.prop("tagName").toLowerCase() == 'input') {
-                mLabelText = $.trim(mLabel.val());
-                mReductionText = $.trim(mReduction.val());
-                //if( mLabelText != '' && mReductionText != '' ) {
-                    mLabel.removeClass('measure-error');
-                    mReduction.removeClass('measure-error');
-                    $.ajax({
-                        type: 'POST',
-                        url: '/administrator/mightiness/addMeasure',
-                        dataType: 'json',
-                        data:{
-                            productId: <?php echo $productModel->id; ?>,
-                            tId: tId,
-                            techLabel: tLabel.text(),
-                            mId: mId,
-                            measureLabel: mLabelText,
-                            measureReduction: mReductionText,
-                        },
-                        success: function(response) {
-                            element.attr('tch-id', response.id);
-                            mLabel.parent().parent().find('.update-measure').addClass('hide');
-                            mTitleParent = mLabel.parent();
-                            mLabel.remove();
-                            mTitleParent.append('<span class="measure-title" m-id="">'+mLabelText+'</span>');
-                            mReductionParent = mReduction.parent();
-                            mReduction.remove();
-                            mReductionParent.append('<span class="measure-reduction">'+mReductionText+'</span>');
-                            alertify.success('Сохранена техническая характеристика "'+response.techLabel+', '+response.measureReduction+'"');
-                    }});
-                /*} else {
-                    if( mLabelText == '') mLabel.addClass('measure-error');
-                    else mLabel.removeClass('measure-error');
-                    if( mReductionText == '') mReduction.addClass('measure-error');
-                    else mReduction.removeClass('measure-error');
-                }*/
-            } else {
-                mLabelText = $.trim(mLabel.text());
-                mReductionText = $.trim(mReduction.text());
+            /* ----- add Product Child and it's values ---- */
+            $('#add-product-child').on('click', function() {
+                var container = $(this).parent();
+                var params = [];
+                var description = '';
+                container.find('[v-id]').each(function(index){
+                    if($(this).attr('v-id') == 'description') description = $(this).val();
+                    else params[$(this).attr('v-id')] = $(this).val();
+                    $(this).val('');
+                });
                 $.ajax({
                     type: 'POST',
-                    url: '/administrator/mightiness/updateMeasure',
+                    url: '/administrator/mightiness/addChildProduct',
                     dataType: 'json',
                     data:{
+                        params: params,
                         productId: <?php echo $productModel->id; ?>,
-                        tId: tId,
-                        techLabel: tLabel.text(),
-                        mId: mId,
-                        measureLabel: mLabelText,
-                        measureReduction: mReductionText,
+                        description: description,
                     },
                     success: function(response) {
-                        mLabel.parent().parent().find('.update-measure').addClass('hide');
-                        alertify.success('Обновлена техническая характеристика "'+element.find('td:first-child').html()+'"');
-                }});
-            }
-        });
-        
-        /* ----- delete measure ---- */
-        $('.admin_additional_features_measure table').on('click', "td .del-measure", function() {
-            var element = $(this).parent().parent();
-            var mTitle = element.find('.measure-title');
-            var tId = element.attr('tch-id');
-            if(tId != '' && mTitle.prop("tagName").toLowerCase() != 'input') {
-                $.ajax({
-                    type: 'POST',
-                    url: '/administrator/mightiness/delMeasure',
-                    dataType: 'json',
-                    data:{
-                        productId: <?php echo $productModel->id; ?>,
-                        tId: tId,
-                        mId: mTitle.attr('m-id'),
-                    },
-                    success: function(response) {
-                        var text = $('[tch-id='+element.attr('tch-id')+'] td:first-child').html();
-                        element.remove();
-                        alertify.success('Удалена характеристика "'+text+'"');
-                }});
-            } else element.remove();
-        });
+                        var element = '<h3 class="new">'+response.params['title']+'</h3>'+
+                                '<div class="admin_additional_features_content" ch-id="'+response.params['id']+'">'+
+                                '<div>'+
+                                    '<span>Заголовок</span>'+
+                                    '<input type="text" v-id="0" value="'+response.params['title']+'"/>'+
+                                '</div>'+
+                                '<div>'+
+                                    '<span>Краткое описание</span>'+
+                                    '<input type="text" v-id="description" value="'+response.params['description']+'"/>'+
+                                '</div>'
+                        ;
+                        <?php foreach($allProductTechCharacteristics as $techCharId=>$techChar): ?>
+                        var val = response.params['<?php echo $techCharId; ?>'];
+                        element += '<div>' +
+                            '<span><?php echo $techChar['techCharTitle'].', '.$techChar['measureReduction']?></span>' +
+                            '<input v-id="<?php echo $techCharId; ?>" type="text" value="'+val+'"/>' +
+                        '</div>';
+                        <?php endforeach; ?>
+                        element += '<a class="update-product-child admin-btn" href="#" t-id="tech-char-'+response.params['id']+'">Обновить</a>'+
+                            '<a class="del-product-child admin-btn" href="#">Удалить</a>'
+                        ;
+                        element += '</div>';
+                        $("#all-child-products").prepend(element).accordion( "refresh" );
+
+                        alertify.success('Сохранен дочерний товар "'+response.params['title']+'"');
+                    }
+                });
+            });
         <?php endif; ?>
-    });
+    })
 </script>

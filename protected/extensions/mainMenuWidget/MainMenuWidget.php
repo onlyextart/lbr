@@ -15,7 +15,10 @@ class MainMenuWidget extends CWidget
         if($this->currentMenuItem->level == 1 || $this->currentMenuItem==null)
             return;
         $this->menuBranch = Yii::app()->params['currentMenuBranch'];
-        if($this->menuBranch[1]->alias=='tehnika') {
+        /*echo '<pre>';
+        var_dump($this->desiredMenuItem); 
+        exit;*/
+        if($this->menuBranch[1]->alias=='tehnika'){
             $rootmenu = isset(Yii::app()->request->cookies['rootmenu']) ? Yii::app()->request->cookies['rootmenu']->value : null;
             if($rootmenu === null){
                 $rootmenuModel=MenuItems::model()->find('path=:path', array(':path'=>'/selskohozyaystvennaya-tehnika/type'));
@@ -77,7 +80,9 @@ class MainMenuWidget extends CWidget
                     'level='.($this->startLevel+1).' AND published=1'
             );
         }
-            
+        /*    echo '<pre>';
+        var_dump($this->secondLevelItems); 
+        exit;*/
         if( isset($this->menuBranch[3]) ){
             $this->thirdLevelItems = $this->menuBranch[3]->descendants()->with('group')->findAll(
                     'level='.($this->startLevel+2).' AND published=1'
