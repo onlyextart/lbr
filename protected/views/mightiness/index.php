@@ -1,4 +1,3 @@
-<h1>По мощности трактора</h1>
 <?php $this->widget('ext.mightinessWidget.MightinessWidget'); ?>
 <div id="mightiness-results"></div>
 

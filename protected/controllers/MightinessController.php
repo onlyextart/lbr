@@ -10,7 +10,7 @@ class MightinessController extends Controller
     {
         $from = $_POST['from'];
         $to = $_POST['to'];
-        $view = $_POST['view'];
+        //$view = $_POST['view'];
         $result = array();
         $search = new SearchLog();
         $mightinessId = '';
@@ -56,7 +56,7 @@ class MightinessController extends Controller
             }
         }
         if(!empty($result)){
-            if($view == 3){
+            /*if($view == 3){
                 $response = '<ul class="mightinessTable mightinessTableText">';
                 foreach($result as $key => $value) {
                     if(!empty($result[$key])){
@@ -68,7 +68,7 @@ class MightinessController extends Controller
                     }
                 }
                 $response .=  '</ul>';
-            } else if($view == 2) {
+            } else if($view == 2) {*/
                 $response = '<table class="mightinessTable mightinessTableShort"><tbody>';
                 foreach($result as $key => $value) {
                     if(!empty($result[$key])) {
@@ -86,7 +86,7 @@ class MightinessController extends Controller
                     }
                 }
                 $response .=  '</tbody></table>';
-            } else {
+            /*} else {
                 $response =  '<table class="mightinessTable mightinessTableFullView"><tbody>';
                 foreach($result as $key => $value) {
                     if(!empty($result[$key])){
@@ -108,7 +108,7 @@ class MightinessController extends Controller
                     }
                 }
                 $response .=  '</tbody></table>';
-            }
+            }*/
         } else $response =  'Нет товаров с выбранной мощностью';
         
         $array = array('data'=>$response);

@@ -1996,7 +1996,7 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_second_level li .active a {
   color: #f67f19;
 }
-.main_menu_wrapper .main_menu_second_level li img {
+.main_menu_wrapper .main_menu_second_level li img{
   position: absolute;
   z-index: 10;
   display: block;
@@ -2527,6 +2527,43 @@ ul.mightinessTableText a{
   box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
   -moz-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
   -webkit-box-shadow: 0 1px 2px 0 rgba(50,50,50,0.5);
+}
+ul.mightiness-menu {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul.mightiness-menu .dir {
+    border: medium none;
+    clear: both;
+    display: block;
+    text-align: center;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 4px;
+    text-align: center !important;
+    color: #747474;
+}
+ul.mightiness-menu li:hover, ul.mightiness-menu li.active {
+    cursor: pointer;
+    background: none repeat scroll 0 0 #dfdfdf;
+    z-index: 100;
+}
+
+ul.mightiness-menu > li {
+    float: left;
+    height: 100px;
+    min-width: 125px;
+    text-align: center !important;
+    margin-top: 10px;
+}
+
+ul.mightiness-menu li {
+    font: 12px/15px 'Trebuchet MS',Arial,sans-serif;
+}
+
+#mightiness-results{
+    margin-top: 20px;
 }
 /* end mightiness table style */
 /* technological schema and stage style */
