@@ -391,6 +391,108 @@ endif;
     <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Второй; -->
+
+<!-- Блок Третий: -->
+<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr>
+        <td>
+            <!-- Внутренности блока: -->
+            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                 <tr><td style="padding: 0 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td width="380">
+                                    <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                        
+                                        <tr>
+                                            <td colspan="2" style="padding: 10px 0 0;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                    <span style="font-weight: bold; color: #f58220;">2 функции в одном устройстве – версия drive:</span>
+                                                </p>
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                    <span style="font-weight: bold; color: #f58220;">УПЛОТНЕНИЕ ПОЧВЫ+ТРАНСПОРТИРОВКА.</span>
+                                                </p>
+                                            </td>
+                                        </tr> 
+                                        <tr valign="top"> 
+                                            <td colspan="2" style="padding: 10px 0 5px; text-align: center;">
+                                                <img src="http://www.lbr.ru/images/kp/86-cross/cross12.jpg" width="370" style="border: 0;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>
+                                        <tr valign="top"> 
+                                            <td colspan="2" style="padding: 10px 0 5px 0;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
+                                                    В версии <b>drive</b> агрегаты комплектуются резиновотранспортным катком, который:
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top"> 
+                                            <td colspan="2" style="padding: 0 0 5px 15px">
+                                                <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
+                                                    используется для уплотнения и выравнивания почвы;
+                                                </li>
+                                                <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
+                                                    уменьшает нагрузку на трактор;
+                                                </li>
+                                                <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
+                                                    выполняет транспортную функцию.
+                                                </li>
+                                            </td>
+                                        </tr>                        
+                       </table>
+                                </td>
+                                <td width="380" style="padding-left: 10px;">
+                                    <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td colspan="2" style="padding: 10px 0 0 10px;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                    <span style="font-weight: bold; color: #f58220;">Решение проблем с транспортировкой:</span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td colspan="2" style="padding: 0 0 5px 10px;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                    Версии культиватора с рабочей шириной от 4 метров <b>снабжены гидравлически складываемой рамой (версия H)</b>, которая в сложенном виде не превышает 3 метров, благодаря чему агрегат просто транспортируется по дорогам общественного пользования.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr valign="top">
+                                            
+                                            <td style="padding: 0; vertical-align: middle; text-align: right;">
+                                                <img src="http://www.lbr.ru/images/kp/86-cross/cross13.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            </td>
+                                        </tr>
+                                    </table>                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </td></tr> 
+                    <tr valign="top">
+                                <td style="padding: 5px 20px 0 0;">   
+                                <img src="http://www.lbr.ru/images/kp/86-cross/cross14.jpg" width="760" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            
+                    </td></tr>
+                                             
+                    <!-- Ссылка-кнопка подробнее -->
+                    <?php
+                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
+                                array(
+                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/339-kultivatory-cross/',
+                                    'colspan' => false,
+                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                                    )
+                                );
+                    ?>
+                    
+            </table>
+            <!-- Внутренности блока; -->
+        </td>
+    </tr>
+    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+</table>
+<!-- Блок Третий; -->
 <?php
 if($data['show_footer']=='1' || !isset($data['show_footer'])):
     Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
