@@ -259,7 +259,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                             <tr valign="top">
-                                <td style="padding: 10px 0 0;">
+                                <td style="padding: 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
 
                                         <tr><td style="padding: 0 20px 0 20px;">
@@ -356,9 +356,9 @@ endif;
                                         <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
                             <tr>
-                                <td style="padding: 5px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         ВАЛКООБРАЗОВАТЕЛИ</a>
                                     </a>
                                 </td>                                
@@ -369,7 +369,7 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 5px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         1. Валкообразователь TCR 8</a>
@@ -483,7 +483,7 @@ endif;
                                         <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 5px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         2. Валкообразователь Raptor</a>
@@ -578,16 +578,7 @@ endif;
                                             </table>
                                         </td></tr> 
                                     </table>
-                                </td></tr>           
-                            <!-- Ссылка-кнопка подробнее -->
-                            <?php
-                            Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                                'link' => 'http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/',
-                                'colspan' => 2,
-                                'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                                    )
-                            );
-                            ?>
+                                </td></tr> 
                         </table>
                         <!-- Внутренности блока; -->
                     </td>
@@ -612,13 +603,13 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                             <tr valign="top">
-                                <td style="padding: 10px 0 0;">
+                                <td style="padding: 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
 
                                         <tr><td style="padding: 0 20px 10px 20px;">
                                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                                 <tr>
-                                                    <td style="padding: 15px 0 3px 0;">
+                                                    <td style="padding: 0 0 3px 0;">
                                                     <!-- Заголовок -->
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                                         3. Валкообразователь Millenium</a>
@@ -715,7 +706,7 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         4. Валкообразователь ПРОФИЛАЙНЕР 380</a>
@@ -820,7 +811,7 @@ endif;
                                         <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         5. Валкообразователь ПРОФИЛАЙНЕР 800</a>
@@ -862,12 +853,12 @@ endif;
                                                                 </td>
                                                                 <td style="width: 333px; padding: 10px 10px 0 0; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #808285; ">Широко сгребает на большой скорости и идеально укладывает.</span>
+                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; font-style: italic; color: #808285; ">Широко сгребает на большой скорости и идеально укладывает.</span>
                                                                     </p>
                                                                 </td>
                                                             </tr>
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 5px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
                                                                         Валкообразователь состоит из двух роторов с рабочим диаметром 3,1 м на общей несущей раме. 
@@ -905,8 +896,8 @@ endif;
                                                                             <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">11</td>
                                                                         </tr>
                                                                          <tr>
-                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Количество пружинных зубьев на штанге, шт.</td>
-                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4</td>
+                                                                            <td style="margin: 0; padding: 3px 0 0 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Кол-во пружинных зубьев на штанге</td>
+                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4 шт</td>
                                                                         </tr>
                                                                          <tr>
                                                                             <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Требуемая мощность трактора, л.с.</td>
@@ -952,13 +943,13 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                             <tr valign="top">
-                                <td style="padding: 10px 0 0;">
+                                <td style="padding: 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
 
-                                        <tr><td style="padding: 0 20px 10px 20px;">
+                                        <tr><td style="padding: 0 20px;">
                                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                                 <tr>
-                                                    <td style="padding: 15px 0 3px 0;">
+                                                    <td style="padding: 0 0 3px 0;">
                                                     <!-- Заголовок -->
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                                         6. Валкообразователь RCS</a>
@@ -1004,7 +995,7 @@ endif;
                                                                 </td>
                                                             </tr>    
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
                                                                         В конструкции валкообразователя RCS используется одиночный действующий гидравлический цилиндр для поднятия граблей в рабочее положение из кабины трактора. 
@@ -1013,7 +1004,7 @@ endif;
                                                                 </td>
                                                             </tr>                                                            
                                                             <tr>
-                                                                <td style="padding: 5px 0 0 15px;">
+                                                                <td style="padding: 0 0 0 15px;">
                                                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                     <tbody>
                                                                         <tr>
@@ -1086,7 +1077,7 @@ endif;
                                                                 </td>
                                                                 <td style="width: 333px; padding: 10px 0 0 0; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #808285; ">Расширенные технологические возможности граблей благодаря изменению направления вращения роторов в работе.</span>
+                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; font-style: italic; color: #808285; ">Расширенные технологические возможности граблей благодаря изменению направления вращения роторов в работе.</span>
                                                                     </p>
                                                                 </td>
                                                             </tr>   
@@ -1096,7 +1087,7 @@ endif;
                                                     <td>
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bolder; color: black; ">
                                                                        Выполняемые операции:</span>
@@ -1112,7 +1103,7 @@ endif;
                                                                 </td>
                                                             </tr>    
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Машина отлично справляется со сгребанием и ворошением даже плотной зеленой массы.</span>
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
@@ -1165,9 +1156,9 @@ endif;
                                         <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         ПРЕСС-ПОДБОРЩИКИ</a>
                                     </a>
                                 </td>                                
@@ -1178,7 +1169,7 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         1. Пресс-подборщик рулонный Колумбия Р10</a>
@@ -1197,7 +1188,7 @@ endif;
                                                     <td style="padding: 0;">
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr>
-                                                                <td colspan="2" style="padding: 10px 0 0;">
+                                                                <td colspan="2" style="padding: 5px 0 0;">
                                                                    <img src="http://www.lbr.ru/images/kp/116-all/korm-all-11.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
                                                                 </td>
                                                             </tr>
@@ -1207,7 +1198,7 @@ endif;
                                                     <td>
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 5px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Заготовка одной универсальной машиной всех видов кормов</span>
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
@@ -1216,7 +1207,7 @@ endif;
                                                                 </td>
                                                             </tr>  
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Подтвержденная фактами производительность:</span>
                                                                     </p>
@@ -1227,7 +1218,7 @@ endif;
                                                                 </td>
                                                             </tr>
                                                            <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 5px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Плотность прессования в 2 раза выше</span>
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
@@ -1236,7 +1227,7 @@ endif;
                                                                 </td>
                                                             </tr>                                                            
                                                             <tr>
-                                                                <td style="padding: 5px 0 0 15px;">
+                                                                <td style="padding: 0 0 0 15px;">
                                                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                     <tbody>
                                                                         <tr>
@@ -1311,13 +1302,13 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                             <tr valign="top">
-                                <td style="padding: 10px 0 0;">
+                                <td style="padding: 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
 
-                                        <tr><td style="padding: 0 20px 10px 20px;">
+                                        <tr><td style="padding: 0 20px 0 20px;">
                                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                                 <tr>
-                                                    <td style="padding: 15px 0 3px 0;">
+                                                    <td style="padding: 0 0 3px 0;">
                                                     <!-- Заголовок -->
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                                         2. Пресс-подборщик тюковый Z-511</a>
@@ -1344,9 +1335,9 @@ endif;
                                                                 <td style="width: 30px; padding: 10px 0 0 0;">
                                                                     <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                                 </td>
-                                                                <td style="width: 333px; padding: 10px 0 0 0; vertical-align: middle;">
+                                                                <td style="width: 333px; padding: 0; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #808285; ">Прямоугольные тюки – качественно спрессованный продукт; удобство хранения и использования.</span>
+                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; font-style: italic; color: #808285; ">Прямоугольные тюки – качественно спрессованный продукт; удобство хранения и использования.</span>
                                                                     </p>
                                                                 </td>
                                                             </tr>   
@@ -1356,7 +1347,7 @@ endif;
                                                     <td>
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bolder; color: black; ">
                                                                         Формирование нужного вам тюка простой регулировкой:</span>
@@ -1420,10 +1411,10 @@ endif;
                                                 </tr>                             
                                             </table>
                                         </td></tr>
-                                        <tr><td style="padding: 0 20px 10px 20px;">
+                                        <tr><td style="padding: 0 20px 0 20px;">
                                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                                 <tr>
-                                                    <td style="padding: 15px 0 3px 0;">
+                                                    <td style="padding: 0 0 3px 0;">
                                                     <!-- Заголовок -->
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                                         3. Пресс-подборщик рулонный COLUMBIA SUPER</a>
@@ -1458,12 +1449,12 @@ endif;
                                                                 </td>
                                                                 <td style="width: 333px; padding: 10px 0 0 0; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #808285; ">Повышенная производительность благодаря увеличенной плотности прессования и низким расположением загребного вала и специального роторного устройства.</span>
+                                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; font-style: italic; color: #808285; ">Повышенная производительность благодаря увеличенной плотности прессования и низким расположением загребного вала и специального роторного устройства.</span>
                                                                     </p>
                                                                 </td>
                                                             </tr> 
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 5px 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bolder; color: #F58220; ">
                                                                         Выработка пресс-подборщика:</span>
@@ -1500,7 +1491,7 @@ endif;
                                                     </td>
                                                 </tr>
                                                 <tr valign="top">
-                                <td colspan="2" style="padding: 10px 0 0; text-align: center;">
+                                <td colspan="2" style="padding: 0; text-align: center;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                             <tbody>
                                 <tr>
@@ -1561,9 +1552,9 @@ endif;
                                         <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         ПРЕСС-ПОДБОРЩИКИ</a>
                                     </a>
                                 </td>                                
@@ -1574,7 +1565,7 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         1. Обмотчик рулонов FW 36</a>
@@ -1603,7 +1594,7 @@ endif;
                                                     <td>
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 5px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Загрузка и обмотка рулонов без остановок</span>
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
@@ -1613,7 +1604,7 @@ endif;
                                                                 </td>
                                                             </tr>  
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Результат работы машины – идеально упакованный в пленку рулон для длительного хранения:</span>
                                                                     </p>
@@ -1638,12 +1629,12 @@ endif;
                                                                    <table width="365" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                                                     <tbody>
                                                                         <tr>
-                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Модель</td>
+                                                                            <td style="margin: 0; padding: 3px 0 0 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 260px; background: #d1d3d4;">Модель</td>
                                                                             <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">FW 36</td>
                                                                         </tr>
                                                                         <tr>
-                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Макс. размер рулона (ширина и диаметр), см</td>
-                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">120 х 160</td>
+                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Макс. размер рулона (ширина и диаметр)</td>
+                                                                            <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">120 х 160 см</td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Система разгрузки рулона</td>
@@ -1694,12 +1685,12 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                             <tr valign="top">
-                                <td style="padding: 10px 0 0;">
+                                <td style="padding: 0;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr><td style="padding: 0 20px 10px 20px;">
+                                        <tr><td style="padding: 0 20px 0 20px;">
                                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                                 <tr>
-                                                    <td style="padding: 15px 0 3px 0;">
+                                                    <td style="padding: 0 0 3px 0;">
                                                     <!-- Заголовок -->
                                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                                         2. Обмотчик рулонов SAVANNA EVOLUTION</a>
@@ -1751,7 +1742,7 @@ endif;
                                                                         – всех модели обмотчиков Savanna Evolution оснащены двумя высококачественными натяжными роликами с постоянным 55%-ным натяжением пленки.</span>
                                                                     </p>
                                                                 </td>
-                                                                 <td style="padding: 10px 0 0 15px;">
+                                                                 <td style="padding: 0 0 0 15px;">
                                                                     <img src="http://www.lbr.ru/images/kp/116-all/korm-all-16.jpg" width="170" style="border: 0; float: left;" alt="Стрелка вправо">
                                                                 </td>
                                                             </tr> 
@@ -1759,7 +1750,7 @@ endif;
                                                             </td>
                                                             </tr> 
                                                             <tr valign="top">
-                                                                <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                                                <td colspan="2" style="width: 333px; padding: 0 0 0 15px; vertical-align: middle;">
                                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bolder; color: #F58220; ">
                                                                         1 катушка пленки на 50 рулонов!</span>
@@ -1770,7 +1761,7 @@ endif;
                                                     </td>
                                                 </tr>
                                                 <tr valign="top">
-                                <td colspan="2" style="padding: 10px 0 0; text-align: center;">
+                                <td colspan="2" style="padding: 0; text-align: center;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                             <tbody>
                                 <tr>
@@ -1828,9 +1819,9 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 5px 0 3px 0;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         Всегда в наличии все материалы для кормозаготовки</a>
                                     </a>
                                 </td>                                
@@ -1850,10 +1841,9 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
                             <tr>
                                 <td style="padding: 0;">
-                                    <!-- Заголовок -->
-                                    <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
+                                    <p style="font-size: 20px; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         Работаем вместе!</p>
-                                    <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220; line-height: 3px;">
+                                    <p style="font-size: 20px; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220; line-height: 3px;">
                                         Машины-помощники для заготовки кормов.</p>
                                 </td>                                
                             </tr>
@@ -1862,7 +1852,7 @@ endif;
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
-                                <td style="padding: 15px 0 3px 0;">
+                                <td style="padding: 0 0 3px 0;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         1. Погрузчик навесной ТУР</a>
@@ -1973,7 +1963,7 @@ endif;
                                                     </td>
                                                 </tr>
                                                 <tr valign="top">
-                                <td colspan="2" style="padding: 10px 0 0; text-align: center;">
+                                <td colspan="2" style="padding: 0; text-align: center;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="right" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                             <tbody>
                                 <tr>
