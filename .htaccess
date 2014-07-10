@@ -101,6 +101,7 @@ RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prika
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/posevnye-kompleksy/585-pnevmaticheskie-seyalki-morris-xpress/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/ [R=301,L]
 RewriteRule ^(.*)(tehnika/traktory/mtz/traktory-belarus-320-mtz/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/traktory/mtz/ [R=301,L]
 
+
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
 RewriteRule ^tehnika/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/ [R=301,L]
 RewriteRule ^tehnika/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ [R=301,L]
