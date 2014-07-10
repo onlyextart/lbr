@@ -97,7 +97,7 @@
                                     <tr>
                                         <td width="130px">
                                             <p style="margin-left: 38px; margin-right: 26px; margin-top: 31px; font-size: 12pt;">
-                                                <img src="http://www.lbr.ru/images/kp/lbr-photo-voronezh.jpg" height="146px" width="102px" alt="photo" style="border: 0;"/>
+                                                <img src="http://www.lbr.ru/images/kp/lbr-photo-empty.jpg" height="146px" width="102px" alt="photo" style="border: 0;"/>
                                             </p>
                                         </td>
                                         <td>
