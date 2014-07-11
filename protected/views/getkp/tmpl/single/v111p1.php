@@ -23,11 +23,11 @@ endif;
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px 10px 5px;">
+                    <td style="padding: 5px 10px 0;">
                         <table width="780" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="80" style="width: 80px; text-align: left;">
-                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-1.jpg" width="70" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-1.jpg" width="60" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                                 <td>
                                     <p style="margin: 0; padding: 0; line-height: 41px; font-family: 'Trebuchet MS', sans-serif; font-size: 40px; text-align: justify; color: black;">
@@ -126,7 +126,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td style="padding-top: 20px;">
+                    <td style="padding-top: 5px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr valign="bottom">
                                 <td style="padding-bottom: 3px;">
@@ -228,7 +228,7 @@ endif;
                         <table width="780" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="80" style="width: 80px; text-align: left;">
-                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-2.jpg" width="70" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-2.jpg" width="60" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                                 <td>
                                     <p style="margin: 0; padding: 0; line-height: 41px; font-family: 'Trebuchet MS', sans-serif; font-size: 40px; text-align: justify; color: black;">
@@ -250,7 +250,7 @@ endif;
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
+                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="27" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
                         </table>
@@ -349,7 +349,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td style="padding: 10px 0 0;">
+                    <td style="padding: 5px 0 0;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr valign="bottom">
                                 <td style="padding-bottom: 3px;">
@@ -359,7 +359,7 @@ endif;
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
+                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="27" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
                         </table>
@@ -444,7 +444,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td style="padding: 10px 0 0;">
+                    <td style="padding: 5px 0 0;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr valign="bottom">
                                 <td style="padding-bottom: 3px;">
@@ -454,7 +454,7 @@ endif;
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
+                                    <img src="http://www.lbr.ru/images/kp/default/tonutti.jpg" height="27" style="border: 0; float: right;" alt="Логотип Unia">
                                 </td>
                             </tr>
                         </table>
@@ -472,7 +472,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 10px 0 0 17px;">
+                                            <td style="padding: 0 0 0 17px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; text-align: left; color: black;">
                                                     <span style="font-weight: bold; color: #F58220;">Одна из самых высокопроизводительных машин в своем  сегменте!</span> Рекомендуемая  рабочая  скорость  - 22 км/ч! 
                                                 </p>
@@ -680,7 +680,7 @@ endif;
                         <table width="780" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="80" style="width: 80px; text-align: left;">
-                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-3.jpg" width="70" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/111-zont/num-3.jpg" width="60" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                                 <td>
                                     <p style="margin: 0; padding: 0; line-height: 44px; font-family: 'Trebuchet MS', sans-serif; font-size: 40px; text-align: justify; color: black;">
@@ -693,7 +693,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td style="padding: 10px 21px 0;">
+                    <td style="padding: 0 21px 0;">
                         <table width="750" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr valign="bottom">
                                 <td style="padding-bottom: 3px;">
@@ -721,7 +721,7 @@ endif;
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding: 10px 21px 0;">
+                    <td style="padding: 5px 21px 0;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td rowspan="3" style="padding: 0px 10px 0 0;">
@@ -739,14 +739,14 @@ endif;
                                 </td>
                             </tr>
                             <tr valign="top">
-                                <td style="padding-top: 5px;">
+                                <td style="padding-top: 2px;">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
                                         <span style="font-weight: bold; color: #f58220;">Подтвержденная  фактами  производительность:</span> 40 рулонов в час! 1 рулон за 1,5 минуты!
                                     </p>
                                 </td>
                             </tr>
                             <tr valign="top">
-                                <td style="padding-top: 5px;">
+                                <td style="padding-top: 2px;">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
                                         <span style="font-weight: bold; color: #f58220;">Плотность прессования в 2 раза выше,</span> чем у отечественных аналогов.
                                     </p>
