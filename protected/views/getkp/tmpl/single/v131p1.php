@@ -472,7 +472,6 @@ endif;
                             </tr> 
                         </table>
                     </td></tr> 
-                     
                     <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
@@ -515,9 +514,7 @@ endif;
                             </tr>
                         </table>
                     </td></tr>
-                <!-- Заголовок со ссылкой и логотипом; -->
-                <!-- Контент первого блока: -->                
-                
+                <!-- Контент первого блока: --> 
 </table>
              </td>
                 </tr>
