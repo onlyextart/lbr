@@ -149,7 +149,7 @@ class MightinessController extends Controller
     
     public function actionAddValues()
     {
-        TechSchema::model()->deleteAll();
+        /*TechSchema::model()->deleteAll();
         TechSchemaStage::model()->deleteAll();
         
         $root1 = new TechSchema;
@@ -221,7 +221,7 @@ class MightinessController extends Controller
         $subCategory9->insertAfter($subCategory8);
         $subCategory10->insertAfter($subCategory9);
         $subCategory7->insertAfter($subCategory10);
-
+*/
         ////////////////////////
         /*
         // Не менять
@@ -329,7 +329,7 @@ class MightinessController extends Controller
         $stage->save();
         */
         /////////////////////////////////////////
-        
+        /*
         // солома
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory4->id; //7
@@ -849,9 +849,9 @@ class MightinessController extends Controller
         $stage->level = 5;
         $stage->img = '/images/schema/no-till/no-till5.jpg';
         $stage->save();
-        
+        */
         ////////////////////////////////////////////////////
-        /*
+        
         $model = MenuItems::model()->findByPk(953);
         $model->mightiness_ico = '/images/mightiness/label_classic.png';
         $model->saveNode();
@@ -899,7 +899,7 @@ class MightinessController extends Controller
         $model->saveNode();
         $model = MenuItems::model()->findByPk(1363);
         $model->mightiness_ico = '/images/mightiness/label_zhatki.png';
-        $model->saveNode();*/
+        $model->saveNode();
         //////////////////////////////////////////
     }
 }
