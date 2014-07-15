@@ -84,63 +84,25 @@ class MightinessController extends Controller
                 }
             }
         }
-        //echo '<pre>';
-        //var_dump($result);exit;
-        //exit;
-        //http://www.lbr.test/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-trb/
-        //http://www.lbr.ru/tehnika/kormozagotovka/pritsepnye-kormouborochnye-kombajny/602-silosorezki-evro-kir-1-5/
         if(!empty($result)){
-            /*$response =  '<table class="mightinessTable mightinessTableFullView"><tbody>';
             foreach($result as $key => $value) {
-                if(!empty($result[$key])){
-                    $response .=  '<tr><th colspan="3">'.mb_strtoupper($key, 'UTF-8').'</th></tr>';
-                    foreach($value as $product) {
-                        //$product['id'] - id родителя
-                        $label = $product['parentName'];
-                        if($product['parentName'] != $product['name']) $label = $product['parentName'].' (модель '.$product['name'].')';
-                        $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
-                        $response .=  '<tr>'.
-                                '<td>' .
-                                    '<div><a href='.$product['path'].'>'.$label.'</a></div><div><img alt="Изображение товара" src="'.Yii::app()->getBaseUrl(true).$product['img'].'"/></div>'.
-                                '</td>' .
-                                '<td class="description">'.$description.'</td>' .
-                                '<td><img alt="Логотип фирмы" src="'.Yii::app()->getBaseUrl(true).$product['logo'].'"/></td>' .
-                            '</tr>'
-                        ;
-                    }
-                }
-            }
-            $response .=  '</tbody></table>';
-            */
-            //$response =  '<table class="mightinessTable mightinessTableFullView"><tbody>';
-            
-            foreach($result as $key => $value) {
-                
                 if(!empty($result[$key])){
                     $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
-                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';//'<tr><th colspan="3">'.mb_strtoupper($key, 'UTF-8').'</th></tr>';
-                    //$response .=  '<div class="mightiness-menu-label '.$colorCssClass.'"><img src="'.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].'" alt=""/><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';//'<tr><th colspan="3">'.mb_strtoupper($key, 'UTF-8').'</th></tr>';
-                    
+                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
                     foreach($value as $product) {
-                        //$label = $product['parentName'];
                         $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
                         if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
-                        //if($product['parentName'] != $product['name']) $label .= '<span>'.$product['parentName'].'</span><br>(модель '.$product['name'].')';
                         $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                         $response .=  '<div class="mresults">';
-                        //$response .=  '<div class="m_header"><a href='.$product['path'].'>'.$label.'</a></div>';
                         $response .=  '<div class="m_header">'.$label.'</div>';
                         $response .=  '<div class="m_image"><img alt="Изображение товара" src="'.Yii::app()->getBaseUrl(true).$product['img'].'"/></div>';
                         $response .=  '<div class="m_caption"><p>'.$description.'</p></div>';
                         $response .=  '</div>';
-                        //$product['id'] - id родителя
                     }
                     
                     $response .=  '<div style="clear: both"></div>';
                 }
             }
-            
-            //$response .=  '</tbody></table>';
         } else $response =  '<span class="m_no_res">Нет товаров с выбранной мощностью</span>';
         
         $array = array('data'=>$response);
@@ -851,7 +813,7 @@ class MightinessController extends Controller
         $stage->save();
         */
         ////////////////////////////////////////////////////
-        
+        /*
         $model = MenuItems::model()->findByPk(953);
         $model->mightiness_ico = '/images/mightiness/label_classic.png';
         $model->saveNode();
@@ -899,7 +861,7 @@ class MightinessController extends Controller
         $model->saveNode();
         $model = MenuItems::model()->findByPk(1363);
         $model->mightiness_ico = '/images/mightiness/label_zhatki.png';
-        $model->saveNode();
+        $model->saveNode();*/
         //////////////////////////////////////////
     }
 }

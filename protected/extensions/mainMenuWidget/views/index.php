@@ -23,9 +23,6 @@
         <ul>
             <?php
             foreach($this->secondLevelItems as $itemNum => $secondLevelItem) {
-                //echo '<pre>';
-                //var_dump($this->secondLevelItems); exit;
-                
                 $colorCssClass='menu_color_group_'.$secondLevelItem->group->id;
                 echo CHtml::openTag('li', array(
                     'class'=>( isset($this->menuBranch[3]) && $this->menuBranch[3]->id==$secondLevelItem->id )?
