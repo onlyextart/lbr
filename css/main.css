@@ -1983,12 +1983,20 @@ footer .f-right .f-nav:after {
   background: -ms-linear-gradient(top,#ffffff,#ededed);
   background: linear-gradient(top,#ffffff,#ededed);
 }
-.main_menu_wrapper .main_menu_second_level li, .tech-menu-wrapper li {
+.main_menu_wrapper .main_menu_second_level li{
   float: left;
   margin: 0px;
   padding: 0 0%;
-  /*width: 12.5%;
-  height: 100px;*/
+  width: 12.5%;
+  height: 100px;
+  position: relative;
+  background: transparent;
+  background-color: transparent;
+}
+.tech-menu-wrapper li {
+  float: left;
+  margin: 0px;
+  padding: 0 0%;
   position: relative;
   background: transparent;
   background-color: transparent;
