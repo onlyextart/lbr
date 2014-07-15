@@ -149,7 +149,7 @@
                 </ul>
             </div>
             <div class="map">
-                <a href="/company/contacts/">
+                <a href="http://www.lbr.ru/company/contacts/">
                     <span>Контакты</span>
                     <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
                 </a>

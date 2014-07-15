@@ -411,12 +411,12 @@ endif;
                                                     <tr valign="top">
                                             <td style="padding: 5px 10px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
-                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black">• Каток «Паккер», диам. 500 м, ширина 3/4/6 м</span> 
+                                                   <span style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black">• Жестяной каток, диам. 700 м, ширина 3/4/6 м</span> 
                                                    – для выравнивания среднетяжелых и тяжелых почв, дополнительно взрыхляет самый верхний слой почвы.
                                                 </p>
                                             </td>
                                             <td style="padding: 5px 0 0 0; vertical-align: middle; text-align: right;">
-                                                <img src="http://www.lbr.ru/images/kp/73-kret/kret12.jpg" width="180" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                                <img src="http://www.lbr.ru/images/kp/73-kret/kret14.jpg" width="180" style="border: 0; float: right;"  alt="Картинки не отображаются">
                                             </td>
                                             </tr>
                                             </table>

@@ -100,7 +100,7 @@
                                         </td>
                                         <td>
                                             <div style="font-size: 9pt; position: relative; padding-left: 2px; margin-top: 40px">
-                                                <p>C уважением, <br/> И.О. Директора Красноярского АгроМаркета ЛБР</p>
+                                                <p>C уважением, <br/> директор Красноярского АгроМаркета ЛБР</p>
                                                 <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px;">
                                                     <span><img src="http://www.lbr.ru/images/kp/line.jpg" width="163px" height="3px" alt="line" style="border: 0;"/></span>
                                                     <span style="text-align: right;">
