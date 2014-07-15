@@ -70,7 +70,7 @@ function sortByTechCharTitle($a, $b)
             }
         ?>
         <?php // echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
-        <?php // вынести в отдельную функцию !!!!
+        <?php 
             if(!empty($productRange)) {
                 echo '<div id="features_content">';
                 echo '<p>
@@ -114,6 +114,8 @@ function sortByTechCharTitle($a, $b)
                 foreach($allProductTechCharacteristics as $techCharId=>$techChar)
                 {
                     $prodTChar = ProductTechCharacteristic::model()->find(array('condition'=>'tech_id=:tId and product_id=:id', 'params'=>array(':tId'=>$techCharId, ':id'=>$data->id)));
+                    //echo '<pre>';
+                    //var_dump($prodTChar->attributes);exit;
                     $title = $techChar['techCharTitle'];
                     if(!empty($techChar['measureReduction'])) $title .= ', '.$techChar['measureReduction'];
                     
@@ -121,9 +123,8 @@ function sortByTechCharTitle($a, $b)
                     echo '<td><span style="font-family: arial, helvetica, sans-serif; font-size: small;">'.$title.'</span></td>';
                     foreach($productRange as $childRange) {
                         $techValue = ProductRangeValue::model()->find(array('condition'=>'tech_id=:tId and range_id=:id', 'params'=>array(':tId'=>$prodTChar->id, ':id'=>$childRange['id'])));
-                        $val = '';
-                        if(!empty($techValue->val_int))$val = ProductRangeValue::floatNumber($techValue->val_int);
-                        else if(!empty($techValue->val_text)) $val = $techValue->val_text;
+                        $val = ProductRangeValue::floatNumber($techValue->val_int);
+                        if(!empty($techValue->val_text)) $val = $techValue->val_text;
                         echo '<td style="text-align: center;">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small;">'.
                             $val.'</span>

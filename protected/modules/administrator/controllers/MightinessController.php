@@ -186,10 +186,11 @@ class MightinessController extends Controller
         if($product->save()) {
             foreach($params as $key => $value){
                 if($key != 0) {
+                    $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$product->id, ':tId'=>$key)));
                     $value = trim($value);
                     $productValues = new ProductRangeValue;
                     $productValues->range_id = $product->id;
-                    $productValues->tech_id = $key;
+                    $productValues->tech_id = $productTechChar->id;
                     if(is_numeric($value)) $productValues->val_int = $value;
                     else $productValues->val_text = $value;
                     $productValues->save();
@@ -228,7 +229,6 @@ class MightinessController extends Controller
                 $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$parentId, ':tId'=>$key)));
                 $rangeValue = ProductRangeValue::model()->find(array('condition'=>'range_id=:id and tech_id=:tId', 'params'=>array(':id'=>$id, ':tId'=>$productTechChar->id)));
                 if(empty($rangeValue)) {
-                    $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$parentId, ':tId'=>$key)));
                     $rangeValue = new ProductRangeValue;
                     $rangeValue->range_id = $id;
                     $rangeValue->tech_id = $productTechChar->id;

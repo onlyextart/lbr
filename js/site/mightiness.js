@@ -5,7 +5,7 @@ var mightiness = {
         else $('.mightiness-ico-wrapper img[view=1]').addClass('active');
         
         $('.mightiness-menu li').click(function() {
-            if(!$(this).hasClass('disabled')){  
+            if(!$(this).hasClass('disabled')) {  
                 $('.mightiness-menu li').removeClass('active');
                 $(this).addClass('active');
                 mightiness.sendData($(this).attr('val'));
