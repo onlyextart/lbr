@@ -178,15 +178,14 @@ class MightinessController extends Controller
         $params = array_filter($_POST['params']);
         $productId = $_POST['productId'];
         $description = trim($_POST['description']);
-        //var_dump($description); exit;
         $product = new ProductRange;
         $product->title = trim($params[0]);
         if(!empty($description)) $product->description = $description;
         $product->product_id = $productId;
         if($product->save()) {
-            foreach($params as $key => $value){
+            foreach($params as $key => $value) {
                 if($key != 0) {
-                    $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$product->id, ':tId'=>$key)));
+                    $productTechChar = ProductTechCharacteristic::model()->find(array('condition'=>'product_id=:id and tech_id=:tId', 'params'=>array(':id'=>$productId, ':tId'=>$key)));
                     $value = trim($value);
                     $productValues = new ProductRangeValue;
                     $productValues->range_id = $product->id;
@@ -206,11 +205,12 @@ class MightinessController extends Controller
     }
     
     public function actionUpdateChildProduct()
-    {
+    { 
         $id = $_POST['id'];
         $parentId = $_POST['parentId'];
         $description = trim($_POST['description']);
         $params = array_filter($_POST['params']);
+         //var_dump($params); exit;
         $product = ProductRange::model()->findByPk($id);
         if(trim($params[0]) != $product->title) {
             $product->title = trim($params[0]);
