@@ -4,7 +4,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
 endif;
 ?>
 <div class="table w-800">
-  <!-- Первый блок -->
+<!-- Первый блок -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     
     <tr>
@@ -133,7 +133,7 @@ endif;
 
 
                             <tr valign="top">                                                        
-                                <td style="padding: 5px 0px 15px 23px;">
+                                <td style="padding: 5px 0px 5px 23px;">
                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #F58220; "> Турбо-Чизель	– высокоскоростное орудие <br>13-15	км/час</span>
                                     </p> 
@@ -145,8 +145,8 @@ endif;
             </table>
         </td></tr>  
     <tr>
-        <td style="padding: 5px 20px 5px 20px;" align="center">
-            <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-3.jpg" width="780" style="border: 0;" alt="double-disk">
+        <td style="padding: 0px 20px 0px 20px;" align="center">
+            <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-3.jpg" width="760" style="border: 0;" alt="double-disk">
         </td>
     </tr>
 
@@ -161,7 +161,7 @@ endif;
                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                             <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #999999; ">Турбо-Чизель объединяет в себе лучшие качества стерневых культиваторов и дисковых борон </span>
                         </p>
-                        <p style="margin: 0; padding: 10px 0px 10px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                        <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                             <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #F58220; ">Благодаря чему это происходит? </span>
                         </p>
                     </td>
@@ -174,19 +174,19 @@ endif;
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; ">
                 <tr valign="top">
                     <td>
-                        <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-4.jpg" style="border: 0; float: left;" width="290" alt="">
+                        <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-4.jpg" style="border: 0; float: left;" width="200" alt="">
                     </td>
                     <td style="padding:0px 10px;" width="300">
                         <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Турбо-чизель можно оборудовать стандарт-ными чизельными лапа-ми или установить 1 ряд – АА усиленные, 2 ряд – чизельная лапа. </span>
+                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Турбо-чизель можно оборудовать стандартными чизельными ла-пами или установить 1 ряд – АА усиленные, 2 ряд – чизельная лапа. </span>
                         </p>  
                     </td>
                     <td style="padding:0px">
-                        <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-5.jpg" style="border: 0; float: left;" width="140" alt="">
+                        <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-5.jpg" style="border: 0; float: left;" width="120" alt="">
                     </td>
                     <td width="300">
                         <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа способна выдерживать горизон-тальную нагрузку до 1111 кг. В случае стол-кновения с препятствием, она откидывается и авто-матически возвращается в исходное положение. </span>
+                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа способна выдерживать горизонтальную нагрузку до 1111 кг. В случае столкновения с препятствием, она откидывается и автоматически возвращается в исходное положение. </span>
                         </p>  
                     </td>
                 </tr>
@@ -222,17 +222,17 @@ endif;
                         </td>
                     </tr>
                     <tr valign="top">
-                        <td style="padding: 15px 20px 0px 20px;">
+                        <td style="padding: 0px 20px 0px 20px;">
                             <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Режущие <strong>турбо-диски</strong> диаметром 56 см <strong>разрезают пожнивные остатки и по-верхность грунта</strong>, направляя к лапам более рыхлую однородную массу. </span>
+                                <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Режущие <strong>турбо-диски</strong> диаметром 56 см <strong>разрезают пожнивные остатки и по-верхность грунта</strong>, нап-равляя к лапам более рыхлую однородную массу. </span>
                             </p>  
                         </td>
-                        <td style="padding: 15px 20px 0px 0px;">
+                        <td style="padding: 0px 20px 0px 0px;">
                             <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                 <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "><strong>Безопасная и легкая транспортировка</strong> – транс-портная ширина менее 4,6 метра. </span>
                             </p> 
                         </td>
-                        <td style="padding: 15px 20px 0px 0px;" colspan="2">
+                        <td style="padding: 0px 20px 0px 0px;" colspan="2">
                             <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                 <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">При использовании этих приспособлений <strong>осенью, достаточно одного прохода для обработки почвы весной.</strong> Можно использовать опционный измельчитель или опционные грабли для разбивания комков, уплотнения и перемешивания пожнивных остатков с почвой, а также для выравнивания поверхности.</span>
                             </p> 
@@ -245,8 +245,8 @@ endif;
             </td>
         </tr>
         <tr>
-            <td> 
-                <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-10-11.jpg" style="border: 0; padding:10px 20px"  width="760" alt="" >  
+            <td align="center"> 
+                <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-10-11.jpg" style="border: 0; padding:0px 50px"  height="320" alt="" >  
             </td>
         </tr>
 
