@@ -69,9 +69,9 @@ function sortByTechCharTitle($a, $b)
                 echo '</div>';
             }
         ?>
-        <?php // echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
+        <?php echo  strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; ?>
         <?php 
-            if(!empty($productRange)) {
+            /*if(!empty($productRange)) {
                 echo '<div id="features_content">';
                 echo '<p>
                     <strong style="color: #008080; font-family: arial, helvetica, sans-serif; font-size: 12pt; line-height: 1.3em;">
@@ -137,6 +137,7 @@ function sortByTechCharTitle($a, $b)
                 echo '</tbody></table>';
                 echo '</div>';
             } else echo strip_tags($tech) ? '<div id="features_content">'.$tech.'</div>' : ''; 
+            */
         ?>
         <?php echo  strip_tags($constr) ? '<div id="construct_content">'.$constr.'</div>' : ''; ?>
         <?php echo  strip_tags($exp) ? '<div id="experience_content">'.$exp.'</div>' : ''; ?>
