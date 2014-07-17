@@ -8,7 +8,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
     Yii::app()->getController()->renderPartial('tmpl/template/mail_header_big', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
 ?>
-<!-- v131 -->
+
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr><td style="padding-top: 15px; padding-left: 3px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
