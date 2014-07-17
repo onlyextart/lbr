@@ -20,7 +20,7 @@ endif;
                                         </a>
                                     </td>
                                     <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                        <img src="http://www.lbr.ru/images/makers/Agrisem-logo.JPG" height="40" style="border: 0; float: right;" alt="Логотип Great Plains">
+                                        <img src="http://www.lbr.ru/images/makers/Agrisem-logo.JPG" height="40" width="190" style="border: 0; float: right;" alt="Логотип Great Plains">
                                     </td>
                                 </tr>
                             </table>
@@ -78,7 +78,7 @@ endif;
                                                 <tr>
                                                     <td>
 
-                                                        <img src="http://www.lbr.ru/images/kp/default/number_grey_one.jpg"  style="border: 0; float: left;" width="70%" alt="Пункт один">
+                                                        <img src="http://www.lbr.ru/images/kp/default/number_grey_one.jpg"  style="border: 0; float: left;" width="18" alt="Пункт один">
                                                     </td>
                                                     <td>
                                                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: normal; color: #999999; text-align: justify; font-style: italic; ">
@@ -89,7 +89,7 @@ endif;
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="http://www.lbr.ru/images/kp/default/number_grey_two.jpg"  style="border: 0; float: none;" width="70%" alt="Пункт два">
+                                                        <img src="http://www.lbr.ru/images/kp/default/number_grey_two.jpg"  style="border: 0; float: none;" width="18" alt="Пункт два">
                                                     </td>
                                                     <td>
                                                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: normal; color: #999999; text-align: justify; font-style: italic; ">
