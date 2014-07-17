@@ -16,7 +16,7 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/685-diskovye-kultivatory-disc-o-mulch-s-prikatyvayushchim-katkom/" style="font-size: 25px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Дисковый культиватор Disc-o-Mulch <br> c прикатывающим катком
+                                        Культиватор Maximulch c прикатывающим катком
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
@@ -32,7 +32,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px; padding-left: 20px">
-                                    <img src="http://www.lbr.ru/images/kp/113-Disc-o-Mulch/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                         </table>

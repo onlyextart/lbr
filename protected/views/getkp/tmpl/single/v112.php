@@ -20,7 +20,7 @@ endif;
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/makers/logo-great-plains-new.png" height="40" style="border: 0; float: right;" alt="Логотип Great Plains">
+                                    <img src="http://www.lbr.ru/images/makers/logo-great-plains-new.png" width="91" style="border: 0; float: right;" alt="Логотип Great Plains">
                                 </td>
                             </tr>
                         </table>
@@ -326,7 +326,7 @@ endif;
     </tr>
     
     <tr>
-        <td style="padding:15px 20px 20px 20px;"> <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-12.jpg" style="border: 0; float: right;" alt=""></td>
+        <td style="padding:15px 20px 20px 20px;"> <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-12.jpg" style="border: 0; float: right;" width="378" alt=""></td>
     </tr>
     <!-- Ссылка-кнопка подробнее -->
             <?php
