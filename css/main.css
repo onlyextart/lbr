@@ -381,8 +381,13 @@ header .logo .region a {
 }
 header .menu.main {
   float: left;
-  width: 53%;
+  width: 52%;
   height: 115px;
+}
+header .map a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: none;
+cursor: auto;
 }
 header .menu.main .menuMainTop {
   list-style: none;
