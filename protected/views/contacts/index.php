@@ -6,13 +6,20 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
 ?>
 <h1><?php echo $contactModel->name ?></h1>
 <div class="contact_info">
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+<meta itemprop="url" content="www.lbr.ru" />
+<meta itemprop="name" content="ЛБР-АгроМаркет" />
+<span itemprop="description">
     <table>
         <tr>
             <td>
                 <img class="contact_icon" src="/images/addressIcon.png">
             </td>
             <td>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="addressCountry" content="Россия" />
                 <?php echo $contactModel->address ?>
+                </div>
             </td>
         </tr>
         <tr>
@@ -20,7 +27,9 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
                 <img class="contact_icon" src="/images/phoneIcon.png">
             </td>
             <td>
+                <span itemprop="telephone">
                 <?php echo $contactModel->telephone ?>
+                </span>
             </td>
         </tr>
         <tr>
@@ -28,7 +37,9 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
                 <img class="contact_icon" src="/images/workTimeIcon.png">
             </td>
             <td>
+                <time itemprop="openingHours" datetime="Mo-Su <?php echo $contactModel->work_time ?>" >
                 <?php echo $contactModel->work_time ?>
+                </time>
             </td>
         </tr>
         <tr>
@@ -36,7 +47,7 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
                 <img class="contact_icon" src="/images/mailIcon.png">
             </td>
             <td>
-                <?php echo $contactModel->email ?>
+                <span itemprop="email"><?php echo $contactModel->email ?></span>
             </td>
         </tr>
         <tr>
@@ -48,7 +59,9 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
             </td>
         </tr>
     </table>
-    
+   </span>
+</div>
+ 
 </div>
 <?php
 $file = explode('/', $contactModel->images);
