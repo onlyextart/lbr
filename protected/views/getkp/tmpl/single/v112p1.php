@@ -203,7 +203,7 @@ endif;
 <!-- Второй блок -->
 <div class="page-break"></div>
 <div class="after-page-break"></div>
-<div class="table w-800"
+<div class="table w-800">
      <table width="800" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" align="left" style="border: 0; border-collapse: collapse;">
         <tr><td>
                 <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; ">
@@ -253,12 +253,12 @@ endif;
         <tr>
             <td style="padding: 0px 20px;"> 
                 <!--Таблица с данными-->
-                <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse;">
-                    <tr bgcolor="#eeeeee">
-                        <td width="240" align="left" style="border: solid black 1px;"><strong> Тех. характеристики</strong></td>
-                        <td width="140" align="center" style="border: solid black 1px;"><strong> TC5109</strong></td>
-                        <td width="140" align="center" style="border: solid black 1px;"><strong> TC5111</strong></td>
-                        <td width="140" align="center" style="border: solid black 1px;"><strong> ТС5315</strong></td>
+                <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; background-clip:padding-box;border-collapse: collapse;">
+                    <tr>
+                        <td width="240" align="left" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> Тех. характеристики</strong></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> TC5109</strong></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> TC5111</strong></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> ТС5315</strong></td>
                     </tr>
                     <tr>
                         <td align="left" style="border: solid black 1px;">Рабочая ширина</td>
