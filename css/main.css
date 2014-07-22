@@ -2606,18 +2606,19 @@ ul.mightiness-menu li {
 
 .mresults {
     float: left;
-    height: 370px;
+    height: 350px;
     width: 305px;
     margin-left: 17px;
     margin-right: 10px;
 }
 .m_image img{
     width: 305px;
-    height: 250px;
+    height: 200px;
 }
 .m_header {
    min-height: 35px;
    padding-bottom: 10px;
+   width: 100%;
 }
 
 .m_header, .m_caption p{
@@ -2632,16 +2633,15 @@ ul.mightiness-menu li {
     margin: 0;
     margin-top: 10px;
     padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .m_header a{
     display: block;
     text-decoration: none;
-    /*font-size: 14px;
-    padding-top: 3px;*/
+    width: 90%;
     vertical-align: middle;
-    /*font-family: 'Open Sans',sans-serif;
-    
-    text-transform: uppercase;*/
     color: #000000;
 }
 .m_no_res{
