@@ -15,7 +15,7 @@ endif;
                             <tr>
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/685-diskovye-kultivatory-disc-o-mulch-s-prikatyvayushchim-katkom/" style="font-size: 25px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/687-kultivatory-maximulch-s-prikatyvayushchim-katkom/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         Культиватор Maximulch c прикатывающим катком
                                     </a>
                                 </td>
@@ -56,54 +56,7 @@ endif;
 
 
 
-                <tr>
-
-                    <td style="padding: 15px 20px 0px 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr valign="top">
-                            <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                <tr valign="top">
-                                    <td>
-                                        <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
-                                    </td>
-                                    <td style="padding-left:5px;">
-                                        <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                            <tr>
-                                                <td colspan="2" style="padding-bottom:5px;">
-                                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #999999; text-align: justify; font-style: italic; ">
-                                                        <span style="color: #F58220;">Disc-O-Mulch</span> — агрегат на основе независимых дисков с запатентованной системой 3D, в конструкцию которого заложен дробитель комков. Он обеспечивает превосходное дробление и денсиметрическую сортировку земли:
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-
-                                                    <img src="http://www.lbr.ru/images/kp/default/number_grey_one.jpg"  style="border: 0; float: left;" width="18" alt="Пункт один">
-                                                </td>
-                                                <td>
-                                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: normal; color: #999999; text-align: justify; font-style: italic; ">
-                                                        мелкие частицы падают в первую очередь
-                                                    </p> 
-
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <img src="http://www.lbr.ru/images/kp/default/number_grey_two.jpg"  style="border: 0; float: none;" width="18" alt="Пункт два">
-                                                </td>
-                                                <td>
-                                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: normal; color: #999999; text-align: justify; font-style: italic; ">
-                                                        крупные комки и солома остаются на поверхности, образовывая защитный слой
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                    </td>
-                </tr>
-
+                
                 <tr>
                     <td style="padding-top: 15px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -113,6 +66,7 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
+                                               <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
                                                     Disc-O-Mulch является незаменимым многофунк-циональным орудием — это
                                                 </p>  
@@ -482,7 +436,7 @@ endif;
                         )
                 );
                 ?>
-    </tr></table></td>
+    </table></td></tr>
     <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>   
 
