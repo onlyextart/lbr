@@ -1,0 +1,324 @@
+<?php
+if ($data['show_header'] == '1' || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+endif;
+?>
+<div class="table w-800">
+    <!-- Первый блок -->
+    <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+        <tr>
+            <td>
+                <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                    <!-- Заголовок со ссылкой и логотипом: -->
+                    <tr><td style="padding:0px">
+                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
+                                <tr>
+                                    <td style="padding-bottom: 3px;">
+                                        <!-- Заголовок -->
+                                        <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/687-kultivatory-maximulch-s-prikatyvayushchim-katkom/" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                            Культиватор Maximulch c прикатывающим катком
+                                        </a>
+                                    </td>
+                                    <td style="padding-bottom: 3px; text-align: right;" align="right">
+                                        <img src="http://www.lbr.ru/images/makers/Agrisem-logo.JPG" height="40" width="190" style="border: 0; float: right;" alt="Логотип Agrisem">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td></tr>
+
+                    <!-- Контент первого блока-->
+                    <tr>
+                        <td style="padding-right: 20px;">
+                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                <tr>
+                                    <td style="padding-top: 3px; padding-left: 20px">
+                                        <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                    <tr>                     
+                                        <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                            <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
+                                                <?php echo $data['product_info1']; ?>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                <?php endif; ?>
+
+                            </table>
+                        </td></tr>
+
+
+
+
+                    <tr>
+                        <td style="padding-top: 5px;">
+                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                <tr valign="top">
+                                    <td>
+                                        <!-- Первая колонка-->
+                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                            <tr>
+                                                <td style="padding-bottom:5px;">
+                                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                                        <tr valign="top">
+                                                            <td valign="center">
+                                                                <img src="http://www.lbr.ru/images/kp/default/right-orange-arrow.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
+                                                            </td>
+                                                            <td>
+                                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; color: #F58220;; text-align: justify; ">
+                                                                    2 в 1: <br> КУЛЬТИВАТОР + ГЛУБОКОРЫХЛИТЕЛЬ
+                                                                </p> 
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td> 
+                                            </tr>
+
+                                            <tr valign="top">
+                                                <td>
+                                                    <table>
+                                                        <tr>
+                                                            <td width="214" valign="bottom" style="padding: 5px 8px 0px 0px;">
+                                                                <p style="margin: 0; padding: 0px 0px 5px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; text-align: left; ">
+                                                                    Обработка почв в тяжелых условиях
+                                                                </p>
+                                                                <p style="margin: 0; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify; ">
+                                                                    Состоит из двух рядов лап уникальной конструкции, которые находятся между двумя рядами вырезных дисков, благодаря чему может обрабатывать почву различной степени тяжести.
+                                                                </p>
+                                                            </td>
+                                                            <td width="184" style="padding: 5px 0px 0px 8px;">
+                                                                <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-2.jpg" width="148" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                                            </td>
+                                                        </tr> 
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                    <!--Вторая колонка-->
+                                    <td>
+                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                            <tr>
+                                                <td style="padding-left: 20px;">
+                                                    <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-3.jpg" width="284" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-left: 20px;">
+                                                    <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-4.jpg" width="284" style="border: 0; float:right;" alt="Изображения не отображаются"> 
+                                                </td> 
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding-left:20px;">
+                            <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-5.jpg" width="760" style="border: 0;" align="center" alt="Изображения не отображаются"> 
+                        </td>
+                    </tr>
+
+
+
+                </table>
+
+
+
+            </td>
+        </tr>
+
+        <!-- Первый блок -->
+
+
+    </table>
+</div>
+
+
+<!-- Второй блок -->
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
+    <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+
+        <tr>
+            <td>
+                <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+                    <tr>
+                        <td align="center">
+                            <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-6.jpg" width="760" style="border: 0;" align="center" alt="Изображения не отображаются"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#FFFFFF" style="padding-bottom: 10px;">
+                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                <tr valign="bottom">
+                                    <!--Первая колонка-->
+                                    <td>
+                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                            <tr>
+                                                <td style="padding: 0px 10px 5px 0px;">
+                                                    <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
+                                                        Регулировка на любую глубину
+                                                    </p>  
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 5px 10px 0px 0px;">
+                                                    <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-7.jpg" width="368" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!--Вторая колонка--> 
+                                    <td>
+                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                            <tr>
+                                                <td style="padding: 0px 0px 3px 10px;">
+                                                    <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220; text-align: justify; ">
+                                                        Технология, которая работает
+                                                    </p>  
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <table width="368" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                                        <tr>
+                                                            <td style="width: 20px; padding:3px 3px 3px 10px; vertical-align: top;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
+                                                            </td>
+                                                            <td style="padding: 3px 0px 3px 0px; vertical-align: top;">
+                                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; color: black; text-align: justify; ">
+                                                                    Способствует развитию корневой системы                                 
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="width: 20px; padding:3px 3px 3px 10px; vertical-align: top;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
+                                                            </td>
+                                                            <td style="padding: 3px 0px 3px 0px; vertical-align: top;">
+                                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; color: black; text-align: justify; ">
+                                                                    Повышает пористость почвы                               
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="width: 20px; padding:3px 3px 3px 10px; vertical-align: top;">
+                                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
+                                                            </td>
+                                                            <td style="padding: 3px 0px 5px 0px; vertical-align: top;">
+                                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; color: black; text-align: justify; ">
+                                                                    Сохраняет структуру почвы – слои не перемешиваются                                
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 5px 0px 5px 10px;">
+                                                    <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; color: black; text-align: justify; ">
+                                                        <span style="font-weight:bold;"> Запатентованная технология Agrisem International</span> заключается в образовании на почве складки и переме-щении ее в виде волны.
+                                                    </p>  
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding:10px 0px 0px 10px;">
+                                                    <img src="http://www.lbr.ru/images/kp/136-maximulch/mail-8.jpg" width="368" style="border: 0; float: left;" alt="Изображения не отображаются"> 
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding-top: 15px"  bgcolor="#FFFFFF"> 
+                            <!--Таблица с данными-->
+                            <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse;  background-clip:padding-box;">
+                                <tr>
+                                    <td width="240" align="left" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"><strong> Модель</strong></td>
+                                    <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"><strong> Maximulch, 4,5 m</strong></td>
+                                    <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"><strong> Maximulch, 5 m</strong></td>
+                                    <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"><strong> Maximulch, 6 m</strong></td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;">Рабочая ширина</td>
+                                    <td align="center" style="border: solid black 1px;">4,5 </td>
+                                    <td align="center" style="border: solid black 1px;">5 </td>
+                                    <td align="center" style="border: solid black 1px;">6 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;"> Транспортная ширина, м </td>
+                                    <td align="center" style="border: solid black 1px;"> 3 </td>
+                                    <td align="center" style="border: solid black 1px;"> 3 </td>
+                                    <td align="center" style="border: solid black 1px;"> 3 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;"> Количество дисков, шт. </td>
+                                    <td align="center" style="border: solid black 1px;"> 28 </td>
+                                    <td align="center" style="border: solid black 1px;"> 32 </td>
+                                    <td align="center" style="border: solid black 1px;"> 36 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;"> Диаметр дисков, мм </td>
+                                    <td align="center" style="border: solid black 1px;"> 610 </td>
+                                    <td align="center" style="border: solid black 1px;"> 610 </td>
+                                    <td align="center" style="border: solid black 1px;"> 610 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;"> Количество лап, шт. </td>
+                                    <td align="center" style="border: solid black 1px;"> 10 </td>
+                                    <td align="center" style="border: solid black 1px;"> 10 </td>
+                                    <td align="center" style="border: solid black 1px;"> 10 </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="border: solid black 1px;"> Требуемая мощность трактора, л.с. </td>
+                                    <td align="center" style="border: solid black 1px;"> 200-300 </td>
+                                    <td align="center" style="border: solid black 1px;"> 200-300 </td>
+                                    <td align="center" style="border: solid black 1px;"> 250-350 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+
+
+                </table></td></tr>
+
+        <tr valign="top">
+            <td style="padding: 0px 20px 0;">
+                <?php
+                if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                    Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+                endif;
+                ?>
+            </td>
+        </tr>
+    </table>   
+
+
+</div>
+</body>
+</html>
+
+
