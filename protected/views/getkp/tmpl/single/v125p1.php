@@ -247,7 +247,21 @@ endif;
                                                         <td style="padding: 10px 15px 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/125-yp825/yp825_4.jpg" width="370" style="border: 0;" alt="double-disk">
                                                         </td>
-                                                    </tr> 
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0 15px 0 15px;">
+                                                            <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <b>Приводное колесо.</b> Агрессивное стальное колесо намного надежнее, чем остальные типы контактного привода.                                                                                                 
+                                                            </li>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0 15px 0 15px;">
+                                                            <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
+                                                                <b>Маркеры.</b> Гидравлические маркеры с зубчатым диском имеют прочную конструкцию.                                                                                                 
+                                                            </li>
+                                                        </td>
+                                                    </tr>   
                                                     <tr valign="top">
                                                         <td style="padding: 10px 15px 0 0;">
                                                             <img src="http://www.lbr.ru/images/kp/125-yp825/yp825_8.jpg" width="370" style="border: 0;" alt="double-disk">
@@ -257,22 +271,9 @@ endif;
                                             </td>
                                             <td>
                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="left" style="border: 0; border-collapse: collapse; background: white;">
+                                                    
                                                     <tr>
-                                                        <td style="padding: 0 0 0 15px;">
-                                                            <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                                <b>Приводное колесо.</b> Агрессивное стальное колесо намного надежнее, чем остальные типы контактного привода.                                                                                                 
-                                                            </li>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="padding: 0 0 0 15px;">
-                                                            <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                                <b>Маркеры.</b> Гидравлические маркеры с зубчатым диском имеют прочную конструкцию.                                                                                                 
-                                                            </li>
-                                                        </td>
-                                                    </tr>  
-                                                    <tr>
-                                                        <td style="padding: 10px 0 0 0;">
+                                                        <td style="padding: 0;">
                                                             <img src="http://www.lbr.ru/images/kp/125-yp825/yp825_5.jpg" width="370" style="border: 0;" alt="double-disk">
                                                         </td>
                                                     </tr> 
@@ -364,15 +365,7 @@ endif;
                                                                         </table>
                                                                         </td>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">V-образные прикатывающие колеса с регулировкой усилия и прижимателем</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Транспортная ширина, м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">6,1</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Транспортная высота, м</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3,2</td>
-                                                                    </tr>
+                                                                    </tr>                                                                    
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Транспортная длина, м</td>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4.6</td>
@@ -380,15 +373,7 @@ endif;
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Вес с пустыми бункерами, кг</td>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2 950</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Размер шин, трансп. (4 шт.), приводные (2 шт.)</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">7.00-15LT, 13-6.50x6</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="margin: 0; padding: 2px 0 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Количество гидравлических магистралей</td>
-                                                                        <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3</td>
-                                                                    </tr>                                                                    
+                                                                    </tr>                                                                   
                                                                     <tr>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Необходимая мощность трактора, л.с.</td>
                                                                         <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">150-190</td>

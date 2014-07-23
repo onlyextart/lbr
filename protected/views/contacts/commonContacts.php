@@ -51,9 +51,19 @@ foreach( $districts as $districtId=>$districtName ){
         echo CHtml::openTag('li', array('class'=>'filial_caption'));
             //echo CHtml::link($region->contact->name, 'http://www.'.$region->contact->alias.'.lbr.ru/company/contacts/'.$region->contact->alias.'/');
             echo CHtml::link($region->contact->name, '/company/contacts/'.$region->contact->alias.'/');
+            echo '<div itemscope itemtype="http://schema.org/LocalBusiness">
+                    <meta itemprop="url" content="www.lbr.ru" />
+                    <meta itemprop="name" content="ЛБР-АгроМаркет" />
+                    <time itemprop="openingHours" datetime="Mo-Su 08:00-17:00" /></time>
+                    <span itemprop="description">
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			         <meta itemprop="addressCountry" content="Россия" />';
             echo $region->contact->address.'<br>';
+            echo '</div>';
             echo 'Телефоны:'.$region->contact->telephone.'<br>';
-            echo $region->contact->email.'<br>';
+            echo '<span itemprop="email">'.$region->contact->email.'</span>'.'<br>';
+            echo '</span>';
+            echo '</div>';
             if($emptySpace>0){
                 $filialFotos[] = $region->contact->images;
             }
