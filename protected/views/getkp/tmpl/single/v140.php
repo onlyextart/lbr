@@ -349,24 +349,24 @@ endif;
                                             <td style="padding-top: 15px;">
                                                 <table width="363" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border: solid black 1px; border-collapse: collapse;">
                                                     <tr bgcolor="#eeeeee">
-                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px;"><strong> Модель</strong></td>
-                                                        <td width="100" align="center" style="border: solid black 1px;"><strong> D 400</strong></td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px; font-family: 'Trebuchet MS', sans-serif; font-size:13px;"><strong> Модель</strong></td>
+                                                        <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"><strong> D 400</strong></td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px;">Рабочая ширина, м</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;"> 4</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">Рабочая ширина, м</td>
+                                                        <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"> 4</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px;"> Количество рядов</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">33</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left:5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"> Количество рядов</td>
+                                                        <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">33</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;padding-left:5px;">Емкость семенного ящика, дм<sup>3</sup></td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">870</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px;padding-left:5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">Емкость семенного ящика, дм<sup>3</sup></td>
+                                                        <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">870</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;padding-left:5px;"> Требуемая мощность трактора, л.с.</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">от 80</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px;padding-left:5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"> Требуемая мощность трактора, л.с.</td>
+                                                        <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">от 80</td>             
                                                     </tr>
                                                 </table>
                                             </td>
