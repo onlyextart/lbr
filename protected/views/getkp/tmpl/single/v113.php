@@ -10,7 +10,7 @@ endif;
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <!-- Заголовок со ссылкой и логотипом: -->
-                <tr><td style="padding:0px">
+                <tr><td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
@@ -28,10 +28,10 @@ endif;
 
                 <!-- Контент первого блока-->
                 <tr>
-                    <td style="padding-right: 20px;">
+                    <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px; padding-left: 20px">
+                                <td style="padding-top: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/113-Disc-o-Mulch/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
@@ -39,7 +39,7 @@ endif;
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                 <tr>                     
@@ -105,7 +105,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td style="padding-top: 15px;">
+                    <td style="padding: 15px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td>
@@ -287,7 +287,7 @@ endif;
         <td>
     <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
         <tr>
-        <td bgcolor="#FFFFFF">
+        <td bgcolor="#FFFFFF" style="padding:0px 20px 0px 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td>
@@ -417,7 +417,7 @@ endif;
     </tr>
 
     <tr>
-        <td style="padding-top: 20px"  bgcolor="#FFFFFF"> 
+        <td style="padding: 20px 20px 0px 20px;"  bgcolor="#FFFFFF"> 
             <!--Таблица с данными-->
             <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse;">
                 <tr bgcolor="#eeeeee">
