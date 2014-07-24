@@ -11,7 +11,7 @@ endif;
             <td>
                 <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                     <!-- Заголовок со ссылкой и логотипом: -->
-                    <tr><td>
+                    <tr><td style="padding: 0px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                                 <tr>
                                     <td style="padding-bottom: 3px;">
@@ -28,10 +28,10 @@ endif;
                         </td></tr>
 
                     <tr>
-                        <td style="padding-right: 20px;">
+                        <td style="padding: 0px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
-                                    <td style="padding-top: 3px; padding-left: 20px">
+                                    <td style="padding-top: 3px;">
                                         <img src="http://www.lbr.ru/images/kp/140-superdrill/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </td>
                                 </tr>
@@ -40,7 +40,7 @@ endif;
                     </tr>
 
                     <tr>
-                        <td>
+                        <td style="padding: 0px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                     <tr>                     
@@ -56,7 +56,7 @@ endif;
                         </td></tr>
 
                     <tr>
-                        <td style="padding-top: 5px;">
+                        <td style="padding-top: 5px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr valign="top">
                                     <td>
@@ -82,7 +82,7 @@ endif;
 
 
                     <tr>
-                        <td style="padding-top: 5px;">
+                        <td style="padding-top: 5px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
 
                                 <tr valign="top">
@@ -213,7 +213,7 @@ endif;
             <td>
                 <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
                     <tr>
-                        <td bgcolor="#FFFFFF">
+                        <td bgcolor="#FFFFFF" style="padding: 0px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr valign="top">
                                     <!--Первая колонка-->
@@ -295,7 +295,7 @@ endif;
 
                                     <!--Вторая колонка-->
                                     <td style="padding-left: 15px;">
-                                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                        <table width="363" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                             <tr>
                                                 <td>
                                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; color: black; text-align: justify; font-weight:bold; ">
@@ -314,7 +314,7 @@ endif;
 
                                             <tr valign="top">
                                                 <td>
-                                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <table width="363" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                         <tr>
                                                             <td style="width: 20px; padding:5px 0px 0 0px; vertical-align: top;">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
@@ -341,25 +341,25 @@ endif;
 
                                             <tr valign="top">
                                                 <td style="padding: 15px 0px 0px 0px;">
-                                                    <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border-collapse: collapse;background-clip:padding-box;">
+                                                    <table width="363" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border-collapse: collapse;background-clip:padding-box;">
                                                         <tr>
-                                                            <td width="278" align="left" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> Модель</strong></td>
+                                                            <td width="278" align="left" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box; padding-left: 5px;"><strong> Модель</strong></td>
                                                             <td width="100" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><strong> D 400</strong></td>             
                                                         </tr>
                                                         <tr>
-                                                            <td width="278" align="left" style="border: solid black 1px;">Рабочая ширина, м</td>
+                                                            <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;">Рабочая ширина, м</td>
                                                             <td width="100" align="center" style="border: solid black 1px;"> 4</td>             
                                                         </tr>
                                                         <tr>
-                                                            <td width="278" align="left" style="border: solid black 1px;"> Количество рядов</td>
+                                                            <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;"> Количество рядов</td>
                                                             <td width="100" align="center" style="border: solid black 1px;">33</td>             
                                                         </tr>
                                                         <tr>
-                                                            <td width="278" align="left" style="border: solid black 1px;">Емкость семенного ящика, дм<sup>3</sup></td>
+                                                            <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;">Емкость семенного ящика, дм<sup>3</sup></td>
                                                             <td width="100" align="center" style="border: solid black 1px;">870</td>             
                                                         </tr>
                                                         <tr>
-                                                            <td width="278" align="left" style="border: solid black 1px;"> Требуемая мощность трактора, л.с.</td>
+                                                            <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;"> Требуемая мощность трактора, л.с.</td>
                                                             <td width="100" align="center" style="border: solid black 1px;">от 80</td>             
                                                         </tr>
                                                     </table>
@@ -368,7 +368,7 @@ endif;
 
                                             <tr>
                                                 <td style="padding-top:15px;">
-                                                    <img src="http://www.lbr.ru/images/kp/140-superdrill/mail-7.jpg" width="378" style="border: 0;" alt="Картинки не отображаются"> 
+                                                    <img src="http://www.lbr.ru/images/kp/140-superdrill/mail-7.jpg" width="363" style="border: 0;" alt="Картинки не отображаются"> 
                                                 </td>
                                             </tr>
 

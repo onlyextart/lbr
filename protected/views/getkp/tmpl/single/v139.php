@@ -8,9 +8,9 @@ endif;
     <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                 <!-- Заголовок со ссылкой и логотипом: -->
-                <tr><td style="padding:0px">
+                <tr><td style="padding:0px 20px 0px 20px">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                             <tr>
                                 <td style="padding-bottom: 3px;">
@@ -27,10 +27,10 @@ endif;
                     </td></tr>
 
                 <tr>
-                    <td style="padding-right: 20px;">
+                    <td style="padding: 0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px; padding-left: 20px">
+                                <td style="padding-top: 3px;">
                                     <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
@@ -39,7 +39,7 @@ endif;
                 </tr>
 
                 <tr>
-                    <td>
+                    <td style="padding: 0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                 <tr>                     
@@ -55,138 +55,129 @@ endif;
                     </td></tr>
 
                 <tr>
-                    <td style="padding-top: 15px;">
+                    <td style="padding: 15px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td>
                                     <!-- Первая колонка-->
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr>
+                                        <tr valign="top">
                                             <td>
-                                                <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr valign="top">
-                                                        <td>
-                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
-                                                        </td>
-                                                        <td style="padding-left:5px;">
-                                                            <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                                                <tr>
-                                                                    <td>
-                                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #999999; text-align: justify; font-style: italic; ">
-                                                                            Пневматическая сеялка MasterDrill предназначена для посева зерновых культур, гороха, сои, рапса, трав по классической технологии почвообра-ботки, т.е. с использованием предвари-тельно перед посевом другой поч-вообрабатывающей техники (плугов, дисковых борон, культиваторов).
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p style="margin: 0; padding: 10px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220; text-align: justify;">
-                                                                            Посев даже в тяжелых условияx
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p style="margin: 0; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
-                                                                            <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-2.jpg" width="100" style="border: 0; float: right;" alt="Изображения не отображаются">
-                                                                            Двухдисковые сошники из нержавеющей стали (2-х сторонняя опора с подшипником в очень компактном корпусе) позволяют сеялке качественно выполнять посев в любых условиях, в том числе и при работе с мульчей, и на липких почвах без забивания. Машина не проседает и не оставляет следов на полях благодаря установленным большим шинам на колесах сеялки.
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-
-                                                                <tr>
-                                                                    <td>
-                                                                        <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-3.jpg" width="345" style="border: 0; float: right;" alt="Изображения не отображаются">
-                                                                    </td>
-                                                                </tr>
-
-
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                                <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
+                                            </td>
+                                            <td style="padding-left:5px;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #999999; text-align: justify; font-style: italic; ">
+                                                    Пневматическая сеялка MasterDrill предназначена для посева зерновых культур, гороха, сои, рапса, трав по классической технологии почвообра-ботки, т.е. с использованием предвари-тельно перед посевом другой поч-вообрабатывающей техники (плугов, дисковых борон, культиваторов).
+                                                </p>
                                             </td>
                                         </tr>
-                                    </table>
-                                </td>
-                                <!--Вторая колонка-->
-                                <td>
-                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding-left: 20px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220; text-align: justify;">
-                                                    Точнейший посев любого посевного материала
-                                                </p>  
-                                            </td>                                            
+                                            <td colspan="2">
+                                                <p style="margin: 0; padding: 10px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220; text-align: justify;">
+                                                    Посев даже в тяжелых условияx
+                                                </p>
+                                            </td>
                                         </tr>
-
                                         <tr>
-                                            <td>
-                                                <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <td style="width: 20px; padding: 5px 0px 0px 20px; vertical-align: top;">
-                                                        <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
-                                                    </td>
-                                                    <td style="padding: 5px 10px 10px 0px; vertical-align: top;">
-                                                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> центральная и индивидуальная регулировка давле-ния сошников;</span>
-                                                        </p>
-                                                    </td>  
-                                                </table>
+                                            <td colspan="2">
+                                                <p style="margin: 0; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
+                                                    <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-2.jpg" width="100" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                    Двухдисковые сошники из нержавеющей стали (2-х сторонняя опора с подшипником в очень компактном корпусе) позволяют сеялке качественно выполнять посев в любых условиях, в том числе и при работе с мульчей, и на липких почвах без забивания. Машина не проседает и не оставляет следов на полях благодаря установленным большим шинам на колесах сеялки.
+                                                </p>
                                             </td>
                                         </tr>
 
                                         <tr>
-                                            <td style="padding-left: 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-4.jpg" width="358" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                            <td colspan="2">
+                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-3.jpg" width="378" style="border: 0; float: right;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>
 
-                                        <tr>
-                                            <td style="padding:15px 0px 0px 0px;">
-                                                <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr>
-                                                        <td style="width: 20px; padding: 5px 0px 0px 20px; vertical-align: top;">
-                                                            <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
-                                                        </td>
-                                                        <td style="padding: 5px 10px 0 0; vertical-align: top;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-5.jpg" width="150" style="border: 0; float: right;" alt="Изображения не отображаются">
-                                                                <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> уплотняющий каток за каждым сошником – четко ведет сошник на заданную глубину, прикатывает, улуч-шая контакт семени с почвой.</span>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
 
                                     </table>
-                                </td>
-
+                                
+                            
+                        
+                    </td>
+                    <!--Вторая колонка-->
+                    <td>
+                        <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td style="padding-left: 20px;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220; text-align: justify;">
+                                        Точнейший посев любого посевного материала
+                                    </p>  
+                                </td>                                            
                             </tr>
+
+                            <tr>
+                                <td>
+                                    <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <td style="width: 20px; padding: 5px 0px 0px 20px; vertical-align: top;">
+                                            <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
+                                        </td>
+                                        <td style="padding: 5px 10px 10px 0px; vertical-align: top;">
+                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                                                <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> центральная и индивидуальная регулировка давле-ния сошников;</span>
+                                            </p>
+                                        </td>  
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding-left: 20px;">
+                                    <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-4.jpg" width="358" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding:15px 0px 0px 0px;">
+                                    <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td style="width: 20px; padding: 5px 0px 0px 20px; vertical-align: top;">
+                                                <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
+                                            </td>
+                                            <td style="padding: 5px 10px 0 0; vertical-align: top;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                                                    <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-5.jpg" width="150" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                    <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> уплотняющий каток за каждым сошником – четко ведет сошник на заданную глубину, прикатывает, улуч-шая контакт семени с почвой.</span>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
                         </table>
                     </td>
+
                 </tr>
-
-
-                <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/330-pnevmaticheskie-seyalki-master-drill/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                        )
-                );
-                ?>
-
             </table>
-
-
-
         </td>
     </tr>
 
 
+    <!-- Ссылка-кнопка подробнее -->
+    <?php
+    Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
+        'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/330-pnevmaticheskie-seyalki-master-drill/',
+        'colspan' => false,
+        'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+            )
+    );
+    ?>
 
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+</table>
+
+
+
+</td>
+</tr>
+
+
+
+<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Первый блок -->
 
@@ -198,7 +189,7 @@ endif;
         <td>
             <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
                 <tr>
-                    <td bgcolor="#FFFFFF">
+                    <td bgcolor="#FFFFFF" style="padding: 0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <!--Первая колонка-->
@@ -365,44 +356,44 @@ endif;
 
                                         <tr valign="top">
                                             <td style="padding:5px 0px 20px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-9.jpg" width="378" style="border: 0;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-9.jpg" width="358" style="border: 0;" alt="Изображения не отображаются">  
                                             </td> 
                                         </tr>
 
                                         <tr valign="top">
                                             <td style="padding: 20px 0px 21px 20px;">
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border: solid black 1px; border-collapse: collapse;">
+                                                <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border: solid black 1px; border-collapse: collapse;">
                                                     <tr bgcolor="#eeeeee">
-                                                        <td width="278" align="left" style="border: solid black 1px;"><strong> Модель</strong></td>
-                                                        <td width="100" align="center" style="border: solid black 1px;"><strong> D600</strong></td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;"><strong> Модель</strong></td>
+                                                        <td width="100" align="center" style="border: solid black 1px; padding-left: 5px;"><strong> D600</strong></td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;">Рабочая ширина, м</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;"> 6</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;">Рабочая ширина, м</td>
+                                                        <td width="100" align="center" style="border: solid black 1px; padding-left: 5px;"> 6</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;"> Количество рядов (сошников)</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">48</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;"> Количество рядов (сошников)</td>
+                                                        <td width="100" align="center" style="border: solid black 1px; padding-left: 5px;">48</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;">Производительность, га/час</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">5,1</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;">Производительность, га/час</td>
+                                                        <td width="100" align="center" style="border: solid black 1px; padding-left: 5px;">5,1</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;"> Емкость семенного ящика, дм<sup>3</sup></td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">1 500</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;"> Емкость семенного ящика, дм<sup>3</sup></td>
+                                                        <td width="100" align="center" style="border: solid black 1px; padding-left: 5px;">1 500</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td width="278" align="left" style="border: solid black 1px;"> Требуемая мощность трактора, л.с.</td>
-                                                        <td width="100" align="center" style="border: solid black 1px;">120</td>             
+                                                        <td width="278" align="left" style="border: solid black 1px;padding-left: 5px;"> Требуемая мощность трактора, л.с.</td>
+                                                        <td width="100" align="center" style="border: solid black 1px;padding-left: 5px;">120</td>             
                                                     </tr>
                                                 </table>
                                             </td>
                                         </tr>
-                                        
+
                                         <tr valign="bottom">
                                             <td style="padding:21px 0px 0px 20px; vertical-align: bottom;">
-                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-10.jpg" width="378" style="border: 0;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/139-masterdrill/mail-10.jpg" width="358" style="border: 0;" alt="Изображения не отображаются">  
                                             </td> 
                                         </tr>
 
