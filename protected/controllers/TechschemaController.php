@@ -56,7 +56,7 @@ class TechschemaController extends Controller
                     } else {
                         $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5">';
                         $response .= '<tr>';  
-                        $response .= '<td class="label">Этапы заготовки</td>';
+                        $response .= '<td class="label">Этапы технологии</td>';
                         $count = 0;
                         $temp = array();
                         foreach($value as $k=>$v) {
@@ -70,21 +70,26 @@ class TechschemaController extends Controller
                         $response .= '</tr>';
                         $response .= '<tr><td>'.$mainImglabel.'</td>';
                         $count = 0;
+                        //first row
                         foreach($productList[$key] as $id => $products) {
                             if($count < $dividend) {
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
-                                $response .= '<td><div class="product-list-wrapper">';
+                                $response .= '<td>';
+                                $response .= '<div class="product-list-wrapper">';
                                 if(!empty($label)) $response .= '<img src="'.$label.'" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
                                     if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                 }
-                                $response .= '</ul></div></td>';
+                                $response .= '</ul></div>';
+                                if(($count + 1) != $dividend) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                $response .= '</td>';
                             }
                             $count++;
                         }
 
                         $response .= '</tr>';
+                        //other rows
                         for($i = 1; $i < $rowCount; $i++){
                             $keyInDiapazon = array();
                             for($c = $i*$dividend; $c < count($temp); $c++){
@@ -98,6 +103,7 @@ class TechschemaController extends Controller
                                     $response .= '<td class="label">'.$v['val'].'</td>';
                             }
                             $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
+                            $count = 0;
                             foreach($productList[$key] as $id => $products) {
                                 if(in_array($id, $keyInDiapazon)){
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
@@ -107,7 +113,10 @@ class TechschemaController extends Controller
                                     foreach($products as $product) {
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                     }
-                                    $response .= '</ul></div></td>';
+                                    $response .= '</ul></div>';
+                                    if(($count+1) < count($keyInDiapazon)) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                    $response .= '</td>';
+                                    $count++;
                                 }
                             }
                             $response .= '</tr>';   
