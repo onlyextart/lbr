@@ -36,6 +36,8 @@
         </div>
     </li>
 </ul>
+<!--img width="200" alt="Хиты продаж" src="<?php //echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_hit.png"/-->
+<div class="hit-label"><img width="170" alt="Хиты продаж" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_hit.png"/></div>
 <div style="clear: both"></div>
 <script>
     $(function() {
