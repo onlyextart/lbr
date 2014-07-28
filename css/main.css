@@ -2777,9 +2777,9 @@ table.table-tech-stage-with-img .product-list-wrapper {
 }
 table.table-tech-stage-with-img .product-list-arrow {
     width: 60px;
-    height: 29px;
+    height: 38px;
     position: absolute;
-    right: -40px;
+    right: -30px;
     top: 70px;
     z-index: 9999;
 }
