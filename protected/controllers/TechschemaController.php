@@ -77,6 +77,7 @@ class TechschemaController extends Controller
                                 $response .= '<td>';
                                 $response .= '<div class="product-list-wrapper">';
                                 if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                //$response .= '<img src="'.$label.'" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
                                     if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';

@@ -91,6 +91,7 @@ class MightinessController extends Controller
                 $existsFrontTraktPogr = $result['Фронтальные тракторные погрузчики'];
                 unset($result['Фронтальные тракторные погрузчики']);
             }
+            //var_dump($existsFrontTraktPogr);exit;
             foreach($result as $key => $value) {
                 if(!empty($result[$key])){
                     $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
@@ -113,7 +114,7 @@ class MightinessController extends Controller
                 $key = 'Фронтальные тракторные погрузчики';
                 $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
                 $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
-                foreach($value as $product) {
+                foreach($existsFrontTraktPogr as $product) {
                     $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
                     if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
                     $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
