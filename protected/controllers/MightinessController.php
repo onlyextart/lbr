@@ -97,7 +97,7 @@ class MightinessController extends Controller
                     $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
                     foreach($value as $product) {
                         $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
-                        if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
+                        if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
                         $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                         $response .=  '<div class="mresults">';
                         $response .=  '<div class="m_header">'.$label.'</div>';
