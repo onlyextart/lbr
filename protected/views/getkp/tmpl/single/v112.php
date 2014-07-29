@@ -81,7 +81,7 @@ endif;
                                     &nbsp;
                                 </td>
                                 <td style="padding: 7px 10px 0 0; vertical-align: middle;">
-                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
+                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
                                         <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color: black; ">• <strong>работает по растительным остаткам любого размера и любой плотности на глубину до 35 см</strong></span>
                                     </p>
                                 </td>
@@ -177,7 +177,7 @@ endif;
                     </td>
                     <td style="padding:0px 10px;" width="300">
                         <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Турбо-чизель можно оборудовать стандарт-ными чизельными лапа-ми или установить 1 ряд – АА усиленные, 2 ряд – чизельная лапа. </span>
+                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Турбо-чизель можно оборудовать стандарт-ными чизельными ла-пами или установить 1 ряд – АА усиленные, 2 ряд – чизельная лапа. </span>
                         </p>  
                     </td>
                     <td style="padding:0px">
@@ -185,8 +185,8 @@ endif;
                     </td>
                     <td width="300">
                         <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа способна выдерживать горизон-тальную нагрузку до 1111 кг. В случае стол-кновения с препятствием, она откидывается и авто-матически возвращается в исходное положение. </span>
-                        </p>  
+                                                      <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа спо-собна выдерживать горизонтальную нагрузку до 1111 кг. В случае столкновения с пре-пятствием, она откиды-вается и автоматически возвращается в исходное положение. </span>
+                        </p>
                     </td>
                 </tr>
 

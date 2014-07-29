@@ -16,7 +16,7 @@
             <td>
                 <a target="_blank" href="http://www.lbr.ru/?utm_source=http%3A%2F%2Fwww.lbr.ru%2Fgetkp%2Ftest%2Fv%2Fv57%2F&utm_medium=email&utm_term=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                     <!--<img src="cid:1" width="840" height="174" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
-                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/may/header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                    <img src="http://www.lbr.test/images/kp/time_to_by_kp/july/header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                 </a>
             </td>
         </tr>
@@ -33,8 +33,8 @@
                     <tr>
                         <td style="padding: 0 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
                             <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>,</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Мы готовы предложить вам актуальную технику к сезону.</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Начинать разговор нужно с конкретного выгодного предложения. У нас такое есть!</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Не за горами вновь работы по почвообработке и посевная, подготовьтесь заранее. Предлагаем вам самые ходовые модели техники к предстоящему сезону.</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Не откладывайте решение на потом  - покупка техники доступна в рассрочку. По всем вопросам обращайтесь к вашему персональному менеджеру.</p>
                         </td>
                     </tr>
                     <tr>
