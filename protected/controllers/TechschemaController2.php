@@ -29,8 +29,7 @@ class TechschemaController extends Controller
                     $dividend = 4;
                     $rowCount = (int)(count($value)/$dividend);
                     if(count($value)%$dividend != 0) $rowCount++;
-                    $mainImglabel = '/images/schema/empty2.png';//TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
-                    //$mainImglabel = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
+                    $mainImglabel = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
                     if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
                     else $mainImglabel = $key;
 
@@ -69,7 +68,7 @@ class TechschemaController extends Controller
                             $count++;
                         }
                         $response .= '</tr>';
-                        $response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
+                        $response .= '<tr><td>'.$mainImglabel.'</td>';
                         $count = 0;
                         //first row
                         foreach($productList[$key] as $id => $products) {
@@ -77,8 +76,8 @@ class TechschemaController extends Controller
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
                                 $response .= '<td>';
                                 $response .= '<div class="product-list-wrapper">';
-                                //if(!empty($label)) $response .= '<img src="'.$label.'" />';
-                                $response .= '<img src="/images/schema/empty.png" />';
+                                if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                //$response .= '<img src="'.$label.'" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
                                     if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -99,28 +98,18 @@ class TechschemaController extends Controller
                                     $keyInDiapazon[] = $temp[$c]['key'];
                                 }
                             }
-                            //$response .= '<tr><td class="label label-empty"></td>';
-                            $response .= '<tr>';
-                            $count = 0;
+                            $response .= '<tr><td class="label label-empty"></td>';
                             foreach($temp as $k=>$v) {
-                                if(in_array($v['key'], $keyInDiapazon)) {
+                                if(in_array($v['key'], $keyInDiapazon)) 
                                     $response .= '<td class="label">'.$v['val'].'</td>';
-                                    $count++;
-                                }
                             }
-                            if($count < $dividend) {
-                                $union = $dividend - $count;
-                                $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper">Дополнительная информация</div></td>';
-                            }
-                            //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
-                            $response .= '</tr><tr>';
+                            $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
                             $count = 0;
                             foreach($productList[$key] as $id => $products) {
                                 if(in_array($id, $keyInDiapazon)){
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
                                     $response .= '<td><div class="product-list-wrapper">';
-                                    //if(!empty($label)) $response .= '<img src="'.$label.'" />';
-                                    $response .= '<img src="/images/schema/empty.png" />';
+                                    if(!empty($label)) $response .= '<img src="'.$label.'" />';
                                     $response .= '<ul>';
                                     foreach($products as $product) {
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -131,7 +120,6 @@ class TechschemaController extends Controller
                                     $count++;
                                 }
                             }
-                            
                             $response .= '</tr>';   
                         }
 
