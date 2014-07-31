@@ -3,6 +3,7 @@ var techSchema = {
         $('.tech-menu-wrapper li').on('click', function() {
             $('.tech-menu-wrapper img.active').removeClass('active');
             $(this).find('img').addClass('active');
+            $('#tech-schema-results').html('<div class="techschema-load">Загрузка <img src="/images/loading-small.gif"></div>');
             techSchema.loadTechSchema($(this).attr('name'));
         });
         

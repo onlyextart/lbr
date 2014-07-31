@@ -1943,7 +1943,7 @@ footer .f-right .f-nav:after {
   margin: 0;
   padding: 0;
 }
-ul.tech-menu-wrapper {
+ul.tech-menu-wrapper{
     margin-left: 8px;
 }
 .main_menu_wrapper .main_menu_first_level {
@@ -2845,6 +2845,7 @@ table.table-tech-stage-with-img .product-list-arrow {
   line-height: 14px;
   font-size: 12px;
   text-align: center;
+  padding-bottom: 2px;
 }
 .tech-menu-wrapper li span:hover{
     cursor: default;
@@ -2867,4 +2868,15 @@ table.table-tech-stage-with-img .product-list-arrow {
     border-radius: 0;
 }
 
+#tech-schema-results .techschema-load{
+    color: #767676;
+    /*font-weight: bold;*/
+    font-size: 20px;
+    /*margin-left: 25px;*/
+    text-align: center;
+}
+#tech-schema-results .techschema-load img{
+    width: 15px;
+    height: 15px;
+}
 /* technological schema and stage style */

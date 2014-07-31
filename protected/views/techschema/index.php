@@ -28,3 +28,6 @@
     techSchema.init();
 })(jQuery);
 </script>
+
+<?php
+//echo CHtml::link('Обновить значения', '/techschema/addValues/', array('class'=>'btn-admin'));
