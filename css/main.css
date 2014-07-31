@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,cyrillic);
+html{
+    min-width: 100%;
+}
+
 .menu_color_group_1 {
   background-color: #d3a809;
   border-color: #d3a809;
@@ -507,6 +511,7 @@ header:after {
   content: '';
   display: block;
   clear: both;
+  min-height: 200px;
 }
 .wrapper #content {
   margin: 1em 0 2em;
