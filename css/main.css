@@ -2868,14 +2868,12 @@ table.table-tech-stage-with-img .product-list-arrow {
     border-radius: 0;
 }
 
-#tech-schema-results .techschema-load{
+#tech-schema-results .techschema-load, #mightiness-results .techschema-load{
     color: #767676;
-    /*font-weight: bold;*/
     font-size: 20px;
-    /*margin-left: 25px;*/
     text-align: center;
 }
-#tech-schema-results .techschema-load img{
+#tech-schema-results .techschema-load img, #mightiness-results .techschema-load img{
     width: 15px;
     height: 15px;
 }
