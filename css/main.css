@@ -510,6 +510,7 @@ header:after {
 }
 .wrapper #content {
   margin: 1em 0 2em;
+  min-height: 300px;
 }
 .wrapper #content h1 {
   color: #0f9797;
