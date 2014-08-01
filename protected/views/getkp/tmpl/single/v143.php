@@ -213,7 +213,7 @@
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td valign="center">
-                                                    <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ЗЕРНОВАЯ СЕЯЛКА | POLONEZ </span>
+                                                    <p style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ЗЕРНОВАЯ СЕЯЛКА | <span style="color:#f87f3e;">POLONEZ</span> </p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -261,7 +261,7 @@
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td valign="center">
-                                                    <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ДИСКОВАЯ БОРОНА | ARES</span>
+                                                    <p style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ДИСКОВАЯ БОРОНА | <span style="color:#f87f3e;">ARES</span></p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -560,7 +560,7 @@
     <table width="840" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="border:0; border-collapse: separate; overflow: hidden;">
         <tr>
             <td style="padding:5px 20px 20px 0px; text-align: right;">
-                <a target="_blank" href="http://www.lbr.test/getkp/test/v/v143p1/" title="Вариант для печати" style="text-decoration: none; border: 0;">
+                <a target="_blank" href="http://www.lbr.ru/getkp/test/v/v143p1/" title="Вариант для печати" style="text-decoration: none; border: 0;">
                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/button-print.png" width="180" style="border:0;">
                 </a>
             </td>

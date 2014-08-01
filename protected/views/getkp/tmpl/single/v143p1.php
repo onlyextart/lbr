@@ -172,7 +172,7 @@
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td valign="center">
-                                                    <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ЗЕРНОВАЯ СЕЯЛКА | POLONEZ </span>
+                                                    <p style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ЗЕРНОВАЯ СЕЯЛКА | <span style="color:#f87f3e;">POLONEZ</span> </p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -211,7 +211,7 @@
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/unia-logo.jpg" width="16" height="25" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td valign="center">
-                                                    <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ДИСКОВАЯ БОРОНА | ARES</span>
+                                                    <span style="font-size: 13pt; font-weight: bold; font-family: Calibri; color: black; text-transform: uppercase;">ДИСКОВАЯ БОРОНА | <span style="color:#f87f3e;">ARES</span></span>
                                                 </td>
                                             </tr>
                                         </table>
