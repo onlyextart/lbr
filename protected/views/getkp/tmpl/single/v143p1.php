@@ -15,7 +15,7 @@
             <td>
             <td>
                 
-                   <img src="http://www.lbr.test/images/kp/time_to_by_kp/july/header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                   <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                 
             </td>
         </tr>
