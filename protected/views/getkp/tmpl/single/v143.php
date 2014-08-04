@@ -14,7 +14,7 @@
         <tr>
             <td>
             <td>
-                <a target="_blank" href="http://www.lbr.ru/?utm_source=email&utm_medium=email&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                <a target="_blank" href="http://www.lbr.ru/?utm_source=EVP3&utm_medium=email&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                     
                     <img src="cid:header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                 </a>
@@ -102,7 +102,7 @@
 
                                             <tr valign="bottom">
                                                 <td style="padding: 0 0 0 15px;; text-align: right;">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?utm_source=email&utm_medium=email&utm_term=IBIS&utm_content=IBIS&utm_campaign=%D0%9F%D0%9B%D0%A3%D0%93%D0%98%20%D0%9E%D0%91%D0%9E%D0%A0%D0%9E%D0%A2%D0%9D%D0%AB%D0%95%20%D0%9D%D0%90%D0%92%D0%95%D0%A1%D0%9D%D0%AB%D0%95%20IBIS" title="ПЛУГ ОБОРОТНЫЙ НАВЕСНОЙ IBIS" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?utm_source=EVP3&utm_medium=email&utm_term=IBIS&utm_content=IBIS&utm_campaign=%D0%9F%D0%9B%D0%A3%D0%93%D0%98%20%D0%9E%D0%91%D0%9E%D0%A0%D0%9E%D0%A2%D0%9D%D0%AB%D0%95%20%D0%9D%D0%90%D0%92%D0%95%D0%A1%D0%9D%D0%AB%D0%95%20IBIS" title="ПЛУГ ОБОРОТНЫЙ НАВЕСНОЙ IBIS" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -175,7 +175,7 @@
 
                                             <tr valign="bottom">
                                                 <td style="padding: 0 0 0 15px; text-align: right;" colspan="2">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?utm_source=email&utm_medium=email&utm_term=KOS&utm_content=KOS&utm_campaign=%D0%9A%D0%A3%D0%9B%D0%AC%D0%A2%D0%98%D0%92%D0%90%D0%A2%D0%9E%D0%A0%D0%AB%20%D0%A1%D0%A2%D0%95%D0%A0%D0%9D%D0%95%D0%92%D0%AB%D0%95%20KOS" title="СТЕРНЕВОЙ КУЛЬТИВАТОР KOS" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?utm_source=EVP3&utm_medium=email&utm_term=KOS&utm_content=KOS&utm_campaign=%D0%9A%D0%A3%D0%9B%D0%AC%D0%A2%D0%98%D0%92%D0%90%D0%A2%D0%9E%D0%A0%D0%AB%20%D0%A1%D0%A2%D0%95%D0%A0%D0%9D%D0%95%D0%92%D0%AB%D0%95%20KOS" title="СТЕРНЕВОЙ КУЛЬТИВАТОР KOS" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -235,7 +235,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?utm_source=email&utm_medium=email&utm_term=POLONEZ&utm_content=POLONEZ&utm_campaign=%D0%97%D0%95%D0%A0%D0%9D%D0%9E%D0%92%D0%AB%D0%95%20%D0%A1%D0%95%D0%AF%D0%9B%D0%9A%D0%98%20POLONEZ" title="ЗЕРНОВАЯ СЕЯЛКА POLONEZ" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?utm_source=EVP3&utm_medium=email&utm_term=POLONEZ&utm_content=POLONEZ&utm_campaign=%D0%97%D0%95%D0%A0%D0%9D%D0%9E%D0%92%D0%AB%D0%95%20%D0%A1%D0%95%D0%AF%D0%9B%D0%9A%D0%98%20POLONEZ" title="ЗЕРНОВАЯ СЕЯЛКА POLONEZ" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -298,7 +298,7 @@
                                             </tr>
                                             <tr valign="bottom">
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/?utm_source=email&utm_medium=email&utm_term=ARES&utm_content=ARES&utm_campaign=%D0%94%D0%98%D0%A1%D0%9A%D0%9E%D0%92%D0%AB%D0%99%20%D0%9F%D0%9E%D0%A7%D0%92%D0%9E%D0%9E%D0%91%D0%A0%D0%90%D0%91%D0%90%D0%A2%D0%AB%D0%92%D0%90%D0%AE%D0%A9%D0%98%D0%99%20%D0%90%D0%93%D0%A0%D0%95%D0%93%D0%90%D0%A2%20ARES" title="ДИСКОВАЯ БОРОНА ARES" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/?utm_source=EVP3&utm_medium=email&utm_term=ARES&utm_content=ARES&utm_campaign=%D0%94%D0%98%D0%A1%D0%9A%D0%9E%D0%92%D0%AB%D0%99%20%D0%9F%D0%9E%D0%A7%D0%92%D0%9E%D0%9E%D0%91%D0%A0%D0%90%D0%91%D0%90%D0%A2%D0%AB%D0%92%D0%90%D0%AE%D0%A9%D0%98%D0%99%20%D0%90%D0%93%D0%A0%D0%95%D0%93%D0%90%D0%A2%20ARES" title="ДИСКОВАЯ БОРОНА ARES" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/more_re.jpg" width="116" height="25" style="border:0;  float: right;">
                                                     </a>
                                                 </td>
@@ -388,7 +388,7 @@
                                 
                                 <tr valign="bottom">
                                     <td colspan="2" style="padding-top:10px; text-align: right;">
-                                        <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=email&utm_medium=email&utm_term=EXPOM&utm_content=EXPOM&utm_campaign=%D0%9F%D0%A0%D0%98%D0%9A%D0%90%D0%A2%D0%AB%D0%92%D0%90%D0%AE%D0%A9%D0%98%D0%95%20%D0%9A%D0%90%D0%A2%D0%9A%D0%98%20EXPOM" title=" ПРИКАТЫВАЮЩИЕ КАТКИ EXPOM" style="border: 0; text-decoration: none;">
+                                        <a target="_blank" href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=EVP3&utm_medium=email&utm_term=EXPOM&utm_content=EXPOM&utm_campaign=%D0%9F%D0%A0%D0%98%D0%9A%D0%90%D0%A2%D0%AB%D0%92%D0%90%D0%AE%D0%A9%D0%98%D0%95%20%D0%9A%D0%90%D0%A2%D0%9A%D0%98%20EXPOM" title=" ПРИКАТЫВАЮЩИЕ КАТКИ EXPOM" style="border: 0; text-decoration: none;">
                                             <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                         </a>
                                     </td>
@@ -455,7 +455,7 @@
 
                                             <tr valign="bottom">
                                                 <td style="padding: 5px 0 0; text-align: right;">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-mineralnykh-udobrenij/671-razbrasyvateli-mineralnykh-udobrenij-rcw-10000/?utm_source=email&utm_medium=email&utm_term=RCW%2010000&utm_content=RCW%2010000&utm_campaign=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%98%20%D0%9C%D0%98%D0%9D%D0%95%D0%A0%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%2010000" title="РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ RCW 10 0000" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-mineralnykh-udobrenij/671-razbrasyvateli-mineralnykh-udobrenij-rcw-10000/?utm_source=EVP3&utm_medium=email&utm_term=RCW%2010000&utm_content=RCW%2010000&utm_campaign=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%98%20%D0%9C%D0%98%D0%9D%D0%95%D0%A0%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%2010000" title="РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ RCW 10 0000" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/may/more_button.png" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -528,7 +528,7 @@
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/text.png" width="235" style="border:0; float: left;">
                                                 </td>
                                                 <td style="padding: 0 0 5px 15px;; text-align: right;">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?utm_source=email&utm_medium=email&utm_term=%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_content=%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_campaign=%D0%93%D0%9E%D0%A0%D0%98%D0%97%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99%20%D0%A1%D0%9C%D0%95%D0%A1%D0%98%D0%A2%D0%95%D0%9B%D0%AC-%D0%9A%D0%9E%D0%A0%D0%9C%D0%9E%D0%A0%D0%90%D0%97%D0%94%D0%90%D0%A2%D0%A7%D0%98%D0%9A%20%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0" title="ГОРИЗОНТАЛЬНЫЙ СМЕСИТЕЛЬ-КОРМОРАЗДАТЧИК СЕНЬОР" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?utm_source=EVP3&utm_medium=email&utm_term=%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_content=%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_campaign=%D0%93%D0%9E%D0%A0%D0%98%D0%97%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99%20%D0%A1%D0%9C%D0%95%D0%A1%D0%98%D0%A2%D0%95%D0%9B%D0%AC-%D0%9A%D0%9E%D0%A0%D0%9C%D0%9E%D0%A0%D0%90%D0%97%D0%94%D0%90%D0%A2%D0%A7%D0%98%D0%9A%20%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0" title="ГОРИЗОНТАЛЬНЫЙ СМЕСИТЕЛЬ-КОРМОРАЗДАТЧИК СЕНЬОР" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/july/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
