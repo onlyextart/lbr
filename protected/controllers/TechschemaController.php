@@ -29,8 +29,8 @@ class TechschemaController extends Controller
                     $dividend = 4;
                     $rowCount = (int)(count($value)/$dividend);
                     if(count($value)%$dividend != 0) $rowCount++;
-                    $mainImglabel = '/images/schema/empty2.png';//TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
-                    //$mainImglabel = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
+                    //$mainImglabel = '/images/schema/empty2.png';
+                    $mainImglabel = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
                     if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
                     else $mainImglabel = $key;
 
@@ -481,7 +481,7 @@ class TechschemaController extends Controller
         // картофель
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory5->id; //8;
-        $stage->stage_id = $stage6->id;//8;
+        $stage->stage_id = $stage8->id;//8;
         $stage->level = 1;
         $stage->img = '/images/schema/potato/potato1.jpg';
         $stage->save();
