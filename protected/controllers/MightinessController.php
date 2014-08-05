@@ -3,21 +3,7 @@ class MightinessController extends Controller
 {
     public function actionIndex()
     {
-        $min = 0;
-        $images = array();
-        $intervals = array(80, 120, 150, 229, 349, 1000);
-        foreach($intervals as $max){
-            $offset = rand(2, 5);
-            $productRangeValue = ProductRangeValue::model()->find(array('condition'=>'val_int > :from and val_int <= :to and tech_id is not null', 'params'=>array(':from'=>$min, ':to'=>$max), 'offset'=>$offset));
-
-            if(!empty($productRangeValue)) {
-                $productRange = ProductRange::model()->findByPk($productRangeValue->attributes['range_id']);
-                $product = Products::model()->findByPk($productRange->product_id);
-                $images[$max] = $product->image;
-            }
-            $min = $max;
-        }
-        $this->render('index', array('images' => $images));
+        $this->render('index');
     }
 
     public function actionLoadProducts()
