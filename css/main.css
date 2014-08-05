@@ -1303,7 +1303,7 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.xbanners_container .xbanners .one_banner, .mresults{
+.xbanners_container .xbanners .one_banner, .mresults, #mightiness-results .one_banner{
   margin: 0 0 20px;
   padding: 0;
   -moz-box-shadow: 0 0px 4px 1px rgba(50,50,50,0.5);
@@ -1327,7 +1327,8 @@ header:after {
   text-decoration: none;
   text-transform: uppercase;
 }
-.xbanners_container .xbanners .one_banner .b_header h3 a:hover {
+
+.xbanners_container .xbanners .one_banner .b_header h3 a:hover{
   text-decoration: underline;
 }
 .xbanners_container .xbanners .one_banner .b_images {
@@ -1517,9 +1518,14 @@ header:after {
   display: block;
   clear: both;
 }
-.xbanners_container .xbanners .first_banner {
+.xbanners_container .xbanners .first_banner{
   width: 480px;
   height: 440px;
+  float: left;
+}
+#mightiness-results .one_banner {
+  width: 480px;
+  height: 370px;
   float: left;
 }
 .xbanners_container .xbanners .first_banner .b_header {
@@ -1532,10 +1538,10 @@ header:after {
   padding: 0;
   height: 40px;
 }
-.xbanners_container .xbanners .first_banner .b_header h3 {
+.xbanners_container .xbanners .first_banner .b_header h3{
   margin-left: 2em;
 }
-.xbanners_container .xbanners .first_banner .b_header h3 a {
+.xbanners_container .xbanners .first_banner .b_header h3 a, #mightiness-results .one_banner h3{
   font-size: 18px;
   padding-top: 3px;
   height: 45px;
@@ -1607,7 +1613,7 @@ header:after {
 .xbanners_container .xbanners .first_banner .b_caption .btn:hover {
   text-decoration: underline;
 }
-.xbanners_container .xbanners .first_banner:nth-child(2n+1) {
+.xbanners_container .xbanners .first_banner:nth-child(2n+1), #mightiness-results .one_banner:nth-child(2n+1){
   margin-right: 20px;
   margin-left: 10px;
 }
@@ -2605,10 +2611,28 @@ ul.mightiness-menu li {
     line-height: 20px;
     cursor: default;
 }
+.mightiness-menu-label span.labelInterval{
+    float: right;
+    padding-right: 10px;
+}
 .mightiness-menu-label span{
     padding-left: 65px;
 }
-
+#mightiness-results .one_banner h3 {
+    color: #0f9797;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    padding-top: 0;
+}
+#mightiness-results .one_banner img {
+    width: 100%;
+    height: 310px;
+    display: block;
+}
+#mightiness-results .one_banner h3:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
 .mresults {
     float: left;
     height: 350px;

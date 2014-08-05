@@ -8,11 +8,17 @@ var mightiness = {
             if(!$(this).hasClass('disabled')) {  
                 $('.mightiness-menu li').removeClass('active');
                 $(this).addClass('active');
-                mightiness.sendData($(this).attr('val'));
+                mightiness.sendData($(this).attr('val'), $(this).attr('label'));
             }
         });
+        $('#mightiness-results .one_banner h3').click(function() { 
+            $('.mightiness-menu li').removeClass('active');
+            var val = $(this).attr('val');
+            $('.mightiness-menu li[val="'+val+'"]').addClass('active');
+            mightiness.sendData(val, $(this).attr('label'));
+        });
     },
-    sendData : function(val, view){
+    sendData : function(val, label){
         $('.mightiness-menu li').each(function(){
             $(this).addClass('disabled');
         });
@@ -32,7 +38,7 @@ var mightiness = {
             data:{
                 from: from,
                 to: to,
-                //view: view,
+                label: label,
             },
             dataType: 'json',
             cache: false,

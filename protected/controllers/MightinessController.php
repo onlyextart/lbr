@@ -3,13 +3,28 @@ class MightinessController extends Controller
 {
     public function actionIndex()
     {
-        $this->render('index');
+        $min = 0;
+        $images = array();
+        $intervals = array(80, 120, 150, 229, 349, 1000);
+        foreach($intervals as $max){
+            $offset = rand(2, 5);
+            $productRangeValue = ProductRangeValue::model()->find(array('condition'=>'val_int > :from and val_int <= :to and tech_id is not null', 'params'=>array(':from'=>$min, ':to'=>$max), 'offset'=>$offset));
+
+            if(!empty($productRangeValue)) {
+                $productRange = ProductRange::model()->findByPk($productRangeValue->attributes['range_id']);
+                $product = Products::model()->findByPk($productRange->product_id);
+                $images[$max] = $product->image;
+            }
+            $min = $max;
+        }
+        $this->render('index', array('images' => $images));
     }
 
     public function actionLoadProducts()
     {
         $from = $_POST['from'];
         $to = $_POST['to'];
+        $labelInterval = $_POST['label'];
 
         $result = $groupInfo = array();
         $search = new SearchLog();
@@ -95,7 +110,7 @@ class MightinessController extends Controller
             foreach($result as $key => $value) {
                 if(!empty($result[$key])){
                     $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
-                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
+                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
                     foreach($value as $product) {
                         $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
                         if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
