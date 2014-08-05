@@ -4,7 +4,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
 endif;
 ?>
 <div class="table w-800">
-    <!-- Первый блок -->
+    <!-- Первый блок  -->
     <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
 
         <tr>
