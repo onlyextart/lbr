@@ -1,17 +1,17 @@
 <ul class="mightiness-menu">
-    <li val="80-120" label="для 80 л.с.">
+    <li val="80-120" label="80 л.с.">
         <div><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/></div>
         <div class="dir">
             для 80 л.с.
         </div>
     </li>
-    <li val="120-150" label="для 120 л.с.">
+    <li val="120-150" label="120 л.с.">
         <div><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/></div>
         <div class="dir">
             для 120 л.с.
         </div>
     </li>
-    <li val="150-180" label="для 150 л.с.">
+    <li val="150-180" label="150 л.с.">
         <div><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/></div>
         <div class="dir">
             для 150 л.с.

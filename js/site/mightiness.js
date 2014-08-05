@@ -38,7 +38,7 @@ var mightiness = {
             data:{
                 from: from,
                 to: to,
-                label: label,
+                label: 'Лучшие машины для трактора '+label,
             },
             dataType: 'json',
             cache: false,
