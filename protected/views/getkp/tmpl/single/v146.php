@@ -27,7 +27,7 @@ endif;
                                 </tr>
                                 <tr >
                                     <td style="padding: 0px; margin: 0; background-color: #f58220;">
-                                        <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 26px; font-weight: bold; color: #FFFFFF; text-align: center; line-height: 28px;">
+                                        <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 23px; font-weight: bold; color: #FFFFFF; text-align: center; line-height: 28px;">
                                             Полный ассортимент машин для приготовления и раздачи кормов, загрузки кормов в кормораздатчики,вывоза и использования органических удобрений.
                                         </p>                              
                                     </td>
@@ -46,7 +46,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/" style="text-decoration: none;">
                                             Горизонтальные смесители-кормораздатчики Сеньор
                                         </a>
@@ -89,8 +89,8 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
                                                         </td>
                                                         <td style="padding:0px 0px 0px 3px;">
-                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
-                                                                Использование кормораздатчика CЕНЬОР для приготовления и раздачи полно-рационных кормовых смесей позволяет увеличить
+                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
+                                                                Использование кормораздатчика CЕНЬОР для приготовления и раздачи полнорационных кормовых смесей позволяет увеличить
                                                                 прибыль на 20% (в отличие от раздельного кормления), а использование кормораздатчика с системой самозагрузки приносит 
                                                                 дополнительную экономию не менее 400 тыс.рублей, т.к. снижаются, либо полностью исключаются, затраты на загрузку 
                                                                 кормораздатчика фронтальным либо телескопическим погрузчиком.
@@ -233,7 +233,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-vertikalnye/610-vertikalnye-smesiteli-kormorazdatchiki-senior/" style="text-decoration: none;">
                                             Вертикальные смесители-кормораздатчики Сеньор
                                         </a>
@@ -282,7 +282,7 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
                                                         </td>
                                                         <td style="padding:0px 0px 0px 3px;" width="350">
-                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
+                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
                                                                 Работает с целыми рулонами или тюками. Легко их измельчает с помощью шнека большого диаметра с ножами из износостойкой стали.
                                                             </p> 
                                                         </td>
@@ -376,7 +376,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/" style="text-decoration: none;">
                                             Измельчитель рулонов Унибалл
                                         </a>
@@ -506,7 +506,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/" style="text-decoration: none;">
                                             Измельчитель рулонов Унибалл Кронос
                                         </a>
@@ -555,7 +555,7 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
                                                         </td>
                                                         <td style="padding:0px 0px 0px 3px;" width="350">
-                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
+                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
                                                                 Предназначен для измельчения и распределения цилиндрических тюков, больших призматических тюков сена или сенажных тюков, а также для измельчения кукурузы. Отлично справляется как с сухим, так и с влажным кормом.
                                                             </p> 
                                                         </td>
@@ -644,7 +644,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/" style="text-decoration: none;">
                                             Измельчитель рулонов Унибалл Мини
                                         </a>
@@ -693,7 +693,7 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
                                                         </td>
                                                         <td style="padding:0px 0px 5px 3px;" width="350">
-                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
+                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
                                                                 Предназначен для измельчения тюков и распределения соломы с длиной фракции однородного материала до 5 см.
                                                             </p> 
                                                         </td>
@@ -788,7 +788,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="710" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/minikombikormovye-zavody-drobilki-plyushchilki/612-kombikormovyj-mini-zavod/" style="text-decoration: none;">
                                             Комбикормовые минизаводы
                                         </a>
@@ -837,8 +837,8 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">  
                                                         </td>
                                                         <td style="padding:0px 0px 10px 3px;" width="350">
-                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
-                                                                Комбикормовый минизавод состоит из смесителя, объемом до 2 000 л; дробил-ки, производительностью до 2,5 т/час и высокоточных электронных весов.
+                                                            <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
+                                                                Комбикормовый минизавод состоит из смесителя, объемом до 2 000 л; дробилки, производительностью до 2,5 т/час и высокоточных электронных весов.
                                                             </p> 
                                                         </td>
                                                     </tr>
@@ -964,7 +964,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="725" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-tverdykh-organicheskikh-udobrenij/435-mashiny-dlya-vneseniya-organicheskikh-udobrenij-lmr/" style="text-decoration: none;">
                                             Разбрасыватели органики PTU (универсальные) от 5 до 22 т
                                         </a>
@@ -1106,7 +1106,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="640" style="border-bottom:solid black 4px;">
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/bochki-dlya-vneseniya-zhidkikh-organicheskikh-udobrenij/436-bochki-dlya-vneseniya-zhidkikh-udobrenij-meprozet/" style="text-decoration: none;">
                                             Бочка PITON 100 для жидкой органики и воды
                                         </a>
@@ -1270,7 +1270,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="640" style="border-bottom:solid black 4px;">
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/bochki-dlya-vneseniya-zhidkikh-organicheskikh-udobrenij/437-bochki-dlya-vneseniya-zhidkikh-udobrenij-mzht/" style="text-decoration: none;">
                                             Бочки для внесения жидких удобрений МЖТ
                                         </a>
@@ -1389,7 +1389,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="690" style="border-bottom:solid black 4px;">
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/tehnika/frontalnye-traktornye-pogruzchiki/navesnoe-pogruzochnoe-oborudovanie/583-navesnoe-oborudovanie-tur/" style="text-decoration: none;">
                                             Навесное оборудование ТУР
                                         </a>
@@ -1535,7 +1535,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="695" >
-                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: bold; color: black; text-align: left;">
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
                                         <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/" style="text-decoration: none;">
                                             Телескопические погрузчики Dieci
                                         </a>
