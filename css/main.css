@@ -2623,6 +2623,7 @@ ul.mightiness-menu li {
     font-family: 'Open Sans', sans-serif;
     padding-left: 15px;
     padding-top: 0;
+    text-transform: uppercase; 
 }
 #mightiness-results .one_banner img {
     width: 100%;
