@@ -13,7 +13,8 @@
             echo CHtml::openTag('li', array('name' => $descendant->id));
             if($num == 0) echo('<span class="menu_group_name" style="width:'.($count*$width).'px; background-color: #'.$root->color.'">'.$root->title.'</span>');
             $num++;
-            echo CHtml::image(Yii::app()->getBaseUrl(true). $descendant->menu_img, $descendant->title, array('style' => 'border-color: #'.$root->color));
+            if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title, array('style' => 'border-color: #'.$root->color));
+            else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
             echo CHtml::closeTag('li');
         endforeach;
     endforeach;

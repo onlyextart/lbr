@@ -163,12 +163,10 @@ class TechschemaController extends Controller
         $root3->title = 'Овощи и картофель';
         $root3->color = 'f99d1c';
         $root3->saveNode();
-        /*
         $root4 = new TechSchema;
         $root4->title = 'Классические технологии';
         $root4->color = '009bdf';
         $root4->saveNode();
-         */
         
         $subCategory1 = new TechSchema;
         $subCategory1->title='Заготовка сена';
@@ -226,6 +224,18 @@ class TechschemaController extends Controller
         $subCategory9->insertAfter($subCategory8);
         $subCategory10->insertAfter($subCategory9);
         $subCategory7->insertAfter($subCategory10);
+        
+        $subCategory11 = new TechSchema;
+        $subCategory11->title='Озимые';
+        $subCategory11->img='/images/schema/ozimie/ozimie.jpg';
+        $subCategory11->menu_img='';
+        $subCategory12 = new TechSchema;
+        $subCategory12->title='Яровые';
+        $subCategory12->img='/images/schema/yarovie/yarovie.jpg';
+        $subCategory12->menu_img='';
+        //$root = TechSchema::model()->findByPk(2);
+        $subCategory11->appendTo($root4);
+        $subCategory12->insertAfter($subCategory11);
 
         ////////////////////////
         
@@ -333,8 +343,20 @@ class TechschemaController extends Controller
         $stage32->title = 'Внесение пестицидов';
         $stage32->save();
         $stage33 = new TechStage();
-        $stage33->title = 'Рыхление подошвы и переуплотненного слоя почвы (раз в 3-5 лет)';
+        $stage33->title = 'Рыхление подошвы и переуплотнений (3-5 лет)';
         $stage33->save();
+        $stage34 = new TechStage();
+        $stage34->title = 'Глубокорыхление';
+        $stage34->save();
+        $stage35 = new TechStage();
+        $stage35->title = 'Весенняя культивация';
+        $stage35->save();
+        $stage36 = new TechStage();
+        $stage36->title = 'Прикатывание';
+        $stage36->save();
+        $stage37 = new TechStage();
+        $stage37->title = 'Внесение гербицидов';
+        $stage37->save();
         
         /////////////////////////////////////////
         
@@ -856,6 +878,142 @@ class TechschemaController extends Controller
         $stage->stage_id = $stage32->id;//33;
         $stage->level = 5;
         $stage->img = '/images/schema/no-till/no-till5.jpg';
+        $stage->save();
+        
+        // Озимые
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage34->id;
+        $stage->level = 1;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage8->id;
+        $stage->level = 2;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage10->id;
+        $stage->level = 3;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage11->id;
+        $stage->level = 4;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage9->id;
+        $stage->level = 5;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage12->id;
+        $stage->level = 6;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage14->id;
+        $stage->level = 7;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage36->id;
+        $stage->level = 8;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage31->id;
+        $stage->level = 9;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage30->id;
+        $stage->level = 10;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory11->id;
+        $stage->stage_id = $stage37->id;
+        $stage->level = 11;
+        $stage->img = '';
+        $stage->save();
+        
+        // Яровые
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage34->id;
+        $stage->level = 1;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage8->id;
+        $stage->level = 2;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage10->id;
+        $stage->level = 3;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage11->id;
+        $stage->level = 4;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage9->id;
+        $stage->level = 5;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage12->id;
+        $stage->level = 6;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage9->id;
+        $stage->level = 7;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage35->id;
+        $stage->level = 8;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage36->id;
+        $stage->level = 9;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage31->id;
+        $stage->level = 10;
+        $stage->img = '';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory12->id;
+        $stage->stage_id = $stage37->id;
+        $stage->level = 11;
+        $stage->img = '';
         $stage->save();
         
         ////////////////////////////////////////////////////
