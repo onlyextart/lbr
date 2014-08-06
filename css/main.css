@@ -1954,9 +1954,9 @@ footer .f-right .f-nav:after {
   margin: 0;
   padding: 0;
 }
-ul.tech-menu-wrapper{
+/*ul.tech-menu-wrapper, h1.tech-schema-h{
     margin-left: 8px;
-}
+}*/
 .main_menu_wrapper .main_menu_first_level {
   height: 20px;
   position: relative;
@@ -1993,7 +1993,7 @@ ul.tech-menu-wrapper{
   z-index: 100;
   background: url('/images/top-line.png') no-repeat bottom center;
 }
-.main_menu_wrapper .main_menu_second_level {
+.main_menu_wrapper .main_menu_second_level, #main_menu_tech_schema, #main_menu_mightiness{
   position: relative;
   background: -moz-linear-gradient(top,#ffffff,#ededed);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#ededed));
@@ -2064,12 +2064,12 @@ ul.tech-menu-wrapper{
   background: transparent;
   background-color: transparent;
 }
-.main_menu_wrapper .main_menu_second_level:after {
+.main_menu_wrapper .main_menu_second_level:after, #main_menu_tech_schema:after, #main_menu_mightiness:after {
   content: '';
   display: table;
   clear: both;
 }
-.main_menu_wrapper .main_menu_second_level:before {
+.main_menu_wrapper .main_menu_second_level:before, #main_menu_tech_schema:before{
   content: "";
   position: absolute;
   top: 100px;
@@ -2575,13 +2575,12 @@ ul.mightiness-menu li:hover, ul.mightiness-menu li.active, .tech-menu-wrapper li
     cursor: pointer;
     background: none repeat scroll 0 0 #dfdfdf;
     z-index: 100;
-    border-radius: 4px;
 }
 /*ul.mightiness-menu li.active{
     background: none repeat scroll 0 0 #e1eded;
 }*/
 div.hit-label{
-    padding-top: 48px;
+    padding-top: 38px;
     margin-right: 30px;
     float: right;
 }
@@ -2590,7 +2589,6 @@ ul.mightiness-menu > li {
     height: 100px;
     min-width: 125px;
     text-align: center !important;
-    margin-top: 10px;
     margin-right: 4px;
 }
 
@@ -2893,6 +2891,8 @@ table.table-tech-stage-with-img .product-list-arrow {
 .tech-menu-wrapper li{
     margin: 0;
     padding: 0;
+    height: 100px;
+    width: 125px;
 }
 
 .tech-menu-wrapper li img:hover{
@@ -2907,5 +2907,8 @@ table.table-tech-stage-with-img .product-list-arrow {
 #tech-schema-results .techschema-load img, #mightiness-results .techschema-load img{
     width: 15px;
     height: 15px;
+}
+#main_menu_tech_schema, #main_menu_mightiness{
+    margin-top: -1em;
 }
 /* technological schema and stage style */

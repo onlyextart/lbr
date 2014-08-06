@@ -1,4 +1,4 @@
-<div>
+<div id="main_menu_tech_schema">
     <?php $roots = TechSchema::model()->roots()->findAll(); ?>
     <?php if(!empty($roots)): ?>
     <ul class="tech-menu-wrapper">
@@ -7,7 +7,7 @@
         $cycle = TechSchema::model()->findByPk($root->id);
         $descendants=$cycle->descendants()->findAll();
         $count = count($descendants);
-        $width = 123;
+        $width = 125;
         $num = 0;
         foreach ($descendants as $descendant):  
             echo CHtml::openTag('li', array('name' => $descendant->id));
@@ -23,6 +23,7 @@
     <?php endif; ?>
 </div>
 <div style="clear: both"></div>
+<h1 class="tech-schema-h">По технологической схеме</h1>
 <div id="tech-schema-results"></div>
 <script>
 (function($){

@@ -1,4 +1,5 @@
 <?php $this->widget('ext.mightinessWidget.MightinessWidget'); ?>
+<h1>По мощности трактора</h1>
 <div id="mightiness-results">
     <div class="one_banner">
         <h3 val="80-120" label="80 л.с.">для тракторов 80 л.с.</h3>

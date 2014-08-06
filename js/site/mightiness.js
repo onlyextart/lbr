@@ -8,6 +8,7 @@ var mightiness = {
             if(!$(this).hasClass('disabled')) {  
                 $('.mightiness-menu li').removeClass('active');
                 $(this).addClass('active');
+                $('#mightiness-results').html('<div class="techschema-load">Загрузка <img src="/images/loading-small.gif"></div>');
                 mightiness.sendData($(this).attr('val'), $(this).attr('label'));
             }
         });
