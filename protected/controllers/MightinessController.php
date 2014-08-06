@@ -10,6 +10,7 @@ class MightinessController extends Controller
     {
         $from = $_POST['from'];
         $to = $_POST['to'];
+        $labelInterval = $_POST['label'];
 
         $result = $groupInfo = array();
         $search = new SearchLog();
@@ -95,7 +96,7 @@ class MightinessController extends Controller
             foreach($result as $key => $value) {
                 if(!empty($result[$key])){
                     $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
-                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
+                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
                     foreach($value as $product) {
                         $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
                         if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
@@ -113,7 +114,7 @@ class MightinessController extends Controller
             if(!empty($existsFrontTraktPogr)){
                 $key = 'Фронтальные тракторные погрузчики';
                 $colorCssClass='menu_color_group_'.$groupInfo[$key]['color']; //.$secondLevelItem->group->id;
-                $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span></div>';
+                                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
                 foreach($existsFrontTraktPogr as $product) {
                     $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
                     if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
