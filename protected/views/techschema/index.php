@@ -25,7 +25,7 @@
     <?php endif; ?>
 </div>
 <div style="clear: both"></div>
-<h1 class="tech-schema-h">По технологической схеме</h1>
+<h1 class="tech-schema-h">По технологическому циклу</h1>
 <div id="tech-schema-results"></div>
 <script>
 (function($){
