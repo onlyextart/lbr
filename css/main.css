@@ -2048,7 +2048,7 @@ footer .f-right .f-nav:after {
   border-radius: 4px;
   background: #e1eded;
 }
-.main_menu_wrapper .main_menu_second_level .active a {
+.main_menu_wrapper .main_menu_second_level .active a, .tech-menu-wrapper div.tech-img-wrapper.active {
   border: 2px solid;
   border-radius: 5px;
   height: 96px;
@@ -2571,7 +2571,7 @@ ul.mightiness-menu .dir {
     text-align: center !important;
     color: #747474;
 }
-ul.mightiness-menu li:hover, ul.mightiness-menu li.active, .tech-menu-wrapper li img:hover{
+ul.mightiness-menu li:hover, ul.mightiness-menu li.active, .tech-menu-wrapper li:hover{
     cursor: pointer;
     background: none repeat scroll 0 0 #dfdfdf;
     z-index: 100;

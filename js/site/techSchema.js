@@ -1,8 +1,8 @@
 var techSchema = {
     init : function(){
         $('.tech-menu-wrapper li').on('click', function() {
-            $('.tech-menu-wrapper img.active').removeClass('active');
-            $(this).find('img').addClass('active');
+            $('.tech-menu-wrapper div.tech-img-wrapper.active').removeClass('active');
+            $(this).find('div.tech-img-wrapper').addClass('active');
             $('#tech-schema-results').html('<div class="techschema-load">Загрузка <img src="/images/loading-small.gif"></div>');
             techSchema.loadTechSchema($(this).attr('name'));
         });
