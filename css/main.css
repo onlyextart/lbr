@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,cyrillic);
+html{
+    min-width: 100%;
+}
+
 .menu_color_group_1 {
   background-color: #d3a809;
   border-color: #d3a809;
@@ -1950,6 +1954,9 @@ footer .f-right .f-nav:after {
   margin: 0;
   padding: 0;
 }
+/*ul.tech-menu-wrapper, h1.tech-schema-h{
+    margin-left: 8px;
+}*/
 .main_menu_wrapper .main_menu_first_level {
   height: 20px;
   position: relative;
@@ -1986,7 +1993,7 @@ footer .f-right .f-nav:after {
   z-index: 100;
   background: url('/images/top-line.png') no-repeat bottom center;
 }
-.main_menu_wrapper .main_menu_second_level {
+.main_menu_wrapper .main_menu_second_level, #main_menu_tech_schema, #main_menu_mightiness{
   position: relative;
   background: -moz-linear-gradient(top,#ffffff,#ededed);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#ededed));
@@ -2041,7 +2048,7 @@ footer .f-right .f-nav:after {
   border-radius: 4px;
   background: #e1eded;
 }
-.main_menu_wrapper .main_menu_second_level .active a {
+.main_menu_wrapper .main_menu_second_level .active a, .tech-menu-wrapper div.tech-img-wrapper.active {
   border: 2px solid;
   border-radius: 5px;
   height: 96px;
@@ -2057,12 +2064,12 @@ footer .f-right .f-nav:after {
   background: transparent;
   background-color: transparent;
 }
-.main_menu_wrapper .main_menu_second_level:after {
+.main_menu_wrapper .main_menu_second_level:after, #main_menu_tech_schema:after, #main_menu_mightiness:after {
   content: '';
   display: table;
   clear: both;
 }
-.main_menu_wrapper .main_menu_second_level:before {
+.main_menu_wrapper .main_menu_second_level:before, #main_menu_tech_schema:before{
   content: "";
   position: absolute;
   top: 100px;
@@ -2564,17 +2571,16 @@ ul.mightiness-menu .dir {
     text-align: center !important;
     color: #747474;
 }
-ul.mightiness-menu li:hover, ul.mightiness-menu li.active, .tech-menu-wrapper li img:hover{
+ul.mightiness-menu li:hover, ul.mightiness-menu li.active, .tech-menu-wrapper li:hover{
     cursor: pointer;
     background: none repeat scroll 0 0 #dfdfdf;
     z-index: 100;
-    border-radius: 4px;
 }
 /*ul.mightiness-menu li.active{
     background: none repeat scroll 0 0 #e1eded;
 }*/
 div.hit-label{
-    padding-top: 48px;
+    padding-top: 38px;
     margin-right: 30px;
     float: right;
 }
@@ -2583,7 +2589,6 @@ ul.mightiness-menu > li {
     height: 100px;
     min-width: 125px;
     text-align: center !important;
-    margin-top: 10px;
     margin-right: 4px;
 }
 
@@ -2733,6 +2738,14 @@ ul.mightiness-menu li {
     position: absolute;
 }
 
+#tech-schema-results td{
+    width: 22% !important;
+}
+/*
+#tech-schema-results td:first-child{
+    width: 12%;
+}
+*/
 table.table-tech-stage-with-img, table.table-tech-stage{
     width: 100%;
     max-width: 100%;
@@ -2744,7 +2757,8 @@ table.table-tech-stage-with-img, table.table-tech-stage, table.table-tech-stage-
 table.table-tech-stage-with-img ul {
     list-style-image: url(/images/schema/mark.png); 
     padding: 0;
-    margin: 0 11px;
+    margin-left: 11px;
+    margin-top: 0;
     min-height: 10px;
     font-size: 12px;
 }
@@ -2764,18 +2778,19 @@ table.table-tech-stage-with-img tr:first-child td:not(:first-child), table.table
     
 table.table-tech-stage-with-img tr:first-child td:first-child
 {
-    background-color: #efc825;
+    background-color: #ffca00;
     color: #ffffff;
     font-weight: bold;
     
 }
-table.table-tech-stage-with-img tr:not(:first-child) td:not(:first-child){
+table.table-tech-stage-with-img tr:not(:first-child) td{
     vertical-align: top;
 }
+/*
 table.table-tech-stage-with-img tr:not(:first-child) td:first-child{
     width: 120px;
     height: 300px;
-}
+}*/
 table.table-tech-stage-with-img td.label{
     width: auto !important;
     height: auto !important;
@@ -2785,15 +2800,15 @@ table.table-tech-stage-with-img td.label{
 table.table-tech-stage tr:not(:first-child) td:first-child{
     width: 120px;
 }
-table.table-tech-stage-with-img tr:not(:first-child) td
+/*table.table-tech-stage-with-img tr:not(:first-child) td
 {
     height: 300px;
-}
-table.table-tech-stage-with-img td img{
+}*/
+/*table.table-tech-stage-with-img td img{
     height: 100%;
-}
+}*/
 table.table-tech-stage-with-img td:not(:first-child) img:not(.plarrow){
-    height: 100px;
+    /*height: 100px;*/
     margin-bottom: 10px;
 }
 
@@ -2803,15 +2818,22 @@ table.table-tech-stage-with-img .product-list-wrapper {
     min-height: 280px;
     border-radius: 3px;
     border: 1px solid #d8d9d9;
+    /* text-align: center;*/
+}
+table.table-tech-stage-with-img .additional-info-wrapper{
+    background-color: #ffffff;
+    height: 332px;
+    border-radius: 3px;
+    border: 1px solid #d8d9d9;
     text-align: center;
 }
 table.table-tech-stage-with-img .product-list-arrow {
     width: 60px;
     height: 38px;
     position: absolute;
-    right: -30px;
-    top: 70px;
-    z-index: 9999;
+    right: -35px;
+    top: 110px;
+    z-index: 998;
 }
 #tech-schema-results table.table-tech-stage td{
     padding: 5px;
@@ -2852,6 +2874,7 @@ table.table-tech-stage-with-img .product-list-arrow {
   line-height: 14px;
   font-size: 12px;
   text-align: center;
+  padding-bottom: 2px;
 }
 .tech-menu-wrapper li span:hover{
     cursor: default;
@@ -2862,12 +2885,30 @@ table.table-tech-stage-with-img .product-list-arrow {
 .tech-menu-wrapper li img.active{
     background-color: #dfdfdf;
     /*border: 2px solid;*/
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     height: 100px;
 }
 .tech-menu-wrapper li{
     margin: 0;
     padding: 0;
+    height: 100px;
+    width: 125px;
 }
 
+.tech-menu-wrapper li img:hover{
+    border-radius: 0;
+}
+
+#tech-schema-results .techschema-load, #mightiness-results .techschema-load{
+    color: #767676;
+    font-size: 20px;
+    text-align: center;
+}
+#tech-schema-results .techschema-load img, #mightiness-results .techschema-load img{
+    width: 15px;
+    height: 15px;
+}
+#main_menu_tech_schema, #main_menu_mightiness{
+    margin-top: -1em;
+}
 /* technological schema and stage style */
