@@ -2053,6 +2053,10 @@ footer .f-right .f-nav:after {
   border-radius: 5px;
   height: 96px;
 }
+.tech-menu-wrapper div.tech-img-wrapper.active
+{
+    background: none repeat scroll 0 0 #e1eded;
+}
 .main_menu_wrapper .main_menu_second_level li:hover {
   background: #DFDFDF;
 }

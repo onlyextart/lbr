@@ -45,7 +45,7 @@ class TechschemaController extends Controller
                         foreach($productList[$key] as $id => $products) {
                             $label = TechSchemaStage::model()->findByPk($id)->img;
                             $response .= '<td><div class="product-list-wrapper">';
-                            if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                            if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения" />';
                             $response .= '<ul>';
                             foreach($products as $product) {
                                 if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -77,7 +77,7 @@ class TechschemaController extends Controller
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
                                 $response .= '<td>';
                                 $response .= '<div class="product-list-wrapper">';
-                                if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
                                 //$response .= '<img src="/images/schema/empty.png" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
@@ -119,7 +119,7 @@ class TechschemaController extends Controller
                                 if(in_array($id, $keyInDiapazon)){
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
                                     $response .= '<td><div class="product-list-wrapper">';
-                                    if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                    if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
                                     //$response .= '<img src="/images/schema/empty.png" />';
                                     $response .= '<ul>';
                                     foreach($products as $product) {
