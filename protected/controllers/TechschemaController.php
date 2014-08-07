@@ -77,8 +77,8 @@ class TechschemaController extends Controller
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
                                 $response .= '<td>';
                                 $response .= '<div class="product-list-wrapper">';
-                                //if(!empty($label)) $response .= '<img src="'.$label.'" />';
-                                $response .= '<img src="/images/schema/empty.png" />';
+                                if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                //$response .= '<img src="/images/schema/empty.png" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
                                     if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -119,8 +119,8 @@ class TechschemaController extends Controller
                                 if(in_array($id, $keyInDiapazon)){
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
                                     $response .= '<td><div class="product-list-wrapper">';
-                                    //if(!empty($label)) $response .= '<img src="'.$label.'" />';
-                                    $response .= '<img src="/images/schema/empty.png" />';
+                                    if(!empty($label)) $response .= '<img src="'.$label.'" />';
+                                    //$response .= '<img src="/images/schema/empty.png" />';
                                     $response .= '<ul>';
                                     foreach($products as $product) {
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -228,11 +228,11 @@ class TechschemaController extends Controller
         $subCategory11 = new TechSchema;
         $subCategory11->title='Озимые';
         $subCategory11->img='/images/schema/ozimie/ozimie.jpg';
-        $subCategory11->menu_img='';
+        $subCategory11->menu_img='/images/schema/menu/ozimie.png';
         $subCategory12 = new TechSchema;
         $subCategory12->title='Яровые';
         $subCategory12->img='/images/schema/yarovie/yarovie.jpg';
-        $subCategory12->menu_img='';
+        $subCategory12->menu_img='/images/schema/menu/yarovie.png';
         //$root = TechSchema::model()->findByPk(2);
         $subCategory11->appendTo($root4);
         $subCategory12->insertAfter($subCategory11);
