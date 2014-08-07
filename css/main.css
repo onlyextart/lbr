@@ -2589,7 +2589,7 @@ ul.mightiness-menu > li {
     height: 100px;
     min-width: 125px;
     text-align: center !important;
-    margin-right: 4px;
+    /*margin-right: 4px;*/
 }
 
 ul.mightiness-menu li {
