@@ -2722,9 +2722,9 @@ ul.mightiness-menu li {
     margin-top: 20px;
 }
 
-#tech-schema-results tr:first-child td, #tech-schema-results tr:not(:first-child) td:first-child, #tech-schema-results table.table-tech-stage td.label{
+/*#tech-schema-results tr:first-child td, #tech-schema-results tr:not(:first-child) td:first-child, #tech-schema-results table.table-tech-stage td.label{
     text-align: center;
-}
+}*/
 #tech-schema-results tr:not(:first-child) td:not(.label){
     padding: 0;
     margin: 0;
@@ -2792,7 +2792,7 @@ table.table-tech-stage tr:not(:first-child) td:first-child{
     width: 120px;
 }
 
-table.table-tech-stage-with-img td:not(:first-child) img:not(.plarrow){
+table.table-tech-stage-with-img .product-list-wrapper img:not(.plarrow){
     margin-bottom: 10px;
 }
 
@@ -2892,4 +2892,15 @@ table.table-tech-stage-with-img .product-list-arrow {
 #main_menu_tech_schema, #main_menu_mightiness{
     margin-top: -1em;
 }
+/*table.table-tech-stage-with-img tr{
+    height: 1px;
+}
+table.table-tech-stage-with-img td:not(.label){
+    height: 100%;
+}
+table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
+    min-height: 94%;
+    height: auto !important;
+    height: 94%;
+}*/
 /* technological schema and stage style */
