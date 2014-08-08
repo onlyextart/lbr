@@ -2729,6 +2729,9 @@ ul.mightiness-menu li {
     padding: 0;
     margin: 0;
     position: relative;
+    background: #fff;
+    border: 1px solid #d8d9d9;
+    border-radius: 3px;
 }
 
 #tech-schema-results tr:first-child td:first-child img{
@@ -2801,13 +2804,13 @@ table.table-tech-stage-with-img .product-list-wrapper {
     padding: 10px;
     min-height: 280px;
     border-radius: 3px;
-    border: 1px solid #d8d9d9;
+    /*border: 1px solid #d8d9d9;*/
 }
 table.table-tech-stage-with-img .additional-info-wrapper{
     background-color: #ffffff;
     height: 332px;
     border-radius: 3px;
-    border: 1px solid #d8d9d9;
+    /*border: 1px solid #d8d9d9;*/
     text-align: center;
 }
 table.table-tech-stage-with-img .product-list-arrow {
@@ -2903,4 +2906,16 @@ table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
     height: auto !important;
     height: 94%;
 }*/
+
+table.table-tech-stage-with-img td:not(.label){
+    /*display: flex;
+    height: auto;
+    flex-flow: row column;*/
+    /*display: flex;
+    align-items: stretch;*/
+    /*height: auto;*/
+}
+table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
+    vertical-align: middle;
+}
 /* technological schema and stage style */
