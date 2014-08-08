@@ -1,7 +1,7 @@
 <?php
 class MightinessController extends Controller
 {
-    public function actionIndex()
+    public function actionIndex($sort = null)
     {
         $this->render('index');
     }

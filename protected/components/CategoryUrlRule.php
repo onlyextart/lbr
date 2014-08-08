@@ -28,15 +28,20 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
+        $additionalParam = '';
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
-        }
-        else{
+        } else {
+            $pos = strpos($pathInfo, '/sort/mashiny-dlya-traktora-');
+            if($pos !== false) {
+                $additionalParam = substr($pathInfo, $pos);
+                $pathInfo = substr($pathInfo, 0, $pos);
+            }
             $this->desiredMenuItem = MenuItems::model()->find(
-                    'path=:path',
-                    array(':path'=>'/'.$pathInfo)
+                'path=:path',
+                array(':path'=>'/'.$pathInfo)
             );
         }
         //Если не найден искомый пункт меню
@@ -84,7 +89,8 @@ class CategoryUrlRule extends CBaseUrlRule
         
         Yii::app()->params['currentMenuBranch'] = $ancestors;
         
-        return self::$controllers[$this->desiredMenuItem->type];
+        if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
+        else return self::$controllers[$this->desiredMenuItem->type];
     }
     
     static function getUrl( $pageId, $recursive = false )
