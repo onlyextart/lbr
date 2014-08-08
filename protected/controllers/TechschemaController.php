@@ -30,7 +30,9 @@ class TechschemaController extends Controller
                     $rowCount = (int)(count($value)/$dividend);
                     if(count($value)%$dividend != 0) $rowCount++;
                     //$mainImglabel = '/images/schema/empty2.png';
-                    $mainImglabel = TechSchema::model()->find('title=:title', array(':title'=>$key))->img;
+                    $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
+                    $mainImglabel = $currentSchema->img;
+                    $additionalImg = $currentSchema->additional;
                     if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
                     else $mainImglabel = $key;
 
@@ -110,7 +112,7 @@ class TechschemaController extends Controller
                             }
                             if($count < $dividend) {
                                 $union = $dividend - $count;
-                                $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper">Дополнительная информация</div></td>';
+                                $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
                             }
                             //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
                             $response .= '</tr><tr>';
@@ -172,18 +174,22 @@ class TechschemaController extends Controller
         $subCategory1->title='Заготовка сена';
         $subCategory1->img='/images/schema/hay/hay.jpg';
         $subCategory1->menu_img='/images/schema/menu/seno.png';
+        $subCategory1->additional='/images/schema/additional/seno.png';
         $subCategory2 = new TechSchema;
         $subCategory2->title='Заготовка сенажа';
         $subCategory2->img='/images/schema/senaz/senaz.jpg';
         $subCategory2->menu_img='/images/schema/menu/senaz.png';
+        $subCategory2->additional='/images/schema/additional/senaz.png';
         $subCategory3 = new TechSchema;
         $subCategory3->title='Заготовка силоса';
         $subCategory3->img='/images/schema/silos/silos.jpg';
         $subCategory3->menu_img='/images/schema/menu/silos.png';
+        $subCategory3->additional='/images/schema/additional/silos.png';
         $subCategory4 = new TechSchema;
         $subCategory4->title='Заготовка соломы';
         $subCategory4->img='/images/schema/soloma/soloma.jpg';
         $subCategory4->menu_img='/images/schema/menu/soloma.png';
+        $subCategory4->additional='/images/schema/additional/soloma.png';
         //$root = TechSchema::model()->findByPk(1);
         $subCategory2->appendTo($root2);
         $subCategory1->insertAfter($subCategory2);
@@ -194,10 +200,12 @@ class TechschemaController extends Controller
         $subCategory5->title='Возделывание картофеля';
         $subCategory5->img='/images/schema/potato/potato.jpg';
         $subCategory5->menu_img='/images/schema/menu/potato.png';
+        $subCategory5->additional='/images/schema/additional/potato.png';
         $subCategory6 = new TechSchema;
         $subCategory6->title='Возделывание лука';
         $subCategory6->img='/images/schema/luk/luk.jpg';
         $subCategory6->menu_img='/images/schema/menu/luk.png';
+        $subCategory6->additional='/images/schema/additional/luk.png';
         //$root = TechSchema::model()->findByPk(2);
         $subCategory6->appendTo($root3);
         $subCategory5->insertAfter($subCategory6);
@@ -206,18 +214,22 @@ class TechschemaController extends Controller
         $subCategory7->title='Классическая технология';
         $subCategory7->img='/images/schema/classic-technology/classic-technology.jpg';
         $subCategory7->menu_img='/images/schema/menu/classic.png';
+        $subCategory7->additional='/images/schema/additional/classic.png';
         $subCategory8 = new TechSchema;
         $subCategory8->title='Min-Till';
         $subCategory8->img='/images/schema/min-till/min-till.jpg';
         $subCategory8->menu_img='/images/schema/menu/min-till.png';
+        $subCategory8->additional='/images/schema/additional/mintill.png';
         $subCategory9 = new TechSchema;
         $subCategory9->title='No-Till';
         $subCategory9->img='/images/schema/no-till/no-till.jpg';
         $subCategory9->menu_img='/images/schema/menu/no-till.png';
+        $subCategory9->additional='/images/schema/additional/no-till.png';
         $subCategory10 = new TechSchema;
         $subCategory10->title='Vertical-Till';
         $subCategory10->img='/images/schema/vertical-till/vertical-till.jpg';
         $subCategory10->menu_img='/images/schema/menu/vertical.png';
+        $subCategory10->additional='/images/schema/additional/vertical.png';
         
         //$root = TechSchema::model()->findByPk(3);
         $subCategory8->appendTo($root1);
@@ -229,10 +241,12 @@ class TechschemaController extends Controller
         $subCategory11->title='Озимые';
         $subCategory11->img='/images/schema/ozimie/ozimie.jpg';
         $subCategory11->menu_img='/images/schema/menu/ozimie.png';
+        $subCategory11->additional='/images/schema/additional/ozimie.png';
         $subCategory12 = new TechSchema;
         $subCategory12->title='Яровые';
         $subCategory12->img='/images/schema/yarovie/yarovie.jpg';
         $subCategory12->menu_img='/images/schema/menu/yarovie.png';
+        $subCategory12->additional='/images/schema/additional/yarovie.png';
         //$root = TechSchema::model()->findByPk(2);
         $subCategory11->appendTo($root4);
         $subCategory12->insertAfter($subCategory11);
