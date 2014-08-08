@@ -1,42 +1,54 @@
-<?php $this->widget('ext.mightinessWidget.MightinessWidget'); ?>
+<div id="main_menu_mightiness">
+    <ul class="mightiness-menu">
+        <li class="<?php echo ($active == 80)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-80-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/>
+            <div class="dir">
+                для 80 л.с.
+            </div>
+            </a>
+        </li>
+        <li class="<?php echo ($active == 120)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-120-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/>
+            <div class="dir">
+                для 120 л.с.
+            </div>
+            </a>
+        </li>
+        <li class="<?php echo ($active == 150)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-150-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/>
+            <div class="dir">
+                для 150 л.с.
+            </div>
+            </a>
+        </li>
+        <li class="<?php echo ($active == 180)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-180-230-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/>
+            <div class="dir">
+                180 - 230 л.с.
+            </div>
+            </a>
+        </li>
+        <li class="<?php echo ($active == 250)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-250-350-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/>
+            <div class="dir">
+                250 - 350 л.с.
+            </div>
+            </a>
+        </li>
+        <li class="<?php echo ($active == 350)?'active':''?>">
+            <a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-svyshe-350-l.s./"><img height="63" alt="Трактор" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/menu_img.png"/><div style="clear: both"></div>
+            <div class="dir">
+                свыше 350 л.с.
+            </div>
+            </a>
+        </li>
+    </ul>
+    <div class="hit-label"><img width="170" alt="Хиты продаж" src="<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_hit.png"/></div>
+    <div style="clear: both"></div>
+</div>
 <h1>По мощности трактора</h1>
 <div id="mightiness-results">
-    <div class="one_banner">
-        <h3 val="80-120" label="80 л.с.">для тракторов 80 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/323/35_1345813558lbr-UNIA-plug-IBIS-55.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
-    <div class="one_banner">
-        <h3 val="120-150" label="120 л.с.">для тракторов 120 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/338/64_1324902156LBR_Kos00.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
-    <div class="one_banner">
-        <h3 val="150-180" label="150 л.с.">для тракторов 150 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/341/kret-plow-00.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
-    <div class="one_banner">
-        <h3 val="180-230" label="180-230 л.с.">для тракторов 180 - 230 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/324/36_1324367139Unia Vis XL 00.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
-    <div class="one_banner">
-        <h3 val="250-350" label="250-350 л.с.">для тракторов 250 - 350 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/322/42_1324369833Hektor00.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
-    <div class="one_banner">
-        <h3 val="350-1000" label="свыше 350 л.с.">для тракторов свыше 350 л.с.</h3>
-        <div class="m_image">
-            <img src="<?php echo Yii::app()->getBaseUrl(true).'/images/products/307/50_1324371222LBR_superharrows_Summers00.jpg'?>" alt="Изображение товара">
-        </div>
-    </div>
+    <?php echo $data ?>
 </div>
 
 <?php

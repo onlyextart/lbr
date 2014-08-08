@@ -2060,7 +2060,7 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_second_level li:hover {
   background: #DFDFDF;
 }
-.main_menu_wrapper .main_menu_second_level a {
+.main_menu_wrapper .main_menu_second_level a, .mightiness-menu a {
   display: block;
   position: relative;
   overflow: hidden;
@@ -2637,6 +2637,9 @@ ul.mightiness-menu li {
 #mightiness-results .one_banner h3:hover{
     cursor: pointer;
     text-decoration:underline;
+}
+.mightiness-menu a {
+    text-decoration: none;
 }
 .mresults {
     float: left;
