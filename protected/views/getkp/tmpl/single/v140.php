@@ -133,7 +133,7 @@ endif;
                                             <td style="padding: 5px 10px 0 0; vertical-align: top;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                     <img src="http://www.lbr.ru/images/kp/140-superdrill/mail-3.jpg" width="190" style="border: 0; float: right;" alt="Изображения не отображаются">
-                                                    <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> точный высеивающий ап-парат. Вал высеивающего аппарата приводится в действие с помощью при-водных кассетных блоков и серийной зубчатой пере-дачи. С помощью зубчатой передачи есть множество вариантов настройки не-обходимой частоты вращения вала высеивающего аппарата.</span>
+                                                    <span style="font-family: 'Trebuchet MS', sans-serif; color: black; "> точный высеивающий ап-парат. Вал высеивающего аппарата приводится в действие с помощью приводных кассетных блоков и серийной зубчатой передачи. С помощью зубчатой передачи есть множество вариантов настройки необходимой частоты вращения вала высеивающего аппарата.</span>
 
                                                 </p>
                                             </td> 
@@ -231,7 +231,7 @@ endif;
                                                     <tr valign="top">
                                                         <td>
                                                             <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color: black; text-align: justify; ">
-                                                                <span style="color: #F58220; font-weight: bold;"> Равномерный посев и сниженное давление на почву </span> благодаря нали-чию ходовых колес большого диаметра (200/60 – 14,5).
+                                                                <span style="color: #F58220; font-weight: bold;"> Равномерный посев и сниженное давление на почву </span> благодаря наличию ходовых колес большого диаметра (200/60 – 14,5).
                                                             </p>   
                                                         </td>
                                                         <td style="padding-left:10px;">
