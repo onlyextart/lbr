@@ -1,126 +1,127 @@
 <?php
 class TechschemaController extends Controller
 {
-    public function actionIndex()
+    public function actionIndex($sort = null)
     {
-        $id = $_POST['schemaId'];
-        if(!empty($id)) {
-            $result = $productList = array();
-            $response = '';
-            $cycleName = TechSchema::model()->findByPk($id)->title;
-            $stages = TechSchemaStage::model()->findAll(array('order'=>'level', 'condition'=>'schema_id = :id', 'params'=>array(':id'=>$id)));
-            foreach($stages as $stage) {
-                $result[$cycleName][$stage['id']] = TechStage::model()->findByPk($stage['stage_id'])->title;
-                $products = ProductTechSchema::model()->findAll('stage_id = :id', array(':id'=>$stage['id']));
-                if(!empty($products)) {
-                    foreach($products as $product){
-                        $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
-                        $href = MenuItems::model()->findByPk($item_id)->path;
-                        $productList[$cycleName][$stage['id']][] = array(
-                            'name' => Products::model()->findByPk($product['product_id'])->name,
-                            'path' => $href,
-                        );
-                    }
-                } else $productList[$cycleName][$stage['id']][] = null;
+        $url = array(
+            'Min-Till'=>'tsikl-min-till',
+            'No-Till'=>'tsikl-no-till',
+            'Vertical-Till'=>'tsikl-vertical-till',
+            'Классическая технология'=>'tsikl-classic-technology',
+            'Заготовка сенажа'=>'tsikl-senazh',
+            'Заготовка сена'=>'tsikl-seno',
+            'Заготовка соломы'=>'tsikl-soloma',
+            'Заготовка силоса'=>'tsikl-silos',
+            'Возделывание картофеля'=>'tsikl-kartofel',
+            'Возделывание лука'=>'tsikl-luk',
+            'Озимые'=>'tsikl-ozimye',
+            'Яровые'=>'tsikl-yarovye',
+        );
+        
+        if(!empty($sort)){
+            $activeId = '';
+            if ($sort == 'tsikl-min-till'){
+                $label = 'Min-Till';
+            } else if($sort == 'tsikl-no-till'){
+                $label = 'No-Till';
+            } else if($sort == 'tsikl-vertical-till'){
+                $label = 'Vertical-Till';
+            } else if($sort == 'tsikl-classic-technology'){
+                $label = 'Классическая технология';
+            } else if($sort == 'tsikl-senazh'){
+                $label = 'Заготовка сенажа';
+            } else if($sort == 'tsikl-seno'){
+                $label = 'Заготовка сена';
+            } else if($sort == 'tsikl-soloma'){
+                $label = 'Заготовка соломы';
+            } else if($sort == 'tsikl-silos'){
+                $label = 'Заготовка силоса';
+            } else if($sort == 'tsikl-luk'){
+                $label = 'Возделывание лука';
+            } else if($sort == 'tsikl-kartofel'){
+                $label = 'Возделывание картофеля';
+            } else if($sort == 'tsikl-ozimye'){
+                $label = 'Озимые';
+            } else if($sort == 'tsikl-yarovye'){
+                $label = 'Яровые';
             }
-
-            if(!empty($result)) {
-                foreach($result as $key => $value){
-                    $dividend = 4;
-                    $rowCount = (int)(count($value)/$dividend);
-                    if(count($value)%$dividend != 0) $rowCount++;
-                    //$mainImglabel = '/images/schema/empty2.png';
-                    $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
-                    $mainImglabel = $currentSchema->img;
-                    $additionalImg = $currentSchema->additional;
-                    if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
-                    else $mainImglabel = $key;
-
-                    if($rowCount == 1) {
-                        $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5"><tr>';  
-                        $response .= '<td>Этапы заготовки</td>';
-                        foreach($value as $v) {
-                            $response .= '<td>'.$v.'</td>';
+            $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
+            
+            if(!empty($activeId)) {
+                $result = $productList = array();
+                $response = '';
+                $cycleName = TechSchema::model()->findByPk($activeId)->title;
+                $stages = TechSchemaStage::model()->findAll(array('order'=>'level', 'condition'=>'schema_id = :id', 'params'=>array(':id'=>$activeId)));
+                foreach($stages as $stage) {
+                    $result[$cycleName][$stage['id']] = TechStage::model()->findByPk($stage['stage_id'])->title;
+                    $products = ProductTechSchema::model()->findAll('stage_id = :id', array(':id'=>$stage['id']));
+                    if(!empty($products)) {
+                        foreach($products as $product){
+                            $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
+                            $href = MenuItems::model()->findByPk($item_id)->path;
+                            $productList[$cycleName][$stage['id']][] = array(
+                                'name' => Products::model()->findByPk($product['product_id'])->name,
+                                'path' => $href,
+                            );
                         }
+                    } else $productList[$cycleName][$stage['id']][] = null;
+                }
 
-                        $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
-                        foreach($productList[$key] as $id => $products) {
-                            $label = TechSchemaStage::model()->findByPk($id)->img;
-                            $response .= '<td><div class="product-list-wrapper">';
-                            if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения" />';
-                            $response .= '<ul>';
-                            foreach($products as $product) {
-                                if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
+                if(!empty($result)) {
+                    foreach($result as $key => $value){
+                        $dividend = 4;
+                        $rowCount = (int)(count($value)/$dividend);
+                        if(count($value)%$dividend != 0) $rowCount++;
+                        //$mainImglabel = '/images/schema/empty2.png';
+                        $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
+                        $mainImglabel = $currentSchema->img;
+                        $additionalImg = $currentSchema->additional;
+                        if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
+                        else $mainImglabel = $key;
+
+                        if($rowCount == 1) {
+                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5"><tr>';  
+                            $response .= '<td>Этапы заготовки</td>';
+                            foreach($value as $v) {
+                                $response .= '<td>'.$v.'</td>';
                             }
-                            $response .= '</ul></div></td>';
-                        }
 
-                        $response .= '</tr></table></div>';
-                    } else {
-                        $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5">';
-                        $response .= '<tr>';  
-                        $response .= '<td class="label">Этапы технологии</td>';
-                        $count = 0;
-                        $temp = array();
-                        foreach($value as $k=>$v) {
-                            $temp[] = array('key' => $k, 'val' => $v);
-                        }
-
-                        foreach($temp as $v) {
-                            if($count < $dividend) $response .= '<td class="label">'.$temp[$count]['val'].'</td>';
-                            $count++;
-                        }
-                        $response .= '</tr>';
-                        $response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
-                        $count = 0;
-                        //first row
-                        foreach($productList[$key] as $id => $products) {
-                            if($count < $dividend) {
+                            $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
+                            foreach($productList[$key] as $id => $products) {
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
-                                $response .= '<td>';
-                                $response .= '<div class="product-list-wrapper">';
-                                if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
-                                //$response .= '<img src="/images/schema/empty.png" />';
+                                $response .= '<td><div class="product-list-wrapper">';
+                                if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения" />';
                                 $response .= '<ul>';
                                 foreach($products as $product) {
                                     if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                 }
-                                $response .= '</ul></div>';
-                                if(($count + 1) != $dividend) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
-                                $response .= '</td>';
+                                $response .= '</ul></div></td>';
                             }
-                            $count++;
-                        }
 
-                        $response .= '</tr>';
-                        //other rows
-                        for($i = 1; $i < $rowCount; $i++){
-                            $keyInDiapazon = array();
-                            for($c = $i*$dividend; $c < count($temp); $c++){
-                                if($c < ($i*$dividend + $dividend)) {
-                                    $keyInDiapazon[] = $temp[$c]['key'];
-                                }
-                            }
-                            //$response .= '<tr><td class="label label-empty"></td>';
-                            $response .= '<tr>';
+                            $response .= '</tr></table></div>';
+                        } else {
+                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5">';
+                            $response .= '<tr>';  
+                            $response .= '<td class="label">Этапы технологии</td>';
                             $count = 0;
-                            foreach($temp as $k=>$v) {
-                                if(in_array($v['key'], $keyInDiapazon)) {
-                                    $response .= '<td class="label">'.$v['val'].'</td>';
-                                    $count++;
-                                }
+                            $temp = array();
+                            foreach($value as $k=>$v) {
+                                $temp[] = array('key' => $k, 'val' => $v);
                             }
-                            if($count < $dividend) {
-                                $union = $dividend - $count;
-                                $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+
+                            foreach($temp as $v) {
+                                if($count < $dividend) $response .= '<td class="label">'.$temp[$count]['val'].'</td>';
+                                $count++;
                             }
-                            //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
-                            $response .= '</tr><tr>';
+                            $response .= '</tr>';
+                            $response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
                             $count = 0;
+                            //first row
                             foreach($productList[$key] as $id => $products) {
-                                if(in_array($id, $keyInDiapazon)){
+                                if($count < $dividend) {
                                     $label = TechSchemaStage::model()->findByPk($id)->img;
-                                    $response .= '<td><div class="product-list-wrapper">';
+                                    $response .= '<td>';
+                                    $response .= '<div class="product-list-wrapper">';
                                     if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
                                     //$response .= '<img src="/images/schema/empty.png" />';
                                     $response .= '<ul>';
@@ -128,23 +129,66 @@ class TechschemaController extends Controller
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                     }
                                     $response .= '</ul></div>';
-                                    if(($count+1) < count($keyInDiapazon)) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                    if(($count + 1) != $dividend) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
                                     $response .= '</td>';
-                                    $count++;
                                 }
+                                $count++;
                             }
-                            
-                            $response .= '</tr>';   
-                        }
 
-                        $response .= '</table></div>';
+                            $response .= '</tr>';
+                            //other rows
+                            for($i = 1; $i < $rowCount; $i++){
+                                $keyInDiapazon = array();
+                                for($c = $i*$dividend; $c < count($temp); $c++){
+                                    if($c < ($i*$dividend + $dividend)) {
+                                        $keyInDiapazon[] = $temp[$c]['key'];
+                                    }
+                                }
+                                //$response .= '<tr><td class="label label-empty"></td>';
+                                $response .= '<tr>';
+                                $count = 0;
+                                foreach($temp as $k=>$v) {
+                                    if(in_array($v['key'], $keyInDiapazon)) {
+                                        $response .= '<td class="label">'.$v['val'].'</td>';
+                                        $count++;
+                                    }
+                                }
+                                if($count < $dividend) {
+                                    $union = $dividend - $count;
+                                    $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                }
+                                //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
+                                $response .= '</tr><tr>';
+                                $count = 0;
+                                foreach($productList[$key] as $id => $products) {
+                                    if(in_array($id, $keyInDiapazon)){
+                                        $label = TechSchemaStage::model()->findByPk($id)->img;
+                                        $response .= '<td><div class="product-list-wrapper">';
+                                        if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
+                                        //$response .= '<img src="/images/schema/empty.png" />';
+                                        $response .= '<ul>';
+                                        foreach($products as $product) {
+                                            if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
+                                        }
+                                        $response .= '</ul></div>';
+                                        if(($count+1) < count($keyInDiapazon)) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                        $response .= '</td>';
+                                        $count++;
+                                    }
+                                }
+
+                                $response .= '</tr>';   
+                            }
+
+                            $response .= '</table></div>';
+                        }
                     }
                 }
-            }
-            
-            $array = array('data'=>$response);
-            echo json_encode($array);
-        } else $this->render('index', array('data'=>$result, 'productList'=>$productList));
+            } 
+            $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url));
+        } else {
+            $this->render('index', array('url'=>$url));
+        }
     }
     
     public function actionAddValues()

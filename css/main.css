@@ -2048,19 +2048,19 @@ footer .f-right .f-nav:after {
   border-radius: 4px;
   background: #e1eded;
 }
-.main_menu_wrapper .main_menu_second_level .active a, .tech-menu-wrapper div.tech-img-wrapper.active {
+.main_menu_wrapper .main_menu_second_level .active a, .tech-menu-wrapper .tech-img-wrapper.active {
   border: 2px solid;
   border-radius: 5px;
   height: 96px;
 }
-.tech-menu-wrapper li:not(:hover) div.tech-img-wrapper.active
+.tech-menu-wrapper li:not(:hover) .tech-img-wrapper.active
 {
     background: none repeat scroll 0 0 #e1eded;
 }
 .main_menu_wrapper .main_menu_second_level li:hover {
   background: #DFDFDF;
 }
-.main_menu_wrapper .main_menu_second_level a, .mightiness-menu a {
+.main_menu_wrapper .main_menu_second_level a, .mightiness-menu a, .tech-menu-wrapper a{
   display: block;
   position: relative;
   overflow: hidden;

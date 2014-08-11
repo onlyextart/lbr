@@ -13,10 +13,12 @@
             echo CHtml::openTag('li', array('name' => $descendant->id));
             if($num == 0) echo('<span class="menu_group_name" style="width:'.($count*$width).'px; background-color: #'.$root->color.'">'.$root->title.'</span>');
             $num++;
-            echo '<div class="tech-img-wrapper" style="height: 96px; width: 121px; border-color: #'.$root->color.'">';
+            $active = ($descendant->id == $activeId)?'active':'';
+            $href = Yii::app()->getBaseUrl(true).'/selskohozyaystvennaya-tehnika/techschema/sort/'.$url[$descendant->title].'/';
+            echo '<a class="tech-img-wrapper '.$active.'" style="height: 96px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
             if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title);
             else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
-            echo '</div>';
+            echo '</a>';
             echo CHtml::closeTag('li');
         endforeach;
     endforeach;
@@ -26,12 +28,9 @@
 </div>
 <div style="clear: both"></div>
 <h1 class="tech-schema-h">По технологическому циклу</h1>
-<div id="tech-schema-results"></div>
-<script>
-(function($){
-    techSchema.init();
-})(jQuery);
-</script>
+<div id="tech-schema-results">
+    <?php echo $data;?>
+</div>
 
 <?php
 //echo CHtml::link('Обновить значения', '/techschema/addValues/', array('class'=>'btn-admin'));

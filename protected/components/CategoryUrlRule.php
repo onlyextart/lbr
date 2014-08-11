@@ -38,6 +38,12 @@ class CategoryUrlRule extends CBaseUrlRule
             if($pos !== false) {
                 $additionalParam = substr($pathInfo, $pos);
                 $pathInfo = substr($pathInfo, 0, $pos);
+            } else {
+                $pos = strpos($pathInfo, '/sort/tsikl-');
+                if($pos !== false) {
+                    $additionalParam = substr($pathInfo, $pos);
+                    $pathInfo = substr($pathInfo, 0, $pos);
+                }
             }
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',

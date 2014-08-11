@@ -44,7 +44,6 @@
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
-        Yii::app()->clientScript->registerScriptFile('/js/site/techSchema.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
