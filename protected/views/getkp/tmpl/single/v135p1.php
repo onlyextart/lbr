@@ -11,7 +11,7 @@ endif;
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse;">
                 <tr>
-                    <td style="padding: 10px 20px;">
+                    <td style="padding: 5px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse;">
                             <tr style="background-image: url('http://www.lbr.ru/images/kp/135-tractors/tractors11.jpg'); background-repeat: no-repeat;">
                                 <td style="padding: 10px 20px 0 20px; border-radius: 15px;">                                                
@@ -32,11 +32,9 @@ endif;
             </table>
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет"></td></tr>
 </table>                
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -84,7 +82,7 @@ endif;
                                 <td width="378">
                                     <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">                                            
-                                            <td colspan="2" style="padding: 7px 10px 0 0; vertical-align: middle;">
+                                            <td colspan="2" style="padding: 3px 10px 0 0; vertical-align: middle;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: #808285; text-align: justify; ">
                                                     <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; font-style: italic; color: #808285; text-align: center; ">
                                                         Использование трактора на почвах различной несущей способности:</span>
@@ -114,10 +112,9 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">                                                        
-                                            <td colspan="2" style="padding: 10px 10px 0 0;">
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify; ">
-                                                    Трактор оптимально автоматизирован. 
-                                                    Вместо сложных манипуляций механическими рычагами –легкое управление джойстиками и кнопками.
+                                            <td colspan="2" style="padding: 5px 10px 0 0;">
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; color: black; text-align: justify; ">
+                                                    <b>Легкое управление джойстиками и кнопками.</b>
                                                 </p>
                                             </td>
                                         </tr>
@@ -126,7 +123,7 @@ endif;
                                 <td width="378">
                                     <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
-                                            <td style="padding: 10px 0 0 0;">
+                                            <td style="padding: 5px 0 0 0;">
                                                 <img src="http://www.lbr.ru/images/kp/135-tractors/tractors1.jpg" width="370" style="border: 0; float: left;" alt="double-disk">
                                             </td>                                            
                                         </tr>
@@ -135,7 +132,7 @@ endif;
                                 </td>
                             </tr>
                             <tr valign="top">
-                                <td colspan="2" style="padding: 10px 0 0;"> 
+                                <td colspan="2" style="padding: 5px 0 0;"> 
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
                                         <tbody>
                                             <tr>
@@ -189,26 +186,16 @@ endif;
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">20 000</td>
                                             </tr>
                                             <tr>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Размеры шин (стандарт) передних колес</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">540/65R30</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">600/65R34</td>
-                                            </tr>
-                                            <tr>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Размеры шин (стандарт) задних колес</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">580/70R42</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">710/70R42</td>
-                                            </tr>
-                                            <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Грузоподъемность гидронавесной системы на оси подвеса, кг</td>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">10000 (на оси шарнирных задних тяг)</td>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">ПНУ - 5 000 ЗНУ - 10 000</td>
                                             </tr>
                                             <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Отличительные особенности</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Дизель по выбросам вредных веществ соответствует экологическим требованиям ступени Tier II, 
+                                                <td style="margin: 0; padding: 1px 2px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Дизель по выбросам вредных веществ соответствует экологические требования ступени Tier II, 
                                                     кондиционер, комплект для сдваивания задних колес в стандартной комплектации</td>
-                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Дизель по выбросам вредных веществ соответствует ступени Tier IIIA, 
-                                                    Гидронавесная система с механическим управлением,кондиционер, комплект для сдваивания задних колес в стандартной комплектации, переднее навесное устройство, передний вал отбора мощности(ВОМ)</td>
+                                                <td style="margin: 0; padding: 1px 2px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Дизель по выбросам вредных веществ соответствует ступени Tier IIIA, 
+                                                    Гидронавесная система с мех. управлением, кондиционер, комплект для сдваивания задних колес в стандартной комплектации, переднее навесное устр-во</td>
                                             </tr>
                                             <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.</td>
@@ -236,7 +223,6 @@ endif;
 <div class="after-page-break"></div>
 <div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
