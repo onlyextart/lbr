@@ -9,11 +9,17 @@ class MightinessController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/323/35_1345813558lbr-UNIA-plug-IBIS-55.jpg" alt="Изображение товара">
                     </div>
+                    <div class="m_title">
+                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
+                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-120-l.s./">для тракторов 120 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/338/64_1324902156LBR_Kos00.jpg" alt="Изображение товара">
+                    </div>
+                    <div class="m_title">
+                    Зерновые сеялки; посевные комплексы; 4-х корпусные навесные плуги; культиваторы и бороны; глубокорыхлители; прицепные разбрасыватели удобрений; прицепы и другие хиты продаж под тракторы 120 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -21,11 +27,17 @@ class MightinessController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/341/kret-plow-00.jpg" alt="Изображение товара">
                     </div>
+                    <div class="m_title">
+                    Широкозахватные сеялки до 9 метров захвата, 5-ти корпусные навесные плуги; культиваторы и бороны; глубокорыхлители; разбрасыватели органики и другие хиты продаж под тракторы 150 л.с.
+                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-180-230-l.s./">для тракторов 180 - 230 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/324/36_1324367139Unia Vis XL 00.jpg" alt="Изображение товара">
+                    </div>
+                    <div class="m_title">
+                    Широкозахватные сеялки до 15 метров захвата, 6-ти корпусные полунавесные плуги, стерневые культиваторы и глубокорыхлители, прицепы и другие хиты продаж под тракторы 180-230 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -33,11 +45,17 @@ class MightinessController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/322/42_1324369833Hektor00.jpg" alt="Изображение товара">
                     </div>
+                    <div class="m_title">
+                    Пневматические широкозахватные сеялки, тяжелые бороны, 8-ми корпусные полунавесные плуги и другие хиты продаж под тракторы 250-350 л.с.
+                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-svyshe-350-l.s./">для тракторов свыше 350 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/307/50_1324371222LBR_superharrows_Summers00.jpg" alt="Изображение товара">
+                    </div>
+                    <div class="m_title">
+                    Пневматические широкозахватные сеялки, тяжелые бороны, глубокорыхлители, 8-ти корпусные полунавесные плуги и другие хиты продаж для тракторов свыше 350 л.с.
                     </div>
                 </div>'
             ;
