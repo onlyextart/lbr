@@ -20,31 +20,18 @@ class TechschemaController extends Controller
         
         if(!empty($sort)){
             $activeId = '';
-            if ($sort == 'tsikl-min-till'){
-                $label = 'Min-Till';
-            } else if($sort == 'tsikl-no-till'){
-                $label = 'No-Till';
-            } else if($sort == 'tsikl-vertical-till'){
-                $label = 'Vertical-Till';
-            } else if($sort == 'tsikl-classic-technology'){
-                $label = 'Классическая технология';
-            } else if($sort == 'tsikl-senazh'){
-                $label = 'Заготовка сенажа';
-            } else if($sort == 'tsikl-seno'){
-                $label = 'Заготовка сена';
-            } else if($sort == 'tsikl-soloma'){
-                $label = 'Заготовка соломы';
-            } else if($sort == 'tsikl-silos'){
-                $label = 'Заготовка силоса';
-            } else if($sort == 'tsikl-luk'){
-                $label = 'Возделывание лука';
-            } else if($sort == 'tsikl-kartofel'){
-                $label = 'Возделывание картофеля';
-            } else if($sort == 'tsikl-ozimye'){
-                $label = 'Озимые';
-            } else if($sort == 'tsikl-yarovye'){
-                $label = 'Яровые';
-            }
+            if ($sort == 'tsikl-min-till') $label = 'Min-Till';
+            else if($sort == 'tsikl-no-till') $label = 'No-Till';
+            else if($sort == 'tsikl-vertical-till') $label = 'Vertical-Till';
+            else if($sort == 'tsikl-classic-technology') $label = 'Классическая технология';
+            else if($sort == 'tsikl-senazh') $label = 'Заготовка сенажа';
+            else if($sort == 'tsikl-seno') $label = 'Заготовка сена';
+            else if($sort == 'tsikl-soloma') $label = 'Заготовка соломы';
+            else if($sort == 'tsikl-silos') $label = 'Заготовка силоса';
+            else if($sort == 'tsikl-luk') $label = 'Возделывание лука';
+            else if($sort == 'tsikl-kartofel') $label = 'Возделывание картофеля';
+            else if($sort == 'tsikl-ozimye') $label = 'Озимые';
+            else if($sort == 'tsikl-yarovye') $label = 'Яровые';
             $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
             
             if(!empty($activeId)) {
@@ -155,7 +142,7 @@ class TechschemaController extends Controller
                                 }
                                 if($count < $dividend) {
                                     $union = $dividend - $count;
-                                    $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
                                 }
                                 //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
                                 $response .= '</tr><tr>';

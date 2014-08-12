@@ -2068,6 +2068,10 @@ footer .f-right .f-nav:after {
   background: transparent;
   background-color: transparent;
 }
+
+table.table-tech-stage-with-img tr:not(:first-child) td.tech-schema-middle{
+    vertical-align: middle;
+}
 .main_menu_wrapper .main_menu_second_level:after, #main_menu_tech_schema:after, #main_menu_mightiness:after {
   content: '';
   display: table;
@@ -2811,7 +2815,7 @@ table.table-tech-stage-with-img .product-list-arrow {
     width: 60px;
     height: 38px;
     position: absolute;
-    right: -35px;
+    right: -38px;
     top: 110px;
     z-index: 998;
 }
