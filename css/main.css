@@ -2724,9 +2724,6 @@ ul.mightiness-menu li {
     margin-top: 20px;
 }
 
-/*#tech-schema-results tr:first-child td, #tech-schema-results tr:not(:first-child) td:first-child, #tech-schema-results table.table-tech-stage td.label{
-    text-align: center;
-}*/
 #tech-schema-results tr:not(:first-child) td:not(.label){
     padding: 0;
     margin: 0;
@@ -2806,13 +2803,11 @@ table.table-tech-stage-with-img .product-list-wrapper {
     padding: 10px;
     min-height: 280px;
     border-radius: 3px;
-    /*border: 1px solid #d8d9d9;*/
 }
 table.table-tech-stage-with-img .additional-info-wrapper{
     background-color: #ffffff;
     height: 332px;
     border-radius: 3px;
-    /*border: 1px solid #d8d9d9;*/
     text-align: center;
 }
 table.table-tech-stage-with-img .product-list-arrow {
