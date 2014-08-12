@@ -1529,7 +1529,7 @@ header:after {
 }
 #mightiness-results .one_banner {
   width: 480px;
-  height: 370px;
+  height: 450px;
   float: left;
 }
 .xbanners_container .xbanners .first_banner .b_header {
@@ -2675,6 +2675,10 @@ ul.mightiness-menu li {
 .m_no_res{
     color: #00917C;
     font-weight: bold;
+}
+#mightiness-results .one_banner .m_title {
+    margin: 0;
+    padding: 1em 1em 1em;
 }
 /* end mightiness table style */
 /* technological schema and stage style */
