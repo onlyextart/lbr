@@ -16,6 +16,15 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::TECHSCHEMA_MENU_ITEM_TYPE=>'techschema',
     );
     
+    public $labels = array(
+        '/sort/mashiny-dlya-traktora-80-ls' => '80 л.с.',
+        '/sort/mashiny-dlya-traktora-120-ls' => '120 л.с.',
+        '/sort/mashiny-dlya-traktora-150-ls' => '150 л.с.',
+        '/sort/mashiny-dlya-traktora-180-230-ls' => '180-230 л.с.',
+        '/sort/mashiny-dlya-traktora-250-350-ls' => '250-350 л.с.',
+        '/sort/mashiny-dlya-traktora-svyshe-350-ls' => 'свыше 350 л.с.',
+    );
+    
     public function createUrl($manager, $route, $params, $ampersand)
     {
         $routeParts = explode('/',$route);
@@ -90,11 +99,21 @@ class CategoryUrlRule extends CBaseUrlRule
                     continue;
             $breadcrumbs[$ancestor->name] = $ancestor->path.'/';
         }
+        
         $breadcrumbs[]=$this->desiredMenuItem->name;
-        Yii::app()->params['breadcrumbs'] = $breadcrumbs;
         
+        if(substr($pathInfo, strpos($pathInfo, '/')+1) == 'mightiness'){
+            if(!empty($additionalParam)){
+               $last = array_pop($breadcrumbs);
+               $breadcrumbs[$last] = $pathInfo;
+               $label = $this->labels[$additionalParam];
+               $breadcrumbs[] = $label;
+            }
+        }
+        
+        Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
-        
+
         if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
         else return self::$controllers[$this->desiredMenuItem->type];
     }
