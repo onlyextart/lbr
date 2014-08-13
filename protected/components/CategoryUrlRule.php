@@ -25,6 +25,21 @@ class CategoryUrlRule extends CBaseUrlRule
         '/sort/mashiny-dlya-traktora-svyshe-350-ls' => 'свыше 350 л.с.',
     );
     
+    public $labelsTech = array(
+        '/sort/tsikl-min-till' => 'Min-Till',
+        '/sort/tsikl-no-till' => 'No-Till',
+        '/sort/tsikl-vertical-till' => 'Vertical-Till',
+        '/sort/tsikl-classic-technology' => 'Classic',
+        '/sort/tsikl-senazh' => 'Сенаж',
+        '/sort/tsikl-seno' => 'Сено',
+        '/sort/tsikl-soloma' => 'Солома',
+        '/sort/tsikl-silos' => 'Силос',
+        '/sort/tsikl-luk' => 'Лук',
+        '/sort/tsikl-kartofel' => 'Картофель',
+        '/sort/tsikl-ozimye' => 'Озимые',
+        '/sort/tsikl-yarovye' => 'Яровые',
+    );
+    
     public function createUrl($manager, $route, $params, $ampersand)
     {
         $routeParts = explode('/',$route);
@@ -99,16 +114,15 @@ class CategoryUrlRule extends CBaseUrlRule
                     continue;
             $breadcrumbs[$ancestor->name] = $ancestor->path.'/';
         }
-        
         $breadcrumbs[]=$this->desiredMenuItem->name;
         
-        if(substr($pathInfo, strpos($pathInfo, '/')+1) == 'mightiness'){
-            if(!empty($additionalParam)){
-               $last = array_pop($breadcrumbs);
-               $breadcrumbs[$last] = $pathInfo;
-               $label = $this->labels[$additionalParam];
-               $breadcrumbs[] = $label;
-            }
+        if(!empty($additionalParam)){
+            $path = substr($pathInfo, strpos($pathInfo, '/')+1);
+            $label = $this->labels[$additionalParam];
+            if($path == 'techschema') $label = $this->labelsTech[$additionalParam];
+            $last = array_pop($breadcrumbs);
+            $breadcrumbs[$last] = $pathInfo;
+            $breadcrumbs[] = $label;
         }
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        

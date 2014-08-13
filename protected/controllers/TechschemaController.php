@@ -3,6 +3,7 @@ class TechschemaController extends Controller
 {
     public function actionIndex($sort = null)
     {
+        $title = 'По технологическому циклу';
         $url = array(
             'Min-Till'=>'tsikl-min-till',
             'No-Till'=>'tsikl-no-till',
@@ -17,7 +18,7 @@ class TechschemaController extends Controller
             'Озимые'=>'tsikl-ozimye',
             'Яровые'=>'tsikl-yarovye',
         );
-        
+
         if(!empty($sort)){
             $activeId = '';
             if ($sort == 'tsikl-min-till') $label = 'Min-Till';
@@ -33,7 +34,8 @@ class TechschemaController extends Controller
             else if($sort == 'tsikl-ozimye') $label = 'Озимые';
             else if($sort == 'tsikl-yarovye') $label = 'Яровые';
             $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
-            
+            Yii::app()->params['meta_title'] = $label;
+            $title = $label;
             if(!empty($activeId)) {
                 $result = $productList = array();
                 $response = '';
@@ -172,9 +174,10 @@ class TechschemaController extends Controller
                     }
                 }
             } 
-            $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url));
+            $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title));
         } else {
-            $this->render('index', array('url'=>$url));
+            Yii::app()->params['meta_title'] = $title;
+            $this->render('index', array('url'=>$url, 'title'=>$title));
         }
     }
     
