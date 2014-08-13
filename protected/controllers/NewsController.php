@@ -4,7 +4,7 @@ class NewsController extends Controller
 	public function actionIndex()
 	{
             $id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
-            
+            Yii::app()->params['meta_title'] = 'Новости ЛБР-АгроМаркет';
             
             if(empty($id)){
                 $groupId = Yii::app()->params['currentMenuItem']->group_id; 

@@ -4,8 +4,9 @@ class MightinessController extends Controller
     public function actionIndex($sort = null)
     {
         if(empty($sort)){
+            $title = 'По мощности трактора';
             $response = '<div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-80-l.s./">для тракторов 80 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-80-ls/">для тракторов 80 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/323/35_1345813558lbr-UNIA-plug-IBIS-55.jpg" alt="Изображение товара">
                     </div>
@@ -14,7 +15,7 @@ class MightinessController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-120-l.s./">для тракторов 120 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-120-ls/">для тракторов 120 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/338/64_1324902156LBR_Kos00.jpg" alt="Изображение товара">
                     </div>
@@ -23,7 +24,7 @@ class MightinessController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-150-l.s./">для тракторов 150 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-150-ls/">для тракторов 150 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/341/kret-plow-00.jpg" alt="Изображение товара">
                     </div>
@@ -32,7 +33,7 @@ class MightinessController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-180-230-l.s./">для тракторов 180 - 230 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-180-230-ls/">для тракторов 180 - 230 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/324/36_1324367139Unia Vis XL 00.jpg" alt="Изображение товара">
                     </div>
@@ -41,7 +42,7 @@ class MightinessController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-250-350-l.s./">для тракторов 250 - 350 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-250-350-ls/">для тракторов 250 - 350 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/322/42_1324369833Hektor00.jpg" alt="Изображение товара">
                     </div>
@@ -50,7 +51,7 @@ class MightinessController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-svyshe-350-l.s./">для тракторов свыше 350 л.с.</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/mightiness/sort/mashiny-dlya-traktora-svyshe-350-ls/">для тракторов свыше 350 л.с.</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/products/307/50_1324371222LBR_superharrows_Summers00.jpg" alt="Изображение товара">
                     </div>
@@ -62,31 +63,38 @@ class MightinessController extends Controller
         } else {
             $active = $from = 350;
             $to = 1000;
+            $title = 'Машины для трактора мощностью свыше 350 л.с.';
             $labelInterval = 'Лучшие машины для трактора свыше 350 л.с.';
             
-            if ($sort == 'mashiny-dlya-traktora-80-l.s.'){
+            if ($sort == 'mashiny-dlya-traktora-80-ls'){
                 $active = $from = 80;
                 $to = 120;
+                $title = 'Машины для трактора мощностью 80 л.с.';
                 $labelInterval = 'Лучшие машины для трактора 80 л.с.';
-            } else if($sort == 'mashiny-dlya-traktora-120-l.s.'){
+            } else if($sort == 'mashiny-dlya-traktora-120-ls'){
                 $active = $from = 120;
                 $to = 150;
+                $title = 'Машины для трактора мощностью 120 л.с.';
                 $labelInterval = 'Лучшие машины для трактора 120 л.с.';
-            } else if($sort == 'mashiny-dlya-traktora-150-l.s.'){
+            } else if($sort == 'mashiny-dlya-traktora-150-ls'){
                 $active = $from = 150;
                 $to = 180;
+                $title = 'Машины для трактора мощностью 150 л.с.';
                 $labelInterval = 'Лучшие машины для трактора 150 л.с.';
-            } else if($sort == 'mashiny-dlya-traktora-180-230-l.s.'){
+            } else if($sort == 'mashiny-dlya-traktora-180-230-ls'){
                 $active = $from = 180;
                 $to = 230;
+                $title = 'Машины для трактора мощностью 180-230 л.с.';
                 $labelInterval = 'Лучшие машины для трактора 180 - 230 л.с.';
-            } else if($sort == 'mashiny-dlya-traktora-250-350-l.s.'){
+            } else if($sort == 'mashiny-dlya-traktora-250-350-ls'){
                 $active = $from = 250;
                 $to = 350;
+                $title = 'Машины для трактора мощностью 250-350 л.с.';
                 $labelInterval = 'Лучшие машины для трактора 250 - 350 л.с.';
-            } else if($sort == 'mashiny-dlya-traktora-svyshe-350-l.s.'){
+            } else if($sort == 'mashiny-dlya-traktora-svyshe-350-ls'){
                 $active = $from = 350;
                 $to = 1000;
+                $title = 'Машины для трактора мощностью свыше 350 л.с.';
                 $labelInterval = 'Лучшие машины для трактора свыше 350 л.с.';       
             }
             
@@ -207,7 +215,9 @@ class MightinessController extends Controller
                 }
             } else $response =  '<span class="m_no_res">Нет товаров с выбранной мощностью</span>';
         }
-        $this->render('index', array('data'=>$response, 'active'=>$active));
+        Yii::app()->params['meta_title'] = $title.' - продажа в ЛБР-Агромаркет';
+        Yii::app()->params['meta_description'] = $title.' ➢Всегда в наличии ➢Умеренные цены ➢Сервис. ☎ в Вашем регионе!';
+        $this->render('index', array('data'=>$response, 'active'=>$active, 'title'=>$title));
     }
 
     public function actionAddValues()
