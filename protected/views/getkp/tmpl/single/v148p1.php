@@ -4,8 +4,7 @@ if($data['show_header']=='1'  || !isset($data['show_footer'])):
 endif;
  ?>
 <div class="table w-800">
-<!-- Background grey -->
-
+<!-- Шапка -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr>
         <td>
@@ -1681,10 +1680,11 @@ endif;
 </tr>
 </table>
 </div>
+<!-- Блок Четвертый; -->
 <div class="page-break"></div>
 <div class="after-page-break"></div>
 <div class="table w-800">
-<!-- Блок Четвертый; -->
+<!-- Блок Пятый; -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr>
         <td>
@@ -2023,6 +2023,7 @@ endif;
 </td>
 </tr>
 </table>
+<!-- Блок Пятый -->
 </div>
 </body>
 </html>
