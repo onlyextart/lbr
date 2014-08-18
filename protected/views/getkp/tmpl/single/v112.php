@@ -185,7 +185,7 @@ endif;
                     </td>
                     <td width="300">
                         <p style="margin: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
-                                                      <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа спо-собна выдерживать горизонтальную нагрузку до 1111 кг. В случае столкновения с пре-пятствием, она откиды-вается и автоматически возвращается в исходное положение. </span>
+                            <span style="font-family: 'Trebuchet MS', sans-serif; color: black; ">Усиленная лапа спо-собна выдерживать горизонтальную нагрузку до 1111 кг. В случае столкновения с пре-пятствием, она откиды-вается и автоматически возвращается в исходное положение. </span>
                         </p>
                     </td>
                 </tr>
@@ -256,87 +256,93 @@ endif;
             <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-10-11.jpg" style="border: 0; padding:10px 20px"  width="760" alt="" >  
         </td>
     </tr>
-    
+
     <tr>
         <td style="padding: 0px 20px;"> 
             <!--Таблица с данными-->
-            <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse;">
-                <tr bgcolor="#eeeeee">
-                    <td width="240" align="left" style="border: solid black 1px;"><strong> Тех. характеристики</strong></td>
-                    <td width="140" align="center" style="border: solid black 1px;"><strong> TC5109</strong></td>
-                    <td width="140" align="center" style="border: solid black 1px;"><strong> TC5111</strong></td>
-                    <td width="140" align="center" style="border: solid black 1px;"><strong> ТС5315</strong></td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;">Рабочая ширина</td>
-                    <td align="center" style="border: solid black 1px;">3,4 м </td>
-                    <td align="center" style="border: solid black 1px;">4,24 м </td>
-                    <td align="center" style="border: solid black 1px;">5,7 м </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Расстояние между дисками </td>
-                    <td align="center" style="border: solid black 1px;"> 19,1 cм </td>
-                    <td align="center" style="border: solid black 1px;"> 19,1 cм </td>
-                    <td align="center" style="border: solid black 1px;"> 19,1 cм </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Количество лап </td>
-                    <td align="center" style="border: solid black 1px;"> 9 </td>
-                    <td align="center" style="border: solid black 1px;"> 11 </td>
-                    <td align="center" style="border: solid black 1px;"> 15 </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Количество дисков </td>
-                    <td align="center" style="border: solid black 1px;"> 19 </td>
-                    <td align="center" style="border: solid black 1px;"> 23 </td>
-                    <td align="center" style="border: solid black 1px;"> 31 </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Транспортная ширина </td>
-                    <td align="center" style="border: solid black 1px;"> 3,5 м </td>
-                    <td align="center" style="border: solid black 1px;"> 4,3 м </td>
-                    <td align="center" style="border: solid black 1px;"> 4,4 м </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Вес </td>
-                    <td align="center" style="border: solid black 1px;"> 3220 кг </td>
-                    <td align="center" style="border: solid black 1px;"> 3765 кг </td>
-                    <td align="center" style="border: solid black 1px;"> 5490 кг </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Шины </td>
-                    <td align="center" style="border: solid black 1px;"> (4) 12,5L х 15, 12 ply </td>
-                    <td align="center" style="border: solid black 1px;"> (4) 12,5L х 15, 12 ply </td>
-                    <td align="center" style="border: solid black 1px;"> (6) 12,5L х 15, F1 </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Длина </td>
-                    <td align="center" style="border: solid black 1px;"> 6,9 м </td>
-                    <td align="center" style="border: solid black 1px;"> 6,9 м </td>
-                    <td align="center" style="border: solid black 1px;"> 6,9 м </td>
-                </tr>
-                <tr>
-                    <td align="left" style="border: solid black 1px;"> Мощность тягового бруса в л.с. </td>
-                    <td align="center" style="border: solid black 1px;"> 140 – 180 л.с. </td>
-                    <td align="center" style="border: solid black 1px;"> 160 – 220 л.с. </td>
-                    <td align="center" style="border: solid black 1px;"> 220 – 300 л.с. </td>
-                </tr>
-            </table>
+                <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; background-clip:padding-box;border-collapse: collapse;">
+                    <tr>
+                        <td width="240" align="left" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Тех. характеристики</strong></span></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> TC5109</strong></span></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> TC5111</strong></span></td>
+                        <td width="140" align="center" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> ТС5315</strong></span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина</span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3,4 м </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4,24 м </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5,7 м </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Расстояние между дисками </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 19,1 cм</span> </td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 19,1 cм </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 19,1 cм </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество лап </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 9 </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 11 </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 15 </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество дисков </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 19 </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 23 </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 31 </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Транспортная ширина </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 3,5 м </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 4,3 м </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 4,4 м </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Вес </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3220 кг </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3765 кг </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5490 кг </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Шины </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">(4) 12,5L х 15, 12 ply </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">(4) 12,5L х 15, 12 ply </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">(6) 12,5L х 15, F1 </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Длина </span></td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 6,9 м </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">6,9 м </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">6,9 м </span></td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Мощность тягового бруса в л.с.</span> </td>
+                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 140 – 180 л.с. </span></td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">160 – 220 л.с.</span> </td>
+                        <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">220 – 300 л.с.</span> </td>
+                    </tr>
+                    <tr>
+                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                        <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
+                        <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
+                        <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price3']; ?></span></td>
+                    </tr>
+                </table>
         </td>
     </tr>
-    
+
     <tr>
         <td style="padding:15px 20px 20px 20px;"> <img src="http://www.lbr.ru/images/kp/112-turbo-chizel/mail-12.jpg" style="border: 0; float: right;" width="378" alt=""></td>
     </tr>
     <!-- Ссылка-кнопка подробнее -->
-            <?php
-            Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/kombinirovij-turbo-chizel-ts/',
-                'colspan' => false,
-                'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                    )
-            );
-            ?>
+    <?php
+    Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
+        'link' => 'http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/kombinirovij-turbo-chizel-ts/',
+        'colspan' => false,
+        'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+            )
+    );
+    ?>
     <tr bgcolor="#eeeeee"><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 
