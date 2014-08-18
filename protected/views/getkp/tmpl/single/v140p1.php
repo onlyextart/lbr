@@ -362,6 +362,10 @@ endif;
                                                             <td width="278" align="left" style="border: solid black 1px; padding-left: 5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"> Требуемая мощность трактора, л.с.</td>
                                                             <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">от 80</td>             
                                                         </tr>
+                                                        <tr>
+                                                            <td align="left" style="border: solid black 1px; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span></td>
+                                                            <td align="center" style="border: solid black 1px; color: #DD2A1B; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $data['price1']; ?></span></td>
+                                                        </tr>
                                                     </table>
                                                 </td>
                                             </tr>
