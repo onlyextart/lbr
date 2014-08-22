@@ -218,7 +218,7 @@ endif;
                                                         • Автономная гидравлическая станция, работающая от ВОМ трактора 
                                                     </p>  
                                                     <p style="margin:0; color:black; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify;">
-                                                        • Возможность выгрузки в ящики максимальной гру-зоподъемностью до 1000 кг или в грузовик
+                                                        • Возможность выгрузки в ящики максимальной гру-зоподъемностью до 1000 кг или в грузовик (только для модели S2TCMR)
                                                     </p>
                                                     <p style="margin:0; color:black; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify;">
                                                         • Все элементы выгрузного транспортера покрыты пластиком, что уменьшает степень повреждения моркови.

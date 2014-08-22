@@ -134,38 +134,7 @@ endif;
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td  style="padding: 5px 0px 0px 0px;">
-                                                    <!--Таблица с данными-->
-                                                    <table width="438" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
-                                                        <tr>
-                                                            <td width="50%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
-                                                            <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">S2TCMR</span></strong></td>
-                                                            <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">S2DCMR</span></strong></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество рядков</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1</span></td>
-                                                        </tr> 
-                                                        <tr>
-                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Мощность трактора, л.с.</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">40-60</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">40-60</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,1-0,12</span></td>
-                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,11 – 0,14</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
-                                                            <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
-                                                            <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>        
+                                                   
 
 
                                         </table>
@@ -221,7 +190,7 @@ endif;
                                             <tr>
                                                 <td style="padding: 5px 0px 5px 0px;">
                                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                        <span style="font-weight: bold; color:#F58220;">Навесной комбайн для уборки моркови S2TCMR </span> –
+                                                        <span style="font-weight: bold; color:#F58220;">Навесной комбайн для уборки моркови Simon </span> –
                                                         экономичная модель комбайна, предназначенная для
                                                         малых хозяйств, работает с трактором от 40 до 60 л.с.
                                                         На комбайне установлена собственная гидростанция,
@@ -233,20 +202,7 @@ endif;
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>
-                                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                                        <tr>
-                                                            <td style="padding: 5px 0px 5px 0px;" width="150">
-                                                                <img src="http://www.lbr.ru/images/kp/151-morkov/mail-5.jpg" width="150" style="border: 0; float:right;" alt="Изображения не отображаются">
-                                                            </td>
-                                                            <td style="padding: 5px 0px 5px 15px;" width="228">
-                                                                <img src="http://www.lbr.ru/images/kp/151-morkov/mail-6.jpg" width="213" style="border: 0; float:right;" alt="Изображения не отображаются">
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
+                                            
                                             <tr>
                                                 <td style="padding: 5px 0px 5px 0px;">
                                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
@@ -266,18 +222,49 @@ endif;
                                     <td>
                                         <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                             <tr>
-                                                <td style="padding-left: 20px; padding-bottom: 10px;">
-                                                    <img src="http://www.lbr.ru/images/kp/151-morkov/mail-7.jpg" width="358" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                <td style="padding: 0px 0px 0px 20px;">
+                                                    <table width="358" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                                        <tr>
+                                                            <td style="padding: 5px 0px 5px 0px;" width="140">
+                                                                <img src="http://www.lbr.ru/images/kp/151-morkov/mail-5.jpg" width="140" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                            </td>
+                                                            <td style="padding: 5px 0px 5px 15px;" width="218">
+                                                                <img src="http://www.lbr.ru/images/kp/151-morkov/mail-6.jpg" width="203" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td style="padding: 5px 0px 5px 20px;">
-                                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                        <span style="font-weight: bold;">Устройство для подбора лука </span>(опция), позволяет под-
-                                                        бирать лук с рядка, максимальной шириной 1м, что де-
-                                                        лает данный комбайн универсальным помощником для
-                                                        сельского хозяйства.
-                                                    </p>
+                                             <tr>
+                                                <td  style="padding: 0px 0px 0px 20px;">
+                                                    <!--Таблица с данными-->
+                                                    <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                        <tr>
+                                                            <td width="50%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
+                                                            <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">S2TCMR</span></strong></td>
+                                                            <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">S2DCMR</span></strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество рядков</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1</span></td>
+                                                        </tr> 
+                                                        <tr>
+                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Мощность трактора, л.с.</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">40-60</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">40-60</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Производительность, га/ч</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,1-0,12</span></td>
+                                                            <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,11 – 0,14</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                                            <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
+                                                            <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
+                                                        </tr>
+                                                    </table>
                                                 </td>
                                             </tr>
                                         </table> 
