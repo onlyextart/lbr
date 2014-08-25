@@ -78,15 +78,15 @@ endif;
                                 <tr valign="top">
                                     <td>
                                         <!-- Первая колонка-->
-                                        <table width="438" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <table width="498" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                             <tr>
                                                 <td>
-                                                    <table width="438" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <table width="498" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                         <tr valign="top">
                                                             <td valign="top">
                                                                 <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Стрелка вправо">
                                                             </td>
-                                                            <td style="padding:0px 0px 0px 5px;" width="400">
+                                                            <td style="padding:0px 0px 0px 5px;" width="460">
                                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #58595d; text-align: justify; font-style:italic;">
                                                                     Навесной морковоуборочный комбайн теребильного типа производства компании Simon
                                                                     (Франция) – бережная уборка моркови за ботву ряда с последующей выгрузкой в рядом
@@ -100,12 +100,12 @@ endif;
 
                                             <tr>
                                                 <td>
-                                                    <table width="438" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <table width="498" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                         <tr valign="top">
                                                             <td width="20" align="left" style="padding:5px 0px 0px 0px;">
                                                                 •
                                                             </td>
-                                                            <td style="padding:5px 0px 0px 0px;" valign="top">
+                                                            <td width="478" style="padding:5px 0px 0px 0px;" valign="top">
                                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
                                                                     Расположенный в нижней части комбайна лемех бережно подкапывает морковь, облегчая ее вытягивание за ботву.
                                                                 </p> 
@@ -117,7 +117,7 @@ endif;
                                                             </td>
                                                             <td style="padding:0px 0px 0px 0px;">
                                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
-                                                                    Обрезное устройство(расположенное в верхней
+                                                                    Обрезное устройство (расположенное в верхней
                                                                     части подъёмного устройства) срезает ботву моркови.
                                                                 </p> 
                                                             </td>
@@ -142,15 +142,15 @@ endif;
 
                                     <!--Вторая колонка-->
                                     <td>
-                                        <table width="318" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <table width="258" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                             <tr>
                                                 <td style="padding-left: 20px; padding-bottom: 10px;">
-                                                    <img src="http://www.lbr.ru/images/kp/151-morkov/mail-3.jpg" width="298" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                    <img src="http://www.lbr.ru/images/kp/151-morkov/mail-3.jpg" width="238" style="border: 0; float:right;" alt="Изображения не отображаются">
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td style="padding-left: 20px;">
-                                                    <img src="http://www.lbr.ru/images/kp/151-morkov/mail-4.jpg" width="298" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                                    <img src="http://www.lbr.ru/images/kp/151-morkov/mail-4.jpg" width="238" style="border: 0; float:right;" alt="Изображения не отображаются">
                                                 </td>
                                             </tr>
 
