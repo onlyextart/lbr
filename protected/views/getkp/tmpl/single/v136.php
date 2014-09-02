@@ -260,46 +260,52 @@ endif;
                         <!--Таблица с данными-->
                         <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                             <tr>
-                                <td width="240" align="left" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;"  bgcolor="#eeeeee"><strong> Модель</strong></td>
-                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><strong> Maximulch, 4,5 m</strong></td>
-                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><strong> Maximulch, 5 m</strong></td>
-                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><strong> Maximulch, 6 m</strong></td>
+                                <td width="240" align="left" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
+                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Maximulch, 4,5 m</strong></span></td>
+                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Maximulch, 5 m</strong></span></td>
+                                <td width="140" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Maximulch, 6 m</strong></span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;">Рабочая ширина</td>
-                                <td align="center" style="border: solid black 1px;">4,5 </td>
-                                <td align="center" style="border: solid black 1px;">5 </td>
-                                <td align="center" style="border: solid black 1px;">6 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина</span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4,5 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">6 </span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;"> Транспортная ширина, м </td>
-                                <td align="center" style="border: solid black 1px;"> 3 </td>
-                                <td align="center" style="border: solid black 1px;"> 3 </td>
-                                <td align="center" style="border: solid black 1px;"> 3 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Транспортная ширина, м </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 3 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 3 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 3 </span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;"> Количество дисков, шт. </td>
-                                <td align="center" style="border: solid black 1px;"> 28 </td>
-                                <td align="center" style="border: solid black 1px;"> 32 </td>
-                                <td align="center" style="border: solid black 1px;"> 36 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Количество дисков, шт. </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 28 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 32 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 36 </span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;"> Диаметр дисков, мм </td>
-                                <td align="center" style="border: solid black 1px;"> 610 </td>
-                                <td align="center" style="border: solid black 1px;"> 610 </td>
-                                <td align="center" style="border: solid black 1px;"> 610 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Диаметр дисков, мм </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 610 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 610 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 610 </span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;"> Количество лап, шт. </td>
-                                <td align="center" style="border: solid black 1px;"> 10 </td>
-                                <td align="center" style="border: solid black 1px;"> 10 </td>
-                                <td align="center" style="border: solid black 1px;"> 10 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Количество лап, шт. </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 10 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 10 </span></td>
+                                <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">10 </span></td>
                             </tr>
                             <tr>
-                                <td align="left" style="border: solid black 1px;"> Требуемая мощность трактора, л.с. </td>
-                                <td align="center" style="border: solid black 1px;"> 200-300 </td>
-                                <td align="center" style="border: solid black 1px;"> 200-300 </td>
-                                <td align="center" style="border: solid black 1px;"> 250-350 </td>
+                                <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> Требуемая мощность трактора, л.с. </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 200-300 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 200-300 </span></td>
+                                <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 250-350 </span></td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
+                                <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
+                                <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price3']; ?></span></td>
                             </tr>
                         </table>
                     </td>
