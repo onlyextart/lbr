@@ -46,10 +46,19 @@ class TechschemaController extends Controller
                     $products = ProductTechSchema::model()->findAll('stage_id = :id', array(':id'=>$stage['id']));
                     if(!empty($products)) {
                         foreach($products as $product){
-                            $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
-                            $href = MenuItems::model()->findByPk($item_id)->path;
+                            $name = Products::model()->findByPk($product['product_id'])->name;
+                            $item_ids = MenuItemsContent::model()->findAll('page_id=:id', array(':id'=>$product['product_id']));
+                            if(count($item_ids) > 1){
+                                foreach($item_ids as $item_id){
+                                    $menuItem = MenuItems::model()->findByPk($item_id->item_id);
+                                    if($menuItem->type == 1) $href = $menuItem->path;
+                                }
+                            } else {
+                                $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
+                                $href = MenuItems::model()->findByPk($item_id)->path;
+                            }
                             $productList[$cycleName][$stage['id']][] = array(
-                                'name' => Products::model()->findByPk($product['product_id'])->name,
+                                'name' => $name,
                                 'path' => $href,
                             );
                         }
@@ -61,7 +70,7 @@ class TechschemaController extends Controller
                         $dividend = 4;
                         $rowCount = (int)(count($value)/$dividend);
                         if(count($value)%$dividend != 0) $rowCount++;
-                        //$mainImglabel = '/images/schema/empty2.png';
+                        
                         $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
@@ -112,7 +121,7 @@ class TechschemaController extends Controller
                                     $response .= '<td>';
                                     $response .= '<div class="product-list-wrapper">';
                                     if(!empty($label)) $response .= '<img src="'.$label.'" alt="Нет изображения"/>';
-                                    //$response .= '<img src="/images/schema/empty.png" />';
+                                    
                                     $response .= '<ul>';
                                     foreach($products as $product) {
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
@@ -133,7 +142,7 @@ class TechschemaController extends Controller
                                         $keyInDiapazon[] = $temp[$c]['key'];
                                     }
                                 }
-                                //$response .= '<tr><td class="label label-empty"></td>';
+                               
                                 $response .= '<tr>';
                                 $count = 0;
                                 foreach($temp as $k=>$v) {
@@ -146,7 +155,7 @@ class TechschemaController extends Controller
                                     $union = $dividend - $count;
                                     $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
                                 }
-                                //$response .= '</tr><tr><td>'.$mainImglabel.'</td>';
+                                
                                 $response .= '</tr><tr>';
                                 $count = 0;
                                 foreach($productList[$key] as $id => $products) {
@@ -174,6 +183,7 @@ class TechschemaController extends Controller
                     }
                 }
             } 
+
             $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title));
         } else {
             Yii::app()->params['meta_title'] = $title;
