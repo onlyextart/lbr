@@ -14,15 +14,21 @@ endif;
                 <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                            <td style="padding: 0 10px 3px 20px; text-align: left;" align="left">
+                            <td rowspan="2" style="padding: 0 10px 3px 20px; text-align: left;" align="left">
                                     <img src="http://www.lbr.ru/images/kp/122-dieci/dieci-logo.jpg" width="300" style="border: 0; float: left;" alt="Логотип Dieci">
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <p style="font-size: 14px; text-align: center; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         ПРЕИМУЩЕСТВА ТЕЛЕСКОПИЧЕСКОГО ПОГРУЗЧИКА
-                                    </p>
-                                    <p style="margin: 0; font-size: 35px; text-align: center; font-weight: bolder; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    </p>                                    
+                                </td>
+                                
+                            </tr>
+                            <tr>                            
+                                <td style="padding-bottom: 3px;">
+                                    <!-- Заголовок -->                                    
+                                    <p style="margin: 0; font-size: 35px; line-height: 35px; text-align: center; font-weight: bolder; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         DIECI AGRI STAR 37.7
                                     </p>
                                 </td>
