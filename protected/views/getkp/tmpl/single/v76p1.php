@@ -252,7 +252,7 @@ endif;
                                                     </tr>
                                                      <tr valign="top">                                                        
                                                         <td style="padding: 10px 0 15px 0;">
-                                                            <img src="http://www.lbr.ru/images/kp/76-nta/nta6.jpg" width="380" style="border: 0; float: left;" alt="double-disk">
+                                                            <img src="http://www.lbr.ru/images/kp/76-nta/nta5.jpg" width="380" style="border: 0; float: left;" alt="double-disk">
                                                         </td>
                                                     </tr>
                                                     <tr valign="top">                                                        

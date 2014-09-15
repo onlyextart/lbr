@@ -40,92 +40,92 @@
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
-                                    <img style="margin-top: 15px;" src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi.jpg" border="0" />
+                                    <img  src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi.jpg" border="0" />
                                    
-                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 0px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
-                                                    <span>Модель</span>
+                                                    <span style="padding:3px;">Модель</span>
                                                 </td>
                                                 <td>
-                                                    <span>LMR-14</span>
+                                                    <span style="padding:3px;">LMR-14</span>
                                                 </td>
                                                 <td>
-                                                    <span>LMR-18</span>
+                                                    <span style="padding:3px;">LMR-18</span>
                                                 </td>
                                                 <td>
-                                                    <span>LMR-24</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span>Грузоподъемность, т</span>
-                                                </td>
-                                                <td>
-                                                    <span>14</span>
-                                                </td>
-                                                <td>
-                                                    <span>18</span>
-                                                </td>
-                                                <td>
-                                                    <span>24</span>
+                                                    <span style="padding:3px;">LMR-24</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span>Объем кузова с двумя ярусами надставных бортов, куб. м</span>
+                                                    <span style="padding:3px;">Грузоподъемность, т</span>
                                                 </td>
                                                 <td>
-                                                    <span>22</span>
+                                                    <span style="padding:3px;">14</span>
                                                 </td>
                                                 <td>
-                                                    <span>30</span>
+                                                    <span style="padding:3px;">18</span>
                                                 </td>
                                                 <td>
-                                                    <span>40</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span>Собственная масса, кг</span>
-                                                </td>
-                                                <td>
-                                                    <span>3900</span>
-                                                </td>
-                                                <td>
-                                                    <span>5550</span>
-                                                </td>
-                                                <td>
-                                                    <span>8000</span>
+                                                    <span style="padding:3px;">24</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span>Скорость транспортировки, км/ч</span>
+                                                    <span style="padding:3px;">Объем кузова с двумя ярусами надставных бортов, куб. м</span>
                                                 </td>
                                                 <td>
-                                                    <span>30</span>
+                                                    <span style="padding:3px;">22</span>
                                                 </td>
                                                 <td>
-                                                    <span>40</span>
+                                                    <span style="padding:3px;">30</span>
                                                 </td>
                                                 <td>
-                                                    <span>40</span>
+                                                    <span style="padding:3px;">40</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="padding:3px;">Собственная масса, кг</span>
                                                 </td>
                                                 <td>
-                                                    <span><? echo $data['price1']; ?></span>
+                                                    <span style="padding:3px;">3900</span>
                                                 </td>
                                                 <td>
-                                                    <span><? echo $data['price2']; ?></span>
+                                                    <span style="padding:3px;">5550</span>
                                                 </td>
                                                 <td>
-                                                    <span><? echo $data['price3']; ?></span>
+                                                    <span style="padding:3px;">8000</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="padding:3px;">Скорость транспортировки, км/ч</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;">30</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;">40</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;">40</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="padding:3px;">Цена</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;"><? echo $data['price1']; ?></span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;"><? echo $data['price2']; ?></span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;"><? echo $data['price3']; ?></span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -141,22 +141,20 @@
                                     <span class="span-red-left">2. НАДЁЖНОСТЬ – РЕЗУЛЬТАТ ОПЫТА И ОСНАЩЕНИЯ!</span>
                                     <span class="text" style="font-size: 15px; line-height: 18px;"> 
                                         <b>Богатая базовая комплектация:</b><br />                                       
-                                        • один ярус надставных бортов в базовой комплектации;<br />
-                                        • боковая стабилизация кузова (гидромеханическая) – безопасность при работе на неровных поверхностях;<br />
-                                        • реактивные тяги (предотвращают повреждение осей при боковых ударах);<br />
-                                        • только новые шины низкого давления в базовой комплектации – некоторые производители грешат тем, что удешевление устанавливают восстановленные шины;<br />
-                                        • две поворотные оси в версии тридем - сокращается радиус разворота и нагрузка на кузов;<br />
+                                        • один ярус надставных бортов;<br />
+                                        • боковая стабилизация кузова (гидромеханическая);<br />
+                                        • реактивные тяги;<br />
+                                        • только новые шины низкого давления;<br />
+                                        • две поворотные оси в версии тридем;<br />
                                         • гидравлический задний борт с автоматической блокировкой при закрытии, блокировка гидропривода поднятия кузова;<br />
-                                        • окно в заднем борту для установки перегружающего шнека;<br />
-                                        • лестница;<br />
-                                        • двухкомпонентная краска TIKURILLA – эффективная защита от коррозии!;<br />
+                                        • окно в заднем борту для установки перегружающего шнека; лестница;<br />
                                     </span>
                                     <span class="span-red-left">3. ПРИЦЕП НЕ РОСКОШЬ, А СРЕДСТВО ПОЛУЧЕНИЯ ПРИБЫЛИ!</span>
                                     <span class="text" style="font-size: 15px; line-height: 18px;">                                                                         
-                                        • Возим не прицеп, а грузы! Меньшая собственная масса по сравнению с аналогами за счёт уникальной конструкции кузова. Позволяет получить до 20% экономии ГСМ.<br />
-                                        • Меньше ездим, больше возим! Увеличенный объём кузова в стандартной комплектации. Позволяет экономить ГСМ и время на перевозку 1 куб.м груза. Конусный кузов позволяет полностью и за короткое время произвести разгрузку прицепа.<br />
-                                        • Не требуется независимой гидросистемы! Полная адаптация, как к отечественным, так и импортным тракторам. Возможность установки комбинированной тормозной системы, как под гидро, так и под пневмотормоза.<br />
-                                        
+                                       • Возим не прицеп, а грузы! Меньшая собственная масса по сравнению с аналогами за счёт конструкции кузова. Позволяет получить до 20% экономии ГСМ.<br />
+                                        • Меньше ездим, больше возим! Увеличенный объём кузова в стандартной комплектации. Позволяет экономить ГСМ и время на перевозку 1 куб.м груза.<br />
+                                        • Не требуется независимой гидросистемы! Полная адаптация, как к отечественным, так и импортным тракторам. Возможность установки комбинированной тормозной системы.<br />
+                                         
                                     </span>
                                     
                                 </div>
@@ -174,7 +172,7 @@
                     <div style="width: 100%; height: 10px;"></div>
                         <div class="one-item">
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Бункер-перегрузчик J&M Тип</span></div>
+                            <div class="h-2 left-75"><span>Бункер-перегрузчик J&M</span></div>
                             <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/jm-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
@@ -269,7 +267,7 @@
                             </div>
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi5.jpg" border="0"  height="213px"/>
-                                <table width="361" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                <table width="361" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;margin:0px;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
                                             <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Баркас</span></td>
