@@ -74,16 +74,17 @@ class TechschemaController extends Controller
                         $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
-                        if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
-                        else $mainImglabel = $key;
-
+                        //if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
+                        //else $mainImglabel = $key;
+                        if(empty($mainImglabel)) $mainImglabel = $key;
+                            
                         if($rowCount == 1) {
                             $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5"><tr>';  
                             $response .= '<td>Этапы заготовки</td>';
                             foreach($value as $v) {
                                 $response .= '<td>'.$v.'</td>';
                             }
-
+                            /// !!!???????
                             $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
                             foreach($productList[$key] as $id => $products) {
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
@@ -112,7 +113,8 @@ class TechschemaController extends Controller
                                 $count++;
                             }
                             $response .= '</tr>';
-                            $response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
+                            //$response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
+                            $response .= '<tr><td rowspan="'.($rowCount*2).'" style="background-image:url('.$mainImglabel.'); background-position:right 0px; background-repeat:no-repeat;"></td>';
                             $count = 0;
                             //first row
                             foreach($productList[$key] as $id => $products) {

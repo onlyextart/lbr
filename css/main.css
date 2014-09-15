@@ -2758,9 +2758,11 @@ table.table-tech-stage-with-img ul {
     margin-top: 0;
     min-height: 10px;
     font-size: 12px;
+    line-height: 14px;
 }
 table.table-tech-stage-with-img ul li, table.table-tech-stage ul li {
     margin-bottom: 5px;
+    -webkit-padding-after:1px;
 }
 table.table-tech-stage-with-img ul a:link, table.table-tech-stage-with-img ul a:visited, table.table-tech-stage ul a:link, table.table-tech-stage ul a:visited{
     text-decoration: none;
