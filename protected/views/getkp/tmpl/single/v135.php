@@ -227,7 +227,7 @@ endif;
                 <!-- Ссылка-кнопка подробнее -->
                 <?php
                 Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/propashnye-mezhduryadnye-kultivatory-gaspardo-hl/',
+                    'link' => 'http://www.lbr.ru/tehnika/traktory/mtz/275-traktory-belarus-3022-mtz/',
                     'colspan' => false,
                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                         )
