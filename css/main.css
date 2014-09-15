@@ -2766,12 +2766,6 @@ table.table-tech-stage-with-img ul li, table.table-tech-stage ul li {
 }
 
 /* for Opera only */
-/*@media all and (min-width: 0) {
-    table.table-tech-stage-with-img ul li {
-        margin-bottom: 1px;
-    }
-} */
-
 @media all and (-webkit-min-device-pixel-ratio:0) {
     table.table-tech-stage-with-img ul li {
         margin-bottom: 4px;
