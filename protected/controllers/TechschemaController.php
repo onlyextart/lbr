@@ -99,9 +99,10 @@ class TechschemaController extends Controller
 
                             $response .= '</tr></table></div>';
                         } else {
-                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5">';
+                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="0" cellpadding="0">';
+                            $response .= '<tr><td class="table-spasing" colspan="'.($dividend+1).'"></td></tr>';
                             $response .= '<tr>';  
-                            $response .= '<td class="label">Этапы технологии</td>';
+                            $response .= '<td class="label main-label">Этапы технологии</td>';
                             $count = 0;
                             $temp = array();
                             foreach($value as $k=>$v) {
@@ -114,7 +115,7 @@ class TechschemaController extends Controller
                             }
                             $response .= '</tr>';
                             //$response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
-                            $response .= '<tr><td rowspan="'.($rowCount*2).'" style="background-image:url('.$mainImglabel.'); background-position:right 0px; background-repeat:no-repeat;"></td>';
+                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');"></td>';
                             $count = 0;
                             //first row
                             foreach($productList[$key] as $id => $products) {
@@ -136,6 +137,7 @@ class TechschemaController extends Controller
                             }
 
                             $response .= '</tr>';
+                            $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             //other rows
                             for($i = 1; $i < $rowCount; $i++){
                                 $keyInDiapazon = array();
@@ -155,7 +157,8 @@ class TechschemaController extends Controller
                                 }
                                 if($count < $dividend) {
                                     $union = $dividend - $count;
-                                    $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    //$response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
                                 }
                                 
                                 $response .= '</tr><tr>';
@@ -177,9 +180,11 @@ class TechschemaController extends Controller
                                     }
                                 }
 
-                                $response .= '</tr>';   
+                                $response .= '</tr>';
+                                /////////////
+                                $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             }
-
+                            $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             $response .= '</table></div>';
                         }
                     }

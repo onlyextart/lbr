@@ -2724,13 +2724,22 @@ ul.mightiness-menu li {
     margin-top: 20px;
 }
 
-#tech-schema-results tr:not(:first-child) td:not(.label){
+#tech-schema-results tr:not(:first-child) td:not(.label):not(.table-main-img):not(.table-spasing){
     padding: 0;
     margin: 0;
     position: relative;
     background: #fff;
-    border: 1px solid #d8d9d9;
-    border-radius: 3px;
+    border-bottom: 2px solid #717070;
+    border-left: 2px solid #717070;
+    border-right: 2px solid #717070;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#tech-schema-results tr:not(:first-child) td.tech-schema-middle{
+    border-top: 2px solid #717070;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 #tech-schema-results tr:first-child td:first-child img{
@@ -2747,7 +2756,16 @@ table.table-tech-stage-with-img, table.table-tech-stage{
     width: 100%;
     max-width: 100%;
     margin-bottom: 10px;
+    border-collapse: separate; 
+    border-spacing: 5px 0;
 }
+table.table-tech-stage-with-img td.table-spasing
+{
+    height: 5px;
+}
+/*table.table-tech-stage-with-img td.label{
+    margin-top: 10px;
+}*/
 table.table-tech-stage-with-img, table.table-tech-stage, table.table-tech-stage-with-img .label.label-empty{
     background-color: #ebedec;
 }
@@ -2776,16 +2794,23 @@ table.table-tech-stage-with-img ul a:link, table.table-tech-stage-with-img ul a:
     text-decoration: none;
     color: #000000;
 }
-table.table-tech-stage-with-img tr:first-child td:not(:first-child), table.table-tech-stage-with-img .label
+
+table.table-tech-stage-with-img tr:nth-child(2) td:not(:first-child), table.table-tech-stage-with-img tr:not(:nth-child(2)) .label
 {
-    background-color: #c3cad0;
-    color: #ffffff;
+    background-color: #ebedec;
+    /*background-color: yellow;*/
+    color: #5b5b5b;
     font-weight: bold;
+    border-top: 2px solid #717070;
+    border-left: 2px solid #717070;
+    border-right: 2px solid #717070;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
     
-table.table-tech-stage-with-img tr:first-child td:first-child
+table.table-tech-stage-with-img td.main-label
 {
-    background-color: #ffca00;
+    background-color: #717070;
     color: #ffffff;
     font-weight: bold;
     
@@ -2796,7 +2821,7 @@ table.table-tech-stage-with-img tr:not(:first-child) td{
 
 table.table-tech-stage-with-img td.label{
     width: auto !important;
-    height: auto !important;
+    height: 40px !important;
     text-align: center !important;
     vertical-align: middle !important;
 }
@@ -2823,12 +2848,12 @@ table.table-tech-stage-with-img .additional-info-wrapper{
     border-radius: 3px;
     text-align: center;
 }
-table.table-tech-stage-with-img .product-list-arrow {
+table.table-tech-stage-with-img .product-list-arrow, .main-label:after {
     width: 60px;
     height: 38px;
     position: absolute;
-    right: -38px;
-    top: 110px;
+    right: -50px;
+    top: -42px;
     z-index: 998;
 }
 #tech-schema-results table.table-tech-stage td{
@@ -2910,5 +2935,10 @@ table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
 }
 #mightiness-results .one_banner h3 a {
     margin-left: 15px;
+}
+table.table-tech-stage-with-img td.table-main-img{
+    background-position:right 0px !important; 
+    background-repeat:no-repeat !important;
+    background-color: #fff;
 }
 /* technological schema and stage style */
