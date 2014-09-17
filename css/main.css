@@ -2939,6 +2939,6 @@ table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
 table.table-tech-stage-with-img td.table-main-img{
     background-position:right 0px !important; 
     background-repeat:no-repeat !important;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 /* technological schema and stage style */
