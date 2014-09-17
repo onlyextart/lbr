@@ -181,8 +181,6 @@ class TechschemaController extends Controller
                                 }
 
                                 $response .= '</tr>';
-                                /////////////
-                                $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             }
                             $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             $response .= '</table></div>';
