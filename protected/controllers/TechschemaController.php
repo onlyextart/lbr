@@ -103,6 +103,7 @@ class TechschemaController extends Controller
                             $response .= '<tr><td class="table-spasing" colspan="'.($dividend+1).'"></td></tr>';
                             $response .= '<tr>';  
                             $response .= '<td class="label main-label">Этапы технологии</td>';
+                            
                             $count = 0;
                             $temp = array();
                             foreach($value as $k=>$v) {
@@ -115,7 +116,11 @@ class TechschemaController extends Controller
                             }
                             $response .= '</tr>';
                             //$response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
-                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');"></td>';
+                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');">'.
+                                '<div class="product-list-arrow">
+                                   <img class="plarrow" src="/images/schema/arrow_main_label.png">
+                                </div>' .
+                            '</td>';
                             $count = 0;
                             //first row
                             foreach($productList[$key] as $id => $products) {

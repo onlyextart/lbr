@@ -2736,6 +2736,8 @@ ul.mightiness-menu li {
     border-bottom-right-radius: 3px;
 }
 
+
+
 #tech-schema-results tr:not(:first-child) td.tech-schema-middle{
     border-top: 2px solid #717070;
     border-top-left-radius: 3px;
@@ -2856,6 +2858,7 @@ table.table-tech-stage-with-img .product-list-arrow, .main-label:after {
     top: -42px;
     z-index: 998;
 }
+
 #tech-schema-results table.table-tech-stage td{
     padding: 5px;
     border-right: 1px solid;
@@ -2939,5 +2942,6 @@ table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
 table.table-tech-stage-with-img td.table-main-img{
     background-position:right 0px !important; 
     background-repeat:no-repeat !important;
+    position: relative;
 }
 /* technological schema and stage style */
