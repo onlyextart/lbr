@@ -178,11 +178,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-2.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info2']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -302,11 +302,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-4.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info3']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -409,11 +409,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-5.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info4']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -499,11 +499,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-6.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info5']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -643,11 +643,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-7.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info6']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -809,11 +809,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-8.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info7']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -892,11 +892,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-9.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info8'] && !empty($data['product_info8'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info8']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -990,11 +990,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-10.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info9'] && !empty($data['product_info9'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info9']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -1095,11 +1095,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-11.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info10'] && !empty($data['product_info10'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info10']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -1213,11 +1213,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-12.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info11'] && !empty($data['product_info11'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info11']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -1350,11 +1350,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/149-no-till/no-till-13.jpg" width="370" style="border: 0; float: left;" alt="Логотип Expom">
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info12'] && !empty($data['product_info12'])): ?>
                                             <tr>
                                                 <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info12']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
