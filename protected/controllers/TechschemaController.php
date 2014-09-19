@@ -102,7 +102,7 @@ class TechschemaController extends Controller
                             $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="0" cellpadding="0">';
                             $response .= '<tr><td class="table-spasing" colspan="'.($dividend+1).'"></td></tr>';
                             $response .= '<tr>';  
-                            $response .= '<td class="label main-label">Этапы технологии</td>';
+                            $response .= '<td class="label main-label"><div>Этапы технологии</div></td>';
                             
                             $count = 0;
                             $temp = array();
@@ -115,7 +115,13 @@ class TechschemaController extends Controller
                                 $count++;
                             }
                             $response .= '</tr>';
-                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');">'.
+                            /*$response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');">'.
+                                '<div class="product-list-arrow">
+                                   <img class="plarrow" src="/images/schema/arrow_main_label.png">
+                                </div>' .
+                            '</td>';*/
+                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'">'.
+                                '<div><img width="122px" src="'.$mainImglabel.'" /></div>'.
                                 '<div class="product-list-arrow">
                                    <img class="plarrow" src="/images/schema/arrow_main_label.png">
                                 </div>' .
