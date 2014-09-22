@@ -121,7 +121,7 @@ class TechschemaController extends Controller
                                 </div>' .
                             '</td>';*/
                             $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'">'.
-                                '<div><img width="122px" src="'.$mainImglabel.'" /></div>'.
+                                '<img width="122px" src="'.$mainImglabel.'" />'.
                                 '<div class="product-list-arrow">
                                    <img class="plarrow" src="/images/schema/arrow_main_label.png">
                                 </div>' .

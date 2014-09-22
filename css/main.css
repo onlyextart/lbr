@@ -2736,8 +2736,6 @@ ul.mightiness-menu li {
     border-bottom-right-radius: 3px;
 }
 
-
-
 #tech-schema-results tr:not(:first-child) td.tech-schema-middle{
     border-top: 2px solid #717070;
     border-top-left-radius: 3px;
@@ -2791,7 +2789,10 @@ table.table-tech-stage-with-img ul li, table.table-tech-stage ul li {
 /* for Opera only */
 @media all and (-webkit-min-device-pixel-ratio:0) {
     table.table-tech-stage-with-img ul li {
-        margin-bottom: 4px;
+        margin-bottom: 2px;
+    }
+    #tech-schema-results tr:not(:first-child) td.tech-schema-middle{
+        background: #fff !important;
     }
 }
 
@@ -2854,8 +2855,11 @@ table.table-tech-stage-with-img .additional-info-wrapper{
     background-color: #ffffff;
     min-height: 338px;
     text-align: center;
-    line-height: 9px;
+    line-height: 5px;
 }
+/*table.table-tech-stage-with-img .additional-info-wrapper, table.table-tech-stage-with-img .table-main-img, table.table-tech-stage-with-img .product-list-wrapper{
+    line-height: 9px;
+}*/
 table.table-tech-stage-with-img .product-list-arrow, .main-label:after {
     width: 60px;
     height: 38px;
