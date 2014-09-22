@@ -236,52 +236,36 @@ endif;
                                             <td>
                                                 <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">  
                                                     <tr>
-                                                        <td width="268" style="padding: 10px 0px 0px 0px;" valign="top">
+                                                        <td width="233" style="padding: 20px 0px 0px 0px;" valign="top">
                                                             <p style="margin:0; color:black; padding: 5px 0px 5px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight:bold; text-align: justify; ">
                                                                 Система резки ULTRACUT:
                                                             </p>
-                                                            <img src="http://www.lbr.ru/images/kp/161-omnia/mail-5.jpg" width="268" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                                            <img src="http://www.lbr.ru/images/kp/161-omnia/mail-5.jpg" width="233" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                         </td>
-                                                        <td width="110" style="padding:0px 15px 0px 10px;" valign="center">
+                                                        <td width="145" style="padding:20px 15px 0px 10px;" valign="center">
                                                             <p style="margin:0; color:black; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal;text-align: left; ">
-                                                                25 ножей,
-                                                                длина резки
+                                                                25 ножей,<br>
+                                                                длина резки<br>
                                                                 4,5 см
                                                             </p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="268" style="padding: 10px 0px 0px 0px;" valign="top">
+                                                        <td width="233" style="padding: 30px 0px 0px 0px;" valign="top">
                                                             <p style="margin:0; color:black; padding: 5px 0px 5px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight:bold; text-align: justify; ">
                                                                 Система резки TOPCUT:
                                                             </p>
-                                                            <img src="http://www.lbr.ru/images/kp/161-omnia/mail-6.jpg" width="268" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                                            <img src="http://www.lbr.ru/images/kp/161-omnia/mail-6.jpg" width="233" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                         </td>
-                                                        <td width="110" style="padding:0px 15px 0px 10px;" valign="center">
+                                                        <td width="145" style="padding:20px 15px 0px 10px;" valign="center">
                                                             <p style="margin:0; color:black; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal;text-align: left; ">
-                                                                13 ножей,
+                                                                13 ножей,<br>
                                                                 длина резки<br>
                                                                 9 см
                                                             </p>
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td width="268" style="padding: 20px 0px 0px 0px;" valign="top">
-                                                            <img src="http://www.lbr.ru/images/kp/161-omnia/mail-7.jpg" width="268" style="border: 0; float: left;" alt="Изображения не отображаются">
-                                                        </td>
-                                                        <td width="110" style="padding:0px 0px 0px 10px;" valign="center">
-                                                            <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold;text-align: justify; ">
-                                                                Возможность
-                                                                регулировки
-                                                                плотности
-                                                                прессования в
-                                                                зависимости
-                                                                от травостоя
-                                                                или влажности травяной
-                                                                массы.
-                                                            </p>
-                                                        </td>
-                                                    </tr>
+
                                                 </table>
                                             </td>
                                         </tr>
@@ -346,14 +330,37 @@ endif;
                                                 </table>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td style="padding:30px 0px 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/161-omnia/mail-10.jpg" width="358" style="border: 0; float: right;" alt="Изображения не отображаются">
-                                            </td>
-                                        </tr>
+
 
                             </tr>
+
                         </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding:5px 20px 0px 20px;">
+            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="padding:0px 0px 0px 20px; border: 0; border-collapse: collapse; background: white;">
+                <tr>
+                    <td width="233" style="padding: 20px 0px 0px 0px;" valign="top">
+                        <img src="http://www.lbr.ru/images/kp/161-omnia/mail-7.jpg" width="233" style="border: 0; float: left;" alt="Изображения не отображаются">
+                    </td>
+                    <td width="185" style="padding:20px 0px 0px 10px;" valign="top">
+                        <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; ">
+                            Возможность
+                            регулировки
+                            плотности
+                            прессования в
+                            зависимости
+                            от травостоя
+                            или влажности травяной
+                            массы.
+                        </p>
+                    </td>
+                    <td style="padding:20px 0px 0px 20px;" width="358">
+                        <img src="http://www.lbr.ru/images/kp/161-omnia/mail-10.jpg" width="358" style="border: 0; float: right;" alt="Изображения не отображаются">
                     </td>
                 </tr>
             </table>
