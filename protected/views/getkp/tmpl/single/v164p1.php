@@ -12,23 +12,14 @@ endif;
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <!-- Заголовок со ссылкой и логотипом: -->
                 <tr><td style="padding: 0 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FECC00" align="center" style="border: 0; border-collapse: collapse; background: #FECC00;">
                             <tr>
-                            <td rowspan="2" style="padding: 0 10px 3px 20px; text-align: left;" align="left">
-                                    <img src="http://www.lbr.ru/images/kp/122-dieci/dieci-logo.jpg" width="300" style="border: 0; float: left;" alt="Логотип Dieci">
+                            <td style="padding: 0 10px 0 20px; text-align: left;" align="left">
+                                    <img src="http://www.lbr.ru/images/kp/122-dieci/dieci-logo-orange.jpg" width="300" style="border: 0; float: left;" alt="Логотип Dieci">
                                 </td>
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
-                                    <p style="font-size: 14px; text-align: center; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        ПРЕИМУЩЕСТВА ТЕЛЕСКОПИЧЕСКОГО ПОГРУЗЧИКА
-                                    </p>                                    
-                                </td>
-                                
-                            </tr>
-                            <tr>                            
-                                <td style="padding-bottom: 3px;">
-                                    <!-- Заголовок -->                                    
-                                    <p style="margin: 0; font-size: 33px; line-height: 33px; text-align: center; font-weight: bolder; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    <p style="margin: 0; font-size: 33px; text-align: center; font-weight: bolder; font-family: 'Arial Black', Arial; text-decoration: none; color: white;">
                                         DIECI AGRI STAR 38.10
                                     </p>
                                 </td>
@@ -41,8 +32,8 @@ endif;
                 <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/dieci-2014.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                <td>
+                                    <img src="http://www.lbr.ru/images/kp/164-agri38/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -60,19 +51,118 @@ endif;
                     <tr><td style="padding: 0;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
-                                <td width="760" style="padding: 10px 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/gruzopodemnost2.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr>  
-                            <tr valign="top">
-                                <td width="700" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/gruzopodemnost1.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
+                                <td width="760" style="text-align: center; padding: 20px 0 0;">                                   
+                                   <table width="700" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285;">
+                                        <tbody>
+                                            <tr>
+                                                <td width="44%" style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: center; color: white; border-right: 1px solid grey; border-bottom: 1px solid black; width: 220px; background: #999999;">Технические характиристики</td>
+                                                <td width="28%" style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: center; color: grey; border-right: 1px solid grey; border-bottom: 1px solid black; background: #FFCC00;">Dieci Agri Star 38.10</td>
+                                                <td width="28%" style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: center; color: grey; border-right: 1px solid grey; border-bottom: 1px solid black; background: #FFFF99;">JCB 535-95</td>
+                                            </tr>
+                                           
+                                             <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Максимальная грузоподъемность (кг)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">
+                                                        3800</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3500</td>
+                                            </tr>
+                                             <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Максимальная высота подъема (м)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">
+                                                        9,75</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">9,51</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Грузоподъемность на макс. высоте (кг)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">
+                                                        2200</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1600</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Грузоподъемность на макс. вылете (кг)</td>
+                                                <td style="margin: 0; padding: 0 18px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">450</td><td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">500</td>
+                                            </tr>                                                                    
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Макс. горизонтальный вылет (м)</td>
+                                                <td style="margin: 0; padding: 0 18px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">6,45</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">6,5</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Габариты (длина/ширина/высота) (мм)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">
+                                                        4950 х 2220 х 2310</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4990 х 2290 х 2490</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Радиус разворота (мм)</td>
+                                                <td style="margin: 0; padding: 0 18px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3840</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">3700</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Снаряженная масса (кг)</td>
+                                                <td style="margin: 0; padding: 2px 18px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">7900</td>
+                                                <td style="margin: 0; padding: 2px 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">8160</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Максимальная скорость (км/ч)</td>
+                                                <td style="margin: 0; padding: 0 18px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">30</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">33</td>
+                                            </tr>
+                                             <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Объем топливного бака (л)</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">95</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">146</td>
+                                            </tr>
+                                             <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Объем гидравлического бака (л)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">140</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">113</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Двигатель (марка, мощность (л.с.))</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">IVECO, 127</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">DieselMax, 100</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Трансмиссия</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">Гидростатическая *</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Power Shift</td>
+                                            </tr>                                             
+                                             <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Производительность насоса (л)</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">110</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">82</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Максимальное рабочее давление (бар)</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">230</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/yellow-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">241</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Мосты (производство)</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">Dana Spycer **</td>
+                                                <td style="margin: 0; padding: 0 15px; font-family: 'Trebuchet MS', sans-serif; font-size: 12px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Собственного производства</td>
+                                            </tr>
+                                        </tbody>
+                                   </table>                         
                                 </td>
                             </tr>
-                             
                         </table>
                     </td></tr> 
-                                                 
+                     <tr valign="top">
+                                <td width="760" style="padding: 10px 20px; text-align: center;">
+                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">                                                   
+                                        * Гидростатическая трансмиссия позволяет погрузчику передвигаться плавно, с точностью до сантиметра, что позволяет выполнять погруза – разгрузочные работы с высокой точностью и аккуратностью.                                    
+                                    </p>
+                                </td>
+                            </tr> 
+                            <tr valign="top">
+                                <td width="760" style="padding: 10px 20px; text-align: center;">
+                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">                                                   
+                                        ** Мосты Dana Spycer – специализированная компания по производству мостов на сельскохозяйственную и строительную технику. Признана мировым лидером (США). 
+                                      </p>
+                                </td>
+                            </tr>                              
                 <!-- Контент первого блока; -->                
             </table>
             <!-- Внутренности блока; -->
@@ -80,127 +170,6 @@ endif;
     </tr>
 </table>
 <!-- Блок Первый; -->
-</div>
-<div class="page-break"></div>
-<div class="after-page-break"></div>
-<div class="table w-800">
-<!-- Блок Второй: -->
-<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td>
-            <!-- Внутренности блока: -->
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                 <tr><td style="padding: 0 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                             
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/gruzopodemnost.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/gabarits.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr>
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/razvorot.jpg" width="760" height="420" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                        </table>
-                    </td></tr>
-            </table>
-            <!-- Внутренности блока; -->
-        </td>
-    </tr>
-</table>
-<!-- Блок Второй; -->
-</div>
-<div class="page-break"></div>
-<div class="after-page-break"></div>
-<div class="table w-800">
-<!-- Блок Третий: -->
-<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td>
-            <!-- Внутренности блока: -->
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                 <tr><td style="padding: 0 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr valign="top">
-                                <td width="760" style="text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/snar_massa.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/speed.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/bak_topliv.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/bak.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                        </table>
-                    </td></tr>                    
-            </table>
-            <!-- Внутренности блока; -->
-        </td>
-    </tr>
-</table>
-<!-- Блок Третий; -->
-</div>
-<div class="page-break"></div>
-<div class="after-page-break"></div>
-<div class="table w-800">
-<!-- Блок Четвертый: -->
-<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td>
-            <!-- Внутренности блока: -->
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                 <tr><td style="padding: 0 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr valign="top">
-                                <td width="760" style="text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/motor.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/transmission.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/nasos.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/davlenie.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                            <tr valign="top">
-                                <td width="760" style="padding: 0; text-align: center;">
-                                    <img src="http://www.lbr.ru/images/kp/163-dieci/most.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
-                                </td>
-                            </tr> 
-                        </table>
-                    </td></tr>                    
-            </table>
-            <!-- Внутренности блока; -->
-        </td>
-    </tr>
-</table>
-<!-- Блок Четвертый; -->
 </div>
 <div class="page-break"></div>
 <div class="after-page-break"></div>
@@ -214,12 +183,12 @@ endif;
                  <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
-                                <td width="760" style="padding: 5px 0 0; text-align: center;">
+                                <td width="760" style="padding: 0; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/122-dieci/dieci15.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                             <tr valign="top">
-                                <td width="760" style="padding: 20px 0 0; text-align: center;">
+                                <td width="760" style="padding: 10px 0 0; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/122-dieci/dieci-proizvod.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>  
@@ -234,12 +203,12 @@ endif;
                                 </td>
                             </tr>
                             <tr valign="top">
-                                <td width="760" style="padding: 20px 0 0 20px; text-align: center;">
+                                <td width="760" style="padding: 5px 0 0 20px; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/122-dieci/dieci16.jpg" width="740" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>                           
                         </table>
-                    </td></tr>                    
+                    </td></tr>
             </table>
             <!-- Внутренности блока; -->
         </td>
@@ -358,9 +327,11 @@ endif;
                                 </td>
                             </tr>                        
                         </table>
-                    </td></tr>                    
+                    </td></tr>
+                    
             </table>
             <!-- Внутренности блока; -->
+            
         </td>
     </tr>
 </table>
@@ -378,19 +349,17 @@ endif;
                  <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">                                            
-                                            <td style="padding: 5px 0 0 0;">
+                                            <td style="padding: 15px 0 0 0;">
                                                 <img src="http://www.lbr.ru/images/kp/122-dieci/dieci-lbr.jpg" width="720" style="border: 0; float: left;"  alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td colspan="2" style="padding: 0 10px 0 30px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">
-                                                   Самая большая дверь среди аналогичной продукции обеспечивает легкий доступ к водительскому месту. 
-                                                   Внутри салона все служит для облегчения работы оператора. 
-                                                   Благодаря подлокотнику на правой панели, позволяющему уменьшить напряжение руки, достигается наилучший доступ к джойстику. 
-                                                   Звуконепроницаемость, регулируемый по высоте и глубине руль, электрический стеклоподъемник, проемы для вещей позволяют работать в условиях полного комфорта. 
-                                                   Оптимальное распределение вентиляционных решеток повышают эффективность системы охлаждения и кондиционирования воздуха, обеспечивая хорошее распространение воздуха внутри салона и позволяя избежать проблем с перегревом и задымлением. 
-                                                   Открываемая крыша, устанавливаемая серийно на всех моделях, обеспечивает наилучшее вентилирование во время движения.                                                                                                     
+                                                   Компания ЛБР является официальным дилером телескопических погрузчиков с 2006 года! 
+                                                   За все годы компания продала более 400 шт. погрузчиков по всей России. 
+                                                   С 2012 года ЛБР является эксклюзивным дилером сельскохозяйственных погрузчиков. 
+                                                   Компания имеет 23 филиала по всей России, что позволяет делиться опытом по сервисному обслуживанию между филиалами.                                                                                                     
                                                 </p>
                                             </td>
                                         </tr>  
@@ -452,9 +421,8 @@ endif;
                             </tr>                        
                         </table>
                     </td></tr>
-                    </td></tr>                   
-            </table>
-            <tr valign="top">
+                    </td></tr>
+                     <tr valign="top">
                     <td colspan="2" style="padding: 0px 20px 0;">
                         <?php
                         if($data['show_footer']=='1' || !isset($data['show_footer'])):
@@ -463,6 +431,7 @@ endif;
                         ?>
                     </td>
                 </tr>
+            </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
