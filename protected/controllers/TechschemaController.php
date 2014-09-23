@@ -74,6 +74,7 @@ class TechschemaController extends Controller
                         $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
+                        $additionalUrl = $currentSchema->additional_url;
                         //if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
                         //else $mainImglabel = $key;
                         if(empty($mainImglabel)) $mainImglabel = $key;
@@ -169,7 +170,11 @@ class TechschemaController extends Controller
                                 if($count < $dividend) {
                                     $union = $dividend - $count;
                                     //$response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
-                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper">';
+                                    if(!empty($additionalUrl))$response .= '<a title="Сопутствующие товары" target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/">';
+                                    $response .= '<img src="'.$additionalImg.'" alt="Нет изображения"/>';
+                                    if(!empty($additionalUrl))$response .= '</a>';
+                                    $response .= '</div></td>';
                                 }
                                 
                                 $response .= '</tr><tr>';
@@ -211,8 +216,22 @@ class TechschemaController extends Controller
         }
     }
     
+    public function actionSetUrl()
+    {
+        $model = TechSchema::model()->findByPk(63);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(64);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(65);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+    }
+    
     public function actionAddValues()
     {
+        /*
         TechSchema::model()->deleteAll();
         TechStage::model()->deleteAll();
         TechSchemaStage::model()->deleteAll();
@@ -407,9 +426,6 @@ class TechschemaController extends Controller
         $stage29->title = 'Распределение соломы и пожнивных остатков';
         //$stage->title = 'Мульчирование/распределение соломы и пожнивных остатков';
         $stage29->save();
-        /*$stage30 = new TechStage();
-        $stage30->title = 'Внесение минеральных удобрений';
-        $stage30->save();*/
         $stage30 = new TechStage();
         $stage30->title = 'Ранневесеннее боронование';
         $stage30->save();
@@ -1093,7 +1109,7 @@ class TechschemaController extends Controller
         $stage->level = 11;
         $stage->img = '/images/schema/yarovie/yarovie11.jpg';
         $stage->save();
-        
+        */
         ////////////////////////////////////////////////////
         /*
         //Не меняется
