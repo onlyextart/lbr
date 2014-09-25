@@ -1829,14 +1829,14 @@ header:after {
   display: block;
   clear: both;
 }
-.xbanners_container .xbanners .second_banner_dieci .b_header h3 a {
+.xbanners_container .xbanners .second_banner_dieci .b_header h3 a, .xbanners_container .xbanners .second_banner_large .b_header h3 a {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
   font-size: 2em;
   line-height: 42px;
   color: white;
-  background: #dd2a1b;
+  background: #c42526;
   display: block;
   text-align: center;
 }
