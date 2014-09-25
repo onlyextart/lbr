@@ -1970,7 +1970,7 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_first_level li a {
   color: #000;
   text-decoration: none;
-  padding: 0px 15px;
+  padding: 1px 15px;
   display: block;
   background: transparent;
 }
