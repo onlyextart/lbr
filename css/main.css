@@ -2854,7 +2854,7 @@ table.table-tech-stage-with-img .product-list-wrapper {
     border-radius: 3px;
 }
 table.table-tech-stage-with-img .additional-info-wrapper{
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     min-height: 338px;
     text-align: center;
     line-height: 5px;
