@@ -170,7 +170,8 @@ class TechschemaController extends Controller
                                 if($count < $dividend) {
                                     $union = $dividend - $count;
                                     //$response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
-                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper">';
+                                    $bgcolor = (!empty($additionalUrl)) ? 'background-color: #d4d4d4;':'background-color: #ffffff;';
+                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle" style="'.$bgcolor.'"><div class="additional-info-wrapper">';
                                     if(!empty($additionalUrl))$response .= '<a title="Сопутствующие товары" target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/">';
                                     $response .= '<img src="'.$additionalImg.'" alt="Нет изображения"/>';
                                     if(!empty($additionalUrl))$response .= '</a>';
