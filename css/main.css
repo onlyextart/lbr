@@ -2057,7 +2057,8 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_second_level .active a, .tech-menu-wrapper .tech-img-wrapper.active {
   border: 2px solid;
   border-radius: 5px;
-  height: 96px;
+  height: 95px;
+  margin-top: 1px;
 }
 .tech-menu-wrapper li:not(:hover) .tech-img-wrapper.active
 {
