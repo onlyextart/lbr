@@ -1987,7 +1987,7 @@ footer .f-right .f-nav:after {
 .main_menu_wrapper .main_menu_first_level li:hover {
   background: #e1eded;
 }
-.main_menu_wrapper .main_menu_first_level:after{
+.main_menu_wrapper .main_menu_first_level:after, #top_banner:after{
   content: "";
   position: absolute;
   bottom: -4px;
