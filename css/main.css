@@ -406,6 +406,9 @@ header .menu.main .menuMainTop li {
   margin-top: 10px;
   text-align: center;
 }
+header .menu.main .menuMainTop li a{
+  height: 105px;
+}
 header .menu.main .menuMainTop li a {
   color: #333;
   text-decoration: none;
@@ -428,6 +431,7 @@ header .menu.main .menuMainTop li.active, .mightiness-ico-wrapper img.active, .t
   color: #f7f7f7;
   border-radius: 3px;
   border: 1px solid #0f9797;
+  height: 103px;
 }
 header .menu.second {
   float: left;
