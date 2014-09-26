@@ -1,4 +1,4 @@
-<?
+<?php
 $menu_items_id = array();
 foreach ($data->bannerLinks as $link)
 {
@@ -27,9 +27,14 @@ if($link_id['type']==MenuItems::LINK_MENU_ITEM_TYPE){
     $link = CategoryUrlRule::getUrl($link_id['id']);
 }
 $k = count($data->bannerRegions)-1;
+
+$teleskopPogruzchiki = '';
+if($data->type == 1 && strpos($link, '/teleskopicheskie-pogruzchiki/') !== false){
+    $teleskopPogruzchiki = 'second_banner_teleskop_pogr';
+}
 ?>
 
-<div class="one_banner second_banner_large">
+<div class="one_banner second_banner_large <?php echo $teleskopPogruzchiki?>">
     <?php Yii::app()->getController()->renderPartial('edit', array('data'=>$data)); ?>
     <div class="b_header"><h3><a href="<? echo $link.'/';?>"><? echo $data->bannerRegions[$k]->name; ?></a></h3></div>
     <div class="b_images">
