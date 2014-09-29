@@ -2799,7 +2799,7 @@ table.table-tech-stage-with-img ul li, table.table-tech-stage ul li {
         margin-bottom: 2px;
     }
     #tech-schema-results tr:not(:first-child) td.tech-schema-middle{
-        background: #fff !important;
+        background: #fff;
     }
 }
 
