@@ -2754,11 +2754,11 @@ ul.mightiness-menu li {
     width: 100px;
     position: absolute;
 }
-
+/*
 #tech-schema-results td{
     width: 22% !important;
 }
-
+*/
 table.table-tech-stage-with-img, table.table-tech-stage{
     width: 100%;
     max-width: 100%;
