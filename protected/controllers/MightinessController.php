@@ -186,7 +186,7 @@ class MightinessController extends Controller
                             $productPath = $product['path'];
                             if(substr($productPath, -1) != '/') $productPath = $productPath.'/';
                             $label = '<a href='.$productPath.'><h3>'.$product['parentName'].'</h3></a>';
-                            if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
+                            if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$productPath.'>(модель '.$product['name'].')</a>';
                             $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                             $response .=  '<div class="mresults">';
                             $response .=  '<div class="m_header">'.$label.'</div>';
@@ -206,7 +206,7 @@ class MightinessController extends Controller
                         $productPath = $product['path'];
                         if(substr($productPath, -1) != '/') $productPath = $productPath.'/';
                         $label = '<a href='.$productPath.'><h3>'.$product['parentName'].'</h3></a>';
-                        if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
+                        if($product['parentName'] != $product['name']) $label .= '<a href='.$productPath.'>(модель '.$product['name'].')</a>';
                         $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                         $response .=  '<div class="mresults">';
                         $response .=  '<div class="m_header">'.$label.'</div>';
