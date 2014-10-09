@@ -131,7 +131,7 @@ class MightinessController extends Controller
 
                     $allChildrean = $subsection->descendants()->findAll();
                     foreach($allChildrean as $child) {
-                        if($child->isLeaf()) {                    
+                        if($child->isLeaf()) {
                             $productId = MenuItemsContent::model()->find('item_id = :id', array(':id'=>$child->id));
                             $parent = MenuItems::model()->findBypk($productId->item_id);
 
@@ -183,7 +183,9 @@ class MightinessController extends Controller
                         $colorCssClass='menu_color_group_'.$groupInfo[$key]['color'];
                         $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
                         foreach($value as $product) {
-                            $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
+                            $productPath = $product['path'];
+                            if(substr($productPath, -1) != '/') $productPath = $productPath.'/';
+                            $label = '<a href='.$productPath.'><h3>'.$product['parentName'].'</h3></a>';
                             if(trim($product['parentName']) != trim($product['name'])) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
                             $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                             $response .=  '<div class="mresults">';
@@ -199,9 +201,11 @@ class MightinessController extends Controller
                 if(!empty($existsFrontTraktPogr)){
                     $key = 'Фронтальные тракторные погрузчики';
                     $colorCssClass='menu_color_group_'.$groupInfo[$key]['color'];
-                                        $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
+                    $response .=  '<div class="mightiness-menu-label '.$colorCssClass.'" style="background-image: url('.Yii::app()->getBaseUrl(true).$groupInfo[$key]['img'].')"><span>'.mb_strtoupper($key, 'UTF-8').'</span><span class="labelInterval">'.$labelInterval.'</span></div>';
                     foreach($existsFrontTraktPogr as $product) {
-                        $label = '<a href='.$product['path'].'><h3>'.$product['parentName'].'</h3></a>';
+                        $productPath = $product['path'];
+                        if(substr($productPath, -1) != '/') $productPath = $productPath.'/';
+                        $label = '<a href='.$productPath.'><h3>'.$product['parentName'].'</h3></a>';
                         if($product['parentName'] != $product['name']) $label .= '<a href='.$product['path'].'>(модель '.$product['name'].')</a>';
                         $description = (!empty($product['description'])) ? $product['description'] : 'Нет описания';
                         $response .=  '<div class="mresults">';

@@ -57,6 +57,7 @@ class TechschemaController extends Controller
                                 $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
                                 $href = MenuItems::model()->findByPk($item_id)->path;
                             }
+                            if(substr($href, -1) != '/') $href = $href.'/';
                             $productList[$cycleName][$stage['id']][] = array(
                                 'name' => $name,
                                 'path' => $href,
