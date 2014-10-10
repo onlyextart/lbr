@@ -5,7 +5,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-25904972-1', 'auto');
-  ga('send', 'pageview', 'page path');
+  ga('send', 'pageview');
 
 //Search Belarus
 _gaq.push(['_addOrganic', 'search.tut.by', 'query']);
