@@ -968,16 +968,29 @@ header:after {
   font-weight: bold;
   font-size: 1.1em;
 }
-.wrapper #content .product_wrapper .product_content > div#features_content table tr:nth-child(even) {
+
+.wrapper #content .product_wrapper .product_content > div#features_content table:not(.rab-organi) tr:nth-child(even) {
   background: white;
 }
-.wrapper #content .product_wrapper .product_content > div#features_content table tr:nth-child(odd) {
+.wrapper #content .product_wrapper .product_content > div#features_content table:not(.rab-organi) tr:nth-child(odd) {
   background: #F8F7F2;
 }
+/* начало - стиль таблицы "рабочие органы" */
+
+.wrapper #content .product_wrapper .product_content > div#features_content table.rab-organi{
+  background: #F8F7F2;
+}
+
+.wrapper #content .product_wrapper .product_content > div#features_content table.rab-organi tr td[colspan], .wrapper #content .product_wrapper .product_content > div#features_content table tr td:only-child {
+  background: white;
+}
+
+/* конец - стиль таблицы "рабочие органы" */
 .wrapper #content .product_wrapper .product_content > div#features_content table td {
   padding: 4px 7px;
   border-color: #c8c8c8;
 }
+
 .wrapper #content .product_wrapper .product_content > div#features_content table td p {
   margin: 0;
   padding: 0;
