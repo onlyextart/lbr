@@ -207,7 +207,7 @@
     <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
         
         <tr>
-            <td style="padding: 0px 20px 185px 20px; border-top:1px solid white; border-left:1px solid white; border-right:1px solid white;">
+            <td style="padding: 0px 20px 25px 20px; border-top:1px solid white; border-left:1px solid white; border-right:1px solid white;">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr>
                         <td width="758" style="padding:10px 0px 10px 0px">
@@ -275,9 +275,21 @@
                 </table>
             </td>
         </tr>
+        </table>
+<!-- Разделитель -->
+    <table width="800" height="160" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 160px; border:0; border-collapse: separate; overflow: hidden;">
+        <tr style="line-height: 0; height: 160px;"><td style="line-height: 0; height: 160px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 160px;">_</span></td></tr>
+    </table> 
 
+   <!-- Разделитель -->
+    <table width="800" height="10" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 10px; border:0; border-collapse: separate; overflow: hidden;">
+        <tr style="line-height: 0; height: 10px;"><td style="line-height: 0; height: 10px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 10px;">_</span></td></tr>
+    </table> 
+   
+    <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+        
         <tr>
-            <td style="padding: 5px 20px 5px 20px; ">
+            <td style="padding: 0px 20px 5px 20px; ">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr valign="top"> 
                         <td width="369" style="padding: 10px 0px 5px 0px;">
