@@ -432,9 +432,9 @@
     .one-page{width: 800px; background: white; position: relative; border-radius: 20px; max-height: 1200px; margin:0; padding: 0; border: 0; box-shadow: 0 0 10px 5px rgb(200,200,200);}
     
     
-    .head-first-page{margin-bottom: 20px; background: url('http://www.lbr.ru/images/kp/grynt.jpg') white no-repeat 6px 152px;}
+    .head-first-page{margin-bottom: 20px;}
     .content-page{padding: 20px 20px 0;}
-    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 44px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
+    .first-header-text{clear: both; display: block; text-transform: uppercase; color: rgb(211, 35, 42); text-align: right; font-size: 52px; padding: 0; margin:0 20px; font-family: FuturisXC, sans-serif;}
     .second-header-text{display: block; text-align: right; color: rgb(211, 35, 42);  text-transform: uppercase; font-size: 60px; font-family: FuturisXC, sans-serif;}
     .flag{position: absolute; left: 20px; bottom: 20px;}
     .header-1{display: block; color: black; background: none !important; font-size: 16px; font-weight: bold; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; font-style: italic; outline: none;}
@@ -471,7 +471,7 @@
     .text{display: block; text-align: justify; font-family: FuturisC, sans-serif; font-size: 14px; color: #222222; line-height: 16px;}
     .dieci-orange{background: rgb(245,130,32); color: white; font-family: FuturisXC, sans-serif; font-size: 24px; text-align: center; margin-top: 10px; padding: 5px 0;}
     .dieci-header{ padding: 10px;}
-    .dieci-header-orange{width: 95%; font-family: FuturisXC, sans-serif; text-transform: uppercase; font-size: 36px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white; text-align: center;}
+    .dieci-header-orange{width: 95%; font-family: FuturisXC, sans-serif; text-transform: uppercase; font-size: 40px; display: block; border-radius: 20px; padding: 10px 20px; background: rgb(245,130,32); color: white; text-align: left;}
     .span-align-left{display: block; text-align: left;}
     .span-align-right{display: block; text-align: right;}
     .dieci-black-header{font-family: FuturisXC, sans-serif; font-size: 21px; color: black; text-transform: uppercase; text-align: center}
@@ -519,7 +519,11 @@
         display: block;
         padding: 4px 6px;
     }
-    
+    table tr:first-child
+    {
+        background: #d1d3d4;
+        font-weight: bold;
+    }
     table tr td
     {
         text-align: center;

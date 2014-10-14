@@ -40,7 +40,7 @@
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
-        Yii::app()->clientScript->registerCssFile('/css/main.css');
+        Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');

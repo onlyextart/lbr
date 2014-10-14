@@ -57,6 +57,7 @@ class TechschemaController extends Controller
                                 $item_id = MenuItemsContent::model()->find('page_id=:id', array(':id'=>$product['product_id']))->item_id;
                                 $href = MenuItems::model()->findByPk($item_id)->path;
                             }
+                            if(substr($href, -1) != '/') $href = $href.'/';
                             $productList[$cycleName][$stage['id']][] = array(
                                 'name' => $name,
                                 'path' => $href,
@@ -74,16 +75,18 @@ class TechschemaController extends Controller
                         $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
-                        if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
-                        else $mainImglabel = $key;
-
-                        if($rowCount == 1) {
+                        $additionalUrl = $currentSchema->additional_url;
+                        //if(!empty($mainImglabel)) $mainImglabel = '<img src="'.$mainImglabel.'" />';
+                        //else $mainImglabel = $key;
+                        if(empty($mainImglabel)) $mainImglabel = $key;
+                            
+                        /*if($rowCount == 1) {
                             $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5"><tr>';  
                             $response .= '<td>Этапы заготовки</td>';
                             foreach($value as $v) {
                                 $response .= '<td>'.$v.'</td>';
                             }
-
+                            
                             $response .= '</tr><tr><td>'.$mainImglabel.'</td>';
                             foreach($productList[$key] as $id => $products) {
                                 $label = TechSchemaStage::model()->findByPk($id)->img;
@@ -97,10 +100,12 @@ class TechschemaController extends Controller
                             }
 
                             $response .= '</tr></table></div>';
-                        } else {
-                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="5" cellpadding="5">';
+                        } else {*/
+                            $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="0" cellpadding="0">';
+                            $response .= '<tr><td class="table-spasing" colspan="'.($dividend+1).'"></td></tr>';
                             $response .= '<tr>';  
-                            $response .= '<td class="label">Этапы технологии</td>';
+                            $response .= '<td class="label main-label"><div>Этапы технологии</div></td>';
+                            
                             $count = 0;
                             $temp = array();
                             foreach($value as $k=>$v) {
@@ -112,7 +117,17 @@ class TechschemaController extends Controller
                                 $count++;
                             }
                             $response .= '</tr>';
-                            $response .= '<tr><td rowspan="'.($rowCount*2).'">'.$mainImglabel.'</td>';
+                            /*$response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'" style="background-image:url('.$mainImglabel.');">'.
+                                '<div class="product-list-arrow">
+                                   <img class="plarrow" src="/images/schema/arrow_main_label.png">
+                                </div>' .
+                            '</td>';*/
+                            $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'">'.
+                                '<img width="112px" src="'.$mainImglabel.'" />'.
+                                '<div class="product-list-arrow">
+                                   <img class="plarrow" src="/images/schema/arrow_main_label.png">
+                                </div>' .
+                            '</td>';
                             $count = 0;
                             //first row
                             foreach($productList[$key] as $id => $products) {
@@ -127,13 +142,15 @@ class TechschemaController extends Controller
                                         if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                     }
                                     $response .= '</ul></div>';
-                                    if(($count + 1) != $dividend) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                    //if(($count + 1) != $dividend) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                    if((count($temp)-$i*$dividend-($count+1)) > 0) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
                                     $response .= '</td>';
                                 }
                                 $count++;
                             }
 
                             $response .= '</tr>';
+                            $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             //other rows
                             for($i = 1; $i < $rowCount; $i++){
                                 $keyInDiapazon = array();
@@ -153,11 +170,18 @@ class TechschemaController extends Controller
                                 }
                                 if($count < $dividend) {
                                     $union = $dividend - $count;
-                                    $response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    //$response .= '<td rowspan="'.($union*2).'" colspan="'.$union.'" class="tech-schema-middle"><div class="additional-info-wrapper"><img src="'.$additionalImg.'" alt="Нет изображения"/></div></td>';
+                                    $bgcolor = (!empty($additionalUrl)) ? 'background-color: #d0d0d0;':'background-color: #ffffff;';
+                                    $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle" style="'.$bgcolor.'"><div class="additional-info-wrapper">';
+                                    if(!empty($additionalUrl))$response .= '<a title="Сопутствующие товары" target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/">';
+                                    $response .= '<img src="'.$additionalImg.'" alt="Нет изображения"/>';
+                                    if(!empty($additionalUrl))$response .= '</a>';
+                                    $response .= '</div></td>';
                                 }
                                 
                                 $response .= '</tr><tr>';
                                 $count = 0;
+                                
                                 foreach($productList[$key] as $id => $products) {
                                     if(in_array($id, $keyInDiapazon)){
                                         $label = TechSchemaStage::model()->findByPk($id)->img;
@@ -169,17 +193,20 @@ class TechschemaController extends Controller
                                             if(!empty($product)) $response .= '<li><a href="'.$product['path'].'" target="_blank">'.$product['name'].'</a></li>';
                                         }
                                         $response .= '</ul></div>';
-                                        if(($count+1) < count($keyInDiapazon)) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                        //if(($count+1) < count($keyInDiapazon)) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                        if((count($temp)-$i*$dividend-($count+1)) > 0) $response .= '<div class="product-list-arrow"><img class="plarrow" src="/images/schema/small_arrow.png"/></div>';
+                                        
                                         $response .= '</td>';
                                         $count++;
                                     }
                                 }
 
-                                $response .= '</tr>';   
+                                $response .= '</tr>';
+                                if(($i+1) < $rowCount)$response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             }
-
+                            $response .= '<tr><td class="table-spasing" colspan="'.$dividend.'"></td></tr>';
                             $response .= '</table></div>';
-                        }
+                        //}
                     }
                 }
             } 
@@ -191,8 +218,22 @@ class TechschemaController extends Controller
         }
     }
     
+    public function actionSetUrl()
+    {
+        $model = TechSchema::model()->findByPk(63);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(64);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(65);
+        $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
+        $model->saveNode();
+    }
+    
     public function actionAddValues()
     {
+        /*
         TechSchema::model()->deleteAll();
         TechStage::model()->deleteAll();
         TechSchemaStage::model()->deleteAll();
@@ -387,9 +428,6 @@ class TechschemaController extends Controller
         $stage29->title = 'Распределение соломы и пожнивных остатков';
         //$stage->title = 'Мульчирование/распределение соломы и пожнивных остатков';
         $stage29->save();
-        /*$stage30 = new TechStage();
-        $stage30->title = 'Внесение минеральных удобрений';
-        $stage30->save();*/
         $stage30 = new TechStage();
         $stage30->title = 'Ранневесеннее боронование';
         $stage30->save();
@@ -1073,7 +1111,7 @@ class TechschemaController extends Controller
         $stage->level = 11;
         $stage->img = '/images/schema/yarovie/yarovie11.jpg';
         $stage->save();
-        
+        */
         ////////////////////////////////////////////////////
         /*
         //Не меняется

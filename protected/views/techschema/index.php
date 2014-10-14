@@ -15,7 +15,7 @@
             $num++;
             $active = ($descendant->id == $activeId)?'active':'';
             $href = Yii::app()->getBaseUrl(true).'/selskohozyaystvennaya-tehnika/techschema/sort/'.$url[$descendant->title].'/';
-            echo '<a class="tech-img-wrapper '.$active.'" style="height: 96px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
+            echo '<a class="tech-img-wrapper '.$active.'" style="height: 95px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
             if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title);
             else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
             echo '</a>';

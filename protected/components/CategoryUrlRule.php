@@ -121,13 +121,21 @@ class CategoryUrlRule extends CBaseUrlRule
             $label = $this->labels[$additionalParam];
             if($path == 'techschema') $label = $this->labelsTech[$additionalParam];
             $last = array_pop($breadcrumbs);
+            if(substr($pathInfo, -1) != '/') $pathInfo = $pathInfo.'/';
+            if(substr($pathInfo, 1) != '/') $pathInfo = '/'.$pathInfo;
             $breadcrumbs[$last] = $pathInfo;
             $breadcrumbs[] = $label;
+            
+            //var_dump($pathInfo);
+            //exit;
         }
+        
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
-
+//var_dump(Yii::app()->params['breadcrumbs']);
+//var_dump($ancestors);
+//exit;
         if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
         else return self::$controllers[$this->desiredMenuItem->type];
     }
