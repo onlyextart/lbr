@@ -30,9 +30,8 @@
                     
                     <tr>
                         <td style="padding: 0 20px;  border:1px solid #c3c6c8; width: 798px;">
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Уважаемый <?php echo $data['client']; ?>,</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Мы готовы предложить вам актуальную технику к сезону.</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Начинать разговор нужно с конкретного выгодного предложения. У нас такое есть!</p>
+                           <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Уважаемый, <?php echo $data['client']; ?>,</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Предлагаем приобрести технику, актуальную для успешного окончания сельскохозяйственного сезона. Все представленные машины и агрегаты В НАЛИЧИИ на складе и по приемлемым ценам. Также покупайте машины, которые будут работать на вас круглый год.</p>
                         </td>
                     </tr>
                     
@@ -73,7 +72,7 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td width="151" valign="center" style="width: 151px; text-align: center;">
+                                    <td width="151" valign="center" style="width: 151px; text-align: right; padding:7px 0px 0px 0px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/red_rect.png" width="115" style="border:0; float:right;">
                                     </td>
                                 </tr>
