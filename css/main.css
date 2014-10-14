@@ -1857,9 +1857,10 @@ header:after {
   display: block;
   text-align: center;
 }
+/*
 .xbanners_container .xbanners .second_banner_dieci .b_header h3 a:hover {
   text-decoration: none;
-}
+}*/
 .xbanners_container .xbanners:after {
   content: '';
   display: block;
