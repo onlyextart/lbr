@@ -24,23 +24,9 @@
 
     <table cellspacing="0" cellpadding="0" width="800" align="center" bgcolor="#D8E5ED"  style="width: 840px; background: #D8E5ED; margin: 0 auto; padding: 0px; border: 0;">
         <tr>
-            <td style="padding: 10px 0 0px;">
+            <td style="padding: 10px 0px 10px 0px;">
                 <!-- START -->
-                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: separate;">
-                    
-                    <tr>
-                        <td style="padding: 0 20px;  border:1px solid #c3c6c8; width: 798px;">
-                           <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Уважаемый <?php echo $data['client']; ?>!</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Предлагаем приобрести технику, актуальную для успешного окончания сельскохозяйственного сезона. Все представленные машины и агрегаты В НАЛИЧИИ на складе и по приемлемым ценам. Также покупайте машины, которые будут работать на вас круглый год.</p>
-                        </td>
-                    </tr>
-                    
-                </table>
-
-                <!-- Разделитель -->
-                <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: separate; overflow: hidden;">
-                    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
-                </table>
+               
 
 
                 <!-- Первая строка с двумя горизонтальными блоками-->
@@ -221,7 +207,7 @@
     <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
         
         <tr>
-            <td style="padding: 0px 20px 105px 20px; border-top:1px solid white; border-left:1px solid white; border-right:1px solid white;">
+            <td style="padding: 0px 20px 185px 20px; border-top:1px solid white; border-left:1px solid white; border-right:1px solid white;">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr>
                         <td width="758" style="padding:10px 0px 10px 0px">
@@ -805,45 +791,6 @@
 </tr>
 </table>
 
-<!-- Разделитель -->
-<table width="840" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: separate; overflow: hidden;">
-    <tr style="line-height: 0; height: 20px;"><td style="line-height: 0; height: 20px;"><span style="overflow: hidden; margin: 0; padding: 0; color: #D8E5ED; line-height: 0; height: 20px;">_</span></td></tr>
-</table>
-
-
-
-<table width="840" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;" >
-
-    <tr>
-        <td style="padding: 20px 20px 5px 10px; background: white;">
-            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px;">Всю подробную информацию Вы сможете получить у Вашего персонального менеджера. </p>
-        </td>
-    </tr>
-    <tr>
-        <td style="padding: 0px 20px 0px 10px; background: white;">
-            <table style="border-collapse: collapse;" width="830" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
-                <tr>
-                    <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><?php echo $filial['name']; ?></b>)!</span><br></td>
-                </tr>
-                <tr>
-                    <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $filial['work_time']; ?></span><br></td>
-                </tr>
-                <tr>
-                    <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $filial['address']; ?></span><br></td>
-                </tr>
-                <tr>
-                    <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $filial['telephone']; ?></span></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td style="padding: 10px 20px 10px 10px; background: white;">
-            <?php echo AuthUser::getPasteboard($data['login'], 'email'); ?>
-        </td>
-    </tr>
-
-</table>
 
 </body>
 
