@@ -13,16 +13,15 @@
     <table width="840" cellspacing="0" cellpadding="0" align="center"  style="border:0; border-collapse: separate;">
         <tr>
             <td>
-            <td>
                 <a target="_blank" href="http://www.lbr.ru/?utm_source=EVP4&utm_medium=email&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                     <!--<img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
-                    <img src="cid:header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                    <img src="cid:header.png" width="840" style="border: 0;" alt="Нажмите отобразить рисунки">
                 </a>
             </td>
         </tr>
     </table>
 
-    <table cellspacing="0" cellpadding="0" width="800" align="center" bgcolor="#D8E5ED"  style="width: 840px; background: #D8E5ED; margin: 0 auto; padding: 0px; border: 0;">
+    <table cellspacing="0" cellpadding="0" width="840" align="center" bgcolor="#D8E5ED"  style="width: 840px; background: #D8E5ED; margin: 0 auto; padding: 0px; border: 0;">
         <tr>
             <td style="padding: 10px 0 0px;">
                 <!-- START -->
@@ -32,9 +31,8 @@
                     </tr>
                     <tr>
                         <td style="padding: 0 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Уважаемый <?php echo $data['client']; ?>,</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Мы готовы предложить вам актуальную технику к сезону.</p>
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Начинать разговор нужно с конкретного выгодного предложения. У нас такое есть!</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>!</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Предлагаем приобрести технику, актуальную для успешного окончания сельскохозяйственного сезона. Все представленные машины и агрегаты В НАЛИЧИИ на складе и по приемлемым ценам. Также покупайте машины, которые будут работать на вас круглый год.</p>
                         </td>
                     </tr>
                     <tr>
@@ -49,19 +47,19 @@
 
 
                 <!-- Первая строка с двумя горизонтальными блоками-->
-                <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+              <table width="800" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr>
                         <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-light-blue.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 0px 20px 5px; border-left:1px solid white; border-right: 1px solid white;">
+                        <td style="padding: 0px 20px 5px 20px; border-left:1px solid white; border-right: 1px solid white;">
                             <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                                 <tr>
-                                    <td width="617" style="width: 617px; padding:0px 0px 0px 0px">
-                                        <table width="617" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+                                    <td width="607" style="width: 607px; padding:0px 0px 0px 0px">
+                                        <table width="607" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                                             <tr>
-                                                <td colspan="2">   
-                                                    <p style="padding: 10px 0px 0px 15px; font-size: 22pt; font-family: Calibri; font-weight: 800; color: #2e6699; margin: 0; text-align: left; line-height: 22pt;">
+                                                <td colspan="2" style="padding: 10px 0px 0px 15px;">   
+                                                    <p style="font-size: 22pt; font-family: Calibri; font-weight: 800; color: #2e6699; margin: 0; text-align: left; line-height: 22pt;">
                                                         ВНЕСЕНИЕ МИНЕРАЛЬНЫХ УДОБРЕНИЙ
                                                     </p>
                                                 </td>
@@ -70,8 +68,8 @@
                                                 <td width="60" style="padding:10px 0px 0px 0px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/dlg_logo.png" width="60" style="border:0; float:left;">
                                                 </td>
-                                                <td width="557"  style="padding:10px 10px 0px 10px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight: normal; color: black; margin: 0; text-align: justify; line-height: 12pt;">
+                                                <td width="547"  style="padding:10px 10px 0px 10px;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight: normal; color: black; margin: 0; text-align: left; line-height: 11pt;">
                                                         Точность и равномерность внесения удобрений представленных разбрасывателей
                                                         подтверждена немецкой ассоциацией сельхозпроизводителей.
                                                     </p>
@@ -79,7 +77,7 @@
                                             </tr>
                                         </table>
                                     </td>
-                                    <td width="151" valign="center" style="width: 151px; text-align: center;">
+                                    <td width="151" valign="center" style="width: 151px; text-align: right; padding:7px 0px 0px 0px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/red_rect.png" width="115" style="border:0; float:right;">
                                     </td>
                                 </tr>
@@ -90,48 +88,40 @@
                     </tr>
 
                     <tr>
-                        <td style="padding: 0px 20px 0px;">
-                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; background-clip:padding-box; border-collapse: separate;">
+                        <td style="padding: 0px 20px 0px 20px;">
+                            <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0;  border-collapse: separate;">
                                 <tr valign="top"> 
                                     <td width="369" style="padding: 15px 0px 0px 0px;">
-                                        <table width="368" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; background-clip:padding-box; border-collapse: separate;">
+                                        <table width="368" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0;  border-collapse: separate;">
                                             <tr>
                                                 <td>
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td bgcolor="white" style="background-clip:padding-box; border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
-                                                    <table width="366" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; background-clip:padding-box;border-collapse: separate;">
+                                                <td bgcolor="white" style="border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
+                                                    <table width="366" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
                                                         <tr>
                                                             <td width="20" style="padding:0px 0px 0px 20px;">
                                                                 <img src="http://www.lbr.ru/images/makers/unia-logo-big.jpg" width="20" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                             </td>
                                                             <td width="346" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                                                <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 14pt;">
                                                                     НАВЕСНОЙ РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ MX
                                                                 </p>
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
+                                                            <td colspan="2" style="padding:15px 20px 0px 20px;">
+                                                                
+                                                                <img src="cid:mail-1.png" width="326" style="border: 0; " alt="Нажмите отобразить рисунки">
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <!--<img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-1.png" width="326" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
-                                                                <img src="cid:mail-1.png" width="326" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                            <td colspan="2" style="padding:15px 20px 0px 20px;">
+                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                                     Действительно очень живучий и очень заботливый:
                                                                     стойкие к химическому воздействию корпус и рабочие
                                                                     элементы машины, сохранение целостности гранул при
@@ -139,37 +129,25 @@
                                                                 </p>  
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                            <td colspan="2" style="padding:15px 20px 0px 20px;">
+                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                                     <span style="font-weight: bold;">РАЗБРАСЫВАТЕЛЬ MX + ПОГРУЗЧИК BIG BAGOW </span>-
                                                                     реальная экономия времени и количества техники,
                                                                     задействованной на этапе внесения удобрений.
                                                                 </p>  
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
+                                                        
                                                         <tr valign="bottom">
-                                                            <td colspan="2" style="padding: 0px 20px 0px 0px; text-align: right;">
+                                                            <td colspan="2" style="padding: 15px 20px 10px 0px; text-align: right;">
                                                                 <a target="_blank" href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%B0%D0%B7%D0%B1%D1%80%D0%B0%D1%81%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D1%83%D0%B4%D0%BE%D0%B1%D1%80%D0%B5%D0%BD%D0%B8%D0%B9%20MX&utm_content=%D0%A0%D0%B0%D0%B7%D0%B1%D1%80%D0%B0%D1%81%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D1%83%D0%B4%D0%BE%D0%B1%D1%80%D0%B5%D0%BD%D0%B8%D0%B9%20MX&utm_campaign=%D0%9D%D0%90%D0%92%D0%95%D0%A1%D0%9D%D0%9E%D0%99%20%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20MX" title="НАВЕСНОЙ РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ MX" style="border: 0; text-decoration: none;">
                                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                                 </a>
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td height="10">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" >
-                                                            </td>
-                                                        </tr>
+                                                        
                                                     </table>
                                                 </td>
 
@@ -189,122 +167,89 @@
                                                 </td>
                                             </tr>
                                             <tr valign="top">
-                                                <td valign="top" bgcolor="white" style="background-clip:padding-box; border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
+                                                <td valign="top" bgcolor="white" style="border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
                                                     <table width="366" cellspacing="0" cellpadding="0" align="center" bgcolor="white">
                                                         <tr>
                                                             <td width="20" style="padding:0px 0px 0px 20px;">
                                                                 <img src="http://www.lbr.ru/images/makers/unia-logo-big.jpg" width="20" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                             </td>
                                                             <td width="346" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                                                <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 14pt;">
                                                                     ПРИЦЕПНОЙ РАЗБРАСЫВАТЕЛЬ
                                                                     УДОБРЕНИЙ RCW 5 500
                                                                 </p>
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
+                                                            <td colspan="2" style="padding:15px 20px 0px 20px;">
+                                                               <img src="cid:mail-2.png" width="326" style="border: 0; " alt="Нажмите отобразить рисунки">
                                                             </td>
                                                         </tr>
+                                                       
                                                         <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-2.png" width="326" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
-                                                                <!--<img src="cid:mail-2.png" width="326" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">-->
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="15">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                            <td colspan="2" style="padding:15px 20px 0px 20px;">
+                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                                     25 ГА ЗА 1 ВЫХОД В ПОЛЕ.
                                                                 </p>
                                                             </td>
                                                         </tr>  
+                                                        
                                                         <tr>
-                                                            <td height="13">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
-                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                            <td colspan="2" style="padding:13px 20px 0px 20px;">
+                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                                     МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!
                                                                 </p>
                                                             </td>
                                                         </tr>
+                                                        
                                                         <tr>
-                                                            <td height="13">
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" style="padding:0px 20px 0px 20px;">
+                                                            <td colspan="2" style="padding:13px 20px 0px 20px;">
                                                                 <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; font-weight:normal; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
                                                                     Экономия времени, ГСМ, парка техники.
                                                                 </p>
                                                             </td>
                                                         </tr>
+                                                        
+                                                        <tr>
+                                                            <td colspan="2" style="padding:20px 20px 0px 20px;">
 
+                                                                <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
+                                                                    Оптимальная загрузка МТЗ 82 на полевых работах.
+                                                                    Проверьте сами!  
+                                                                </p>  
 
+                                                            </td>
+                                                        </tr>
+                                            
+                                                        <tr valign="bottom">
+                                                            <td colspan="2" style="padding: 15px 20px 10px 0px; text-align: right;">
+                                                                <a target="_blank" href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-mineralnykh-udobrenij/433-razbrasyvateli-mineralnykh-udobrenij-rcw/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500&utm_content=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500&utm_campaign=%D0%9F%D0%A0%D0%98%D0%A6%D0%95%D0%9F%D0%9D%D0%9E%D0%99%20%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500" title="ПРИЦЕПНОЙ РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ RCW 5 500" style="border: 0; text-decoration: none;">
+                                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                            
+                                                    </table>
                                                 </td>
+
                                             </tr>
                                             <tr>
-                                                <td height="20">
-                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2" style="padding:0px 20px 0px 20px;">
-
-                                                    <p style="padding: 0; font-size: 10.7pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
-                                                        Оптимальная загрузка МТЗ 82 на полевых работах.
-                                                        Проверьте сами!  
-                                                    </p>  
-
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td height="15">
-                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" >
-                                                </td>
-                                            </tr>
-                                            <tr valign="bottom">
-                                                <td colspan="2" style="padding: 0px 20px 0px 0px; text-align: right;">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-mineralnykh-udobrenij/433-razbrasyvateli-mineralnykh-udobrenij-rcw/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500&utm_content=%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500&utm_campaign=%D0%9F%D0%A0%D0%98%D0%A6%D0%95%D0%9F%D0%9D%D0%9E%D0%99%20%D0%A0%D0%90%D0%97%D0%91%D0%A0%D0%90%D0%A1%D0%AB%D0%92%D0%90%D0%A2%D0%95%D0%9B%D0%AC%20%D0%A3%D0%94%D0%9E%D0%91%D0%A0%D0%95%D0%9D%D0%98%D0%99%20RCW%205%20500" title="ПРИЦЕПНОЙ РАЗБРАСЫВАТЕЛЬ УДОБРЕНИЙ RCW 5 500" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td height="10">
-                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/template_white.png" border="0" width="1" height="1" style="display: block;" alt="" >
+                                                <td>
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                             </tr>
                                         </table>
-                                    </td>
-
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                </table>
-            </td>
-        </tr>
 
-        <tr>
-            <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-light-blue.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
-        </tr>
-    </table>
+                    <tr>
+                        <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-light-blue.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
+                    </tr>
+                </table>
 
     <!-- Разделитель -->
     <table width="800" height="20" cellspacing="0" cellpadding="0" align="center" bgcolor="#D8E5ED"  style="height: 20px; border:0; border-collapse: separate; overflow: hidden;">
@@ -320,9 +265,9 @@
             <td style="padding: 0px 20px 5px; border-left:1px solid white; border-right: 1px solid white;">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr>
-                        <td width="758" style="padding:10px 0px 10px 0px">
+                        <!--<td width="758" style="padding:10px 0px 10px 0px">
                             <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
-                                <tr>
+                                <tr>-->
                                     <td style="padding:10px 0px 10px 15px;">
                                         <p style="font-size: 22pt; font-family: Calibri; font-weight: 800; color: #2e6699; margin: 0; text-align: left; line-height: 22pt;">
                                             ПРИГОТОВЛЕНИЕ И РАЗДАЧА КОРМОВ
@@ -335,7 +280,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td bgcolor="white" style="background-clip:padding-box; border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
+                                    <td bgcolor="white" style="border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
                                         <table width="756" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
                                             <tr>
                                                 <td width="280" style="padding:10px 10px 10px 20px;">
@@ -396,22 +341,22 @@
                     </tr>
 
 
-                </table>
+              <!--  </table>
             </td>
-        </tr>
+        </tr>-->
 
         <tr>
-            <td style="padding: 0px 20px 5px; border-left:1px solid white; border-right: 1px solid white;">
+            <td style="padding: 0px 20px 5px 20px; border-left:1px solid white; border-right: 1px solid white;">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                     <tr> 
                         <td width="369" style="padding: 10px 0px 0px 0px;">
                             <table width="368" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                                 <tr>
                                     <td>
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="368" style="border: 0; " alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
-                                <tr>
+                               <tr>
                                     <td style="border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
                                         <table width="366" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
                                             <tr>
@@ -419,7 +364,7 @@
                                                     <img src="http://www.lbr.ru/images/uploaded/RBS-(logo)_.jpg" width="30" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td width="336" style="padding:0px 20px 0px 20px;">
-                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 14pt;">
                                                         ГОРИЗОНТАЛЬНЫЕ СМЕСИТЕЛИ-
                                                         КОРМОРАЗДАТЧИКИ СЕНЬОР
                                                     </p>
@@ -432,14 +377,14 @@
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding:10px 20px 5px 20px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; font-weight: bold; text-align: justify; line-height: 12pt;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; font-weight: bold; text-align: justify; line-height: 11pt;">
                                                         ПОЕДАЕМОСТЬ КОРМА - 100%.
                                                     </p>  
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding:10px 20px 5px 20px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                         Эти машины обеспечивают получение корма высочайшей
                                                         степени смешивания и измельчения, а сверхточная
                                                         электронная система взвешивания позволяет оптимально
@@ -450,25 +395,25 @@
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding:10px 20px 5px 20px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight: bold; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight: bold; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                         Выгрузка кормовой смеси свыше 99%.
                                                     </p>  
                                                 </td>
                                             </tr>
-                                            <tr valign="bottom">
+                                           <tr valign="bottom">
                                                 <td  colspan="2" style="padding: 10px 20px 10px 0px; text-align: right;">
                                                     <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?utm_source=EVP4&utm_medium=email&utm_term=%D0%93%D0%9E%D0%A0%D0%98%D0%97%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%95%20%D0%9A%D0%9E%D0%A0%D0%9C%D0%9E%D0%A0%D0%90%D0%97%D0%94%D0%90%D0%A2%D0%A7%D0%98%D0%9A%D0%98%20%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_content=%D0%93%D0%9E%D0%A0%D0%98%D0%97%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%95%20%D0%9A%D0%9E%D0%A0%D0%9C%D0%9E%D0%A0%D0%90%D0%97%D0%94%D0%90%D0%A2%D0%A7%D0%98%D0%9A%D0%98%20%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0&utm_campaign=%D0%93%D0%9E%D0%A0%D0%98%D0%97%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%95%20%D0%A1%D0%9C%D0%95%D0%A1%D0%98%D0%A2%D0%95%D0%9B%D0%98-%D0%9A%D0%9E%D0%A0%D0%9C%D0%9E%D0%A0%D0%90%D0%97%D0%94%D0%90%D0%A2%D0%A7%D0%98%D0%9A%D0%98%20%D0%A1%D0%95%D0%9D%D0%AC%D0%9E%D0%A0" title="ГОРИЗОНТАЛЬНЫЕ СМЕСИТЕЛИ-КОРМОРАЗДАТЧИКИ СЕНЬОР" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                     </a>
                                                 </td>
-                                            </tr>
+                                        </tr>
                                         </table>
                                     </td>
 
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0;" alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                             </table>
@@ -477,18 +422,18 @@
                             <table width="368" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                                 <tr>
                                     <td>
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="368" style="border: 0; " alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
-                                <tr >
-                                    <td bgcolor="white" style=" border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
+                               <tr>
+                                   <td bgcolor="white" style="border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8;">
                                         <table width="366" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
                                             <tr>
                                                 <td width="30" style="padding:0px 0px 0px 20px;">
                                                     <img src="http://www.lbr.ru/images/uploaded/RBS-(logo)_.jpg" width="30" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                                 <td width="336" style="padding:0px 20px 0px 20px;">
-                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 14pt;">
                                                         ВЕРТИКАЛЬНЫЕ СМЕСИТЕЛИ-КОРМОРАЗДАТЧИКИ СЕНЬОР
                                                     </p>
                                                 </td>
@@ -500,14 +445,14 @@
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding:10px 20px 0px 20px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; font-weight:bold; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                         ПРОСТОЙ И НАДЕЖНЫЙ, С ТОЛСТЫМИ СТЕНКАМИ БУНКЕРА!
                                                     </p>  
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding:10px 20px 5px 20px;">
-                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                    <p style="padding: 0; font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                         Работает с целыми рулонами или тюками. Легко их
                                                         измельчает с помощью шнека большого диаметра с
                                                         ножами из износостойкой стали.                                              
@@ -522,7 +467,7 @@
                                                                 <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/dollar.png" width="30" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                             </td>
                                                             <td width="296" style="padding: 0px 0px 0px 10px;">
-                                                                <p style="font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
+                                                                <p style="font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
                                                                     Более компактная и дешевая модель по сравнению
                                                                     с горизонтальными кормораздатчиками.                                             
                                                                 </p>  
@@ -544,7 +489,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="368" style="border: 0; " alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                             </table>
@@ -571,153 +516,165 @@
         </tr>
         <tr valign="top">
             <td style="padding: 0 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
-                <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
-                    <tr valign="top">
-                        <td>
-                            <table width="758" cellspacing="0" cellpadding="0" align="center"  bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
-                                <tr valign="top">
-                                    <td width="450">
-                                        <table width="450" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+                <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+                    <tr valign="top" style="padding:0px 0px 0px 0px;">
+                        
+                                    <td width="450" style="padding:10px 0px 0px 0px;">
+                                        <table width="450" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="margin:0; border:0; border-collapse: separate;">
                                             <tr>
-                                                <td width="116" style="padding:10px 0px 0px 0px;">
-                                                    <img src="http://www.lbr.ru/images/uploaded/logo_dieci_mini.jpg" width="50" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
-                                                </td>
-                                                <td width="334" style="padding:10px 0px 0px 0px;">
-                                                    <p style="padding: 0; font-size: 13pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
-                                                        ТЕЛЕСКОПИЧЕСКИЕ ПОГРУЗЧИКИ DIECI
-                                                    </p>
-                                                </td>
+                                                
+                                                            <td valign="center" width="116" style="padding:0px 0px 0px 0px;">
+                                                                <img src="http://www.lbr.ru/images/uploaded/logo_dieci_mini.jpg" width="50" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
+                                                            </td>
+                                                            <td valign="top" width="334" style="padding:0px 0px 0px 0px;">
+                                                                <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; line-height: 14pt;">ТЕЛЕСКОПИЧЕСКИЕ ПОГРУЗЧИКИ</p>
+                                                            </td>
+                                                        
                                             </tr>
-                                            <tr valign="top">
-                                                <td colspan="2" style="padding:0px 0px 0px 0px;">
-                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-6.png" width="450" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="116" valign="center" style="padding:0px 0px 0px 0px;">
-                                                    <a target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/?utm_source=EVP4&utm_medium=email&utm_term=%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI&utm_content=%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI&utm_campaign=%D0%A2%D0%95%D0%9B%D0%95%D0%A1%D0%9A%D0%9E%D0%9F%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%95%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI" title="ТЕЛЕСКОПИЧЕСКИЕ ПОГРУЗЧИКИ DIECI" style="border: 0; text-decoration: none;">
-                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
-                                                    </a> 
-                                                </td>
-                                                <td width="334" style="padding:10px 0px 0px 10px;">
-                                                    <p style="font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 12pt;">
-                                                        Благодаря широкому выбору рабочих органов погрузчик
-                                                        в строю круглый год на более чем 50 операциях!
-                                                    </p>
-                                                </td>
-                                            </tr>
-
                                         </table>
                                     </td>
-                                    <td width="308" valign="top" style="padding:0px 0px 0px 20px;">
-                                        <table width="288" cellspacing="0" cellpadding="0" align="center" style="border:0;  border-collapse: separate;">
+                                    <td width="308" valign="top" style="padding:10px 0px 0px 20px;">
+                                        <table width="288" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="margin:0; border:0; border-collapse: separate;">
                                             <tr>
-                                                <td style="padding:10px 0px 0px 0px;">
-                                                    <p style="font-size: 13pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: center; line-height: 15pt;">
-                                                        РАБОЧИЕ ОРГАНЫ
-                                                    </p>
+                                            <td>
+                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: center; line-height: 14pt;">РАБОЧИЕ ОРГАНЫ</p>
+                                    
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="padding: 10px 0px 0px 0px;">
+                                             </tr>
+                                        </table>
+                                    </td>
+                                                
+                                            
+                    </tr>
+                    <tr valign="top">
+                        <td width="450" style="padding:15px 0px 0px 0px;">
+                            <table width="450" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+                                <tr valign="top">
+                                    <td colspan="2" style="padding:0px 0px 0px 0px;">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-6.png" width="450" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                <td width="116" valign="center" style="padding:10px 0px 0px 0px;">
+                                    <a target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/teleskopicheskie-pogruzchiki/dieci/?utm_source=EVP4&utm_medium=email&utm_term=%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI&utm_content=%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI&utm_campaign=%D0%A2%D0%95%D0%9B%D0%95%D0%A1%D0%9A%D0%9E%D0%9F%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%95%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%98%20DIECI" title="ТЕЛЕСКОПИЧЕСКИЕ ПОГРУЗЧИКИ DIECI" style="border: 0; text-decoration: none;">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
+                                    </a> 
+                                </td>
+                                <td width="334" style="padding:10px 0px 0px 10px;">
+                                    <p style="font-size: 11pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 11pt;">
+                                        Благодаря широкому выбору рабочих органов погрузчик
+                                        в строю круглый год на более чем 50 операциях!
+                                    </p>
+                                </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="308" style="padding:15px 0px 0px 20px;">
+                            <table width="288"  cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
+                                <tr>
+                                                <td style="padding: 0px 0px 0px 0px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="288" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td bgcolor="white" style="border:0; border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8; border-collapse: separate;">
-                                                    <table width="286" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
-                                                        <tr>
-                                                            <td valign="top" style="padding:0px 10px 5px 10px;">
-                                                                <table width="266" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
-                                                                    <tr>
-                                                                        <td width="133" align="center" style="padding:10px 5px 0px 0px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-7.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:10px 0px 0px 5px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-8.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr valign="top">
-                                                                        <td width="133" align="center" style="padding:0px 5px 0px 0px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                ковш для сыпучих
-                                                                                материалов
-                                                                            </p>  
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:0px 0px 0px 5px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                захват для рулонов
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td width="133" align="center" style="padding:10px 5px 0px 0px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-9.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:10px 0px 0px 5px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-10.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr valign="top">
-                                                                        <td width="133" align="center" style="padding:0px 5px 0px 0px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                ковш для корнеплодов
-                                                                            </p>  
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:0px 0px 0px 5px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                дорожная щетка
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td width="133" align="center" style="padding:10px 5px 0px 0px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-11.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:10px 0px 0px 5px;">
-                                                                            <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-12.png" width="70" style="border: 0;" alt="Нажмите отобразить рисунки"> 
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr valign="top">
-                                                                        <td width="133" align="center" style="padding:0px 5px 0px 0px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                отвал для снега
-                                                                                «бабочка»
-                                                                            </p>  
-                                                                        </td>
-                                                                        <td width="133" align="center" style="padding:0px 0px 0px 5px;">
-                                                                            <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
-                                                                                крюк
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr valign="bottom">
-                                                                        <td  colspan="2" style="padding: 2px 0px 0px 0px; text-align: right;">
-                                                                            <a target="_blank" href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/rabochie-organy-dieci/595-rabochie-organy-k-teleskopicheskim-pogruzchikam-dieci/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI&utm_content=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI&utm_campaign=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A2%D0%95%D0%9B%D0%95%D0%A1%D0%9A%D0%9E%D0%9F%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI" title="РАБОЧИЕ ОРГАНЫ ДЛЯ ТЕЛЕСКОПИЧЕСКИХ ПОГРУЗЧИКОВ DIECI" style="border: 0; text-decoration: none;">
-                                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                <tr>
+                                <td bgcolor="white" style="border:0; border-left:1px solid #c3c6c8; border-right:1px solid #c3c6c8; border-collapse: separate;">
+                                    <table width="286" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
+                                        <tr>
+                                        <td valign="top" style="padding:0px 10px 5px 10px;">
+                                            <table width="266" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
+                                                <tr>
+                                                <td width="133" align="center" style="padding:10px 5px 0px 0px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-7.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
+                                                <td width="133" align="center" style="padding:10px 0px 0px 5px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-8.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
+                                                </td>
+                                                </tr>
+                                                <tr valign="top">
+                                                <td width="133" align="center" style="padding:0px 5px 0px 0px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        ковш для сыпучих
+                                                        материалов
+                                                    </p>  
+                                                </td>
+                                                <td width="133" align="center" style="padding:0px 0px 0px 5px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        захват для рулонов
+                                                    </p>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                <td width="133" align="center" style="padding:10px 5px 0px 0px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-9.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
+                                                </td>
+                                                <td width="133" align="center" style="padding:10px 0px 0px 5px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-10.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
+                                                </td>
+                                                </tr>
+                                                <tr valign="top">
+                                                <td width="133" align="center" style="padding:0px 5px 0px 0px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        ковш для корнеплодов
+                                                    </p>  
+                                                </td>
+                                                <td width="133" align="center" style="padding:0px 0px 0px 5px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        дорожная щетка
+                                                    </p>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                <td width="133" align="center" style="padding:10px 5px 0px 0px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-11.png" width="90" style="border: 0;" alt="Нажмите отобразить рисунки"> 
+                                                </td>
+                                                <td width="133" align="center" style="padding:10px 0px 0px 5px;">
+                                                    <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-12.png" width="70" style="border: 0;" alt="Нажмите отобразить рисунки"> 
+                                                </td>
+                                                </tr>
+                                                <tr valign="top">
+                                                <td width="133" align="center" style="padding:0px 5px 0px 0px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        отвал для снега
+                                                        «бабочка»
+                                                    </p>  
+                                                </td>
+                                                <td width="133" align="center" style="padding:0px 0px 0px 5px;">
+                                                    <p style="padding: 0px 0px 0px 0px; font-size: 11pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: center; line-height: 11pt;">
+                                                        крюк
+                                                    </p>
+                                                </td>
+                                                </tr>
+                                                <tr valign="bottom">
+                                                <td  colspan="2" style="padding: 2px 0px 0px 0px; text-align: right;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/rabochie-organy-dieci/595-rabochie-organy-k-teleskopicheskim-pogruzchikam-dieci/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI&utm_content=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI&utm_campaign=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A2%D0%95%D0%9B%D0%95%D0%A1%D0%9A%D0%9E%D0%9F%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92%20DIECI" title="РАБОЧИЕ ОРГАНЫ ДЛЯ ТЕЛЕСКОПИЧЕСКИХ ПОГРУЗЧИКОВ DIECI" style="border: 0; text-decoration: none;">
+                                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
+                                                    </a>
+                                                </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                                <td style="padding: 0px 0px 0px 0px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-line-white-on-blue-small.png" width="288" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                             </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table> 
+                            </table>
                         </td>
                     </tr>
+                    
+                    
+                    
+                    
                 </table>
-            </td> 
-        </tr>
+            </td>
+            </tr>
+                                            
+                                
         <tr>
             <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/bot-grey.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
         </tr>
@@ -735,7 +692,7 @@
             <td><img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-grey.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"></td>
         </tr>
         <tr>
-            <td style="padding: 0 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
+            <td style="padding: 0 20px; border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
                 <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="white"  style="border:0; border-collapse: separate;">
                     <tr valign="top">
                         <td>
@@ -744,11 +701,11 @@
                                     <td width="450" style="padding:7px 0px 0px 0px;">
                                         <table width="450" cellspacing="0" cellpadding="0" align="center" bgcolor="#f2f2f1"  style="border:0; border-collapse: separate;">
                                             <tr>
-                                                <td width="116" style="padding:0px 0px 0px 0px;">
+                                                <td width="80" style="padding:0px 0px 0px 0px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/trak_agro_logo.png" width="50" style="border: 0; float: left;" alt="Нажмите отобразить рисунки"> 
                                                 </td>
-                                                <td width="334" style="padding:0px 0px 0px 0px;">
-                                                    <p style="padding: 0; font-size: 13pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                                <td valign="top" width="370" style="padding:7px 0px 0px 0px;">
+                                                    <p style="padding: 0; font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: left; line-height: 14pt;">
                                                         ФРОНТАЛЬНЫЕ ТРАКТОРНЫЕ ПОГРУЗЧИКИ
                                                     </p>
                                                 </td>
@@ -772,14 +729,20 @@
                                     <td width="308" valign="top" style="padding:7px 0px 0px 20px;">
                                         <table width="288" cellspacing="0" cellpadding="0" align="center" style="border:0;  border-collapse: separate;">
                                             <tr>
-                                                <td>
-                                                    <p style="font-size: 13pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: center; line-height: 15pt;">
-                                                        РАБОЧИЕ ОРГАНЫ
-                                                    </p>
-                                                </td>
+                                            <td valign="top">
+                                                <table width="288" cellspacing="0" cellpadding="0" align="center" style="border:0;  border-collapse: separate;">
+                                                    <tr>
+                                                    <td style="padding:7px 0px 5px 0px;">
+                                                        <p style="font-size: 14pt; font-family: Calibri; font-weight: 800; color: #333333; margin: 0; text-align: center; line-height: 14pt;">
+                                                            РАБОЧИЕ ОРГАНЫ
+                                                        </p>
+                                                    </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding: 10px 0px 0px 0px;">
+                                                <td style="padding: 7px 0px 0px 0px;">
                                                     <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/top-line-white-on-blue-small.png" width="288" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                                                 </td>
                                             </tr>
@@ -851,7 +814,7 @@
                                                                     </tr>
                                                                     <tr valign="bottom">
                                                                         <td  colspan="2" style="padding: 15px 0px 0px 0px; text-align: right;">
-                                                                            <a target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/frontalnye-traktornye-pogruzchiki/rabochie-organy/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92&utm_content=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92&utm_campaign=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%A2%D0%A0%D0%90%D0%9A%D0%A2%D0%9E%D0%A0%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92" title="РАБОЧИЕ ОРГАНЫ ДЛЯ ФРОНТАЛЬНЫХ ТРАКТОРНЫХ ПОГРУЗЧИКОВ" style="border: 0; text-decoration: none;">
+                                                                            <a target="_blank" href="http://www.lbr.ru/tehnika/frontalnye-traktornye-pogruzchiki/rabochie-organy/590-rabochie-organy/?utm_source=EVP4&utm_medium=email&utm_term=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92&utm_content=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92&utm_campaign=%D0%A0%D0%90%D0%91%D0%9E%D0%A7%D0%98%D0%95%20%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%A4%D0%A0%D0%9E%D0%9D%D0%A2%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%A5%20%D0%A2%D0%A0%D0%90%D0%9A%D0%A2%D0%9E%D0%A0%D0%9D%D0%AB%D0%A5%20%D0%9F%D0%9E%D0%93%D0%A0%D0%A3%D0%97%D0%A7%D0%98%D0%9A%D0%9E%D0%92" title="РАБОЧИЕ ОРГАНЫ ДЛЯ ФРОНТАЛЬНЫХ ТРАКТОРНЫХ ПОГРУЗЧИКОВ" style="border: 0; text-decoration: none;">
                                                                                 <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/more_re.jpg" width="116" height="25" style="border:0; float: right;">
                                                                             </a>
                                                                         </td>
@@ -905,7 +868,7 @@
                     </tr>
                     <tr>
                         <td style="padding: 10px 0px 0px 0px;">
-                            <p style="padding: 0px 0px 0px 0px; font-size: 12pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                            <p style="padding: 0px 0px 0px 0px; font-size: 12pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: left; line-height: 12pt;">
                                 Предлагаем полный спектр оборудования для складской обработки и хранения картофеля, лука, моркови, свеклы и других овощей
                             </p>
                         </td>
@@ -963,20 +926,20 @@
                                 </tr>
                                 <tr>
                                     <td colspan="3" style="padding: 20px 0px 15px 0px;">
-                                        <p style="font-size: 12pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: left; line-height: 15pt;">
+                                        <p style="font-size: 12pt; font-family: Calibri; font-weight: normal; color: #333333; margin: 0; text-align: left; line-height: 12pt;">
                                             Лучшее предложение на рынке в цене и комплектации по прицепам и бункерам-перегрузчикам
                                         </p>
                                     </td>
                                 </tr>
                                 <tr valign="top">
                                     <td width="252" style="padding: 0px 5px 0px 0px;">
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-23.png" width="246" style="border: 0;float:left" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-23.png" width="244" style="border: 1px solid #c3c6c8;float:left" alt="Нажмите отобразить рисунки">
                                     </td>
                                     <td width="252" style="padding: 0px 5px 0px 5px;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-24.png" width="246" style="border: 0; text-align:center;" alt="Нажмите отобразить рисунки">
                                     </td>
                                     <td width="252" style="padding: 0px 0px 0px 5px;">
-                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-25.png" width="246" style="border: 0; float:right;" alt="Нажмите отобразить рисунки">
+                                        <img src="http://www.lbr.ru/images/kp/time_to_by_kp/october/mail-25.png" width="244" style="border: 1px solid #c3c6c8; float:right;" alt="Нажмите отобразить рисунки">
                                     </td>
                                 </tr>
                                 <tr valign="top">
