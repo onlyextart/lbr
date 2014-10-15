@@ -31,7 +31,7 @@
                     </tr>
                     <tr>
                         <td style="padding: 0 20px;  border-left:1px solid #c3c6c8; border-right: 1px solid #c3c6c8; width: 798px;">
-                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;">Уважаемый <?php echo $data['client']; ?>!</p>
+                            <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: left; line-height: 13pt;"><?php echo $data['client']; ?>!</p>
                             <p style="padding: 0; font-size: 12pt; font-family: Calibri; color: #333333; margin: 0; text-align: justify; line-height: 13pt;">Предлагаем приобрести технику, актуальную для успешного окончания сельскохозяйственного сезона. Все представленные машины и агрегаты В НАЛИЧИИ на складе и по приемлемым ценам. Также покупайте машины, которые будут работать на вас круглый год.</p>
                         </td>
                     </tr>
