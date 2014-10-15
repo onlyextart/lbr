@@ -44,9 +44,9 @@ html{
   background: #d0fccd;
 }
 .menu_color_group_8 {
-  background-color: #d1ffff;
-  border-color: #d1ffff;
-  color: #d1ffff;
+  background-color: #ffffff;/*#F7F7F7;*/
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_8 a:after {
   background: #d1ffff;
@@ -1993,10 +1993,10 @@ footer .f-right .f-nav:after {
   background: transparent;
 }
 .main_menu_wrapper .main_menu_first_level li.active {
-  background: #F7F7F7;
+  background: #d1ffff;
 }
 .main_menu_wrapper .main_menu_first_level li.active a {
-  color: #f67f19;
+  color: #000000;
 }
 .main_menu_wrapper .main_menu_first_level li:hover {
   background: #e1eded;
