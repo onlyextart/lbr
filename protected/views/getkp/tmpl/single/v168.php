@@ -52,16 +52,7 @@ endif;
                     </td></tr> 
                                                  
                 <!-- Контент первого блока; -->
-                <!-- Ссылка-кнопка подробнее -->
-                    <?php
-                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
-                                array(
-                                    'link' => '',
-                                    'colspan' => false,
-                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                                    )
-                                );
-                    ?>
+                
             </table>
             <!-- Внутренности блока; -->
         </td>
@@ -97,16 +88,7 @@ endif;
                         </table>
                     </td></tr>
                                            
-                    <!-- Ссылка-кнопка подробнее -->
-                    <?php
-                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
-                                array(
-                                    'link' => '',
-                                    'colspan' => false,
-                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                                    )
-                                );
-                    ?>
+                   
                     
             </table>
             <!-- Внутренности блока; -->
@@ -144,16 +126,8 @@ endif;
                         </table>
                     </td></tr>
                                            
-                    <!-- Ссылка-кнопка подробнее -->
-                    <?php
-                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
-                                array(
-                                    'link' => '',
-                                    'colspan' => false,
-                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                                    )
-                                );
-                    ?>
+                    
+                   
                     
             </table>
             <!-- Внутренности блока; -->
@@ -276,16 +250,7 @@ endif;
                         </table>
                     </td></tr>
                                            
-                    <!-- Ссылка-кнопка подробнее -->
-                    <?php
-                        Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
-                                array(
-                                    'link' => '',
-                                    'colspan' => false,
-                                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                                    )
-                                );
-                    ?>
+                    
                     
             </table>
             <!-- Внутренности блока; -->
