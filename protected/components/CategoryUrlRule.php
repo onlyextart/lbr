@@ -26,18 +26,18 @@ class CategoryUrlRule extends CBaseUrlRule
     );
     
     public $labelsTech = array(
-        '/sort/tsikl-min-till' => 'Min-Till',
-        '/sort/tsikl-no-till' => 'No-Till',
-        '/sort/tsikl-vertical-till' => 'Vertical-Till',
-        '/sort/tsikl-classic-technology' => 'Classic',
-        '/sort/tsikl-senazh' => 'Сенаж',
-        '/sort/tsikl-seno' => 'Сено',
-        '/sort/tsikl-soloma' => 'Солома',
-        '/sort/tsikl-silos' => 'Силос',
-        '/sort/tsikl-luk' => 'Лук',
-        '/sort/tsikl-kartofel' => 'Картофель',
-        '/sort/tsikl-ozimye' => 'Озимые',
-        '/sort/tsikl-yarovye' => 'Яровые',
+        '/sort/cikl-min-till' => 'Min-Till',
+        '/sort/cikl-no-till' => 'No-Till',
+        '/sort/cikl-vertical-till' => 'Vertical-Till',
+        '/sort/cikl-classic-technology' => 'Classic',
+        '/sort/cikl-senazh' => 'Сенаж',
+        '/sort/cikl-seno' => 'Сено',
+        '/sort/cikl-soloma' => 'Солома',
+        '/sort/cikl-silos' => 'Силос',
+        '/sort/cikl-luk' => 'Лук',
+        '/sort/cikl-kartofel' => 'Картофель',
+        '/sort/cikl-ozimye' => 'Озимые',
+        '/sort/cikl-yarovye' => 'Яровые',
     );
     
     public function createUrl($manager, $route, $params, $ampersand)
@@ -63,7 +63,7 @@ class CategoryUrlRule extends CBaseUrlRule
                 $additionalParam = substr($pathInfo, $pos);
                 $pathInfo = substr($pathInfo, 0, $pos);
             } else {
-                $pos = strpos($pathInfo, '/sort/tsikl-');
+                $pos = strpos($pathInfo, '/sort/cikl-');
                 if($pos !== false) {
                     $additionalParam = substr($pathInfo, $pos);
                     $pathInfo = substr($pathInfo, 0, $pos);

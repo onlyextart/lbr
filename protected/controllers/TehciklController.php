@@ -5,34 +5,34 @@ class TehciklController extends Controller
     {
         $title = 'По технологическому циклу';
         $url = array(
-            'Min-Till'=>'tsikl-min-till',
-            'No-Till'=>'tsikl-no-till',
-            'Vertical-Till'=>'tsikl-vertical-till',
-            'Классическая технология'=>'tsikl-classic-technology',
-            'Заготовка сенажа'=>'tsikl-senazh',
-            'Заготовка сена'=>'tsikl-seno',
-            'Заготовка соломы'=>'tsikl-soloma',
-            'Заготовка силоса'=>'tsikl-silos',
-            'Возделывание картофеля'=>'tsikl-kartofel',
-            'Возделывание лука'=>'tsikl-luk',
-            'Озимые'=>'tsikl-ozimye',
-            'Яровые'=>'tsikl-yarovye',
+            'Min-Till'=>'cikl-min-till',
+            'No-Till'=>'cikl-no-till',
+            'Vertical-Till'=>'cikl-vertical-till',
+            'Классическая технология'=>'cikl-classic-technology',
+            'Заготовка сенажа'=>'cikl-senazh',
+            'Заготовка сена'=>'cikl-seno',
+            'Заготовка соломы'=>'cikl-soloma',
+            'Заготовка силоса'=>'cikl-silos',
+            'Возделывание картофеля'=>'cikl-kartofel',
+            'Возделывание лука'=>'cikl-luk',
+            'Озимые'=>'cikl-ozimye',
+            'Яровые'=>'cikl-yarovye',
         );
 
         if(!empty($sort)){
             $activeId = '';
-            if ($sort == 'tsikl-min-till') $label = 'Min-Till';
-            else if($sort == 'tsikl-no-till') $label = 'No-Till';
-            else if($sort == 'tsikl-vertical-till') $label = 'Vertical-Till';
-            else if($sort == 'tsikl-classic-technology') $label = 'Классическая технология';
-            else if($sort == 'tsikl-senazh') $label = 'Заготовка сенажа';
-            else if($sort == 'tsikl-seno') $label = 'Заготовка сена';
-            else if($sort == 'tsikl-soloma') $label = 'Заготовка соломы';
-            else if($sort == 'tsikl-silos') $label = 'Заготовка силоса';
-            else if($sort == 'tsikl-luk') $label = 'Возделывание лука';
-            else if($sort == 'tsikl-kartofel') $label = 'Возделывание картофеля';
-            else if($sort == 'tsikl-ozimye') $label = 'Озимые';
-            else if($sort == 'tsikl-yarovye') $label = 'Яровые';
+            if ($sort == 'cikl-min-till') $label = 'Min-Till';
+            else if($sort == 'cikl-no-till') $label = 'No-Till';
+            else if($sort == 'cikl-vertical-till') $label = 'Vertical-Till';
+            else if($sort == 'cikl-classic-technology') $label = 'Классическая технология';
+            else if($sort == 'cikl-senazh') $label = 'Заготовка сенажа';
+            else if($sort == 'cikl-seno') $label = 'Заготовка сена';
+            else if($sort == 'cikl-soloma') $label = 'Заготовка соломы';
+            else if($sort == 'cikl-silos') $label = 'Заготовка силоса';
+            else if($sort == 'cikl-luk') $label = 'Возделывание лука';
+            else if($sort == 'cikl-kartofel') $label = 'Возделывание картофеля';
+            else if($sort == 'cikl-ozimye') $label = 'Озимые';
+            else if($sort == 'cikl-yarovye') $label = 'Яровые';
             $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
             Yii::app()->params['meta_title'] = $label;
             $title = $label;
@@ -215,7 +215,7 @@ class TehciklController extends Controller
         } else {
             Yii::app()->params['meta_title'] = $title;
             $response = '<div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-min-till/">Min-Till</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-min-till/">Min-Till</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/min-till-big.png" alt="Изображение цикла">
                     </div>
@@ -224,7 +224,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-no-till/">No-Till</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-no-till/">No-Till</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -233,7 +233,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-vertical-till/">Vertical</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-vertical-till/">Vertical</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -242,7 +242,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-classic-technology/">Classic</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-classic-technology/">Classic</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -251,7 +251,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-senazh/">Заготовка сенажа</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-senazh/">Заготовка сенажа</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -260,7 +260,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-seno/">Заготовка сена</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-seno/">Заготовка сена</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -269,7 +269,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-soloma/">Заготовка соломы</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-soloma/">Заготовка соломы</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -278,7 +278,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-silos/">Заготовка силоса</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-silos/">Заготовка силоса</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -287,7 +287,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-luk/">Возделывание лука</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-luk/">Возделывание лука</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -296,7 +296,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-kartofel/">Возделывание картофеля</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-kartofel/">Возделывание картофеля</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -305,7 +305,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-ozimye/">Озимые</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-ozimye/">Озимые</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -314,7 +314,7 @@ class TehciklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-yarovye/">Яровые</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-yarovye/">Яровые</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
