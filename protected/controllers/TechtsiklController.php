@@ -224,7 +224,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-soloma/">Солома</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-soloma/">Заготовка соломы</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
