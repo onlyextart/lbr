@@ -1,12 +1,12 @@
 <?php
 if($data['show_header']=='1'  || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
  ?>
+ <div class="table w-800">
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -43,7 +43,7 @@ endif;
                                 </td>
                             </tr>  
                             <tr valign="top">
-                                <td  colspan="2" width="760" style="padding: 30px 0 0; text-align: center;">
+                                <td  colspan="2" width="760" style="padding: 20px 0 0; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-3.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
@@ -57,14 +57,17 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    
 </table>
 <!-- Блок Первый; -->
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -88,19 +91,21 @@ endif;
                         </table>
                     </td></tr>
                                            
-                   
+                    
                     
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+
 </table>
 <!-- Блок Второй; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Третий: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -113,12 +118,12 @@ endif;
                                 </td>
                             </tr> 
                             <tr valign="top">
-                                <td width="760" style="padding: 20px 0 0; text-align: center;">
+                                <td width="760" style="padding: 5px 0 0; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-8.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr> 
                             <tr valign="top">
-                                <td width="760" style="padding: 20px 0 0; text-align: center;">
+                                <td width="760" style="padding: 5px 0 0; text-align: center;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-9.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr> 
@@ -127,20 +132,20 @@ endif;
                     </td></tr>
                                            
                     
-                   
                     
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Третий; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Четвертый: -->
 
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -149,7 +154,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             
                             <tr valign="top">
-                                <td width="760" colspan="2" style="padding: 20px 0px 0px 0px; text-align:left;">
+                                <td width="760" colspan="2" style="padding: 10px 0px 0px 0px; text-align:left;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-10.jpg" width="300" style="border: 0; float:left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>  
@@ -174,18 +179,18 @@ endif;
                         </table>
                     </td></tr>
             
-                    <tr><td style="padding: 30px 20px 0px 20px;">
+                    <tr><td style="padding: 20px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
-                            <td width="420" style="padding: 20px 0px 0px 0px; text-align: left;">
+                            <td width="450" style="padding: 0px 0px 0px 0px; text-align: left;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-12.jpg" width="300" style="border: 0; float:left;" alt="Изображения не отображаются">
                                 </td>
-                                <td width="340" rowspan="2" style="padding: 20px 0px 0px 20px; text-align:left;">
-                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-13.jpg" width="320" style="border: 0;" alt="Изображения не отображаются">
+                                <td width="310" rowspan="2" style="padding: 0px 0px 0px 20px; text-align:right;">
+                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-13.jpg" width="290" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>  
                             <tr valign="top">
-                                <td width="420" style="padding: 20px 0 0 20px; text-align: left;">
+                                <td width="450" style="padding: 0px 0 0 20px; text-align: left;">
                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">                                                   
                                        Всегда в наличии на филиальных складах комплекты
                                        запасных частей для ремонта и проведения ТО.
@@ -201,18 +206,18 @@ endif;
                         </table>
                     </td></tr>
             
-                    <tr><td style="padding: 30px 20px 0px 20px;">
+                    <tr><td style="padding: 20px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
-                            <td width="420" style="padding: 20px 0px 0px 0px; text-align: left;">
+                            <td width="450" style="padding: 0px 0px 0px 0px; text-align: left;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-14.jpg" width="300" style="border: 0; float:left;" alt="Изображения не отображаются">
                                 </td>
-                                <td width="340" rowspan="2" style="padding: 20px 0px 0px 20px; text-align:left;">
-                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-15.jpg" width="320" style="border: 0;" alt="Изображения не отображаются">
+                                <td width="310" rowspan="2" style="padding: 0px 0px 0px 20px; text-align:right;">
+                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-15.jpg" width="290" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>  
                             <tr valign="top">
-                                <td width="420" style="padding: 20px 0 0 20px; text-align: left;">
+                                <td width="450" style="padding: 0px 0 0 20px; text-align: left;">
                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">                                                   
                                        Инженеры сервисного центра постоянно повышают
                                        уровень своей квалификации на заводе-производителе. 
@@ -226,18 +231,18 @@ endif;
                         </table>
                     </td></tr>
             
-                    <tr><td style="padding: 30px 20px 0px 20px;">
+                    <tr><td style="padding: 20px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
-                            <td width="420" style="padding: 20px 0px 0px 0px; text-align: left;">
+                            <td width="420" style="padding: 0px 0px 0px 0px; text-align: left;">
                                     <img src="http://www.lbr.ru/images/kp/168-tur/mail-16.jpg" width="300" style="border: 0; float:left;" alt="Изображения не отображаются">
                                 </td>
-                                <td width="340" rowspan="2" style="padding: 20px 0px 0px 20px; text-align:left;">
-                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-17.jpg" width="320" style="border: 0;" alt="Изображения не отображаются">
+                                <td width="340" rowspan="2" style="padding: 0px 0px 0px 20px; text-align:right;">
+                                    <img src="http://www.lbr.ru/images/kp/168-tur/mail-17.jpg" width="290" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>  
                             <tr valign="top">
-                                <td width="420" style="padding: 20px 0 0 20px; text-align: left;">
+                                <td width="420" style="padding: 0px 0 0 20px; text-align: left;">
                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; color: black; ">                                                   
                                         Компания ЛБР уже более 10 лет представляет фронтальные погрузчики Hydramet на рынке России. 
                                         За это время уже более 3500 довольных клиентов! Объем продаж
@@ -249,19 +254,24 @@ endif;
                                                        
                         </table>
                     </td></tr>
-                                           
+            <tr valign="top">
+                    <td colspan="2" style="padding: 0px 20px 0;">
+                        <?php
+                        if($data['show_footer']=='1' || !isset($data['show_footer'])):
+                            Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+                        endif;
+                        ?>
+                    </td>
+                </tr>
                     
                     
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Четвертый; -->
 
-
-<?php
-if($data['show_footer']=='1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>
