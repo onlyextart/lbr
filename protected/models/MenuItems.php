@@ -35,7 +35,7 @@ class MenuItems extends CActiveRecord
         const NEWS_MENU_ITEM_TYPE = 4;
         const LINK_MENU_ITEM_TYPE = 5;
         const MIGHTINESS_MENU_ITEM_TYPE = 6;
-        const TECHSCHEMA_MENU_ITEM_TYPE = 7;
+        const TECHTSIKL_MENU_ITEM_TYPE = 7;
         
 	/**
 	 * Returns the static model of the specified AR class.
@@ -469,7 +469,7 @@ class MenuItems extends CActiveRecord
             $types[MenuItems::NEWS_MENU_ITEM_TYPE] = 'Страница новости';
             $types[MenuItems::LINK_MENU_ITEM_TYPE] = 'Внешняя ссылка';
             $types[MenuItems::MIGHTINESS_MENU_ITEM_TYPE] = 'Мощность трактора';
-            $types[MenuItems::TECHSCHEMA_MENU_ITEM_TYPE] = 'Технологический цикл';
+            $types[MenuItems::TECHTSIKL_MENU_ITEM_TYPE] = 'Технологический цикл';
             return $types;
         }
         

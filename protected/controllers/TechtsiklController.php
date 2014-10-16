@@ -1,5 +1,5 @@
 <?php
-class TechschemaController extends Controller
+class TechtsiklController extends Controller
 {
     public function actionIndex($sort = null)
     {
@@ -214,7 +214,28 @@ class TechschemaController extends Controller
             $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title));
         } else {
             Yii::app()->params['meta_title'] = $title;
-            $this->render('index', array('url'=>$url, 'title'=>$title));
+            $response = '<div class="one_banner">
+                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-min-till/">Min-Till</a></h3>
+                    <div class="m_image">
+                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/min-till-big.png" alt="Изображение цикла">
+                    </div>
+                    <div class="m_title">
+                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
+                    </div>
+                </div>
+                <div class="one_banner">
+                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-soloma/">Солома</a></h3>
+                    <div class="m_image">
+                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
+                    </div>
+                    <div class="m_title">
+                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
+                    </div>
+                </div>
+                '
+            ;
+            
+            $this->render('index', array('data'=>$response, 'url'=>$url, 'title'=>$title));
         }
     }
     
