@@ -1,5 +1,5 @@
 <?php
-class TechtsiklController extends Controller
+class TehciklController extends Controller
 {
     public function actionIndex($sort = null)
     {
@@ -215,7 +215,7 @@ class TechtsiklController extends Controller
         } else {
             Yii::app()->params['meta_title'] = $title;
             $response = '<div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-min-till/">Min-Till</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-min-till/">Min-Till</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/min-till-big.png" alt="Изображение цикла">
                     </div>
@@ -224,7 +224,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-no-till/">No-Till</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-no-till/">No-Till</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -233,7 +233,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-vertical-till/">Vertical</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-vertical-till/">Vertical</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -242,7 +242,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-classic-technology/">Classic</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-classic-technology/">Classic</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -251,7 +251,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-senazh/">Заготовка сенажа</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-senazh/">Заготовка сенажа</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -260,7 +260,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-seno/">Заготовка сена</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-seno/">Заготовка сена</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -269,7 +269,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-soloma/">Заготовка соломы</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-soloma/">Заготовка соломы</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -278,7 +278,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-silos/">Заготовка силоса</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-silos/">Заготовка силоса</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -287,7 +287,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-luk/">Возделывание лука</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-luk/">Возделывание лука</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -296,7 +296,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-kartofel/">Возделывание картофеля</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-kartofel/">Возделывание картофеля</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -305,7 +305,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-ozimye/">Озимые</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-ozimye/">Озимые</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
@@ -314,7 +314,7 @@ class TechtsiklController extends Controller
                     </div>
                 </div>
                 <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/techtsikl/sort/tsikl-yarovye/">Яровые</a></h3>
+                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/tsikl-yarovye/">Яровые</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>

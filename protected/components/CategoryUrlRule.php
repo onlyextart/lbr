@@ -13,7 +13,7 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::STATIC_MENU_ITEM_TYPE=>'pages',
         MenuItems::NEWS_MENU_ITEM_TYPE=>'news',
         MenuItems::MIGHTINESS_MENU_ITEM_TYPE=>'mightiness',
-        MenuItems::TECHTSIKL_MENU_ITEM_TYPE=>'techtsikl',
+        MenuItems::TEHCIKL_MENU_ITEM_TYPE=>'tehcikl',
     );
     
     public $labels = array(
@@ -119,7 +119,7 @@ class CategoryUrlRule extends CBaseUrlRule
         if(!empty($additionalParam)){
             $path = substr($pathInfo, strpos($pathInfo, '/')+1);
             $label = $this->labels[$additionalParam];
-            if($path == 'techtsikl') $label = $this->labelsTech[$additionalParam];
+            if($path == 'tehcikl') $label = $this->labelsTech[$additionalParam];
             $last = array_pop($breadcrumbs);
             if(substr($pathInfo, -1) != '/') $pathInfo = $pathInfo.'/';
             if(substr($pathInfo, 1) != '/') $pathInfo = '/'.$pathInfo;
