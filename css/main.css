@@ -1038,18 +1038,21 @@ header:after {
   list-style: none;
 }
 .wrapper #content .contacts_list .district_name {
-  border-bottom: 1px solid #f67f19;
+  /*border-bottom: 1px solid #f67f19;*/
   margin-bottom: 15px;
   float: left;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   width: auto;
+  font-weight: bold;
+  cursor: default;
 }
-.wrapper #content .contacts_list .district_name span {
+/*.wrapper #content .contacts_list .district_name span {
   font-size: 15px;
   font-weight: bold;
-}
+}*/
+
 .wrapper #content .contacts_list >li {
   width: 100%;
   float: left;
@@ -1057,23 +1060,25 @@ header:after {
 .wrapper #content .contacts_list ul {
   list-style: none;
   float: left;
-  font-size: 10px;
+  font-size: 14px;
   width: 100%;
 }
 .wrapper #content .contacts_list ul li.filial_caption {
-  width: 24%;
+  width: 30%;
   float: left;
   margin-right: 1%;
-  height: 130px;
+  height: 170px;
 }
 .wrapper #content .contacts_list ul li.filial_caption a {
   margin-bottom: 15px;
-  color: #737373;
+  /*color: #737373;*/
+  color: #000000;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   display: block;
   width: 100%;
+  text-decoration: none;
 }
 .wrapper #content .contacts_list ul li.filial_caption img {
   max-height: 115px;
