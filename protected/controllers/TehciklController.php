@@ -214,80 +214,20 @@ class TehciklController extends Controller
             $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title));
         } else {
             Yii::app()->params['meta_title'] = $title;
-            $response = '<div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-min-till/">Посев по технологии Min-Till</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/min-till-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-no-till/">Посев по технологии No-Till</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-vertical-till/">Вертикальная почвообработка</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-classic-technology/">Посев по технологии Classic</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-senazh/">Заготовка сенажа</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-seno/">Заготовка сена</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-soloma/">Заготовка соломы</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-silos/">Заготовка силоса</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-luk/">Технология возделывания лука</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-kartofel/">Технология возделывания картофеля</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-ozimye/">Технология посева озимых</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                <div class="one_banner">
-                    <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-yarovye/">Технология посева яровых</a></h3>
-                    <div class="m_image">
-                        <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                </div>
-                '
-            ;
+            $response = '';
+            $roots = TechSchema::model()->roots()->findAll();
+            foreach ($roots as $root):
+                $cycle = TechSchema::model()->findByPk($root->id);
+                $descendants=$cycle->descendants()->findAll();
+                foreach ($descendants as $descendant):
+                    $response .= '<div class="one_banner">
+                        <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
+                        <div class="m_image">';
+                    $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
+                    $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
+                    $response .= '</div></div>';
+                endforeach;
+            endforeach;
             
             $this->render('index', array('data'=>$response, 'url'=>$url, 'title'=>$title));
         }
