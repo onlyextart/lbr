@@ -14,11 +14,11 @@
 </div>
 <ul class="contacts_list clearfix">
 <a name="list_filials"></a>
-
-<?php 
+<?php
 $districts = Regions::getDistricts();
+$regionsArray = $districtNameArray = array();
 asort($districts);
-foreach( $districts as $districtId=>$districtName ){
+foreach($districts as $districtId=>$districtName) {
     $regions = Regions::model()->findAll(array(
             'order'=>'name ASC',
             'condition'=>'published=:published AND district_id=:district_id',
@@ -29,39 +29,63 @@ foreach( $districts as $districtId=>$districtName ){
             'group'=>'contact_id',
         )
     );
+    $count = 0;
+    foreach($regions as $region) {
+       if($districtId==$region->contact->okrug_id) {
+           $count++;
+       }
+    }
+    $regionsArray[$districtId] = $count;
+    $districtNameArray[$districtId] = $districtName;
+}
+
+arsort($regionsArray);
+
+foreach($regionsArray as $districtId => $itemCount) {
+    $regions = Regions::model()->findAll(array(
+            'order'=>'name ASC',
+            'condition'=>'published=:published AND district_id=:district_id',
+            'params'=>array(                
+                ':published'=>'1',
+                ':district_id'=>$districtId
+            ),
+            'group'=>'contact_id',
+        )
+    );
+    
+    $districtName = $districtNameArray[$districtId];
     $districtNameFirstWord = strstr($districtName, ' ', true);
-    echo CHtml::openTag('li', array('class'=>'district_name'));
-        echo'<span>'.$districtNameFirstWord.'</span>'.str_replace($districtNameFirstWord, '', $districtName);
-    echo CHtml::closeTag('li');
-    echo '<li><ul>';
+
+    if($itemCount == 1) echo '<div class="region-group region-one"><div class="region-group-name">'.$districtNameFirstWord.str_replace($districtNameFirstWord, '', $districtName).'</div>';
+    else echo '<div class="region-group"><div class="region-group-name">'.$districtNameFirstWord.str_replace($districtNameFirstWord, '', $districtName).'</div>';
+
     $emptySpace = (4-(count($regions)%4))%4;
     $filialFotos = array();
     $criteria = new CDbCriteria();
     $criteria->order = 'name ASC';
-    foreach($regions as $region){
-        if($districtId==$region->contact->okrug_id){            
-        echo CHtml::openTag('li', array('class'=>'filial_caption'));
-            echo CHtml::link($region->contact->name, '/company/contacts/'.$region->contact->alias.'/');
-            echo '<div itemscope itemtype="http://schema.org/LocalBusiness">
-                    <meta itemprop="url" content="www.lbr.ru" />
-                    <meta itemprop="name" content="ЛБР-АгроМаркет" />
-                    <time itemprop="openingHours" datetime="Mo-Su 08:00-17:00" /></time>
-                    <span itemprop="description">
-                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-	            <meta itemprop="addressCountry" content="Россия" />';
-            echo $region->contact->address.'<br>';
+    
+    foreach($regions as $region) {
+        if($districtId==$region->contact->okrug_id) {  
+            echo '<div class="contact-item">';
+            echo '<div class="city-name">'.$region->contact->name.'</div>';
+            echo '<div itemscope="address" itemtype="http://schema.org/LocalBusiness">'.
+                    '<meta itemprop="url" content="www.lbr.ru" />'.
+                    '<meta itemprop="name" content="ЛБР-АгроМаркет" />'.
+                    '<time itemprop="openingHours" datetime="Mo-Su 08:00-17:00" /></time>'.
+                    '<div itemprop="description">'.
+                        '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">'.
+                           '<meta itemprop="addressCountry" content="Россия" />'.
+                           '<div>'.$region->contact->address.'</div>'.
+                        '</div>'.
+                    '</div>'.
+                 '</div>'
+            ;
+            echo '<div>Телефоны:'.$region->contact->telephone.'</div>';
+            echo '<div itemprop="email">'.$region->contact->email.'</div>';
             echo '</div>';
-            echo 'Телефоны:'.$region->contact->telephone.'<br>';
-            echo '<span itemprop="email">'.$region->contact->email.'</span>'.'<br>';
-            echo '</span>';
-            echo '</div>';
-            if($emptySpace>0){
-                $filialFotos[] = $region->contact->images;
-            }
-            $emptySpace--;
-        echo CHtml::closeTag('li');
-    }}
-    echo '</ul></li>';
+        }
+    }
+    echo '</div>';
 }
 ?>
 </ul>

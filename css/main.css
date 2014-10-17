@@ -1035,6 +1035,9 @@ header:after {
   top: 120px;
 }
 .wrapper #content .contacts_list {
+    
+}
+.wrapper #content .contacts_list {
   list-style: none;
 }
 .wrapper #content .contacts_list .district_name {
@@ -1057,6 +1060,7 @@ header:after {
   width: 100%;
   float: left;
 }
+
 .wrapper #content .contacts_list ul {
   list-style: none;
   float: left;
@@ -1067,7 +1071,8 @@ header:after {
   width: 30%;
   float: left;
   margin-right: 1%;
-  height: 170px;
+  height: 160px;
+  line-height: 17px;
 }
 .wrapper #content .contacts_list ul li.filial_caption a {
   margin-bottom: 15px;
@@ -1080,8 +1085,55 @@ header:after {
   width: 100%;
   text-decoration: none;
 }
+.wrapper #content .contacts_list ul li.filial_caption span[itemprop]{
+  cursor: default !important;
+}
 .wrapper #content .contacts_list ul li.filial_caption img {
   max-height: 115px;
+}
+
+.wrapper #content .contacts_list .region-group .contact-item{
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    float: left;
+    height: 170px;
+}
+.wrapper #content .contacts_list .region-group .contact-item{
+    width: 30%;
+    background-color: #ebedec;
+    padding: 10px 0 0 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
+}
+.wrapper #content .contacts_list .region-group.region-one .contact-item{
+    width: 93%;
+}
+.wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
+    font-weight: bold;
+    
+}
+.wrapper #content .contacts_list .region-group{
+    display: block; 
+    clear: both; 
+    overflow: hidden;
+}
+.wrapper #content .contacts_list .region-group.region-one{
+    display: inline-block;
+    width: 30%;
+    margin-left: 7px;
+}
+.wrapper #content .contacts_list .region-group.region-one .region-group-name {
+    margin-left: -3px;
+}
+.wrapper #content .contacts_list .region-group .region-group-name {
+    margin-bottom: 20px;
+}
+.wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
+    width: 30%;
+}
+
+.wrapper #content .contacts_list .city-name{
+    margin-bottom: 10px;
 }
 .wrapper .search .search-form {
   padding: 1em 2em;
