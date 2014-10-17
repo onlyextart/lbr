@@ -219,17 +219,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/min-till-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-no-till/">Посев по технологии No-Till</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -237,17 +231,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-classic-technology/">Посев по технологии Classic</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -255,17 +243,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-seno/">Заготовка сена</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -273,17 +255,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-silos/">Заготовка силоса</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -291,17 +267,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-kartofel/">Технология возделывания картофеля</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 <div class="one_banner">
@@ -309,17 +279,11 @@ class TehciklController extends Controller
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
                     </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
-                    </div>
                 </div>
                 <div class="one_banner">
                     <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/cikl-yarovye/">Технология посева яровых</a></h3>
                     <div class="m_image">
                         <img src="'.Yii::app()->getBaseUrl(true).'/images/schema/menu/soloma-big.png" alt="Изображение цикла">
-                    </div>
-                    <div class="m_title">
-                    Зерновые сеялки с захватом до 6 м; 3-х корпусные навесные плуги; культиваторы и бороны; техника для возделывания овощей; навесные и прицепные разбрасыватели удобрений; прицепы; косилки и другие хиты продаж под тракторы 80 л.с.
                     </div>
                 </div>
                 '
