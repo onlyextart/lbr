@@ -344,6 +344,7 @@ class TehciklController extends Controller
     
     public function actionAddValues()
     {
+        /*
         $model = TechSchema::model()->findByPk(67);
         $model->title = 'Технология возделывания лука';
         $model->saveNode();
@@ -368,7 +369,7 @@ class TehciklController extends Controller
         $model = TechSchema::model()->findByPk(74);
         $model->title = 'Технология посева яровых';
         $model->saveNode();
-        
+        */
         
         /*
         TechSchema::model()->deleteAll();
