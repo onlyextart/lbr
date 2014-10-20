@@ -573,7 +573,7 @@
                         <div class="body-content">
                             <div class="head-content">
                                 <div class="h-2"><span>Прицепная 24-х рядная пропашная сеялка точного высева YP-2425а с пневматическим высевающим аппаратом и ЖКУ</span></div>
-                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 10px; right: 0;"/></div>
+                                <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/great-logo.jpg" border="0" style="position: absolute; top: 26px; right: 0;"/></div>
                             </div>
                             <div class="body-content">
                                 <div class="left-50 image">
