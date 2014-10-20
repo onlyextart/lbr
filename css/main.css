@@ -44,9 +44,9 @@ html{
   background: #d0fccd;
 }
 .menu_color_group_8 {
-  background-color: #d1ffff;
-  border-color: #d1ffff;
-  color: #d1ffff;
+  background-color: #ffffff;/*#F7F7F7;*/
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .main_menu_wrapper .main_menu_second_level li.menu_color_group_8 a:after {
   background: #d1ffff;
@@ -968,16 +968,29 @@ header:after {
   font-weight: bold;
   font-size: 1.1em;
 }
-.wrapper #content .product_wrapper .product_content > div#features_content table tr:nth-child(even) {
+
+.wrapper #content .product_wrapper .product_content > div#features_content table:not(.rab-organi) tr:nth-child(even) {
   background: white;
 }
-.wrapper #content .product_wrapper .product_content > div#features_content table tr:nth-child(odd) {
+.wrapper #content .product_wrapper .product_content > div#features_content table:not(.rab-organi) tr:nth-child(odd) {
   background: #F8F7F2;
 }
+/* начало - стиль таблицы "рабочие органы" */
+
+.wrapper #content .product_wrapper .product_content > div#features_content table.rab-organi{
+  background: #F8F7F2;
+}
+
+.wrapper #content .product_wrapper .product_content > div#features_content table.rab-organi tr td[colspan], .wrapper #content .product_wrapper .product_content > div#features_content table tr td:only-child {
+  background: white;
+}
+
+/* конец - стиль таблицы "рабочие органы" */
 .wrapper #content .product_wrapper .product_content > div#features_content table td {
   padding: 4px 7px;
   border-color: #c8c8c8;
 }
+
 .wrapper #content .product_wrapper .product_content > div#features_content table td p {
   margin: 0;
   padding: 0;
@@ -1311,7 +1324,7 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.xbanners_container .xbanners .one_banner, .mresults, #mightiness-results .one_banner{
+.xbanners_container .xbanners .one_banner, .mresults, #mightiness-results .one_banner, #tech-schema-results .one_banner{
   margin: 0 0 26px;
   padding: 0;
   -moz-box-shadow: 0 0px 4px 1px rgba(50,50,50,0.5);
@@ -1329,14 +1342,14 @@ header:after {
   margin: 0;
   padding: 0;
 }
-.xbanners_container .xbanners .one_banner .b_header h3 a, #mightiness-results .one_banner h3 a {
+.xbanners_container .xbanners .one_banner .b_header h3 a, #mightiness-results .one_banner h3 a, #tech-schema-results .one_banner h3 a {
   font-family: 'Open Sans', sans-serif;
   color: #0f9797;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.xbanners_container .xbanners .one_banner .b_header h3 a:hover, #mightiness-results .one_banner h3 a:hover{
+.xbanners_container .xbanners .one_banner .b_header h3 a:hover, #mightiness-results .one_banner h3 a:hover, #tech-schema-results .one_banner h3 a:hover{
   text-decoration: underline;
 }
 .xbanners_container .xbanners .one_banner .b_images {
@@ -1531,10 +1544,17 @@ header:after {
   height: 440px;
   float: left;
 }
-#mightiness-results .one_banner {
+#mightiness-results .one_banner, #tech-schema-results .one_banner {
   width: 480px;
   height: 450px;
   float: left;
+}
+#tech-schema-results .one_banner {
+  height: 358px;
+}
+#tech-schema-results .one_banner img{
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .xbanners_container .xbanners .first_banner .b_header {
   height: 55px;
@@ -1549,7 +1569,7 @@ header:after {
 .xbanners_container .xbanners .first_banner .b_header h3{
   margin-left: 2em;
 }
-.xbanners_container .xbanners .first_banner .b_header h3 a, #mightiness-results .one_banner h3{
+.xbanners_container .xbanners .first_banner .b_header h3 a, #mightiness-results .one_banner h3, #tech-schema-results .one_banner h3{
   font-size: 18px;
   padding-top: 3px;
   height: 45px;
@@ -1621,7 +1641,7 @@ header:after {
 .xbanners_container .xbanners .first_banner .b_caption .btn:hover {
   text-decoration: underline;
 }
-.xbanners_container .xbanners .first_banner:nth-child(2n+1), #mightiness-results .one_banner:nth-child(2n+1){
+.xbanners_container .xbanners .first_banner:nth-child(2n+1), #mightiness-results .one_banner:nth-child(2n+1), #tech-schema-results .one_banner:nth-child(2n+1){
   margin-right: 20px;
   margin-left: 10px;
 }
@@ -1844,9 +1864,10 @@ header:after {
   display: block;
   text-align: center;
 }
+/*
 .xbanners_container .xbanners .second_banner_dieci .b_header h3 a:hover {
   text-decoration: none;
-}
+}*/
 .xbanners_container .xbanners:after {
   content: '';
   display: block;
@@ -1979,10 +2000,10 @@ footer .f-right .f-nav:after {
   background: transparent;
 }
 .main_menu_wrapper .main_menu_first_level li.active {
-  background: #F7F7F7;
+  background: #d1ffff;
 }
 .main_menu_wrapper .main_menu_first_level li.active a {
-  color: #f67f19;
+  color: #000000;
 }
 .main_menu_wrapper .main_menu_first_level li:hover {
   background: #e1eded;
@@ -2608,7 +2629,7 @@ ul.mightiness-menu li {
     font: 12px/15px 'Trebuchet MS',Arial,sans-serif;
 }
 
-#mightiness-results{
+#mightiness-results, #tech-schema-results{
     margin-top: 20px;
 }
 .mightiness-menu-label {
@@ -2634,7 +2655,7 @@ ul.mightiness-menu li {
     padding-left: 65px;
 }
 
-#mightiness-results .one_banner img {
+#mightiness-results .one_banner img, #tech-schema-results .one_banner img {
     width: 100%;
     height: 310px;
     display: block;
@@ -2687,7 +2708,7 @@ ul.mightiness-menu li {
     color: #00917C;
     font-weight: bold;
 }
-#mightiness-results .one_banner .m_title {
+#mightiness-results .one_banner .m_title, #tech-schema-results .one_banner .m_title {
     margin: 0;
     padding: 1em 1em 1em;
 }
@@ -2953,7 +2974,7 @@ table.table-tech-stage-with-img .product-list-arrow, .main-label:after {
 table.table-tech-stage-with-img td:not(.label) .product-list-wrapper{
     vertical-align: middle;
 }
-#mightiness-results .one_banner h3 a {
+#mightiness-results .one_banner h3 a, #tech-schema-results .one_banner h3 a {
     margin-left: 15px;
 }
 table.table-tech-stage-with-img td.table-main-img{

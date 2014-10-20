@@ -1,38 +1,38 @@
 <?php
-class TechschemaController extends Controller
+class TehciklController extends Controller
 {
     public function actionIndex($sort = null)
     {
         $title = 'По технологическому циклу';
         $url = array(
-            'Min-Till'=>'tsikl-min-till',
-            'No-Till'=>'tsikl-no-till',
-            'Vertical-Till'=>'tsikl-vertical-till',
-            'Классическая технология'=>'tsikl-classic-technology',
-            'Заготовка сенажа'=>'tsikl-senazh',
-            'Заготовка сена'=>'tsikl-seno',
-            'Заготовка соломы'=>'tsikl-soloma',
-            'Заготовка силоса'=>'tsikl-silos',
-            'Возделывание картофеля'=>'tsikl-kartofel',
-            'Возделывание лука'=>'tsikl-luk',
-            'Озимые'=>'tsikl-ozimye',
-            'Яровые'=>'tsikl-yarovye',
+            'Посев по технологии Min-till'=>'cikl-min-till',
+            'Посев по технологии No-till'=>'cikl-no-till',
+            'Вертикальная почвообработка'=>'cikl-vertical-till',
+            'Посев по технологии Classic'=>'cikl-classic-technology',
+            'Заготовка сенажа'=>'cikl-senazh',
+            'Заготовка сена'=>'cikl-seno',
+            'Заготовка соломы'=>'cikl-soloma',
+            'Заготовка силоса'=>'cikl-silos',
+            'Технология возделывания картофеля'=>'cikl-kartofel',
+            'Технология возделывания лука'=>'cikl-luk',
+            'Технология посева озимых'=>'cikl-ozimye',
+            'Технология посева яровых'=>'cikl-yarovye',
         );
 
         if(!empty($sort)){
             $activeId = '';
-            if ($sort == 'tsikl-min-till') $label = 'Min-Till';
-            else if($sort == 'tsikl-no-till') $label = 'No-Till';
-            else if($sort == 'tsikl-vertical-till') $label = 'Vertical-Till';
-            else if($sort == 'tsikl-classic-technology') $label = 'Классическая технология';
-            else if($sort == 'tsikl-senazh') $label = 'Заготовка сенажа';
-            else if($sort == 'tsikl-seno') $label = 'Заготовка сена';
-            else if($sort == 'tsikl-soloma') $label = 'Заготовка соломы';
-            else if($sort == 'tsikl-silos') $label = 'Заготовка силоса';
-            else if($sort == 'tsikl-luk') $label = 'Возделывание лука';
-            else if($sort == 'tsikl-kartofel') $label = 'Возделывание картофеля';
-            else if($sort == 'tsikl-ozimye') $label = 'Озимые';
-            else if($sort == 'tsikl-yarovye') $label = 'Яровые';
+            if ($sort == 'cikl-min-till') $label = 'Посев по технологии Min-till';
+            else if($sort == 'cikl-no-till') $label = 'Посев по технологии No-till';
+            else if($sort == 'cikl-vertical-till') $label = 'Вертикальная почвообработка';
+            else if($sort == 'cikl-classic-technology') $label = 'Посев по технологии Classic';
+            else if($sort == 'cikl-senazh') $label = 'Заготовка сенажа';
+            else if($sort == 'cikl-seno') $label = 'Заготовка сена';
+            else if($sort == 'cikl-soloma') $label = 'Заготовка соломы';
+            else if($sort == 'cikl-silos') $label = 'Заготовка силоса';
+            else if($sort == 'cikl-luk') $label = 'Технология возделывания лука';
+            else if($sort == 'cikl-kartofel') $label = 'Технология возделывания картофеля';
+            else if($sort == 'cikl-ozimye') $label = 'Технология посева озимых';
+            else if($sort == 'cikl-yarovye') $label = 'Технология посева яровых';
             $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
             Yii::app()->params['meta_title'] = $label;
             $title = $label;
@@ -214,7 +214,22 @@ class TechschemaController extends Controller
             $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title));
         } else {
             Yii::app()->params['meta_title'] = $title;
-            $this->render('index', array('url'=>$url, 'title'=>$title));
+            $response = '';
+            $roots = TechSchema::model()->roots()->findAll();
+            foreach ($roots as $root):
+                $cycle = TechSchema::model()->findByPk($root->id);
+                $descendants=$cycle->descendants()->findAll();
+                foreach ($descendants as $descendant):
+                    $response .= '<div class="one_banner">
+                        <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
+                        <div class="m_image">';
+                    $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
+                    $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
+                    $response .= '</div></div>';
+                endforeach;
+            endforeach;
+            
+            $this->render('index', array('data'=>$response, 'url'=>$url, 'title'=>$title));
         }
     }
     
@@ -233,6 +248,33 @@ class TechschemaController extends Controller
     
     public function actionAddValues()
     {
+        /*
+        $model = TechSchema::model()->findByPk(67);
+        $model->title = 'Технология возделывания лука';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(68);
+        $model->title = 'Технология возделывания картофеля';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(69);
+        $model->title = 'Посев по технологии Min-till';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(70);
+        $model->title = 'Посев по технологии No-till';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(71);
+        $model->title = 'Вертикальная почвообработка';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(72);
+        $model->title = 'Посев по технологии Classic';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(73);
+        $model->title = 'Технология посева озимых';
+        $model->saveNode();
+        $model = TechSchema::model()->findByPk(74);
+        $model->title = 'Технология посева яровых';
+        $model->saveNode();
+        */
+        
         /*
         TechSchema::model()->deleteAll();
         TechStage::model()->deleteAll();
@@ -282,12 +324,12 @@ class TechschemaController extends Controller
         $subCategory3->insertAfter($subCategory4);
  
         $subCategory5 = new TechSchema;
-        $subCategory5->title='Возделывание картофеля';
+        $subCategory5->title='Технология возделывания картофеля';
         $subCategory5->img='/images/schema/potato/potato.jpg';
         $subCategory5->menu_img='/images/schema/menu/potato.png';
         $subCategory5->additional='/images/schema/additional/potato.png';
         $subCategory6 = new TechSchema;
-        $subCategory6->title='Возделывание лука';
+        $subCategory6->title='Технология возделывания лука';
         $subCategory6->img='/images/schema/luk/luk.jpg';
         $subCategory6->menu_img='/images/schema/menu/luk.png';
         $subCategory6->additional='/images/schema/additional/luk.png';
@@ -296,22 +338,22 @@ class TechschemaController extends Controller
         $subCategory5->insertAfter($subCategory6);
         
         $subCategory7 = new TechSchema;
-        $subCategory7->title='Классическая технология';
+        $subCategory7->title='Посев по технологии Classic';
         $subCategory7->img='/images/schema/classic-technology/classic-technology.jpg';
         $subCategory7->menu_img='/images/schema/menu/classic.png';
         $subCategory7->additional='/images/schema/additional/classic.png';
         $subCategory8 = new TechSchema;
-        $subCategory8->title='Min-Till';
+        $subCategory8->title='Посев по технологии Min-Till';
         $subCategory8->img='/images/schema/min-till/min-till.jpg';
         $subCategory8->menu_img='/images/schema/menu/min-till.png';
         $subCategory8->additional='/images/schema/additional/mintill.png';
         $subCategory9 = new TechSchema;
-        $subCategory9->title='No-Till';
+        $subCategory9->title='Посев по технологии No-Till';
         $subCategory9->img='/images/schema/no-till/no-till.jpg';
         $subCategory9->menu_img='/images/schema/menu/no-till.png';
         $subCategory9->additional='/images/schema/additional/no-till.png';
         $subCategory10 = new TechSchema;
-        $subCategory10->title='Vertical-Till';
+        $subCategory10->title='Вертикальная почвообработка';
         $subCategory10->img='/images/schema/vertical-till/vertical-till.jpg';
         $subCategory10->menu_img='/images/schema/menu/vertical.png';
         $subCategory10->additional='/images/schema/additional/vertical.png';
@@ -323,12 +365,12 @@ class TechschemaController extends Controller
         $subCategory7->insertAfter($subCategory10);
         
         $subCategory11 = new TechSchema;
-        $subCategory11->title='Озимые';
+        $subCategory11->title='Технология посева озимых';
         $subCategory11->img='/images/schema/ozimie/ozimie.jpg';
         $subCategory11->menu_img='/images/schema/menu/ozimie.png';
         $subCategory11->additional='/images/schema/additional/ozimie.png';
         $subCategory12 = new TechSchema;
-        $subCategory12->title='Яровые';
+        $subCategory12->title='Технология посева яровых';
         $subCategory12->img='/images/schema/yarovie/yarovie.jpg';
         $subCategory12->menu_img='/images/schema/menu/yarovie.png';
         $subCategory12->additional='/images/schema/additional/yarovie.png';
