@@ -1099,18 +1099,17 @@ header:after {
     height: 170px;
 }
 .wrapper #content .contacts_list .region-group .contact-item{
-    width: 30%;
+    width: 280px;
     background-color: #ebedec;
     padding: 10px 0 0 10px;
     border-radius: 4px;
     box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
 }
-.wrapper #content .contacts_list .region-group.region-one .contact-item{
+/*.wrapper #content .contacts_list .region-group.region-one .contact-item{
     width: 93%;
-}
+}*/
 .wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
     font-weight: bold;
-    
 }
 .wrapper #content .contacts_list .region-group{
     display: block; 
@@ -1119,14 +1118,20 @@ header:after {
 }
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
-    width: 30%;
-    margin-left: 7px;
+    margin-left: 10px;
+    padding-right: 3px;
+}
+.wrapper #content .contacts_list .region-group.region-one{
+    
 }
 .wrapper #content .contacts_list .region-group.region-one .region-group-name {
-    margin-left: -3px;
+    margin-left: 3px;
 }
 .wrapper #content .contacts_list .region-group .region-group-name {
     margin-bottom: 20px;
+    margin-left: 13px;
+    margin-top: 6px;
+    font-size: 16px;
 }
 .wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
     width: 30%;
