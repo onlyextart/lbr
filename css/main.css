@@ -1096,7 +1096,7 @@ header:after {
     margin-left: 1.5%;
     margin-bottom: 1.5%;
     float: left;
-    height: 300px;
+    height: 315px;
     font-weight: bold;
 }
 .wrapper #content .contacts_list .region-group .contact-item{
@@ -1126,7 +1126,7 @@ header:after {
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
     margin-right: 6px;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     width: 30%;
 }
 .wrapper #content .contacts_list .region-group.region-one{
@@ -1145,6 +1145,9 @@ header:after {
     width: 30%;
 }
 
+.wrapper #content .contact-item .contact-info > div{
+    margin-bottom: 6px;
+}
 .wrapper #content .contact-item .contact-info{
     margin: 10px;
 }
