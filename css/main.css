@@ -1096,18 +1096,25 @@ header:after {
     margin-left: 1.5%;
     margin-bottom: 1.5%;
     float: left;
-    height: 170px;
+    height: 300px;
+    font-weight: bold;
 }
 .wrapper #content .contacts_list .region-group .contact-item{
     width: 280px;
-    background-color: #ebedec;
-    padding: 10px 0 0 10px;
+    /*background-color: #ebedec;*/
     border-radius: 4px;
     box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
 }
-/*.wrapper #content .contacts_list .region-group.region-one .contact-item{
-    width: 93%;
-}*/
+.wrapper #content .contacts_list .region-group .contact-item .contact-image img{
+    display: block;
+    height: 126px;
+}
+.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
+    font-weight: normal;
+}
+.wrapper #content .contacts_list .region-group:not(.region-one) + .region-group.region-one{
+    margin-left: 10px;
+}
 .wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
     font-weight: bold;
 }
@@ -1118,8 +1125,9 @@ header:after {
 }
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
-    margin-left: 10px;
-    padding-right: 3px;
+    margin-right: 6px;
+    padding-right: 10px;
+    width: 30%;
 }
 .wrapper #content .contacts_list .region-group.region-one{
     
@@ -1131,14 +1139,26 @@ header:after {
     margin-bottom: 20px;
     margin-left: 13px;
     margin-top: 6px;
-    font-size: 16px;
+    font-size: 17px;
 }
 .wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
     width: 30%;
 }
 
+.wrapper #content .contact-item .contact-info{
+    margin: 10px;
+}
 .wrapper #content .contacts_list .city-name{
-    margin-bottom: 10px;
+    margin: 5px 10px 5px 10px;
+}
+.wrapper #content .contacts_list .city-name a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #F39314;
+    font-weight: bold;
+}
+.wrapper #content .contacts_list .city-name a:hover{
+    text-decoration: underline;
 }
 .wrapper .search .search-form {
   padding: 1em 2em;
