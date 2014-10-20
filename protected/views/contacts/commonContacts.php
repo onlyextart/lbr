@@ -1,6 +1,6 @@
-<div style="float:left; width:100%;">
+<div class="contact-additional-info">
     <a class="view_all_contacts" href="<?php echo Yii::app()->getBaseUrl(true).'/company/contacts/#list_filials'?>"><img alt="Посмотреть все контакты" title="Посмотреть все контакты" src="/images/bottom-arrow.png" /></a>
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="500">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="500">
         <param name="movie" value="/images/map1000px.swf">
         <param name="bgcolor" value="#ffffff">
             <!--[if !IE]>-->

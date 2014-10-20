@@ -1163,6 +1163,16 @@ header:after {
 .wrapper #content .contacts_list .city-name a:hover{
     text-decoration: underline;
 }
+.wrapper #content .view_all_contacts{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+.wrapper #content .contact-additional-info{
+     float:left; 
+     width:100%;
+     position: relative;
+}
 .wrapper .search .search-form {
   padding: 1em 2em;
   border-radius: 2px;
