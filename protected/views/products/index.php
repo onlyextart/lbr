@@ -4,6 +4,7 @@ Yii::app()->clientScript->registerScriptFile('/js/galleria/galleria-1.2.9.min.js
 Yii::app()->clientScript->registerScriptFile('/js/site/AjaxMakersDescriptionLoader.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/product.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/hidden_link.js');
+Yii::app()->clientScript->registerScriptFile('/js/site/main2.js');
 
 $h1 = $data->name;
 $review = $data->review;

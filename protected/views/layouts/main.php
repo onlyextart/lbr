@@ -36,7 +36,7 @@
         <?php endif; ?>
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
-
+        <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
@@ -44,6 +44,7 @@
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
+        Yii::app()->clientScript->registerCoreScript('/js/site/main2.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
