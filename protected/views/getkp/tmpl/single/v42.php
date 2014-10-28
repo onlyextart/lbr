@@ -59,11 +59,11 @@
                                     
                                     <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">1. ШИРОКИЕ ВОЗМОЖНОСТИ БОТВОУДАЛИТЕЛЯ!<br /></span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Ботвоудалитель позволяет одинаково эффективно удалять ботву луга, моркови и столовой свеклы!
+                                        Ботвоудалитель позволяет одинаково эффективно удалять ботву лука, моркови и столовой свеклы!
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">2. ТОЧНАЯ РАБОТА - ОТЛИЧНЫЙ РЕЗУЛЬТАТ!<br /></span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Срезающие ножи в паре со специальными заслонками создают поток воздуха, с помощью которго ботва луга, лежащая на земле, приподнимается, что позволяет улучшить качество обрезки ботвы.
+                                        Срезающие ножи в паре со специальными заслонками создают поток воздуха, с помощью которго ботва лука, лежащая на земле, приподнимается, что позволяет улучшить качество обрезки ботвы.
                                     </span>
                                      <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">3. УНИВЕРСАЛЬНОСТЬ - ЗАЛОГ УСПЕХА!<br /></span>
                                      <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">

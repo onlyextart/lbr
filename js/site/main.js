@@ -104,5 +104,5 @@ function getCookie(name) {
 	    return decodeURIComponent(RegExp["$1"]);
 	}
 	return false;
-} 
+}
 
