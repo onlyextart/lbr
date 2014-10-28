@@ -18,7 +18,7 @@ Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
             <td>
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <meta itemprop="addressCountry" content="Россия" />
-                <?php echo $contactModel->address ?>
+                <?php echo 'Адрес: '.$contactModel->address ?>
                 </div>
             </td>
         </tr>
