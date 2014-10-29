@@ -61,7 +61,7 @@ foreach( $districts as $districtId=>$districtName ){
             echo 'Адрес: '.$region->contact->address.'<br>';
             echo '</div>';
             echo 'Телефоны: '.$region->contact->telephone.'<br>';
-            echo '<span itemprop="email">Email: '.$region->contact->email.'</span>'.'<br>';
+            echo 'Email: <span itemprop="email">'.$region->contact->email.'</span>'.'<br>';
             echo '</span>';
             echo '</div>';
             if($emptySpace>0){
