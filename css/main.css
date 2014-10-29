@@ -1096,10 +1096,8 @@ header:after {
     margin-left: 1.5%;
     margin-bottom: 1.5%;
     float: left;
-    height: 315px;
-    font-weight: bold;
-}
-.wrapper #content .contacts_list .region-group .contact-item{
+    height: 320px;
+    /*font-weight: bold;*/
     width: 280px;
     /*background-color: #ebedec;*/
     border-radius: 4px;
@@ -1109,15 +1107,15 @@ header:after {
     display: block;
     height: 126px;
 }
-.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
+/*.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
     font-weight: normal;
-}
+}*/
 .wrapper #content .contacts_list .region-group:not(.region-one) + .region-group.region-one{
     margin-left: 10px;
-}
+}/*
 .wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
     font-weight: bold;
-}
+}*/
 .wrapper #content .contacts_list .region-group{
     display: block; 
     clear: both; 

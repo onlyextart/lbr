@@ -77,11 +77,11 @@ foreach($regionsArray as $districtId => $itemCount) {
                     '<div itemprop="description">'.
                         '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">'.
                            '<meta itemprop="addressCountry" content="Россия" />'.
-                           '<div>'.$region->contact->address.'</div>'.
+                           '<div><b>Адрес: </b>'.$region->contact->address.'</div>'.
                         '</div>'.
                     '</div>'.
-                    '<div>Телефоны:'.$region->contact->telephone.'</div>'.
-                    '<div itemprop="email">'.$region->contact->email.'</div>'.
+                    '<div><b>Телефоны: </b>'.$region->contact->telephone.'</div>'.
+                    '<div itemprop="email"><b>Email: </b>'.$region->contact->email.'</div>'.
                   '</div>';
             echo '</div>';
         }
