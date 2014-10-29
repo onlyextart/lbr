@@ -1099,7 +1099,8 @@ header:after {
     height: 320px;
     /*font-weight: bold;*/
     width: 280px;
-    /*background-color: #ebedec;*/
+    background-color: #f1f0f0;
+    /*#ebedec;*/
     border-radius: 4px;
     box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
 }
