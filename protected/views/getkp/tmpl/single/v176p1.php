@@ -9,13 +9,16 @@ endif;
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                <!--  -->
-                <!-- Заголовок -->
-                <tr>
-                    <td style="padding-bottom:5px;">
-                        <img src="http://www.lbr.ru/images/kp/176-posev/mail-1.jpg" width="800" style="border: 0;" alt="Изображения не отображаются">
-                    </td>
-                </tr>
+                <tr><td style="padding:0px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <!-- Заголовок -->
+                            <tr>
+                                <td style="padding-bottom:5px;">
+                                    <img src="http://www.lbr.ru/images/kp/176-posev/mail-1.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
+                                </td>
+                            </tr>
+                        </table>
+                </td></tr>
 
 
                 <!-- Контент первого блока (ч.1)-->
