@@ -188,7 +188,7 @@
 
         <footer>
             <div class="f-left">
-                <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
+                <img src="/images/logo-foot.png" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
             </div>
             <div class="f-center">
             <?php if (Yii::app()->params['currentMenuItem']->level == 1) { ?>
