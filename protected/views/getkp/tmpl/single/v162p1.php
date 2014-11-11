@@ -368,7 +368,7 @@ endif;
                                 <tr>
                                     <td>
                                         <!--Таблица с данными-->
-                                        <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="4px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                        <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="3px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                             <tr>
                                                 <td width="50%" align="left" colspan="2" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;" ><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
                                                 <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">TROTTER 125 TOPCUT</span></strong></td>
@@ -460,17 +460,24 @@ endif;
                                                 <td align="center" colspan="2" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">гомокинетический, с ограничителем крутящего момента и предохранительным болтом</span></td>
                                             </tr>
                                             <tr>
-                                                <td align="left" colspan="2" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color:grey;">Цена с НДС, руб.</span></td>
+                                                <td align="left" colspan="2" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color:grey;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                 <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
                                                 <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
+                                <tr valign="top">
+                                <td style="padding: 5px 0px 0px 0px;">
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p> 
+                                </td>
+                            </tr>
                             </table>
                         </td>
                     </tr>
-                    <tr><td style="padding:15px 20px 0px 20px;">
+                    <tr><td style="padding:5px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr valign="top">
                                     <td width="370">

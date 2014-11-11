@@ -115,10 +115,10 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                         <tr>
                                             <td style="padding: 0px 0px 0px 20px;">
                                                 <!--Таблица с данными-->
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
-                                                        <td width="60%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Модель</span></strong></td>
-                                                        <td width="40%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Обрезчик ботвы лука 1,2 м</span></strong></td>
+                                                        <td width="55%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Модель</span></strong></td>
+                                                        <td width="45%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Обрезчик ботвы лука 1,2 м</span></strong></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Рабочая ширина захвата штанги</span></td>
@@ -129,7 +129,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">до 0,7</span></td>
                                                     </tr> 
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px; color: #DD2A1B;"><?php echo $data['price1']; ?></span></td>
                                                     </tr> 
 
@@ -225,7 +225,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                         <tr>
                                             <td style="padding:0px 0px 0px 20px;">
                                                 <!--Таблица с данными-->
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="60%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong> Модель</strong></span></td>
                                                         <td width="40%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong> Z-653/1 (1,2 м)</strong></span></td>
@@ -243,17 +243,25 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">45</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px; color: #DD2A1B;"><?php echo $data['price2']; ?></span></td>
                                                     </tr>
 
                                                 </table>
                                             </td>
                                         </tr>
+                                        
 
                                     </table> 
                                 </td>
                             </tr>
+                            <tr valign="top">
+                                        <td  style="padding: 5px 0px 0px 0px;">
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p> 
+                                        </td>
+                                    </tr>
 
                         </table>
                     </td>
@@ -304,7 +312,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                 </tr>
 
                 <tr>
-                    <td style="padding: 15px 20px 0px 20px; ">
+                    <td style="padding: 5px 20px 0px 20px; ">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-bottom:2px solid #F58220; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td style="padding: 0px 0px 10px 0px; ">
@@ -328,8 +336,8 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                             </tr>
                                         <?php endif; ?>
                                         <tr>
-                                         <td colspan="2" style="padding:5px 0px 5px 0px;text-align:left;">
-                                            <table width="369" bgcolor="#FFFFFF" align="left" cellspacing="0" cellpadding="2px" align="left" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                         <td colspan="2" style="padding:5px 0px 0px 0px;text-align:left;">
+                                            <table width="369" bgcolor="#FFFFFF" align="left" cellspacing="0" cellpadding="1px" align="left" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                 <tr>
                                                     <td width="70%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Модель</span></strong></td>
                                                     <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Z 437</span></strong></td>
@@ -351,12 +359,19 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                                                     <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">0,60</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span></td>
+                                                    <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                     <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price3']; ?></span></td>
                                                 </tr>
                                             </table> 
                                         </td>
                                         </tr>
+                                        <tr valign="top">
+                                            <td  style="padding: 5px 0px 5px 0px;">
+                                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                </p> 
+                                            </td>
+                                    </tr>
                                            
 
                                     </table>
@@ -407,7 +422,7 @@ if ($data['show_header'] == '1' || !isset($data['show_footer'])):
                
 
                 <tr>
-                    <td style="padding:10px 20px 10px 20px;" >
+                    <td style="padding:5px 20px 5px 20px;" >
                        <img src="http://www.lbr.ru/images/kp/169-luk/mail-4.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                  
                     </td>
