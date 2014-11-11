@@ -313,7 +313,7 @@ endif;
                                                         <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">E</span></td>
                                                         <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 10px;">Требуемая мощность, л.с.</span></td>
                                                         <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Вес, кг</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена</span></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                     </tr>
                                                     <tr>
                                                     <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong>Сеньор 8,5 м<sup>3</sup></strong></span></td>
@@ -351,6 +351,13 @@ endif;
                                                 </table> 
                                             </td> 
                                        </tr>
+                                       <tr valign="top">
+                                       <td style="padding: 5px 0px 0px 0px;">
+                                           <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                               * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                           </p> 
+                                       </td>
+                                   </tr>
                                    </table>
                                 </td>
                             </tr>
