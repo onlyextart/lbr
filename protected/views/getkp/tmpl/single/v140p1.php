@@ -316,20 +316,20 @@ endif;
                                                 <td>
                                                     <table width="363" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                         <tr>
-                                                            <td style="width: 20px; padding:5px 0px 0 0px; vertical-align: top;">
+                                                            <td style="width: 20px; padding:2px 0px 0 0px; vertical-align: top;">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
                                                             </td>
-                                                            <td style="padding: 5px 10px 0 0; vertical-align: top;">
+                                                            <td style="padding: 2px 10px 0 0; vertical-align: top;">
                                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                     Навесная конструкция сеялки.                                
                                                                 </p>
                                                             </td> 
                                                         </tr>
                                                         <tr>
-                                                            <td style="width: 20px; padding:5px 0px 0 0px; vertical-align: top;">
+                                                            <td style="width: 20px; padding:2px 0px 0 0px; vertical-align: top;">
                                                                 <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; ">•</span>
                                                             </td>
-                                                            <td style="padding: 5px 10px 0 0; vertical-align: top;">
+                                                            <td style="padding: 2px 10px 0 0; vertical-align: top;">
                                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                                     Требуется незначительное подъемное усилие в связи с небольшим собственным весом сеялки (705 кг).                                
                                                                 </p>
@@ -340,7 +340,7 @@ endif;
                                             </tr>
 
                                             <tr valign="top">
-                                                <td style="padding: 15px 0px 0px 0px;">
+                                                <td style="padding: 10px 0px 0px 0px;">
                                                     <table width="363" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0px" align="center" style="border-collapse: collapse;background-clip:padding-box;">
                                                         <tr>
                                                             <td width="278" align="left" style="border: solid black 1px; background-color:#eeeeee;background-clip:padding-box; padding-left: 5px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;"><strong> Модель</strong></td>
@@ -363,12 +363,19 @@ endif;
                                                             <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">от 80</td>             
                                                         </tr>
                                                         <tr>
-                                                            <td align="left" style="border: solid black 1px; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span></td>
+                                                            <td align="left" style="border: solid black 1px; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                             <td align="center" style="border: solid black 1px; color: #DD2A1B; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $data['price1']; ?></span></td>
                                                         </tr>
                                                     </table>
                                                 </td>
                                             </tr>
+                                            <tr valign="top">
+                                            <td style="padding: 5px 20px 0px 20px;">
+                                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                </p> 
+                                            </td>
+                                        </tr>
 
                                             <tr>
                                                 <td style="padding-top:15px;">
