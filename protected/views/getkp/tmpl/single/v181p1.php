@@ -767,11 +767,11 @@ endif;
                                                 <img src="http://www.lbr.ru/images/kp/181-kartofel/mail-9.jpg" width="308" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
-                                        <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                        <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
                                             <tr>
                                                 <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                        <?php echo $data['product_info1']; ?>
+                                                        <?php echo $data['product_info6']; ?>
                                                     </p>
                                                 </td>
                                             </tr>
@@ -960,11 +960,11 @@ endif;
                                     <img src="http://www.lbr.ru/images/kp/181-kartofel/mail-10.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                 </td>
                             </tr>
-                            <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                            <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
                             <tr>
                                 <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                        <?php echo $data['product_info1']; ?>
+                                        <?php echo $data['product_info7']; ?>
                                     </p>
                                 </td>
                            </tr>

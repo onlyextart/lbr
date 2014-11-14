@@ -289,7 +289,7 @@ endif;
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding-top:12px;">
+                                                <td style="padding-top:5px;">
                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
                                                         Особенности и преимущества
                                                     </p>  
@@ -321,7 +321,7 @@ endif;
                                             </tr>
 
                                             <tr>
-                                                <td style="padding-top:15px;">
+                                                <td style="padding-top:10px;">
                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
                                                         Отличное измельчение на высокой скорости
                                                     </p>  
@@ -345,7 +345,7 @@ endif;
                                             </tr>
 
                                             <tr>
-                                                <td style="padding-top:15px;">
+                                                <td style="padding-top:10px;">
                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
                                                         Антиударная система защиты
                                                     </p>  
@@ -361,7 +361,7 @@ endif;
                                             </tr>
 
                                             <tr>
-                                                <td style="padding-top:15px;">
+                                                <td style="padding-top:10px;">
                                                     <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #F58220;; text-align: justify; ">
                                                         Улучшенная способность проникновения в почву
                                                     </p>  
@@ -396,7 +396,7 @@ endif;
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding-top:10px;">
+                                                <td style="padding-top:0px;">
                                                     <img src="http://www.lbr.ru/images/kp/113-Disc-o-Mulch/mail-7.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются"> 
                                                 </td>
                                             </tr>
@@ -408,60 +408,73 @@ endif;
                     </tr>
 
                     <tr>
-                        <td style="padding-top: 20px"  bgcolor="#FFFFFF"> 
+                        <td style="padding-top: 5px"  bgcolor="#FFFFFF"> 
                             <!--Таблица с данными-->
-                            <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse;">
-                                <tr bgcolor="#eeeeee">
-                                    <td width="240" align="left" style="border: solid black 1px;"><strong> Модель</strong></td>
-                                    <td width="140" align="center" style="border: solid black 1px;"><strong> Platinum, 6 m</strong></td>
-                                    <td width="140" align="center" style="border: solid black 1px;"><strong> Platinum, 8 m</strong></td>
-                                    <td width="140" align="center" style="border: solid black 1px;"><strong> Gold, 8 m</strong></td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;">Рабочая ширина</td>
-                                    <td align="center" style="border: solid black 1px;">6 </td>
-                                    <td align="center" style="border: solid black 1px;">8 </td>
-                                    <td align="center" style="border: solid black 1px;">8 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Транспортная ширина, м </td>
-                                    <td align="center" style="border: solid black 1px;"> 3 </td>
-                                    <td align="center" style="border: solid black 1px;"> 3 </td>
-                                    <td align="center" style="border: solid black 1px;"> 3 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Количество лап </td>
-                                    <td align="center" style="border: solid black 1px;"> 9 </td>
-                                    <td align="center" style="border: solid black 1px;"> 11 </td>
-                                    <td align="center" style="border: solid black 1px;"> 15 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Количество дисков </td>
-                                    <td align="center" style="border: solid black 1px;"> 36 </td>
-                                    <td align="center" style="border: solid black 1px;"> 48 </td>
-                                    <td align="center" style="border: solid black 1px;"> 65 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Диаметр дисков переднего ряда, мм </td>
-                                    <td align="center" style="border: solid black 1px;"> 660 </td>
-                                    <td align="center" style="border: solid black 1px;"> 660 </td>
-                                    <td align="center" style="border: solid black 1px;"> 610 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Диаметр дисков заднего ряда, мм </td>
-                                    <td align="center" style="border: solid black 1px;"> 610 или 660 </td>
-                                    <td align="center" style="border: solid black 1px;"> 610 или 660 </td>
-                                    <td align="center" style="border: solid black 1px;"> 560 или 610 </td>
-                                </tr>
-                                <tr>
-                                    <td align="left" style="border: solid black 1px;"> Требуемая мощность трактора, л.с. </td>
-                                    <td align="center" style="border: solid black 1px;"> 200-300 </td>
-                                    <td align="center" style="border: solid black 1px;"> 300-400 </td>
-                                    <td align="center" style="border: solid black 1px;"> 250-350 </td>
-                                </tr>
-                            </table>
+                            <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse;">
+                <tr bgcolor="#eeeeee">
+                    <td width="240" align="left" style="border: solid black 1px;background-color:#eeeeee; background-clip:padding-box; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
+                    <td width="140" align="center" style="border: solid black 1px;background-color:#eeeeee; background-clip:padding-box; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Platinum, 6 m</strong></span></td>
+                    <td width="140" align="center" style="border: solid black 1px;background-color:#eeeeee; background-clip:padding-box; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Platinum, 8 m</strong></span></td>
+                    <td width="140" align="center" style="border: solid black 1px;background-color:#eeeeee; background-clip:padding-box; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Gold, 8 m</strong></span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина</span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">6 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">8 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">8 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Транспортная ширина, м </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество лап </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">9 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">11 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">15 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество дисков </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">36 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">48 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">65 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Диаметр дисков переднего ряда, мм </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">660 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 660 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 610 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Диаметр дисков заднего ряда, мм </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">610 или 660 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 610 или 660 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 560 или 610 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Требуемая мощность трактора, л.с. </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">200-300 </span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 300-400 </span></td>
+                    <td align="center" style="border: solid black 1px;"> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">250-350 </span></td>
+                </tr>
+                <tr>
+                    <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color: #DD2A1B;"><?php echo $data['price1']; ?></span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color: #DD2A1B;"><?php echo $data['price2']; ?></span></td>
+                    <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px; color: #DD2A1B;"><?php echo $data['price3']; ?></span></td>
+                </tr>
+            </table>
                         </td>
                     </tr>
+                    <tr valign="top">
+                    <td style="padding: 5px 20px 0px 20px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
 
 
         </tr></table></td>
