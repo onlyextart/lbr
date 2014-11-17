@@ -52,7 +52,7 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/147-kartophel/mail-2.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-2.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
