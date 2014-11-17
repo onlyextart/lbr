@@ -136,6 +136,7 @@ return array(
                         'Каталог'=>'/administrator/banners/',
                         'Производители'=>'/administrator/makers/',
                         'Страницы товаров'=>'/administrator/products/',
+                        'Технологический цикл'=>'/administrator/tehcikl/',
                     ),
                     'Пользователи'=>array(
                         'Пользователи'=>'/administrator/users/',
