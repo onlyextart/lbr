@@ -83,21 +83,21 @@ endif;
                                                         </td>
                                                     </tr>
                                                      <tr valign="top">                                                        
-                                                        <td colspan="2" style="width: 160px; padding: 17px 10px 0 0;">
+                                                        <td colspan="2" style="width: 160px; padding: 10px 10px 0 0;">
                                                             <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">Усиленная оригинальная ромбовидная рама обеспечивает качественную обработку почвы.
                                                                 </li>
                                                             
                                                         </td>
                                                     </tr>    
                                                     <tr valign="top">                                                        
-                                                        <td colspan="2" style="width: 160px; padding: 17px 10px 0 0;">
+                                                        <td colspan="2" style="width: 160px; padding: 5px 10px 0 0;">
                                                             <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">Прохождение камней и пней. С-образная гибкая стойка помогает амортизировать колебания (толчки), что увеличивает срок службы подшипников и дисков. Втулки изготовлены из ковкой отливки и обладают большой прочностью.</li>
                                                             
                                                         </td>
                                                     </tr>       
                                                      
                                                     <tr valign="top">                                                        
-                                                        <td colspan="2" style="width: 160px; padding: 17px 10px 0 0;">
+                                                        <td colspan="2" style="width: 160px; padding: 10px 10px 0 0;">
                                                            
                                                             <img src="http://www.lbr.ru/images/kp/81-diamond/diamond1.jpg" width="368" style="border: 0; float: left;" alt="Картинки не отображаются">
                                                         
@@ -310,7 +310,7 @@ endif;
                                 
                                 </tr>
                                 <tr>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.<span style="color:#cc3333; font-size:12px;">*</span></td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price1']; ?></td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price2']; ?></td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price3']; ?></td>
@@ -320,6 +320,13 @@ endif;
                         </table>
                                </td>
                             </tr> 
+                            <tr valign="top">
+                            <td colspan="2" style="padding: 5px 0px 0px 0px;">
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
+                            </td>
+                        </tr>
                             <tr valign="top">                                                        
                                  <td style="padding: 10px 10px 0 0;">
                                     <img src="http://www.lbr.ru/images/kp/81-diamond/diamond4.jpg" width="378" height="104"  style="border: 0; float: left;" alt="Стрелка вправо">
