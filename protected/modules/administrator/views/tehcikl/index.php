@@ -1,5 +1,5 @@
 <h1>Технологический цикл</h1>
-<div class="grid-wrapper">
+<div class="tech-cikl-grid-wrapper">
 <?php
 //echo '<pre>';
 //var_dump($data);exit;

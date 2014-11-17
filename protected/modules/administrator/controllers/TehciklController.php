@@ -9,7 +9,7 @@ class TehciklController extends Controller
             $cycle = TechSchema::model()->findByPk($root->id);
             $descendants = $cycle->descendants()->findAll();
             foreach ($descendants as $descendant){  
-                $techSchemaSteps[$descendant->id]['title'] = $descendant->title;
+                $techSchemaSteps[$descendant->id]['title'] = $cycle->title.' - '.$descendant->title;
                 $techSchemaSteps[$descendant->id]['id'] = $descendant->id;
             }
         }
@@ -39,8 +39,13 @@ class TehciklController extends Controller
         $stages = TechSchemaStage::model()->findAll(array('order'=>'level', 'condition'=>'schema_id = :id', 'params'=>array(':id'=>$id)));
         foreach($stages as $stage) {
             $result[$cycleName][$stage['id']] = TechStage::model()->findByPk($stage['stage_id'])->title;
-            //$products = ProductTechSchema::model()->findAll('stage_id = :id', array(':id'=>$stage['id']));
-            $products = ProductTechSchema::model()->findAll(array('condition'=>'stage_id = :id', 'params' =>array(':id'=>$stage['id']), 'order'=>'position'));
+           
+            $criteria = new CDbCriteria;
+            $criteria->order = "IFNULL(position,10000000) ASC";
+            $criteria->condition = 'stage_id = :id';
+            $criteria->params = array(':id'=>$stage['id']);
+            $products = ProductTechSchema::model()->findAll($criteria);
+
             if(!empty($products)) {
                 foreach($products as $product){
                     $name = Products::model()->findByPk($product['product_id'])->name;
@@ -74,17 +79,18 @@ class TehciklController extends Controller
             )
         );
     }
+    
     public function actionUpdate() 
     {
         $data = json_decode(stripslashes($_POST['data']));
         $stageId = $_POST['stageId'];
-        foreach($data as $id=>$position){
+        
+        foreach($data as $id=>$position) {
            $model = ProductTechSchema::model()->find(array('condition'=>'stage_id = :stageId and product_id = :prodId', 'params' =>array(':stageId'=>$stageId, ':prodId'=>$id)));
            if($model->position != $position) {
                $model->position = $position;
                $model->save();
            }
         }
-        //echo 'ok';
     }
 }

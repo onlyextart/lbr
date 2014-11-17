@@ -542,6 +542,10 @@ header .menu > ul.nav > li.parent ul.nav li.item a{
     border-radius: 2px 2px 0 0;
     box-shadow: 0 0 3px rgb(192, 192, 192);
 }
+.tech-cikl-grid-wrapper a{
+    color: rgb(65, 131, 196);
+    line-height: 18px;
+}
 .save-tech-cikl-wrapper{
     /*display: block;*/
     /*float: right;*/
