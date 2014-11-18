@@ -88,6 +88,9 @@
                                     </tr>
                                     </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цены сформированы по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
                             </div>                            
                         </div>
                     </div>
@@ -148,6 +151,9 @@
                                     </tr>
                                     </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цены сформированы по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
                             </div>
                     </div>
                 </div>
@@ -225,6 +231,9 @@
                                         </tr>
                                         </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цены сформированы по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
                             </div>
                     </div>
                 </div>

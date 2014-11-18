@@ -272,7 +272,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2100</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2100</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Мощность трактора</span></td>

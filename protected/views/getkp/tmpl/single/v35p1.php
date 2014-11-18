@@ -164,11 +164,14 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 14px;">от 250</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 14px;">Цена</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 14px; display: inline; padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 14px;"><? echo $data['price1']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 14px;"><? echo $data['price2']; ?></span></td>
                                         </tr>
                                 </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                <br>* цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                            </p>
                                 </div>
                     </div>
                     </div>

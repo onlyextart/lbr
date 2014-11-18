@@ -78,11 +78,14 @@
                                         <td><span>Анкерный типа SP</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена с НДС</span></td>
+                                        <td><span style="display:inline;">Цена с НДС</span><span style="color:#cc3333; font-size:12px;padding-left: 0px;display:inline;">*</span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                     </tr>
                                 </tbody>
                             </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                         </div>
                         <div class="right-50 image" style="text-align: right;">
                             <img src="http://www.lbr.ru/images/kp/gaspardo-2.jpg" style="width: 92%" border="0" />
@@ -106,7 +109,7 @@
                             </div>
                             
                             <div class="left-50">
-                            <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 14px; margin-top: 25px;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                            <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; font-size: 14px; margin-top: 25px;" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                 <tbody>
                                     <tr>
                                         <td width="60%"><span>Модель</span></td>
@@ -126,12 +129,16 @@
                                         <td><span>Дисковый</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>Цена с НДС</span></td>
+                                        <td><span style="display:inline;">Цена с НДС</span><span style="color:#cc3333; font-size:12px;padding-left: 0px;display:inline;">*</span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                                
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
+                            </div>
                         <div class="right-50">
                             <span class="text" style="margin: 5px 0 0;">
                                 Сеялка <b>MT  8</b> –  новое  поколение  высокоточных  профессиональных  сеялок.  Фундаментально  важная  концепция <b>МОДУЛЬНОСТИ</b> в модели MT 8 была развита и дополнена концепцией <b>ПРОСТОТЫ</b>, как с конструктивной точки зрения, так 
