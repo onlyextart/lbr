@@ -14,7 +14,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <!-- Заголовок -->
                             <tr>
-                                <td style="padding-bottom:5px;">
+                                <td style="padding-bottom:0px;">
                                     <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-1.jpg" width="760" style="border: 0;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
@@ -25,7 +25,7 @@ endif;
 
                 <!-- Контент первого блока (ч.1)-->
                 <tr>
-                    <td style="padding:5px 20px 5px 20px;">
+                    <td style="padding:0px 20px 5px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="670" >
@@ -49,10 +49,10 @@ endif;
                             <tr valign="top">
                                 <td>
                                     <!-- Первая колонка-->
-                                    <table width="358" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="308" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/147-kartophel/mail-2.jpg" width="358" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-2.jpg" width="308" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -67,9 +67,9 @@ endif;
 
                                         <tr>
                                             <td style="padding:5px 0px 0px 0px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px;  font-weight:bold;  color: black; text-align: justify;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px;  font-weight:bold;  color: black; text-align: justify; line-height: 15px;">
                                                     <span style="color:#F58220;text-transform: uppercase;"> Применяйте гребнеобразователь в качестве окучника по всходам</span>
-                                                    при снятии задней греб-необразующей крышки
+                                                    при снятии задней гребнеобразующей крышки
                                                 </p>
                                             </td>
                                         </tr>
@@ -79,7 +79,7 @@ endif;
 
                                 <!--Вторая колонка-->
                                 <td>
-                                    <table width="398" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="448" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding-left: 20px; padding-bottom: 5px;">
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
@@ -95,7 +95,7 @@ endif;
                                         <tr>
                                             <td  style="padding: 0px 0px 0px 20px;">
                                                 <!--Таблица с данными-->
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                <table width="428" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="50%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
                                                         <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">FORMA 2</span></strong></td>
@@ -127,7 +127,7 @@ endif;
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">700</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
                                                         <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
                                                     </tr>
@@ -150,7 +150,7 @@ endif;
 
                 <!-- Контент первого блока (ч.2)-->
                 <tr>
-                    <td style="padding:15px 20px 5px 20px;">
+                    <td style="padding:10px 20px 5px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="border-bottom:solid black 4px;" width="690" >
@@ -174,10 +174,10 @@ endif;
                             <tr valign="top">
                                 <td>
                                     <!-- Первая колонка-->
-                                    <table width="358" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="308" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-3.jpg" width="358" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-3.jpg" width="308" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
@@ -191,12 +191,11 @@ endif;
                                         <?php endif; ?>
                                          <tr>
                                             <td style="padding: 5px 0px 0px 0px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; line-height: 15px;">
                                                     <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">УНИВЕРСАЛЬНЫЙ ПОМОЩНИК</span><br>
-                                                    Активно подготавливает (измельчает) почву с междуря-
-                                                    дьем для посадки картофеля 70, 75 и 90 см. После лег-
-                                                    кого переоборудования возможно использование греб-
-                                                    необразователя в качестве фрезы для предварительной
+                                                    Активно подготавливает (измельчает) почву с междурядьем 
+                                                    для посадки картофеля 70, 75 и 90 см. После легкого переоборудования возможно использование 
+                                                    гребнеобразователя в качестве фрезы для предварительной
                                                     обработки почвы (опция).
                                                 </p>
                                             </td>
@@ -207,7 +206,7 @@ endif;
 
                                 <!--Вторая колонка-->
                                 <td>
-                                    <table width="398" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                    <table width="448" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         
                                         <tr>
                                             <td style="padding-left: 20px; padding-bottom: 0px;">
@@ -236,7 +235,7 @@ endif;
                                         <tr>
                                             <td style="padding: 5px 0px 0px 20px;">
                                                 <!--Таблица с данными-->
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                <table width="428" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="40%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
                                                         <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2RF165</span></strong></td>
@@ -274,7 +273,7 @@ endif;
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,54-1,1</span></td>
                                                     </tr> 
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price3']; ?></span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price4']; ?></span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price5']; ?></span></td>
@@ -289,6 +288,14 @@ endif;
                             </tr>
 
                         </table>
+                    </td>
+                </tr>
+                
+                <tr valign="top">
+                    <td style="padding: 0px 20px 0px 20px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
                     </td>
                 </tr>
 
@@ -360,7 +367,7 @@ endif;
                 </tr>
                 
                 <tr>
-                    <td style="padding:10px 20px 0px 20px;">
+                    <td style="padding:2px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td>
@@ -414,7 +421,7 @@ endif;
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">не более 3100</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px; color: #DD2A1B;"><?php echo $data['price6']; ?></span></td>
                                                     </tr>
 
@@ -473,6 +480,13 @@ endif;
                     </td>
                 </tr>
 
+                <tr valign="top">
+                    <td style="padding: 0px 20px 0px 20px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
                
 
                 

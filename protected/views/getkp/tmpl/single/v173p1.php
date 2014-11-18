@@ -260,12 +260,12 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px 0px 0px 0px;">
+                                            <td style="padding:5px 0px 0px 0px;">
                                                 <img src="http://www.lbr.ru/images/kp/173-senior_goriz/mail-5.jpg" width="760" style="border: 0; float: right;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 10px 0px 0px 0px;">
+                                            <td style="padding: 5px 0px 0px 0px;">
                                                 <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px;font-weight:bold;text-align: justify; ">
                                                     Точный объем порции!
                                                 </p>
@@ -296,62 +296,69 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 10px 0px 0px 0px;">
+                                            <td style="padding: 5px 0px 0px 0px;">
                                                 <p style="margin:0; color:black; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px;font-weight:bold;text-align: justify; ">
                                                     Технические характеристики:
                                                 </p>
                                             </td>
                                        </tr>
                                        <tr>
-                                          <td style="padding: 5px 0px 0px 0px;">
-                                               <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                          <td style="padding: 0px 0px 0px 0px;">
+                                               <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
-                                                    <td width="20%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong>Модель</strong></span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">A</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">B</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">C</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">D</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">E</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 10px;">Требуемая мощность, л.с.</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Вес, кг</span></td>
-                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена</span></td>
+                                                    <td width="20%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong>Модель</strong></span></td>
+                                                        <td width="7%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">A</span></td>
+                                                        <td width="7%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">B</span></td>
+                                                        <td width="7%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">C</span></td>
+                                                        <td width="7%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">D</span></td>
+                                                        <td width="7%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">E</span></td>
+                                                        <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Требуемая мощность, л.с.</span></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Вес, кг</span></td>
+                                                        <td width="15%" align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                     </tr>
                                                     <tr>
-                                                    <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong>Сеньор 8,5 м<sup>3</sup></strong></span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2190</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4970</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2170</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2060</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1810</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">55/65</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3950</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price1']; ?></span></td>
+                                                    <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong>Сеньор 8,5 м<sup>3</sup></strong></span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2190</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">4970</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2170</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2060</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">1810</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">55/65</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">3950</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price1']; ?></span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong>Сеньор 10,5 м<sup>3</sup></strong></span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2320</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5210</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2320</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2190</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1950</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">70/80</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4800</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price2']; ?></span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong>Сеньор 10,5 м<sup>3</sup></strong></span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2320</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">5210</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2320</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2190</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">1950</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">70/80</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">4800</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price2']; ?></span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong>Сеньор 14 м<sup>3</sup></strong></span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2420</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5850</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2480</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2290</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2010</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">70/80</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5650</span></td>
-                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price3']; ?></span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #d1d3d4;" ><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><strong>Сеньор 14 м<sup>3</sup></strong></span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2420</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">5850</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2480</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2290</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">2010</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">70/80</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">5650</span></td>
+                                                        <td align="center" style="border: solid black 1px; background-clip:padding-box; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price3']; ?></span></td>
                                                     </tr>
                                                 </table> 
                                             </td> 
                                        </tr>
+                                       <tr valign="top">
+                                       <td style="padding: 5px 0px 0px 0px;">
+                                           <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                               * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                           </p> 
+                                       </td>
+                                   </tr>
                                    </table>
                                 </td>
                             </tr>

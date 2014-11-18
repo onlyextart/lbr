@@ -43,7 +43,7 @@ endif;
                             <?php endif; ?>
                         </table>
                     </td></tr>
-                <tr><td style="padding: 10px 20px;">
+                <tr><td style="padding: 5px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                              <tr valign="top">
                                 <td style="width: 30px; padding: 10px 0 0 0;">
@@ -69,10 +69,10 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td style="padding: 10px 10px 10px 0; text-align: justify; vertical-align:middle; ">
+                                            <td style="padding: 5px 10px 10px 0; text-align: justify; vertical-align:middle; ">
                                                 <img src="http://www.lbr.ru/images/kp/85-orlik/orlik1.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
-                                           <td style="padding: 10px 10px 0 10px;">
+                                           <td style="padding: 5px 10px 0 10px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans- serif; font-size: 13px; font-weight: normal; text-align: justify; color: black; ">
                                                   <strong>Корпус MХ</strong> (длина 120 см) с <strong>углосъемом</strong> обеспечивает полный срезу и оборот пласта при низких сопротивлениях во время вспашки. 
                                                   Корпус изготовлен из надежной закаленной крупнозернистой борсодержащей стали.
@@ -80,7 +80,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td style="padding: 0 10px 10px 0; text-align: justify; vertical-align:middle; ">
+                                            <td style="padding: 0 10px 0px 0; text-align: justify; vertical-align:middle; ">
                                                 <img src="http://www.lbr.ru/images/kp/85-orlik/orlik2.jpg" width="160px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                            <td style="padding: 10px 10px 0 10px;">
@@ -90,7 +90,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 0 10px 10px 0; text-align: justify; vertical-align:middle; ">
+                                            <td colspan="2" style="padding: 0 10px 0px 0; text-align: justify; vertical-align:middle; ">
                                                 <img src="http://www.lbr.ru/images/kp/85-orlik/orlik5.jpg" width="370px" style="border: 0; float: left;" alt="Ibis">
                                             </td>
                                         </tr>
@@ -227,7 +227,7 @@ endif;
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">60</td>
                                 </tr>                                
                                 <tr>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.<span style="color:#cc3333; font-size:10px; font-weight: bold;">*</span></td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price1']; ?></td>
                                 </tr>                                
                                 </tbody>
@@ -235,6 +235,11 @@ endif;
                                 </td>
                             </tr>
                         </table>
+                        
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                            * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                        </p> 
+                                                    
                     </td>
                 </tr>
                 

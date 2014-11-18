@@ -58,10 +58,10 @@ foreach( $districts as $districtId=>$districtName ){
                     <span itemprop="description">
                     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 			         <meta itemprop="addressCountry" content="Россия" />';
-            echo $region->contact->address.'<br>';
+            echo '<b>Адрес:</b> '.$region->contact->address.'<br>';
             echo '</div>';
-            echo 'Телефоны:'.$region->contact->telephone.'<br>';
-            echo '<span itemprop="email">'.$region->contact->email.'</span>'.'<br>';
+            echo '<b>Телефоны</b>: '.$region->contact->telephone.'<br>';
+            echo '<b>Email</b>: <span itemprop="email">'.$region->contact->email.'</span>'.'<br>';
             echo '</span>';
             echo '</div>';
             if($emptySpace>0){

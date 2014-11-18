@@ -48,10 +48,10 @@ endif;
                                 <td>
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
-                                            <td width="40" style="padding: 10px 0 10px 10px; vertical-align: middle;">
+                                            <td width="40" style="padding: 5px 0 10px 10px; vertical-align: middle;">
                                                 <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="28" height="30" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
-                                            <td style="padding: 10px 0;">
+                                            <td style="padding: 5px 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; text-align: justify; font-weight: bold; color: #808285; font-style: italic; ">
                                                     Пресс-подборщики COLUMBIA SUPER применяются для пре ссования травяной массы любой влажности, кроме этого применяются для обработки сенажа любых однолетних и многолетних трав, 
                                                     а также сена, соломы, льна на паклю и просовых культур с обвязкой рулонов полипропиленовым шпагатом или сеткой. 
@@ -76,28 +76,28 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 5px 0px 0 0;">
+                                            <td colspan="2" style="padding: 0px 0px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
-                                                    Пресс-подборщик имеет цепочно-планчатую фиксированную камеру с увеличенным количеством прессующих планок, что обеспечивает идеальное вращение и низкие потери скошен-ных культур.
+                                                    Пресс-подборщик имеет цепочно-планчатую фиксированную камеру с увеличенным количеством прессующих планок, что обеспечивает идеальное вращение и низкие потери скошенных культур.
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 10px 0 0;">
+                                            <td colspan="2" style="padding: 5px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; font-weight: bold; color: black; ">
                                                    ВЫРАБОТКА ПРЕСС-ПОДБОРЩИКА:
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 5px 0px 0 15px;">
+                                            <td colspan="2" style="padding: 0px 0px 0 15px;">
                                                 <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
                                                     При упаковке сеткой - <b>40-48 рулонов в час!</b>
                                                 </li>
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 5px 0px 10px 15px;">
+                                            <td colspan="2" style="padding: 2px 0px 5px 15px;">
                                                 <li style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
                                                     При упаковке шпагатом - <b>27-32 рулонов в час!</b>
                                                 </li>
@@ -106,7 +106,7 @@ endif;
                                        
                                        
                                          <tr valign="top">
-                                            <td colspan="2" style="padding: 5px 0px 0 0;">
+                                            <td colspan="2" style="padding: 2px 0px 0 0;">
                                                 <img src="http://www.lbr.ru/images/kp/102-columbia/columbia1.jpg" width="370" style="border: 0; float: left;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>                                        
@@ -123,7 +123,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 5px 0px 0 0;">
+                                            <td colspan="2" style="padding: 0px 0px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
                                                     Плотность прессования контролируется манометром, который расположен на прессе. 
                                                     Пресс формирует рулоны правильной цилиндрической формы.
@@ -134,12 +134,12 @@ endif;
                                        
                                         
                                          <tr valign="top">
-                                            <td colspan="2" style="padding: 20px 0px 5px 0;">
+                                            <td colspan="2" style="padding: 5px 0px 5px 0;">
                                                 <img src="http://www.lbr.ru/images/kp/102-columbia/columbia2.jpg" width="370" style="border: 0; float: left;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>  
                                         <tr valign="top">
-                                            <td colspan="2" style="padding: 15px 0px 0 0;">
+                                            <td colspan="2" style="padding: 5px 0px 0 0;">
                                                 <img src="http://www.lbr.ru/images/kp/102-columbia/columbia3.jpg" width="370" style="border: 0; float: left;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>                
@@ -465,7 +465,7 @@ endif;
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">193</td>
                                     </tr>                                    
                                     <tr>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.</td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.<span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price1']; ?></td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price2']; ?></td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price3']; ?></td>
@@ -475,6 +475,13 @@ endif;
                                             
                                 </td>
                             </tr> 
+                            <tr valign="top">
+                            <td colspan="2" style="padding: 5px 0px 0px 0px;">
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
+                            </td>
+                        </tr>
                             <tr valign="top">
                                 <td width="380">
                                     <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="left" style="border: 0; border-collapse: collapse; background: white;">

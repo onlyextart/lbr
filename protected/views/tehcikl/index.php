@@ -1,5 +1,4 @@
 <div id="main_menu_tech_schema">
-    <?php $roots = TechSchema::model()->roots()->findAll(); ?>
     <?php if(!empty($roots)): ?>
     <ul class="tech-menu-wrapper">
     <?php

@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,cyrillic);
 html{
     min-width: 100%;
+    cursor: default;
 }
 
 .menu_color_group_1 {
@@ -1305,7 +1306,7 @@ header:after {
   text-align: right;
   color: #008873;
   text-decoration: underline;
-  cursor: default;
+  cursor: pointer;
 }
 .wrapper .breadcrumbs {
   float: right;
@@ -1880,7 +1881,7 @@ footer {
 }
 footer .f-left {
   float: left;
-  margin-top: 1em;
+  margin-top: 11px;
 }
 footer .f-center {
   float: left;
@@ -1893,19 +1894,20 @@ footer .f-center a {
 }
 footer .f-right {
   float: right;
+  line-height: 90px;
 }
 footer .f-right .f-nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  position: relative;
   top: 50px;
+  font-weight: bold;
 }
 footer .f-right .f-nav li {
   float: left;
 }
 footer .f-right .f-nav li a {
-  color: #333333;
+  color: #828282;
   text-decoration: none;
   text-transform: uppercase;
   padding: 2px 4px;

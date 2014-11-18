@@ -59,7 +59,7 @@ endif;
                         </td></tr>
 
                     <tr>
-                        <td style="padding: 10px 20px 0px 20px;">
+                        <td style="padding: 5px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr valign="top">
                                     <td>
@@ -83,7 +83,7 @@ endif;
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding:5px 0px 0px 0px;">
+                                                <td style="padding:3px 0px 0px 0px;">
                                                     <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold;text-align: justify; ">
                                                         2. РАБОТА В УДОВОЛЬСТВИЕ
                                                     </p>
@@ -98,7 +98,7 @@ endif;
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding:5px 0px 0px 0px;">
+                                                <td style="padding:3px 0px 0px 0px;">
                                                     <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold;text-align: justify; ">
                                                         3. СОРТИРОВКА ПО РАЗМЕРУ
                                                     </p>
@@ -118,11 +118,11 @@ endif;
                                                                     Обеспечивают очистку от налипшей грязи и почвы.
                                                                 </p>  
                                                             </td>
-                                                            <td width="108" style="padding:0px 0px 0px 0px;" valign="bottom">
-                                                                <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-3.jpg" width="108" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                            <td width="128" style="padding:0px 0px 0px 0px;" valign="bottom">
+                                                                <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-3.jpg" width="88" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                             </td>
-                                                            <td width="105" style="padding:0px 0px 0px 5px;" valign="bottom">
-                                                                <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-4.jpg" width="100" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                            <td width="85" style="padding:0px 0px 0px 5px;" valign="bottom">
+                                                                <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-4.jpg" width="80" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -131,7 +131,7 @@ endif;
                                             <tr>
                                                 <td style="padding:5px 0px 0px 0px;">
                                                     <!--Таблица с данными-->
-                                                    <table width="590" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                    <table width="590" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                         <tr>
                                                             <td width="60%" align="left" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Модель</span></strong></td>
                                                             <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">M-647 MINI</span></strong></td>
@@ -153,31 +153,38 @@ endif;
                                                             <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">4-6</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена</span></td>
+                                                            <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Цена</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                             <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price1']; ?></span></td>
                                                             <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;"><?php echo $data['price2']; ?></span></td>
                                                         </tr>
                                                     </table>
                                                 </td>
                                             </tr>
+                                            <tr valign="top">
+                                            <td style="padding: 0px 0px 0px 0px;">
+                                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                </p> 
+                                            </td>
+                                        </tr>
                                         </table>
                                     </td>
                                     <!--Вторая колонка-->
                                     <td>
                                         <table width="170" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                             <tr>
-                                                <td style="padding: 0px 0px 8px 10px;">
-                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-5.jpg" width="160" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                <td style="padding: 0px 0px 3px 10px;">
+                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-5.jpg" width="150" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding: 3px 0px 8px 10px;">
-                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-6.jpg" width="160" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                <td style="padding: 3px 0px 3px 10px;">
+                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-6.jpg" width="150" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="padding: 3px 0px 8px 10px;">
-                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-7.jpg" width="160" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                                <td style="padding: 3px 0px 0px 10px;">
+                                                    <img src="http://www.lbr.ru/images/kp/154-sortirovschiki/mail-7.jpg" width="150" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                 </td>
                                             </tr>
 
@@ -198,6 +205,7 @@ endif;
 
             </td>
         </tr>
+        
         <tr valign="top">
             <td style="padding: 0px 20px 0px 20px;">
                 <?php
