@@ -164,7 +164,7 @@
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">от 250</span></td>
                                             </tr>  
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена</span></td>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price1']; ?></span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price2']; ?></span></td>
                                             </tr>  
@@ -173,6 +173,13 @@
                                         </tbody>
                                 </table>
                                 </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="padding: 5px 0px 0px 0px;">
+                                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                            * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                        </p> 
+                                    </td>
                                 </tr>
                                 
                             </table>

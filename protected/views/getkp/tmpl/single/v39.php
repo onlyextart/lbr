@@ -128,7 +128,7 @@
                                         </tr>
                                         <tr>
                                             <td width="32%" align="left" style="padding-left: 5px;">
-                                                <span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold;">Цена</span>
+                                                <span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold;">Цена<span style="color:#cc3333; font-size:12px;">*</span></span>
                                             </td>
                                             <td width="17%">
                                                 <span style="font-family:FuturisC, sans-serif; font-size: 14px;"></span>
@@ -230,7 +230,7 @@
                                     <span style="font-family:FuturisC, sans-serif; font-size: 14px;">Масса, кг</span>
                                 </td>
                                 <td width="17%">
-                                    <span style="font-family:FuturisC, sans-serif; font-size: 14px;">Цена, руб</span>
+                                    <span style="font-family:FuturisC, sans-serif; font-size: 14px;">Цена, руб<span style="color:#cc3333; font-size:12px;">*</span></span>
                                 </td>
                             </tr>
                             <tr style="background: none repeat scroll 0 0 #fff; font-weight: normal">
@@ -252,8 +252,23 @@
                             </tr>
                         </tbody>
                     </table>
+                    
                 </td>
             </tr>
+            <tr valign="top">
+                <td>
+                    <table width="638" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="height: 1px; text-align: center; vertical-align: middle;">
+                        <tr>
+                            <td style="padding: 5px 0px 0px 0px;">
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
+                            </td>
+                        </tr> 
+                    </table>
+                </td>
+            </tr>
+                          
             <tr>
                 <td>
                     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">

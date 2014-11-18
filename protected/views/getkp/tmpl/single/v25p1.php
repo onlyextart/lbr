@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                                    
-                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
@@ -179,7 +179,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price1']; ?></span>
@@ -196,11 +196,14 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left">1. ТОЧНОСТЬ И РАВНОМЕРНОСТЬ!</span>
                                     
-                                    <span class="text" style="font-size: 13px; line-height: 20px;">
+                                    <span class="text" style="font-size: 13px; line-height: 14px;">
                                     <b>Бренд или не бренд, вот в чём вопрос?!</b><br />                                           
                                         Разбрасыватели минеральных удобрений МХ прошли аттестацию в независимой ассоциации сельхозпроизводителей Германии. 
                                         Результаты испытаний показали, что равномерность внесения находится в допустимых пределах и обеспечивает правильное и точное внесение удобрений. 
@@ -208,7 +211,7 @@
                                         При этом выигрыш в цене составляет не менее 30%.
                                     </span>
                                     <span class="span-red-left">2. ОЧЕНЬ ЖИВУЧИЙ И ОЧЕНЬ ЗАБОТЛИВЫЙ!</span>
-                                    <span class="text" style="font-size: 13px; line-height: 20px;"> 
+                                    <span class="text" style="font-size: 13px; line-height: 14px;"> 
                                         Минеральные удобрения являются агрессивным и абразивным материалом. 
                                         Химия против «химии». Все разбрасыватели МХ окрашиваются порошковой краской компании TIKKURILA, делая их максимально стойким к химическому воздействию. 
                                         «Неубиваемые» тарелки – разбрасывающие диски и лопатки выполнены из высококачественной нержавеющей стали. 
@@ -217,7 +220,7 @@
                                     </span>
                                     <span class="span-red-left">3. От каждого по потребностям, каждому по разбрасывателю!</span>
                                     <span class="span-red-left">4. ПАРНЫЙ РАЗРЯД - ЭКОНОМИМ ДЕНЬГИ И ВРЕМЯ!</span>
-                                    <span class="text" style="font-size: 13px; line-height: 20px;"> 
+                                    <span class="text" style="font-size: 13px; line-height: 14px;"> 
                                         Использование разбрасывателей МХ с погрузчиком «BIG BAGOW» позволяет получить экономию времени и количества техники, задействованной на этапе внесения удобрений.<br />
                                     </span>
                                     <div><img src="http://www.lbr.ru/images/kp/organika-i-mineralka1.jpg" width="380" border="0" /></div>
@@ -251,7 +254,7 @@
                             </div>
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka3.jpg" border="0" />
-                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
@@ -312,7 +315,7 @@
                                             
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price5']; ?></span>
@@ -320,6 +323,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                             <div class="right-50">
                                 <span class="span-red-left">1. МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!</span>
@@ -368,7 +374,7 @@
                             </div>
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka5.jpg" border="0" />
-                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
@@ -429,7 +435,7 @@
                                             
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price6']; ?></span>
@@ -437,6 +443,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                             <div class="right-50">
                                 <span class="span-red-left">1. МЕНЬШЕ ЕЗДИМ – БОЛЬШЕ ВОЗИМ!</span>
@@ -489,7 +498,7 @@
                             </div>
                             <div class="left-50 image">
                                 
-                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
@@ -574,7 +583,7 @@
                                             
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price7']; ?></span>
@@ -582,6 +591,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                             <div class="right-50">
                                 <span class="span-red-left">1. 2 в 1, лучшие качества от прицепных и навесных разбрасывателей!</span>
@@ -619,16 +631,19 @@
                             <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/lmr-logo.jpg" border="0" /></div>
                         </div>
                         <div class="body-content">
-                            <div class="width-100 image">
+                            <div class="width-50 image" style="float:left">
                                 <img src="http://www.lbr.ru/images/kp/organika-i-mineralka8.jpg" style="width: 378px;" border="0" />
-                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka9.jpg" style="width: 378px;" border="0" />
                             </div>
-                            <div style="position: absolute; bottom: 4px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                            <div class="width-50 image" style="float:left;padding-left: 10px;">
+                                <img src="http://www.lbr.ru/images/kp/organika-i-mineralka9.jpg" style="width: 368px;" border="0" />
+                            </div>
+                            <div style="position: absolute; bottom: 350px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
                                 <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
                                     <? echo $data['product_info5']; ?>
                                 </div>
                             </div>
-                            <div class="left-50 image">
+                            <div style="clear:both;"></div>
+                            <div class="left-50 image" >
                                 <span class="span-red-left">УНИВЕРСАЛЬНЫЙ ПРОФЕССИОНАЛ:</span>
                                 <span class="text" style="padding-right: 10px;">
                                     <b>органика, известь, дефекат + перевозка зелённой массы и сенажа. Позволяет получить экономически эффект за счёт сокращения парка техники.</b>
@@ -640,9 +655,9 @@
                                 </span>
                                 
                             </div>
-                            <div class="right-50">
-                                <span class="span-red-left">ПРИВЫЧКА ИЛИ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ, ЧТО ВЫГОДНЕЙ?</span>
-                                <span class="text">
+                            <div class="right-50" style="float:left;">
+                                <span class="span-red-left" style="padding-left: 10px;">ПРИВЫЧКА ИЛИ ПЕРЕДОВЫЕ ТЕХНОЛОГИИ, ЧТО ВЫГОДНЕЙ?</span>
+                                <span class="text" style="padding-left: 10px;">
                                     Например, ММТ-9 перевозит и вносит 7куб. м органики, а PTU 6.0/14S – 13 куб. м. 
                                     При этом используются одинаковые по мощности трактора 120 л.с. В первом приближении видно, что современные разбрасыватели PTU перевозят и вносят почти в 2 раза больше органических удобрений, при этом имеют высокую равномерность, ширину внесения и универсальность в работе.
                                 <br /><b>ЭКОНОМИЧЕСКИЙ ЭФФЕКТ</b> достигается за счёт меньшей собственной массы, большой ширины внесения, равномерности и увеличенной кубатуры. 
@@ -719,7 +734,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">190-220 250-300</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Цена</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;display:inline;padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"><? echo $data['price8']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"><? echo $data['price9']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;"><? echo $data['price10']; ?></span></td>
@@ -732,7 +747,9 @@
                                         </tr>
                                 </table>
                                 
-                                
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>                             
                         </div>
                     </div>
@@ -756,7 +773,7 @@
                                     <? echo $data['product_info6']; ?>
                                 </div>
                             </div>
-                            <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                            <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             
                                             <tr>
@@ -818,7 +835,7 @@
                                                                                         
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline;padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price17']; ?></span>
@@ -826,6 +843,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                             
                             <div class="right-50">
