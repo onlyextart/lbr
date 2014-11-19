@@ -216,7 +216,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена в комплектации: Диз.горелка, ВОМ,&nbsp; сетка 2,5 мм</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена в комплектации: Диз.горелка, ВОМ,&nbsp; сетка 2,5 мм <span style="color:#cc3333; font-size:10px;">*</span></span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span>
@@ -236,6 +236,9 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p>
                                         </td>
                                         <td width="278" valign="top" align="right">
                                             <img src="http://www.lbr.ru/images/kp/sush-1.jpg" width="260" style="display: block;"/><br>
@@ -331,7 +334,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span>
@@ -339,6 +342,9 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p>
                                         </td>
                                         <td width="293" valign="top" align="right">
                                             <img src="http://www.lbr.ru/images/kp/sush-2.jpg" width="283" style="display: block;"/><br>
@@ -426,7 +432,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span>
@@ -487,7 +493,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span>
@@ -501,6 +507,13 @@
                                         </td>
                                     </tr>
                                 </table>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td style="padding: 5px 0px 0px 0px;">
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p> 
                             </td>
                         </tr>
                     </table> 
@@ -600,7 +613,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена,руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span>
@@ -675,7 +688,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span>
@@ -742,7 +755,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span>
@@ -801,14 +814,17 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="left">
-                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span>
+                                                            <span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена, руб.</span><span style="color:#cc3333; font-size:10px;">*</span>
                                                         </td>
                                                         <td>
                                                             <span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span>
                                                         </td>
                                                     </tr>
                                                 </tbody>
-                                            </table>
+                                            </table><br><br>
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p>
                                         </td>
                                         <td width="248" valign="top" align="right">
                                             <img src="http://www.lbr.ru/images/kp/sush-4.jpg" width="230" style="display: block;"/><br>
@@ -818,6 +834,7 @@
                                 </table>
                             </td>
                         </tr>
+                        
                     </table> 
                 </td>
             </tr>

@@ -71,7 +71,7 @@
                     <div class="body-content">
                                 <div class="left-50">                                    
                                    
-                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 15px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
@@ -155,7 +155,7 @@
                                             </tr>                                             
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style=" display: inline; padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px; display: inline; padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price1']; ?></span>
@@ -163,6 +163,9 @@
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                                 </div>
                                 <div class="right-50" style="text-align: center;">                                 
                                     <span class="span-red-left">3. Платить за название или за качество?!</span>

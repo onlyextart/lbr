@@ -130,7 +130,7 @@
                         <div class="body-content">
                             <div class="width-100 image">
                             <img src="http://www.lbr.ru/images/kp/great-plains5.jpg" style="width:360px; height: 236px; padding-right: 19px;" border="0" />
-                            <img src="http://www.lbr.ru/images/kp/great-plains6.jpg" style="width:377px; height: 236px;" border="0" />
+                            <img src="http://www.lbr.ru/images/kp/great-plains6.jpg" style="width:360px; " border="0" />
                         </div>
                             <div>
                                 <span class="text">
@@ -219,7 +219,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">от 180</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); display: inline; padding-right: 0px;">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
@@ -229,6 +229,9 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                            </p>
                             </div>
                     <div class="footer-content"></div>
                 </div>
@@ -337,7 +340,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена в комплектации:<br /> Диз.горелка, ВОМ, сетка 2,5мм</span>
+                                    <span style="display: inline; padding-right: 0px;">Цена в комплектации:<br /> Диз.горелка, ВОМ, сетка 2,5мм</span><span style="color:#cc3333; font-size:10px; display: inline; padding-left: 0px;">*</span>
                                     </td>
                                     <td>
                                     <span><? echo $data['price8']; ?></span>
@@ -357,6 +360,9 @@
                                     </tr>
                                     </tbody>  
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                         </div>
                     </div>
