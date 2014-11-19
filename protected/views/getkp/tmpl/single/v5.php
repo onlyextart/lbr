@@ -86,7 +86,7 @@
                         
                     </tr><tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <td colspan="2">
-                                   <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                   <table width="638" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
                                         <td width="50%" align="left"><span style="font-family:Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
                                         <td width="25%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Farmer Mini</span></td>
@@ -143,11 +143,14 @@
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4760х2220х2000</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family: Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family: Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                             </table>
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                            * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                        </p>
                                    </td>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
@@ -194,7 +197,7 @@
                         
                     </tr><tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                     <td colspan="2">
-                                   <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                   <table width="638" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
                                         <td width="49%" align="left"><span style="font-family: Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
                                         <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Star 37.7</span></td>
@@ -262,12 +265,15 @@
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                     </tr>
                                 </table>
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                            * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                        </p>
                                    </td>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
@@ -307,7 +313,7 @@
                                     <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right"><img src="http://www.lbr.ru/images/kp/dieci-1.jpg" width="470" border="0" />
                                     <img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/><br />
-                                    <table width="470" border="1" cellspacing="0" cellpadding="0" align="right" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                    <table width="470" border="1" cellspacing="0" cellpadding="0" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                     <tr bgcolor="#d1d3d4">
                                         <td width="49%" align="left"><span style="font-family:Calibri, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
                                         <td width="17%"><span style="font-family:Calibri, sans-serif; font-size: 14px;">Agri Tech 35.7 VS</span></td>
@@ -374,11 +380,14 @@
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">5550х2400х2500</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                                     </td>
                                    
                                 </tr>
