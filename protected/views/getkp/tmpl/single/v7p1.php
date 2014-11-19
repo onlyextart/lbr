@@ -43,7 +43,7 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/MXL-3000.jpg" border="0" />
                                 <span><b>Технические характеристики</b></span>
-                                <table style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1" width="361">
+                                <table style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1" width="361">
                                         <tbody>
                                             <tr bgcolor="#d1d3d4">
                                                 <td align="left" width="60%"><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">&nbsp;Модель</span></td>
@@ -86,11 +86,14 @@
                                                 <td align="center"><span style="font-family: sans-serif; font-size: 12px; ">35</span></td>
                                             </tr>
                                             <tr>
-                                                <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                                <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);display:inline; padding-right: 0px;">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;display:inline; padding-left: 0px;">*</span></td>
                                                 <td align="center"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                             </div>
                             <div class="right-50">
                                 <span class="text">
