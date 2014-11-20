@@ -72,13 +72,16 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3880</span></td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td colspan="4"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                     </tr>
                             </table>
                         </div>
+                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                     </div>
                     <div class="footer-content"></div>
                 </div>
@@ -113,7 +116,7 @@
                                         <td align="center"><span style="font-family: sans-serif; font-size: 12px; ">280-350</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="left" width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                     </tr>
                                 </table>
@@ -126,6 +129,7 @@
                                     <br>• В исполнении «ПО ПОЛЮ» опорное колесо двигается перед плугом в борозде. Таким образом, достигается оптимальный контроль глубины, исключается опрокидывание агрегата через продольную ось. Надежная полностью гидравлическая регулировка качения для более легкого оборота плуга.
                                 </span>
                             </div>
+                             
                         </div>
                     </div>
                     <div class="one-item">
@@ -172,7 +176,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">6112</span></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="4"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td colspan="4"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
@@ -181,6 +185,9 @@
                                 </table>
                             </div>
                         </div>
+                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                     </div>
                     <div class="page-break"></div>
             <div class="after-page-break"></div>
@@ -219,7 +226,7 @@
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 12px; ">150-200</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="left" width="70%"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
                                         <td align="center"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
                                     </tr>
@@ -236,6 +243,9 @@
                             </div>
                         </div>
                     </div>
+            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+            </p>
                 </div>
             </div>
             
@@ -334,7 +344,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">250-500</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); "><? echo $data['price11']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); "><? echo $data['price12']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); "><? echo $data['price13']; ?></span></td>
@@ -344,8 +354,13 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42); "><? echo $data['price17']; ?></span></td>
                                     </tr>
                             </table>
+                                 
                             </div>
+                            
                         </div>
+                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                     </div>
                     <div class="footer">
                         <div class="info-block" style="padding-bottom: 10px;">

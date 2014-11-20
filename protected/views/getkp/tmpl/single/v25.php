@@ -147,7 +147,7 @@
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">180</span></td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                                 <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price1']; ?></span></td>
                                                 <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price2']; ?></span></td>
                                                 <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price3']; ?></span></td>
@@ -156,6 +156,9 @@
                                             
                                         </tbody>
                                 </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                     </td>
                                    
                                 </tr>
@@ -253,12 +256,15 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
                                 </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                     
                                     </td>
                                    
@@ -356,12 +362,15 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
                                 </table>
+                                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                     
                                     </td>
                                    
@@ -468,17 +477,20 @@
                                             </tr>
                                             
                                             <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                         </tr>
                                             
                                         </tbody>
                                 </table>
-                                    
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                     </td>
                                    
                                 </tr>
                             </table>
+                            
                         </td>
                         
                     </tr>
@@ -605,7 +617,7 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">190-220 250-300</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Цена</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Цена</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price8']; ?></span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price9']; ?></span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price10']; ?></span></td>
@@ -617,6 +629,9 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"><? echo $data['price16']; ?></span></td>
                                         </tr>
                                 </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                         </td>
                         
                     </tr>
@@ -714,12 +729,15 @@
                                             </tr>
                                            
                                             <tr>
-                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span></td>
+                                                <td style="text-align: left;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;">Цена</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                                 <td style="text-align: center;"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold; text-align: left;"><? echo $data['price17']; ?></span></td>
                                             </tr>
                                             
                                         </tbody>
                                 </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                     </td>
                                    
                                 </tr>
