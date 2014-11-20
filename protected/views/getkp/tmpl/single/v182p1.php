@@ -313,7 +313,7 @@ endif;
                             <tr>
                                 <td style="border-bottom:solid black 3px; padding: 0px 0px 3px 0px;" width="670" >
                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left; line-height: 20px;">
-                                        Комбайны однорядные IMAC 7580 RB 40<br>
+                                        Комбайны однорядные IMAC 8090 RB 45-55<br>
                                         для уборки картофеля
                                     </p>  
                                 </td>
@@ -434,7 +434,7 @@ endif;
                                                 <table width="358" bgcolor="#FFFFFF" cellspacing="0" cellpadding="1px" align="left" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="70%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Модель</span></strong></td>
-                                                        <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">7580 RB 40</span></strong></td>
+                                                        <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">8090 RB 45-55</span></strong></td>
                                                      </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 11px;">Вес, кг</span></td>
