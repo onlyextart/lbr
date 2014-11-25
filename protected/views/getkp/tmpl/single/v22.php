@@ -366,7 +366,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Прицепной опрыскиватель BRANDT</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/bandit-logo.jpg" width="125" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
