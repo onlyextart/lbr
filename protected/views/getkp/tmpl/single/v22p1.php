@@ -305,7 +305,7 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепной опрыскиватель BRANDT</span></div>
-                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bandit-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
