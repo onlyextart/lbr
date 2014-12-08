@@ -482,6 +482,119 @@ header .menu > ul.nav > li.parent ul.nav li.item a{
 /* конец правая(рабочая) область */
 
 /*-----Конец-users-----------*/
+/*-----Начало технологический цикл----------*/
+.tech-cikl{
+    background: none repeat scroll 0 0 rgb(238, 238, 238);
+    box-shadow: 0 0 3px rgb(192, 192, 192);
+    margin: 5px 10px 5px 20px;
+}
+
+.tech-cikl li a {
+    padding: 0 2%;
+    position: relative;
+    width: 96%;
+    z-index: 1;
+    color: rgb(65, 131, 196);
+    display: block;
+    line-height: 24px;
+}
+.tech-cikl li {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: block;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.tech-cikl li a.up, .tech-cikl li a.down{
+    width: 20px;
+    height: 24px;
+    line-height: normal;
+    overflow: hidden;
+    text-indent: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    padding: 0;
+}
+.tech-cikl li a.up{
+    right: 21px;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat 3px -44px;
+    border-left: 1px solid rgb(222,222,222);
+}
+.tech-cikl li a.down{
+    border-left: 1px solid rgb(222,222,222);
+    right: 0px;
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") no-repeat -62px -44px;
+}
+.tech-cikl li a.up:hover,
+.tech-cikl li a.down:hover
+{
+    background-color: rgb(222,222,222);
+    cursor: pointer;
+}
+.tech-cikl-wrapper .ui-state-active
+{
+    /*background: url("/images/bg_menu_admin.png") repeat-x scroll left top #f3f3f3;*/
+    background: none repeat scroll 0 0 rgb(238, 238, 238);
+    border: 1px solid #d3d3d3;
+    border-bottom: 2px solid rgb(65, 131, 196);
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0 0 3px rgb(192, 192, 192);
+}
+.tech-cikl-grid-wrapper a{
+    color: rgb(65, 131, 196);
+    line-height: 18px;
+}
+.save-tech-cikl-wrapper{
+    /*display: block;*/
+    /*float: right;*/
+    text-align: right;
+    margin: 0 10px 10px;
+}
+
+.save-tech-cikl{
+   /* background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png") repeat-x scroll 50% 50% #e6e6e6;*/
+    /*border: 1px solid #d3d3d3;
+    color: #555555;
+    font-weight: normal;
+    display: block-inline;
+    padding: 0.4em 1em 0.4em 2.1em;*/
+    background: url("/css/ui/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #e6e6e6;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: #555555;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 0.1em;
+    overflow: visible;
+    
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    width: auto;
+}
+.save-tech-cikl .icon{
+    background: url("/css/ui/custom-theme/images/ui-icons_222222_256x240.png");
+    background-position: -208px -192px;
+    height: 16px;
+    width: 16px;
+    z-index: 6666;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    padding: 0;
+    display: block;
+}
+.save-tech-cikl .btn-text
+{
+    padding: 5px 5px 5px 20px;
+    display: block;
+    line-height: 1.4;
+}
+/*-----Конец технологический цикл-----------*/
 footer{
     
 }

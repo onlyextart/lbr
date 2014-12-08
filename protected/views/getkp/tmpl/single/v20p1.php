@@ -42,104 +42,107 @@
                                 <div class="left-50 image">
                                     <img  src="http://www.lbr.ru/images/kp/pricepi-i-polypricepi.jpg" border="0" />
                                    
-                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 0px" align="left" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
+                                    <table width="360" style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid; margin-top: 0px" bgcolor="#FFFFFF" border="1" cellpadding="0" cellspacing="0" height="1">
                                         <tbody>
                                             <tr>
                                                 <td width="65%">
-                                                    <span style="padding:3px;">Модель</span>
+                                                    <span style="padding:3px;font-size:11px;">Модель</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">LMR-14</span>
+                                                    <span style="padding:3px;font-size:11px;">LMR-14</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">LMR-18</span>
+                                                    <span style="padding:3px;font-size:11px;">LMR-18</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">LMR-24</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span style="padding:3px;">Грузоподъемность, т</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">14</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">18</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">24</span>
+                                                    <span style="padding:3px;font-size:11px;">LMR-24</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span style="padding:3px;">Объем кузова с двумя ярусами надставных бортов, куб. м</span>
+                                                    <span style="padding:3px;font-size:11px;">Грузоподъемность, т</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">22</span>
+                                                    <span style="padding:3px;font-size:11px;">14</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">30</span>
+                                                    <span style="padding:3px;font-size:11px;">18</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">40</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <span style="padding:3px;">Собственная масса, кг</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">3900</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">5550</span>
-                                                </td>
-                                                <td>
-                                                    <span style="padding:3px;">8000</span>
+                                                    <span style="padding:3px;font-size:11px;">24</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span style="padding:3px;">Скорость транспортировки, км/ч</span>
+                                                    <span style="padding:3px;font-size:11px;">Объем кузова с двумя ярусами надставных бортов, куб. м</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">30</span>
+                                                    <span style="padding:3px;font-size:11px;">22</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">40</span>
+                                                    <span style="padding:3px;font-size:11px;">30</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;">40</span>
+                                                    <span style="padding:3px;font-size:11px;">40</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span style="padding:3px;">Цена</span>
+                                                    <span style="padding:3px;font-size:11px;">Собственная масса, кг</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;"><? echo $data['price1']; ?></span>
+                                                    <span style="padding:3px;font-size:11px;">3900</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;"><? echo $data['price2']; ?></span>
+                                                    <span style="padding:3px;font-size:11px;">5550</span>
                                                 </td>
                                                 <td>
-                                                    <span style="padding:3px;"><? echo $data['price3']; ?></span>
+                                                    <span style="padding:3px;font-size:11px;">8000</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;">Скорость транспортировки, км/ч</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;">30</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;">40</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;">40</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="padding:3px; font-size:11px;display: inline; padding-right: 0px;">Цена</span><span style="color:#cc3333; font-size:12px; display: inline; padding-left: 0px;">*</span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;"><? echo $data['price1']; ?></span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;"><? echo $data['price2']; ?></span>
+                                                </td>
+                                                <td>
+                                                    <span style="padding:3px;font-size:11px;"><? echo $data['price3']; ?></span>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                                 </div>
                                 <div class="right-50" style="text-align: center;">
                                     <span class="span-red-left">1. 3 В 1 И ДАЖЕ БОЛЬШЕ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 18px;">                                        
+                                    <span class="text" style="font-size: 14px; line-height: 17px;">                                        
                                         • перевозка зерна, сенажа и зелёной массы объёмом до 40 куб.м;<br />
                                         • загрузка сеялок семенами и минеральными удобрениями в период проведения посевных работ;<br />
                                         • безопасная погрузка и разгрузка овощей, опционально устанавливается комплект овощник (гаситель падения в кузов и козырёк разгрузки на борт).<br>
                                     </span>
                                     <span class="span-red-left">2. НАДЁЖНОСТЬ – РЕЗУЛЬТАТ ОПЫТА И ОСНАЩЕНИЯ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 18px;"> 
+                                    <span class="text" style="font-size: 14px; line-height: 17px;"> 
                                         <b>Богатая базовая комплектация:</b><br />                                       
                                         • один ярус надставных бортов;<br />
                                         • боковая стабилизация кузова (гидромеханическая);<br />
@@ -150,7 +153,7 @@
                                         • окно в заднем борту для установки перегружающего шнека; лестница;<br />
                                     </span>
                                     <span class="span-red-left">3. ПРИЦЕП НЕ РОСКОШЬ, А СРЕДСТВО ПОЛУЧЕНИЯ ПРИБЫЛИ!</span>
-                                    <span class="text" style="font-size: 15px; line-height: 18px;">                                                                         
+                                    <span class="text" style="font-size: 14px; line-height: 17px;">                                                                         
                                        • Возим не прицеп, а грузы! Меньшая собственная масса по сравнению с аналогами за счёт конструкции кузова. Позволяет получить до 20% экономии ГСМ.<br />
                                         • Меньше ездим, больше возим! Увеличенный объём кузова в стандартной комплектации. Позволяет экономить ГСМ и время на перевозку 1 куб.м груза.<br />
                                         • Не требуется независимой гидросистемы! Полная адаптация, как к отечественным, так и импортным тракторам. Возможность установки комбинированной тормозной системы.<br />
@@ -218,11 +221,14 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1900</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; display: inline; padding-right: 0px;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px; display: inline; padding-left: 0px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         </tr>
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    <span style="padding-left:10px;">* цена сформирована по состоянию на <?php echo date("d.m.Y") ?></span>
+                                </p>
                             </div>
                             <div class="right-50">
                                 <span class="span-red-left">Оптимизация процесса уборки это:</span>
@@ -329,11 +335,14 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">40</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold; display: inline; padding-right: 0px;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px; display: inline; padding-left: 0px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                         </tr>
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                             <div class="right-50">
                                 <span class="span-red-left">Баркас – герметичность, надёжность, устойчивость к коррозии и отсутствие потерь при перевозках груза.</span>

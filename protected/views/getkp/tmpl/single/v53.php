@@ -148,9 +148,16 @@
                                                 <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Агрегатируется с тракторами, л.с. (тс)</span></td>
                                                 <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">80 (1,4)</span></td>
                                             </tr>                                            
-                                            
+                                            <tr>
+                                                <td style="text-align: left;"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Цена</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                                <td><span style="font-family: Calibri, sans-serif; font-size: 12px;"><? echo $data['price1']; ?></span></td>
+                                            </tr>
                                         </tbody>
                                 </table>
+                                    
+                                     <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                         * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                     </p> 
                                 
                                     </td>
                                    

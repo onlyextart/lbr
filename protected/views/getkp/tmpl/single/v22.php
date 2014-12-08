@@ -43,8 +43,8 @@
                         <td>
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Навесной опрыскиватель MOSQUITO</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" /></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Навесной опрыскиватель OZONE</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/ozone-logo.jpg" width="80px" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -57,7 +57,7 @@
                                     <td width="328">
                                      <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!<br /></span>
                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Каждый год в России продается более 900 навесных опрыскивателей Mosquito.                               
+                                        Каждый год в России продается более 900 навесных опрыскивателей OZONE.                               
                                     </span>
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">2. ЛУЧШИЙ В БОРЬБЕ С САРАНЧОЙ!<br /></span>
                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
@@ -65,7 +65,7 @@
                                     </span>
                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">3. КОМПАКТНОСТЬ И МАНЕВРЕННОСТЬ!<br /></span>
                                     <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
-                                        Благодаря компактности и высокой маневренности навесных опрыскивателей Mosquito (производство Польша), их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.                               
+                                        Благодаря компактности и высокой маневренности навесных опрыскивателей OZONE (производство Польша), их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.                               
                                     </span>
                                      
                                     </td>
@@ -82,10 +82,9 @@
                                             <td width="30%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">300/12</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">600/12</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">600/15</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">800/12</span></td>
+                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">800/12 Full Hydr.</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">800/15</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">1000/12</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">1000/15</span></td>
                                             <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">1000/18</span></td>
                                         </tr>
@@ -93,10 +92,9 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">15</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">15</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">12</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">15</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">15</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">18</span></td>
                                         </tr>
@@ -104,27 +102,24 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Резервуар, л</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">300</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">600</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">800</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">600</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">800</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">800</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1000</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1000</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Диапазон регулирования высоты распылителей над землей, см</span></td>
                                             <td colspan="7"><span style="font-family:Calibri, sans-serif; font-size: 12px;">50-140</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;"></span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Требуемая мощность трактора, л.с.</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">30</span></td>
                                             <td colspan="4"><span style="font-family:Calibri, sans-serif; font-size: 12px;">50</span></td>
                                             <td colspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
-                                            <td colspan="2"><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>                                            
@@ -132,12 +127,18 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>                                            
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>                                            
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>                                           
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                         </tr>
                                 </table>
                         </td>
                         
                     </tr>
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
@@ -190,17 +191,15 @@
                             </table>
                             <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="30%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
+                                            <td width="34%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="12%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="12%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="12%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">18</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">21</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">24</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">24</span></td>
                                         </tr>
                                         <tr>
@@ -208,13 +207,11 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2000</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2000</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3000</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Диапазон регулировки высоты штанги над землей</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-1700</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-1700</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-2000</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-2000</span></td>
                                         </tr>
                                         <tr>
@@ -222,18 +219,23 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">45-50</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">55-60</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>                                            
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
-                                        </tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>                                            
+                                       </tr>
                                 </table>
                         </td>
                         
+                    </tr>
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
                     </tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
@@ -302,11 +304,11 @@
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Резервуар</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2700</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3200</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3600</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2700</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3700</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3000</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3500</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">4200</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3000</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3500</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Диапазон регулировки высоты штанги над землей</span></td>
@@ -314,7 +316,7 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-1200</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-2100</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-1200</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">500-1200</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Мощность трактора</span></td>
@@ -322,20 +324,34 @@
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">100</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">100</span></td>                                            
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1200</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">120</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>                                            
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>                                            
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Воздушный рукав</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">-</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">+</span></td>                                            
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">+</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>                                            
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>                                            
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
                                         </tr>
                                 </table>
                         </td>
                         
-                    
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  
@@ -350,7 +366,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Прицепной опрыскиватель BRANDT</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" /></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/bandit-logo.jpg" width="125" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -387,55 +403,169 @@
                             </table>
                              <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
-                                            <td width="30%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">QF1500-80</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">QF1500-90</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">QF2500-100</span></td>
-                                            <td width="10%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">SB4000-100</span></td> 
+                                            <td width="40%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="30%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">QF1500-80</span></td>
+                                            <td width="30%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">QF2500-100</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">24</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">27,5</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">30</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">30</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Резервуар</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3800</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">3800</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">5700</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">6000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Диапазон регулировки высоты штанги над землей</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">330-1400</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">330-1400</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">330-1400</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">380-1830</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Мощность трактора</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
                                             <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">100</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">150</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>                                            
-                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Расстояние между колесами</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">213-350</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">213-350</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
                                         </tr>
                                 </table>
                         </td> 
                 </table> 
             </td>
         </tr>
+        <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         
-               
+        <tr>
+            <td>
+                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
+                                <tr>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Прицепной опрыскиватель ОП-2500</span></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/remkom.jpg" width="80px" border="0" /></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                    <tr>
+                        <td>
+                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
+                                <tr valign="top">
+                                    <td width="328">
+                                     <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">1. Опрыскиватель с итальянской начинкой! <br /></span>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                        Итальянские комплектующие гарантируют качественную работу и долгий срок службы. Высокопроизводительный итальянский насос  Imovilli pompe позволяет вносить не только пестициды, но и жидкие и минеральные удобрения.                                 
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">2. Комфортное и легкое управление!  <br /></span>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                        Полная гидравлика штанги позволяет легко поднимать и раскладывать штангу. А автономное управление, как левой, так и правой частью штанги  очень удобно при объезде препятствия, или движения по краю поля.                               
+                                    </span>
+                                    <span style="display: block; font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; text-align: left; color: #d1232a; text-transform: uppercase;">3. Прохождение препятствий без колебаний! <br /></span>
+                                    <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">
+                                        Гидроаккумулятор на штанге гасит колебания, передаваемые с колес на штангу опрыскивателя во время движения.                               
+                                    </span>
+                                     
+                                    </td>
+                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya4.jpg" width="300" border="0" />
+                                    
+                                    </td>
+                                   
+                                </tr>
+                                
+                            </table>
+                            <table width="638" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                                        <tr bgcolor="#d1d3d4">
+                                            <td width="40%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
+                                            <td width="15%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОП-2500-18</span></td>
+                                            <td width="15%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОП-2500-18К</span></td>
+                                            <td width="15%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОП-2500-24</span></td>
+                                            <td width="15%"><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОП-2500-24К</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">18, полная гидравлика</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">18, полная гидравлика</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">24, полная гидравлика</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">24, полная гидравлика</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Объем бака, л</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2500</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2500</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2500</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">2500</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Высота установки штанги относительно поверхности поля, мм</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">До 2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">До 2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">До 2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">До 2100</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Производительность насоса, л/мин</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">160</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">160</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">205</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">205</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Мощность трактора, л.с.</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">80</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">Ширина колеи (бесступенчатое регулирование), мм</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1400-2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1400-2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1400-2100</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px;">1400-2100</span></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>                                            
+                                            <td><span style="font-family:Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>                                            
+                                        </tr>
+                                </table>
+                        </td>
+                        
+                    </tr>
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
+                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+                </table> 
+                 
+            </td>
+        </tr>       
         
                
         <tr>

@@ -61,8 +61,8 @@
                             <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mecmar-logo.jpg" border="0" style="position: absolute; right: 0px; top: 5px; "/></div>
                         </div>
                         <div class="body-content">
-                            <div class="left-45 image">
-                                <img src="http://www.lbr.ru/images/kp/sush-1.jpg" border="0" />
+                            <div class="left-45 ">
+                                <img src="http://www.lbr.ru/images/kp/sush-1.jpg" border="0" width="250" />
                             </div>
                             <div class="right-55">
                                 <span class="tech-bold"><b>Технические характеристики</b></span>
@@ -130,7 +130,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена в комплектации: Диз.горелка, ВОМ,&nbsp; сетка 2,5 мм</span>
+                                    <span style=" display: inline; padding-right: 0px;">Цена в комплектации: Диз.горелка, ВОМ,&nbsp; сетка 2,5 мм</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                     </td>
                                     <td>
                                     <span><? echo $data['price1']; ?></span>
@@ -153,7 +153,11 @@
                             </div>
                         </div>
                     </div>
+                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                </p>
                 </div>
+                
             </div>
             <!--Конец первой страницы -->
             <div class="page-break"></div>
@@ -231,7 +235,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена,руб.</span>
+                                    <span style="display: inline; padding-right: 0px;">Цена,руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                     </td>
                                     <td>
                                     <span><? echo $data['price6']; ?></span>
@@ -309,7 +313,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена,руб.</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена,руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price7']; ?></span>
@@ -370,7 +374,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена, руб.</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price8']; ?></span>
@@ -381,8 +385,13 @@
                             </div>
                         </div>
                     </div>
+                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                </p>
                     <div style="width: 100%; height: 20px;"></div>
+                    
                 </div>
+                
             </div>
             <div class="page-break"></div>
             <div class="after-page-break"></div>
@@ -471,7 +480,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена,руб.</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена,руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price9']; ?></span>
@@ -541,7 +550,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена, руб.</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price10']; ?></span>
@@ -603,7 +612,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span>Цена, руб.</span>
+                                    <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                     </td>
                                     <td>
                                     <span><? echo $data['price11']; ?></span>
@@ -614,7 +623,11 @@
                             </div>
                         </div>
                     </div>
+                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                </p>
                 </div>
+                
             </div>
             <div class="page-break"></div>
             <div class="after-page-break"></div>
@@ -664,7 +677,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span>Цена, руб.</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price12']; ?></span>
@@ -672,6 +685,9 @@
                                         </tr>
                                     </tbody>      
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    <br><br>* цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                         </div>
                     </div>

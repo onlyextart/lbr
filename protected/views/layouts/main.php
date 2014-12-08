@@ -36,7 +36,8 @@
         <?php endif; ?>
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
-        <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon2.jpg';?>"/>
+        <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
+        <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
@@ -44,6 +45,7 @@
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
+        Yii::app()->clientScript->registerCoreScript('/js/site/main2.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
@@ -186,7 +188,7 @@
 
         <footer>
             <div class="f-left">
-                <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
+                <img src="/images/logo-foot.png" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
             </div>
             <div class="f-center">
             <?php if (Yii::app()->params['currentMenuItem']->level == 1) { ?>

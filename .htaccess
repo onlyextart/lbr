@@ -102,6 +102,11 @@ RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/p
 RewriteRule ^(.*)(tehnika/traktory/mtz/traktory-belarus-320-mtz/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/traktory/mtz/ [R=301,L]
 RewriteRule ^(.*)(tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-mosquito/)(.*) http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/ [R=301,L]
 RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/421-sortirovshchiki-remprodex/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/kartofeleuborochnye-kombajny/412-kartofeleuborochnye-kombajny-pyra-2/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/kartofeleuborochnye-kombajny/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/valkoobrazovatel-tcr-8/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/727-valkoobrazovatel-tcr-8/ [R=301,L]
+RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/ [R=301,L]
+RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-sp-8-mt-8/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/ [R=301,L]
+RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a-16tr/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/731-seyalki-yp-825a-16tr/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]

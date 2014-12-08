@@ -3,6 +3,8 @@ Yii::app()->clientScript->registerCssFile('/js/galleria/themes/classic/galleria.
 Yii::app()->clientScript->registerScriptFile('/js/galleria/galleria-1.2.9.min.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/AjaxMakersDescriptionLoader.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/product.js');
+Yii::app()->clientScript->registerScriptFile('/js/site/hidden_link.js');
+Yii::app()->clientScript->registerScriptFile('/js/site/main2.js');
 
 $h1 = $data->name;
 $review = $data->review;
@@ -44,8 +46,8 @@ function sortByTechCharTitle($a, $b)
         </div>
     <?}?>
         <h1><?php echo $h1; ?></h1>
-        <a href="<?php echo $link_manager;?>" onclick="_gaq.push(['_trackEvent', 'Товар', 'Связаться с менеджером', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>']);" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
-        <a class="download-pdf-but" onclick="_gaq.push(['_trackEvent', 'Товар', 'Скачать описание', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>']);" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
+        <a href="<?php echo $link_manager;?>" onclick="ga('send', 'event', 'Товар', 'Связаться с менеджером', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
+        <a class="download-pdf-but" onclick="ga('send', 'event', 'Товар', 'Скачать описание', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
     </div>
     <div class="product_content">
         <ul class="product_tab_button">

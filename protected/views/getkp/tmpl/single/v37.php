@@ -127,7 +127,7 @@
                                                                     <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Анкерный типа SP</span></td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
+                                                                    <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                                                     <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                                                 </tr>
                                                             </tbody>
@@ -135,7 +135,14 @@
 
                                                     </td>
                                                 </tr>
-                                            </table>
+                                                
+                                                <tr valign="top">
+                                                    <td style="padding: 5px 0px 0px 0px;">
+                                                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                            * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                        </p> 
+                                                    </td>
+                                                </tr>                                           </table>
                                         </td>
                                         <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td align="left">
@@ -190,11 +197,14 @@
                                                         <td><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Дисковый</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span></td>
+                                                        <td align="left"><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 12px; margin-left: 5px;">Цена с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                                         <td><span style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p>
                                         </td>
                                         <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                         <td align="justify" width="300">

@@ -388,7 +388,7 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">от 180</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
@@ -398,8 +398,23 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                                 </table>
+       
                  
             
+        </tr>
+        <tr>
+            <td>
+            
+                <table width="638" border="0" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
+                </table>
+            </td>
         </tr>
         <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
          <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
@@ -502,7 +517,7 @@
                                     
                                 </tr>
                                 <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Цена в комплектации:<br />Диз.горелка, ВОМ, сетка 2,5мм</span></td>
+                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">&nbsp;Цена в комплектации:<br />Диз.горелка, ВОМ, сетка 2,5мм</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 196 720 RUR</span></td>
                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 196 720 RUR</span></td>
                                     <td align="center"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 14px; font-weight: bold; color: rgb(211,35,42);">2 539 680 RUR</span></td>
@@ -512,6 +527,13 @@
                             </table> 
                         </td>
                     </tr>
+                    <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table> 
                  

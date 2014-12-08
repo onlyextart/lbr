@@ -60,19 +60,23 @@ endif;
                                     <!-- Первая колонка-->
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/150-luk/mail-2.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            <td colspan="2" style="padding: 0px 0px 0px 0px;">
+                                                <img src="http://www.lbr.ru/images/kp/169-luk/mail-1.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                             <tr>
-                                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                <td width="369" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                                         <?php echo $data['product_info1']; ?>
                                                     </p>
                                                 </td>
+                                                <td width="9">
+                                                    &nbsp;
+                                                </td>
                                             </tr>
                                         <?php endif; ?>
+                                            
                                     </table>
                                 </td>
 
@@ -115,7 +119,7 @@ endif;
                                                 <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="60%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
-                                                        <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Обрезчик ботвы лука 1,2 м</span></strong></td>
+                                                        <td width="40%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Обрезчик ботвы лука 1,2 м</span></strong></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина захвата штанги</span></td>
@@ -126,7 +130,7 @@ endif;
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">до 0,7</span></td>
                                                     </tr> 
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color: #DD2A1B;"><?php echo $data['price1']; ?></span></td>
                                                     </tr> 
 
@@ -184,19 +188,23 @@ endif;
                                     <!-- Первая колонка-->
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/150-luk/mail-4.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            <td colspan="2" style="padding: 0px 0px 0px 0px;">
+                                                <img src="http://www.lbr.ru/images/kp/169-luk/mail-2.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
                                             <tr>
-                                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                <td width="369" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                                         <?php echo $data['product_info2']; ?>
                                                     </p>
                                                 </td>
+                                                <td width="9">
+                                                    &nbsp;
+                                                </td>
                                             </tr>
                                         <?php endif; ?>
+                                            
                                     </table>
                                 </td>
 
@@ -230,38 +238,41 @@ endif;
                                                 <!--Таблица с данными-->
                                                 <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
-                                                        <td width="40%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
-                                                        <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Z-653/1<br> (1,2 м)</strong></span></td>
-                                                        <td width="20%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Z-653/1<br> (1,5 м)</strong></span></td>
+                                                        <td width="60%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
+                                                        <td width="40%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Z-653/1<br> (1,2 м)</strong></span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Производительность, га/час</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,5</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,7</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина, м</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,2</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,5</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">45</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">50</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color: #DD2A1B;"><?php echo $data['price2']; ?></span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px; color: #DD2A1B;"><?php echo $data['price3']; ?> </span></td>
                                                     </tr>
 
                                                 </table>
                                             </td>
                                         </tr>
+                                        
 
                                     </table> 
                                 </td>
                             </tr>
+                            <tr valign="top">
+                                            <td  style="padding: 5px 0px 0px 0px;">
+                                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                </p> 
+                                            </td>
+                                    </tr>
 
                         </table>
                     </td>
@@ -326,22 +337,25 @@ endif;
                                     <!-- Первая колонка-->
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/150-luk/mail-6.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            <td colspan="2" style="padding: 0px 0px 0px 0px;">
+                                                <img src="http://www.lbr.ru/images/kp/169-luk/mail-3.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
                                             <tr>
-                                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                <td width="369" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                                     <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                                         <?php echo $data['product_info3']; ?>
                                                     </p>
                                                 </td>
+                                                <td width="9">
+                                                    &nbsp;
+                                                </td>
                                             </tr>
                                         <?php endif; ?>
                                         <tr>
-                                         <td style="padding:5px 0px 5px 0px;">
-                                            <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                         <td colspan="2" style="padding:5px 0px 0px 0px; text-align:left;">
+                                            <table width="369" bgcolor="#FFFFFF" align="left" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                 <tr>
                                                     <td width="70%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
                                                     <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Z 437</span></strong></td>
@@ -363,12 +377,19 @@ endif;
                                                     <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,60</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span></td>
-                                                    <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price4']; ?></span></td>
+                                                    <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
+                                                    <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><?php echo $data['price3']; ?></span></td>
                                                 </tr>
                                             </table> 
                                         </td>
                                         </tr>
+                                        <tr valign="top">
+                                            <td  colspan="2" style="padding: 5px 0px 0px 0px;">
+                                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                                </p> 
+                                            </td>
+                                    </tr>
                                            
 
                                     </table>

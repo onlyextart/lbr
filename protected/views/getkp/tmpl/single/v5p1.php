@@ -43,75 +43,78 @@
                             <img src="http://www.lbr.ru/images/kp/dieci-main.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
-                            <span class="text">
+                            <span class="text" style="margin:0px;">
                                 • Надежный, экономичный, компактный и неприхотливый двигатель Perkins с мощностью 101 л.с.
                                 <br>• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.
                                 <br>• Передняя ось с самоблокирующимся дифференциалом для улучшенной проходимости.
                                 <br>• Уникальная гидравлика рулевого управления имеет 3 режима работы: координированное управление передними колесами, поворотом всех колес в одном направлении (крабовый ход) или передних и задних в разные стороны (колея в колею).
                             </span>
-                            <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
+                            <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;margin-top: 0px;line-height: 11px;">
                                     <tr bgcolor="#d1d3d4">
-                                        <td width="50%" align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 14px;">&nbsp;Модель</span></td>
-                                        <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 14px;">Agri Farmer Mini</span></td>
-                                        <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 14px;">Agri Farmer 30.7</span></td>
+                                        <td width="50%" align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 10px;">&nbsp;Модель</span></td>
+                                        <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 10px;">Agri Farmer Mini</span></td>
+                                        <td width="25%"><span style="font-family:FuturisXC, sans-serif; font-size: 10px;">Agri Farmer 30.7</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px; font-weight: bold;">6,35</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px; font-weight: bold;">&nbsp;Максимальная высота подъема, м</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px; font-weight: bold;">6,35</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px; font-weight: bold;">6,35</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">2800</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">3000</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Максимальная грузоподъемность, кг</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">2800</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">3000</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Горизонтальный вылет, м </span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3,65</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3,65</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Горизонтальный вылет, м </span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">3,65</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">3,65</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">700</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">700</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Грузоподъемность на максимальном вылете, кг </span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">700</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">700</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">2000</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">2000</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Грузоподъемность на максимальной высоте, кг </span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">2000</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">2000</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px;">Perkins, 74/101</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Двигатель (марка, мощность), кВт/л.с. </span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px;">Perkins, 74/101</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px;">Perkins, 74/101</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Трансмиссия</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px; ">гидростатическая</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px; ">гидростатическая</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Трансмиссия</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px; ">гидростатическая</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px; ">гидростатическая</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px; ">110/230</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 13px; ">110/230</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Гидравлическая система (производительность), л/мин; бар</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px; ">110/230</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 10px; ">110/230</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Эксплуатационная масса, кг </span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">6100</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">6100</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Эксплуатационная масса, кг </span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">6100</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">6100</span></td>
                                     </tr>
                                     <tr>
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 13px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">4760х2000х2000</span></td>
-                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">4760х2220х2000</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 10px;">&nbsp;Габариты (длина х ширина х высота), мм </span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">4760х2000х2000</span></td>
+                                        <td><span style="font-family:FuturisC, sans-serif; font-size: 10px;">4760х2220х2000</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
-                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
+                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 12px; color: rgb(211,35,42);display:inline; padding-right: 0px;">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;display:inline; padding-left: 0px;">*</span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 12px; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
+                                        <td><span style="font-family:FuturisXC, sans-serif; font-size: 12px; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                     </tr>
                             </table>
                         </div>
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                     </div>
                     <div class="footer-content"></div>
                 </div>
@@ -119,7 +122,7 @@
             <div class="page-break"></div>
             <div class="after-page-break"></div>
             <div class="one-page body-page">
-                <div class="content-page">
+                <div class="content-page" >
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span style="font-size: 18px;">Телескопические погрузчики Agri Star</span></div>
@@ -206,7 +209,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 13px;">4950х2220х2310</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);display:inline; padding-right: 0px;">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;display:inline; padding-left: 0px;">*</span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
@@ -290,11 +293,14 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">5550х2400х2500</span></td>
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);display:inline; padding-right: 0px;">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;display:inline; padding-left: 0px;">*</span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                         <td><span style="font-family:FuturisXC, sans-serif; font-size: 15px; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                     </tr>
                             </table>
+                                 <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                             </div>
                             <div class="right-30">
                                 <span class="text">
@@ -305,8 +311,9 @@
                                 </span>
                             </div>
                         </div>
+                        
                     </div>
-                    
+                   
                 </div>
             </div>
             <div class="page-break"></div>

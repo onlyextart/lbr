@@ -117,12 +117,15 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">250 – 350</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                     </tr>
                             </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                            </p>
                         </td>
                     </tr>
                 </table> 
@@ -210,12 +213,15 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">250 – 350</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
                                     </tr>
                                 </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                            </p>
                         </td>
                     </tr>
                 </table> 
@@ -307,7 +313,7 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 12px;">190 - 270</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:15px;">*</span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
@@ -318,6 +324,9 @@
                                         <td><span style="font-family:FuturisC, Calibri, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>
                                     </tr>
                                 </table>
+                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                </p>
             </td>
         </tr>
         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>

@@ -68,7 +68,7 @@
 
                                     </tr>
                                     <tr>
-                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);">Цена с НДС, руб.</span></td>
+                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);display:inline;padding-right: 0px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:12px;padding-left: 0px;display:inline;">*</span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
@@ -77,6 +77,9 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                            </p>
                         </div>
                         <div class="width-100 image">
                             <span class="h-4">2. ИТАЛЬЯНСКАЯ ГИДРАВЛИКА И ФУРНИТУРА</span>
@@ -85,7 +88,7 @@
                         </div>
                         <div class="left-65">
                             <span class="h-4">4. ШВЕДСКАЯ СТАЛЬ МАРОКS-235, S-355, C-45</span>
-                            <span class="h-4" style="padding: 15px 0; line-height: 25px; padding-left: 25px; text-indent: -25px; ">5. 10 ЛЕТ НА РЫНКЕ РОССИИ!<br>
+                            <span class="h-4" style="padding: 10px 0; line-height: 25px; padding-left: 25px; text-indent: -25px; ">5. 10 ЛЕТ НА РЫНКЕ РОССИИ!<br>
                                 ЕЖЕГОДНЫЙ ОБЪЕМ ПРОДАЖ ДО 500 ШТ. <br>
                                 УЖЕ3 500 ДОВОЛЬНЫХ <br>
                                 КЛИЕНТОВ В 55 РЕГИОНАХ <br>
