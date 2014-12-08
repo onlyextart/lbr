@@ -1077,7 +1077,6 @@ header:after {
 }
 .wrapper #content .contacts_list ul li.filial_caption a {
   margin-bottom: 15px;
-  /*color: #737373;*/
   color: #000000;
   text-transform: uppercase;
   font-size: 14px;
@@ -1099,29 +1098,24 @@ header:after {
     margin-bottom: 1.5%;
     float: left;
     height: 360px;
-    /*font-weight: bold;*/
     width: 280px;
     background-color: #f1f0f0;
-    /*#ebedec;*/
     border-radius: 4px;
     box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
 }
 .wrapper #content .contacts_list .region-group .contact-item .contact-image img{
     display: block;
-    /*height: 126px;*/
 }
 .wrapper #content .contacts_list .region-group .contact-item .contact-image{
     height: 165px;
 }
-/*.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
-    font-weight: normal;
-}*/
+
 .wrapper #content .contacts_list .region-group:not(.region-one) + .region-group.region-one{
     margin-left: 10px;
-}/*
-.wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
-    font-weight: bold;
-}*/
+}
+a[name="list_filials"]{
+    position: absolute;
+}
 .wrapper #content .contacts_list .region-group{
     display: block; 
     clear: both; 
@@ -1130,12 +1124,9 @@ header:after {
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
     margin-right: 6px;
-    /*padding-right: 10px;*/
     width: 30%;
 }
-.wrapper #content .contacts_list .region-group.region-one{
-    
-}
+
 .wrapper #content .contacts_list .region-group.region-one .region-group-name {
     margin-left: 3px;
 }
