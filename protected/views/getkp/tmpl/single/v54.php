@@ -205,6 +205,13 @@
                                         </tbody>
                                     </table>
                             </td></tr> 
+                            <tr valign="top">
+                    <td style="padding: 5px 0px 0px 0px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цены сформированы по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+                </tr>
                     <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 </table>               
             </td>

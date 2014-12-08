@@ -369,12 +369,19 @@ endif;
                                                         <td width="100" align="center" style="border: solid black 1px;font-family: 'Trebuchet MS', sans-serif; font-size:13px;">от 80</td>             
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                                         <td align="center" style="border: solid black 1px; color: #DD2A1B; padding-left:5px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $data['price1']; ?></span></td>
                                                     </tr>
                                                 </table>
                                             </td>
                                         </tr>
+                                        <tr valign="top">
+                                        <td style="padding: 5px 0px 0px 0px;">
+                                            <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                                * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                            </p> 
+                                        </td>
+                                    </tr>
 
                                         <tr>
                                             <td style="padding-top:37px;">

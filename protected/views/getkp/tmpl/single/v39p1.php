@@ -105,7 +105,7 @@
                                         </tr>
                                         <tr>
                                             <td width="32%">
-                                                <span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold;">Цена</span>
+                                                <span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold;display:inline;">Цена</span><span style="color:#cc3333; font-size:12px;display: inline; padding-left:0px;">*</span>
                                             </td>
                                             <td width="17%">
                                                 <span style="font-family:FuturisC, sans-serif; font-size: 14px;"></span>
@@ -122,6 +122,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                            </div>
                            <div class="width-100" style="margin-top: 15px">
                                 <div class="h-2 left-100" style="font-family: FuturisXC, sans-serif; margin-top: 10px; text-transform: none; font-size: 21px; border-bottom: 1px solid #000000; margin-bottom: 3px;">
@@ -159,7 +162,7 @@
                                     <span style="font-family:FuturisC, sans-serif; font-size: 14px;">Масса, кг</span>
                                 </td>
                                 <td width="17%">
-                                    <span style="font-family:FuturisC, sans-serif; font-size: 14px;">Цена, руб</span>
+                                    <span style="font-family:FuturisC, sans-serif; font-size: 14px;display:inline;">Цена, руб</span><span style="color:#cc3333; font-size:12px;display:inline; padding-left:0px;">*</span>
                                 </td>
                             </tr>
                             <tr style="background: none repeat scroll 0 0 #fff; font-weight: normal">
@@ -181,6 +184,9 @@
                             </tr>
                         </tbody>
                     </table>
+                           <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p>
                         </div>
                     </div>
                 </div>

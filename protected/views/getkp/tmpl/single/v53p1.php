@@ -154,7 +154,7 @@
                                             </tr>   
                                             <tr>
                                                 <td>
-                                                    <span>Цена</span>
+                                                    <span style="display:inline;">Цена</span><span style="color:#cc3333; font-size:12px;display:inline; padding-left: 0px;">*</span>
                                                 </td>
                                                 <td>
                                                     <span><? echo $data['price1']; ?></span>
@@ -162,7 +162,11 @@
                                             </tr>
                                             
                                         </tbody>
-                                    </table>                                    
+                                    </table>  
+                                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        <span style="padding-left: 20px;">* цена сформирована по состоянию на <?php echo date("d.m.Y")?></span>
+                                    </p> 
+                    
                                     
                                     </div>
                                 <div class="left-50" style="text-align: center;">

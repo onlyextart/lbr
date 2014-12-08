@@ -27,35 +27,35 @@
                     <div class="one-item" style="margin-bottom: 0px;">
                     
                         <div class="head-content">
-                            <div class="h-2 left-75"><span>Навесной опрыскиватель MOSQUITO</span></div>
-                            <div class="logo-maker right-15"><img src="http://www.lbr.ru/images/kp/mosquito-logo.jpg" width="80px" border="0" style="position: absolute; right: 0px; top: 11px; height: 45px; "/></div>
+                            <div class="h-2 left-75"><span>Навесной опрыскиватель OZONE</span></div>
+                            <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/ozone-logo.jpg"  border="0" style="position: absolute; right: 0px; top: 11px; height: 45px; "/></div>
                         </div>
                         <div class="body-content">
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya.jpg" border="0" height="254px" />
                             </div>
-                            <div style="position: absolute; bottom: 139px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                            <div style="position: absolute; bottom: 145px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
                                 <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
                                     <? echo $data['product_info1']; ?>
                                 </div>
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ<br /> НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">1. САМАЯ ПОПУЛЯРНАЯ СЕРИЯ<br /> НАВЕСНЫХ ОПРЫСКИВАТЕЛЕЙ В РОССИИ!</span>
                                 <span class="text">
-                                   Каждый год в России продается более 900 навесных опрыскивателей Mosquito.
+                                   Каждый год в России продается более 900 навесных опрыскивателей OZONE.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. ЛУЧШИЙ В БОРЬБЕ С САРАНЧОЙ!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">2. ЛУЧШИЙ В БОРЬБЕ С САРАНЧОЙ!</span>
                                 <span class="text">
                                    Высокая скорость работы в сочетании с низкой ценой опрыскивателя, позволили опрыскивателю стать одним из лучших и экономичных решений для быстрой обработки полей против нашествия саранчи.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">3. КОМПАКТНОСТЬ И МАНЕВРЕННОСТЬ!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">3. КОМПАКТНОСТЬ И МАНЕВРЕННОСТЬ!</span>
                                 <span class="text">
-                                   Благодаря компактности и высокой маневренности навесных опрыскивателей Mosquito, их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.
+                                   Благодаря компактности и высокой маневренности навесных опрыскивателей OZONE, их часто используют при краевой обработке полей, где не могут работать прицепные или самоходные.
                                 </span>
                             </div>
                             </div>
@@ -102,7 +102,7 @@
                                             <td colspan="2"><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>                                            
@@ -112,6 +112,8 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>                                            
                                         </tr>
                                 </table>
+                                
+                               
                             </div>
                         </div>
                     </div>
@@ -131,7 +133,7 @@
                             </div>
                             <div class="right-50" style="font-size: 15px;">
                                 <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1.СОБРАН ИЗ ИТАЛЬЯНСКИХ КОМПЛЕКТУЮЩИХ!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">1.СОБРАН ИЗ ИТАЛЬЯНСКИХ <br>КОМПЛЕКТУЮЩИХ!!</span>
                                 <span class="text">
                                    a. Поршневой мембранный насос марки UDOR производительностью 170 л/минуту обеспечивает норму расхода химикатов от 60 до 650 л/га. <br />
                                    b. Распределители марки ARAG позволяют проводить отключение любой из 5 секций опрыскивателя. <br />
@@ -139,13 +141,13 @@
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. МАКСИМАЛЬНАЯ РЕНТАБЕЛЬНОСТЬ – ЭФФЕКТИВНЫЕ ИНВЕСТИЦИИ!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">2. МАКСИМАЛЬНАЯ РЕНТАБЕЛЬНОСТЬ – ЭФФЕКТИВНЫЕ ИНВЕСТИЦИИ!!</span>
                                 <span class="text">
                                    Цена опрыскивателя позволяет окупить его приобретение в течение одного сезона использования.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">3. ПРОХОДЫ БЕЗ ВРЕДА ДЛЯ РАСТЕНИЙ!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">3. ПРОХОДЫ БЕЗ ВРЕДА ДЛЯ РАСТЕНИЙ!!</span>
                                 <span class="text">
                                    Изменяемая колея опрыскивателя дает возможность использовать его на различных типах междурядья при химической защите овощей, пропашных и зерновых культур.
                                 </span>
@@ -155,16 +157,14 @@
                                 <table width="758" border="1" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; text-align: center; vertical-align: middle; border-color: #808285;">
                                         <tr bgcolor="#d1d3d4">
                                             <td width="40%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
-                                            <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000 с компьютером ARAG BRAVO 180</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 2000</span></td>
+                                            <td width="20%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">OZONE 3000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">18</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">21</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24</span></td>
                                         </tr>
                                         <tr>
@@ -172,13 +172,11 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2000</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2000</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3000</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3000</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Диапазон регулировки высоты штанги над землей</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1700</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1700</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2000</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2000</span></td>
                                         </tr>
                                         <tr>
@@ -186,21 +184,25 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">45-50</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">55-60</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price10']; ?></span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
                             
                         </div>
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                    </p>
                     </div>
+                    
                 </div>
+                 
+                           
             </div>
             <div class="page-break"></div>
             <div class="after-page-break"></div>
@@ -221,19 +223,19 @@
                                 </div>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1. Экономия химикатов до 30%!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">1. Экономия химикатов до 30%!!</span>
                                 <span class="text">
                                    Прицепные опрыскиватели Bargam оснащены компьютером ARAG BRAVO 180, который позволяет соблюдать установленную норму внесения химикатов вне зависимости от скорости движения опрыскивателя.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. Точность внесения превыше всего!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">2. Точность внесения превыше всего!</span>
                                 <span class="text">
                                    Прицепные опрыскиватели Bargam оснащены специально сконструированной для российских условий, системой стабилизации штанги. Система состоит из блока пневмоподушек и специальных стабилизаторов, что позволяет минимизировать колебания штанги при движении опрыскивателя.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">3. Большая площадь покрытия химикатами!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">3. Большая площадь покрытия химикатами!</span>
                                 <span class="text">
                                    Использование технологии воздушного рукава (опция) позволяет увеличить площадь покрытия листьев растений в 8-10 раз, что способствует повышению эффективности вносимых продуктов и снижению расходов на химикаты.
                                 </span>
@@ -259,10 +261,10 @@
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Резервуар</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3500</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4200</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3000</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3700</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2700</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">4000</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">3500</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Диапазон регулировки высоты штанги над землей</span></td>
@@ -270,7 +272,7 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2100</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-2100</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">500-1200</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Мощность трактора</span></td>
@@ -278,23 +280,23 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">80</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">100</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">100</span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1200</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">120</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Воздушный рукав</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">-</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">+</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">-</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">-</span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">+</span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">-</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">+</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price11']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price12']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price13']; ?></span></td>                                            
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price14']; ?></span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price15']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
@@ -303,32 +305,32 @@
                     <div class="one-item">
                         <div class="head-content">
                             <div class="h-2 left-75"><span>Прицепной опрыскиватель BRANDT</span></div>
-                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bargam-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
+                           <div class="logo-maker right-25"><img src="http://www.lbr.ru/images/kp/bandit-logo.jpg" width="125" border="0" style="position: absolute; top: 5px; right: 0px;" /></div>
                         </div>
                         <div class="body-content">
                             <div class="width-100 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya3.jpg" style="width: 100%; border:0;" />
                             </div>
-                            <div style="position: absolute; bottom: 376px; width: 760px; text-align: center;  background: rgba(204, 51, 51, 0.8);">
+                            <div style="position: absolute; bottom: 366px; width: 760px; text-align: center;  background: rgba(204, 51, 51, 0.8);">
                                 <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
                                     <? echo $data['product_info4']; ?>
                                 </div>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">1. ЗАПАТЕНТОВАННЫЕ КОНУСНЫЕ НАКОНЕЧНИКИ – РАБОТА ПРИ СКОРОСТИ ВЕТРА БОЛЕЕ 30 КМ/ЧАС</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">1. ЗАПАТЕНТОВАННЫЕ КОНУСНЫЕ НАКОНЕЧНИКИ – РАБОТА ПРИ СКОРОСТИ ВЕТРА БОЛЕЕ 30 КМ/ЧАС</span>
                                 <span class="text">
                                    Все опрыскиватели оснащены запатентованными конусными колпаками для защиты угла распыла от ветра. Технология снижения турбулентности WindCone, позволяет сохранить факел распыла, что существенно увеличивает эффективность химической защиты. 
                                    Легкие конусные наконечники не заслоняют видимость и не влияют на вес штанги и в отличии от обычных экранов предотвращают скопление химикатов.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">2. ТОЧНАЯ СИСТЕМА – ЭКОНОМИЯ КАЖДОЙ КАПЛИ!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">2. ТОЧНАЯ СИСТЕМА – ЭКОНОМИЯ КАЖДОЙ КАПЛИ!!</span>
                                 <span class="text">
                                    Монитор MicroTrak 3405FII (GPS совместимый, 5 автоматический контроллер норм внесения рабочей жидкости) позволяет поддерживать постоянной установленную норму расхода рабочей жидкости вне зависимости от скорости движения опрыскивателя.
                                 </span>
                             </div>
                             <div class="width-100">
-                                <span class="h-4" style="text-transform: uppercase;">3. ВЫГОДНЫЕ ИНВЕСТИЦИИ – НАДЕЖНОЕ ВЛОЖЕНИЕ!!</span>
+                                <span class="h-4" style="text-transform: uppercase;font-size: 14px;font-weight: bold;">3. ВЫГОДНЫЕ ИНВЕСТИЦИИ – НАДЕЖНОЕ ВЛОЖЕНИЕ!!</span>
                                 <span class="text">
                                    На все опрыскиватели Brandt наносится специальное порошковое покрытие, которое в 10 раз! более износостойкое, чем обычная краска, что позволяет опрыскивателю выглядеть как новый, даже через несколько лет использования.
                                 </span>
@@ -366,14 +368,17 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">213-350</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price16']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price17']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
                                         </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
+                    <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                    </p>
                 </div>
             </div>
             <div class="page-break"></div>
@@ -390,7 +395,7 @@
                             <div class="left-50 image">
                                 <img src="http://www.lbr.ru/images/kp/opriskovateli_ot_a_do_ya4.jpg" border="0" height="254px" />
                             </div>
-                            <div style="position: absolute; bottom: 189px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
+                            <div style="position: absolute; bottom: 200px; width: 361px; text-align: justify;  background: rgba(204, 51, 51, 0.8);">
                                 <div style="font-family:FuturisC, sans-serif; font-size: 20px; font-weight: bold; color: white; margin-left: 10px; margin-right: 10px;">
                                     <? echo $data['product_info1']; ?>
                                 </div>
@@ -425,11 +430,11 @@
                                             <td width="15%"><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">ОП-2500-24К</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, мм</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1800, полная гидравлика</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1800, полная гидравлика</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2400, полная гидравлика</span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">2400, полная гидравлика</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">18, полная гидравлика</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">18, полная гидравлика</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24, полная гидравлика</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">24, полная гидравлика</span></td>
                                         </tr>
                                         <tr>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">Объем бака, л</span></td>
@@ -467,18 +472,21 @@
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">1400-2100</span></td>
                                         </tr>
                                         <tr>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 12px; font-weight: bold;">&nbsp;Цена руб, с НДС</span><span style="color:#cc3333; font-size:12px;">*</span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price18']; ?></span></td>
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price19']; ?></span></td>
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>
+                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price20']; ?></span></td>                                            
                                             <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price21']; ?></span></td>                                            
-                                            <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price22']; ?></span></td>                                            
                                         </tr>
                                 </table>
+                                <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                    * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                </p>
                             </div>
                         </div>
                     </div>
                      <div class="footer">
-                        <div class="info-block" style="padding-bottom: 10px;">
+                        <div class="info-block" style="padding-bottom: 10px;padding-top: 20px;">
                             <span>
                                 Всю подробную информацию по заинтересовавшим Вас моделям техники, а также опыт эксплуатации и отзывы потребителей Вы сможете получить у Вашего персонального менеджера.
                             </span>

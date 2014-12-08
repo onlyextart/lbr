@@ -42,8 +42,8 @@
                             <img src="http://www.lbr.ru/images/kp/agrisem1.jpg" style="width:100%" border="0" />
                         </div>
                         <div class="width-100">
-                            <span class="h-4">ИДЕАЛЬНАЯ ЗАДЕЛКА РАСТИТЕЛЬНЫХ ОСТАТКОВ!</span>
-                            <span class="text">
+                            <span class="h-4" style="margin:0px;">ИДЕАЛЬНАЯ ЗАДЕЛКА РАСТИТЕЛЬНЫХ ОСТАТКОВ!</span>
+                            <span class="text" style="margin:0px;">
                                 • Высокая скорость измельчения достигается благодаря увеличенному диаметру подшипников (в ступице SRE подшипник с внешним диаметром 100 мм, внутренним – 45 мм).
                                 <br>• Два ряда дисков со спиральной антиударной системой защиты независимы друг от друга, что позволяет преодолевать препятствия и сохранять стабильность на высокой скорости.
                                 <br>• Disc-O-Mulch эффективно работает даже при наличии большого количества растительных остатков, за счет высокого давления на каждый диск.                                
@@ -92,13 +92,16 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">250 – 350</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
                                     </tr>
                             </table>
                         </div>
+                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>   
                     </div>
                     <div class="footer-content"></div>
                 </div>
@@ -170,7 +173,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">250 – 350</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price4']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price5']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price6']; ?></span></td>
@@ -246,7 +249,7 @@
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 12px;">190 - 270</span></td> 
                                     </tr>
                                     <tr>                                       
-                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span></td>
+                                        <td align="left"><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);">&nbsp;Цена руб с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price7']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price8']; ?></span></td>
                                         <td><span style="font-family:FuturisC, sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price9']; ?></span></td>
@@ -258,6 +261,9 @@
                                     </tr>
                                 </table>
                             </div>
+                             <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                                        * цена сформирована по состоянию на <?php echo date("d.m.Y") ?>
+                                    </p>
                         </div>
                     </div>
                     <div class="footer">
