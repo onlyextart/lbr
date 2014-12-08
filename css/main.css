@@ -1036,48 +1036,146 @@ header:after {
   top: 120px;
 }
 .wrapper #content .contacts_list {
+    
+}
+.wrapper #content .contacts_list {
   list-style: none;
 }
 .wrapper #content .contacts_list .district_name {
-  border-bottom: 1px solid #f67f19;
+  /*border-bottom: 1px solid #f67f19;*/
   margin-bottom: 15px;
   float: left;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   width: auto;
+  font-weight: bold;
+  cursor: default;
 }
-.wrapper #content .contacts_list .district_name span {
+/*.wrapper #content .contacts_list .district_name span {
   font-size: 15px;
   font-weight: bold;
-}
+}*/
+
 .wrapper #content .contacts_list >li {
   width: 100%;
   float: left;
 }
+
 .wrapper #content .contacts_list ul {
   list-style: none;
   float: left;
-  font-size: 10px;
+  font-size: 14px;
   width: 100%;
 }
 .wrapper #content .contacts_list ul li.filial_caption {
-  width: 24%;
+  width: 30%;
   float: left;
   margin-right: 1%;
-  height: 130px;
+  height: 160px;
+  line-height: 17px;
 }
 .wrapper #content .contacts_list ul li.filial_caption a {
   margin-bottom: 15px;
-  color: #737373;
+  /*color: #737373;*/
+  color: #000000;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   display: block;
   width: 100%;
+  text-decoration: none;
+}
+.wrapper #content .contacts_list ul li.filial_caption span[itemprop]{
+  cursor: default !important;
 }
 .wrapper #content .contacts_list ul li.filial_caption img {
   max-height: 115px;
+}
+
+.wrapper #content .contacts_list .region-group .contact-item {
+    cursor: default;
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    float: left;
+    height: 360px;
+    /*font-weight: bold;*/
+    width: 280px;
+    background-color: #f1f0f0;
+    /*#ebedec;*/
+    border-radius: 4px;
+    box-shadow: 0 0 4px 1px rgba(50, 50, 50, 0.5);
+}
+.wrapper #content .contacts_list .region-group .contact-item .contact-image img{
+    display: block;
+    /*height: 126px;*/
+}
+.wrapper #content .contacts_list .region-group .contact-item .contact-image{
+    height: 165px;
+}
+/*.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
+    font-weight: normal;
+}*/
+.wrapper #content .contacts_list .region-group:not(.region-one) + .region-group.region-one{
+    margin-left: 10px;
+}/*
+.wrapper #content .contacts_list .region-group-name, .wrapper #content .contacts_list .city-name{
+    font-weight: bold;
+}*/
+.wrapper #content .contacts_list .region-group{
+    display: block; 
+    clear: both; 
+    overflow: hidden;
+}
+.wrapper #content .contacts_list .region-group.region-one{
+    display: inline-block;
+    margin-right: 6px;
+    /*padding-right: 10px;*/
+    width: 30%;
+}
+.wrapper #content .contacts_list .region-group.region-one{
+    
+}
+.wrapper #content .contacts_list .region-group.region-one .region-group-name {
+    margin-left: 3px;
+}
+.wrapper #content .contacts_list .region-group .region-group-name {
+    margin-bottom: 20px;
+    margin-left: 13px;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
+    width: 30%;
+}
+
+.wrapper #content .contact-item .contact-info > div{
+    margin-bottom: 6px;
+}
+.wrapper #content .contact-item .contact-info{
+    margin: 10px;
+}
+.wrapper #content .contacts_list .city-name{
+    margin: 5px 10px 5px 10px;
+}
+.wrapper #content .contacts_list .city-name a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #F39314;
+    font-weight: bold;
+}
+.wrapper #content .contacts_list .city-name a:hover{
+    text-decoration: underline;
+}
+.wrapper #content .view_all_contacts{
+    position: absolute;
+    /*top: 15px;
+    left: 50px;*/
+}
+.wrapper #content .contact-additional-info{
+     float:left; 
+     width:100%;
+     position: relative;
 }
 .wrapper .search .search-form {
   padding: 1em 2em;
