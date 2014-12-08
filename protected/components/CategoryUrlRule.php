@@ -59,16 +59,32 @@ class CategoryUrlRule extends CBaseUrlRule
             ));
         } else {
             $pos = strpos($pathInfo, '/sort/mashiny-dlya-traktora-');
-            if($pos !== false) {
+            if($pos !== false) { // по мощности трактора
                 $additionalParam = substr($pathInfo, $pos);
                 $pathInfo = substr($pathInfo, 0, $pos);
-            } else {
+            } else { // по технологическому циклу
                 $pos = strpos($pathInfo, '/sort/cikl-');
                 if($pos !== false) {
                     $additionalParam = substr($pathInfo, $pos);
                     $pathInfo = substr($pathInfo, 0, $pos);
                 }
             }
+            
+            /*
+            $pos = strpos($pathInfo, '/mightiness/');
+            if($pos !== false) {// по мощности трактора
+                $additionalParam = substr($pathInfo, $pos);
+                $pathInfo = substr($pathInfo, 0, $pos+11);
+            } else {// по технологическому циклу
+                $pos = strpos($pathInfo, '/tehcikl/');
+                if($pos !== false) {
+                    $additionalParam = substr($pathInfo, $pos);
+                    $pathInfo = substr($pathInfo, 0, $pos+9);
+                }
+            }
+            */
+            //var_dump($pathInfo);exit;
+            //$pathInfo .= 'sort/mashiny-dlya-traktora-120-ls/';
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',
                 array(':path'=>'/'.$pathInfo)
