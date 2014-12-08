@@ -1092,7 +1092,8 @@ header:after {
   max-height: 115px;
 }
 
-.wrapper #content .contacts_list .region-group .contact-item{
+.wrapper #content .contacts_list .region-group .contact-item {
+    cursor: default;
     margin-left: 1.5%;
     margin-bottom: 1.5%;
     float: left;
@@ -1167,8 +1168,8 @@ header:after {
 }
 .wrapper #content .view_all_contacts{
     position: absolute;
-    top: 15px;
-    left: 50px;
+    /*top: 15px;
+    left: 50px;*/
 }
 .wrapper #content .contact-additional-info{
      float:left; 

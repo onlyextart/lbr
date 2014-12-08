@@ -1,5 +1,5 @@
 <div class="contact-additional-info">
-    <a class="view_all_contacts" href="<?php echo Yii::app()->getBaseUrl(true).'/company/contacts/#list_filials'?>"><img alt="Посмотреть все контакты" title="Посмотреть все контакты" src="/images/bottom-arrow.png" /></a>
+    <a class="view_all_contacts" href="<?php echo Yii::app()->getBaseUrl(true).'/company/contacts/#list_filials'?>">Посмотреть все контакты<!--img alt="Посмотреть все контакты" title="Посмотреть все контакты" src="/images/bottom-arrow.png" /--></a>
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="500">
         <param name="movie" value="/images/map1000px.swf">
         <param name="bgcolor" value="#ffffff">
@@ -67,9 +67,8 @@ foreach($regionsArray as $districtId => $itemCount) {
     foreach($regions as $region) {
         if($districtId==$region->contact->okrug_id) {  
             echo '<div class="contact-item">';
-            //echo '<div class="city-name">'.$region->contact->name.'</div>';
             echo '<div class="city-name">'.CHtml::link($region->contact->name, '/company/contacts/'.$region->contact->alias.'/').'</div>';
-            echo '<div class="contact-image"><img src="http://www.lbr.test/images/ContactsImages/'.$region->contact->alias.'/main.jpg" /></div>';
+            echo '<div class="contact-image"><img src="'.Yii::app()->getBaseUrl(true).'/images/ContactsImages/'.$region->contact->alias.'/main.jpg" /></div>';
             echo '<div class="contact-info" itemscope="address" itemtype="http://schema.org/LocalBusiness">'.
                     '<meta itemprop="url" content="www.lbr.ru" />'.
                     '<meta itemprop="name" content="ЛБР-АгроМаркет" />'.
