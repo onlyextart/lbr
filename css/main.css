@@ -1108,6 +1108,9 @@ header:after {
     display: block;
     /*height: 126px;*/
 }
+.wrapper #content .contacts_list .region-group .contact-item .contact-image{
+    height: 165px;
+}
 /*.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
     font-weight: normal;
 }*/

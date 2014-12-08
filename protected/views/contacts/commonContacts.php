@@ -69,7 +69,7 @@ foreach($regionsArray as $districtId => $itemCount) {
             echo '<div class="contact-item">';
             //echo '<div class="city-name">'.$region->contact->name.'</div>';
             echo '<div class="city-name">'.CHtml::link($region->contact->name, '/company/contacts/'.$region->contact->alias.'/').'</div>';
-            echo '<div class="contact-image"><img src="http://www.lbr.test/images/ContactsImages/blagoveshchensk/main.jpg" /></div>';
+            echo '<div class="contact-image"><img src="http://www.lbr.test/images/ContactsImages/'.$region->contact->alias.'/main.jpg" /></div>';
             echo '<div class="contact-info" itemscope="address" itemtype="http://schema.org/LocalBusiness">'.
                     '<meta itemprop="url" content="www.lbr.ru" />'.
                     '<meta itemprop="name" content="ЛБР-АгроМаркет" />'.
