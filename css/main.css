@@ -1106,7 +1106,7 @@ header:after {
 }
 .wrapper #content .contacts_list .region-group .contact-item .contact-image img{
     display: block;
-    height: 126px;
+    /*height: 126px;*/
 }
 /*.wrapper #content .contacts_list .region-group .contact-item span[itemprop]{
     font-weight: normal;
