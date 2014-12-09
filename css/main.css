@@ -1095,7 +1095,7 @@ header:after {
 .wrapper #content .contacts_list .region-group .contact-item {
     cursor: default;
     margin-left: 1.5%;
-    margin-bottom: 1.5%;
+    margin-bottom: 1.6%;
     float: left;
     height: 360px;
     width: 280px;
@@ -1123,7 +1123,7 @@ a[name="list_filials"]{
 }
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
-    margin-right: 6px;
+    margin-right: 7px;
     width: 287px;
 }
 
@@ -1133,12 +1133,13 @@ a[name="list_filials"]{
 .wrapper #content .contacts_list .region-group .region-group-name {
     margin-bottom: 20px;
     margin-left: 13px;
-    margin-top: 6px;
+    margin-top: 15px;
     font-size: 17px;
+    font-weight: bold;
 }
-.wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
+/*.wrapper #content .contacts_list .region-group:not(.region-one) .region-group-name {
     width: 30%;
-}
+}*/
 
 .wrapper #content .contact-item .contact-info > div{
     margin-bottom: 6px;
