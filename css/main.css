@@ -1036,7 +1036,7 @@ header:after {
   top: 120px;
 }
 .wrapper #content .contacts_list {
-    
+  padding-left: 56px;
 }
 .wrapper #content .contacts_list {
   list-style: none;
@@ -1124,7 +1124,7 @@ a[name="list_filials"]{
 .wrapper #content .contacts_list .region-group.region-one{
     display: inline-block;
     margin-right: 6px;
-    width: 30%;
+    width: 287px;
 }
 
 .wrapper #content .contacts_list .region-group.region-one .region-group-name {
