@@ -79,7 +79,7 @@ foreach($regionsArray as $districtId => $itemCount) {
                            '<div><b>Адрес: </b>'.$region->contact->address.'</div>'.
                         '</div>'.
                     '</div>'.
-                    '<div><b>Телефоны: </b>'.$region->contact->telephone.'</div>'.
+                    '<div><b>Телефон: </b>'.$region->contact->telephone.'</div>'.
                     '<div itemprop="email"><b>Email: </b>'.$region->contact->email.'</div>'.
                   '</div>';
             echo '</div>';
