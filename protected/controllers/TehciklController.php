@@ -2,7 +2,7 @@
 class TehciklController extends Controller
 {
     public function actionIndex($sort = null)
-    {
+    {//var_dump($_GET);exit;
         $techSchemaRoots = TechSchema::model()->roots()->findAll();
         $title = 'По технологическому циклу';
         $url = array(
@@ -197,7 +197,7 @@ class TehciklController extends Controller
                 $descendants=$cycle->descendants()->findAll();
                 foreach ($descendants as $descendant):
                     $response .= '<div class="one_banner">
-                        <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/sort/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
+                        <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
                         <div class="m_image">';
                     $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
                     $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
