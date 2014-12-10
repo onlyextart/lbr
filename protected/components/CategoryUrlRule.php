@@ -15,8 +15,8 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::MIGHTINESS_MENU_ITEM_TYPE=>'mightiness',
         MenuItems::TEHCIKL_MENU_ITEM_TYPE=>'tehcikl',
     );
-    
-    public $labels = array(
+
+    public $labelsMightiness = array(
         '/sort/mashiny-dlya-traktora-80-ls' => '80 л.с.',
         '/sort/mashiny-dlya-traktora-120-ls' => '120 л.с.',
         '/sort/mashiny-dlya-traktora-150-ls' => '150 л.с.',
@@ -52,39 +52,25 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
-        $additionalParam = '';
+        $additionalParam = ''; // for mightiness and tehcikl
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
         } else {
-            $pos = strpos($pathInfo, '/sort/mashiny-dlya-traktora-');
-            if($pos !== false) { // по мощности трактора
-                $additionalParam = substr($pathInfo, $pos);
-                $pathInfo = substr($pathInfo, 0, $pos);
-            } else { // по технологическому циклу
-                $pos = strpos($pathInfo, '/sort/cikl-');
-                if($pos !== false) {
-                    $additionalParam = substr($pathInfo, $pos);
-                    $pathInfo = substr($pathInfo, 0, $pos);
-                }
-            }
-            
-            /*
             $pos = strpos($pathInfo, '/mightiness/');
             if($pos !== false) {// по мощности трактора
-                $additionalParam = substr($pathInfo, $pos);
+                $additionalParam = substr($pathInfo, $pos+11);
                 $pathInfo = substr($pathInfo, 0, $pos+11);
             } else {// по технологическому циклу
                 $pos = strpos($pathInfo, '/tehcikl/');
                 if($pos !== false) {
-                    $additionalParam = substr($pathInfo, $pos);
-                    $pathInfo = substr($pathInfo, 0, $pos+9);
+                    $additionalParam = substr($pathInfo, $pos+8);
+                    $pathInfo = substr($pathInfo, 0, $pos+8);
                 }
             }
-            */
-            //var_dump($pathInfo);exit;
-            //$pathInfo .= 'sort/mashiny-dlya-traktora-120-ls/';
+            
+            if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',
                 array(':path'=>'/'.$pathInfo)
@@ -132,26 +118,22 @@ class CategoryUrlRule extends CBaseUrlRule
         }
         $breadcrumbs[]=$this->desiredMenuItem->name;
         
+        // for mightiness and tehcikl
         if(!empty($additionalParam)){
             $path = substr($pathInfo, strpos($pathInfo, '/')+1);
-            $label = $this->labels[$additionalParam];
+            $label = $this->labelsMightiness[$additionalParam];
             if($path == 'tehcikl') $label = $this->labelsTech[$additionalParam];
             $last = array_pop($breadcrumbs);
             if(substr($pathInfo, -1) != '/') $pathInfo = $pathInfo.'/';
             if(substr($pathInfo, 1) != '/') $pathInfo = '/'.$pathInfo;
             $breadcrumbs[$last] = $pathInfo;
             $breadcrumbs[] = $label;
-            
-            //var_dump($pathInfo);
-            //exit;
         }
         
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
-//var_dump(Yii::app()->params['breadcrumbs']);
-//var_dump($ancestors);
-//exit;
+
         if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
         else return self::$controllers[$this->desiredMenuItem->type];
     }
