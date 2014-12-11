@@ -107,6 +107,11 @@ RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/valkoobrazovatel-tcr-
 RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/ [R=301,L]
 RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-sp-8-mt-8/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/ [R=301,L]
 RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/seyalki-yp-825a-16tr/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/731-seyalki-yp-825a-16tr/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-trb/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-tac-20/ [R=301,L]
+RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/propashnye-mezhduryadnye-kultivatory-gaspardo-hl/)(.*) http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/713-propashnye-mezhduryadnye-kultivatory-gaspardo-hl/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/valkoobrazovateli/695-valkoobrazovatel-profiliner-800/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/694-valkoobrazovatel-profiliner-800/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/telezhki-samozagruzochnye-Proag/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/739-telezhki-samozagruzochnye-Proag/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-trb/)(.*) http://www.lbr.ru/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-tac-20/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
