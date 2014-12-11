@@ -652,7 +652,7 @@ endif;
         <td>
             <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
 
-                <!-- Контент первого блока (ч.1)-->
+                <!-- Контент третьего блока (ч.1)-->
                 <tr>
                     <td style="padding:10px 20px 5px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -692,10 +692,50 @@ endif;
                                                 </td>
                                             </tr>
                                         <?php endif; ?>
-                                            <tr>
-                                            <td style="padding: 5px 0px 0px 0px;">
+                                             <tr>
+                                            <td style="padding:10px 0px 5px 0px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Посев и внесение удобрений за 1 проход</span><br>
+                                                    В стандартной комплектации сажалка осащена туковы-
+                                                    севающим аппаратом, который позволяет производить
+                                                    внесение гранулированных удобрений одновременно с
+                                                    посадкой картофеля. 
+                                                </p>
+                                            </td>
+                                        </tr>
+                                         
+                                    </table>
+                                </td>
+
+                                <!--Вторая колонка-->
+                                <td>
+                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        
+                                        <tr>
+                                            <td style="padding: 0px 0px 5px 20px">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Гидравлический бункер для удобства загрузки</span><br>
+                                                    Сажалка Лидсельмаш оснащена бункером с гидравли-
+                                                    ческим механизмом подъема и опускания для удобства
+                                                    загрузки бункера семенным материалом.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 0px 0px 5px 20px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Универсальная сажалка нового поколения!</span><br>
+                                                    Лидсельмаш Л-207 – единственная сажалка, которая
+                                                    подходит под все три технологические междурядья: 70,
+                                                    75 и 90 см. 
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td style="padding: 5px 0px 0px 20px;">
                                                 <!--Таблица с данными-->
-                                                <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="60%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
                                                         <td width="40%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Л-207</span></strong></td>
@@ -722,31 +762,6 @@ endif;
                                                             90см)</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Ширина захвата, рядов</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая скорость посадки, км/час</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4-10</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Тип высаживающего аппарата</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">элеваторный на цепях</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Густота посадки, тыс.шт/га</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">30-70</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Глубина посадки, см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5-15</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Доза внесения минеральных удо-
-                                                            брений, кг/га</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">50-400</span></td>
-                                                    </tr>
-                                                    <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Емкость бункера для картофеля, кг</span></td>
                                                         <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1200</span></td>
                                                     </tr>
@@ -763,53 +778,7 @@ endif;
                                                 </table>
                                             </td>
                                         </tr>
-                                        
-                                    </table>
-                                </td>
-
-                                <!--Вторая колонка-->
-                                <td>
-                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
-                                        
-                                        <tr>
-                                            <td style="padding: 0px 0px 15px 20px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Универсальная сажалка нового поколения!</span><br>
-                                                    Лидсельмаш Л-207 – единственная сажалка, которая
-                                                    подходит под все три технологические междурядья: 70,
-                                                    75 и 90 см. Теперь нет проблемы поменять технологию
-                                                    посадки картофеля.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding-left: 20px; padding-bottom: 15px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Посев и внесение удобрений за 1 проход</span><br>
-                                                    В стандартной комплектации сажалка осащена туковы-
-                                                    севающим аппаратом, который позволяет производить
-                                                    внесение гранулированных удобрений одновременно с
-                                                    посадкой картофеля. Опционально на сажалку можно
-                                                    установить механизм для протравливания клубней кар-
-                                                    тофеля при посадке.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding-left: 20px; padding-bottom: 15px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Гидравлический бункер для удобства загрузки</span><br>
-                                                    Сажалка Лидсельмаш оснащена бункером с гидравли-
-                                                    ческим механизмом подъема и опускания для удобства
-                                                    загрузки бункера семенным материалом.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding-left: 20px; padding-bottom: 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/184-posev_ekonom/mail-8.jpg" width="358" style="border: 0; float: left;" alt="Изображения не отображаются">  
-                                            </td>
-                                        </tr>
+                                       
                                     </table>
                                 </td>
                             </tr>
@@ -819,7 +788,160 @@ endif;
                     </td>
                 </tr>
                 
+                <!-- Контент третьего блока (ч.2)-->
+                <tr>
+                    <td style="padding:10px 20px 5px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td style="border-bottom:solid black 4px;" width="700" >
+                                    <a>
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;line-height: 24px;">
+                                        <a href="http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/" target="_blank" style="text-decoration: none;">
+                                            Опрыскиватели навесные Ozone
+                                        </a>
+                                    </p>  
+                                </td>
+                                <td width="60" style="border-bottom:solid black 4px;">
+                                    <img src="http://www.lbr.ru/images/makers/OZONE_logo.jpg" width="60" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 5px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td>
+                                    <!-- Первая колонка-->
+                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td style="padding: 0px 0px 0px 0px;">
+                                                <img src="http://www.lbr.ru/images/kp/184-posev_ekonom/mail-8.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            </td>
+                                        </tr>
+                                        <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
+                                            <tr>
+                                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                    <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
+                                                        <?php echo $data['product_info6']; ?>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        <?php endif; ?>
+                                             
+                                    </table>
+                                </td>
+
+                                <!--Вторая колонка-->
+                                <td>
+                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td style="padding:0px 0px 5px 20px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Самая популярная серия навесных
+                                                        опрыскивателей в России</span><br>
+                                                        Каждый год в России продается более 900 навесных
+                                                        опрыскивателей Ozone.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                         
+                                        <tr>
+                                            <td style="padding: 0px 0px 5px 20px">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Лучший в борьбе с саранчой</span><br>
+                                                    Высокая скорость работы в сочетании с низкой ценой
+                                                    опрыскивателя, позволили стать одним из лучших и
+                                                    экономичных решений для быстрой обработки полей.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 0px 0px 5px 20px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Компактность и маневренность</span><br>
+                                                    Благодаря компактности и высокой маневренности на-
+                                                    весных опрыскивателей Ozone, их часто используют при
+                                                    краевой обработке полей, где не могут работать при-
+                                                    цепные и самоходные опрыскиватели.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                       
+                                    </table>
+                                </td>
+                            </tr>
+                            
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                                            <td style="padding: 5px 0px 0px 0px;">
+                                                <!--Таблица с данными-->
+                                                <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                    <tr>
+                                                        <td width="40%" align="left" style="border: solid black 1px;background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">ОР-312</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">ОР-612</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">ОР-812</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">ОР-815</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">ОР-1015</span></strong></td>
+                                                        <td width="10%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1000/18</span></strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">12</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">12</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">12</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">15</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">15</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">18</span></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Резервуар, л</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">300</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">600</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">800</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">800</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1000</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1000</span></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">30</span></td>
+                                                        <td colspan="3" align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">50 </span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 70</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"> 80</span></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price8']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price9']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price10']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price11']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price12']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;  color: #DD2A1B;"><?php echo $data['price13']; ?></span></td>
+                                                    </tr> 
+
+                                                </table>
+                                            </td>
+                                        </tr>
                 
+                <!-- Ссылка-кнопка подробнее -->
+                <?php
+                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
+                    'link' => 'http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/',
+                    'colspan' => false,
+                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
+                        )
+                );
+                ?>
+
                 <tr valign="top">
                     <td style="padding: 5px 20px 0px 20px;">
                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
