@@ -42,6 +42,7 @@ return array(
 		'urlManager'=>array(
 			'urlFormat'=>'path',
                         'showScriptName'=>false,
+                        //'caseSensitive'=>false,
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
                                 '<_a:sitemap>' => 'site/<_a>/',
@@ -57,7 +58,7 @@ return array(
 //				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 //				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 //                                ''=>'xbanner/index',
-                            
+                                
                                 array(
                                     'class'=>'application.components.CategoryUrlRule',
                                     'connectionID'=> 'db',

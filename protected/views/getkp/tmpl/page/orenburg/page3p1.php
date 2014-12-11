@@ -149,9 +149,8 @@
                             </div>
                             <div style="margin-top: 10px; font-size: 12pt">
                                 <i>
-                                   г. Оренбург,
-                                   ул. Беляевская, д. 20 
-                                   (база "Центр Металл")<br/>
+                                   460528, Оренбургская область,  Оренбургский район,<br> 
+                                   с. Ивановка, ул. Ясная, д. 28А <br> 
                                    т. 987 847 03 70<br/>
                                    orenburg@lbr.ru
                                 </i>
@@ -162,7 +161,7 @@
                             </div>
                         </div>
                         
-                        <div class="content" style="margin-top: 71px; margin-bottom: 97px;">
+                        <div class="content" style="margin-top: 61px; margin-bottom: 87px;">
                             <ul class="main-content-row">
                                 <li style="">
                                     <img src="http://www.lbr.ru/images/kp/lbr-photo-orenburg.jpg" height="146px" alt="Logo" style="border: 0;"/>

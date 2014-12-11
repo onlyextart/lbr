@@ -6,7 +6,7 @@
     $this->widget('zii.widgets.grid.CGridView', array(
         'id'=>'userListGrid',
         'dataProvider'=>$data,
-        'template'=>'{items}',
+        'template'=>'{items}{pager}',
         'columns' => array(
             array( 
                 'name'=>'title',

@@ -13,15 +13,23 @@ class TehciklController extends Controller
                 $techSchemaSteps[$descendant->id]['id'] = $descendant->id;
             }
         }
+        
+        //echo '<pre>';
+        //var_dump($techSchemaSteps);
+        //exit;
+        
         $sort = new CSort();
         $sort->defaultOrder = 'title ASC';
         $dataProvider = new CArrayDataProvider(
             $techSchemaSteps,
             array(
-                'sort' => $sort
+                'sort' => $sort,
+                'pagination' => array(
+                    'pageSize' => '20'
+                )
             )
         );
-        
+
         $this->render(
             'index',
             array(
