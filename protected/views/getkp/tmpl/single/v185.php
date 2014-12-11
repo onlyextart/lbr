@@ -540,7 +540,7 @@
                             </table>
                             <table width="758" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: separate;">
                              <tr>
-                                                <td width="360" style="padding:0px 0px 10px 0px;" valign="top">
+                                                <td width="360" style="padding:0px 0px 20px 0px;" valign="top">
                                                     
                                                                 <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/mail-5.png" width="360" style="border:0; float: left;">
                                                             
@@ -562,7 +562,7 @@
                                                                     износостойкой стали позволяет с легкостью измельчать
                                                                     длинноволокнистые продукты.
                                                                 </p>
-                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/mail-6.png" width="200" style="border:0;">
+                                                                <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/mail-6.png" width="180" style="border:0;">
                                                                
                                                                   
                                                 </td>
