@@ -1,5 +1,7 @@
 <?php
     $email=str_replace(";","_",$data['email']);
+    $email=str_replace(" ","",$email);
+
 ?>
 
 <head>
