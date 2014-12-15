@@ -19,7 +19,7 @@
     <table width="840" cellspacing="0" cellpadding="0" align="center"  bgcolor="#7da7d8" style="border:0; border-collapse: separate;">
         <tr>
             <td>
-                <a target="_blank" href="http://www.lbr.ru/?utm_source=VP_test_1&utm_medium=email&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                <a target="_blank" href="http://www.lbr.ru/?utm_source=EVP5&utm_medium=email&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                     
                     <img src="cid:header.png" width="840" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
                 </a>
@@ -180,7 +180,7 @@
                                             </tr>
                                             <tr valign="bottom">
                                                 <td colspan="2" style="padding: 5px 0px 0px 15px; text-align: right;">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/traktory/mccormick/237-traktory-mccormick-serii-ttkh/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_McCORMICK&utm_content=<?php echo $email;?>&utm_campaign=%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_McCORMICK_%D1%81%D0%B5%D1%80%D0%B8%D0%B8_%D0%A2%D0%A2%D0%A5" title="Тракторы McCORMICK серии ТТХ" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/traktory/mccormick/237-traktory-mccormick-serii-ttkh/?utm_source=EVP5&utm_medium=email&utm_term=%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_McCORMICK&utm_content=<?php echo $email;?>&utm_campaign=%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_McCORMICK_%D1%81%D0%B5%D1%80%D0%B8%D0%B8_%D0%A2%D0%A2%D0%A5" title="Тракторы McCORMICK серии ТТХ" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -274,7 +274,7 @@
                                             
                                             <tr valign="bottom">
                                                 <td style="padding: 0px 0px 0px 15px; text-align: right;" colspan="2">
-                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA_DIECI_Agri_Farmer&utm_content=<?php echo $email;?>&utm_campaign=%D0%A2%D0%B5%D0%BB%D0%B5%D1%81%D0%BA%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA_DIECI_Agri_Farmer_30.7" title="Телескопический погрузчик DIECI Agri Farmer 30.7" style="border: 0; text-decoration: none;">
+                                                    <a target="_blank" href="http://www.lbr.ru/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/?utm_source=EVP5&utm_medium=email&utm_term=%D0%9F%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA_DIECI_Agri_Farmer&utm_content=<?php echo $email;?>&utm_campaign=%D0%A2%D0%B5%D0%BB%D0%B5%D1%81%D0%BA%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA_DIECI_Agri_Farmer_30.7" title="Телескопический погрузчик DIECI Agri Farmer 30.7" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -506,7 +506,7 @@
                                 
                                 <tr valign="bottom">
                                     <td colspan="2" style="padding-top:10px; text-align: right;">
-                                        <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%A1%D0%BC%D0%B5%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80&utm_content=<?php echo $email;?>&utm_campaign=%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%BC%D0%B5%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80" title="Горизонтальные смесители-кормораздатчики Сеньор" style="border: 0; text-decoration: none;">
+                                        <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?utm_source=EVP5&utm_medium=email&utm_term=%D0%A1%D0%BC%D0%B5%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80&utm_content=<?php echo $email;?>&utm_campaign=%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%BC%D0%B5%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80" title="Горизонтальные смесители-кормораздатчики Сеньор" style="border: 0; text-decoration: none;">
                                             <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130"  style="border:0; float: right;">
                                         </a>
                                     </td>
@@ -674,7 +674,7 @@
                                 
                                 <tr valign="bottom">
                                     <td style="padding-top:10px; text-align: right;">
-                                        <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-vertikalnye/610-vertikalnye-smesiteli-kormorazdatchiki-senior/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%9A%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80&utm_content=<?php echo $email;?>&utm_campaign=%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80" title="Вертикальные кормораздатчики Сеньор" style="border: 0; text-decoration: none;">
+                                        <a target="_blank" href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-vertikalnye/610-vertikalnye-smesiteli-kormorazdatchiki-senior/?utm_source=EVP5&utm_medium=email&utm_term=%D0%9A%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80&utm_content=<?php echo $email;?>&utm_campaign=%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BE%D1%80%D0%BC%D0%BE%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8_%D0%A1%D0%B5%D0%BD%D1%8C%D0%BE%D1%80" title="Вертикальные кормораздатчики Сеньор" style="border: 0; text-decoration: none;">
                                             <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130"  style="border:0; float: right;">
                                         </a>
                                     </td>
@@ -821,7 +821,7 @@
                                 </tr>
                                 <tr valign="top">
                                 <td colspan="2" style="text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/427-pritsepnye-opryskivateli-brandt-serii-qf/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%9E%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Brandt&utm_content=<?php echo $email;?>&utm_campaign=%D0%9F%D1%80%D0%B8%D1%86%D0%B5%D0%BF%D0%BD%D0%BE%D0%B9_%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Brandt_QF2500" title="Прицепной опрыскиватель Brandt QF2500" style="border: 0; text-decoration: none;">
+                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/427-pritsepnye-opryskivateli-brandt-serii-qf/?utm_source=EVP5&utm_medium=email&utm_term=%D0%9E%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Brandt&utm_content=<?php echo $email;?>&utm_campaign=%D0%9F%D1%80%D0%B8%D1%86%D0%B5%D0%BF%D0%BD%D0%BE%D0%B9_%D0%BE%D0%BF%D1%80%D1%8B%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Brandt_QF2500" title="Прицепной опрыскиватель Brandt QF2500" style="border: 0; text-decoration: none;">
                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130"  style="border:0;  float: right;">
                                     </a>
                                 </td>
@@ -922,7 +922,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/393-seyalki-ovoshchnye-calibra-twin/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%A1%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Tandem&utm_content=<?php echo $email;?>&utm_campaign=%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Tandem" title="Овощная сеялка Calibra Tandem" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/393-seyalki-ovoshchnye-calibra-twin/?utm_source=EVP5&utm_medium=email&utm_term=%D0%A1%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Tandem&utm_content=<?php echo $email;?>&utm_campaign=%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Tandem" title="Овощная сеялка Calibra Tandem" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130" style="border:0; float: right;">
                                                     </a>
                                                 </td>
@@ -1014,7 +1014,7 @@
                                             </tr>
                                             <tr valign="bottom">
                                                 <td style="text-align: right;">
-                                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/393-seyalki-ovoshchnye-calibra-twin/?utm_source=VP_test_1&utm_medium=email&utm_term=%D0%A1%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Twin&utm_content=<?php echo $email;?>&utm_campaign=%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Twin" title="Овощная сеялка Calibra Twin" style="border: 0; text-decoration: none;">
+                                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/393-seyalki-ovoshchnye-calibra-twin/?utm_source=EVP5&utm_medium=email&utm_term=%D0%A1%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Twin&utm_content=<?php echo $email;?>&utm_campaign=%D0%9E%D0%B2%D0%BE%D1%89%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%8F%D0%BB%D0%BA%D0%B0_Calibra_Twin" title="Овощная сеялка Calibra Twin" style="border: 0; text-decoration: none;">
                                                         <img src="http://www.lbr.ru/images/kp/time_to_by_kp/december/button.png" width="130"  style="border:0;  float: right;">
                                                     </a>
                                                 </td>
@@ -1046,7 +1046,7 @@
      <table width="840" cellspacing="0" cellpadding="0" align="center"  bgcolor="#f7941e" style="border:0; border-collapse: separate;">
         <tr>
             <td style="padding:10px;">
-                <a target="_blank" href="http://www.lbr.ru/?utm_source=VP_test_1&utm_medium=email&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                <a target="_blank" href="http://www.lbr.ru/?utm_source=EVP5&utm_medium=email&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                      <p style="font-size: 14pt; font-weight: bold; font-family: Calibri; color: white; text-align: center; line-height: 14pt;">
                         Подробное описание, технические характеристики, конструктивные особенности и видеопрезентация
                         техники в работе на сайте LBR.ru
