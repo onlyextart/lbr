@@ -143,9 +143,9 @@
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a href="/users/login/" title="Вход на сайт"><? echo Yii::app()->user->isGuest? "Вход":"Выход"; ?></a>
-                    </li>
+                    </li-->
                 </ul>
             </div>
             <div class="map">
