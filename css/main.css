@@ -1159,11 +1159,13 @@ a[name="list_filials"]{
 .wrapper #content .contacts_list .city-name a:hover{
     text-decoration: underline;
 }
-.wrapper #content .view_all_contacts{
+
+.wrapper #content .view_all_contacts:hover, .wrapper #content .view_all_contacts:visited, .wrapper #content .view_all_contacts:link {
+    color: #5f5e5e;
+    font-weight: bold;
     position: absolute;
-    /*top: 15px;
-    left: 50px;*/
 }
+
 .wrapper #content .contact-additional-info{
      float:left; 
      width:100%;
