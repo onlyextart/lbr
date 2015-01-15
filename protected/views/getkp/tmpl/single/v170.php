@@ -327,7 +327,7 @@ endif;
         <td>
             <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
 
-                <!-- Контент второй строки второго блока-->
+                <!-- Контент первой строки второго блока-->
                 <tr>
                     <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -347,80 +347,46 @@ endif;
                     </td>
                 </tr>
                 
-                 <tr>
-                     <td style="padding:5px 20px 0px 20px;">
-                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr valign="top">
-                                <td>
-                                    <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-4.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">  
-                                </td>
-                            </tr>
-                            <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
-                            <tr>
-                                <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
-                                    <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                        <?php echo $data['product_info3']; ?>
-                                    </p>
-                                </td>
-                           </tr>
-                            <?php endif; ?>
-                     </table>
-                     </td>
-                </tr>
-                
+                                 
                 <tr>
-                    <td style="padding: 15px 20px 0px 20px;">
+                    <td style="padding: 5px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td>
                                     <!-- Первая колонка-->
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr valign="top">
+                                            <td>
+                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-4.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            </td>
+                                        </tr>
+                                        <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
                                         <tr>
-                                            <td style="padding: 0px 0px 0px 0px;">
+                                            <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
+                                                    <?php echo $data['product_info3']; ?>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <?php endif; ?>
+                                        <tr>
+                                            <td style="padding: 5px 0px 0px 0px;">
                                                 <table width="378" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
-                                                        <td width="70%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;"><strong> Модель</strong></span></td>
-                                                        <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;"><strong> СК-4</strong></span></td>
+                                                        <td width="70%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
+                                                        <td width="30%" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> СК-4</strong></span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Рабочая ширина захвата, м</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">2,8 - 3,6</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая ширина захвата, м</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">2,8 - 3,6</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Количество высаживаемых рядов</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">4</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Количество высаживаемых рядов</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">4</span></td>
                                                     </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Ширина междурядий, см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">70, 75, 90</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Скорость движения на основной операции, км/ч</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">5 - 8</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Производительность за 1 час, га<br>
-                                                            - на междурядьях 70 см<br>
-                                                            - на междурядьях 90 см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">
-                                                            <br>1,4 - 2,2<br>
-                                                            1,8 - 2,9</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Вместимость бункера для картофеля, кг</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">не менее 2500</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Емкость 2 баков для протравливания, дм<sup>3</sup></span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">не менее 500</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Емкость бункеров для минеральных удобрений, дм<sup>3</sup></span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">не менее 300</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Масса машины, кг</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">не более 3100</span></td>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Ширина междурядий, см</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">70, 75, 90</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
@@ -481,15 +447,7 @@ endif;
                         </table>
                     </td>
                 </tr>
-                <tr valign="top">
-                    <td style="padding: 5px 20px 0px 20px;">
-                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
-                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
-                        </p> 
-                    </td>
-                </tr>
-               
-
+                
                 <!-- Ссылка-кнопка подробнее -->
                 <?php
                 Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
@@ -500,9 +458,153 @@ endif;
                 );
                 ?>
                 
+                <!-- Контент второй строки второго блока-->
+                <tr>
+                    <td style="padding:0px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td style="border-bottom:solid black 4px;" width="680" >
+                                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
+                                        <a href="http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/426-pritsepnye-opryskivateli-elios/" target="_blank" style="text-decoration: none;">
+                                            Прицепные опрыскиватели Bargam ELIOS BDL
+                                        </a>
+                                    </p>  
+                                </td>
+                                <td width="80" style="padding: 0px 5px 0px 15px; border-bottom:solid black 4px;">
+                                    <img src="http://www.lbr.ru/images/makers/bargam-logo-big.jpg" width="80" style="border: 0;" alt="Изображения не отображаются">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                                 
+                <tr>
+                    <td style="padding: 5px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td>
+                                    <!-- Первая колонка-->
+                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr valign="top">
+                                            <td>
+                                                <img src="http://www.lbr.ru/images/kp/170-kartofel/mail-5.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                            </td>
+                                        </tr>
+                                        <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
+                                        <tr>
+                                            <td style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                                <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
+                                                    <?php echo $data['product_info4']; ?>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <?php endif; ?>
+                                        
+                                        
+                                    </table>
+                                </td>
+
+                                <!--Вторая колонка-->
+                                <td>
+                                    <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td style="padding-left: 20px; padding-bottom: 10px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Экономия на химии</span><br>
+                                                    Установка воздушного рукава, который позволит 
+                                                    <span style="font-weight: bold;">экономить до 30%</span>
+                                                    химикатов за счет более точного и
+                                                    равномерного их внесения. За счет
+                                                    этого увеличивается площадь покрытия каждого листа в 8 – 10 раз!
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding-left: 20px; padding-bottom: 0px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    <span style="color:#F58220; font-weight:bold;text-transform: uppercase;">КОНТРОЛЬ</span><br>
+                                                    Компьютер ARAG BRAVO 180 – 
+                                                    <span style="font-weight: bold;">контроль доз внесения химикатов</span>
+                                                    вне зависимости от скорости движения опрыскивателя.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 10px 0px 0px 20px;">
+                                                <table width="358" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="2px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
+                                                    <tr>
+                                                        <td width="49%" align="left" style="border: solid black 1px;padding-left:2px; background-clip:padding-box; background: #eeeeee;"  bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> Модель</strong></span></td>
+                                                        <td width="17%" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> ELIOS BDL</strong></span></td>
+                                                        <td width="17%" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> ELIOS BDL</strong></span></td>
+                                                        <td width="17%" align="center" style="border: solid black 1px; background-clip:padding-box; background: #eeeeee;" bgcolor="#eeeeee"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;"><strong> ELIOS BDL Air</strong></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Ширина захвата штанги, м</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">18</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">24</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">24</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Гидроподъём штанги, м</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,5</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,5</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,2</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Объем бака, л</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3000</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3000</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3000</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Требуемая мощность, л.с.</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">80-110</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">80-110</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">90-110</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px; color: #DD2A1B;"><?php echo $data['price7']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px; color: #DD2A1B;"><?php echo $data['price8']; ?></span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px; color: #DD2A1B;"><?php echo $data['price9']; ?></span></td>
+                                                    </tr>
+
+                                                </table> 
+                                            </td>
+                                        </tr>
+                                       
+                                    </table> 
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                
+               
+
+                <!-- Ссылка-кнопка подробнее -->
+                <?php
+                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
+                    'link' => 'http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/426-pritsepnye-opryskivateli-elios/',
+                    'colspan' => false,
+                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
+                        )
+                );
+                ?>
 
 
             </table></td></tr>
+
+             <tr valign="top" bgcolor="white">
+                    <td style="padding: 5px 20px 0px 20px;">
+                        <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
+                           * цена сформирована по состоянию на <?php echo date("d.m.Y")?>
+                        </p> 
+                    </td>
+             </tr>
     <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>   
 
