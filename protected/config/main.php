@@ -46,11 +46,10 @@ return array(
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
                                 '<_a:sitemap>' => 'site/<_a>/',
-                                //'company/events/page/<page:\d+>/*'=>'news/index',
+                                //'company/events/*'=>'news/index',
+                                //'company/events/page-<page:\d+>'=>'news/index',
                             
                                 //'<controller>/<action>/<page:\d+>/*'=>'<controller>/<action>',
-                            
-                                
                                 //'company/events' => '',
                                 //'<controller:\w+>/<action:\w+>/*'=>'<controller>/<action>',
                                 
@@ -175,6 +174,8 @@ return array(
                ),
             'meta_title'=>'',
             'meta_description'=>'',
-            'meta_keywords'=>''
+            'meta_keywords'=>'',
+            'meta_pagerNext'=>'',
+            'meta_pagerPrev'=>''
 	),
 );

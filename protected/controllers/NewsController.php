@@ -4,9 +4,9 @@ class NewsController extends Controller
 	public function actionIndex()
 	{
             $id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
-            Yii::app()->params['meta_title'] = 'Новости ЛБР-АгроМаркет';
-            
-            if(empty($id)){
+            //Yii::app()->params['meta_title'] = '111';//Новости ЛБР-АгроМаркет';
+            //echo Yii::app()->params['currentMenuItem']->group_id; exit;
+            if(empty($id)) {
                 $groupId = Yii::app()->params['currentMenuItem']->group_id; 
                 $criteria = new CDbCriteria();
                 $criteria->together = true; // relations
@@ -22,21 +22,32 @@ class NewsController extends Controller
                     $criteria->compare('newsRegions.filial_id', -10000);
                 }
 
-                $count=News::model()->count($criteria);
-                $pages=new CPagination($count);
-                $pages->pageSize = 10;
-                $pages->pageVar = 'page';
-                $pages->applyLimit($criteria);
+                $count = News::model()->count($criteria);
 
+                //pagination
+                /*$pages = new Pagination($count);
+                $pages->setPageSize(10);
+                $pages->route = 'news/index';
+                $pages->applyLimit($criteria);
+                
+                //result to show on page
+                $result = News::model()->findAll($criteria);
+                $dataProvider = new CArrayDataProvider($result);
+                
+                $this->render('index', array('data' => $dataProvider, 'pages' => $pages));
+                */
                 $dataProvider = new CActiveDataProvider('News',
                     array(
-                        'criteria'     => $criteria,
+                        'criteria' => $criteria,
+                        'pagination' => array(
+                            //'pageVar'  => 'page',
+                            'pageSize' => 10,
+                        )
                     )
                 );
 
-                $this->render('index', array('data' => $dataProvider));
+                $this->render('index', array('data' => $dataProvider, 'count' => $count));
             } else {
-                
                 $alias = substr($lastPartOfUrl, $pos + 1);
                 $data = Yii::app()->db->createCommand()
                     ->select('r.content, n.date, n.header')

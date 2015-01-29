@@ -53,21 +53,26 @@ class CategoryUrlRule extends CBaseUrlRule
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
         $additionalParam = ''; // for mightiness and tehcikl
+        //var_dump($pathInfo); exit;
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
         } else {
-            $pos = strpos($pathInfo, '/mightiness/');
-            if($pos !== false) {// по мощности трактора
+            if(strpos($pathInfo, '/mightiness/') !== false) {// по мощности трактора
                 $additionalParam = substr($pathInfo, $pos+11);
                 $pathInfo = substr($pathInfo, 0, $pos+11);
-            } else {// по технологическому циклу
-                $pos = strpos($pathInfo, '/tehcikl/');
-                if($pos !== false) {
+            } else if(strpos($pathInfo, '/tehcikl/') !== false) {// по технологическому циклу
+                //if($pos !== false) {
                     $additionalParam = substr($pathInfo, $pos+8);
                     $pathInfo = substr($pathInfo, 0, $pos+8);
-                }
+                //}
+            } else if(strpos($pathInfo, 'company/events/') !== false){
+                //if($pos !== false) {
+                    $additionalParam = substr($pathInfo, $pos+14);
+                    $pathInfo = substr($pathInfo, 0, $pos+14);
+                    //var_dump($pathInfo); exit;
+                //}
             }
             
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
