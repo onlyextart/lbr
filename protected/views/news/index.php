@@ -28,7 +28,7 @@
     Yii::app()->params['meta_pagerNext'] = '/company/events/page-'.$next.'/';
     Yii::app()->params['meta_pagerPrev'] = '/company/events/page-'.$prev.'/';
     if($prev == 1) Yii::app()->params['meta_pagerPrev'] = 'company/events/';
-    
+
     if($loadedPage > 1) {
         $titleLabel = 'Новости ЛБР-АгроМаркет - страница '.$loadedPage;
         if($loadedPage == $lastPage) Yii::app()->params['meta_pagerNext'] = null;
@@ -36,5 +36,5 @@
         Yii::app()->params['meta_pagerPrev'] = null;
     }
     
-    //Yii::app()->params['meta_title'] = Yii::app()->params['currentMenuItem']->meta_title = $titleLabel;
+    Yii::app()->params['meta_title'] = Yii::app()->params['currentMenuItem']->meta_title = $titleLabel;
     // end Tags for SEO
