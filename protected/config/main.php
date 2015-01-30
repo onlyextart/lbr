@@ -46,6 +46,7 @@ return array(
 			'rules'=>array(
                                 '<_m:users>/<_a:(login|logout)>' => 'users/default/<_a>',
                                 '<_a:sitemap>' => 'site/<_a>/',
+
                                 //'company/events/*'=>'news/index',
                                 //'company/events/page-<page:\d+>'=>'news/index',
                             

@@ -52,29 +52,25 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
-        $additionalParam = ''; // for mightiness and tehcikl
-        //var_dump($pathInfo); exit;
+        $additionalParam = $eventPage = ''; // for mightiness, tehcikl and news
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
         } else {
-            if(strpos($pathInfo, '/mightiness/') !== false) {// по мощности трактора
+            if(strpos($pathInfo, '/mightiness/') !== false) {// for mightiness
                 $additionalParam = substr($pathInfo, $pos+11);
                 $pathInfo = substr($pathInfo, 0, $pos+11);
-            } else if(strpos($pathInfo, '/tehcikl/') !== false) {// по технологическому циклу
-                //if($pos !== false) {
-                    $additionalParam = substr($pathInfo, $pos+8);
-                    $pathInfo = substr($pathInfo, 0, $pos+8);
-                //}
-            } else if(strpos($pathInfo, 'company/events/') !== false){
-                //if($pos !== false) {
-                    $additionalParam = substr($pathInfo, $pos+14);
-                    $pathInfo = substr($pathInfo, 0, $pos+14);
-                    //var_dump($pathInfo); exit;
-                //}
+            } else if(strpos($pathInfo, '/tehcikl/') !== false) {// for tehcikl
+                $additionalParam = substr($pathInfo, $pos+8);
+                $pathInfo = substr($pathInfo, 0, $pos+8);
+            } else if(strpos($pathInfo, 'company/events/') !== false) { // for news
+                $eventPage = substr($pathInfo, $pos+20);
+                $eventPage = '/page/'.$eventPage;
+                
+                $pathInfo = substr($pathInfo, 0, $pos+14);
             }
-            
+
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',
@@ -138,8 +134,9 @@ class CategoryUrlRule extends CBaseUrlRule
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
-
-        if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
+        
+        if(!empty($eventPage)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$eventPage;
+        else if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
         else return self::$controllers[$this->desiredMenuItem->type];
     }
     

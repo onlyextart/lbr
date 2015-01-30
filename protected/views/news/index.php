@@ -18,6 +18,7 @@
         ),
     ));
     
+    // Tags for SEO
     $titleLabel = 'Новости ЛБР-АгроМаркет';
     $lastPage = ceil($count/$data->pagination->pageSize);
     $loadedPage = (int)($data->pagination->getCurrentPage()+1);
@@ -35,4 +36,5 @@
         Yii::app()->params['meta_pagerPrev'] = null;
     }
     
-    Yii::app()->params['meta_title'] = Yii::app()->params['currentMenuItem']->meta_title = $titleLabel;
+    //Yii::app()->params['meta_title'] = Yii::app()->params['currentMenuItem']->meta_title = $titleLabel;
+    // end Tags for SEO
