@@ -64,10 +64,10 @@ class CategoryUrlRule extends CBaseUrlRule
             } else if(strpos($pathInfo, '/tehcikl/') !== false) {// for tehcikl
                 $additionalParam = substr($pathInfo, $pos+8);
                 $pathInfo = substr($pathInfo, 0, $pos+8);
-            } else if(strpos($pathInfo, 'company/events/') !== false) { // for news
+            } else if(strpos($pathInfo, 'company/events/page-') !== false) { // for news
                 $eventPage = substr($pathInfo, $pos+20);
                 $eventPage = '/page/'.$eventPage;
-                
+
                 $pathInfo = substr($pathInfo, 0, $pos+14);
             }
 
@@ -77,6 +77,7 @@ class CategoryUrlRule extends CBaseUrlRule
                 array(':path'=>'/'.$pathInfo)
             );
         }
+        
         //Если не найден искомый пункт меню
         if($this->desiredMenuItem === null){
             return false; // не применяем данное правило
@@ -134,6 +135,12 @@ class CategoryUrlRule extends CBaseUrlRule
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
+        
+        /*if(!empty($eventPage)) echo 11;//return self::$controllers[$this->desiredMenuItem->type].'/index'.$eventPage;
+        else if(!empty($additionalParam)) echo 22; //return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
+        else echo self::$controllers[$this->desiredMenuItem->type];
+        
+        exit;*/
         
         if(!empty($eventPage)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$eventPage;
         else if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
