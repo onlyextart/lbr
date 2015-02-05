@@ -1,11 +1,11 @@
 <?php
 if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
 ?>
+<div class="table w-800">
 <!-- Первый блок -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -68,10 +68,10 @@ endif;
                                                 <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
                                                         <td>
-                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="24" style="border: 0; float: left;" alt="Стрелка вправо">
+                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="18" style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
                                                         <td style="padding-left:5px;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
+                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
                                                                 Максимальная мощность 242 л.с.
                                                             </p>
                                                         </td>
@@ -84,10 +84,10 @@ endif;
                                                 <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
                                                         <td>
-                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="24"  style="border: 0; float: left;" alt="Стрелка вправо">
+                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="18"  style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
                                                         <td style="padding-left:5px;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
+                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
                                                                 Скорость
                                                             </p>
                                                         </td>
@@ -100,10 +100,10 @@ endif;
                                                 <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
                                                         <td>
-                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="24" style="border: 0; float: left;" alt="Стрелка вправо">
+                                                            <img src="http://www.lbr.ru/images/kp/default/mail-right-arrow-list.jpg" width="18" style="border: 0; float: left;" alt="Стрелка вправо">
                                                         </td>
                                                         <td style="padding-left:5px;">
-                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
+                                                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: black; text-align: justify; font-style: italic; ">
                                                                 Высокая маневренность и надежность – впечатляющий малый радиус поворота
                                                             </p>
                                                         </td>
@@ -112,13 +112,13 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td width="378" style="padding: 5px 0px 5px 0px;" >
+                                            <td width="378" style="padding: 0px 0px 5px 0px;" >
                                                 <img src="http://www.lbr.ru/images/kp/156-puma/mail-2.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>
 
                                         <tr>
-                                            <td style="padding:10px 0px 5px 0px;">
+                                            <td style="padding:0px 0px 0px 0px;">
                                                 <p style="margin:0; color:#F58220; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: justify; ">
                                                     Дополнительный запас мощности трактора
                                                 </p>
@@ -126,13 +126,13 @@ endif;
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding: 5px 0px 5px 0px;">
+                                            <td style="padding: 3px 0px 5px 0px;">
                                                 <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr valign="top">
-                                                        <td style="padding:0px 0px 5px 0px;" width="20" align="left">
+                                                        <td style="padding:0px 0px 3px 0px;" width="20" align="left">
                                                             •
                                                         </td>
-                                                        <td style="padding:0px 0px 5px 0px;" width="358">
+                                                        <td style="padding:0px 0px 3px 0px;" width="358">
                                                             <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
                                                                 <span style="font-weight:bold;">Интеллектуальная система управления</span> мощностью
                                                                 двигателя позволяет использовать до 37 л.с. дополни-
@@ -142,15 +142,15 @@ endif;
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="378" style="padding: 5px 0px 5px 0px;" colspan="2">
-                                                            <img src="http://www.lbr.ru/images/kp/156-puma/mail-3.jpg" width="378" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                                        <td width="378" style="padding: 0px 0px 0px 0px;" colspan="2" align="center">
+                                                            <img src="http://www.lbr.ru/images/kp/156-puma/mail-3.jpg" width="240" style="border: 0;"  alt="Изображения не отображаются">
                                                         </td>
                                                     </tr>
                                                     <tr valign="top">
                                                         <td width="20" align="left" style="padding:5px 0px 5px 0px;">
                                                             •
                                                         </td>
-                                                        <td style="padding:5px 0px 5px 0px;">
+                                                        <td style="padding:3px 0px 5px 0px;">
                                                             <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify;">
                                                                 На двигателя тракторов <span style="font-weight:bold;">PUMA</span> установлена система
                                                                 впрыска <span style="font-weight:bold;">CommonRail с функцией PowerBoost</span>,
@@ -171,13 +171,13 @@ endif;
                                     <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         
                                         <tr>
-                                            <td width="378" style="padding: 5px 0px 5px 20px;" colspan="2">
-                                                <img src="http://www.lbr.ru/images/kp/156-puma/mail-4.jpg" width="358" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                            <td width="378" style="padding: 5px 0px 0px 50px;" colspan="2">
+                                                <img src="http://www.lbr.ru/images/kp/156-puma/mail-4.jpg" width="318" style="border: 0; float: right;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td width="378" style="padding: 15px 0px 5px 20px;" colspan="2">
-                                                <img src="http://www.lbr.ru/images/kp/156-puma/mail-5.jpg" width="358" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                            <td width="378" style="padding: 3px 0px 5px 50px;" colspan="2">
+                                                <img src="http://www.lbr.ru/images/kp/156-puma/mail-5.jpg" width="318" style="border: 0; float: right;" alt="Изображения не отображаются">
                                             </td>
                                         </tr>
 
@@ -192,16 +192,16 @@ endif;
             </table>
         </td>
     </tr>
-
-
-
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Первый блок -->
+</div>
 
+
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Второй блок -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -378,15 +378,16 @@ endif;
         </td>
     </tr>
 
-
-
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Второй блок -->
+</div>
 
+
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Третий блок -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -491,15 +492,23 @@ endif;
             </table>
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+    <tr valign="top">
+    <td style="padding: 0px 20px 0;">
+        <?php
+        if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+            Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+        endif;
+        ?>
+    </td>
+</tr>
+    </table>
 <!-- Третий блок -->
 
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
-?>
+</div>
+</body>
+</html>
+
+
 
 
 
