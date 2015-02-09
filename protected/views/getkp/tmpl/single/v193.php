@@ -17,7 +17,7 @@ endif;
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
     <tr>
         <td style="padding:15px 0px 0px 0px;">
-            <img src="http://www.lbr.ru/images/kp/192-pronar/mail-2.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
+            <img src="http://www.lbr.ru/images/kp/193-pronar/mail-2.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
          </td>
     </tr>
 </table>
