@@ -59,9 +59,11 @@ class CategoryUrlRule extends CBaseUrlRule
             ));
         } else {
             if(strpos($pathInfo, '/mightiness/') !== false) {// for mightiness
+                $pos = strpos($pathInfo, '/mightiness/');
                 $additionalParam = substr($pathInfo, $pos+11);
                 $pathInfo = substr($pathInfo, 0, $pos+11);
             } else if(strpos($pathInfo, '/tehcikl/') !== false) {// for tehcikl
+                $pos = strpos($pathInfo, '/tehcikl/');
                 $additionalParam = substr($pathInfo, $pos+8);
                 $pathInfo = substr($pathInfo, 0, $pos+8);
             } else if(strpos($pathInfo, 'company/events/page-') !== false) { // for news
@@ -70,7 +72,9 @@ class CategoryUrlRule extends CBaseUrlRule
 
                 $pathInfo = substr($pathInfo, 0, $pos+14);
             }
-
+            //var_dump($additionalParam); 
+            //var_dump($pathInfo); 
+            //exit;
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',
