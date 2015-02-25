@@ -126,6 +126,7 @@ RewriteRule ^(.*)(company/vacancy/)(.*) http://career.lbr.ru/ [R=301,L]
 RewriteRule ^(.*)(company/contacts/minsk/)(.*) http://www.lbr.ru/company/contacts/ [R=301,L]
 RewriteRule ^(.*)(company/contacts/chelyabinsk.html/)(.*) http://www.lbr.ru/company/contacts/chelyabinsk/ [R=301,L]
 RewriteRule ^(.*)(company/contacts/yekaterinburg/)(.*) http://www.lbr.ru/company/contacts/ekaterinburg/ [R=301,L]
+RewriteRule ^(.*)(selskohozyaystvennaya-tehnika/events/)(.*) http://www.lbr.ru/company/events/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
