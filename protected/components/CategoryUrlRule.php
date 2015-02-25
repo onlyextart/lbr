@@ -52,30 +52,36 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
-        $additionalParam = ''; // for mightiness and tehcikl
+        $additionalParam = $eventPage = ''; // for mightiness, tehcikl and news
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));
         } else {
-            $pos = strpos($pathInfo, '/mightiness/');
-            if($pos !== false) {// по мощности трактора
+            if(strpos($pathInfo, '/mightiness/') !== false) {// for mightiness
+                $pos = strpos($pathInfo, '/mightiness/');
                 $additionalParam = substr($pathInfo, $pos+11);
                 $pathInfo = substr($pathInfo, 0, $pos+11);
-            } else {// по технологическому циклу
+            } else if(strpos($pathInfo, '/tehcikl/') !== false) {// for tehcikl
                 $pos = strpos($pathInfo, '/tehcikl/');
-                if($pos !== false) {
-                    $additionalParam = substr($pathInfo, $pos+8);
-                    $pathInfo = substr($pathInfo, 0, $pos+8);
-                }
+                $additionalParam = substr($pathInfo, $pos+8);
+                $pathInfo = substr($pathInfo, 0, $pos+8);
+            } else if(strpos($pathInfo, 'company/events/page-') !== false) { // for news
+                $eventPage = substr($pathInfo, $pos+20);
+                $eventPage = '/page/'.$eventPage;
+
+                $pathInfo = substr($pathInfo, 0, $pos+14);
             }
-            
+            //var_dump($additionalParam); 
+            //var_dump($pathInfo); 
+            //exit;
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',
                 array(':path'=>'/'.$pathInfo)
             );
         }
+        
         //Если не найден искомый пункт меню
         if($this->desiredMenuItem === null){
             return false; // не применяем данное правило
@@ -133,8 +139,15 @@ class CategoryUrlRule extends CBaseUrlRule
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
-
-        if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
+        
+        /*if(!empty($eventPage)) echo 11;//return self::$controllers[$this->desiredMenuItem->type].'/index'.$eventPage;
+        else if(!empty($additionalParam)) echo 22; //return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
+        else echo self::$controllers[$this->desiredMenuItem->type];
+        
+        exit;*/
+        
+        if(!empty($eventPage)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$eventPage;
+        else if(!empty($additionalParam)) return self::$controllers[$this->desiredMenuItem->type].'/index'.$additionalParam;
         else return self::$controllers[$this->desiredMenuItem->type];
     }
     
