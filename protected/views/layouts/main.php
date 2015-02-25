@@ -37,7 +37,6 @@
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
         <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
-        <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
         <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
@@ -143,13 +142,13 @@
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
                     </li>
-                    <!--li>
+                    <li>
                         <a href="/users/login/" title="Вход на сайт"><? echo Yii::app()->user->isGuest? "Вход":"Выход"; ?></a>
-                    </li-->
+                    </li>
                 </ul>
             </div>
             <div class="map">
-                <a href="<?php echo Yii::app()->getBaseUrl('true').'/company/contacts/'?>">
+                <a href="http://www.lbr.ru/company/contacts/">
                     <span>Контакты</span>
                     <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
                 </a>
@@ -188,15 +187,8 @@
 
         <footer>
             <div class="f-left">
-                <img src="/images/logo-foot.png" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
-            </div>
-            <div class="f-center">
-            <?php if (Yii::app()->params['currentMenuItem']->level == 1) { ?>
-                    <a href="http://www.webcom-media.ru/">Продвижение сайта</a> - <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
-            <?php } else { ?>
-                    <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
-            <?php } ?>
-            </div>
+                <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
+            </div>            
             <div class="f-right">
                 <ul class="f-nav">
                     <li><a href="/" title="ЛБР-агромаркет">Главная</a></li>
