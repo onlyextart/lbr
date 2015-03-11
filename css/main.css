@@ -3076,12 +3076,13 @@ table.table-tech-stage-with-img td.table-main-img{
     background-repeat:no-repeat !important;
     position: relative;
 }
+
 /* technological schema and stage style */
 /* begin for Banner for spring */
 
 /*
 <div class="sale-for-spring">
-    <div class="sale-for-spring-button"><a href="#"></a></div>
+    <div class="sale-for-spring-button"><a href="#">&nbsp;</a></div>
     <img alt="" src="/images/news/baner1.jpg">
 </div>
 */
