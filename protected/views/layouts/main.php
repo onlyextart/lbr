@@ -1,7 +1,7 @@
 <?php
 /* @var $this Controller */
-//$less = new lessc;
-//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+$less = new lessc;
+$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 
 <!DOCTYPE html>
