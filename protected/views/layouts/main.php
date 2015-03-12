@@ -1,7 +1,7 @@
 <?php
 /* @var $this Controller */
-//$less = new lessc;
-//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+$less = new lessc;
+$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 
 <!DOCTYPE html>
@@ -11,9 +11,7 @@
         $meta_title = Yii::app()->params['currentMenuItem']->meta_title;
         $meta_description = Yii::app()->params['currentMenuItem']->meta_description;
         $meta_keywords = Yii::app()->params['currentMenuItem']->meta_keywords;
-        $meta_pagerNext = Yii::app()->params['meta_pagerNext'];
-        $meta_pagerPrev = Yii::app()->params['meta_pagerPrev'];
-        
+
         if (!$meta_title) {
             $meta_title = Yii::app()->params['meta_title'];
         }
@@ -36,17 +34,11 @@
         <?php if ($meta_keywords): ?>
             <meta name="keywords" content="<?php echo $meta_keywords; ?>">
         <?php endif; ?>
-        <?php if ($meta_pagerPrev): ?>
-            <link rel="prev" href="<?php echo Yii::app()->getBaseUrl(true).$meta_pagerPrev; ?>">
-        <?php endif; ?>
-        <?php if ($meta_pagerNext): ?>
-            <link rel="next" href="<?php echo Yii::app()->getBaseUrl(true).$meta_pagerNext; ?>">
-        <?php endif; ?>
-        
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
         <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
-        <?php
+        <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
+            <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
         Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
