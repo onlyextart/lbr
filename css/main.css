@@ -3076,4 +3076,42 @@ table.table-tech-stage-with-img td.table-main-img{
     background-repeat:no-repeat !important;
     position: relative;
 }
+
 /* technological schema and stage style */
+/* begin for Banner for spring */
+
+/*
+<div class="sale-for-spring">
+    <div class="sale-for-spring-button"><a href="#">&nbsp;</a></div>
+    <img alt="" src="/images/news/baner1.jpg">
+</div>
+*/
+
+.sale-for-spring{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.sale-for-spring-button {
+    width: 191px;
+    height: 65px;
+    position: absolute;
+    top: 132px;
+    left: 766px;
+}
+
+.sale-for-spring-button a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/banner-sale-for-spring/button-small.png');
+}
+
+.sale-for-spring-button a:hover {
+    cursor: pointer;
+    background-image: url('/images/banner-sale-for-spring/button-max.png');
+}
+
+/* end for Banner for spring */
