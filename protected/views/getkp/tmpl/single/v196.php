@@ -27,11 +27,57 @@
         </tr>
     </table>-->
 
-    <table cellspacing="0" cellpadding="0" width="800" align="center" bgcolor="#7da7d8"  style="width: 840px; background: #7da7d8; margin: 0 auto; padding: 0px; border: 0;">
+<!--    <table cellspacing="0" cellpadding="0" width="840" align="center" style="width: 840px; margin: 0 auto; padding: 0px; border: 0;">
         <tr>
-            <td style="padding: 0px 0 0px;">
-                <!--<img src="http://www.lbr.ru/images/kp/196-evp6/list.jpg" width="840" style="border:0; float: left;">-->
-                                                
+            <td colspan="2" style="padding: 0px 0 0px;">
+                <img src="http://www.lbr.ru/images/kp/196-evp6/1.jpg" width="840" style="border:0; float: left;">
+            </td>
+        </tr>
+        <tr>
+            <td width="760" style="padding: 0px 0 0px;" align="right">
+                <a href="https://www.youtube.com/watch?v=4vd__m_IFFA" target="_blank" title="Просмотр видео"><img src="http://www.lbr.ru/images/kp/196-evp6/video2.png" width="50" style="border:0; float: right;"></a>
+            </td>
+            <td width="80" style="padding: 0px 10px 0px 5px;">
+                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/" target="_blank" title="Переход на страницу товара"><img src="http://www.lbr.ru/images/kp/196-evp6/perexod2.png" width="75" style="border:0; float: right;"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 0px 0 0px;">
+                <img src="http://www.lbr.ru/images/kp/196-evp6/2.jpg" width="840" style="border:0; float: left;">
+              </td>
+        </tr>
+        <tr>
+            <td width="760" style="padding: 0px 0 0px;" align="right">
+                <a href="https://www.youtube.com/watch?v=4vd__m_IFFA" target="_blank" title="Просмотр видео"><img src="http://www.lbr.ru/images/kp/196-evp6/video2.png" width="50" style="border:0; float: right;"></a>
+            </td>
+            <td width="80" style="padding: 0px 10px 0px 15px;">
+                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/" target="_blank" title="Переход на страницу товара"><img src="http://www.lbr.ru/images/kp/196-evp6/perexod2.png" width="75" style="border:0; float: left;"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 0px 0 0px;">
+                <img src="http://www.lbr.ru/images/kp/196-evp6/3.jpg" width="840" style="border:0; float: left;">
+              </td>
+        </tr>
+        <tr>
+            <td width="760" style="padding: 0px 0 0px;" align="right">
+                <a href="https://www.youtube.com/watch?v=4vd__m_IFFA" target="_blank" title="Просмотр видео"><img src="http://www.lbr.ru/images/kp/196-evp6/video2.png" width="50" style="border:0; float: right;"></a>
+            </td>
+            <td width="80" style="padding: 0px 10px 0px 15px;">
+                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/" target="_blank" title="Переход на страницу товара"><img src="http://www.lbr.ru/images/kp/196-evp6/perexod2.png" width="75" style="border:0; float: left;"></a>
+            </td>
+        </tr>
+         <tr>
+            <td colspan="2" style="padding: 10px 0px 15px 0px;">
+                <img src="http://www.lbr.ru/images/kp/196-evp6/4.jpg" width="840" style="border:0; float: left;">
+              </td>
+        </tr>
+         <tr>
+            <td colspan="2" style="padding: 0px 0 0px;">
+                <img src="http://www.lbr.ru/images/kp/196-evp6/5.jpg" width="840" style="border:0; float: left;">
+              </td>
+        </tr>
+    </table>                                   -->
 <!--                 START 
                 <table width="798" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF"  style="border:0; border-collapse: separate;">
                     <tr>
@@ -1034,9 +1080,7 @@
 
 
                 <!-- END -->
-            </td>
-        </tr>
-    </table>
+           
 
    
 
