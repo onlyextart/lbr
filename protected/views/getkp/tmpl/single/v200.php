@@ -4,29 +4,14 @@
 
 ?>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style>
-        p{mso-line-height-rule:exactly !important; line-height: 13pt;}
-    </style>
-</head>
-<body style="margin: 0; padding: 0; border: 0;">
-
-    <style>
-        p{mso-line-height-rule:exactly !important; line-height: 13pt;}
-    </style>
-<table width="800" cellspacing="0" cellpadding="0" align="center"  style="border:0; border-collapse: separate;">
-        <tr>
-            <td>
-                <a target="_blank" href="http://www.lbr.ru/?utm_source=EVP6&utm_medium=email&utm_term=glavnaya&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                    
-                    <img src="header.png" width="800" style="border: 0; float: left;" alt="Нажмите отобразить рисунки">
-                </a>
-            </td>
-        </tr>
-    </table>
+<?php
+if ($data['show_header'] == '1' || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+endif;
+?>
 <!-- Первый блок -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -36,7 +21,9 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
+                                    <a href="http://www.lbr.ru/?utm_source=EVP6&utm_medium=email&utm_term=glavnaya&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" target="_blank">
                                     <img src="http://www.lbr.ru/images/kp/200-evp/header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    </a>
                                 </td>
                             </tr>
                         </table>
