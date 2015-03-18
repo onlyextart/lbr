@@ -1,7 +1,7 @@
 <?php
 /* @var $this Controller */
-$less = new lessc;
-$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
+//$less = new lessc;
+//$less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUMENT_ROOT'].'/css/main.css');
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,9 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
         $meta_title = Yii::app()->params['currentMenuItem']->meta_title;
         $meta_description = Yii::app()->params['currentMenuItem']->meta_description;
         $meta_keywords = Yii::app()->params['currentMenuItem']->meta_keywords;
-
+        $meta_pagerNext = Yii::app()->params['meta_pagerNext'];
+        $meta_pagerPrev = Yii::app()->params['meta_pagerPrev'];
+        
         if (!$meta_title) {
             $meta_title = Yii::app()->params['meta_title'];
         }
@@ -34,11 +36,18 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
         <?php if ($meta_keywords): ?>
             <meta name="keywords" content="<?php echo $meta_keywords; ?>">
         <?php endif; ?>
+        <?php if ($meta_pagerPrev): ?>
+            <link rel="prev" href="<?php echo Yii::app()->getBaseUrl(true).$meta_pagerPrev; ?>">
+        <?php endif; ?>
+        <?php if ($meta_pagerNext): ?>
+            <link rel="next" href="<?php echo Yii::app()->getBaseUrl(true).$meta_pagerNext; ?>">
+        <?php endif; ?>
+        
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
         <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
         <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
-            <?php
+        <?php
         // Добавление css и javascript на страницу сайта
 //        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
         Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
@@ -143,13 +152,13 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
                     <li>
                         <a href="/search/" title="Поиск по сайту">Поиск</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a href="/users/login/" title="Вход на сайт"><? echo Yii::app()->user->isGuest? "Вход":"Выход"; ?></a>
-                    </li>
+                    </li-->
                 </ul>
             </div>
             <div class="map">
-                <a href="http://www.lbr.ru/company/contacts/">
+                <a href="<?php echo Yii::app()->getBaseUrl('true').'/company/contacts/'?>">
                     <span>Контакты</span>
                     <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
                 </a>
@@ -188,8 +197,15 @@ $less->compileFile($_SERVER['DOCUMENT_ROOT'].'/css/input.less', $_SERVER['DOCUME
 
         <footer>
             <div class="f-left">
-                <img src="/images/logo-foot.gif" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
-            </div>            
+                <img src="/images/logo-foot.png" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
+            </div>
+            <div class="f-center">
+            <?php if (Yii::app()->params['currentMenuItem']->level == 1) { ?>
+                    <a href="http://www.webcom-media.ru/">Продвижение сайта</a> - <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
+            <?php } else { ?>
+                    <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
+            <?php } ?>
+            </div>
             <div class="f-right">
                 <ul class="f-nav">
                     <li><a href="/" title="ЛБР-агромаркет">Главная</a></li>
