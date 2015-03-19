@@ -86,9 +86,9 @@ endif;
                     <td style="padding:0px 0px 10px 0px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px;">
+                                <td align="right" style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/?utm_source=EVP6&utm_medium=email&utm_term=Ares&utm_content=<?php echo $email;?>&utm_campaign=Diskovaja_borona_Ares" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -153,7 +153,7 @@ endif;
                     <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="385px" style="padding-top: 15px; text-align: left;">
+                                <td width="385px" style="padding-top: 15px; text-align: left; width: 385px;">
                                      <p style="margin:0; color: grey; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: left; ">
                                         - разрыхление следов колес трактора<br />
                                         - выравнивание неровностей почвы<br />
@@ -162,7 +162,7 @@ endif;
                                         - измельчение и финишное прикатывание
                                     </p>
                                 </td>
-                                <td width="375px" style="padding-top: 15px; text-align: left;">
+                                <td width="375px" style="padding-top: 15px; text-align: left; width: 375px;">
                                      <p style="margin:0; color: grey; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: left; ">
                                         Стабильно выдержанная глубина сева по всей ширине захвата от начала до конца сева - обеспечивается высевающими сошниками с центральной регулировкой глубины.
                                          Экономный расход посевного материала - норма высева регулируется от 2 до 400 кг на гектар.
@@ -176,14 +176,14 @@ endif;
                     <td style="padding: 5px 0px 0px 0px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="370px" style="padding-top: 3px;">
+                                <td width="370px" style="padding-top: 3px; text-align: right;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?utm_source=EVP6&utm_medium=email&utm_term=Atlas&utm_content=<?php echo $email;?>&utm_campaign=Kultivatory_predposevnye_Atlas" target="_blank">
-                                     <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                     <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                      </a>
                                 </td>
-                                <td  width="385px" style="padding-top: 3px;">
+                                <td  width="385px" style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/333-zernovye-seyalki-mazur/?utm_source=EVP6&utm_medium=email&utm_term=Mazur&utm_content=<?php echo $email;?>&utm_campaign=Zernovye_sejalki_Mazur" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -258,9 +258,9 @@ endif;
                     <td style="padding:0px 10px 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px;">
+                                <td style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?utm_source=EVP6&utm_medium=email&utm_term=Kombi&utm_content=<?php echo $email;?>&utm_campaign=Kultivatory_predposevnye_Kombi" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -324,13 +324,13 @@ endif;
                     <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="385px" style="padding-top: 15px; text-align: left;">
+                                <td width="385px" style="padding: 15px 18px 0 0; text-align: left; width: 385px;">
                                      <p style="margin:0; color: grey; padding: 0 18px 0 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         За счет точности высева прирост урожайности составит 15-20%, 
                                         что даст прямую реальную экономическую выгоду при 250 Га высеваемых площадей и при средней урожайности 25ц с 1 Га.
                                     </p>
                                 </td>
-                                <td width="375px" style="padding-top: 15px; text-align: left;">
+                                <td width="375px" style="padding-top: 15px; text-align: left; width: 375px;">
                                      <p style="margin:0; color: grey; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         Отличное дополнение к зерновой сеялке. 
                                         Alfa устанавливается на лущильниках, плоскорезах и дисковых боронах. 
@@ -345,14 +345,14 @@ endif;
                     <td style="padding: 5px 0px 0px 0px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="385px" style="padding: 3px 8px 0 0;">
+                                <td width="385px" style="padding: 3px 8px 0 0; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?utm_source=EVP6&utm_medium=email&utm_term=Polonez&utm_content=<?php echo $email;?>&utm_campaign=Zernovye_sejalki_Polonez" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="385px" style="padding-top: 3px;">
+                                <td width="385px" style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?utm_source=EVP6&utm_medium=email&utm_term=Polonez&utm_content=<?php echo $email;?>&utm_campaign=Zernovye_sejalki_Polonez" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; padding: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; padding: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -421,9 +421,9 @@ endif;
                     <td style="padding:0px 10px 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td style="padding-top: 3px;">
+                                <td style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=EVP6&utm_medium=email&utm_term=Expom&utm_content=<?php echo $email;?>&utm_campaign=Prikatyvajushhie_katki_Expom" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -487,12 +487,12 @@ endif;
                     <td style="padding:0px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="385px" style="padding-top: 15px; text-align: left;">
+                                <td width="385px" style="padding: 15px 18px 0 0; text-align: left; width: 385px;">
                                      <p style="margin:0; color: grey; padding: 0 18px 0 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         Объемы бункера для удобрений (от 950 до 3 000 л), что позволяет оптимально подобрать подходящую машину для хозяйств с различными потребностями и площадями полей.
                                     </p>
                                 </td>
-                                <td width="375px" style="padding-top: 15px; text-align: left;">
+                                <td width="375px" style="padding-top: 15px; text-align: left; width: 375px;">
                                      <p style="margin:0; color: grey; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         Ширина захвата штанги до 18 метров, резервуар до 1000 литров. 
                                         Требуемая мощность трактора до 80 л.с.
@@ -506,14 +506,14 @@ endif;
                     <td style="padding: 5px 0px 0px 0px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="385px" style="padding: 3px 8px 0 0;">
+                                <td width="385px" style="padding: 3px 8px 0 0; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?utm_source=EVP6&utm_medium=email&utm_term=razbrasyvateli_udobrenij_MX&utm_content=<?php echo $email;?>&utm_campaign=Navesnye_razbrasyvateli_mineralnyh_udobrenij_MX" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="385px" style="padding-top: 3px;">
+                                <td width="385px" style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/?utm_source=EVP6&utm_medium=email&utm_term=OZONE&utm_content=<?php echo $email;?>&utm_campaign=Navesnye_opryskivateli_OZONE" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; padding: 0; float: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/200-evp/push_me.png" width="200" style="border: 0; padding: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
