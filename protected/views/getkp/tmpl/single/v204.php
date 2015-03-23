@@ -21,8 +21,10 @@
     </table>
     <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px;">
         <tr align="right">
-            <td><span style="font-family: Calibri, sans-serif; font-size:42px; font-weight: bolder; color: #d1232a;">ВЫГОДНО ВДВОЙНЕ! МТЗ 1523 ПО СТАРОЙ ЦЕНЕ И ТЕХНИКОЙ С ОСЕННИМИ СКИДКАМИ</span><br><span style="display:block; font-family: Calibri, sans-serif;  text-align: left; font-size:48px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">ДВОЙНОЙ УДАР <br /> ПО ЦЕНАМ!!!</span></td>
-        </tr>
+            <td><span style="font-family: Calibri, sans-serif; font-size:34px; font-weight: bolder; color: #f58220;">
+                    Тракторы МТЗ по самым горячим ценам.<br />
+                    Ограниченное предложение. <br />
+                    Воспользуйте скидками уже сегодня!</span></td></tr>
         <tr><td>
         <?php
 	$finance_block = $data['finance_block'];
