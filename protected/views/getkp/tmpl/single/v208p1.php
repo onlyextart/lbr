@@ -15,7 +15,7 @@
             <td>
                 <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                     <tr>
-                        <<td>
+                        <td>
                             <img src="http://www.lbr.ru/images/kp/208-mecmar/mail-1.jpg" width="800" style="border: 0; float: right;" alt="Логотип Mecmar">
                         </td>
                     </tr>
