@@ -479,20 +479,7 @@ endif;
                         </table>
                     </td>
                 </tr>
-                <tr>
-                    <td style="padding:15px 20px 0px 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/?utm_source=EVP7&utm_medium=email&utm_term=glavnaya&utm_content=<?php echo $email;?>&utm_campaign=glavnaya" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/211-evp/footer.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-
+               
 
 
 
@@ -507,7 +494,11 @@ endif;
 
     <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
-    
+  <?php
+if($data['show_footer']=='1' || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+endif;
+?>
 </body>
 
 
