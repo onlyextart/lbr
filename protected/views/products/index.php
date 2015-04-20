@@ -54,7 +54,7 @@ function sortByTechCharTitle($a, $b)
             <?php echo  strip_tags($review) ? '<li id="review" class="active_tab">Обзор</li>' : ''; ?>
             <?php echo  strip_tags($tech) ? '<li id="features">Технические характеристики</li>' : ''; ?>
             <?php echo  strip_tags($constr) ? '<li id="construct">Конструкционные особенности</li>' : ''; ?>
-            <?php echo  strip_tags($exp) ? '<li id="experience">Опыт эксплуатации</li>' : ''; ?>
+            <?php echo  strip_tags($exp) ? '<li id="experience">Отзывы</li>' : ''; ?>
             <?php echo  $img ? '<li id="media">Фото и видео</li>' : ''; ?>
             <?php echo Yii::app()->user->checkAccess('readHowToSell')? '<li id="howtosell">Как продавать</li>':''; ?>
         </ul>

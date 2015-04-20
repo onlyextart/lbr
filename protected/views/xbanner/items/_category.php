@@ -52,6 +52,6 @@ $makers = Makers::model()->findAll(array(
     </div>
     <div class="b_caption">
         <? echo $data->bannerRegions[0]->description; ?>
-        <? echo CHtml::link('Описание, Характеристики, Опыт эксплуатации', $link.'/', array('class'=>'btn')); ?>
+        <? echo CHtml::link('Описание, Характеристики, Отзывы', $link.'/', array('class'=>'btn')); ?>
     </div>
 </div>
