@@ -18,6 +18,7 @@ class TehciklController extends Controller
             'Технология возделывания лука'=>'cikl-luk',
             'Технология посева озимых'=>'cikl-ozimye',
             'Технология посева яровых'=>'cikl-yarovye',
+            'Логистика и обработка зерновых'=>'cikl-corn',
         );
         
         if(!empty($sort)){
@@ -34,14 +35,17 @@ class TehciklController extends Controller
             else if($sort == 'cikl-kartofel') $label = 'Технология возделывания картофеля';
             else if($sort == 'cikl-ozimye') $label = 'Технология посева озимых';
             else if($sort == 'cikl-yarovye') $label = 'Технология посева яровых';
-            $activeId = TechSchema::model()->find('title like :title', array(':title'=>$label))->id;
+            else if($sort == 'cikl-corn') $label = 'Логистика и обработка зерновых';
+            $activeId = TechSchema::model()->find(array('order'=>'id desc', 'condition'=>'title like :title', 'params'=>array(':title'=>$label)))->id;
             Yii::app()->params['meta_title'] = $label;
             $title = $label;
+            
             if(!empty($activeId)) {
                 $result = $productList = array();
                 $response = '';
                 $cycleName = TechSchema::model()->findByPk($activeId)->title;
                 $stages = TechSchemaStage::model()->findAll(array('order'=>'level', 'condition'=>'schema_id = :id', 'params'=>array(':id'=>$activeId)));
+                
                 foreach($stages as $stage) {
                     $result[$cycleName][$stage['id']] = TechStage::model()->findByPk($stage['stage_id'])->title;
 
@@ -83,7 +87,7 @@ class TehciklController extends Controller
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
                         $additionalUrl = $currentSchema->additional_url;
-                        if(empty($mainImglabel)) $mainImglabel = $key;
+                        //if(empty($mainImglabel)) $mainImglabel = $key;
                         $response .= '<div><table class="table-tech-stage-with-img" border="0" cellspacing="0" cellpadding="0">';
                         $response .= '<tr><td class="table-spasing" colspan="'.($dividend+1).'"></td></tr>';
                         $response .= '<tr>';  
@@ -100,9 +104,9 @@ class TehciklController extends Controller
                             $count++;
                         }
                         $response .= '</tr>';
-                        $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'">'.
-                            '<img width="112px" src="'.$mainImglabel.'" />'.
-                            '<div class="product-list-arrow">
+                        $response .= '<tr><td class="table-main-img" rowspan="'.($rowCount*3-1).'">';
+                        if(!empty($mainImglabel))$response .= '<img width="112px" src="'.$mainImglabel.'" />';
+                        $response .= '<div class="product-list-arrow">
                                <img class="plarrow" src="/images/schema/arrow_main_label.png">
                             </div>' .
                         '</td>';
@@ -152,7 +156,7 @@ class TehciklController extends Controller
                                 $bgcolor = (!empty($additionalUrl)) ? 'background-color: #d0d0d0;':'background-color: #ffffff;';
                                 $response .= '<td rowspan="2" colspan="'.$union.'" class="tech-schema-middle" style="'.$bgcolor.'"><div class="additional-info-wrapper">';
                                 if(!empty($additionalUrl))$response .= '<a title="Сопутствующие товары" target="_blank" href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/">';
-                                $response .= '<img src="'.$additionalImg.'" alt="Нет изображения"/>';
+                                if(!empty($additionalImg))$response .= '<img src="'.$additionalImg.'" alt="Нет изображения"/>';
                                 if(!empty($additionalUrl))$response .= '</a>';
                                 $response .= '</div></td>';
                             }
@@ -211,6 +215,7 @@ class TehciklController extends Controller
     
     public function actionSetUrl()
     {
+        /*
         $model = TechSchema::model()->findByPk(63);
         $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
         $model->saveNode();
@@ -220,10 +225,121 @@ class TehciklController extends Controller
         $model = TechSchema::model()->findByPk(65);
         $model->additional_url = 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/';
         $model->saveNode();
+        */
     }
     
     public function actionAddValues()
     {
+        // Зерно
+        $root2 = new TechSchema;
+        $root2->title = 'Логистика и обработка зерновых';
+        $root2->color = 'd5cd27';
+        $root2->saveNode();
+        
+        $subCategory2 = new TechSchema;
+        $subCategory2->title='Логистика и обработка зерновых';
+        //$subCategory2->img='/images/schema/senaz/senaz.jpg';
+        //$subCategory2->menu_img='/images/schema/menu/senaz.png';
+        //$subCategory2->additional='/images/schema/additional/senaz.png';
+        $subCategory2->appendTo($root2);
+        
+        $stage1 = new TechStage();
+        $stage1->title = 'Выгрузка';
+        $stage1->save();
+        
+        $stage2 = new TechStage();
+        $stage2->title = 'Протравливание семян';
+        $stage2->save();
+        
+        $stage3 = new TechStage();
+        $stage3->title = 'Транспортировка и перегрузка';
+        $stage3->save();
+        
+        $stage4 = new TechStage();
+        $stage4->title = 'Комбайнирование';
+        $stage4->save();
+        
+        $stage5 = new TechStage();
+        $stage5->title = 'Сушка';
+        $stage5->save();
+        
+        $stage6 = new TechStage();
+        $stage6->title = 'Очистка';
+        $stage6->save();
+        
+        $stage7 = new TechStage();
+        $stage7->title = 'Перегрузка';
+        $stage7->save();
+        
+        // сенаж
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = 135;
+        $stage->level = 1;
+        //$stage->img = '/images/schema/senaz/senaz1.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage1->id;
+        $stage->level = 2;
+        //$stage->img = '/images/schema/senaz/senaz2.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage2->id;
+        $stage->level = 3;
+        //$stage->img = '/images/schema/senaz/senaz3.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage3->id;
+        $stage->level = 4;
+        //$stage->img = '/images/schema/senaz/senaz5.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = 139;
+        $stage->level = 5;
+        //$stage->img = '/images/schema/senaz/senaz7.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage4->id;
+        $stage->level = 6;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = 114;
+        $stage->level = 7;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage5->id;
+        $stage->level = 8;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage6->id;
+        $stage->level = 9;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = 132;
+        $stage->level = 10;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        $stage = new TechSchemaStage();
+        $stage->schema_id = $subCategory2->id;
+        $stage->stage_id = $stage7->id;
+        $stage->level = 11;
+        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->save();
+        echo 'ok';
         /*
         $model = TechSchema::model()->findByPk(67);
         $model->title = 'Технология возделывания лука';

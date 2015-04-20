@@ -3,23 +3,43 @@
     <ul class="tech-menu-wrapper">
     <?php
     foreach ($roots as $root):
-        $cycle = TechSchema::model()->findByPk($root->id);
-        $descendants=$cycle->descendants()->findAll();
-        $count = count($descendants);
-        $width = 125;
-        $num = 0;
-        foreach ($descendants as $descendant):  
-            echo CHtml::openTag('li', array('name' => $descendant->id));
-            if($num == 0) echo('<span class="menu_group_name" style="width:'.($count*$width).'px; background-color: #'.$root->color.'">'.$root->title.'</span>');
-            $num++;
-            $active = ($descendant->id == $activeId)?'active':'';
-            $href = Yii::app()->getBaseUrl(true).'/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/';
-            echo '<a class="tech-img-wrapper '.$active.'" style="height: 95px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
-            if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title);
-            else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
-            echo '</a>';
-            echo CHtml::closeTag('li');
-        endforeach;
+        if($root->title == 'Логистика и обработка зерновых'):
+            /*$cycle = TechSchema::model()->findByPk($root->id);
+            $descendants=$cycle->descendants()->findAll();
+            $count = count($descendants);
+            $width = 125;
+            $num = 0;
+            foreach ($descendants as $descendant):
+                echo CHtml::openTag('li', array('name' => $descendant->id));
+                if($num == 0) echo('<span class="menu_group_name" style="width:500px; background-color: #'.$root->color.'">'.$root->title.'</span>');
+                $num++;
+                $active = ($descendant->id == $activeId)?'active':'';
+                $href = Yii::app()->getBaseUrl(true).'/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/';
+                echo '<a class="tech-img-wrapper '.$active.'" style="height: 95px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
+                if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title);
+                else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
+                echo '</a>';
+                echo CHtml::closeTag('li');
+            endforeach;*/
+        else:
+            $cycle = TechSchema::model()->findByPk($root->id);
+            $descendants=$cycle->descendants()->findAll();
+            $count = count($descendants);
+            $width = 125;
+            $num = 0;
+            foreach ($descendants as $descendant):
+                echo CHtml::openTag('li', array('name' => $descendant->id));
+                if($num == 0) echo('<span class="menu_group_name" style="width:'.($count*$width).'px; background-color: #'.$root->color.'">'.$root->title.'</span>');
+                $num++;
+                $active = ($descendant->id == $activeId)?'active':'';
+                $href = Yii::app()->getBaseUrl(true).'/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/';
+                echo '<a class="tech-img-wrapper '.$active.'" style="height: 95px; width: 121px; border-color: #'.$root->color.'" href="'.$href.'">';
+                if(!empty($descendant->menu_img)) echo CHtml::image(Yii::app()->getBaseUrl(true).$descendant->menu_img, $descendant->title);
+                else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
+                echo '</a>';
+                echo CHtml::closeTag('li');
+            endforeach;
+        endif;
     endforeach;
     ?>
     </ul>   
