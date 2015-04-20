@@ -199,13 +199,13 @@
             <div class="f-left">
                 <img src="/images/logo-foot.png" alt="Лого подвал ЛБР-Агромаркет" title="Логотип ЛБР-Агромаркет" />
             </div>
-            <div class="f-center">
-            <?php if (Yii::app()->params['currentMenuItem']->level == 1) { ?>
+            <!--div class="f-center">
+            <?php //if (Yii::app()->params['currentMenuItem']->level == 1) { ?>
                     <a href="http://www.webcom-media.ru/">Продвижение сайта</a> - <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
-            <?php } else { ?>
+            <?php //} else { ?>
                     <a href="http://www.webcom-media.ru"> Webcom Media<sup>®</sup></a>
-            <?php } ?>
-            </div>
+            <?php //} ?>
+            </div-->
             <div class="f-right">
                 <ul class="f-nav">
                     <li><a href="/" title="ЛБР-агромаркет">Главная</a></li>
