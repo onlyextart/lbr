@@ -235,7 +235,7 @@ class TehciklController extends Controller
     public function actionAddValues()
     {
         // Зерно
-        $root2 = new TechSchema;
+        /*$root2 = new TechSchema;
         $root2->title = 'Логистика и обработка зерновых';
         $root2->color = 'd5cd27';
         $root2->saveNode();
@@ -342,6 +342,8 @@ class TehciklController extends Controller
         $stage->img = '/images/schema/corn/corn11.jpg';
         $stage->save();
         echo 'ok';
+         * */
+         
         /*
         $model = TechSchema::model()->findByPk(67);
         $model->title = 'Технология возделывания лука';
