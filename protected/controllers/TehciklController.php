@@ -83,7 +83,7 @@ class TehciklController extends Controller
                         $rowCount = (int)(count($value)/$dividend);
                         if(count($value)%$dividend != 0) $rowCount++;
                         
-                        $currentSchema = TechSchema::model()->find('title=:title', array(':title'=>$key));
+                        $currentSchema = TechSchema::model()->find(array('order'=>'id desc', 'condition'=>'title like :title', 'params'=>array(':title'=>$key)));
                         $mainImglabel = $currentSchema->img;
                         $additionalImg = $currentSchema->additional;
                         $additionalUrl = $currentSchema->additional_url;
