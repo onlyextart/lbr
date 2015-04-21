@@ -193,6 +193,7 @@ class TehciklController extends Controller
 
             $this->render('index', array('data'=>$response, 'activeId'=>$activeId, 'url'=>$url, 'title'=>$title, 'roots' => $techSchemaRoots));
         } else {
+            
             Yii::app()->params['meta_title'] = $title;
             $response = '';
             $roots = TechSchema::model()->roots()->findAll();
@@ -200,15 +201,18 @@ class TehciklController extends Controller
                 $cycle = TechSchema::model()->findByPk($root->id);
                 $descendants=$cycle->descendants()->findAll();
                 foreach ($descendants as $descendant):
-                    $response .= '<div class="one_banner">
-                        <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
-                        <div class="m_image">';
-                    $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
-                    $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
-                    $response .= '</div></div>';
+                    ///
+                    if($descendant->title != 'Логистика и обработка зерновых'){
+                        $response .= '<div class="one_banner">
+                            <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
+                            <div class="m_image">';
+                        $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
+                        $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
+                        $response .= '</div></div>';
+                    }
                 endforeach;
             endforeach;
-            
+
             $this->render('index', array('data'=>$response, 'url'=>$url, 'title'=>$title, 'roots' => $techSchemaRoots));
         }
     }
@@ -238,9 +242,8 @@ class TehciklController extends Controller
         
         $subCategory2 = new TechSchema;
         $subCategory2->title='Логистика и обработка зерновых';
-        //$subCategory2->img='/images/schema/senaz/senaz.jpg';
-        //$subCategory2->menu_img='/images/schema/menu/senaz.png';
-        //$subCategory2->additional='/images/schema/additional/senaz.png';
+        $subCategory2->img='/images/schema/corn/corn.jpg';
+        $subCategory2->menu_img='/images/schema/menu/corn.png';
         $subCategory2->appendTo($root2);
         
         $stage1 = new TechStage();
@@ -276,68 +279,67 @@ class TehciklController extends Controller
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = 135;
         $stage->level = 1;
-        //$stage->img = '/images/schema/senaz/senaz1.jpg';
+        $stage->img = '/images/schema/corn/corn1.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage1->id;
         $stage->level = 2;
-        //$stage->img = '/images/schema/senaz/senaz2.jpg';
+        $stage->img = '/images/schema/corn/corn2.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage2->id;
         $stage->level = 3;
-        //$stage->img = '/images/schema/senaz/senaz3.jpg';
+        $stage->img = '/images/schema/corn/corn3.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage3->id;
         $stage->level = 4;
-        //$stage->img = '/images/schema/senaz/senaz5.jpg';
+        $stage->img = '/images/schema/corn/corn4.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = 139;
         $stage->level = 5;
-        //$stage->img = '/images/schema/senaz/senaz7.jpg';
+        $stage->img = '/images/schema/corn/corn5.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage4->id;
         $stage->level = 6;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn6.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = 114;
         $stage->level = 7;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn7.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage5->id;
         $stage->level = 8;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn8.jpg';
         $stage->save();
-        
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage6->id;
         $stage->level = 9;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn9.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = 132;
         $stage->level = 10;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn10.jpg';
         $stage->save();
         $stage = new TechSchemaStage();
         $stage->schema_id = $subCategory2->id;
         $stage->stage_id = $stage7->id;
         $stage->level = 11;
-        //$stage->img = '/images/schema/senaz/senaz9.jpg';
+        $stage->img = '/images/schema/corn/corn11.jpg';
         $stage->save();
         echo 'ok';
         /*
