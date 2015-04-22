@@ -1643,6 +1643,7 @@ a[name="list_filials"]{
   height: 450px;
   float: left;
 }
+
 #tech-schema-results .one_banner {
   height: 358px;
 }
@@ -2782,6 +2783,7 @@ ul.mightiness-menu li {
 
 .m_caption p{
     margin-top: 10px;
+    height: 70px;
 }
 
 .m_header h3{

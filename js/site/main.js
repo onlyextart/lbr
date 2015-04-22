@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $("#mightiness-results .m_caption p").dotdotdot({
+        ellipsis : '... ',
+        wrap     : 'letter',
+    });
+
     var setFilialName = getCookie('filial');
     
     if(setFilialName){

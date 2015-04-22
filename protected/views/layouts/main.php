@@ -49,12 +49,13 @@
         <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
         <?php
         // Добавление css и javascript на страницу сайта
-//        Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
+        // Yii::app()->clientScript->registerCssFile('/css/ui/custom-theme/jquery-ui-1.9.2.custom.min.css');
         Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
         Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
         Yii::app()->clientScript->registerCoreScript('/js/site/main2.js');
+        Yii::app()->clientScript->registerScriptFile('/js/jquery.dotdotdot.js');
         ?>
         <!--[if IE]>
             <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl;?>/js/html5.js"></script>
