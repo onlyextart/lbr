@@ -664,7 +664,7 @@ endif;
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr>
                                                                 <td colspan="2" style="padding: 10px 0 0;">
-                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-6.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
+                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-7.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -769,7 +769,7 @@ endif;
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr>
                                                                 <td colspan="2" style="padding: 10px 0 0;">
-                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-7.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
+                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-8.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
                                                                 </td>
                                                             </tr>
                                                             <tr valign="top">
@@ -921,7 +921,7 @@ endif;
                                                         <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                                             <tr>
                                                                 <td colspan="2" style="padding: 0;">
-                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-8.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
+                                                                   <img src="http://www.lbr.ru/images/kp/116-all/korm-all-9.jpg" width="380" style="border: 0; float: left;" alt="Логотип Expom">
                                                                 </td>
                                                             </tr>
                                                             <tr valign="top">
