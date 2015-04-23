@@ -1814,7 +1814,7 @@ endif;
                                     <!-- Заголовок -->
                                     <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         Работаем вместе!</p>
-                                    <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220; line-height: 3px;">
+                                    <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220; ">
                                         Машины-помощники для заготовки кормов.</p>
                                 </td>                                
                             </tr>
