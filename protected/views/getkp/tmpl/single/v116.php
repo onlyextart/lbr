@@ -1808,9 +1808,9 @@ endif;
                         </table>
                     </td></tr>
                     <tr><td style="padding: 0 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid #f58220;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; background: white; ">
                             <tr>
-                                <td style="padding: 0;">
+                                <td style="padding: 0px 0px 0px 0px;border-bottom: 2px solid #f58220; ">
                                     <!-- Заголовок -->
                                     <p style="font-size: 24px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #f58220;">
                                         Работаем вместе!</p>
