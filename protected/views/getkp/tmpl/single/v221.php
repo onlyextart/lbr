@@ -264,7 +264,7 @@ endif;
                     <?php
                         Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', 
                                 array(
-                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/',
+                                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/757-navesnye-zagonnye-plugi-svetlogradagromash/',
                                     'colspan' => false,
                                     'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
                                     )
