@@ -221,7 +221,7 @@
                             <tr>
                                 <td style="padding-top: 3px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/kormozagotovka/press-podborshchiki/668-press-podborshchiki-columbia/?utm_source=EVP10&utm_medium=email&utm_term=Press-podborshhik_Kolumbija_P10_RIO&utm_content=<?php echo $email;?>&utm_campaign=Press-podborshhik_Kolumbija_P10_RIO" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/228-evp/push_me.png" width="160" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/228-evp10/push_me.png" width="160" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
