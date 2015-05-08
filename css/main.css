@@ -1174,8 +1174,8 @@ a[name="list_filials"]{
 /*  background-color: red;*/
 }
 
-.wrapper #content .left-sidebar .akcii-img-wrapper{
-  margin:40px auto;
+.wrapper #content .left-sidebar #akcii-img-wrapper{
+  margin:10px auto;
   width:160px;
 /*  background-color: red;*/
 }
@@ -1186,18 +1186,29 @@ a[name="list_filials"]{
   float:left;
 }
 
-.wrapper #content .footer-banner {
+.wrapper #content #footer-banner {
     clear:both;
     width:1000px;
 }
 
-.wrapper #content .footer-banner .footer-elem{
+.wrapper #content #footer-banner .footer-elem{
     float:left;
 }
 
 .wrapper #content .mresults-akcii{
     /*float:right;*/
     margin-left: 27px;
+}
+.sticky {
+  position: fixed;
+  z-index: 101;
+  margin-left: 70px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.stop {
+  position: relative;
+  z-index: 101;
 }
 /*-----akcii---End-*/
 

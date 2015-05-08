@@ -2,9 +2,10 @@
 
 ?>
 <div class="left-sidebar">
-    <div class="akcii-img-wrapper" >
-         <img src="http://www.lbr.test/images/akcii/banner_test.jpg" >
+    <div id="akcii-img-wrapper" >
+         <img src="http://www.lbr.test/images/akcii/banner_test.jpg">
     </div>
+    &nbsp;
 </div>
 
 <div class="right-sidebar">
@@ -88,8 +89,7 @@
     </div>
 </div>
 
-
-<div class="footer-banner">
+<div id="footer-banner">
     <div class="footer-elem">
         <a href="/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/"> 
             <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/akcii/footer_banner1.jpg">
@@ -106,3 +106,30 @@
         </a>
     </div>
 </div>
+
+<script>
+(function(){
+var R = null;
+window.addEventListener('scroll', Ascroll, false);
+document.body.addEventListener('scroll', Ascroll, false);
+function Ascroll() {
+var a = document.querySelector('#akcii-img-wrapper'),
+    Ra = a.getBoundingClientRect(),
+    Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
+  if (Rb.top <= R) {
+    if (Rb.top <= Ra.bottom && Ra.top <= 0) {
+      a.className = 'stop';
+      a.style.top = R - Ra.height +'px';
+    } else {
+      a.className = 'sticky';
+      a.style.top = '0';
+    }
+  } else {
+    a.className = '';
+    a.style.top = '';
+    a.style.width = Ra.width + 'px';
+    R = Rb.top - Ra.top + 0;
+  }
+}
+})()
+</script>

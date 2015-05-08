@@ -143,7 +143,7 @@
                     <li>
                         <a href="/akcii/">
                             <img src="/images/mainMenuIcon/toppict_akcii.png" alt="Акции">
-                            <span>Скидки<br>Акции</span>
+                            <span>Акции<br>Скидки</span>
                         </a>
                     </li>
                 </ul>
