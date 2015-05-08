@@ -56,8 +56,8 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/akcii/?utm_source=EVP10&utm_medium=email&utm_term=akcii_evp10&utm_content=<?php echo $email;?>&utm_campaign=akcii_evp10" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/228-evp10/header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <a href="http://www.lbr.ru/akcii/?utm_source=EVP10&utm_medium=email&utm_term=banner1_evp10&utm_content=<?php echo $email;?>&utm_campaign=banner1_evp10" target="_blank">
+                                        <img src="cid:header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -308,7 +308,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/akcii/?utm_source=EVP10&utm_medium=email&utm_term=akcii_evp10&utm_content=<?php echo $email;?>&utm_campaign=akcii_evp10" target="_blank"><img src="http://www.lbr.ru/images/kp/228-evp10/banner.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/akcii/?utm_source=EVP10&utm_medium=email&utm_term=banner2_evp10&utm_content=<?php echo $email;?>&utm_campaign=banner2_evp10" target="_blank"><img src="http://www.lbr.ru/images/kp/228-evp10/banner.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -600,18 +600,6 @@
                     </td>
                 </tr>
                 
-                <tr>
-                    <td style="padding:0px 20px 0px 20px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/228-evp10/footer2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                 
 
             </table>
 
