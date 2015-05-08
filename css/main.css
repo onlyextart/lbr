@@ -1167,6 +1167,40 @@ a[name="list_filials"]{
     position: absolute;
 }
 
+/*-----akcii----*/
+.wrapper #content .left-sidebar {
+  float:left;
+  width:300px;
+/*  background-color: red;*/
+}
+
+.wrapper #content .left-sidebar .akcii-img-wrapper{
+  margin:40px auto;
+  width:160px;
+/*  background-color: red;*/
+}
+
+
+.wrapper #content .right-sidebar {
+  width:700px;
+  float:left;
+}
+
+.wrapper #content .footer-banner {
+    clear:both;
+    width:1000px;
+}
+
+.wrapper #content .footer-banner .footer-elem{
+    float:left;
+}
+
+.wrapper #content .mresults-akcii{
+    /*float:right;*/
+    margin-left: 27px;
+}
+/*-----akcii---End-*/
+
 .wrapper #content .contact-additional-info{
      float:left; 
      width:100%;
