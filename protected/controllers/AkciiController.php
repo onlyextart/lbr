@@ -3,7 +3,7 @@ class AkciiController extends Controller
 {
     public function actionIndex()
     {
-        Yii::app()->params['meta_title']='Скидки и акции';
+        Yii::app()->params['meta_title']='Акции и скидки';
         $this->render('index', array());
     }
 
