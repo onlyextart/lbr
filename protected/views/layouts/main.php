@@ -140,6 +140,12 @@
                             <span>Сервис</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="/akcii/">
+                            <img src="/images/mainMenuIcon/toppict_akcii.png" alt="Акции">
+                            <span>Акции<br>Скидки</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="menu second">
