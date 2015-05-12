@@ -625,7 +625,7 @@
                        <table style="border-collapse: collapse;" width="760" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
                             <tr>
                                 <td width="500" style="padding-left:250px"><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: bold;">Открылся интернет-магазин запчастей для сельскохозяйственной техники!</span><br></td>
-                                <td width="260" align="right" style="text-align:right;"> <a href="http://shop.lbr.ru" target="_blank"> <img src="http://www.lbr.ru/images/kp/button_shop.png" width="118" style="border: 0; " alt="Изображения не отображаются"></a>
+                                <td width="260" align="right" style="text-align:right;"> <a href="http://shop.lbr.ru/?utm_source=EVP10&utm_medium=email&utm_term=shop&utm_content=<?php echo $email;?>&utm_campaign=shop" target="_blank"> <img src="http://www.lbr.ru/images/kp/button_shop.png" width="118" style="border: 0; " alt="Изображения не отображаются"></a>
                                     </td>
                             </tr>
                         </table>
