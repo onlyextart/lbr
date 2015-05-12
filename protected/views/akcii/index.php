@@ -2,7 +2,7 @@
 
 ?>
 <div id="top-banner-wrapper">
-   <img src="http://www.lbr.test/images/akcii/top_banner.jpg" style="width:1000px; border:none;">
+   <img src="http://www.lbr.ru/images/akcii/top_banner.jpg" style="width:1000px; border:none;">
 </div>
 
 
