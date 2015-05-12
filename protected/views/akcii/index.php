@@ -18,15 +18,77 @@
         <span>КОРМОЗАГОТОВКА</span>
     </div>
     <div class="mresults mresults-akcii">
-        <div class="m_header"><h3>Косилка дисковая Bellon DL</h3></div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/kosilka-bellon-alfa1.JPG"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">С МТЗ 82 при кошении злаковых культур - до 3,5 га в час! (при ширине косилки 3,2 м).</p></div>
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
+                <h3>Пресс-подборщики <br> Колумбия R 12/2000</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/columbia_R.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
     </div>
     <div class="mresults mresults-akcii">
-        <div class="m_header"><h3>Косилка дисковая Bellon DL</h3></div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/kosilka-bellon-alfa1.JPG"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">С МТЗ 82 при кошении злаковых культур - до 3,5 га в час! (при ширине косилки 3,2 м).</p></div>
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
+                <h3>Пресс-подборщики Колумбия P10</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/columbia_p10.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Рулон должен быть рулоном! Высокая плотность прессования травяной массы независимо от её влажности.</p></div>
     </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-tac-20/">
+                <h3>Самозагрузочные тележки TAC 20</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/tac_20.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/valkoobrazovateli/694-valkoobrazovatel-profiliner-800/">
+                <h3>Валкообразователь <br>Профилайнер 800</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/profillajner_800.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/valkoobrazovateli/372-grabli-kolesno-paltsevye-millennium/">
+                <h3>Валкообразообразователь <br>MILLENNIUM V 20 PRO</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/millenium.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+     </div>
+     <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/kosilki/kosilki-bellon-dl/">
+                <h3>Косилка дисковая Bellon DL</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Bellon.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">С МТЗ 82 при кошении злаковых культур - до 3,5 га в час! (при ширине косилки 3,2 м).</p></div>
+     </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/mashiny-dlya-silosovaniya-v-rukav/381-silosnye-mashiny-manitoba-3000/">
+                <h3>Силосная машина MANITOBA 3000</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/manitoba.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+     </div>
+     <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/kormozagotovka/obmotchiki-rulonov/379-obmotchiki-rulonov-savanna-evolution/">
+                <h3>Обмотчики рулонов <br>SAVANNA EVOLUTION 8400-230</h3>
+            </a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/savanna_evolution.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+     </div>
     
     <div style="clear: both"></div>
     
