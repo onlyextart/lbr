@@ -20,11 +20,11 @@
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
-                <h3>Пресс-подборщики <br> Колумбия R 12/2000</h3>
+                <h3>Пресс-подборщики  Колумбия R 12/2000</h3>
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/columbia_R.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Результат работы - плотный качественный рулон.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
@@ -33,7 +33,7 @@
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/columbia_p10.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">Рулон должен быть рулоном! Высокая плотность прессования травяной массы независимо от её влажности.</p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Один рулон за 1,5 минуты! Высокая плотность прессования травяной массы независимо от её влажности.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
@@ -42,25 +42,25 @@
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/tac_20.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Длительная работа при больших нагрузках. </p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/valkoobrazovateli/694-valkoobrazovatel-profiliner-800/">
-                <h3>Валкообразователь <br>Профилайнер 800</h3>
+                <h3>Валкообразователь Профилайнер 800</h3>
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/profillajner_800.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Бережное перемещение зеленной массы по всей рабочей ширине граблей.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/valkoobrazovateli/372-grabli-kolesno-paltsevye-millennium/">
-                <h3>Валкообразообразователь <br>MILLENNIUM V 20 PRO</h3>
+                <h3>Валкообразообразователь MILLENNIUM V 20 PRO</h3>
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/millenium.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Обеспечивает высокое качество сбора в рыхлый, нескрученный валок.</p></div>
      </div>
      <div class="mresults mresults-akcii">
         <div class="m_header">
@@ -78,16 +78,16 @@
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/manitoba.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Полная механизация процесса заготовки кормов</p></div>
      </div>
      <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/obmotchiki-rulonov/379-obmotchiki-rulonov-savanna-evolution/">
-                <h3>Обмотчики рулонов <br>SAVANNA EVOLUTION 8400-230</h3>
+                <h3>Обмотчики рулонов SAVANNA EVOLUTION 8400-230</h3>
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/savanna_evolution.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;"></p></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Последовательная и бережная схема обмотки рулонов для сохранения качества корма. </p></div>
      </div>
     
     <div style="clear: both"></div>
