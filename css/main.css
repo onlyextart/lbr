@@ -1169,7 +1169,7 @@ a[name="list_filials"]{
 
 /*-----akcii----*/
 .wrapper #content .left-sidebar {
-  margin-top:30px;
+  margin-top:10px;
   float:left;
   width:220px;
 /*  background-color: red;*/
@@ -1185,38 +1185,62 @@ a[name="list_filials"]{
   margin:0px;
   padding:0;
   width:100%;
+  margin-bottom:10px;
 /*  background-color: red;*/
 }
 
-/*.wrapper #content .right-sidebar {
-  margin-top:30px;  
-  width:780px;
+.wrapper #content .right-sidebar {
+  margin-top:10px;  
+  margin-left:57px;
+  width:721px;
   float:left;
-}*/
+}
+.wrapper #content .right-sidebar #video_content {
+   margin-bottom: 30px;
+   margin-left: 25px;
+   float:left;
+   width:305px;
+}
 
-.wrapper #content #top-banner-wrapper{
-    margin-bottom:20px;
+.wrapper #content .right-sidebar #video_text {
+   float:left; 
+   width:305px;
+   margin-left:48px;
+   margin-top:0px;
+   padding:0px;
+}
+
+.wrapper #content .right-sidebar #video_text р3 {
+   margin-top:0px;
+   padding:0px;
 }
 
 .wrapper #content #footer-banner {
     clear:both;
     width:1000px;
+    height:298px;
 }
 
 .wrapper #content #footer-banner .footer-elem{
     float:left;
 }
 
-/*.wrapper #content .mresults-akcii{
+.wrapper #content .mresults-akcii{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.wrapper #content .right-sidebar .right {
     float:right;
-    margin-left: 57px;
-}*/
+}
+
 .sticky {
   position: fixed;
   z-index: 101;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+
 .stop {
   position: relative;
   z-index: 101;

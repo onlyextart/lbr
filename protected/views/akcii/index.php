@@ -6,17 +6,70 @@
 </div>
 
 
-<!--<div class="left-sidebar">
-    <div id="akcii-img-wrapper" >
-         <img src="http://www.lbr.test/images/akcii/banner_test.jpg">
+<div class="left-sidebar">
+    <div id="akcii-img-wrapper" style=''>
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="160" height="600" id="160x600_google" align="middle">
+				<param name="movie" value="<?php echo Yii::app()->request->baseUrl;?>/images/akcii/160x600_google.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="<?php echo Yii::app()->request->baseUrl;?>/images/akcii/160x600_google.swf" width="160" height="600">
+					<param name="movie" value="<?php echo Yii::app()->request->baseUrl;?>/images/akcii/160x600_google.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+            
+
     </div>
     &nbsp;
-</div>-->
+</div>
 
-<!--<div class="right-sidebar">-->
+<div class="right-sidebar">
+    
     <div class="mightiness-menu-label menu_color_group_25" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_zagot.png)">
         <span>КОРМОЗАГОТОВКА</span>
     </div>
+    <div id="video_wrapper">
+        <div id="video_content" style="float:left;">
+            <iframe src="https://www.youtube.com/embed/pr9uie3Xqe8?rel=0" allowfullscreen="" frameborder="0" width="305" height='230'></iframe>
+        </div>
+        <div id="video_text">
+            <h3>Жаркая пора заготовки кормов</h3>
+            <p style="white-space:normal" >С 12 по 31 мая в сети ЛБР-АгроМаркет действуют скидки на технику к сезону кормозаготовки.<p>
+            Успейте приобрести к сезону: 
+            <ul>
+            <li>Косилки
+            <li>Пресс-подборщики
+            <li>Валкообразователи
+            <li>Обмотчики рулонов
+            <li>Прицепы и тележки для перевозки рулонов 
+            </ul>
+        </div>
+    </div>
+    <div style="clear: both"></div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
@@ -26,7 +79,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/columbia_R.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Результат работы - плотный качественный рулон.</p></div>
     </div>
-    <div class="mresults mresults-akcii">
+    <div class="mresults mresults-akcii t">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
                 <h3>Пресс-подборщики Колумбия P10</h3>
@@ -44,7 +97,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/tac_20.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Длительная работа при больших нагрузках. </p></div>
     </div>
-    <div class="mresults mresults-akcii">
+    <div class="mresults mresults-akcii ">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/valkoobrazovateli/694-valkoobrazovatel-profiliner-800/">
                 <h3>Валкообразователь Профилайнер 800</h3>
@@ -62,7 +115,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/millenium.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Обеспечивает высокое качество сбора в рыхлый, нескрученный валок.</p></div>
      </div>
-     <div class="mresults mresults-akcii">
+     <div class="mresults mresults-akcii ">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/kosilki/kosilki-bellon-dl/">
                 <h3>Косилка дисковая Bellon DL</h3>
@@ -80,7 +133,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/manitoba.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Полная механизация процесса заготовки кормов</p></div>
      </div>
-     <div class="mresults mresults-akcii">
+     <div class="mresults mresults-akcii ">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/obmotchiki-rulonov/379-obmotchiki-rulonov-savanna-evolution/">
                 <h3>Обмотчики рулонов SAVANNA EVOLUTION 8400-230</h3>
@@ -130,7 +183,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Ibis1426681758.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Самая массовая серия оборотных плугов.</p></div>
     </div>
-    <div class="mresults mresults-akcii">
+    <div class="mresults mresults-akcii ">
         <div class="m_header">
             <a href="/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/"><h3>Культиваторы предпосевные Atlas</h3></a>
         </div>
@@ -206,7 +259,7 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/yp1630F_2425F1427378170.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Используют воздух для доставки семян из бункера к индивидуальному сошнику, далее точность обеспечивает высевающий аппарат.</p></div>
     </div>
-    <div class="mresults mresults-akcii">
+    <div class="mresults mresults-akcii ">
         <div class="m_header">
            <a href="/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/"><h3>Механические пропашные сеялки точного высева YР-1625А и YР-2425А</h3></a>
            <a href="/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/">(модель YР-1625А и YР-2425А)</a>
@@ -228,7 +281,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Самый крепкий каркас. 100% итальянских комплектующих.</p></div>
     </div>
     
-<!--</div>-->
+</div>
 
 <div id="footer-banner">
     <div class="footer-elem">
@@ -248,29 +301,61 @@
     </div>
 </div>
 
+<script>
+    $("#akcii-img-wrapper").click(function(){
+        window.location="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/";
+    })
+ </script>
 <!--<script>
 (function(){
 var R = null;
 window.addEventListener('scroll', Ascroll, false);
 document.body.addEventListener('scroll', Ascroll, false);
 function Ascroll() {
-var a = document.querySelector('#akcii-img-wrapper'),
-    Ra = a.getBoundingClientRect(),
-    Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
-  if (Rb.top <= R) {
+var fixed_block = document.querySelector('#akcii-img-wrapper'),
+   Ra = fixed_block.getBoundingClientRect(),
+   Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
+   if (Rb.top <= R) {
     if (Rb.top <= Ra.bottom && Ra.top <= 0) {
-      a.className = 'stop';
-      a.style.top = R - Ra.height +'px';
+      fixed_block.className = 'stop';
+      fixed_block.style.top = R - Ra.height +'px';
     } else {
-      a.className = 'sticky';
-      a.style.top = '0';
+      fixed_block.className = 'sticky';
+      fixed_block.style.top = '0';
     }
   } else {
-    a.className = '';
-    a.style.top = '';
-    a.style.width = Ra.width + 'px';
-    R = Rb.top - Ra.top + 0;
+    fixed_block.className = '';
+    fixed_block.style.top = '';
+    fixed_block.style.width = Ra.width + 'px';
+    R = Rb.top - Ra.top +0;
   }
 }
 })()
 </script>-->
+<script>
+
+	(function(){
+
+	    var footerHeight = 298;
+
+	 
+
+	    $(window).scroll(function () {
+
+	        var bottomOffset = $(document).height() - $(window).scrollTop() - $(window).height();
+
+	        if (bottomOffset < footerHeight) {
+
+	            $("#akcii-img-wrapper").css('margin-bottom', footerHeight - bottomOffset);
+
+	        } else {
+
+	            $("#akcii-img-wrapper").css('margin-bottom', 0);
+
+	        }
+
+	    });
+
+	})();
+
+	</script>
