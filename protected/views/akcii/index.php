@@ -109,7 +109,7 @@
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/kormozagotovka/valkoobrazovateli/372-grabli-kolesno-paltsevye-millennium/">
-                <h3>Валкообразообразователь MILLENNIUM V 20 PRO</h3>
+                <h3>Валкообразователь MILLENNIUM V 20 PRO</h3>
             </a>
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/millenium.png"/></div>
