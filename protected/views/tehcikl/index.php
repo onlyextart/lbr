@@ -4,7 +4,7 @@
     <?php
     foreach ($roots as $root):
         if($root->title == 'Логистика и обработка зерновых'):
-            /*$cycle = TechSchema::model()->findByPk($root->id);
+            $cycle = TechSchema::model()->findByPk($root->id);
             $descendants=$cycle->descendants()->findAll();
             $count = count($descendants);
             $width = 125;
@@ -20,7 +20,7 @@
                 else echo '<div style="width: 123px; height: 100px; line-height: 100px; vertical-align: middle; text-align: center">'.$descendant->title.'</div>';
                 echo '</a>';
                 echo CHtml::closeTag('li');
-            endforeach;*/
+            endforeach;
         else:
             $cycle = TechSchema::model()->findByPk($root->id);
             $descendants=$cycle->descendants()->findAll();

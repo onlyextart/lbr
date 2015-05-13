@@ -202,14 +202,14 @@ class TehciklController extends Controller
                 $descendants=$cycle->descendants()->findAll();
                 foreach ($descendants as $descendant):
                     ///
-                    if($descendant->title != 'Логистика и обработка зерновых'){
+                    //if($descendant->title != 'Логистика и обработка зерновых'){
                         $response .= '<div class="one_banner">
                             <h3><a href="/selskohozyaystvennaya-tehnika/tehcikl/'.$url[$descendant->title].'/">'.$descendant->title.'</a></h3>
                             <div class="m_image">';
                         $img = substr($descendant->menu_img, 0, strlen($descendant->menu_img)-4).'-big.png';
                         $response .= CHtml::image(Yii::app()->getBaseUrl(true).$img, $descendant->title);
                         $response .= '</div></div>';
-                    }
+                    //}
                 endforeach;
             endforeach;
 
