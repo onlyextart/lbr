@@ -935,11 +935,11 @@ header:after {
   overflow: hidden;
   text-indent: 100%;
   background: url("/images/timetobuy/action.png") transparent no-repeat center;
-  height: 88px;
+  height: 120px;
   width: 90px;
   padding: 0px;
   margin: 0px;
-  top: 15px;
+  top: 0px;
   left: 15px;
 }
 .wrapper #content .product_wrapper .product_content > div div.review_video {
