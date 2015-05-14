@@ -81,7 +81,7 @@
     </div>
     <div class="mresults mresults-akcii t">
         <div class="m_header">
-            <a href="/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/">
+            <a href="/tehnika/kormozagotovka/press-podborshchiki/668-press-podborshchiki-columbia/">
                 <h3>Пресс-подборщики Колумбия P10</h3>
             </a>
         </div>
