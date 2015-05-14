@@ -145,7 +145,7 @@
     
     <div style="clear: both"></div>
     
-    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_shirokozahvat.png)">
+<!--    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_shirokozahvat.png)">
         <span>ШИРОКОЗАХВАТНЫЕ  ТЕХНОЛОГИИ  ПОЧВООБРАБОТКИ И СЕВА</span>
     </div>
     <div class="mresults mresults-akcii">
@@ -204,7 +204,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Самая массовая серия оборотных плугов.</p></div>
     </div>
     
-    <div style="clear: both"></div>
+    <div style="clear: both"></div>-->
     
 <!--    <div class="mightiness-menu-label menu_color_group_17" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_oprysk.png)">
         <span>ОПРЫСКИВАТЕЛИ</span>
@@ -230,7 +230,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Еврокласс, евроточность! Российская цена!</p></div>
     </div>-->
     
-    <div style="clear: both"></div>
+<!--    <div style="clear: both"></div>
     
     <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_propash.png)">
         <span>ВОЗДЕЛЫВАНИЕ ПРОПАШНЫХ КУЛЬТУР</span>
@@ -279,7 +279,7 @@
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Barkas.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Самый крепкий каркас. 100% итальянских комплектующих.</p></div>
-    </div>
+    </div>-->
     
 </div>
 
