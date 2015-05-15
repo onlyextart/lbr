@@ -1515,10 +1515,9 @@ a[name="list_filials"]{
   height: 100%;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_top_left {
-  width: 91px;
-  height: 67px;
-  padding-top: 23px;
-  top: 5px;
+  width: 90px;
+  height: 120px;
+  top: 0px;
   left: 5px;
   line-height: 25px;
   position: absolute;
