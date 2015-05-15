@@ -6,13 +6,12 @@
         <span><?php echo $image->description; ?></span>
     </div>
 
-    <?php if($image->top_left):?>
+    <?php if($image->top_left):?><a href="http://www.lbr.ru/akcii/">
         <div class="time_to_buy_top_left">
-            <?php if($image->type=='1'): ?>
-                <span>экономия</span>
-                <span><?php echo $image->top_left;?> %</span>
+            <?php if($image->type=='1'): ?>                
+                <?php echo $image->top_left;?> %
             <?php endif;?>
-        </div>
+        </div></a>
     <?php endif;?>
 
     <?php if($image->top_right):?>
