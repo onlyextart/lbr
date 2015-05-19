@@ -1175,11 +1175,25 @@ a[name="list_filials"]{
 /*  background-color: red;*/
 }
 
-.wrapper #content .left-sidebar #akcii-img-wrapper{
-  margin:0px;
+.wrapper #content .left-sidebar .akcii-img-wrapper{
+  height:600px;
   width:160px;
+  position:relative;
 /*  background-color: red;*/
 }
+.floating {
+ width: 160px;
+ z-index:10;    
+} 
+.fixed {
+ position: fixed;
+ top: 0px; /*здесь указываем отступ сверху*/
+}
+/*.wrapper #content .left-sidebar #img-wrapper{
+  margin:0px;
+  width:160px;
+  height:600px;
+}*/
 
 .wrapper #content #top-banner-wrapper{
   margin:0px;

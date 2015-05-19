@@ -7,7 +7,8 @@
 
 
 <div class="left-sidebar">
-    <div id="akcii-img-wrapper" style=''>
+    <div class="akcii-img-wrapper">
+      <div id="img-wrapper" class="floating">
       <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="160" height="600" id="160x600_google" align="middle">
 				<param name="movie" value="<?php echo Yii::app()->request->baseUrl;?>/images/akcii/160x600_google.swf" />
 				<param name="quality" value="high" />
@@ -42,9 +43,8 @@
 				<!--<![endif]-->
 			</object>
             
-
+          </div>
     </div>
-    &nbsp;
 </div>
 
 <div class="right-sidebar">
@@ -347,60 +347,39 @@
 </div>
 
 <script>
-    $("#akcii-img-wrapper").click(function(){
-        window.location="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/";
-    })
- </script>
-<!--<script>
-(function(){
-var R = null;
-window.addEventListener('scroll', Ascroll, false);
-document.body.addEventListener('scroll', Ascroll, false);
-function Ascroll() {
-var fixed_block = document.querySelector('#akcii-img-wrapper'),
-   Ra = fixed_block.getBoundingClientRect(),
-   Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
-   if (Rb.top <= R) {
-    if (Rb.top <= Ra.bottom && Ra.top <= 0) {
-      fixed_block.className = 'stop';
-      fixed_block.style.top = R - Ra.height +'px';
-    } else {
-      fixed_block.className = 'sticky';
-      fixed_block.style.top = '0';
-    }
-  } else {
-    fixed_block.className = '';
-    fixed_block.style.top = '';
-    fixed_block.style.width = Ra.width + 'px';
-    R = Rb.top - Ra.top +0;
-  }
-}
-})()
-</script>-->
-<script>
-
-	(function(){
-
-	    var footerHeight = 298;
-
-	 
-
-	    $(window).scroll(function () {
-
-	        var bottomOffset = $(document).height() - $(window).scrollTop() - $(window).height();
-
-	        if (bottomOffset < footerHeight) {
-
-	            $("#akcii-img-wrapper").css('margin-bottom', footerHeight - bottomOffset);
-
-	        } else {
-
-	            $("#akcii-img-wrapper").css('margin-bottom', 0);
-
-	        }
-
-	    });
-
-	})();
-
-	</script>
+//(function(){
+//var R = null;
+//window.addEventListener('scroll', Ascroll, false);
+//document.body.addEventListener('scroll', Ascroll, false);
+//function Ascroll() {
+//var fixed_block = document.querySelector('#img-wrapper'),
+//   Ra = fixed_block.getBoundingClientRect(),
+//   Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
+//   if (Rb.top <= R) {
+//    if (Rb.top <= Ra.bottom && Ra.top <= 0) {
+//      fixed_block.className = 'stop';
+//      fixed_block.style.top = R - Ra.height +'px';
+//    } else {
+//      fixed_block.className = 'sticky';
+//      fixed_block.style.top = '0';
+//    }
+//  } else {
+//    fixed_block.className = '';
+//    fixed_block.style.top = '';
+//    fixed_block.style.width = Ra.width + 'px';
+//    R = Rb.top - Ra.top +0;
+//  }
+//}
+//})()
+$(function(){
+ var topPos = $('.floating').offset().top;
+  $(window).scroll(function() { 
+  var top = $(document).scrollTop(),
+      pip = $('#footer-banner').offset().top,
+      height = $('.floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('.floating').addClass('fixed').removeAttr("style");} 
+  else if (top > pip - height) {$('.floating').removeClass('fixed').css({'position':'absolute'});}
+  else {$('.floating').removeClass('fixed');}
+  });
+});
+</script>
