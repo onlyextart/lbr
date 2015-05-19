@@ -7,7 +7,8 @@
 
 
 <div class="left-sidebar">
-    <div id="akcii-img-wrapper" style=''>
+    <div class="akcii-img-wrapper">
+      <div id="img-wrapper" class="floating">
       <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="160" height="600" id="160x600_google" align="middle">
 				<param name="movie" value="<?php echo Yii::app()->request->baseUrl;?>/images/akcii/160x600_google.swf" />
 				<param name="quality" value="high" />
@@ -42,9 +43,8 @@
 				<!--<![endif]-->
 			</object>
             
-
+          </div>
     </div>
-    &nbsp;
 </div>
 
 <div class="right-sidebar">
@@ -145,16 +145,59 @@
     
     <div style="clear: both"></div>
     
-<!--    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_shirokozahvat.png)">
+    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_shirokozahvat.png)">
         <span>ШИРОКОЗАХВАТНЫЕ  ТЕХНОЛОГИИ  ПОЧВООБРАБОТКИ И СЕВА</span>
+    </div>
+    <div class="annotation">
+         <p>Компания "ЛБР-АгроМаркет" приглашает своих партнеров и друзей с 25 по 29 мая посетить Международную агропромышленную выставку "Золотая Нива - 2015", которая состоится в г.Усть-Лобинске, Краснодарский край, РФ. </p> 
+         <p>На выставке будет представлена широкозахватная техника для почвообработки и сева. В период мероприятия для своих посетителей мы предлагаем выгодные условия на приобретение всей представленной продукции. Ждем Вас на стенде 5/1.</p>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+           <a href="/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/"><h3>Пневматические пропашные сеялки точного высева YP-825A </h3></a>
+           <a href="/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/">(модель YP-825A)</a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/YP-8251431943433.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Система подачи семян Air-Pro. Высевающая трубка CLEAR SHOT. Непрерывный контроль высева с помощью монитора Dickey-john.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/248-seyalka-mekhanicheskaya-2sf30/"><h3>Механические сеялки 2SF30 </h3></a>
         </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/2sf30_akc.png"/></div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/2SF30.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Качественный посев в наиболее критических условиях + внесение удобрений</p></div>
     </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/247-mekhanicheskie-seyalki-great-plains/"><h3>Механические сеялки 3S-4000F</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/3S-4000F.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Наибольшая производительность и ширина захвата при максимальном копировании рельефа поля.</p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/314-kultivatory-great-plains/"><h3>Культиватор предпосевной Great Plains</h3></a>
+            <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/314-kultivatory-great-plains/">(модель 8336FCF)</a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/8336FCF.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Качественная работа на любом рельефе.</p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/729-kombinirovij-turbo-till/"><h3>Комбинированный агрегат Turbo-Till</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/TURBO-TILL.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Это два ряда режущих турбо-дисков, которые разрезают слои пожнивных остатков без сминания стеблей растений.</p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/"><h3>Пневматическая сеялка точного высева Spartan 907</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/SPARTAN 907.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Маневренность, компактность, уменьшенный радиус разворота, возможность легко двигаться назад и обсевать края полей.</p></div>
+    </div>
+    
+<!--    
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/"><h3>Механические сеялки нулевого цикла CPH-2000F</h3></a>
@@ -171,9 +214,11 @@
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/spartan_607_akc.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Посев  по качественно обработанной почве и  тяжелой стерне, бережное отношение к семенам.</p></div>
     </div>
+    -->
+    
     <div style="clear: both"></div>
     
-    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_classic.png)">
+   <!-- <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_classic.png)">
         <span>КЛАССИЧЕСКИЕ ТЕХНОЛОГИИ ПОЧВООБРАБОТКИ И СЕВА</span>
     </div>
     <div class="mresults mresults-akcii">
@@ -302,60 +347,39 @@
 </div>
 
 <script>
-    $("#akcii-img-wrapper").click(function(){
-        window.location="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/shpagat-setka-plenka/";
-    })
- </script>
-<!--<script>
-(function(){
-var R = null;
-window.addEventListener('scroll', Ascroll, false);
-document.body.addEventListener('scroll', Ascroll, false);
-function Ascroll() {
-var fixed_block = document.querySelector('#akcii-img-wrapper'),
-   Ra = fixed_block.getBoundingClientRect(),
-   Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
-   if (Rb.top <= R) {
-    if (Rb.top <= Ra.bottom && Ra.top <= 0) {
-      fixed_block.className = 'stop';
-      fixed_block.style.top = R - Ra.height +'px';
-    } else {
-      fixed_block.className = 'sticky';
-      fixed_block.style.top = '0';
-    }
-  } else {
-    fixed_block.className = '';
-    fixed_block.style.top = '';
-    fixed_block.style.width = Ra.width + 'px';
-    R = Rb.top - Ra.top +0;
-  }
-}
-})()
-</script>-->
-<script>
-
-	(function(){
-
-	    var footerHeight = 298;
-
-	 
-
-	    $(window).scroll(function () {
-
-	        var bottomOffset = $(document).height() - $(window).scrollTop() - $(window).height();
-
-	        if (bottomOffset < footerHeight) {
-
-	            $("#akcii-img-wrapper").css('margin-bottom', footerHeight - bottomOffset);
-
-	        } else {
-
-	            $("#akcii-img-wrapper").css('margin-bottom', 0);
-
-	        }
-
-	    });
-
-	})();
-
-	</script>
+//(function(){
+//var R = null;
+//window.addEventListener('scroll', Ascroll, false);
+//document.body.addEventListener('scroll', Ascroll, false);
+//function Ascroll() {
+//var fixed_block = document.querySelector('#img-wrapper'),
+//   Ra = fixed_block.getBoundingClientRect(),
+//   Rb = document.querySelector('#footer-banner').getBoundingClientRect();  // селектор блока, при достижении верхнего края которого нужно открепить прилипающий элемент
+//   if (Rb.top <= R) {
+//    if (Rb.top <= Ra.bottom && Ra.top <= 0) {
+//      fixed_block.className = 'stop';
+//      fixed_block.style.top = R - Ra.height +'px';
+//    } else {
+//      fixed_block.className = 'sticky';
+//      fixed_block.style.top = '0';
+//    }
+//  } else {
+//    fixed_block.className = '';
+//    fixed_block.style.top = '';
+//    fixed_block.style.width = Ra.width + 'px';
+//    R = Rb.top - Ra.top +0;
+//  }
+//}
+//})()
+$(function(){
+ var topPos = $('.floating').offset().top;
+  $(window).scroll(function() { 
+  var top = $(document).scrollTop(),
+      pip = $('#footer-banner').offset().top,
+      height = $('.floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('.floating').addClass('fixed').removeAttr("style");} 
+  else if (top > pip - height) {$('.floating').removeClass('fixed').css({'position':'absolute'});}
+  else {$('.floating').removeClass('fixed');}
+  });
+});
+</script>
