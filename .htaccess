@@ -141,6 +141,9 @@ RewriteRule ^(.*)(tehnika/kormozagotovka/press-podborshchiki/742-trotter-125-top
 RewriteRule ^(.*)(tehnika/kormozagotovka/press-podborshchiki/743-extreme-ht-lt/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/press-podborshchiki/ [R=301,L]
 RewriteRule ^(.*)(tehnika/kormozagotovka/press-podborshchiki/625-press-podborshchiki-columbia/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/press-podborshchiki/ [R=301,L]
 RewriteRule ^(.*)(tehnika/kormozagotovka/voroshilki/606-voroshilki-gth/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormozagotovka/voroshilki/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/grebneobrazovateli/390-grebneobrazovateli-imac/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/grebneobrazovateli/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/botvoudaliteli/405-botvoudaliteli-imac/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/botvoudaliteli/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/ustroystvo-dla-zapolneniya-konteynerov-uzk/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
