@@ -216,7 +216,26 @@
     </div>
     -->
     
+   
+    
     <div style="clear: both"></div>
+    
+     <div class="mightiness-menu-label menu_color_group_3" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_tractor.png)">
+        <span>ТРАКТОРЫ</span>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/traktory/mccormick/237-traktory-mccormick-serii-ttkh/">
+                <h3>Тракторы MCCORMICK серии ТТХ</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/TTX_akc.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Трактор с полной комплектацией.<br>
+            Тест-драйв -  убедитесь сами  в надёжности  и комфорте! </p></div>
+    </div>
+    
+    <div style="clear: both"></div>
+    
+    
     
    <!-- <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_classic.png)">
         <span>КЛАССИЧЕСКИЕ ТЕХНОЛОГИИ ПОЧВООБРАБОТКИ И СЕВА</span>
@@ -314,6 +333,7 @@
     </div>
     
     <div style="clear: both"></div>
+    -->
     
     <div class="mightiness-menu-label menu_color_group_21" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_peregr.png)">
         <span>СЕЛЬХОЗ ПРИЦЕПЫ И ПЕРЕГРУЗЧИКИ</span>
@@ -322,10 +342,21 @@
         <div class="m_header">
             <a href="/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-samosvalnye/621-pritsepy-samosvalnye-barkas/"><h3>Прицепы бортовые самосвальные БАРКАС</h3></a>
         </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Barkas.png"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">Самый крепкий каркас. 100% итальянских комплектующих.</p></div>
-    </div>-->
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Barkas_akc.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Высокая надежность и ремонтопригодность делают прицеп незаменимым помощником для каждодневной работы в хозяйстве.</p></div>
+    </div>
     
+    <div style="clear: both"></div>
+    <div class="mightiness-menu-label menu_color_group_12" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_teleskop.png)">
+        <span>ТЕЛЕСКОПИЧЕСКИЕ ПОГРУЗЧИКИ</span>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/teleskopicheskie-pogruzchiki/dieci/300-teleskopicheskie-pogruzchiki-serii-agri-farmer/"><h3>Agri Farmer (Mini) 28.7</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Agri Farmer 28.7_akc.png"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Ширина и высота всего 2 метра! Отличная работоспособность в ограниченном пространстве.</p></div>
+    </div>
 </div>
 
 <div id="footer-banner">
