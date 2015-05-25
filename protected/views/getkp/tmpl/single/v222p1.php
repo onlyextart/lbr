@@ -34,10 +34,10 @@ endif;
 
             </table>
         </td></tr>
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                <tr valign="top">
-                    <td colspan="2" style="padding:10px 0px 5px 0px;">
+                <tr valign="top" >
+                    <td style="padding:10px 0px 5px 0px;" colspan="2">
                         <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/bunker-pps-20-60/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                             Пункт приемно–сортировочный ППС 20-60<br>
                             (аналог Grimme RH 20-60)
@@ -45,7 +45,7 @@ endif;
                     </td>
                 </tr>
                 <tr valign="top">
-                    <td colspan="2">
+                    <td  colspan="2">
                         <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #808285; text-align:justify; ">
                             Для приема картофеля, лука репчатого и столовых корнеплодов от самосвальных транспортных
                             средств с задней выгрузкой, частичного отделения почвы, отделения мелкой и (или) семенной
@@ -104,7 +104,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -113,9 +117,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+                        </tr>
            
 
 
@@ -124,7 +126,7 @@ endif;
                 </td>
             </tr>
              
-            <tr><td style="padding:25px 0px 0 0px;">
+            <tr><td style="padding:25px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="500" style="padding:0;">
@@ -176,7 +178,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -184,10 +190,7 @@ endif;
                                         </td>
                                     </tr>               
                                 </table>
-                            </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+                     </td></tr>
            
 
 
@@ -197,7 +200,7 @@ endif;
             </tr>
             
             
-             <tr><td style="padding: 0;">
+             <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td colspan="2" style="padding:10px 0px 5px 0px;">
@@ -270,7 +273,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -279,9 +286,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -316,7 +321,7 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент второго блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td colspan="2" style="padding:10px 0px 5px 0px;">
@@ -389,7 +394,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -398,9 +407,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+                </tr>
            
 
 
@@ -410,7 +417,7 @@ endif;
             </tr>
            
  
-            <tr><td style="padding: 35px 0px 0 0px;">
+            <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="500" style="padding: 0;">
@@ -479,7 +486,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -488,9 +499,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -500,7 +509,7 @@ endif;
             </tr>
             
             
-             <tr><td style="padding: 35px 0px 0px 0px;">
+             <tr><td style="padding: 35px 20px 0px 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td colspan="2" style="padding:0;">
@@ -573,7 +582,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -582,9 +595,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -616,7 +627,7 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент третьего блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 
                 
@@ -675,7 +686,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -684,9 +699,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -695,7 +708,7 @@ endif;
                 </td>
             </tr>
              
-            <tr><td style="padding: 35px 0px 0 0px;">
+            <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="500" style="">
@@ -772,7 +785,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                           
+                      </tr>   
+                    </table>
+                    </td>
+             <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -780,10 +797,7 @@ endif;
                                         </td>
                                     </tr>               
                                 </table>
-                            </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+                            </td></tr>
            
 
 
@@ -793,7 +807,7 @@ endif;
             </tr>
             
             
-             <tr><td style="padding:35px 0px 0px 0px;">
+             <tr><td style="padding:35px 20px 0px 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td colspan="2" style="">
@@ -869,7 +883,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                           
+                      </tr>   
+                    </table>
+                    </td>
+             <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -878,9 +896,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -913,7 +929,7 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент четвертого блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="430" style="padding: 15px 0px 0 0px;">
@@ -974,7 +990,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="330" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="330" style="padding: 0;" valign="bottom">
                                 <table width="330" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -983,9 +1003,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
                    
 
 
@@ -994,7 +1012,7 @@ endif;
                 </td>
             </tr>
              
-            <tr><td style="padding: 35px 0px 0 0px;">
+            <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="430" style="">
@@ -1063,7 +1081,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="330" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+            <td width="330" style="padding: 0;" valign="bottom">
                                 <table width="330" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1072,9 +1094,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1084,7 +1104,7 @@ endif;
             </tr>
             
             
-             <tr><td style="padding: 35px 0px 0 0px;">
+             <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 
                 <tr valign="top">
@@ -1161,7 +1181,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="330" style="padding: 0;" valign="top">
+                           
+                      </tr>   
+                    </table>
+                    </td>
+                     <td width="330" style="padding: 0;" valign="bottom">
                                 <table width="330" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1170,9 +1194,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1205,9 +1227,9 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент пятого блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                <tr><td style="padding:0px;">
+                <tr><td style="padding:0px;" colspan="2">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                         <tr>
                         <td style="padding-bottom: 3px;">
@@ -1293,7 +1315,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;">
+                           
+                      </tr>   
+                    </table>
+                    </td>
+                     <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1302,9 +1328,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
                    
 
 
@@ -1313,7 +1337,7 @@ endif;
                 </td>
             </tr>
             
-            <tr><td style="padding: 35px 0px 0 0px;">
+            <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="500" >
@@ -1380,7 +1404,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="top">
+                           
+                      </tr>   
+                    </table>
+                    </td>
+                     <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1389,9 +1417,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1401,7 +1427,7 @@ endif;
             </tr>
            
             
-             <tr><td style="padding: 35px 0px 0 0px;">
+             <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 
                 <tr valign="top">
@@ -1472,7 +1498,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="bottom">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1481,9 +1511,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1516,7 +1544,7 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент шестого блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="500" style="padding: 15px 0px 0 0px;">
@@ -1594,7 +1622,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" valign="bottom" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" valign="bottom" style="padding: 0;" >
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1603,9 +1635,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
                    
 
 
@@ -1614,10 +1644,10 @@ endif;
                 </td>
             </tr>
             
-            <tr><td style="padding: 0;">
+            <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                <tr valign="top">
-                            <td colspan="2" style="padding:25px 0px 5px 0px;">
+                <tr valign="top" >
+                            <td  style="padding:25px 0px 5px 0px;" colspan="2">
                                 <span style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                     Станция компьютерная весовая КВС-12 с подающим<br>
                                     транспортером
@@ -1625,7 +1655,7 @@ endif;
                             </td>
                         </tr>
                         <tr valign="top">
-                            <td colspan="2" style="padding:0px 0px 5px 0px;">
+                            <td  style="padding:0px 0px 5px 0px;"  colspan="2">
                                 <img src="http://www.lbr.ru/images/kp/222-vegetables/text.jpg" width="760" style="border: 0; float: right;"  alt="Картинки не отображаются">
                             </td>
                         </tr>
@@ -1696,7 +1726,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="bottom">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1705,9 +1739,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1717,7 +1749,7 @@ endif;
             </tr>
             
             
-             <tr><td style="padding: 0;">
+             <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 
                 <tr valign="top">
@@ -1786,7 +1818,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="260" style="padding: 0;" valign="bottom">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="260" style="padding: 0;" valign="bottom">
                                 <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1795,9 +1831,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -1830,7 +1864,7 @@ endif;
     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
        
         <!-- Контент седьмого блока: -->
-        <tr><td style="padding: 0;">
+        <tr><td style="padding: 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="430" style="padding: 15px 0px 0 0px;">
@@ -1891,7 +1925,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="330" style="padding: 0;">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="330" style="padding: 0;" valign="bottom">
                                 <table width="330" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1900,9 +1938,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
                    
 
 
@@ -1911,7 +1947,7 @@ endif;
                 </td>
             </tr>
             
-            <tr><td style="padding: 35px 0px 0 0px;">
+            <tr><td style="padding: 35px 20px 0 20px;">
             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                 <td width="430">
@@ -1978,7 +2014,11 @@ endif;
                                     </tr>
                                 </table>
                             </td>
-                            <td width="330" style="padding: 0;" valign="top">
+                            
+                      </tr>   
+                    </table>
+                    </td>
+                    <td width="330" style="padding: 0;" valign="bottom">
                                 <table width="330" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0px 0px 0px 0px;">
@@ -1987,9 +2027,7 @@ endif;
                                     </tr>               
                                 </table>
                             </td>
-                      </tr>   
-                    </table>
-                    </td></tr>
+            </tr>
            
 
 
@@ -2011,7 +2049,7 @@ endif;
         </td>
     </tr>
      <tr valign="top">
-                    <td colspan="2" style="padding: 0px 20px 0;">
+                    <td  style="padding: 0px 20px 0;">
                         <?php
                         if($data['show_footer']=='1' || !isset($data['show_footer'])):
                             Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
