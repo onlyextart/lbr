@@ -205,7 +205,7 @@ class MenuItems extends CActiveRecord
             return $rowHtml;
         }
         
-        private static function getMenuManageRow($item){
+         private static function getMenuManageRow($item){
             $item[level] == 1? $linkUrl = '/administrator/menu/updateMenu':$linkUrl = '/administrator/menu/updateMenuItem';
             $rowHtml = CHtml::link( 
                 (mb_strlen($item[name], 'UTF-8')>20)?mb_substr($item[name],0,20, 'UTF-8')."...":$item[name], 
@@ -247,6 +247,35 @@ class MenuItems extends CActiveRecord
                     'title'=>($item[published] == 1)?'Опубликована. Снять с публикации.':'Не опубликована. Опубликовать.',
                 )
             );
+            return $rowHtml;
+        }
+        
+        private static function getMenuManageRowForAkcii($item){
+            $item_rec = MenuItems::model()->find('id = :id', array(':id'=>$item[id]));
+            if($item[level]==3){
+                $rowHtml = CHtml::link( 
+                (mb_strlen($item[name], 'UTF-8')>40)?mb_substr($item[name],0,40, 'UTF-8')."...":$item[name], 
+                '/administrator/akcii/updateGroup/id/'.$item[id].'/ajax/true', 
+                array ( 'class'=>'menuTreeViewLink', 
+                        'onclick'=>'menuTreeView.showForm(this); return false;',
+                        'title'=>$item[name],
+                    )
+                );
+            }
+            else if ($item_rec->isLeaf()) {
+                $rowHtml = CHtml::link( 
+                (mb_strlen($item[name], 'UTF-8')>40)?mb_substr($item[name],0,40, 'UTF-8')."...":$item[name], 
+                '/administrator/akcii/updateProduct/id/'.$item[id].'/ajax/true', 
+                array ( 'class'=>'menuTreeViewLink', 
+                        'onclick'=>'menuTreeView.showForm(this); return false;',
+                        'title'=>$item[name],
+                    )
+                );
+            }
+            else{
+            $rowHtml = CHtml::label( 
+                (mb_strlen($item[name], 'UTF-8')>40)?mb_substr($item[name],0,40, 'UTF-8')."...":$item[name],false);
+            }
             return $rowHtml;
         }
         

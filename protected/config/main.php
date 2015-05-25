@@ -156,6 +156,7 @@ return array(
                         'Индексирование страниц'=>'/administrator/search/indexing/',
                         'Топ запросов'=>'/administrator/search/top/'
                     ),
+                    'Акции'=>'/administrator/akcii/',
                     'КП'=>array(
                         'КП'=>'/administrator/templateKp/',
                         'Шаблоны'=>'/administrator/template/',
