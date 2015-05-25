@@ -438,6 +438,7 @@ endif;
                                         <td width="300" style="padding:0px 0px 0px 10px;">
                                             <img src="http://www.lbr.ru/images/kp/226-rm/mail-7.jpg" width="200" style="border: 0; float: right;"  alt="Картинки не отображаются">
                                        </td>
+                                     </tr>
                                 </table>
                             </td>
                         </tr>
