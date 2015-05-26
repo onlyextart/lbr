@@ -215,7 +215,7 @@ endif;
                                 <td>
                                     <table width="260" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr valign="top">
-                                            <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                            <td style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                     <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; color: #F58220; ">Гарантия заготовки максимально чистых кормов</span>
                                                     <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
@@ -224,7 +224,7 @@ endif;
                                             </td>
                                         </tr>
                                         <tr valign="top">
-                                            <td colspan="2" style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
+                                            <td style="width: 333px; padding: 10px 0 0 15px; vertical-align: middle;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify; ">
                                                     <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bolder; color: #F58220; ">Сжимание и растрескивание скошенной травы с помощью плющилки:</span>
                                                     <span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
