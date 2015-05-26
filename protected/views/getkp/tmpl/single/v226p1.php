@@ -64,7 +64,7 @@ endif;
                     </td></tr>
                      
                             <tr>
-                                <td>
+                                <td style="padding: 0 20px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                         <td style="padding: 0 0 10px;">
@@ -74,7 +74,7 @@ endif;
                                     </table>
                                 </td>
                             </tr>
-                    <tr><td style="padding: 0;">
+                    <tr><td style="padding: 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr valign="top">
                                 <td width="400" style="padding: 0 0 0 0px;">
