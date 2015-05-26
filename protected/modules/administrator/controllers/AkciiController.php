@@ -1,28 +1,28 @@
 <?php
 class AkciiController extends Controller{
     
-    protected function addCreateItemButtonInTree(&$menuTreeArray){
-        foreach($menuTreeArray as &$menuItem){
-            if(isset($menuItem[children])){
-                $menuItem[children][] = array(
-                    'id'=>'addMenuItem',
-                    'text' => CHtml::link( 
-                            '<img src="/images/addIcon.png" style="height:16px;">', 
-                            '/administrator/menu/createMenuItem/rootId/'.$menuItem[id].'/ajax/true', 
-                            array ( 
-                                'class'=>'menuTreeViewLink',
-                                'onclick'=>'menuTreeView.showForm(this); return false;',
-                                'title'=>'Создать новый пункт меню',
-                            )
-                        ),
-                    'expanded' => false,
-                );
-                if(is_array($menuItem[children])){
-                    $this->addCreateItemButtonInTree($menuItem[children]);
-                }
-            }
-        }
-    }
+//    protected function addCreateItemButtonInTree(&$menuTreeArray){
+//        foreach($menuTreeArray as &$menuItem){
+//            if(isset($menuItem[children])){
+//                $menuItem[children][] = array(
+//                    'id'=>'addMenuItem',
+//                    'text' => CHtml::link( 
+//                            '<img src="/images/addIcon.png" style="height:16px;">', 
+//                            '/administrator/menu/createMenuItem/rootId/'.$menuItem[id].'/ajax/true', 
+//                            array ( 
+//                                'class'=>'menuTreeViewLink',
+//                                'onclick'=>'menuTreeView.showForm(this); return false;',
+//                                'title'=>'Создать новый пункт меню',
+//                            )
+//                        ),
+//                    'expanded' => false,
+//                );
+//                if(is_array($menuItem[children])){
+//                    $this->addCreateItemButtonInTree($menuItem[children]);
+//                }
+//            }
+//        }
+//    }
     
     public function actionIndex(){
         $catalog_rec=MenuItems::model()->find('alias = :alias', array(':alias'=>'tehnika'));
@@ -43,7 +43,7 @@ class AkciiController extends Controller{
         //$roots - Все корни меню
 //        $roots = MenuItems::model()->roots()->findAll();
         $menuTreeArray = MenuItems::getMenuTree();
-        $this->addCreateItemButtonInTree($menuTreeArray);
+ //       $this->addCreateItemButtonInTree($menuTreeArray);
         $this->renderPartial('menuTree', array(
             'menuModel'=>$menuModel,
             'menuTreeArray'=>$menuTreeArray,
@@ -51,8 +51,33 @@ class AkciiController extends Controller{
     }
     
     //Редактирование раздела
-    public function actionUpdateGroup(){
+    public function actionEditGroup($id){
+        $groupModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
+        if (empty($groupModel)){
+            $groupModel= new AkciiGroup;
+        }
         
+        $groupModel->description="xxx";
+//        if (!empty($group)){
+//           //редактируем группу
+//           
+//        }
+//        else{
+//           //создаем группу 
+//            if(!isset($_POST['AkciiGroup'])){
+//                
+//            }
+//            else{
+//               $this->renderPartial('groupManage', array('groupModel'=>$groupModel), false, true); 
+//            }
+//        }
+          if( isset($_GET['ajax']) ){
+            $this->renderPartial('groupManage', array('groupModel'=>$groupModel), false, true); 
+          }
+          else{
+            $this->render('groupManage', array('groupModel'=>$groupModel));
+          }
+       // $menuModel = MenuItems::model()->findByPk($id);
     }
     
     //Создание нового меню

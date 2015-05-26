@@ -253,9 +253,10 @@ class MenuItems extends CActiveRecord
         private static function getMenuManageRowForAkcii($item){
             $item_rec = MenuItems::model()->find('id = :id', array(':id'=>$item[id]));
             if($item[level]==3){
+                $number_item=$item[id]+1;
                 $rowHtml = CHtml::link( 
                 (mb_strlen($item[name], 'UTF-8')>40)?mb_substr($item[name],0,40, 'UTF-8')."...":$item[name], 
-                '/administrator/akcii/updateGroup/id/'.$item[id].'/ajax/true', 
+                '/administrator/akcii/editGroup/id/'.$number_item.'/ajax/true', 
                 array ( 'class'=>'menuTreeViewLink', 
                         'onclick'=>'menuTreeView.showForm(this); return false;',
                         'title'=>$item[name],
@@ -265,7 +266,7 @@ class MenuItems extends CActiveRecord
             else if ($item_rec->isLeaf()) {
                 $rowHtml = CHtml::link( 
                 (mb_strlen($item[name], 'UTF-8')>40)?mb_substr($item[name],0,40, 'UTF-8')."...":$item[name], 
-                '/administrator/akcii/updateProduct/id/'.$item[id].'/ajax/true', 
+                '/administrator/akcii/editProduct/id/'.$item[id].'/ajax/true', 
                 array ( 'class'=>'menuTreeViewLink', 
                         'onclick'=>'menuTreeView.showForm(this); return false;',
                         'title'=>$item[name],
