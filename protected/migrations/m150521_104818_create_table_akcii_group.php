@@ -10,7 +10,7 @@ class m150521_104818_create_table_akcii_group extends CDbMigration
                $sql ="
                      create table IF NOT EXISTS 'akcii_group'
                      (
-                       'id'                     int auto_increment not null,
+                       'id'                     int not null,
                        'item_id'                int not null,
                        'description'            text,
                        'published'              int,
