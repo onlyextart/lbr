@@ -7,16 +7,19 @@
 /*
  * $model модель групп меню
  */
-if($groupModel->isNewRecord){
+if($groupAkciiModel->isNewRecord){
     $pageHeader = 'Создание группы';
 }
-//else{
-//    $pageHeader = 'Редактирование группы "'.$groupModel->name.'"';
-//}
+else{
+    $pageHeader = 'Редактирование группы';
+}
 ?>
 <h2>
     <?php echo $pageHeader ?>
 </h2>
+<div class="mightiness-menu-label menu_color_group_<?php echo $groupAkciiModel->menu_items->group_id; ?>" style="background-image: url(<?php echo Yii::app()->request->baseUrl.$groupAkciiModel->menu_items->mightiness_ico; ?>">
+        <span><?php echo $groupAkciiModel->menu_items->name; ?></span>
+</div>
 <div class="form">
     <?php $form = $this->beginWidget('CActiveForm', array(
             'id'=>'group_form',
@@ -41,13 +44,17 @@ if($groupModel->isNewRecord){
             ),
         )
     );?>
+    
     <div class="row">
-        <?php echo $form->error($groupAkciiModel, 'description'); ?>
-        <?php echo $form->labelEx($groupAkciiModel, 'description'); ?>
-        <?php echo $form->textField($groupAkciiModel, 'description'); ?>
+        <?php echo $form->error($groupAkciiModel, 'id'); ?>
+        <?php echo $form->labelEx($groupAkciiModel, 'id'); ?>
+        <?php echo $form->textField($groupAkciiModel, 'id'); ?>
     </div>
     <div class="row">
-        <?php echo CHtml::SubmitButton($groupAkciiModel->isNewRecord?'Создать':'Сохранить',array('class'=>'btn btn-green')); ?>
+        <?php 
+            echo CHtml::SubmitButton($groupAkciiModel->isNewRecord?'Создать':'Сохранить',array('class'=>'btn btn-green')); 
+            echo CHtml::link('Закрыть', '', array('class'=>'btn del', 'onclick'=>'$("#menu_features").html(" ")'));
+        ?>
     </div> 
     <?php $this->endWidget(); ?>
 </div>

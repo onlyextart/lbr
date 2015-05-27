@@ -1,6 +1,6 @@
 <?php
 
-class m150521_104818_create_table_akcii_group extends CDbMigration
+class m150526_113400_create_table_akcii_group extends CDbMigration
 {
 	public function up()
 	{
@@ -26,7 +26,7 @@ class m150521_104818_create_table_akcii_group extends CDbMigration
 
 	public function down()
 	{
-		echo "m150521_104818_create_table_akcii_group does not support migration down.\n";
+		echo "m150526_113400_create_table_akcii_group does not support migration down.\n";
 		return false;
 	}
 

@@ -53,12 +53,13 @@ class AkciiController extends Controller{
     //Редактирование раздела
     public function actionEditGroup($id){
         $groupAkciiModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
+        
         if (empty($groupAkciiModel)){
             $groupAkciiModel= new AkciiGroup();
+            $groupAkciiModel->item_id=$id;
             //$groupAkciiModel->item_id=$id;
            // $groupAkciiModel->description="xxx";
-            var_dump($groupAkciiModel);
-            exit();
+            
            // $x=$groupAkciiModel->save();
         }
         

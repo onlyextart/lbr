@@ -44,7 +44,7 @@ class AkciiGroup extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, item_id, published, range', 'integerOnly'=>true),
+			array('id, item_id, published, range', 'numerical', 'integerOnly'=>true),
 			array('id, item_id, published', 'required'),
 			array('id, item_id, published, range, description', 'safe'),
 			// The following rule is used by search().
@@ -61,7 +61,7 @@ class AkciiGroup extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                        'menu' => array(self::BELONGS_TO, 'MenuItems', 'item_id'),
+                        'menu_items' => array(self::BELONGS_TO, 'MenuItems', 'item_id'),
 		);
 	}
 

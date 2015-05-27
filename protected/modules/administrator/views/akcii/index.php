@@ -4,6 +4,7 @@
 содержащая модель MENU со всеми пунктами меню.
  */
 //var_dump($menuTreeArray);
+Yii::app()->clientScript->registerCssFile('/css/admin/admin.css');
 ?>
 <style>
     #menu_features{
