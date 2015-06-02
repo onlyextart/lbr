@@ -57,34 +57,67 @@ class AkciiController extends Controller{
         if (empty($groupAkciiModel)){
             $groupAkciiModel= new AkciiGroup();
             $groupAkciiModel->item_id=$id;
-            //$groupAkciiModel->item_id=$id;
-           // $groupAkciiModel->description="xxx";
-            
-           // $x=$groupAkciiModel->save();
         }
         
+        if(isset($_POST['AkciiGroup'])){
+            $groupAkciiModel->attributes = $_POST['AkciiGroup'];
+//            if(isset($_POST['ajax']) && $_POST['ajax']==='groupAkciiModel_form')
+//            {
+//                echo CActiveForm::validate($groupAkciiModel);
+//                Yii::app()->end();
+//            }
+            if ($groupAkciiModel->save()){
+                return true;
+            }
+            else{
+                return false;
+            }
+//            if($groupAkciiModel->save() ){
+//                Yii::app()->user->setFlash('saved','Группа успешно сохранена!');
+//            }
+        }
         
-//        if (!empty($group)){
-//           //редактируем группу
-//           
-//           
-//        }
-//        else{
-//           //создаем группу 
-//            if(!isset($_POST['AkciiGroup'])){
-//                
-//            }
-//            else{
-//               $this->renderPartial('groupManage', array('groupAkciiModel'=>$groupAkciiModel), false, true); 
-//            }
-//        }
-          if( isset($_GET['ajax']) ){
+        if( isset($_GET['ajax']) ){
             $this->renderPartial('groupManage', array('groupAkciiModel'=>$groupAkciiModel), false, true); 
+        }
+          else{
+            $this->render('groupManage', array('groupAkciiModel'=>$groupAkciiModel));
           }
-//          else{
-//            $this->render('groupManage', array('groupAkciiModel'=>$groupAkciiModel));
-//          }
-       // $menuModel = MenuItems::model()->findByPk($id);
+    }
+    
+    //Редактирование раздела
+    public function actionEditProduct($id){
+        $groupAkciiModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
+        
+        if (empty($groupAkciiModel)){
+            $groupAkciiModel= new AkciiGroup();
+            $groupAkciiModel->item_id=$id;
+        }
+        
+        if(isset($_POST['AkciiGroup'])){
+            $groupAkciiModel->attributes = $_POST['AkciiGroup'];
+//            if(isset($_POST['ajax']) && $_POST['ajax']==='groupAkciiModel_form')
+//            {
+//                echo CActiveForm::validate($groupAkciiModel);
+//                Yii::app()->end();
+//            }
+            if ($groupAkciiModel->save()){
+                return true;
+            }
+            else{
+                return false;
+            }
+//            if($groupAkciiModel->save() ){
+//                Yii::app()->user->setFlash('saved','Группа успешно сохранена!');
+//            }
+        }
+        
+        if( isset($_GET['ajax']) ){
+            $this->renderPartial('groupManage', array('groupAkciiModel'=>$groupAkciiModel), false, true); 
+        }
+          else{
+            $this->render('groupManage', array('groupAkciiModel'=>$groupAkciiModel));
+          }
     }
     
     //Создание нового меню

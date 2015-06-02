@@ -991,3 +991,25 @@ div.form .admin_additional_features_measure input {
     padding-left: 65px;
 }
 /*END TITLE GROUP AKCII PRODUCTS*/
+
+/* AKCII GROUP */
+ #akcii_features .published label{
+    float:left; 
+    padding-top:7px;
+}
+ #akcii_features .published input{
+    float:left; 
+    width:50px;
+}
+ #akcii_features .range label{
+    float:left; 
+    padding:10px 5px 0px 0px;
+}
+ #akcii_features .range input{
+    float:left; 
+    width:50px;
+}
+ #akcii_features .description label{
+    padding:10px 0px 0px 0px;
+}
+/* END AKCII GROUP */

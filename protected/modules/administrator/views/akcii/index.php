@@ -5,9 +5,10 @@
  */
 //var_dump($menuTreeArray);
 Yii::app()->clientScript->registerCssFile('/css/admin/admin.css');
+Yii::app()->clientScript->registerScriptFile('/js/tinymce_3_x/tiny_mce.js');
 ?>
 <style>
-    #menu_features{
+    #akcii_features{
         box-shadow: 0px 0px 7px;
         border-radius: 5px;
         float: left; 
@@ -36,7 +37,7 @@ Yii::app()->clientScript->registerCssFile('/css/admin/admin.css');
     );
     ?>
 </div>
-<div id="menu_features">
+<div id="akcii_features">
         
 </div>
 <script>
@@ -46,11 +47,11 @@ function MenuTreeViewConstructor(jQuery){
     this.jQuery = jQuery;
     
     this.showForm = function( linkElement ){
-        $('#menu_features').append('<div class="ui-widget-overlay ui-front"></div>');
+        $('#akcii_features').append('<div class="ui-widget-overlay ui-front"></div>');
         $.ajax({
             url: linkElement.href
         }).done(function ( data ) {
-            $('#menu_features').html( data );
+            $('#akcii_features').html( data );
         });
     }
     this.updateTree = function( clearMenuFeaturesWrapper ){
@@ -64,7 +65,7 @@ function MenuTreeViewConstructor(jQuery){
                 thisObject.treeObject = thisObject.jQuery(".menuTreeView").treeview({'animated':100});
             });
             if( clearMenuFeaturesWrapper ){
-                $('#menu_features').html('');
+                $('#akcii_features').html('');
             }
         });
     }

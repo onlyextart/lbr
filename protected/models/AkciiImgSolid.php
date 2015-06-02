@@ -1,20 +1,16 @@
 <?php
 
 /**
- * This is the model class for table "akcii_group".
+ * This is the model class for table "akcii_img_solid".
  *
- * The followings are the available columns in table 'menu_items':
+ * The followings are the available columns in table 'akcii_img_solid':
  * @property integer $id
- * @property integer $item_id
- * @property string $description
- * @property integer $published
- * @property integer $range
+ * @property string $type
  *
- * The followings are the available model relations:
- * @property MenuItems $menu
+
  */
 
-class AkciiGroup extends CActiveRecord
+class AkciiImgSolid extends CActiveRecord
 {
         
 	/**
@@ -33,7 +29,7 @@ class AkciiGroup extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'akcii_group';
+		return 'akcii_img_solid';
 	}
 
 	/**
@@ -44,12 +40,10 @@ class AkciiGroup extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('range', 'numerical', 'integerOnly'=>true, 'message'=>'Порядковый номер должен быть числом'),
-			//array('id, item_id', 'required'),
-			array('published, description', 'safe'),
+			array('type', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, item_id, published, range, description', 'safe', 'on'=>'search'),
+			array('id, type', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,8 +55,7 @@ class AkciiGroup extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                        'menu_items' => array(self::BELONGS_TO, 'MenuItems', 'item_id'),
-                        'akcii_product'=>array(self::HAS_MANY,'AkciiProduct','group_id'),
+                  'akcii_product'=>array(self::HAS_MANY,'AkciiProduct','solid_type'),        
 		);
 	}
 
@@ -73,10 +66,7 @@ class AkciiGroup extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'item_id' => 'ID элемента',
-			'description' => 'Описание',
-			'published' => 'Публиковать',
-			'range' => 'Порядковый номер на странице',
+			'type' => 'Тип плашки',
 		);
 	}
 
@@ -92,10 +82,7 @@ class AkciiGroup extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('item_id',$this->item_id);
-		$criteria->compare('description',$this->description,true);
-		$criteria->compare('published',$this->published);
-		$criteria->compare('range',$this->range);
+		$criteria->compare('type',$this->type);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
