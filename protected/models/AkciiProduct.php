@@ -48,6 +48,7 @@ class AkciiProduct extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('item_id,group_id,description,published,range,solid_type,solid_text_top,solid_text_bottom,solid_percent', 'safe'),
+                        array('description','required'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('item_id,group_id,description,published,range,solid_type,solid_text_top,solid_text_bottom,solid_percent', 'safe', 'on'=>'search'),
@@ -112,6 +113,6 @@ class AkciiProduct extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-  
+        
         
 }

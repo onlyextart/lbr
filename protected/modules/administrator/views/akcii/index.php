@@ -7,23 +7,6 @@
 Yii::app()->clientScript->registerCssFile('/css/admin/admin.css');
 Yii::app()->clientScript->registerScriptFile('/js/tinymce_3_x/tiny_mce.js');
 ?>
-<style>
-    #akcii_features{
-        box-shadow: 0px 0px 7px;
-        border-radius: 5px;
-        float: left; 
-        width: 60%; 
-        padding: 2%; 
-        margin-left:2%; 
-    }
-    .menuTreeViewWrapper{
-        box-shadow: 0px 0px 7px;
-        border-radius: 5px;
-        float: left; 
-        width: 27%; 
-        padding: 2%; 
-    }
-</style>
     
 <h2 class="col ">Менеджер акций</h2>
 <div class="menuTreeViewWrapper">

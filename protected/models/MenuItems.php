@@ -84,6 +84,8 @@ class MenuItems extends CActiveRecord
 		return array(
 			'group' => array(self::BELONGS_TO, 'MenuGroups', 'group_id'),
 			'menuItemsContents' => array(self::HAS_MANY, 'MenuItemsContent', 'item_id'),
+                        //связь с таблицей products (нужна для акционной страницы)
+                        'products'=>array(self::HAS_MANY,'Products',array('page_id'=>'id'),'through'=>'menuItemsContents'),
 		);
 	}
 

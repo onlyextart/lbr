@@ -61,20 +61,7 @@ class AkciiController extends Controller{
         
         if(isset($_POST['AkciiGroup'])){
             $groupAkciiModel->attributes = $_POST['AkciiGroup'];
-//            if(isset($_POST['ajax']) && $_POST['ajax']==='groupAkciiModel_form')
-//            {
-//                echo CActiveForm::validate($groupAkciiModel);
-//                Yii::app()->end();
-//            }
-            if ($groupAkciiModel->save()){
-                return true;
-            }
-            else{
-                return false;
-            }
-//            if($groupAkciiModel->save() ){
-//                Yii::app()->user->setFlash('saved','Группа успешно сохранена!');
-//            }
+            $groupAkciiModel->save();
         }
         
         if( isset($_GET['ajax']) ){
@@ -85,38 +72,52 @@ class AkciiController extends Controller{
           }
     }
     
-    //Редактирование раздела
+    //Редактирование товара
     public function actionEditProduct($id){
-        $groupAkciiModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
+      $productAkciiModel= AkciiProduct::model()->find('item_id=:id',array(':id'=>$id));
+      $productModel= MenuItems::model()->with('products')->find('t.id=:id',array(':id'=>$id));
+      $product_img=$productModel->products[0]->image;
+       
         
-        if (empty($groupAkciiModel)){
-            $groupAkciiModel= new AkciiGroup();
-            $groupAkciiModel->item_id=$id;
+        if (empty($productAkciiModel)){
+            $productAkciiModel= new AkciiProduct();
+            $productAkciiModel->item_id=$id;
+            
         }
         
-        if(isset($_POST['AkciiGroup'])){
-            $groupAkciiModel->attributes = $_POST['AkciiGroup'];
-//            if(isset($_POST['ajax']) && $_POST['ajax']==='groupAkciiModel_form')
-//            {
-//                echo CActiveForm::validate($groupAkciiModel);
-//                Yii::app()->end();
-//            }
-            if ($groupAkciiModel->save()){
-                return true;
+        
+
+        if (isset($_POST['ajax'])) {
+            if ($_POST['ajax'] == 'productAkciiModel_form') {
+                echo CActiveForm::validate($productAkciiModel);
+            }
+            Yii::app()->end();
+        }
+
+        if(isset($_POST['AkciiProduct'])){
+            $productAkciiModel->attributes = $_POST['AkciiProduct'];
+            
+            $item_info= MenuItems::model()->findByPk($id);
+            $item_parent=$item_info->ancestors()->find('level=3');
+            $group=AkciiGroup::model()->find('item_id=:id',array(':id'=>$item_parent->id+1));
+            
+            $productAkciiModel->group_id=$group->id;
+            $productAkciiModel->item_id=$id;
+            if($productAkciiModel->save() ){
+                Yii::app()->user->setFlash('saved','Товар успешно сохранен!');
             }
             else{
-                return false;
+                $errors = $productAkciiModel->getErrors();
+                Yii::app()->user->setFlash('error','!Ошибка');
+                
             }
-//            if($groupAkciiModel->save() ){
-//                Yii::app()->user->setFlash('saved','Группа успешно сохранена!');
-//            }
         }
         
         if( isset($_GET['ajax']) ){
-            $this->renderPartial('groupManage', array('groupAkciiModel'=>$groupAkciiModel), false, true); 
+            $this->renderPartial('productManage', array('productAkciiModel'=>$productAkciiModel,'product_img'=>$product_img,'errors'=>$errors), false, true); 
         }
           else{
-            $this->render('groupManage', array('groupAkciiModel'=>$groupAkciiModel));
+            $this->render('productManage', array('productAkciiModel'=>$productAkciiModel, 'product_img'=>$product_img,'errors'=>$errors));
           }
     }
     
