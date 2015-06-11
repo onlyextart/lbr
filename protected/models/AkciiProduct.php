@@ -79,7 +79,7 @@ class AkciiProduct extends CActiveRecord
                         'item_id'=>'ID элемента',
                         'group_id'=>'ID группы',
                         'description'=>'Описание',
-                        'published'=>'Опубликовать',
+                        'published'=>'Публиковать',
                         'range'=>'Порядковый номер в группе',
                         'solid_type'=>'Тип плашки',
                         'solid_text_top'=>'Верхний текст',
@@ -113,6 +113,20 @@ class AkciiProduct extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+         protected function afterSave() {
+            parent::afterSave();
+            //меняем статус публикации у группы (действует только для установки публикации)
+            if ($this->published){
+                $item_info=MenuItems::model()->findByPk((int)$this->item_id);
+                $item_parent=$item_info->ancestors()->find('level=3');
+                $group=AkciiGroup::model()->find('item_id=:id',array(':id'=>$item_parent->id+1));
+                if(!empty($group)&&($group->published!=$this->published)){
+                    $group->published=$this->published;
+                    $group->save();
+                }
+            }
+        }
         
         
 }

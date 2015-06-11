@@ -26,7 +26,6 @@ class AkciiController extends Controller{
     
     public function actionIndex(){
         $catalog_rec=MenuItems::model()->find('alias = :alias', array(':alias'=>'tehnika'));
-        $subsections = $catalog_rec->children()->findAll();
         $sql="Select id,level,name,published from menu_items where lft>=".$catalog_rec['lft']." AND rt<=".$catalog_rec['rt'].";";
         $menuModel = MenuItems::model()->findBySql($sql);
         $menuTreeArray = MenuItems::getMenuTree('getMenuManageRowForAkcii',$sql);
@@ -52,8 +51,8 @@ class AkciiController extends Controller{
     
     //Редактирование раздела
     public function actionEditGroup($id){
-        $groupAkciiModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
         
+        $groupAkciiModel= AkciiGroup::model()->find('item_id=:id',array(':id'=>$id));
         if (empty($groupAkciiModel)){
             $groupAkciiModel= new AkciiGroup();
             $groupAkciiModel->item_id=$id;
@@ -78,22 +77,12 @@ class AkciiController extends Controller{
       $productModel= MenuItems::model()->with('products')->find('t.id=:id',array(':id'=>$id));
       $product_img=$productModel->products[0]->image;
        
-        
         if (empty($productAkciiModel)){
             $productAkciiModel= new AkciiProduct();
             $productAkciiModel->item_id=$id;
             
         }
         
-        
-
-        if (isset($_POST['ajax'])) {
-            if ($_POST['ajax'] == 'productAkciiModel_form') {
-                echo CActiveForm::validate($productAkciiModel);
-            }
-            Yii::app()->end();
-        }
-
         if(isset($_POST['AkciiProduct'])){
             $productAkciiModel->attributes = $_POST['AkciiProduct'];
             
@@ -103,14 +92,7 @@ class AkciiController extends Controller{
             
             $productAkciiModel->group_id=$group->id;
             $productAkciiModel->item_id=$id;
-            if($productAkciiModel->save() ){
-                Yii::app()->user->setFlash('saved','Товар успешно сохранен!');
-            }
-            else{
-                $errors = $productAkciiModel->getErrors();
-                Yii::app()->user->setFlash('error','!Ошибка');
-                
-            }
+            $productAkciiModel->save();  
         }
         
         if( isset($_GET['ajax']) ){

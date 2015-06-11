@@ -32,7 +32,12 @@
     });
 </script>
 <?php
-    $pageHeader = 'Редактирование акционного товара';
+  if($productAkciiModel->isNewRecord){
+    $pageHeader = 'Создание товара';
+}
+else{
+    $pageHeader = 'Редактирование товара';
+}
 ?>
 <h2>
     <?php echo $pageHeader ?>
@@ -68,15 +73,16 @@
     );?>
     
     <div class="product-prop">
-    <div class="row product-description">
-        <?php echo $form->error($productAkciiModel, 'description'); ?>
-        <?php echo $form->labelEx($productAkciiModel, 'description'); ?>
-        <?php echo $form->textArea($productAkciiModel, 'description'); ?>
-    </div>
+        
     <div class="row published">
         <?php echo $form->error($productAkciiModel, 'published'); ?>
         <?php echo $form->labelEx($productAkciiModel, 'published'); ?>
         <?php echo $form->checkBox($productAkciiModel, 'published'); ?>
+    </div>
+    <div class="row product-description">
+        <?php echo $form->error($productAkciiModel, 'description'); ?>
+        <?php echo $form->labelEx($productAkciiModel, 'description'); ?>
+        <?php echo $form->textArea($productAkciiModel, 'description'); ?>
     </div>
     </div>
     <div class="product-img-wrapper">
@@ -87,7 +93,7 @@
 
     <div class="row">
         <?php 
-            echo CHtml::SubmitButton('Сохранить',array('class'=>'btn btn-green')); 
+            echo CHtml::SubmitButton($productAkciiModel->isNewRecord?'Создать':'Сохранить',array('class'=>'btn btn-green')); 
             echo CHtml::link('Закрыть', '', array('class'=>'btn del', 'onclick'=>'$("#akcii_features").html(" ")'));
         ?>
     </div> 

@@ -101,6 +101,22 @@ class AkciiGroup extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        protected function afterSave() {
+            parent::afterSave();
+            //меняем статус публикации у товаров группы (действует только для снятия публикации)
+            if (!$this->published){
+                $group=MenuItems::model()->findByPk((int)$this->item_id-1);
+                $group_products=$group->descendants()->findAll('level=5');
+                    foreach($group_products as $product){
+                        $product_akcii=AkciiProduct::model()->find('item_id=:id',array(':id'=>$product->id));
+                        if(!empty($product_akcii)&&($product_akcii->published!=$this->published)){
+                            $product_akcii->published=$this->published;
+                            $product_akcii->save();
+                    }
+                }
+            }
+        }
   
         
 }
