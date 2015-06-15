@@ -2,6 +2,16 @@
     .admin_main_features{float:left; width:60%;}
     .admin_additional_features{float:left; width:40%;}
     .button-column img{width:16px; height:16px;}
+    .imageSolid .akcii_text textArea{
+        width:300px;
+        height:50px;
+    }
+    .imageSolid .akcii_percent input{
+        width:60px;
+    }
+    .hide{
+        display:none;
+    }
 </style>
 <script type="text/javascript">
     $(function(){
@@ -26,11 +36,45 @@
 
         });
 
+        $(".akcii_img").click(function(){
+            $(".imageSolid").dialog({
+                    resizable: false,
+                    width:400,
+                    title:'Параметры плашки',
+                    modal: true,
+                    beforeClose: function( event, ui ) {
+                        $(this).dialog( "destroy" );
+                    },
+                    buttons: {
+                        "Сохранить": function( ) {
+                            if(parseInt($(".akcii_percent input").val())>0&&parseInt($(".akcii_percent input").val())<100){
+                                $( this ).dialog( "destroy" )
+                            }
+                            else{
+                                alert("Процент скидки должен быть целым числом от 1 до 99");
+                            }
+                        }
+                    }
+             });
+         });
+         
+         $(".solid_type select").change(function(){
+             status=$(".solid_type select").val();
+             if(status==<?= AkciiProduct::DEFAULT_IMAGE_TYPE?>){
+                 $(".akcii_text, .akcii_percent").addClass('hide');
+             }
+             else{
+                 $(".akcii_text, .akcii_percent").removeClass('hide');
+             }
+         });
+
         <?php if (Yii::app()->user->hasFlash('saved')): ?>
             alertify.success("<?php echo Yii::app()->user->getFlash('saved'); ?>");
         <?php endif; ?>
     });
 </script>
+
+
 <?php
   if($productAkciiModel->isNewRecord){
     $pageHeader = 'Создание товара';
@@ -40,7 +84,7 @@ else{
 }
 ?>
 <h2>
-    <?php echo $pageHeader ?>
+    <?php echo $pageHeader;?>
 </h2>
 
 <div class="product-name"><span><?php echo $productAkciiModel->menu_items->name; ?></span></div>
@@ -52,6 +96,7 @@ else{
             'enableClientValidation'=>true,
             'clientOptions'=>array(
                 'validateOnSubmit'=>true,
+                'validateOnChange'=>true,
                 'afterValidate'=>'js:function(form, data, hasError){
                                 if(!hasError){
                                     $.ajax({
@@ -86,7 +131,32 @@ else{
     </div>
     </div>
     <div class="product-img-wrapper">
-        <img src="<?php echo Yii::app()->baseUrl.$product_img; ?>" class="akcii_img">
+        <img src="<?php echo Yii::app()->baseUrl.$product_img; ?>" class="akcii_img" style="position:absolute;  bottom:0;">
+        <div style="position:absolute; bottom:0; height:100px; width:305px; z-index: 10; background-color: red;">
+            vvv
+        </div>
+    </div>
+    <div class="imageSolid form" style="display:none">
+        <div class="row solid_type">
+            <?php echo $form->error($productAkciiModel, 'solid_type'); ?>
+            <?php echo $form->labelEx($productAkciiModel, "solid_type"); ?>
+            <?php echo $form->dropDownList($productAkciiModel, "solid_type", AkciiProduct::getImageTypes()); ?>
+        </div>
+        <div class="row akcii_percent">
+            <?php echo $form->error($productAkciiModel, 'solid_percent'); ?>
+            <?php echo $form->labelEx($productAkciiModel, "solid_percent"); ?>
+            <?php echo $form->textField($productAkciiModel, "solid_percent"); ?>
+        </div>
+        <div class="row akcii_text">
+            <?php echo $form->error($productAkciiModel, 'solid_text_top'); ?>
+            <?php echo $form->labelEx($productAkciiModel, "solid_text_top"); ?>
+            <?php echo $form->textArea($productAkciiModel, "solid_text_top"); ?>
+        </div>
+        <div class="row akcii_text">
+            <?php echo $form->error($productAkciiModel, 'solid_text_bottom'); ?>
+            <?php echo $form->labelEx($productAkciiModel, "solid_text_bottom"); ?>
+            <?php echo $form->textArea($productAkciiModel, "solid_text_bottom"); ?>
+        </div>
     </div>
     
     <div style="clear:both"></div>
@@ -99,3 +169,5 @@ else{
     </div> 
     <?php $this->endWidget(); ?>
 </div>
+
+

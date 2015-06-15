@@ -20,7 +20,10 @@
 class AkciiProduct extends CActiveRecord
 {
         
-	/**
+	const DEFAULT_IMAGE_TYPE = 0;
+        const DISCOUNT_IMAGE_TYPE = 1;
+        //const TEXT_IMAGE_TYPE = 2;
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return AkciiGroup the static model class
@@ -49,6 +52,7 @@ class AkciiProduct extends CActiveRecord
 		return array(
 			array('item_id,group_id,description,published,range,solid_type,solid_text_top,solid_text_bottom,solid_percent', 'safe'),
                         array('description','required'),
+                        array('solid_percent','numerical','integerOnly'=>'true'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('item_id,group_id,description,published,range,solid_type,solid_text_top,solid_text_bottom,solid_percent', 'safe', 'on'=>'search'),
@@ -82,8 +86,8 @@ class AkciiProduct extends CActiveRecord
                         'published'=>'Публиковать',
                         'range'=>'Порядковый номер в группе',
                         'solid_type'=>'Тип плашки',
-                        'solid_text_top'=>'Верхний текст',
-                        'solid_text_bottom'=>'Нижний текст',
+                        'solid_text_top'=>'Первый абзац',
+                        'solid_text_bottom'=>'Второй абзац',
                         'solid_percent'=>'Процент скидки',
 		);
 	}
@@ -113,6 +117,17 @@ class AkciiProduct extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        //Метод возвращает типы изображения акционного товара в виде массива, где:
+        // ключ - id типа, а значение - имя типа
+        static function getImageTypes()
+        {
+            $types = array();
+            $types[AkciiProduct::DEFAULT_IMAGE_TYPE] = 'Без плашки';
+            $types[AkciiProduct::DISCOUNT_IMAGE_TYPE] = 'С плашкой-скидкой';
+            //$types[AkciiProduct::TEXT_IMAGE_TYPE] = 'С плашкой-текстом';
+            return $types;
+        }
         
          protected function afterSave() {
             parent::afterSave();
