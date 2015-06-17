@@ -935,11 +935,11 @@ header:after {
   overflow: hidden;
   text-indent: 100%;
   background: url("/images/timetobuy/action.png") transparent no-repeat center;
-  height: 88px;
+  height: 120px;
   width: 90px;
   padding: 0px;
   margin: 0px;
-  top: 15px;
+  top: 0px;
   left: 15px;
 }
 .wrapper #content .product_wrapper .product_content > div div.review_video {
@@ -1619,11 +1619,10 @@ a[name="list_filials"]{
   height: 100%;
 }
 .xbanners_container .xbanners .one_banner .b_images .b_images_overflow .b_images_conteiner section.b_images_one_image .time_to_buy .time_to_buy_top_left {
-  width: 91px;
-  height: 67px;
-  padding-top: 23px;
-  top: 5px;
-  left: 5px;
+  width: 90px;
+  height: 120px;
+  top: 0px;
+  left: 30px;
   line-height: 25px;
   position: absolute;
   background: url("/images/timetobuy/circle-time-to-buy.png") no-repeat center;
