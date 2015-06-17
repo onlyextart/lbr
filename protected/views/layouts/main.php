@@ -129,7 +129,7 @@
                             <img src="/images/mainMenuIcon/toppict2.png" alt="Запасные части">
                             <span>Запчасти</span>
                         </a-->
-                        <span class="ext2" data-key="http://shop.lbr.ru/">
+                        <span class="ext2" data-key="http://lbr-market.ru/">
                             <img src="/images/mainMenuIcon/toppict2.png" alt="Запасные части">
                             Запчасти
                         </span>
