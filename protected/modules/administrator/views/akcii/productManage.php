@@ -130,33 +130,44 @@ else{
         <?php echo $form->textArea($productAkciiModel, 'description'); ?>
     </div>
     </div>
-    <div class="product-img-wrapper" style="position:relative;">
-        <div class="product-img" style="height:100px; width:305px;position:absolute;right:0px;">
+    <div class="product-img-wrapper">
+        <div class="akcii_img" style="height:100px; width:305px;position:absolute;right:0px;">
             <img src="<?php echo Yii::app()->baseUrl.$product_img; ?>" class="akcii_img">
         </div>
-        <div style="position:absolute; top:150px; height:50px; width:305px; z-index: 10; background-color: red; float:left;right:0px;">
-            vvv
+        <?php if (isset($productAkciiModel->solid_type)&&($productAkciiModel->solid_type==AkciiProduct::DISCOUNT_IMAGE_TYPE)){?>
+        <div class="akcii_solid">
+            <img src="<?php echo Yii::app()->baseUrl."/images/akcii/akcii_solid.png"; ?>">
         </div>
-        
+        <div class="akcii_solid">
+            <?php if (isset($productAkciiModel->solid_percent)){?>
+                <div class="akcii_solid_percent_value"><span>-<?php echo $productAkciiModel->solid_percent?></span></div>
+                <div class="akcii_solid_percent"><span>%</span></div>
+            <?php } ?>    
+           <div class="akcii_solid_text">
+                <?php if (isset($productAkciiModel->solid_text_top)){?><span class="p1"><?php echo $productAkciiModel->solid_text_top?></span><br><?php } ?> 
+                <?php if (isset($productAkciiModel->solid_text_bottom)){?><span class="p2"><?php echo $productAkciiModel->solid_text_bottom?></span><?php } ?> 
+            </div>
+        </div>
+        <?php } ?>
     </div>
     <div class="imageSolid form" style="display:none">
         <div class="row solid_type">
-            <?php echo $form->error($productAkciiModel, 'solid_type'); ?>
+            <?php echo $form->error($productAkciiModel, "solid_type"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_type"); ?>
             <?php echo $form->dropDownList($productAkciiModel, "solid_type", AkciiProduct::getImageTypes()); ?>
         </div>
         <div class="row akcii_percent">
-            <?php echo $form->error($productAkciiModel, 'solid_percent'); ?>
+            <?php echo $form->error($productAkciiModel, "solid_percent"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_percent"); ?>
             <?php echo $form->textField($productAkciiModel, "solid_percent"); ?>
         </div>
         <div class="row akcii_text">
-            <?php echo $form->error($productAkciiModel, 'solid_text_top'); ?>
+            <?php echo $form->error($productAkciiModel, "solid_text_top"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_text_top"); ?>
             <?php echo $form->textArea($productAkciiModel, "solid_text_top"); ?>
         </div>
         <div class="row akcii_text">
-            <?php echo $form->error($productAkciiModel, 'solid_text_bottom'); ?>
+            <?php echo $form->error($productAkciiModel, "solid_text_bottom"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_text_bottom"); ?>
             <?php echo $form->textArea($productAkciiModel, "solid_text_bottom"); ?>
         </div>
