@@ -130,11 +130,14 @@ else{
         <?php echo $form->textArea($productAkciiModel, 'description'); ?>
     </div>
     </div>
-    <div class="product-img-wrapper">
-        <img src="<?php echo Yii::app()->baseUrl.$product_img; ?>" class="akcii_img" style="position:absolute;  bottom:0;">
-        <div style="position:absolute; bottom:0; height:100px; width:305px; z-index: 10; background-color: red;">
+    <div class="product-img-wrapper" style="position:relative;">
+        <div class="product-img" style="height:100px; width:305px;position:absolute;right:0px;">
+            <img src="<?php echo Yii::app()->baseUrl.$product_img; ?>" class="akcii_img">
+        </div>
+        <div style="position:absolute; top:150px; height:50px; width:305px; z-index: 10; background-color: red; float:left;right:0px;">
             vvv
         </div>
+        
     </div>
     <div class="imageSolid form" style="display:none">
         <div class="row solid_type">
