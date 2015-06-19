@@ -53,7 +53,7 @@
     </div>
     <div id="video_wrapper">
         <div id="video_content" style="float:left;">
-            <iframe src="https://www.youtube.com/embed/pr9uie3Xqe8?rel=0" allowfullscreen="" frameborder="0" width="305" height='230'></iframe>
+            <iframe src="https://www.youtube.com/embed/PFJNDThrUjA" allowfullscreen="" frameborder="0" width="305" height='230'></iframe>
         </div>
         <div id="video_text">
           <h3>Пора на картошку!</h3> 
