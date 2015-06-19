@@ -48,6 +48,49 @@
 </div>
 
 <div class="right-sidebar">
+    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
+        <span>ОВОЩИ И КАРТОФЕЛЬ</span>
+    </div>
+    <div id="video_wrapper">
+        <div id="video_content" style="float:left;">
+            <iframe src="https://www.youtube.com/embed/pr9uie3Xqe8?rel=0" allowfullscreen="" frameborder="0" width="305" height='230'></iframe>
+        </div>
+        <div id="video_text">
+          <h3>Пора на картошку!</h3> 
+         <h4>Целая линейка уборочной техники в каждое хозяйство:</h4>
+         <ul>
+         <li>Картофелекопалки
+         <li>Картофелеуборочные комбайны
+         <li>Обрезчики, подборщики и копалки для лука
+         <li>Морковоуборочные комбайны
+         <li>Капустоуборочные комбайны
+        </ul> 
+        </div>
+    </div>
+    <div style="clear: both"></div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/ovoshchi-i-kartofel/tekhnika-dlya-uborki-luka/419-kopalki-dlya-luka-simon/"><h3>Копалка для лука SIMON</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Simon.jpg"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Высокопроизводительные машины, предназначенные для средних и крупных хозяйств.</p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/ovoshchi-i-kartofel/kartofeleuborochnye-kombajny/411-kartofeleuborochnye-kombajny-pyra/"><h3>Картофелеуборочный комбайн PYRA</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Pyra.jpg"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">В стандартной комплектации комбайн оснащен бункером для картофеля с гидравлическим приводом объемом 1500 или 3000 кг.</p></div>
+    </div>
+    <div class="mresults mresults-akcii">
+        <div class="m_header">
+            <a href="/tehnika/ovoshchi-i-kartofel/kartofelekopateli/410-kartofelekopateli-pd/"><h3>Картофелекопатели IMAC</h3></a>
+        </div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Imac.jpg"/></div>
+        <div class="m_caption"><p style="word-wrap: break-word;">Уборка картофеля, чеснока, лука, моркови и др. овощей одной копалкой!</p></div>
+    </div>
+    
+    <div style="clear: both"></div>
     
     <div class="mightiness-menu-label menu_color_group_25" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_zagot.png)">
         <span>КОРМОЗАГОТОВКА</span>
@@ -172,45 +215,7 @@
     </div>
     -->
     
-<!--   <div style="clear: both"></div>
-    
-    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
-        <span>ОВОЩИ И КАРТОФЕЛЬ</span>
-    </div>
-    <div class="annotation">
-         <h3>Пора на картошку!</h3> 
-         <h4>Целая линейка уборочной техники в каждое хозяйство:</h4>
-         <ul>
-         <li>Картофелекопалки
-         <li>Картофелеуборочные комбайны
-         <li>Обрезчики, подборщики и копалки для лука
-         <li>Морковоуборочные комбайны
-         <li>Капустоуборочные комбайны
-        </ul> 
-    </div>
-    <div class="mresults mresults-akcii">
-        <div class="m_header">
-            <a href="/tehnika/ovoshchi-i-kartofel/tekhnika-dlya-uborki-luka/419-kopalki-dlya-luka-simon/"><h3>Копалка для лука SIMON</h3></a>
-        </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Simon.jpg"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">Высокопроизводительные машины, предназначенные для средних и крупных хозяйств.</p></div>
-    </div>
-    <div class="mresults mresults-akcii">
-        <div class="m_header">
-            <a href="/tehnika/ovoshchi-i-kartofel/kartofeleuborochnye-kombajny/411-kartofeleuborochnye-kombajny-pyra/"><h3>Картофелеуборочный комбайн PYRA</h3></a>
-        </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Pyra.jpg"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">В стандартной комплектации комбайн оснащен бункером для картофеля с гидравлическим приводом объемом 1500 или 3000 кг.</p></div>
-    </div>
-    <div class="mresults mresults-akcii">
-        <div class="m_header">
-            <a href="/tehnika/ovoshchi-i-kartofel/kartofelekopateli/410-kartofelekopateli-pd/"><h3>Картофелекопатели IMAC</h3></a>
-        </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Imac.jpg"/></div>
-        <div class="m_caption"><p style="word-wrap: break-word;">Уборка картофеля, чеснока, лука, моркови и др. овощей одной копалкой!</p></div>
-    </div>
-    
-    <div style="clear: both"></div>-->
+   <div style="clear: both"></div>
     
      <div class="mightiness-menu-label menu_color_group_3" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_tractor.png)">
         <span>ТРАКТОРЫ</span>
