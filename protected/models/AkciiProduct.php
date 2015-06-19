@@ -86,8 +86,8 @@ class AkciiProduct extends CActiveRecord
                         'published'=>'Публиковать',
                         'range'=>'Порядковый номер в группе',
                         'solid_type'=>'Тип плашки',
-                        'solid_text_top'=>'Первый абзац',
-                        'solid_text_bottom'=>'Второй абзац',
+                        'solid_text_top'=>'Текст на плашке',
+                       // 'solid_text_bottom'=>'Второй абзац',
                         'solid_percent'=>'Процент скидки',
 		);
 	}

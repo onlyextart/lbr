@@ -15,7 +15,28 @@
 </style>
 <script type="text/javascript">
     $(function(){
-        tinyMCE.init({
+//        $(".akcii_img").click(function(){
+//            $(".imageSolid").dialog({
+//                    resizable: false,
+//                    width:400,
+//                    title:'Параметры плашки',
+//                    modal: true,
+//                    beforeClose: function( event, ui ) {
+//                        $(this).dialog( "destroy" );
+//                    },
+//                    buttons: {
+//                        "Сохранить": function( ) {
+//                            if(parseInt($(".akcii_percent input").val())>0&&parseInt($(".akcii_percent input").val())<100){
+//                                $( this ).dialog( "destroy" )
+//                            }
+//                            else{
+//                                alert("Процент скидки должен быть целым числом от 1 до 99");
+//                            }
+//                        }
+//                    }
+//             });
+//         });
+         tinyMCE.init({
             width: "100%",
             mode : "textareas",
             editor_selector: "with_tinymce",
@@ -25,39 +46,14 @@
             relative_urls: false,
             convert_urls : false,
 
-            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect,jbimages",
-            theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
-            theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen",
-            theme_advanced_buttons4 : "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",
+            theme_advanced_buttons1 : "bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,code,|,forecolor,backcolor",
             theme_advanced_toolbar_location : "top",
             theme_advanced_toolbar_align : "left",
-            theme_advanced_statusbar_location : "bottom",
+            theme_advanced_statusbar_location : false,
             theme_advanced_resizing : true
 
         });
-
-        $(".akcii_img").click(function(){
-            $(".imageSolid").dialog({
-                    resizable: false,
-                    width:400,
-                    title:'Параметры плашки',
-                    modal: true,
-                    beforeClose: function( event, ui ) {
-                        $(this).dialog( "destroy" );
-                    },
-                    buttons: {
-                        "Сохранить": function( ) {
-                            if(parseInt($(".akcii_percent input").val())>0&&parseInt($(".akcii_percent input").val())<100){
-                                $( this ).dialog( "destroy" )
-                            }
-                            else{
-                                alert("Процент скидки должен быть целым числом от 1 до 99");
-                            }
-                        }
-                    }
-             });
-         });
-         
+        
          $(".solid_type select").change(function(){
              status=$(".solid_type select").val();
              if(status==<?= AkciiProduct::DEFAULT_IMAGE_TYPE?>){
@@ -139,38 +135,41 @@ else{
             <img src="<?php echo Yii::app()->baseUrl."/images/akcii/akcii_solid.png"; ?>">
         </div>
         <div class="akcii_solid">
-            <?php if (isset($productAkciiModel->solid_percent)){?>
+            <div style="width:80px;float:left;">
+            <?php if (isset($productAkciiModel->solid_percent)&&($productAkciiModel->solid_percent!=null)){?>
                 <div class="akcii_solid_percent_value"><span>-<?php echo $productAkciiModel->solid_percent?></span></div>
                 <div class="akcii_solid_percent"><span>%</span></div>
-            <?php } ?>    
+            <?php };?> 
+                &nbsp;
+           </div>
            <div class="akcii_solid_text">
-                <?php if (isset($productAkciiModel->solid_text_top)){?><span class="p1"><?php echo $productAkciiModel->solid_text_top?></span><br><?php } ?> 
-                <?php if (isset($productAkciiModel->solid_text_bottom)){?><span class="p2"><?php echo $productAkciiModel->solid_text_bottom?></span><?php } ?> 
-            </div>
+                <?php if (isset($productAkciiModel->solid_text_top)){?><?php echo $productAkciiModel->solid_text_top?><?php } ?> 
+           </div>
         </div>
         <?php } ?>
     </div>
-    <div class="imageSolid form" style="display:none">
+    <div class="imageSolid form">
         <div class="row solid_type">
             <?php echo $form->error($productAkciiModel, "solid_type"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_type"); ?>
             <?php echo $form->dropDownList($productAkciiModel, "solid_type", AkciiProduct::getImageTypes()); ?>
         </div>
-        <div class="row akcii_percent">
+        <div class="row akcii_percent <?php echo ($productAkciiModel->solid_type == AkciiProduct::DISCOUNT_IMAGE_TYPE) ? '': 'hide'?>">
             <?php echo $form->error($productAkciiModel, "solid_percent"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_percent"); ?>
             <?php echo $form->textField($productAkciiModel, "solid_percent"); ?>
         </div>
-        <div class="row akcii_text">
+        <div class="row akcii_text <?php echo ($productAkciiModel->solid_type == AkciiProduct::DISCOUNT_IMAGE_TYPE) ? '': 'hide'?>">
             <?php echo $form->error($productAkciiModel, "solid_text_top"); ?>
             <?php echo $form->labelEx($productAkciiModel, "solid_text_top"); ?>
-            <?php echo $form->textArea($productAkciiModel, "solid_text_top"); ?>
+            <?php echo $form->textArea($productAkciiModel, "solid_text_top", array('class'=>'with_tinymce')); ?>
         </div>
-        <div class="row akcii_text">
-            <?php echo $form->error($productAkciiModel, "solid_text_bottom"); ?>
-            <?php echo $form->labelEx($productAkciiModel, "solid_text_bottom"); ?>
-            <?php echo $form->textArea($productAkciiModel, "solid_text_bottom"); ?>
-        </div>
+       <?php //};?>
+<!--        <div class="row akcii_text">
+            <?php //echo $form->error($productAkciiModel, "solid_text_bottom"); ?>
+            <?php //echo $form->labelEx($productAkciiModel, "solid_text_bottom"); ?>
+            <?php //echo $form->textArea($productAkciiModel, "solid_text_bottom"); ?>
+        </div>-->
     </div>
     
     <div style="clear:both"></div>
