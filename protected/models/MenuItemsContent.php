@@ -56,6 +56,7 @@ class MenuItemsContent extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'item' => array(self::BELONGS_TO, 'MenuItems', 'item_id'),
+                   //     'products'=>array(self::HAS_ONE,'Products','id'),
 		);
 	}
 
