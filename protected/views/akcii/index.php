@@ -48,7 +48,7 @@
 </div>
 
 <div class="right-sidebar">
-    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
+<!--    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
         <span>ОВОЩИ И КАРТОФЕЛЬ</span>
     </div>
     <div id="video_wrapper">
@@ -90,7 +90,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Уборка картофеля, чеснока, лука, моркови и др. овощей одной копалкой!</p></div>
     </div>
     
-    <div style="clear: both"></div>
+    <div style="clear: both"></div>-->
     
     <div class="mightiness-menu-label menu_color_group_25" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_zagot.png)">
         <span>КОРМОЗАГОТОВКА</span>
