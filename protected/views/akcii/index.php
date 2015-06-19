@@ -72,21 +72,21 @@
         <div class="m_header">
             <a href="/tehnika/ovoshchi-i-kartofel/tekhnika-dlya-uborki-luka/419-kopalki-dlya-luka-simon/"><h3>Копалка для лука SIMON</h3></a>
         </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Simon.jpg"/></div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Simon.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Высокопроизводительные машины, предназначенные для средних и крупных хозяйств.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/ovoshchi-i-kartofel/kartofeleuborochnye-kombajny/411-kartofeleuborochnye-kombajny-pyra/"><h3>Картофелеуборочный комбайн PYRA</h3></a>
         </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Pyra.jpg"/></div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Pyra.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">В стандартной комплектации комбайн оснащен бункером для картофеля с гидравлическим приводом объемом 1500 или 3000 кг.</p></div>
     </div>
     <div class="mresults mresults-akcii">
         <div class="m_header">
             <a href="/tehnika/ovoshchi-i-kartofel/kartofelekopateli/410-kartofelekopateli-pd/"><h3>Картофелекопатели IMAC</h3></a>
         </div>
-        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Imac.jpg"/></div>
+        <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Imac.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Уборка картофеля, чеснока, лука, моркови и др. овощей одной копалкой!</p></div>
     </div>
     
