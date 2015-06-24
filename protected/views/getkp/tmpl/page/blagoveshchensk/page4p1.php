@@ -179,7 +179,7 @@
                                         <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
                                             <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
                                             <span style="float: right; text-align: right; margin-left: 10px">
-                                                Колесников А.В.
+                                                Ковальчук Е.С.
                                             </span>
                                         </div>
                                     </div>
