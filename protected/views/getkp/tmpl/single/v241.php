@@ -70,7 +70,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <p style="margin:0; color: #E52012; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 26px; font-weight: bold; text-align: left; ">
+                                    <p style="margin:0; color: #E52012; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 26px; font-weight: bold; text-align: left; line-height: 26px; ">
                                            • и станет ВОЗМОЖНО сохранить урожай до весны
                                     </p>
                                 </td>
@@ -96,7 +96,7 @@
                                     </p>
                                     </a>
                                 </td>
-                                <td width="240" valign="top" style="padding-top: 3px; text-align: left;">
+                                <td width="240" valign="top" style="padding-top: 3px; padding-left: 10px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/zagruzchik-teleskopicheskiy-zt-40/?utm_source=EVP13&utm_medium=email&utm_term=Zagruzchik_dlja_ovoshhej_teleskopicheskij_ZT-40&utm_content=<?php echo $email;?>&utm_campaign=Zagruzchik_dlja_ovoshhej_teleskopicheskij_ZT-40" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none;">
                                      <p style="margin:0; padding: 0; font-size: 16px; font-weight: bold; text-align: left; font-family: 'Trebuchet MS', sans-serif;">
                                         ЗАГРУЗЧИК ТЕЛЕСКОПИЧЕСКИЙ ЗТ-40
@@ -146,7 +146,7 @@
                                          Сокращение времени на перегрузку овощей в контейнеры, погрузчик до 40%.</li>
                                     
                                 </td>
-                                <td width="240" valign="top" style="padding: 15px 0px 0px 0px; text-align: left;  width: 240px;">
+                                <td width="240" valign="top" style="padding: 15px 0px 0px 10px; text-align: left;  width: 240px;">
                                      <p width="240px" style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; ">Качественная сортировка и перегрузка 
                                         Быстрая загрузка овощей и равномерное распределение их по складу с помощью пульта управления.</p>
                                     
@@ -184,7 +184,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <p style="margin:0; color: #E52012; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 26px; font-weight: bold; text-align: left; ">
+                                    <p style="margin:0; color: #E52012; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 26px; font-weight: bold; text-align: left; line-height: 26px;">
                                            • и станет РЕАЛЬНО получать больше прибыли
                                     </p>
                                 </td>
@@ -204,7 +204,7 @@
                                     </p>
                                     </a>
                                 </td>
-                                <td width="370" style="padding-top: 3px; text-align: left;">
+                                <td width="370" style="padding-top: 3px; padding-left: 10px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/upakovochnaya-mashyna-maus-25/?utm_source=EVP13&utm_medium=email&utm_term=Avtomaticheskaja_upakovochnaja_mashina_MAUS-25&utm_content=<?php echo $email;?>&utm_campaign=Avtomaticheskaja_upakovochnaja_mashina_MAUS-25" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none;">
                                         <p style="margin:0; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: left; ">
                                             АВТОМАТИЗИРОВАННЫЙ ФАСОВОЧНЫЙ КОМПЛЕКС ВСП-50 + МАУС 25
@@ -239,7 +239,7 @@
                                          Сбор и перегрузка овощей с производительностью до 40 тонн в час.
                                      </p>
                                 </td>
-                                <td valign="top" width="370" style="padding: 15px 0px 0px 0px; text-align: left; width: 370px;">
+                                <td valign="top" width="370" style="padding: 15px 0px 0px 10px; text-align: left; width: 370px;">
                                     <p style="margin:0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         <li width="370px" style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; ">Точное взвешивание.</li>
                                         <li width="370px" style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; ">Производительность фасовки: до 5 тонн любых корнеплодов!</li>
@@ -295,7 +295,7 @@
                                     </p>
                                     </a>
                                 </td>
-                                <td width="370" style="padding-top: 3px; text-align: left;">
+                                <td width="370" style="padding-top: 3px; padding-left: 10px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/760-mashina-ochistki-ovoshhej-msok-5/?utm_source=EVP13&utm_medium=email&utm_term=Mashina_suhoj_ochistki_ovoshhej_MSOK-5&utm_content=<?php echo $email;?>&utm_campaign=Mashina_suhoj_ochistki_ovoshhej_MSOK-5" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none;">
                                         <p style="margin:0; padding: 0;font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: left; ">
                                             МАШИНА ДЛЯ СУХОЙ ОЧИСТКИ МСОК-5 С ЦИКЛОНОМ
@@ -332,7 +332,7 @@
                                         
                                      </p>
                                 </td>
-                                <td valign="top" width="370" style="padding: 15px 0px 0px 0px; text-align: left; width: 370px;">
+                                <td valign="top" width="370" style="padding: 15px 0px 0px 10px; text-align: left; width: 370px;">
                                     <p style="margin:0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; ">
                                         <li width="370px" style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; ">Бережное обращение с продуктом, качественная очистка.</li>
                                         <li width="370px" style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align: justify; ">Комплекс может обработать до 8 тонн овощей в час.</li>
