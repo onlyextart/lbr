@@ -1120,7 +1120,7 @@ div.form .admin_additional_features_measure input {
     float:left;
     width:220px;
     height:58px;
-    padding:0px 2px 0px 2px;
+    padding:5px 2px 0px 0px;
     z-index: 11;
 /*    text-align: center;*/
 }
@@ -1128,7 +1128,7 @@ div.form .admin_additional_features_measure input {
 #akcii_features .product-img-wrapper .akcii_solid .akcii_solid_text p{
     margin:0;
     font-family: "Trebuchet MS";
-    font-size:13px;
+    font-size:12px;
 }
 /*#akcii_features .product-img-wrapper .akcii_solid .akcii_solid_text .p1{
     text-align: center;
