@@ -51,6 +51,23 @@
     <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
         <span>ОВОЩИ И КАРТОФЕЛЬ</span>
     </div>
+    <div style="width:100%">
+        <img src="http://www.lbr.ru/images/akcii/banner_sklad.jpg" style="width:721px; border:none;">
+    </div>
+     <div class="annotation">
+         
+         <p><b>Индивидуальные решения под каждый склад.</b></p>
+         <p>Комплексы или отдельные позиции:
+             <ul>
+                <li>Сортировочные линии
+                <li>Бункеры-перегрузчики
+                <li>Конвейеры
+                <li>Скутеры-подборщики
+                <li>Моечные машины
+                <li>Упаковочные комплексы
+            </ul>
+         </p>
+     </div>
     <div id="video_wrapper">
         <div id="video_content" style="float:left;">
             <iframe src="https://www.youtube.com/embed/PFJNDThrUjA" allowfullscreen="" frameborder="0" width="305" height='230'></iframe>
