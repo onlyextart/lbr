@@ -4,8 +4,8 @@ class AkciiController extends Controller{
    public function actionIndex(){
         $catalog_rec=MenuItems::model()->find('alias = :alias', array(':alias'=>'tehnika'));
         $sql="Select id,level,name,published from menu_items where lft>=".$catalog_rec['lft']." AND rt<=".$catalog_rec['rt'].";";
-        $menuModel = MenuItems::model()->findBySql($sql);
-        $menuTreeArray = MenuItems::getMenuTree('getMenuManageRowForAkcii',$sql);
+        $menuModel = MenuItems::model()->findAllBySql($sql);
+        $menuTreeArray = MenuItems::getMenuTree('getMenuManageRowForAkcii');
         //$this->addCreateItemButtonInTree($menuTreeArray);
         $this->render('index', array(
             'menuModel'=>$menuModel,
