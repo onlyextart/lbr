@@ -48,7 +48,8 @@
 </div>
 
 <div class="right-sidebar">
-    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
+    <?php echo $response; ?>
+<!--    <div class="mightiness-menu-label menu_color_group_11" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_ovoschi.png)">
         <span>ОВОЩИ И КАРТОФЕЛЬ</span>
     </div>
     
@@ -187,7 +188,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Последовательная и бережная схема обмотки рулонов для сохранения качества корма. </p></div>
      </div>
     
-    <div style="clear: both"></div>
+    <div style="clear: both"></div>-->
     
 <!--    <div class="mightiness-menu-label menu_color_group_10" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_shirokozahvat.png)">
         <span>ШИРОКОЗАХВАТНЫЕ  ТЕХНОЛОГИИ  ПОЧВООБРАБОТКИ И СЕВА</span>
@@ -216,7 +217,7 @@
     </div>
     -->
     
-   <div style="clear: both"></div>
+<!--   <div style="clear: both"></div>
     
      <div class="mightiness-menu-label menu_color_group_3" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_tractor.png)">
         <span>ТРАКТОРЫ</span>
@@ -230,7 +231,7 @@
         <div class="m_caption"><p style="word-wrap: break-word;">Трактор с полной комплектацией.<br>
             Тест-драйв -  убедитесь сами  в надёжности  и комфорте! </p></div>
     </div>
-    
+    -->
     
     <div style="clear: both"></div>
     
@@ -332,7 +333,7 @@
     <div style="clear: both"></div>
     -->
     
-    <div class="mightiness-menu-label menu_color_group_21" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_peregr.png)">
+<!--    <div class="mightiness-menu-label menu_color_group_21" style="background-image: url(<?php echo Yii::app()->request->baseUrl; ?>/images/mightiness/label_peregr.png)">
         <span>СЕЛЬХОЗ ПРИЦЕПЫ И ПЕРЕГРУЗЧИКИ</span>
     </div>
     <div class="mresults mresults-akcii">
@@ -353,7 +354,7 @@
         </div>
         <div class="m_image"><img alt="Изображение товара" src="<?php echo Yii::app()->request->baseUrl;?>/images/uploaded/Agri Farmer 28.7_akc.png"/></div>
         <div class="m_caption"><p style="word-wrap: break-word;">Ширина и высота всего 2 метра! Отличная работоспособность в ограниченном пространстве.</p></div>
-    </div>
+    </div>-->
 </div>
 
 <div id="footer-banner">
