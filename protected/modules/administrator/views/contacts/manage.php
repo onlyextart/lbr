@@ -161,6 +161,11 @@ tinymce.init(tinymce.myOptions);
             <?php echo $form->textField( $contactModel, 'address'); ?>
         </div>
         <div class="row">
+            <?php echo $form->error( $contactModel, 'phonekp'); ?>
+            <?php echo $form->labelEx( $contactModel, 'phonekp'); ?>
+            <?php echo $form->textField( $contactModel, 'phonekp'); ?>
+        </div>
+        <div class="row">
             <?php echo $form->error( $contactModel, 'telephone'); ?>
             <?php echo $form->labelEx( $contactModel, 'telephone'); ?>
             <?php echo $form->textField( $contactModel, 'telephone'); ?>

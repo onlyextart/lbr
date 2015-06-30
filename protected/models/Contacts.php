@@ -58,7 +58,7 @@ class Contacts extends CActiveRecord {
         return array(
             array('published', 'numerical', 'integerOnly' => true),
             array('del_img', 'boolean'),
-            array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions, director_name, director_surname, director_secondname, director_photo, director_phone, director_email', 'safe'),
+            array('name, alias, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions, director_name, director_surname, director_secondname, director_photo, director_phone, director_email, phonekp', 'safe'),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('icon', 'file',
@@ -67,7 +67,7 @@ class Contacts extends CActiveRecord {
                 'allowEmpty' => 'true',
                 'tooLarge' => 'Файл весит больше 10 MB. Пожалуйста, загрузите файл меньшего размера.',
             ),
-            array('id, name=>order ASC, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions', 'safe', 'on' => 'search'),
+            array('id, name=>order ASC, alias, published, domain, address, telephone, work_time, email, map_code, message_email, info, images, oneC_id, okrug_id, servis_regions, phonekp', 'safe', 'on' => 'search'),
         );
     }
 
@@ -115,7 +115,9 @@ class Contacts extends CActiveRecord {
             'director_secondname' => 'Отчество',
             'director_photo' => 'Фото',
             'director_phone' => 'Телефон',
-            'director_email' => 'Почта'
+            'director_email' => 'Почта',
+            'phonekp' => 'Телефон для КП'
+            
         );
     }
 
