@@ -227,7 +227,7 @@
         </footer>
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
         <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
-        <?php $this->widget('ext.kstChatWidget.KstChatWidget'); ?>
+        <?php $this->widget('ext.kornijchenkoChatWidget.KstChatWidget'); ?>
 
         <!-- Yandex.Metrika counter -->
         <noscript><div><img src="//mc.yandex.ru/watch/13203052" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
