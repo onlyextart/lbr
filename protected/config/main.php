@@ -38,6 +38,18 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+            
+                'session' => array(
+                    //'class' => 'HttpSession',
+                    'autoStart'=>true,
+                    'autoCreateSessionTable'=>false, // запрещаем автосоздание таблицы в базе
+                    'class'=>'system.web.CDbHttpSession', // подключаем класс
+                    'connectionID'=>'db',  // идентификатор соединения с базой
+                    'sessionTableName' => 'lbrsession', // название таблицы
+                    'timeout'=>'10800', // 4 часа - время хранения данных в базе в секундах
+
+                ),
+            
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',
