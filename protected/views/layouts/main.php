@@ -72,6 +72,7 @@
         <?php Yii::app()->clientScript->registerScriptFile('/js/site/lbr.yandex.metrika.js'); ?>
         <!-- /Yandex.Metrika counter -->
         <?php endif; ?>
+        
     </head>
     <body>
         <header>
@@ -225,6 +226,7 @@
                 </ul>
             </div>
         </footer>
+        
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
         <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
