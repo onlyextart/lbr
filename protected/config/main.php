@@ -39,16 +39,13 @@ return array(
 			'allowAutoLogin'=>true,
 		),
             
-                'session' => array(
-                    //class' => 'HttpSession',
-                    'autoStart'=>true,
-                    'autoCreateSessionTable'=>false, // запрещаем автосоздание таблицы в базе
-                    'class'=>'system.web.CDbHttpSession', // подключаем класс
-                    'connectionID'=>'db',  // идентификатор соединения с базой
-                    'sessionTableName' => 'lbrsession', // название таблицы
-                    'timeout'=>'10800', // 4 часа - время хранения данных в базе в секундах
-
-                ),
+//                
+                    'session' => array(
+                        'timeout' => 32400, // 9 часов
+                        'class' => 'system.web.CDbHttpSession',
+                        'connectionID' => 'db',
+                        'sessionTableName' => 'lbr_session',
+                    ),
             
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
