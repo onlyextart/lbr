@@ -73,7 +73,7 @@
                                     <td>
                                         <br />
                                                                               
-                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель Perkins с интеркулером мощностью 101 л.с.<br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
                                         • Уникальная гидравлика рулевого управления имеет 3 режима работы: координированное управление передними колесами, поворотом всех колес в одном направлени (крабовый ход) или передних и задних в разные стороны (колея в колею).<br />• Механизм, предотвращающий опрокидывание машины при резких движениях.</span>
                                         
                                         
@@ -180,7 +180,7 @@
                                        
                                         <br>
                                         
-                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель IVECO с интеркулером мощностью 127 л.с.<br />
+                                        <span style="display: block; text-align: justify; font-family:Calibri, sans-serif; font-size: 14px; color: #222222; margin: 10px 0; line-height: 16px;">• Надежный ремонтопригодный двигатель Perkins с интеркулером мощностью 101 л.с.<br />
                                         <br />• Гидростатическая трансмиссия – плавность движений и точность при погрузо-разгрузочных работах.<br />
                                         <br />• Уникальная гидравлика рулевого управления имеет 3 режима работы: координированное управление передними колесами, поворотом всех колес в одном направлени (крабовый ход) или передних и задних в разные стороны (колея в колею).<br />
                                         <br />• Механизм, предотвращающий опрокидывание машины при резких движениях.<br /></span>
@@ -372,7 +372,7 @@
                                     <tr>
                                         <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Эксплуатационная масса, кг</span></td>
                                         <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.600</span></td>
-                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">7.800</span></td>
+                                        <td><span style="font-family:Calibri, sans-serif; font-size: 13px;">8000</span></td>
                                     </tr>
                                     <tr>
                                         <td align="left"><span style="font-family:Calibri, sans-serif; font-size: 13px;">Габариты (длина х ширина х высота), мм</span></td>
