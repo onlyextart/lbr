@@ -52,7 +52,7 @@
                                 <td style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/?utm_source=EVP14&utm_medium=email&utm_term=banner_1&utm_content=<?php echo $email;?>&utm_campaign=banner_1" target="_blank">
                                         <!--<img src="cid:header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">-->
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14.png" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -93,17 +93,17 @@
                             <tr>
                                 <td width="250" valign="top" style="padding-top: 3px; padding-right: 0;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?utm_source=EVP14&utm_medium=email&utm_term=kultivatory_sternevye_kos&utm_content=<?php echo $email;?>&utm_campaign=kultivatory_sternevye_kos" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_01.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_01.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="250" valign="top" style="padding-top: 3px; padding-right: 0; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?utm_source=EVP14&utm_medium=email&utm_term=kultivatory_predposevnye_viking&utm_content=<?php echo $email;?>&utm_campaign=kultivatory_predposevnye_viking" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_02.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_02.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="250" valign="top" style="padding-top: 3px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/768-Kul'tivator-kpm/?utm_source=EVP14&utm_medium=email&utm_term=kultivator_kpm&utm_content=<?php echo $email;?>&utm_campaign=kultivator_kpm" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_03.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_03.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -116,46 +116,23 @@
                             <tr>
                                 <td width="250" valign="top" style="padding-top: 0px; padding-right: 0;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/mulchirovateli/343-mulchirovateli-euroclass-21-cabe/?utm_source=EVP14&utm_medium=email&utm_term=mulchirovatel_pavia&utm_content=<?php echo $email;?>&utm_campaign=mulchirovatel_pavia" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_04.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_04.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="250" valign="top" style="padding-top: 0px; padding-right: 0; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/?utm_source=EVP14&utm_medium=email&utm_term=diskovaja_borona_ares&utm_content=<?php echo $email;?>&utm_campaign=diskovaja_borona_ares" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_05.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_05.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                      </a>
                                 </td>
                                 <td width="250" valign="top" style="padding-top: 0px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/glubokorykhliteli-i-chizeli/340-glubokorykhliteli-kret/?utm_source=EVP14&utm_medium=email&utm_term=navesnoj_glubokoryhlitel_kret&utm_content=<?php echo $email;?>&utm_campaign=navesnoj_glubokoryhlitel_kret" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_06.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_06.png" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
                         </table>
                     </td>
-                </tr>
-                <tr>
-                    <td style="padding: 0px 20px 0px 20px;">
-                        <table width="750" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td width="250" valign="top" style="padding-top: 0px; padding-right: 0;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/mulchirovateli/343-mulchirovateli-euroclass-21-cabe/?utm_source=EVP14&utm_medium=email&utm_term=mulchirovatel_pavia&utm_content=<?php echo $email;?>&utm_campaign=mulchirovatel_pavia" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_07.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
-                                    </a>
-                                </td>
-                                <td width="250" valign="top" style="padding-top: 0px; padding-right: 0; text-align: left;">
-                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/?utm_source=EVP14&utm_medium=email&utm_term=diskovaja_borona_ares&utm_content=<?php echo $email;?>&utm_campaign=diskovaja_borona_ares" target="_blank">
-                                       <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_08.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
-                                    </a>
-                                </td>
-                                <td width="250" valign="top" style="padding-top: 0px; text-align: left;">
-                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/glubokorykhliteli-i-chizeli/340-glubokorykhliteli-kret/?utm_source=EVP14&utm_medium=email&utm_term=navesnoj_glubokoryhlitel_kret&utm_content=<?php echo $email;?>&utm_campaign=navesnoj_glubokoryhlitel_kret" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/big/all_09.jpg" width="250" style="border: 0; text-align: right;" alt="Изображения не отображаются">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
+                </tr>                
                 <tr>
                     <td style="padding: 20px 20px 0 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -204,17 +181,17 @@
                             <tr>
                                 <td width="240" valign="top" style="padding-top: 3px; padding-right: 20px;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?utm_source=EVP14&utm_medium=email&utm_term=zernovye_sejalki_polonez&utm_content=<?php echo $email;?>&utm_campaign=zernovye_sejalki_polonez" target="_blank">
-                                        <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_12.jpg" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_12.png" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="240" valign="top" style="padding-top: 3px; padding-right: 20px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/333-zernovye-seyalki-mazur/?utm_source=EVP14&utm_medium=email&utm_term=zernovye_sejalki_mazur&utm_content=<?php echo $email;?>&utm_campaign=zernovye_sejalki_mazur" target="_blank">
-                                     <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_1.jpg" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                     <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_1.png" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="240" valign="top" style="padding-top: 3px; text-align: left;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?utm_source=EVP14&utm_medium=email&utm_term=prikatyvajushhie_katki_expom&utm_content=<?php echo $email;?>&utm_campaign=prikatyvajushhie_katki_expom" target="_blank">
-                                    <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_2.jpg" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/244-evp14/244-evp-14_2.png" width="240" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
