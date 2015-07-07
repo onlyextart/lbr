@@ -103,8 +103,6 @@ class GetkpController extends Controller
         $data['product_info'] = serialize($products_info);
         $data['control_number'] = rand('1000000', '9999999');
         $data['user'] = $data['user_info'];
-        $data['photo'] = $data['photo'];
-        $data['phonekp'] = $data['phonekp'];
         $model->attributes = $data;
         if($model->save())
             return array($model->id, $data['control_number']);
