@@ -45,10 +45,10 @@ class Kp extends CActiveRecord {
         // will receive user inputs.
         return array(
             array('control_number', 'numerical', 'integerOnly' => true),
-            array('user, temp_id, price, price_blue, price_min, client, header, filial, filial_bottom, finance_block, finance_block_text, product_info, login', 'safe'),
+            array('user, temp_id, price, price_blue, price_min, client, header, filial, filial_bottom, finance_block, finance_block_text, product_info, login, phonekp', 'safe'),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
-            array('id, user, temp_id, price, price_blue, price_min, client, header, filial, filial_bottom, control_number, finance_block, finance_block_text, product_info, login', 'safe', 'on' => 'search'),
+            array('id, user, temp_id, price, price_blue, price_min, client, header, filial, filial_bottom, control_number, finance_block, finance_block_text, product_info, login, phonekp', 'safe', 'on' => 'search'),
         );
     }
 
@@ -82,6 +82,7 @@ class Kp extends CActiveRecord {
             'finance_block_text' => 'finance_block_text',
             'product_info' => 'product_info',
             'login' => 'Login',
+            'phonekp' => 'phonekp',
         );
     }
 
