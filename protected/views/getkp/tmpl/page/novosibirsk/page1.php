@@ -106,7 +106,7 @@
                                                 <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px;">
                                                     <span><img src="http://www.lbr.ru/images/kp/line.jpg" width="163px" height="3px" alt="line" style="border: 0;"/></span>
                                                     <span style="text-align: right;">
-                                                        Ширинкин А.Н.
+                                                        Епураш М.В.
                                                     </span>
                                                 </div>
                                             </div>

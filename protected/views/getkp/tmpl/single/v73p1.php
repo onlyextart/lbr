@@ -346,21 +346,24 @@ endif;
                                         </tr>
                                         <tr>
                                             <td colspan="2" style="padding: 0;">
-                                                <p style="margin: 0; padding: 0; text-align: justify; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; color: black; ">
+                                                <p style="margin: 0; padding: 0; text-align: justify; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
                                                     МТЗ 82, МТЗ 1221, МТЗ 1523, МТЗ 1021, МТЗ 1025, Т-150, К-700 и др.
+                                                </p>
+                                                <p style="margin: 0; padding: 0; text-align: justify; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; ">
+                                                    Для агрегатирования с тракторами К 700 и Т 150 глуокорыхлитель должен быть укомплектован системой навески центральной.
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 25px 0 0 0;">
+                                            <td colspan="2" style="padding: 5px 0 0 0;">
                                                 <p style="margin: 0; padding: 0; text-align: justify; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; color: #f58220; ">
                                                     Финальная обработка после глубокого рыхления
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2" style="padding: 5px 0 0 0;">
-                                                <img src="http://www.lbr.ru/images/kp/73-kret/kret9.jpg" width="370" style="border: 0; float: right;"  alt="Картинки не отображаются">
+                                            <td colspan="2" align="center" style="padding: 5px 0 0 0; text-align: center;">
+                                                <img src="http://www.lbr.ru/images/kp/73-kret/kret9.jpg" width="290" style="border: 0;"  alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                         <tr valign="top"> 
