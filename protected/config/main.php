@@ -9,6 +9,7 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'LBR',
         'sourceLanguage' => 'ru',
+        'timeZone' => 'Europe/Minsk',
         'language' => 'ru',
 	// preloading 'log' component
 	'preload'=>array('log'),

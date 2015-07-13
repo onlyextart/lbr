@@ -33,8 +33,9 @@
 
 <h2 class="col ">Карта сайта Html</h2>
 <div class="menuTreeViewWrapper">
-    <div>Дата последнего обновления: <?php echo date("d.m.Y H:i:s.", $sitemapDate); ?></div>
-    <a href="/administrator/map/updateSitemapHtml/" class="btn btn-green">Обновить</a>
+    <div>Дата последнего обновления: <?php echo date("d.m.Y H:i:s", $sitemapDate); ?></div>
+    <div><a href="/administrator/map/updateSitemapHtml/" class="btn btn-green">Обновить HTML</a></div>
+    <div><a href="/administrator/map/getExcel/" class="btn btn-green">Скачать Excel</a></div>
 </div>
 
 <div id="siteMap">
