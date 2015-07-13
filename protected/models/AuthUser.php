@@ -242,7 +242,7 @@ class AuthUser extends CActiveRecord
                                 }
                                 if($model->email){
                                     $return .= '<tr>';
-                                        $return .= '<td><span style="font-family: \'Trebuchet MS\', sans-serif; font-size: 13px;"><b>Телефон:</b> '.$model->email.'</span></td>';
+                                        $return .= '<td><span style="font-family: \'Trebuchet MS\', sans-serif; font-size: 13px;"><b>Email:</b> '.$model->email.'</span></td>';
                                     $return .= '</tr>';
                                 }
                                 $return .= '<tr>';
