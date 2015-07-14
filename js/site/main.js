@@ -1,4 +1,27 @@
-$(document).ready(function(){
+$(document).ready(function() {
+    // start Analitics block
+    var analiticsTimerStart = new Date().getTime();
+    
+    $(window).unload(function() {
+        var url = window.location.href;
+        var end = url.indexOf("/?"); 
+        if(end > 0) url = url.substring(0, end); 
+        else url = url.substring(0, url.length-1); 
+        
+        var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
+        
+        $.ajax({
+            url: '/site/saveCookie/',
+            type: 'POST',
+            dataType: "json",
+            data:{
+                time: time,
+                url: url
+            }
+        });
+    });
+    // end Analitics block
+    
     $("#mightiness-results .m_caption p").dotdotdot({
         ellipsis : '... ',
         wrap     : 'letter',
@@ -81,23 +104,6 @@ $(document).ready(function(){
     // Webcom asked
     $(".ext2").each(function(){
 	   $(this).replaceWith('<a href="'+$(this).attr("data-key")+'">'+$(this).html()+'</a>');
-    });
-    
-    // Analitics
-    $(window).unload(function() {
-        var url = window.location.href;
-        var end = url.indexOf("/?"); 
-        if(end > 0) url = url.substring(0, end); 
-        else url = url.substring(0, url.length-1); 
-        $.ajax({
-            url: '/site/saveCookie/',
-            type: 'POST',
-            dataType: "json",
-            data:{
-                time: 10,
-                url: url
-            }
-        });
     });
 });
 

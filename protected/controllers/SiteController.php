@@ -119,12 +119,11 @@ class SiteController extends Controller
         
         public function actionSaveCookie()
         {
-            $time = Yii::app()->request->getPost('time');
-            if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb']) && $time > 0) {
+            if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
                $model = new Statistics;
                $model->customer_id = Yii::app()->request->cookies['ct']->value; 
                $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
-               $model->time = $time;
+               $model->time = Yii::app()->request->getPost('time');
                $model->url = Yii::app()->request->getPost('url');
                $model->date_created = date('Y-m-d H:i:s');
                $model->save();
