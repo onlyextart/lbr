@@ -1,37 +1,19 @@
-$(document).ready(function() {
-    // start Analitics block
-    var analiticsTimerStart = new Date().getTime();
-    
-    $(window).unload(function() {
-        var url = window.location.href;
-        var end = url.indexOf("/?"); 
-        if(end > 0) url = url.substring(0, end); 
-        else url = url.substring(0, url.length-1); 
-        
-        var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
-        
-        $.ajax({
-            url: '/site/saveCookie/',
-            type: 'POST',
-            dataType: "json",
-            data:{
-                time: time,
-                url: url
-            }
-        });
-    });
-    // end Analitics block
+var analiticsTimerStart = new Date().getTime();
+window.onbeforeunload = saveAnalitics;
+window.onunload = saveAnalitics;
+
+$(document).ready(function() {    
+    // start getFilial
+    var setFilialName = getCookie('filial');
+    if(setFilialName){
+        $('#show_regions_table_button').html(setFilialName).attr('title', setFilialName);
+    }
+    // end getFilial
     
     $("#mightiness-results .m_caption p").dotdotdot({
         ellipsis : '... ',
         wrap     : 'letter',
     });
-
-    var setFilialName = getCookie('filial');
-    
-    if(setFilialName){
-        $('#show_regions_table_button').html(setFilialName).attr('title', setFilialName);
-    }
 
     $('body').append('<div id="choose_region"></div>');
     $('.bottom-text div *:nth-child(2)').show();
@@ -107,30 +89,50 @@ $(document).ready(function() {
     });
 });
 
+function saveAnalitics(evt)
+{
+   var url = window.location.href;
+    var end = url.indexOf("/?"); 
+    if(end > 0) url = url.substring(0, end); 
+    else url = url.substring(0, url.length-1); 
+
+    var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
+
+    $.ajax({
+        url: '/site/saveCookie/',
+        type: 'POST',
+        dataType: "json",
+        data:{
+            time: time,
+            url: url
+        }
+    });
+}
+
 function setCookie(name, value, expires, path, domain, secure) {
-	if (!name || !value) return false;
-	var str = name + '=' + encodeURIComponent(value);
-	var today = new Date();
-	today.setTime( today.getTime() );
-	if ( expires ) {
-		expires = expires * 1000 * 60 * 60 * 24;
-	}
-	var expires_date = new Date( today.getTime() + (expires) );
-	if (expires) str += '; expires=' + expires_date.toGMTString();
-	if (path) str += '; path=' + path;
-	if (domain) str += '; domain=' + domain;
-	if (secure) str += '; secure';
-	
-	document.cookie = str;
-	return true;
+    if (!name || !value) return false;
+    var str = name + '=' + encodeURIComponent(value);
+    var today = new Date();
+    today.setTime( today.getTime() );
+    if ( expires ) {
+            expires = expires * 1000 * 60 * 60 * 24;
+    }
+    var expires_date = new Date( today.getTime() + (expires) );
+    if (expires) str += '; expires=' + expires_date.toGMTString();
+    if (path) str += '; path=' + path;
+    if (domain) str += '; domain=' + domain;
+    if (secure) str += '; secure';
+
+    document.cookie = str;
+    return true;
 } 
 
 function getCookie(name) {
-	var pattern = "(?:; )?" + name + "=([^;]*);?";
-	var regexp = new RegExp(pattern);
-	if (regexp.test(document.cookie)){
-	    return decodeURIComponent(RegExp["$1"]);
-	}
-	return false;
+    var pattern = "(?:; )?" + name + "=([^;]*);?";
+    var regexp = new RegExp(pattern);
+    if (regexp.test(document.cookie)){
+        return decodeURIComponent(RegExp["$1"]);
+    }
+    return false;
 }
 
