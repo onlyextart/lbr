@@ -82,7 +82,24 @@ $(document).ready(function(){
     $(".ext2").each(function(){
 	   $(this).replaceWith('<a href="'+$(this).attr("data-key")+'">'+$(this).html()+'</a>');
     });
-})
+    
+    // Analitics
+    $(window).unload(function() {
+        var url = window.location.href;
+        var end = url.indexOf("/?"); 
+        if(end > 0) url = url.substring(0, end); 
+        else url = url.substring(0, url.length-1); 
+        $.ajax({
+            url: '/site/saveCookie/',
+            type: 'POST',
+            dataType: "json",
+            data:{
+                time: 10,
+                url: url
+            }
+        });
+    });
+});
 
 function setCookie(name, value, expires, path, domain, secure) {
 	if (!name || !value) return false;

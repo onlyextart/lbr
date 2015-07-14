@@ -110,10 +110,24 @@ class SiteController extends Controller
         
         
         
-    public function actionSitemap(){
-        $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
-        $siteMapHtml = file_get_contents($siteMapFile);
-        Yii::app()->params['meta_title'] = 'Карта сайта';
-        $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
-    }
+        public function actionSitemap(){
+            $siteMapFile = Yii::app()->getBaseUrl(true) . '/images/file.html';
+            $siteMapHtml = file_get_contents($siteMapFile);
+            Yii::app()->params['meta_title'] = 'Карта сайта';
+            $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
+        }
+        
+        public function actionSaveCookie()
+        {
+            $time = Yii::app()->request->getPost('time');
+            if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb']) && $time > 0) {
+               $model = new Statistics;
+               $model->customer_id = Yii::app()->request->cookies['ct']->value; 
+               $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
+               $model->time = $time;
+               $model->url = Yii::app()->request->getPost('url');
+               $model->date_created = date('Y-m-d H:i:s');
+               $model->save();
+            }
+        }
 }
