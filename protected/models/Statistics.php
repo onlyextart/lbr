@@ -9,6 +9,7 @@
  * @property string $subscription_id
  * @property string $time
  * @property string $url
+ * @property string $date_created
  */
 class Statistics extends CActiveRecord
 {
@@ -28,10 +29,10 @@ class Statistics extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('customer_id, subscription_id, time, url', 'safe'),
+			array('customer_id, subscription_id, time, url, date_created', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, customer_id, subscription_id, time, url', 'safe', 'on'=>'search'),
+			array('id, customer_id, subscription_id, time, url, date_created', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -57,6 +58,7 @@ class Statistics extends CActiveRecord
 			'subscription_id' => 'Subscription',
 			'time' => 'Time',
 			'url' => 'Url',
+			'date_created' => 'Date Created',
 		);
 	}
 
@@ -83,6 +85,7 @@ class Statistics extends CActiveRecord
 		$criteria->compare('subscription_id',$this->subscription_id,true);
 		$criteria->compare('time',$this->time,true);
 		$criteria->compare('url',$this->url,true);
+		$criteria->compare('date_created',$this->date_created,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
