@@ -121,7 +121,7 @@ class SiteController extends Controller
         {
             if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
                $model = new Statistics;
-               $model->customer_id = Yii::app()->request->cookies['ct']->value; // decrypt
+               $model->customer_id = Yii::app()->request->cookies['ct']->value;//Yii::app()->getSecurityManager()->decrypt(Yii::app()->request->cookies['ct']->value);
                $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                $model->time = Yii::app()->request->getPost('time');
                $model->url = Yii::app()->request->getPost('url');
