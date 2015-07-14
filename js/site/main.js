@@ -91,7 +91,7 @@ $(document).ready(function() {
 
 function saveAnalitics(evt)
 {
-   var url = window.location.href;
+    var url = window.location.href;
     var end = url.indexOf("/?"); 
     if(end > 0) url = url.substring(0, end); 
     else url = url.substring(0, url.length-1); 
