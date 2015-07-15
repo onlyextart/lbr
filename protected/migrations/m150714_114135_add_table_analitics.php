@@ -12,6 +12,7 @@ class m150714_114135_add_table_analitics extends CDbMigration
                     'customer_id' => 'text',
                     'subscription_id' => 'text',
                     'time' => 'text',
+                    'link_id' => 'text',
                     'url' => 'text',
                     'date_created' => 'timestamp',
                 ));

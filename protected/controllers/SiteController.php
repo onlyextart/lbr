@@ -119,21 +119,42 @@ class SiteController extends Controller
 
     public function actionSaveAnalitics()
     {
+        $linkId = '';
         $url = Yii::app()->request->getPost('url');
-        if(!strpos($url, '/users/login') && Yii::app()->user->isGuest) {
+        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
             $end = strpos($url, '/?');
-            if($end) $url = substr($url, 0, $end);
-            else $url = substr($url, 0, strlen($url)-1);
+            if($end) {
+                $linkId = $this->getLinkId($url);
+                $url = substr($url, 0, $end);
+            } else $url = substr($url, 0, strlen($url)-1);
             
             if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
                 $model = new Analitics;
-                $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
+                $model->customer_id = Yii::app()->request->cookies['ct']->value;
+                //$model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                 $model->time = Yii::app()->request->getPost('time');
                 $model->url = $url;
                 $model->date_created = date('Y-m-d H:i:s');
+                
+                if(!empty($linkId)) $model->link_id = $linkId;
+                
                 $model->save();
              }
         }
+    }
+    
+    public function getLinkId($str)
+    {
+        $temp = substr($str, $end+2);
+        $temp = explode("&", $temp);
+        $result = array();
+        foreach($temp as $key=>$val)
+        {
+           list($key, $value) = explode('=', $val);
+           $result[$key] = $value;
+        }
+        
+        return $result['lk'];
     }
 }
