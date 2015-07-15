@@ -120,10 +120,10 @@ class SiteController extends Controller
     public function actionSaveAnalitics()
     {
         $url = Yii::app()->request->getPost('url');
-        if(!strpos($url, '/users/login')) {
+        if(!strpos($url, '/users/login') && Yii::app()->user->isGuest) {
             $end = strpos($url, '/?');
-            if($end) $url = substr($url, 0, $end); 
-            else $url = substr($url, 0, strlen($url)-1); 
+            if($end) $url = substr($url, 0, $end);
+            else $url = substr($url, 0, strlen($url)-1);
             
             if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
                 $model = new Analitics;
