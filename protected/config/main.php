@@ -163,6 +163,7 @@ return array(
                     ),
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>array(
+                        'Аналитика'=>'/administrator/analitics/',
                         'Поисковые запросы'=>'/administrator/search/',
                         'Индексирование страниц'=>'/administrator/search/indexing/',
                         'Топ запросов'=>'/administrator/search/top/'
