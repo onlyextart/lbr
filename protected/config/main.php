@@ -19,6 +19,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'application.extensions.*',
+		'application.controllers.*',
 	),
 
 	'modules'=>array(
@@ -47,13 +48,6 @@ return array(
                     'connectionID' => 'db',
                     'sessionTableName' => 'lbr_session',
                 ),
-            
-                // code = Yii::app()->getSecurityManager()->encrypt($model->kidsCenter);
-                // decode = Yii::app()->getSecurityManager()->decrypt($model->kidsCenter);
-                /*'securityManager' => array(
-                    'cryptAlgorithm'=>array('rijndael-256', '', 'ofb', ''),
-                    'encryptionKey' => '5e6525db3af0f10c36c3a097593548b5',
-                ),*/
             
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
