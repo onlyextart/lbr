@@ -1,13 +1,13 @@
 <?php
 
-class m150714_114135_add_table_statistics extends CDbMigration
+class m150714_114135_add_table_analitics extends CDbMigration
 {
 	public function up()
 	{
             $transaction=$this->getDbConnection()->beginTransaction();
             try
             {
-                $this->createTable('statistics', array(
+                $this->createTable('analitics', array(
                     'id' => 'pk',
                     'customer_id' => 'text',
                     'subscription_id' => 'text',

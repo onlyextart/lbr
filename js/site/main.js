@@ -99,7 +99,7 @@ function saveAnalitics(evt)
     var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
 
     $.ajax({
-        url: '/site/saveCookie/',
+        url: '/site/saveAnalitics/',
         type: 'POST',
         dataType: "json",
         data:{
