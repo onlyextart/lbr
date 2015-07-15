@@ -22,19 +22,7 @@ class AnaliticsController extends Controller
         ;
         
         $objPHPExcel->setActiveSheetIndex(0);
-        $sheet = $objPHPExcel->getActiveSheet();
-        $sheet->setTitle('Посещенные страницы');
-        $sheet->setCellValue('A1', 'Email посетителя')
-            ->setCellValue('B1', 'Посещенные страницы')
-            ->setCellValue('C1', 'Длит. просмотра страниц')
-            ->setCellValue('D1', 'ID подписки')
-            ->setCellValue('E1', 'Переходы из рассылки')
-        ;
-        for($col = 'A'; $col != 'F'; $col++) 
-           $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
-        
-        $sheet->getStyle('A1:E1')->getFont()->setBold(true);
-        
+        $sheet = $objPHPExcel->getActiveSheet();        
         
         $this->buildExcel($objPHPExcel, $sheet);
         
@@ -58,6 +46,7 @@ class AnaliticsController extends Controller
     
     public function buildExcel($objPHPExcel, $sheet) 
     {
+        $sheet->setTitle('Посещенные страницы');
         $info = Yii::app()->db->createCommand()
             ->select('*')
             ->from('analitics')
@@ -65,9 +54,19 @@ class AnaliticsController extends Controller
             ->order('customer_id')
             ->queryAll()
         ;
+        
         if(!empty($info)) {
             $index = 3;
             $timeSummary = 0;
+            
+            $sheet->setCellValue('A1', 'Email посетителя')
+                ->setCellValue('B1', 'Посещенные страницы')
+                ->setCellValue('C1', 'Длит. просмотра страниц')
+                ->setCellValue('D1', 'ID подписки')
+                ->setCellValue('E1', 'Переходы из рассылки')
+            ;
+            $sheet->getStyle('A1:E1')->getFont()->setBold(true);
+            for($col = 'A'; $col != 'F'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
             
             foreach($info as $item) {
                 $timeSummary += $item['time'];
@@ -91,7 +90,7 @@ class AnaliticsController extends Controller
             $sheet->getStyle('B2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
             $sheet->getStyle('B2')->getFont()->setBold(true);
         } else {
-            
+            $sheet->setCellValue('A1', 'Нет данных удовлетворяющих условиям отбора.');
         }
     }
     
