@@ -15,6 +15,7 @@ class AkciiController extends Controller
                $group_name=$group->menu_items->name;
                if(!empty($products)){
                     $response.='<div class="'.$colorCssClass.'" style="background-image: url('.Yii::app()->request->baseUrl.$group_label .')">';
+                    $response.='<a name="'.$group->anchor.'"></a>';
                     $response.='<span>'.$group_name.'</span>';
                     $response.='</div>';
                     $response.='<div class="group_content">';

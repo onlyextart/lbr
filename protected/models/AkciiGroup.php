@@ -9,6 +9,7 @@
  * @property string $description
  * @property integer $published
  * @property integer $range
+ * @property text $anchor
  *
  * The followings are the available model relations:
  * @property MenuItems $menu
@@ -46,10 +47,10 @@ class AkciiGroup extends CActiveRecord
 		return array(
 			array('range', 'numerical', 'integerOnly'=>true, 'message'=>'Порядковый номер должен быть числом'),
 			//array('id, item_id', 'required'),
-			array('published, description', 'safe'),
+			array('published, description,anchor', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, item_id, published, range, description', 'safe', 'on'=>'search'),
+			array('id, item_id, published, range, description,anchor', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,6 +78,7 @@ class AkciiGroup extends CActiveRecord
 			'description' => 'Описание',
 			'published' => 'Публиковать',
 			'range' => 'Порядковый номер на странице',
+                        'anchor'=>'Якорь (для ссылки на группу)',
 		);
 	}
 
@@ -96,6 +98,7 @@ class AkciiGroup extends CActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('published',$this->published);
 		$criteria->compare('range',$this->range);
+                $criteria->compare('anchor',$this->anchor);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

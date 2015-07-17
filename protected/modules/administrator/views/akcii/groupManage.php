@@ -83,6 +83,11 @@ else{
         <?php echo $form->labelEx($groupAkciiModel, 'range'); ?>
         <?php echo $form->textField($groupAkciiModel, 'range'); ?>
     </div>
+    <div class="row">
+        <?php echo $form->error($groupAkciiModel, 'anchor'); ?>
+        <?php echo $form->labelEx($groupAkciiModel, 'anchor'); ?>
+        <?php echo $form->textField($groupAkciiModel, 'anchor'); ?>
+    </div>
     <div class="row description">
         <?php echo $form->error($groupAkciiModel, 'description'); ?>
         <?php echo $form->labelEx($groupAkciiModel, 'description'); ?>
