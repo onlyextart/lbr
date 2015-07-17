@@ -86,7 +86,7 @@ else{
     <div class="row">
         <?php echo $form->error($groupAkciiModel, 'anchor'); ?>
         <?php echo $form->labelEx($groupAkciiModel, 'anchor'); ?>
-        <?php echo $form->textField($groupAkciiModel, 'anchor',array('readonly'=>'true')); ?>
+        <?php echo $form->textField($groupAkciiModel, 'anchor'); ?>
     </div>
     <div class="row description">
         <?php echo $form->error($groupAkciiModel, 'description'); ?>
