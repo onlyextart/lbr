@@ -1298,6 +1298,7 @@ a[name="list_filials"]{
 
 .wrapper #content .right-sidebar .group_content .m_image .akcii_solid .akcii_solid_text p{
     margin:0;
+    line-height:13px;
     font-family: "Trebuchet MS";
     font-size:12px;
 }
