@@ -1,40 +1,43 @@
-<h1>Аналитика</h1>
+<h1>Аналитика посещения страниц сайта</h1>
 
-<?php $form=$this->beginWidget('CActiveForm', array(
-    'id'=>'analitics-form',
-    'enableClientValidation' => true,        
-    'clientOptions'=>array(
-        'validateOnSubmit'=>true,
-        'validateOnChange' => true,
-        'afterValidate'=>'js:function( form, data, hasError ) 
-        {     
-            if( hasError ){
-                return false;
-            }
-            else{
-                return true;
-            }
-        }'
-    ),
-)); ?>
+<?php 
+    $form=$this->beginWidget('CActiveForm', array(
+        'id'=>'analitics-form',
+        'enableClientValidation' => true,        
+        'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+            'validateOnChange' => true,
+            'afterValidate'=>'js:function( form, data, hasError ) 
+            {     
+                if( hasError ){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }'
+        ),
+    )); 
+    $currentMonth = date('d-m-Y');
+    $prevMonth = date('d-m-Y', strtotime($currentMonth.' -1 months'));
+?>
 <div class="analitics">
-    <!--div class="info">
+    <div class="info">
         <ul class="info-list">
-            <li>При необходимости измените параметры выбора</li>
+            <li>При необходимости измените период выборки</li>
             <li>
                 <span>Период</span>
-                <span><?php //echo $form->textField($model, 'date_from'); ?> - <?php //echo $form->textField($model, 'date_to'); ?></span>
+                <span><?php echo CHtml::textField('from', $prevMonth); ?> - <?php echo CHtml::textField('to', $currentMonth); ?></span>
             </li>
             <li>
-                <?php echo CHtml::button('Скачать Excel', array('class'=>'btn-admin')); ?>
+                <?php echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
             </li>
         </ul>
-    </div-->    
-    <?php echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
+    </div>
 </div>
 <?php $this->endWidget(); ?> 
 <script>
-    /*$.datepicker.regional['ru'] = {
+    $.datepicker.regional['ru'] = {
         closeText: 'Закрыть',
         prevText: '&#x3c;Пред',
         nextText: 'След&#x3e;',
@@ -50,20 +53,18 @@
     };
     $.datepicker.setDefaults($.datepicker.regional['ru']);
 
-    $( "#StatisticsForm_date_from" ).datepicker({
+    $( "#from" ).datepicker({
         dateFormat: 'dd-mm-yy',
     });
 
-    $( "#StatisticsForm_date_to" ).datepicker({
+    $( "#to" ).datepicker({
         dateFormat: 'dd-mm-yy',
-    });*/
+    });
 
     $( ".analitics .btn" ).click(function() {
-        /*var from = $('#StatisticsForm_date_from').val();
-        var to = $('#StatisticsForm_date_to').val();
-        var type = $('#StatisticsForm_type').val();
-        window.location.replace('/admin/statistics/getExcel/from/'+from+'/to/'+to+'/type/'+type);*/
-        window.location.replace('/administrator/analitics/getExcel');
+        var from = $('#from').val();
+        var to = $('#to').val();
+        window.location.replace('/administrator/analitics/getExcel/from/'+from+'/to/'+to);
     });
 </script>
 
