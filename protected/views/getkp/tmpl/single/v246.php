@@ -48,7 +48,7 @@
                                                     </a>
                                                 </td>
                                                 <td valign="top" style="width: 640px;  padding:20px 20px 0px 10px;text-align: justify;">
-                                                    <img src=<?php echo '"http://www.lbr.ru/'.$filial['director_photo'].'"'?> align="left" width="70" style="float:left;" vspace="6" hspace="8" >
+                                                    <img src=<?php echo '"http://www.lbr.ru'.$filial['director_photo'].'"'?> align="left" width="65" style="float:left;" vspace="0" hspace="8" >
                                                     <span style="margin: 0; padding: 0; color: #6e7071; background: none !important; font-size: 14px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; outline: none">
                                                         <?php echo $data['header']; ?>
                                                     </span>
