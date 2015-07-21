@@ -48,14 +48,14 @@
                                                     </a>
                                                 </td>
                                                 <td valign="top" style="width: 640px;  padding:20px 20px 0px 10px;text-align: justify;">
-                                                    <img src=<?php echo '"'.Yii::app()->baseUrl.$filial['director_photo'].'"'?> align="left" width="70" style="float:left;" vspace="6" hspace="8" >
+                                                    <img src=<?php echo '"http://www.lbr.ru/'.$filial['director_photo'].'"'?> align="left" width="70" style="float:left;" vspace="6" hspace="8" >
                                                     <span style="margin: 0; padding: 0; color: #6e7071; background: none !important; font-size: 14px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; outline: none">
                                                         <?php echo $data['header']; ?>
                                                     </span>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td style="text-align:left; padding: 0px 0px 10px 440px;" valign="top">
+                                                <td style="text-align:left; padding: 10px 0px 10px 440px;" valign="top">
                                                     <span style="margin: 0; padding: 0; color: #6e7071; background: none !important; font-size: 11px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; outline: none; font-style: italic;">
                                                         Директор филиала г. <?php echo $filial['name']; ?><br>
                                                         <?php echo $filial['director_surname']." ".$filial['director_name']." ".$filial['director_secondname']; ?>
