@@ -142,7 +142,7 @@ return array(
                         'Меню'=>'/administrator/menu/',
                         'Группы меню'=>'/administrator/menu/groups',
                         'Карта сайта'=>'/administrator/menu/sitemap',
-                        'Карта сайта Html'=>'/administrator/map/',
+                        'Карта сайта Html / Excel'=>'/administrator/map/',
                     ),
                     'Каталог'=>array(
                         'Каталог'=>'/administrator/banners/',
