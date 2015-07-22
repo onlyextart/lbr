@@ -19,7 +19,7 @@
         p{mso-line-height-rule: exactly !important; line-height: 13pt;}
         a, a:active, a:visited{color:black;}
     </style>
-    <a href="http://www.lbr.ru/akcii/?sb=test_cookie&utm_medium=email&utm_term=test&ct=<?php echo SecurityController::encrypt($email1);?>&lk=test" target="_blank">Ссылка1</a><br>
+   <!--<a href="http://www.lbr.ru/akcii/?sb=test_cookie&utm_medium=email&utm_term=test&ct=<?php //echo SecurityController::encrypt($email1);?>&lk=test" target="_blank">Ссылка1</a><br>-->
     <a href="http://www.lbr.ru/akcii/?sb=test_cookie&utm_medium=email&utm_term=test&ct=<?php echo SecurityController::encrypt($email2);?>&lk=test" target="_blank">Ссылка2</a><br>
     <a href="http://www.lbr.ru/akcii/?sb=test_cookie&utm_medium=email&utm_term=test&ct=<?php echo SecurityController::encrypt($email3);?>&lk=test" target="_blank">Ссылка c 2 email</a><br>
        
