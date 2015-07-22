@@ -134,7 +134,7 @@ class SiteController extends Controller
                 $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                 $model->time = Yii::app()->request->getPost('time');
-                $model->url = $url; //SecurityController::encrypt(Yii::app()->request->cookies['ct']->value);
+                $model->url = $url;
                 $model->date_created = date('Y-m-d H:i:s');
                 
                 if(!empty($linkId)) $model->link_id = $linkId;
