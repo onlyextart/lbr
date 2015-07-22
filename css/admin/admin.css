@@ -1150,7 +1150,7 @@ div.form .admin_additional_features_measure input {
     list-style: outside none none;
 }
 
-.analitics .info .info-list li:first-child {
+.analitics .info .info-list li:first-child, .analitics .params .info-list li:first-child {
     background: #f3f3f3 url("/images/bg_menu_admin.png") repeat-x scroll left top;
     border-bottom: 1px solid rgb(65, 131, 196);
     color: rgb(119, 119, 119);
@@ -1163,39 +1163,42 @@ div.form .admin_additional_features_measure input {
     text-shadow: 0 1px 0 white;
 }
 
-.analitics .info .info-list {
+.analitics .info .info-list, .analitics .params .info-list{
     background: rgb(238, 238, 238) none repeat scroll 0 0;
     border-radius: 2px;
     box-shadow: 0 0 3px rgb(192, 192, 192);
     display: table;
     float: left;
+    margin-right: 20px;
     list-style: outside none none;
     overflow: hidden;
 }
 
-.analitics .info-list {
+/*.analitics .info-list {
     width: 360px !important;
+}*/
+
+.analitics .info li span:first-child, .analitics .params li span:first-child {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .analitics .info li span:first-child {
-    display: inline-block;
-    vertical-align: middle;
     width: 80px;
 }
-
-.analitics .info li span {
+.analitics li span {
     display: block;
     float: left;
 }
 
-.analitics .info .info-list li {
+.analitics .info .info-list li, .analitics .params .info-list li {
     border-bottom: 1px solid rgb(222, 222, 222);
     color: #777777;
     display: block;
     padding: 0.5em 1em;
     text-decoration: none;
 }
-.analitics .info li {
+.analitics .info li, .analitics .params li {
     line-height: 30px;
     overflow: hidden;
 }

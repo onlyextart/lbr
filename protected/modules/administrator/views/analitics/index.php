@@ -34,6 +34,21 @@
             </li>
         </ul>
     </div>
+    <div class="params">
+        <ul class="info-list">
+            <li>Используемые параметры</li>
+            <li>
+                <div><b>ct</b> - customer id, id клиента (аналог используемому utm_content)</div>
+                <div>При использовании следует оборачивать в следующую конструцию SecurityController::encrypt( ct )</div>
+            </li>
+            <li>
+                <b>sb</b> - subscription, id подписки (аналог используемому utm_source)
+            </li>
+            <li>
+                <b>lk</b> - link id (аналог используемому utm_compaign)
+            </li>
+        </ul>
+    </div>
 </div>
 <?php $this->endWidget(); ?> 
 <script>
