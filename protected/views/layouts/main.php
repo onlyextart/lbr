@@ -231,6 +231,18 @@
         <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
+        <script>
+            $(function(){
+                <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
+                $('a').each(function(index){
+                    var element = $(this);
+                    var href = element.attr('href')+'?sb=<?php echo Yii::app()->request->cookies['sb']->value ?>&ct=<?php echo Yii::app()->request->cookies['ct']->value ?>';
+                    element.attr('href', href);
+                });
+                <?php endif; ?>
+            });
+        </script>
+        
         <!-- Yandex.Metrika counter -->
         <noscript><div><img src="//mc.yandex.ru/watch/13203052" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
