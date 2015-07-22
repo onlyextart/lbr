@@ -162,7 +162,7 @@ return array(
                         'Регионы'=>'/administrator/regions/',
                     ),
                     'Разные страницы'=>'/administrator/pages/',
-                    'Поиск'=>array(
+                    'Сайт'=>array(
                         'Аналитика'=>'/administrator/analitics/',
                         'Поисковые запросы'=>'/administrator/search/',
                         'Индексирование страниц'=>'/administrator/search/indexing/',
