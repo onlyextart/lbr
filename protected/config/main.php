@@ -141,7 +141,7 @@ return array(
                     'Меню'=>array(
                         'Меню'=>'/administrator/menu/',
                         'Группы меню'=>'/administrator/menu/groups',
-                        'Карта сайта'=>'/administrator/menu/sitemap',
+                        'Карта сайта XML'=>'/administrator/menu/sitemap',
                         'Карта сайта Html / Excel'=>'/administrator/map/',
                     ),
                     'Каталог'=>array(
