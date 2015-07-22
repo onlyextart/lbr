@@ -52,6 +52,8 @@ class CategoryUrlRule extends CBaseUrlRule
    
     public function parseUrl($manager, $request, $pathInfo, $rawPathInfo)
     {
+        $this->setCookie($_GET);
+        
         $additionalParam = $eventPage = ''; // for mightiness, tehcikl and news
         if( $pathInfo === ''){
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
@@ -201,5 +203,20 @@ class CategoryUrlRule extends CBaseUrlRule
             }
         }
         return $pathParamsString;
+    }
+    
+    public function setCookie($array)
+    {
+        if(!empty($array['ct']) && Yii::app()->request->cookies['ct']->value != $array['ct']) {
+            $cookie = new CHttpCookie('ct', $array['ct']);
+            $cookie->expire = time() + 31104000; // save for a year
+            Yii::app()->request->cookies['ct'] = $cookie;
+        }
+        
+        if(!empty($array['sb']) && Yii::app()->request->cookies['sb']->value != $array['sb']) {
+            $cookie = new CHttpCookie('sb', $array['sb']);
+            $cookie->expire = time() + 31104000; // save for a year
+            Yii::app()->request->cookies['sb'] = $cookie;
+        }
     }
 }

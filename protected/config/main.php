@@ -19,16 +19,17 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'application.extensions.*',
+		'application.controllers.*',
 	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		//'gii'=>array(
-		//	'class'=>'system.gii.GiiModule',
-		//	'password'=>'admin',
-		//	// If removed, Gii defaults to localhost only. Edit carefully to taste.
-		//	'ipFilters'=>array('127.0.0.1','::1','*'),
-		//),
+		'gii'=>array(
+			'class'=>'system.gii.GiiModule',
+			'password'=>'admin',
+			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+			'ipFilters'=>array('127.0.0.1','::1','*'),
+		),
                 'administrator',
                 'users',
 	),
@@ -41,12 +42,12 @@ return array(
 		),
             
 //                
-                    'session' => array(
-                        'timeout' => 32400, // 9 часов
-                        'class' => 'system.web.CDbHttpSession',
-                        'connectionID' => 'db',
-                        'sessionTableName' => 'lbr_session',
-                    ),
+                'session' => array(
+                    'timeout' => 32400, // 9 часов
+                    'class' => 'system.web.CDbHttpSession',
+                    'connectionID' => 'db',
+                    'sessionTableName' => 'lbr_session',
+                ),
             
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
@@ -162,6 +163,7 @@ return array(
                     ),
                     'Разные страницы'=>'/administrator/pages/',
                     'Поиск'=>array(
+                        'Аналитика'=>'/administrator/analitics/',
                         'Поисковые запросы'=>'/administrator/search/',
                         'Индексирование страниц'=>'/administrator/search/indexing/',
                         'Топ запросов'=>'/administrator/search/top/'
