@@ -119,7 +119,7 @@ function saveAnalitics(evt)
 {
     var url = window.location.href;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
-
+    console.log(time);
     $.ajax({
         url: '/site/saveAnalitics/',
         type: 'POST',
