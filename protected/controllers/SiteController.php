@@ -120,8 +120,9 @@ class SiteController extends Controller
     public function actionSaveAnalitics()
     {
         $model = new Analitics;
-        $model->save();
         $model->customer_id = Yii::app()->request->getPost('time').'(=====)';
+        $model->save();
+        
         ////////////////
         $linkId = '';
         $url = Yii::app()->request->getPost('url');
