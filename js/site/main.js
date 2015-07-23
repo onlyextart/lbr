@@ -1,7 +1,3 @@
-var analiticsTimerStart = new Date().getTime();
-window.onbeforeunload = saveAnalitics;
-window.onunload = saveAnalitics;
-
 $(document).ready(function() {    
     // start getFilial
     var setFilialName = getCookie('filial');
@@ -89,22 +85,6 @@ $(document).ready(function() {
     });
 });
 
-function saveAnalitics(evt)
-{
-    var url = window.location.href;
-    var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
-
-    $.ajax({
-        url: '/site/saveAnalitics/',
-        type: 'POST',
-        dataType: "json",
-        data:{
-            time: time,
-            url: url
-        }
-    });
-}
-
 function setCookie(name, value, expires, path, domain, secure) {
     if (!name || !value) return false;
     var str = name + '=' + encodeURIComponent(value);
@@ -121,7 +101,7 @@ function setCookie(name, value, expires, path, domain, secure) {
 
     document.cookie = str;
     return true;
-} 
+}
 
 function getCookie(name) {
     var pattern = "(?:; )?" + name + "=([^;]*);?";
@@ -131,4 +111,3 @@ function getCookie(name) {
     }
     return false;
 }
-
