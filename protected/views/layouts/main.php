@@ -232,8 +232,6 @@
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
         <script>
-            var analiticsTimerStartLBR = new Date().getTime();
-            
             $(function(){
                 <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
                 $('a').each(function(index){
