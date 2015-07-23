@@ -1,9 +1,8 @@
-var analiticsTimerStartLBR;
+var analiticsTimerStartLBR = new Date().getTime();
 window.onbeforeunload = saveAnalitics;
 window.onunload = saveAnalitics;
 
-$(document).ready(function() {   
-    analiticsTimerStartLBR = new Date().getTime();
+$(document).ready(function() {
     // start getFilial
     var setFilialName = getCookie('filial');
     if(setFilialName){
