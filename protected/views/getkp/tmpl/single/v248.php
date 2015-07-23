@@ -16,7 +16,7 @@
         p{mso-line-height-rule: exactly !important; line-height: 13pt;}
         a, a:active, a:visited{color:black;}
     </style>
-    <a href="http://www.lbr.ru/akcii/?sb=test_cookie&ct=<?php echo SecurityController::encrypt($email1);?>&lk=test" target="_blank">Ссылка</a><br>
+    <a href="http://www.lbr.ru/akcii/?sb=test_cookie&ct=<?php echo SecurityController::encrypt($email);?>&lk=test" target="_blank">Ссылка</a><br>
       
 <!-- Background grey; -->
 </body>
