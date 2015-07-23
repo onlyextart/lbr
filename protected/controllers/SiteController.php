@@ -131,6 +131,12 @@ class SiteController extends Controller
             if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
                 $model = new Analitics;
                 //$model->customer_id = Yii::app()->request->cookies['ct']->value;
+                
+                //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
+                //$test = SecurityController::encrypt('test1_mail@lbr.ru');
+                //$test1 = SecurityController::decrypt($test);
+                //$str = '   ----   '.$test.'   ------   '.$test1;
+                
                 $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                 $model->time = Yii::app()->request->getPost('time');
@@ -142,6 +148,11 @@ class SiteController extends Controller
                 $model->save();
              }
         }
+    }
+    
+    public function actionDelAnalitics()
+    {
+        Analitics::model()->deleteAll();
     }
     
     public function getLinkId($str)
