@@ -128,7 +128,7 @@ class SiteController extends Controller
                 $url = substr($url, 0, $end);
             } else $url = substr($url, 0, strlen($url)-1);
             
-            if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
+            if(!empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)) {
                 $model = new Analitics;
                 $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
