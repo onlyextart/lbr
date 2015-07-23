@@ -121,23 +121,25 @@ class SiteController extends Controller
     {
         $linkId = '';
         $url = Yii::app()->request->getPost('url');
-        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        if(Yii::app()->user->isGuest) {
             $end = strpos($url, '/?');
             if($end) {
                 $linkId = $this->getLinkId($url);
                 $url = substr($url, 0, $end);
             } else $url = substr($url, 0, strlen($url)-1);
             
-            if(!empty(Yii::app()->request->cookies['ct']) && !empty(Yii::app()->request->cookies['sb'])) {
+            if(!empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)) {
                 $model = new Analitics;
-                //$model->customer_id = Yii::app()->request->cookies['ct']->value;
+                $customerId = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
                 
-                //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
-                //$test = SecurityController::encrypt('test1_mail@lbr.ru');
+                //$test = SecurityController::encrypt('g');
                 //$test1 = SecurityController::decrypt($test);
-                //$str = '   ----   '.$test.'   ------   '.$test1;
+                //$str = '  ------  '.$test.'  ------  '.$test1;
                 
-                $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
+                if(!empty($customerId)) 
+                    $model->customer_id = $customerId;
+                
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                 $model->time = Yii::app()->request->getPost('time');
                 $model->url = $url;
