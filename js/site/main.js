@@ -1,3 +1,6 @@
+window.onbeforeunload = saveAnalitics;
+window.onunload = saveAnalitics;
+
 $(document).ready(function() {    
     // start getFilial
     var setFilialName = getCookie('filial');
@@ -110,4 +113,20 @@ function getCookie(name) {
         return decodeURIComponent(RegExp["$1"]);
     }
     return false;
+}
+
+function saveAnalitics(evt)
+{
+    var url = window.location.href;
+    var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+
+    $.ajax({
+        url: '/site/saveAnalitics/',
+        type: 'POST',
+        dataType: "json",
+        data:{
+            time: time,
+            url: url
+        }
+    });
 }

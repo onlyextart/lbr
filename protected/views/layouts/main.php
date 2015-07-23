@@ -232,24 +232,7 @@
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
         <script>
-            var analiticsTimerStart = new Date().getTime();
-            window.onbeforeunload = saveAnalitics;
-            window.onunload = saveAnalitics;
-            function saveAnalitics(evt)
-            {
-                var url = window.location.href;
-                var time = (new Date().getTime() - analiticsTimerStart)/1000; // in seconds
-
-                $.ajax({
-                    url: '/site/saveAnalitics/',
-                    type: 'POST',
-                    dataType: "json",
-                    data:{
-                        time: time,
-                        url: url
-                    }
-                });
-            }
+            var analiticsTimerStartLBR = new Date().getTime();
             
             $(function(){
                 <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
