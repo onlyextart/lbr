@@ -121,7 +121,8 @@ class SiteController extends Controller
     {
         $linkId = '';
         $url = Yii::app()->request->getPost('url');
-        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        if(Yii::app()->user->isGuest) {
             $end = strpos($url, '/?');
             if($end) {
                 $linkId = $this->getLinkId($url);
@@ -130,7 +131,8 @@ class SiteController extends Controller
             
             if(!empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)) {
                 $model = new Analitics;
-                $model->customer_id = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
+                $customerId = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
+                if(!empty($customerId)) $model->customer_id = $customerId;
                 $model->subscription_id = Yii::app()->request->cookies['sb']->value; 
                 $model->time = Yii::app()->request->getPost('time');
                 $model->url = $url;
