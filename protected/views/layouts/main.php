@@ -237,8 +237,8 @@
             //window.onbeforeunload = saveAnalitics;
             //window.onunload = saveAnalitics;
             window.onunload = window.onbeforeunload = (function(){
-               //saveAnalitics();
-                var url = window.location.pathname;
+               saveAnalitics();
+                /*var url = window.location.pathname;
                 var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
                 $.ajax({
@@ -249,7 +249,7 @@
                         time: time,
                         url: url
                     }
-                });
+                });*/
             })
             <?php endif; ?>
             //////////////////////
