@@ -1,6 +1,6 @@
 var analiticsTimerStartLBR = new Date().getTime();
-window.onbeforeunload = saveAnalitics;
-window.onunload = saveAnalitics;
+//window.onbeforeunload = saveAnalitics;
+//window.onunload = saveAnalitics;
 
 $(document).ready(function() {
     // start getFilial
