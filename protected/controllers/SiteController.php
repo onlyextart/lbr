@@ -184,7 +184,7 @@ class SiteController extends Controller
         if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
             //================================
-            /*$cookies = Yii::app()->request->cookies;
+            $cookies = Yii::app()->request->cookies;
             if (isset($cookies['ct'])) {
                 //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
                 //$test2 = SecurityController::decrypt($test);
@@ -192,8 +192,8 @@ class SiteController extends Controller
 
                 $model->customer_id = SecurityController::decrypt((string)$cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
-            */
-            $model->customer_id = date('Y-m-d H:i:s');
+            
+            
             $model->time = Yii::app()->request->getPost('time');
             $model->url = Yii::app()->request->getPost('url');
             //================================
