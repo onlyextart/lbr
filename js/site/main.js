@@ -135,13 +135,13 @@ function saveAnalitics(evt)
 function saveAnalitics2(evt)
 {
     var url = window.location.href;
-    //var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+    var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
     $.ajax({
         url: '/site/saveTest/',
         type: 'POST',
         dataType: "json",
         data:{
-            time: url,
+            time: time,
         }
     });
 }
