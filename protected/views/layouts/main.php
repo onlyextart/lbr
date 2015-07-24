@@ -235,7 +235,10 @@
             <?php if(!Yii::app()->user->isGuest): ?>
             var analiticsTimerStartLBR = new Date().getTime();
             //window.onbeforeunload = saveAnalitics;
-            window.onunload = saveAnalitics;
+            //window.onunload = saveAnalitics;
+            window.onunload = window.onbeforeunload = (function(){
+               saveAnalitics();
+            })
             <?php endif; ?>
             //////////////////////
             $(function() {
