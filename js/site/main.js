@@ -128,8 +128,6 @@ function saveAnalitics(evt)
         data:{
             time: time,
             url: url,
-            ct: getCookie('ct'),
-            sb: getCookie('sb'),
         }
     });
 }
