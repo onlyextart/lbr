@@ -269,22 +269,3 @@
         <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/937148831/?value=0&amp;label=3KwoCLnvnwUQn4PvvgM&amp;guid=ON&amp;script=0"/></div></noscript>
     </body>
 </html>
-<script>
-    <?php if(!Yii::app()->user->isGuest): ?>
-    function saveAnalitics(evt)
-    {
-        var url = window.location.href;
-        var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
-
-        $.ajax({
-            url: '/site/saveAnalitics/',
-            type: 'POST',
-            dataType: "json",
-            data:{
-                time: time,
-                url: url
-            }
-        });
-    }
-    <?php endif; ?>
-</script>
