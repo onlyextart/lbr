@@ -116,14 +116,9 @@ class SiteController extends Controller
         Yii::app()->params['meta_title'] = 'Карта сайта';
         $this->render('sitemap', array('sitemapStr'=>$siteMapHtml));   
     }
-
+    
     public function actionSaveAnalitics()
     {
-        $model = new Analitics;
-        $model->customer_id = Yii::app()->request->getPost('time').'(=====)';
-        $model->save();
-        
-        ////////////////
         $linkId = '';
         $url = Yii::app()->request->getPost('url');
         //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
@@ -174,5 +169,12 @@ class SiteController extends Controller
         }
         
         return $result['lk'];
+    }
+    
+    public function actionSaveTest()
+    {
+        $model = new Analitics;
+        $model->customer_id = Yii::app()->request->getPost('time').'(=====)';
+        $model->save();
     }
 }

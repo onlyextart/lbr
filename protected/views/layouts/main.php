@@ -232,7 +232,16 @@
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
         <script>
-            $(function(){
+            $(function() {
+                $.ajax({
+                    url: '/site/saveTest/',
+                    type: 'POST',
+                    dataType: "json",
+                    data:{
+                        time: 111,
+                    }
+                });
+                
                 <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
                 $('a').each(function(index){
                     var element = $(this);
