@@ -234,6 +234,21 @@
         <script>
             <?php if(!Yii::app()->user->isGuest): ?>
             var analiticsTimerStartLBR = new Date().getTime();
+            function saveAnalitics(evt)
+            {
+                var url = window.location.pathname;
+                var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+
+                $.ajax({
+                    url: '/site/saveAnalitics/',
+                    type: 'POST',
+                    dataType: "json",
+                    data:{
+                        time: time,
+                        url: url
+                    }
+                });
+            }
             //window.onbeforeunload = saveAnalitics;
             //window.onunload = saveAnalitics;
             window.onunload = window.onbeforeunload = (function(){
