@@ -1,6 +1,6 @@
-var analiticsTimerStartLBR = new Date().getTime();
-window.onbeforeunload = saveAnalitics;
-window.onunload = saveAnalitics;
+//var analiticsTimerStartLBR = new Date().getTime();
+//window.onbeforeunload = saveAnalitics;
+//window.onunload = saveAnalitics;
 
 $(document).ready(function() {
     // start getFilial
@@ -116,7 +116,7 @@ function getCookie(name) {
     return false;
 }
 
-function saveAnalitics(evt)
+/*function saveAnalitics(evt)
 {
     var url = window.location.pathname;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
@@ -130,7 +130,7 @@ function saveAnalitics(evt)
             url: url
         }
     });
-}
+}*/
 
 function saveAnalitics2(evt)
 {
