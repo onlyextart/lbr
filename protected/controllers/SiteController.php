@@ -103,8 +103,12 @@ class SiteController extends Controller
         Yii::app()->params['meta_title'] = 'Карта сайта';
         $this->render('sitemap', array('sitemapStr' => $siteMapHtml));
     }
-
-    /*public function actionSaveAnalitics() 
+    
+    /**
+     * Analitics
+     */
+    /*
+    public function actionSaveAnalitics() 
     {
         $url = Yii::app()->request->getPost('url');
         $cookies = Yii::app()->request->cookies;
@@ -133,7 +137,8 @@ class SiteController extends Controller
             
             $model->save();
         }
-    }*/
+    }
+    */
 
     public function actionDelAnalitics() 
     {
@@ -179,7 +184,7 @@ class SiteController extends Controller
         if(Yii::app()->user->isGuest) {
             $model = new Analitics;
             //================================
-            $cookies = Yii::app()->request->cookies;
+            /*$cookies = Yii::app()->request->cookies;
             if (isset($cookies['ct'])) {
                 //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
                 //$test2 = SecurityController::decrypt($test);
@@ -187,7 +192,7 @@ class SiteController extends Controller
 
                 $model->customer_id = SecurityController::decrypt((string)$cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
-
+            */
             $model->time = Yii::app()->request->getPost('time');
             $model->url = Yii::app()->request->getPost('url');
             //================================
