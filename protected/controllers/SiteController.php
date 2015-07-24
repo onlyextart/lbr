@@ -174,7 +174,11 @@ class SiteController extends Controller
     public function actionSaveTest()
     {
         $model = new Analitics;
-        $model->customer_id = Yii::app()->request->getPost('time').'(=====)';
+        //================================
+        $model->customer_id = Yii::app()->request->cookies['ct']->value;
+        $model->time = Yii::app()->request->getPost('time');
+        $model->url = Yii::app()->request->getPost('url');
+        //================================
         $model->date_created = date('Y-m-d H:i:s');
         $model->save();
     }

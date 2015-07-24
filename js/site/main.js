@@ -142,6 +142,7 @@ function saveAnalitics2(evt)
         dataType: "json",
         data:{
             time: time,
+            url: url
         }
     });
 }
