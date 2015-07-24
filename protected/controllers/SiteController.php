@@ -181,7 +181,7 @@ class SiteController extends Controller
     
     public function actionSaveAnalitics() 
     {
-        if(Yii::app()->user->isGuest) {
+        if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
             //================================
             /*$cookies = Yii::app()->request->cookies;
