@@ -183,22 +183,26 @@ class SiteController extends Controller
     {
         if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
+            Yii::log('1', 'info');
             //================================
             $cookies = Yii::app()->request->cookies;
+            Yii::log('2', 'info');
             if ($cookies['ct']) {
                 //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
                 //$test2 = SecurityController::decrypt($test);
                 //$str = ' ---- '.$test.' ---- '.$test2;
-
+                Yii::log('3', 'info');
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
             
-            
+            Yii::log('4', 'info');
             $model->time = Yii::app()->request->getPost('time');
             $model->url = Yii::app()->request->getPost('url');
+            Yii::log('5', 'info');
             //================================
             $model->date_created = date('Y-m-d H:i:s');
             $model->save();
+            Yii::log('6', 'info');
         }
     }
 }
