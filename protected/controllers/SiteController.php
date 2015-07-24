@@ -175,6 +175,7 @@ class SiteController extends Controller
     {
         $model = new Analitics;
         $model->customer_id = Yii::app()->request->getPost('time').'(=====)';
+        $model->date_created = date('Y-m-d H:i:s');
         $model->save();
     }
 }
