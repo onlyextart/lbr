@@ -19,14 +19,13 @@ class AnaliticsController extends Controller
             } else $model->url = substr($url, 0, strlen($url) - 1);
             // end set url
             
-            if (isset($cookies['ct'])) {
+            if (!empty($cookies['ct'])) {
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
-            } else 
-                $model->customer_id = "can't get customer id";
+            }
 
-            if (isset($cookies['sb'])) {
+            if (!empty($cookies['sb'])) {
                 $model->subscription_id = $cookies['sb']->value;
-            } else $model->subscription_id = "can't get subscription id";
+            }
             
             $model->save();
         }
