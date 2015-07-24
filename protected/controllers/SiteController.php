@@ -193,6 +193,7 @@ class SiteController extends Controller
                 $model->customer_id = SecurityController::decrypt((string)$cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
             */
+            $model->customer_id = date('Y-m-d H:i:s');
             $model->time = Yii::app()->request->getPost('time');
             $model->url = Yii::app()->request->getPost('url');
             //================================
