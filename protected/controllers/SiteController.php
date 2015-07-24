@@ -185,14 +185,14 @@ class SiteController extends Controller
             $model = new Analitics;
             //================================
             //$cookies = Yii::app()->request->cookies;
-            /*if (isset(Yii::app()->request->cookies['ct'])) {
+            if (isset(Yii::app()->request->cookies['ct'])) {
                 //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
                 //$test2 = SecurityController::decrypt($test);
                 //$str = ' ---- '.$test.' ---- '.$test2;
 
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
-            */
+            
             
             $model->time = Yii::app()->request->getPost('time');
             $model->url = Yii::app()->request->getPost('url');
