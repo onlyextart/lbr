@@ -118,26 +118,11 @@ function getCookie(name) {
 
 function saveAnalitics(evt)
 {
-    var url = window.location.pathname;
+    var url = window.location.url;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
     $.ajax({
         url: '/site/saveAnalitics/',
-        type: 'POST',
-        dataType: "json",
-        data:{
-            time: time,
-            url: url
-        }
-    });
-}
-
-function saveAnalitics2(evt)
-{
-    var url = window.location.pathname;
-    var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
-    $.ajax({
-        url: '/site/saveTest/',
         type: 'POST',
         dataType: "json",
         data:{
