@@ -184,8 +184,8 @@ class SiteController extends Controller
         if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
             //================================
-            //$cookies = Yii::app()->request->cookies;
-            if (isset(Yii::app()->request->cookies['ct'])) {
+            $cookies = Yii::app()->request->cookies;
+            if ($cookies['ct']) {
                 //$test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
                 //$test2 = SecurityController::decrypt($test);
                 //$str = ' ---- '.$test.' ---- '.$test2;
