@@ -233,10 +233,12 @@
 
         <script>
             $(function() {
-                <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
+                <?php 
+                $cookies = Yii::app()->request->cookies;
+                if(Yii::app()->user->isGuest && isset($cookies['ct']->value) && isset($cookies['sb']->value)): ?>
                 $('a').each(function(index){
                     var element = $(this);
-                    var href = element.attr('href')+'?sb=<?php echo Yii::app()->request->cookies['sb']->value ?>&ct=<?php echo Yii::app()->request->cookies['ct']->value ?>';
+                    var href = element.attr('href')+'?sb=<?php echo $cookies['sb']->value ?>&ct=<?php echo $cookies['ct']->value ?>';
                     element.attr('href', href);
                 });
                 <?php endif; ?>
