@@ -1,4 +1,12 @@
-//var analiticsTimerStartLBR = new Date().getTime();
+var analiticsTimerStartLBR = new Date().getTime();
+$(window).on('beforeunload', function() {
+    saveAnalitics();
+});
+
+$(window).on('unload', function() {
+    saveAnalitics();
+});
+            
 //window.onbeforeunload = saveAnalitics;
 //window.onunload = saveAnalitics;
 

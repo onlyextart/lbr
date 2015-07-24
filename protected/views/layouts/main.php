@@ -233,7 +233,7 @@
 
         <script>
             <?php if(!Yii::app()->user->isGuest): ?>
-            var analiticsTimerStartLBR = new Date().getTime();
+            //var analiticsTimerStartLBR = new Date().getTime();
             //window.onbeforeunload = saveAnalitics;
             //window.onunload = saveAnalitics;
             
@@ -243,13 +243,13 @@
             /*window.onbeforeunload = function(){
                 saveAnalitics();
             };*/
-            $(window).on('beforeunload', function() {
+            /*$(window).on('beforeunload', function() {
                 saveAnalitics();
             });
             
             $(window).on('unload', function() {
                 saveAnalitics();
-            });
+            });*/
             
             <?php endif; ?>
             //////////////////////
