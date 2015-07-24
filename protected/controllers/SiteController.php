@@ -106,34 +106,20 @@ class SiteController extends Controller {
 
     public function actionSaveAnalitics() {
         $linkId = '';
-        $url = Yii::app()->request->getPost('url');
-        //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
-        if (Yii::app()->user->isGuest) {
-            $end = strpos($url, '/?');
-            if ($end) {
-                $linkId = $this->getLinkId($url);
-                $url = substr($url, 0, $end);
-            } else
-                $url = substr($url, 0, strlen($url) - 1);
-
-            if (!empty(Yii::app()->request->cookies['ct']->value) || !empty(Yii::app()->request->cookies['sb']->value)) {
+        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        //if (Yii::app()->user->isGuest) {
+            $url = substr($url, 0, strlen(Yii::app()->request->getPost('url')) - 1);
+            $cookies = Yii::app()->request->cookies;
+            if (isset($cookies['ct']) || isset($cookies['sb'])) {
                 $model = new Analitics;
-                $customerId = SecurityController::decrypt(Yii::app()->request->cookies['ct']->value);
-
-                //$test = SecurityController::encrypt('g');
-                //$test1 = SecurityController::decrypt($test);
-                //$str = '  ------  '.$test.'  ------  '.$test1;
-
-                if (!empty($customerId))
-                    $model->customer_id = $customerId;
-
-                $model->subscription_id = Yii::app()->request->cookies['sb']->value;
                 $model->time = Yii::app()->request->getPost('time');
                 $model->url = $url;
                 $model->date_created = date('Y-m-d H:i:s');
-
-                if (!empty($linkId))
-                    $model->link_id = $linkId;
+                
+                $customerId = SecurityController::decrypt($cookies['ct']->value);
+                if (!empty($customerId)) $model->customer_id = $customerId;
+                if (!empty($cookies['sb']->value)) $model->subscription_id = $cookies['sb']->value;
+                if (!empty($linkId)) $model->link_id = $linkId;
 
                 $model->save();
             }
@@ -165,7 +151,7 @@ class SiteController extends Controller {
             //$test2 = SecurityController::decrypt($test);
             //$str = ' ---- '.$test.' ---- '.$test2;
                     
-            $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
+            $model->customer_id = SecurityController::decrypt((string)$cookies['ct']->value);
         } else $model->customer_id = 'no';
         
         $model->time = Yii::app()->request->getPost('time');

@@ -118,7 +118,7 @@ function getCookie(name) {
 
 function saveAnalitics(evt)
 {
-    var url = window.location.href;
+    var url = window.location.pathname;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
     $.ajax({
