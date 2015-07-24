@@ -159,7 +159,7 @@ class SiteController extends Controller {
     public function actionSaveTest() {
         $model = new Analitics;
         //================================
-        $cookies = Yii::$app->request->cookies;
+        $cookies = Yii::app()->request->cookies;
         if (isset($cookies['ct'])) {
             $model->customer_id = 'yes - '.$cookies['ct']->value;
         } else $model->customer_id = 'empty cookie';

@@ -134,7 +134,7 @@ function saveAnalitics(evt)
 
 function saveAnalitics2(evt)
 {
-    var url = window.location.href;
+    var url = window.location.pathname;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
     $.ajax({
         url: '/site/saveTest/',
