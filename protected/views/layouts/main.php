@@ -53,7 +53,7 @@
         Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
-        Yii::app()->clientScript->registerScriptFile('/js/site/main.js');
+        Yii::app()->clientScript->registerScriptFile('/js/site/main.js?1');
         Yii::app()->clientScript->registerCoreScript('/js/site/main2.js');
         Yii::app()->clientScript->registerScriptFile('/js/jquery.dotdotdot.js');
         ?>
@@ -232,27 +232,6 @@
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
         <script>
-            <?php if(!Yii::app()->user->isGuest): ?>
-            //var analiticsTimerStartLBR = new Date().getTime();
-            //window.onbeforeunload = saveAnalitics;
-            //window.onunload = saveAnalitics;
-            
-            /*window.onunload = window.onbeforeunload = (function(){
-                saveAnalitics();
-            });*/
-            /*window.onbeforeunload = function(){
-                saveAnalitics();
-            };*/
-            /*$(window).on('beforeunload', function() {
-                saveAnalitics();
-            });
-            
-            $(window).on('unload', function() {
-                saveAnalitics();
-            });*/
-            
-            <?php endif; ?>
-            //////////////////////
             $(function() {
                 <?php if(Yii::app()->user->isGuest && !empty(Yii::app()->request->cookies['ct']->value) && !empty(Yii::app()->request->cookies['sb']->value)): ?>
                 $('a').each(function(index){

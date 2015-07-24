@@ -6,9 +6,6 @@ $(window).on('beforeunload', function() {
 $(window).on('unload', function() {
     saveAnalitics();
 });
-            
-//window.onbeforeunload = saveAnalitics;
-//window.onunload = saveAnalitics;
 
 $(document).ready(function() {
     // start getFilial
@@ -130,7 +127,7 @@ function saveAnalitics(evt)
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
     $.ajax({
-        url: '/site/saveAnalitics/',
+        url: '/analitics/save/',
         type: 'POST',
         dataType: "json",
         data:{
