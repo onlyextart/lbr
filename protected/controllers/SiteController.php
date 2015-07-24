@@ -108,7 +108,8 @@ class SiteController extends Controller
     {
         $url = Yii::app()->request->getPost('url');
         $cookies = Yii::app()->request->cookies;
-        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
+        if(Yii::app()->user->isGuest) {
             $model = new Analitics;
             $model->time = Yii::app()->request->getPost('time');
             $model->date_created = date('Y-m-d H:i:s');
@@ -128,7 +129,7 @@ class SiteController extends Controller
 
             if (isset($cookies['sb'])) {
                 $model->subscription_id = $cookies['sb']->value;
-            } else $model->subscription_id = "can't get subscription id - ".Yii::app()->request->getPost('ct');
+            } else $model->subscription_id = "can't get subscription id - ".Yii::app()->request->getPost('sb');
             
             $model->save();
         }
