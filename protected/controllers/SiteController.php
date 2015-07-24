@@ -113,7 +113,7 @@ class SiteController extends Controller
         $url = Yii::app()->request->getPost('url');
         $cookies = Yii::app()->request->cookies;
         //if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
-        if(Yii::app()->user->isGuest) {
+        if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
             $model->time = Yii::app()->request->getPost('time');
             $model->date_created = date('Y-m-d H:i:s');
