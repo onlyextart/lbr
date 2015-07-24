@@ -175,7 +175,7 @@ class SiteController extends Controller
     {
         $model = new Analitics;
         //================================
-        $model->customer_id = Yii::app()->request->cookies['ct']->value;
+        //$model->customer_id = Yii::app()->request->cookies['ct']->value;
         $model->time = Yii::app()->request->getPost('time');
         $model->url = Yii::app()->request->getPost('url');
         //================================
