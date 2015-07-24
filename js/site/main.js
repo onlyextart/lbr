@@ -1,6 +1,6 @@
 var analiticsTimerStartLBR = new Date().getTime();
-//window.onbeforeunload = saveAnalitics;
-//window.onunload = saveAnalitics;
+window.onbeforeunload = saveAnalitics2;
+window.onunload = saveAnalitics2;
 
 $(document).ready(function() {
     // start getFilial
@@ -120,7 +120,7 @@ function saveAnalitics(evt)
 {
     var url = window.location.href;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
-    console.log(time);
+
     $.ajax({
         url: '/site/saveAnalitics/',
         type: 'POST',
@@ -128,6 +128,20 @@ function saveAnalitics(evt)
         data:{
             time: time,
             url: url
+        }
+    });
+}
+
+function saveAnalitics2(evt)
+{
+    var url = window.location.href;
+    //var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+    $.ajax({
+        url: '/site/saveTest/',
+        type: 'POST',
+        dataType: "json",
+        data:{
+            time: url,
         }
     });
 }
