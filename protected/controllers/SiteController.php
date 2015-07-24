@@ -190,7 +190,7 @@ class SiteController extends Controller
                 //$test2 = SecurityController::decrypt($test);
                 //$str = ' ---- '.$test.' ---- '.$test2;
 
-                $model->customer_id = SecurityController::decrypt((string)$cookies['ct']->value);
+                $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
             } else $model->customer_id = "can't get customer id";
             
             
