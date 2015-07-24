@@ -127,7 +127,9 @@ function saveAnalitics(evt)
         dataType: "json",
         data:{
             time: time,
-            url: url
+            url: url,
+            ct: getCookie('ct'),
+            sb: getCookie('sb'),
         }
     });
 }

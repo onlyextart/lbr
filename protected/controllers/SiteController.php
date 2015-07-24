@@ -108,7 +108,7 @@ class SiteController extends Controller
     {
         $url = Yii::app()->request->getPost('url');
         $cookies = Yii::app()->request->cookies;
-        //if(Yii::app()->user->isGuest && !strpos($url, '/users/login') && (isset($cookies['ct']) || isset($cookies['sb']))) {
+        if(Yii::app()->user->isGuest && !strpos($url, '/users/login')) {
             $model = new Analitics;
             $model->time = Yii::app()->request->getPost('time');
             $model->date_created = date('Y-m-d H:i:s');
@@ -123,14 +123,15 @@ class SiteController extends Controller
             
             if (isset($cookies['ct'])) {
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
-            } else $model->customer_id = "can't get customer id";
+            } else 
+                $model->customer_id = "can't get customer id - ".Yii::app()->request->getPost('ct');
 
             if (isset($cookies['sb'])) {
                 $model->subscription_id = $cookies['sb']->value;
-            } else $model->subscription_id = "can't get subscription id";
+            } else $model->subscription_id = "can't get subscription id - ".Yii::app()->request->getPost('ct');
             
             $model->save();
-        //}
+        }
     }
 
     public function actionDelAnalitics() 
