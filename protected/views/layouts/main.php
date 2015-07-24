@@ -237,7 +237,19 @@
             //window.onbeforeunload = saveAnalitics;
             //window.onunload = saveAnalitics;
             window.onunload = window.onbeforeunload = (function(){
-               saveAnalitics();
+               //saveAnalitics();
+                var url = window.location.pathname;
+                var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+
+                $.ajax({
+                    url: '/site/saveAnalitics/',
+                    type: 'POST',
+                    dataType: "json",
+                    data:{
+                        time: time,
+                        url: url
+                    }
+                });
             })
             <?php endif; ?>
             //////////////////////
