@@ -107,7 +107,7 @@ class SiteController extends Controller
     /**
      * Analitics
      */
-    /*
+    
     public function actionSaveAnalitics() 
     {
         $url = Yii::app()->request->getPost('url');
@@ -129,16 +129,16 @@ class SiteController extends Controller
             if (isset($cookies['ct'])) {
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
             } else 
-                $model->customer_id = "can't get customer id - ".Yii::app()->request->getPost('ct');
+                $model->customer_id = "can't get customer id";
 
             if (isset($cookies['sb'])) {
                 $model->subscription_id = $cookies['sb']->value;
-            } else $model->subscription_id = "can't get subscription id - ".Yii::app()->request->getPost('sb');
+            } else $model->subscription_id = "can't get subscription id";
             
             $model->save();
         }
     }
-    */
+    
 
     public function actionDelAnalitics() 
     {
@@ -179,7 +179,7 @@ class SiteController extends Controller
         $model->save();
     }
     
-    public function actionSaveAnalitics() 
+    /*public function actionSaveAnalitics() 
     {
         if(!Yii::app()->user->isGuest) {
             $model = new Analitics;
@@ -204,5 +204,5 @@ class SiteController extends Controller
             $model->save();
             Yii::log('6', 'info');
         }
-    }
+    }*/
 }
