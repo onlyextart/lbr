@@ -236,6 +236,7 @@
             var analiticsTimerStartLBR = new Date().getTime();
             //window.onbeforeunload = saveAnalitics;
             //window.onunload = saveAnalitics;
+            
             saveAnalitics();
             <?php endif; ?>
             //////////////////////
@@ -272,7 +273,7 @@
     <?php if(!Yii::app()->user->isGuest): ?>
     function saveAnalitics(evt)
     {
-        var url = window.location.pathname;
+        var url = window.location.href;
         var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
         $.ajax({
