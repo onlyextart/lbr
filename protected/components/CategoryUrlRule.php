@@ -207,17 +207,16 @@ class CategoryUrlRule extends CBaseUrlRule
     
     public function setCookie($array)
     {
-        $cookies = Yii::app()->request->cookies;
-        if(isset($cookies['ct']) && $cookies['ct']->value != $array['ct']) {
+        if(!empty($array['ct']) && Yii::app()->request->cookies['ct']->value != $array['ct']) {
             $cookie = new CHttpCookie('ct', $array['ct']);
             $cookie->expire = time() + 31104000; // save for a year
-            $cookies['ct'] = $cookie;
+            Yii::app()->request->cookies['ct'] = $cookie;
         }
         
-        if(isset($cookies['sb']) && $cookies['sb']->value != $array['sb']) {
+        if(!empty($array['sb']) && Yii::app()->request->cookies['sb']->value != $array['sb']) {
             $cookie = new CHttpCookie('sb', $array['sb']);
             $cookie->expire = time() + 31104000; // save for a year
-            $cookies['sb'] = $cookie;
+            Yii::app()->request->cookies['sb'] = $cookie;
         }
     }
 }
