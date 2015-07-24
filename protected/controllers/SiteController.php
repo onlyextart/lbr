@@ -161,8 +161,12 @@ class SiteController extends Controller {
         //================================
         $cookies = Yii::app()->request->cookies;
         if (isset($cookies['ct'])) {
-            $model->customer_id = 'yes - '.$cookies['ct']->value;
-        } else $model->customer_id = 'empty cookie';
+            $test = SecurityController::encrypt('test1_mail@lbr.ru_test2_mail@lbr.ru');
+            $test2 = SecurityController::decrypt($test);
+            $str = ' ---- '.$test.' ---- '.$test2;
+                    
+            $model->customer_id = 'yes'.$str;//.$cookies['ct']->value;
+        } else $model->customer_id = 'no';
         
         $model->time = Yii::app()->request->getPost('time');
         $model->url = Yii::app()->request->getPost('url');
