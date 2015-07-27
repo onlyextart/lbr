@@ -1,5 +1,5 @@
 var analiticsTimerStartLBR = new Date().getTime();
-var _analiticsSaved = false;
+//var _analiticsSaved = false;
 
 $(window).on('beforeunload', function() {
     saveAnalitics();
@@ -137,9 +137,9 @@ function saveAnalitics(evt)
                 time: time,
                 url: url
             },
-            success: function() {
+            /*success: function() {
                 _analiticsSaved = true;
-            }
+            }*/
         });
     //}
 }
