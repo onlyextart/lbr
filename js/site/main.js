@@ -1,9 +1,17 @@
 var analiticsTimerStartLBR = new Date().getTime();
-$(window).on('beforeunload', function() {
+/*$(window).on('beforeunload', function() {
     saveAnalitics();
 });
 
 $(window).on('unload', function() {
+    saveAnalitics();
+});
+*/
+
+var myEvent = window.attachEvent || window.addEventListener;
+var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
+
+myEvent(chkevent, function(e) { // For >=IE7, Chrome, Firefox
     saveAnalitics();
 });
 
