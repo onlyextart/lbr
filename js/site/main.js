@@ -1,4 +1,6 @@
 var analiticsTimerStartLBR = new Date().getTime();
+var _analiticsSaved = false;
+
 $(window).on('beforeunload', function() {
     saveAnalitics();
 });
@@ -6,14 +8,7 @@ $(window).on('beforeunload', function() {
 $(window).on('unload', function() {
     saveAnalitics();
 });
-/*
-var myEvent = window.attachEvent || window.addEventListener;
-var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
 
-myEvent(chkevent, function(e) { // For >=IE7, Chrome, Firefox
-    saveAnalitics();
-});
-*/
 $(document).ready(function() {
     // start getFilial
     var setFilialName = getCookie('filial');
@@ -133,13 +128,18 @@ function saveAnalitics(evt)
     var url = window.location.href;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
-    $.ajax({
-        url: '/analitics/save/',
-        type: 'POST',
-        dataType: "json",
-        data:{
-            time: time,
-            url: url
-        }
-    });
+    if(!_analiticsSaved) {
+        $.ajax({
+            url: '/analitics/save/',
+            type: 'POST',
+            dataType: "json",
+            data: {
+                time: time,
+                url: url
+            },
+            success: function() {
+                _analiticsSaved = true;
+            }
+        });
+    }
 }
