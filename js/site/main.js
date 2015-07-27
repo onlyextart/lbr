@@ -1,5 +1,5 @@
 var analiticsTimerStartLBR = new Date().getTime();
-//var _analiticsSaved = false;
+var _analiticsSaved = false;
 
 $(window).on('beforeunload', function() {
     saveAnalitics();
@@ -128,7 +128,7 @@ function saveAnalitics(evt)
     var url = window.location.href;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
-    //if(!_analiticsSaved) {
+    if(!_analiticsSaved) {
         $.ajax({
             url: '/analitics/save/',
             type: 'POST',
@@ -137,9 +137,9 @@ function saveAnalitics(evt)
                 time: time,
                 url: url
             },
-            /*success: function() {
+            success: function() {
                 _analiticsSaved = true;
-            }*/
+            }
         });
-    //}
+    }
 }
