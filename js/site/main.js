@@ -128,7 +128,7 @@ function saveAnalitics(evt)
     var url = window.location.href;
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
-    if(!_analiticsSaved) {
+    //if(!_analiticsSaved) {
         $.ajax({
             url: '/analitics/save/',
             type: 'POST',
@@ -141,5 +141,5 @@ function saveAnalitics(evt)
                 _analiticsSaved = true;
             }
         });
-    }
+    //}
 }
