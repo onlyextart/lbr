@@ -55,7 +55,7 @@ class CategoryUrlRule extends CBaseUrlRule
         $this->setCookie($_GET);
         
         $additionalParam = $eventPage = ''; // for mightiness, tehcikl and news
-        if( $pathInfo === ''){
+        if( $pathInfo === '') {
             $this->desiredMenuItem = MenuItems::model()->find('level=:level', array(
                 ':level'=>1,
             ));

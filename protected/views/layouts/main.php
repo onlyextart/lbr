@@ -234,14 +234,18 @@
         <script>
             $(function() {
                 <?php 
-                $cookies = Yii::app()->request->cookies;
-                if(Yii::app()->user->isGuest && (isset($cookies['ct']->value) || isset($cookies['sb']->value))): ?>
-                $('a').each(function(index){
-                    var element = $(this);
-                    var href = element.attr('href')+'?sb=<?php echo $cookies['sb']->value ?>&ct=<?php echo $cookies['ct']->value ?>';
-                    element.attr('href', href);
-                });
-                <?php endif; ?>
+                /* 
+                 * Share cookie to another user
+                 */
+//                $cookies = Yii::app()->request->cookies;
+//                if(Yii::app()->user->isGuest && (isset($cookies['ct']->value) || isset($cookies['sb']->value))): 
+//              ?>
+//                $('a').each(function(index){
+//                    var element = $(this);
+//                    var href = element.attr('href')+'?sb=//<?php //echo $cookies['sb']->value ?>&ct=<?php //echo $cookies['ct']->value ?>';
+//                    element.attr('href', href);
+//                });
+                <?php //endif; ?>
             });
         </script>
         
