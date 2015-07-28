@@ -3,25 +3,34 @@ var _analiticsSaved = false;
 var _analiticsBlur = false;
 
 $(window).on('beforeunload', function() {
+    if ( !$.browser.mozilla ) {
+        $(window).off('unload');
+    }
+    $(window).off('blur');
     saveAnalitics('bu');  
 });
 
 $(window).on('unload', function() {
-    saveAnalitics('u');  
+    if ( !$.browser.mozilla ){
+        $(window).off('unload');
+    }
+    $(window).off('blur');
+    saveAnalitics('u');
 });
 
-/*
+
 $(window).on('blur', function() { // run to another tab
-    _analiticsBlur = true;
-    saveAnalitics('blur');
+    //if(!_analiticsSaved) {
+       saveAnalitics('blur');
+    //}
 });
 
 $(window).on('focus', function() { // come back to tab
    analiticsTimerStartLBR = new Date().getTime();
    _analiticsBlur = false;
-   _analiticsSaved = false;
+   //_analiticsSaved = false;
 });
-*/
+
 /*
 window.addEventListener("focus", function() {
     if(_analiticsBlur || _analiticsSaved) {
@@ -155,11 +164,13 @@ function getCookie(name) {
 }
 
 function saveAnalitics(p)
-{   //test();
+{   //test(p);
     if(!_analiticsSaved) {
+        
         var url = window.location.pathname+'saved='+_analiticsSaved+'/p='+p+'/';
         var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
+        
         $.ajax({
             url: '/analitics/save/',
             type: 'POST',
@@ -169,19 +180,21 @@ function saveAnalitics(p)
                 url: url
             },
             success: function() {
-                _analiticsSaved = true;
+                if(p == 'blur') _analiticsBlur = true;
+                else _analiticsSaved = true;//if ( $.browser.mozilla ) 
             }
         });
+        //if ( !$.browser.mozilla ) _analiticsSaved = true;
     }
 }
 
-function test(){
+function test(p){
     $.ajax({
         url: '/analitics/save/',
         type: 'POST',
         dataType: "json",
         data: {
-            time: _analiticsSaved,
+            time: _analiticsSaved+' - '+p,
             url: ''
         }
     });
