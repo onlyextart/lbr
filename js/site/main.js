@@ -1,13 +1,43 @@
 var analiticsTimerStartLBR = new Date().getTime();
 var _analiticsSaved = false;
+var _analiticsBlur = false;
 
 $(window).on('beforeunload', function() {
-    saveAnalitics();
+    if(!_analiticsSaved)
+       saveAnalitics('bu');
 });
 
 $(window).on('unload', function() {
-    saveAnalitics();
+    if(!_analiticsSaved)
+        saveAnalitics('u');
 });
+/////
+/*$(window).on('blur', function() { // run to another tab
+    saveAnalitics('blur');
+});
+
+$(window).on('focus', function() { // come back to tab
+   analiticsTimerStartLBR = new Date().getTime();
+   _analiticsBlur = false;
+});
+*/
+
+window.addEventListener("focus", function() {
+    if(_analiticsBlur) {
+        console.log('focus');
+        analiticsTimerStartLBR = new Date().getTime();
+        _analiticsBlur = false;
+        _analiticsSaved = false;
+    }
+}, true);
+
+window.addEventListener("blur", function() {
+   if(!_analiticsSaved && !_analiticsBlur) {
+        console.log('blur');
+        saveAnalitics('blur');
+        _analiticsBlur = true;
+   }
+}, true);
 
 $(document).ready(function() {
     // start getFilial
@@ -123,12 +153,12 @@ function getCookie(name) {
     return false;
 }
 
-function saveAnalitics(evt)
+function saveAnalitics(p)
 {
-    var url = window.location.pathname;
+    var url = window.location.pathname+'/p='+p+'/';
     var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
-    if(!_analiticsSaved) {
+    //if(!_analiticsSaved) {
         $.ajax({
             url: '/analitics/save/',
             type: 'POST',
@@ -138,8 +168,8 @@ function saveAnalitics(evt)
                 url: url
             },
             success: function() {
-                _analiticsSaved = true;
+                //_analiticsSaved = true;
             }
         });
-    }
+    //}
 }
