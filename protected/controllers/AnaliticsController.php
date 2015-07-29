@@ -36,7 +36,9 @@ class AnaliticsController extends Controller
     
     public function actionDelAnalitics() 
     {
-        Analitics::model()->deleteAll();
+        // admin
+        if (!Yii::app()->user->isGuest && empty(Yii::app()->user->isShop))
+           Analitics::model()->deleteAll();
     }
 
     /*public function getLinkId($str) 
