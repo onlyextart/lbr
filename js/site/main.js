@@ -28,24 +28,6 @@ $(window).on('focus', function() { // come back to tab
    _analiticsBlur = false;
 });
 
-/*
-window.addEventListener("focus", function() {
-    if(_analiticsBlur || _analiticsSaved) {
-        analiticsTimerStartLBR = new Date().getTime();
-        _analiticsBlur = false;
-        _analiticsSaved = false;
-        console.log('focus: ' + _analiticsSaved);
-    }
-}, true);
-
-window.addEventListener("blur", function() {
-   if(!_analiticsBlur) { // !_analiticsSaved &&
-        _analiticsBlur = true;
-        saveAnalitics('blur');
-        console.log('blur: ' + _analiticsSaved);
-   }
-}, true);
-*/
 $(document).ready(function() {
     // start getFilial
     var setFilialName = getCookie('filial');
@@ -161,9 +143,9 @@ function getCookie(name) {
 }
 
 function saveAnalitics(p)
-{   //test(p);
+{   
     if(!_analiticsSaved) {
-        var url = window.location.pathname; //+'saved='+_analiticsSaved+'/p='+p+'/';
+        var url = window.location.pathname;
         var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
         $.ajax({
@@ -180,16 +162,4 @@ function saveAnalitics(p)
             }
         });
     }
-}
-
-function test(p){
-    $.ajax({
-        url: '/analitics/save/',
-        type: 'POST',
-        dataType: "json",
-        data: {
-            time: _analiticsSaved+' - '+p,
-            url: ''
-        }
-    });
 }
