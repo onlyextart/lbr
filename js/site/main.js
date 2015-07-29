@@ -20,15 +20,12 @@ $(window).on('unload', function() {
 
 
 $(window).on('blur', function() { // run to another tab
-    //if(!_analiticsSaved) {
-       saveAnalitics('blur');
-    //}
+    saveAnalitics('blur');
 });
 
 $(window).on('focus', function() { // come back to tab
    analiticsTimerStartLBR = new Date().getTime();
    _analiticsBlur = false;
-   //_analiticsSaved = false;
 });
 
 /*
@@ -166,11 +163,9 @@ function getCookie(name) {
 function saveAnalitics(p)
 {   //test(p);
     if(!_analiticsSaved) {
-        
-        var url = window.location.pathname+'saved='+_analiticsSaved+'/p='+p+'/';
+        var url = window.location.pathname; //+'saved='+_analiticsSaved+'/p='+p+'/';
         var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
 
-        
         $.ajax({
             url: '/analitics/save/',
             type: 'POST',
@@ -181,10 +176,9 @@ function saveAnalitics(p)
             },
             success: function() {
                 if(p == 'blur') _analiticsBlur = true;
-                else _analiticsSaved = true;//if ( $.browser.mozilla ) 
+                else _analiticsSaved = true;
             }
         });
-        //if ( !$.browser.mozilla ) _analiticsSaved = true;
     }
 }
 

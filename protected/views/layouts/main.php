@@ -53,7 +53,7 @@
         Yii::app()->clientScript->registerCssFile('/css/main.css?'.time());
         // Проверка на наличие Jquery
         Yii::app()->clientScript->registerCoreScript('jquery');
-        Yii::app()->clientScript->registerScriptFile('/js/site/main.js?1');
+        Yii::app()->clientScript->registerScriptFile('/js/site/main.js?2');
         Yii::app()->clientScript->registerCoreScript('/js/site/main2.js');
         Yii::app()->clientScript->registerScriptFile('/js/jquery.dotdotdot.js');
         ?>
