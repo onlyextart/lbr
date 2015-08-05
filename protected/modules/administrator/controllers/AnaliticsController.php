@@ -50,7 +50,8 @@ class AnaliticsController extends Controller
         $info = Yii::app()->db->createCommand()
             ->select('*')
             ->from('analitics')
-            ->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'"')
+            //->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'"')
+            ->where('push_1C = true')
             ->order('customer_id')
             ->queryAll()
         ;
