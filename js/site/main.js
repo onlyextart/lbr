@@ -1,6 +1,6 @@
-var analiticsTimerStartLBR = new Date().getTime();
-var _analiticsSaved = false;
-var _analiticsBlur = false;
+var lbrAnaliticsTimerStart = new Date().getTime();
+var lbrAnaliticsSaved = false;
+var lbrAnaliticsBlur = false;
 
 $(window).on('beforeunload', function() {
     if ( !$.browser.mozilla ) {
@@ -24,8 +24,8 @@ $(window).on('blur', function() { // run to another tab
 });
 
 $(window).on('focus', function() { // come back to tab
-   analiticsTimerStartLBR = new Date().getTime();
-   _analiticsBlur = false;
+   lbrAnaliticsTimerStart = new Date().getTime();
+   lbrAnaliticsBlur = false;
 });
 
 $(document).ready(function() {
@@ -144,9 +144,9 @@ function getCookie(name) {
 
 function saveAnalitics(p)
 {   
-    if(!_analiticsSaved) {
+    if(!lbrAnaliticsSaved) {
         var url = window.location.pathname;
-        var time = (new Date().getTime() - analiticsTimerStartLBR)/1000; // in seconds
+        var time = (new Date().getTime() - lbrAnaliticsTimerStart)/1000; // in seconds
 
         $.ajax({
             url: '/analitics/save/',
@@ -157,8 +157,8 @@ function saveAnalitics(p)
                 url: url
             },
             success: function() {
-                if(p == 'blur') _analiticsBlur = true;
-                else _analiticsSaved = true;
+                if(p == 'blur') lbrAnaliticsBlur = true;
+                else lbrAnaliticsSaved = true;
             }
         });
     }

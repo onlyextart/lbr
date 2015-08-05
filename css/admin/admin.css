@@ -1149,6 +1149,11 @@ div.form .admin_additional_features_measure input {
 .analitics .info-list{
     list-style: outside none none;
 }
+.analitics .btn {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
 
 .analitics .info .info-list li:first-child, .analitics .params .info-list li:first-child {
     background: #f3f3f3 url("/images/bg_menu_admin.png") repeat-x scroll left top;

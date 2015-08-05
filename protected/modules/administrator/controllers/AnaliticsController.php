@@ -8,7 +8,7 @@ class AnaliticsController extends Controller
         $this->render('index');//, array('data'=>$dataProvider, 'view'=>$view));
     }
     
-    public function actionGetExcel($from, $to)
+    public function actionGetExcel($from = '', $to = '')
     {
         Yii::import('ext.phpexcel.XPHPExcel');    
         $objPHPExcel= XPHPExcel::createPHPExcel();
@@ -28,7 +28,7 @@ class AnaliticsController extends Controller
         
         // Redirect output to a clientâ€™s web browser (Excel5)
         header('Content-Type: application/vnd.ms-excel');
-        header('Content-Disposition: attachment;filename="Аналитика посещений сайта ЛБР за период '.date('d.m.Y', strtotime($from)).' - '.date('d.m.Y', strtotime($to)).' на '.date('Y.m.d H-i').'.xls"');
+        header('Content-Disposition: attachment;filename="Аналитика посещений сайта ЛБР'.'.xls"');
         header('Cache-Control: max-age=0');
         // If you're serving to IE 9, then the following may be needed
         header('Cache-Control: max-age=1');
@@ -50,7 +50,8 @@ class AnaliticsController extends Controller
         $info = Yii::app()->db->createCommand()
             ->select('*')
             ->from('analitics')
-            ->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'"')
+            //->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'"')
+            ->where('push_1C=:flag', array(':flag'=>true))
             ->order('customer_id')
             ->queryAll()
         ;
@@ -79,6 +80,10 @@ class AnaliticsController extends Controller
                     ->setCellValue('E'.$index, $item['link_id'])
                 ;
                 $index++;
+                
+                $element = Analitics::model()->findByPk($item['id']);
+                $element->push_1C = false;
+                $element->save();
             }
             
             $timeSummary = $this->getTime($timeSummary);
@@ -90,7 +95,7 @@ class AnaliticsController extends Controller
             $sheet->getStyle('B2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
             $sheet->getStyle('B2')->getFont()->setBold(true);
         } else {
-            $sheet->setCellValue('A1', 'Нет данных удовлетворяющих условиям отбора за период '.date('d.m.Y', strtotime($from)).' - '.date('d.m.Y', strtotime($to)).' .');
+            $sheet->setCellValue('A1', 'Невыгруженных данных нет');
         }
     }
     
