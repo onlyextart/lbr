@@ -95,7 +95,7 @@ class AnaliticsController extends Controller
             $sheet->getStyle('B2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
             $sheet->getStyle('B2')->getFont()->setBold(true);
         } else {
-            $sheet->setCellValue('A1', 'Не выгруженных данных нет');
+            $sheet->setCellValue('A1', 'Невыгруженных данных нет');
         }
     }
     
