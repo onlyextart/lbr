@@ -111,8 +111,8 @@ endif;
                                             </tr>
                                              <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Объем топливного бака (л)</td>
-                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">95</td>
-                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/light-green-arrow.png" width="9" style="padding: 0 12px 0 0; border: 0; float: left;" alt="double-disk">150</td>
+                                                <td style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;"><img src="http://www.lbr.ru/images/kp/122-dieci/orange-arrow.png" width="9" style="padding: 0 10px 0 0; border: 0; float: left;" alt="double-disk">160</td>
+                                                <td style="margin: 0; padding: 0 20px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">150</td>
                                             </tr>
                                              <tr>
                                                 <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Объем гидравлического бака (л)</td>
