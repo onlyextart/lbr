@@ -310,7 +310,7 @@ endif;
                                         <tr>
                                             <td style="padding:10px 0px 0px 0px;" >
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    При помощи сцепки СП-11Г сеялки СЗ 3,6В
+                                                    При помощи сцепки СП-11Г сеялки СЗП 3,6В
                                                     соединяются между собой в один ряд. Мощность трактора для такого широкозахватного
                                                     комплекса – <b>ВСЕГО 150 ЛС</b>.
                                                 </p>
@@ -350,7 +350,7 @@ endif;
                             <tbody>
                                 <tr>
                                     <td width="60%" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; border-right: 1px solid grey; border-bottom: 1px solid grey;  background-color: #9c9d9d;background-clip: padding-box; color:white;">Модель</td>
-                                    <td width="40%" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center;  border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #9c9d9d;background-clip: padding-box; color:white;">СЗ 3,6В</td>
+                                    <td width="40%" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center;  border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #9c9d9d;background-clip: padding-box; color:white;">СЗП 3,6В</td>
                                 </tr>
                                 <tr>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; ">Ширина захвата, м</td>
