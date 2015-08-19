@@ -1,0 +1,3 @@
+[submodule "YiiMailer"]
+	path = YiiMailer
+	url = git://github.com/vernes/YiiMailer
