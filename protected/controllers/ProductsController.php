@@ -4,6 +4,8 @@ class ProductsController extends Controller{
     
     public function actionIndex()
     {
+        
+        
         Yii::app()->clientScript->registerScriptFile('/js/ui/jquery-ui-1.10.1.admin.min.js');
         $page_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         if (!$page_id){
@@ -27,6 +29,10 @@ class ProductsController extends Controller{
         if ($content){
             $this->render('index', array('data'=>$content));
         }
+//        $mPDF1 = Yii::app()->ePdf->mpdf();
+//        //$mPDF1->WriteHTML("<h1> Hello world</h1>");
+//        $mPDF1->WriteHTML($this->render('index', array('data'=>$content)), true);
+//        $mPDF1->Output();
     }
     protected function updateProduct($id, $val)
     {
@@ -37,6 +43,12 @@ class ProductsController extends Controller{
     }
     // $url - menu item ID
     public function actionGetPdf($url){
+        
+//                $mPDF1 = Yii::app()->ePdf->mpdf();
+//        $mPDF1->WriteHTML("<h1> Hello world</h1>");
+//        $mPDF1->WriteHTML("hello");
+//        $mPDF1->Output();
+        
         $menuItem = MenuItems::model()->findByPk($url);
         if($menuItem === null || $menuItem->type!=MenuItems::PRODUCT_MENU_ITEM_TYPE)
             throw new CHttpException(404, 'Запрашиваемая страница не существует. Пункт меню не найден.');
@@ -48,12 +60,12 @@ class ProductsController extends Controller{
             throw new CHttpException(404, 'Запрашиваемая страница не существует. Страница товара не найдена.');
         
         $makerModel = Makers::model()->findByPk($productModel->maker);
+        //$contactModel = Regions::model()->findByPk(Yii::app()->params['regionId'])->contact;
         $region_id = Yii::app()->params['regionId'];
         if(!$region_id)
             $region_id = 21; // Smolensk ID !WARNING. Это отстойный код, нужно сделать рефакторинг.
         
         $contactModel = Contacts::model()->findByPk($region_id);
-        
         $stylesheet = 'body {position:relative; font-size:12px; width:100%;}
                     .logoWrapper{width:200px; float:left;}
                     .logo{width:200px; float:left;}
@@ -99,11 +111,10 @@ class ProductsController extends Controller{
                     </div>
                 </body>
             </html>';
-        require_once('MPDF57/mpdf.php');
-        $mpdf=new mPDF('ru-RU','A4','','',15, 5, 7, 7, 10, 10);
-        $mpdf->WriteHTML($stylesheet,1);
-        $mpdf->WriteHTML($pageData,2);
-        $mpdf->Output($menuItem->alias.'(www.lbr.ru).pdf','D');
-        //echo($pageData);
+        $mPDF1 = Yii::app()->ePdf->mpdf();
+        $mPDF1->WriteHTML($stylesheet, 1);
+        $mPDF1->WriteHTML($pageData, 2);
+        $mPDF1->Output($menuItem->alias.'(www.lbr.ru).pdf','D');
+        echo($pageData);
     }
 }
