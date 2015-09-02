@@ -311,7 +311,7 @@ endif;
                                        <tr>
                                             <td style="padding: 5px 0px 10px 0px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    При помощи сцепки СП-11Г с маркером можно создавать
+                                                    При помощи сцепки СП-11Г с прицепом 8160.000.000 и маркером можно создавать
                                                     широкозахватные посевные агрегаты из трех сеялок.
                                                     Сеялки в агрегате соединяются между собой в шахматном
                                                     порядке. Требуемая мощность трактора 
