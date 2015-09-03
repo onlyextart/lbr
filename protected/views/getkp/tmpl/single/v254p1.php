@@ -310,14 +310,7 @@ endif;
                          <img src="http://www.lbr.ru/images/kp/254-antares/mail-3.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                     </td>
                 </tr>
-                <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/597-modulnaya-pritsepnaya-diskovaya-borona-antares/',
-                    'style' => 'text-align: right; padding-top: 10px; padding-right: 13px;'
-                        )
-                );
-                ?>
+                
             </table>
             <!-- Внутренности блока; -->
         </td>
