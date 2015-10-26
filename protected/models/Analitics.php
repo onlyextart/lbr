@@ -11,6 +11,8 @@
  * @property string $link_id
  * @property string $url
  * @property string $date_created
+ * @property boolean $push_1C
+ * @property string $title
  */
 class Analitics extends CActiveRecord
 {
@@ -30,10 +32,10 @@ class Analitics extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('customer_id, subscription_id, time, link_id, url, push_1C, date_created', 'safe'),
+			array('customer_id, subscription_id, time, link_id, url, date_created, push_1C, title', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, customer_id, subscription_id, time, link_id, url, push_1C, date_created', 'safe', 'on'=>'search'),
+			array('id, customer_id, subscription_id, time, link_id, url, date_created, push_1C, title', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,8 +62,9 @@ class Analitics extends CActiveRecord
 			'time' => 'Time',
 			'link_id' => 'Link',
 			'url' => 'Url',
-                        'push_1C' => 'Push 1 C',
 			'date_created' => 'Date Created',
+			'push_1C' => 'Push 1 C',
+			'title' => 'Title',
 		);
 	}
 
@@ -89,8 +92,9 @@ class Analitics extends CActiveRecord
 		$criteria->compare('time',$this->time,true);
 		$criteria->compare('link_id',$this->link_id,true);
 		$criteria->compare('url',$this->url,true);
-                $criteria->compare('push_1C',$this->push_1C);
 		$criteria->compare('date_created',$this->date_created,true);
+		$criteria->compare('push_1C',$this->push_1C);
+		$criteria->compare('title',$this->title,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
