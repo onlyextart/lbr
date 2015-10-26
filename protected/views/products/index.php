@@ -24,7 +24,8 @@ $productRange = Yii::app()->db->createCommand()
     ->order('title')
     ->queryAll()
 ;
-$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias;
+$link_manager = '/company/contacts/'.Regions::model()->findByPk($this->id)->contact->alias;
+echo $link_manager;
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);
@@ -47,8 +48,8 @@ function sortByTechCharTitle($a, $b)
     <?}?>
         <h1><?php echo $h1; ?></h1>
         <a href="<?php echo $link_manager;?>" onclick="ga('send', 'event', 'Товар', 'Связаться с менеджером', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
-        <a class="download-pdf-but" onclick="ga('send', 'event', 'Товар', 'Скачать описание', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
-    </div>
+        <a class="download-pdf-but" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
+     </div>
     <div class="product_content">
         <ul class="product_tab_button">
             <?php echo  strip_tags($review) ? '<li id="review" class="active_tab">Обзор</li>' : ''; ?>

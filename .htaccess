@@ -144,6 +144,12 @@ RewriteRule ^(.*)(tehnika/kormozagotovka/voroshilki/606-voroshilki-gth/)(.*) htt
 RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/grebneobrazovateli/390-grebneobrazovateli-imac/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/grebneobrazovateli/ [R=301,L]
 RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/botvoudaliteli/405-botvoudaliteli-imac/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/botvoudaliteli/ [R=301,L]
 RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/ustroystvo-dla-zapolneniya-konteynerov-uzk/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/skladskaya-obrabotka-sortirovka-khranenie/ [R=301,L]
+RewriteRule ^(.*)(tehnika/traktory/mccormick/237-traktory-mccormick-serii-ttkh/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/traktory/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/596-plugi-navesnye-m-950/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/322-plugi-polunavesnye-oborotnye-hektor/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/321-plugi-polunavesnye-oborotnye-vn-plus-herkules/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/glubokorykhliteli-i-chizeli/342-glubokorykhliteli-terradig-xs-i-terradig-xxs/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
+RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/320-plugi-polunavesnye-oborotnye-vn-plus-heros/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
