@@ -24,7 +24,7 @@ $productRange = Yii::app()->db->createCommand()
     ->order('title')
     ->queryAll()
 ;
-$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias;
+$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['contact_id'])->contact->alias;
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);
