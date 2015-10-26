@@ -147,6 +147,7 @@ function saveAnalitics(p)
     if(!lbrAnaliticsSaved) {
         var url = window.location.pathname;
         var time = (new Date().getTime() - lbrAnaliticsTimerStart)/1000; // in seconds
+        var title = $('#content h1').text();
 
         $.ajax({
             url: '/analitics/save/',
@@ -154,7 +155,8 @@ function saveAnalitics(p)
             dataType: "json",
             data: {
                 time: time,
-                url: url
+                url: url,
+                title: title
             },
             success: function() {
                 if(p == 'blur') lbrAnaliticsBlur = true;

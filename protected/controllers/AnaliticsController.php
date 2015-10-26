@@ -11,6 +11,7 @@ class AnaliticsController extends Controller
             $model->push_1C = true;
             $model->time = Yii::app()->request->getPost('time');
             $model->date_created = date('Y-m-d H:i:s');
+            if(Yii::app()->request->getPost('title')) $model->title = Yii::app()->request->getPost('title');
             
             // set url
             /*$end = strpos($url, '/?');
