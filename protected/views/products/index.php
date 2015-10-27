@@ -25,8 +25,8 @@ $productRange = Yii::app()->db->createCommand()
     ->queryAll()
 ;
 //$link_manager = '/company/contacts/'.Regions::model()->findByPk(Yii::app()->params['regionId'])->contact->alias;
-$link_manager = Yii::app()->params['regionId'];        
-$contactModel = Contacts::model()->findByPk($region_id);
+$region_id = Yii::app()->params['regionId'];        
+$contact = Contacts::model()->findByPk($region_id);
 if ($data->maker)
 {
     $maker = Makers::model()->findByPk($data->maker);
@@ -48,7 +48,7 @@ function sortByTechCharTitle($a, $b)
         </div>
     <?}?>
         <h1><?php echo $h1; ?></h1>
-        <a href="<?php echo '/company/contacts/'.$contactModel->alias;?>" onclick="ga('send', 'event', 'Товар', 'Связаться с менеджером', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
+        <a href="<?php echo '/company/contacts/'.$contact->alias;?>" onclick="ga('send', 'event', 'Товар', 'Связаться с менеджером', '<?php echo $data->name; ?>', '<?php echo $data->id; ?>');" title="Связаться с менеджером" class="contact-with-manager-but">Связаться с менеджером</a>
         <a class="download-pdf-but" href="/products/getpdf?url=<?php echo Yii::app()->params[currentMenuItem]->id; ?>" title="Скачать описание">Скачать описание</a>
      </div>
     <div class="product_content">
