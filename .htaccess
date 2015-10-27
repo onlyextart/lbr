@@ -150,6 +150,7 @@ RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi
 RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/321-plugi-polunavesnye-oborotnye-vn-plus-herkules/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
 RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/glubokorykhliteli-i-chizeli/342-glubokorykhliteli-terradig-xs-i-terradig-xxs/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
 RewriteRule ^(.*)(tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/320-plugi-polunavesnye-oborotnye-vn-plus-heros/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/ [R=301,L]
+RewriteRule ^(.*)(tehnika/kombajny-zernouborochnye/sampo/440-kombajny-sampo-sr-comia-c8/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kombajny-zernouborochnye/sampo/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
