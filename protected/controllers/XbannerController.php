@@ -1,15 +1,12 @@
 <?php
-class XbannerController extends Controller{
-    
-    
+class XbannerController extends Controller
+{    
     public function actionIndex(){
         $menu_items = Yii::app()->params['currentMenuItem']->menuItemsContents;
         $page_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->item_id;
         
-        
         $id = array();
-        foreach ($menu_items as $item)
-        {
+        foreach ($menu_items as $item) {
             $id[] = $item->page_id;
         }
 
