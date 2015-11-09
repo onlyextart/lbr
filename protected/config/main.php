@@ -147,8 +147,8 @@ return array(
         'defaultRegionId' => 0,
         'regionId' => 0,
         'superGroup' => 1,
-        'host' => 'lbr.ru',
-        //'host'=>'lbr.test',
+        //'host' => 'lbr.ru',
+        'host'=>'lbr.test',
         'menuadmin' => array(
             'Меню' => array(
                 'Меню' => '/administrator/menu/',

@@ -72,6 +72,11 @@ else{
             <?php echo $form->textField($menuModel, 'icon', array('style'=>'width:95%',)); ?>
         </div>
         <div class="row">
+            <?php echo $form->error($menuModel, 'url_mark'); ?>
+            <?php echo $form->labelEx($menuModel, 'url_mark'); ?>
+            <?php echo $form->textField($menuModel, 'url_mark'); ?>
+        </div>
+        <div class="row">
             <?php echo $form->error($menuModel, 'published'); ?>
             <?php echo $form->labelEx($menuModel, 'published'); ?>
             <?php echo $form->checkBox($menuModel, 'published'); ?>

@@ -6,6 +6,7 @@ class XbannerController extends Controller{
         $menu_items = Yii::app()->params['currentMenuItem']->menuItemsContents;
         $page_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->item_id;
         
+        
         $id = array();
         foreach ($menu_items as $item)
         {

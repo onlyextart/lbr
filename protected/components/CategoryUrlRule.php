@@ -74,9 +74,7 @@ class CategoryUrlRule extends CBaseUrlRule
 
                 $pathInfo = substr($pathInfo, 0, $pos+14);
             }
-            //var_dump($additionalParam); 
-            //var_dump($pathInfo); 
-            //exit;
+            
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
             $this->desiredMenuItem = MenuItems::model()->find(
                 'path=:path',

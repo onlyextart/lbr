@@ -24,6 +24,7 @@ class AnaliticsController extends Controller
             $model->url = substr($url, 0, strlen($url) - 1);
             if(isset($cookies['lk'])) $model->link_id = $cookies['lk']->value; //$this->getLinkId($url);
             
+            
             if (!empty($cookies['ct'])) {
                 $model->customer_id = SecurityController::decrypt($cookies['ct']->value);
             }
@@ -31,6 +32,18 @@ class AnaliticsController extends Controller
             if (!empty($cookies['sb'])) {
                 $model->subscription_id = $cookies['sb']->value;
             }
+            
+            //----- urlMark ----------
+            $strBegin = strpos($model->url, Yii::app()->params['host']);
+            $pathInfo = substr($model->url, $strBegin + strlen(Yii::app()->params['host']));
+            $urlMark = MenuItems::model()->find(
+                'path=:path',
+                array(':path'=>$pathInfo)
+            )->url_mark;
+            
+            if(!empty($urlMark)) 
+                $model->url_mark = $urlMark;
+            //----- end urlMark ------
             
             $model->save();
         }

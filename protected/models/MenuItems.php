@@ -67,10 +67,10 @@ class MenuItems extends CActiveRecord
 			array('lft, rt, published, group_id, level, root', 'numerical', 'integerOnly'=>true),
 			array('type', 'numerical', 'integerOnly'=>true, 'message'=>'Тип должен быть выбран'),
 			array('group_id, alias, name', 'required'),
-			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text, header, path', 'safe'),
+			array('name, alias, icon, meta_description, meta_title, meta_keywords, seo_text, header, path, url_mark', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root, header, path', 'safe', 'on'=>'search'),
+			array('id, name, alias, icon, lft, rt, meta_description, meta_title, meta_keywords, seo_text, published, group_id, type, level, root, header, path, url_mark', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -112,6 +112,7 @@ class MenuItems extends CActiveRecord
 			'root' => 'Root',
 			'header' => 'Заголовок',
 			'path' => 'Путь',
+                        'url_mark' => 'ID 1C'
 		);
 	}
 
@@ -143,6 +144,7 @@ class MenuItems extends CActiveRecord
 		$criteria->compare('root',$this->root);
 		$criteria->compare('header',$this->header);
 		$criteria->compare('path',$this->path);
+		$criteria->compare('url_mark',$this->path);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
