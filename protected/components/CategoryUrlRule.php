@@ -125,7 +125,7 @@ class CategoryUrlRule extends CBaseUrlRule
         $breadcrumbs[]=$this->desiredMenuItem->name;
         
         // for mightiness and tehcikl
-        if(!empty($additionalParam)){
+        if(!empty($additionalParam)) {
             $path = substr($pathInfo, strpos($pathInfo, '/')+1);
             $label = $this->labelsMightiness[$additionalParam];
             if($path == 'tehcikl') $label = $this->labelsTech[$additionalParam];
@@ -135,7 +135,6 @@ class CategoryUrlRule extends CBaseUrlRule
             $breadcrumbs[$last] = $pathInfo;
             $breadcrumbs[] = $label;
         }
-        
         
         Yii::app()->params['breadcrumbs'] = $breadcrumbs;        
         Yii::app()->params['currentMenuBranch'] = $ancestors;
