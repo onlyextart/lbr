@@ -36,13 +36,15 @@ class AnaliticsController extends Controller
             //----- urlMark ----------
             $strBegin = strpos($model->url, Yii::app()->params['host']);
             $pathInfo = substr($model->url, $strBegin + strlen(Yii::app()->params['host']));
-            $urlMark = MenuItems::model()->find(
+            $menuItem = MenuItems::model()->find(
                 'path=:path',
                 array(':path'=>$pathInfo)
-            )->url_mark;
+            );
             
-            if(!empty($urlMark)) 
-                $model->url_mark = $urlMark;
+            if(!empty($menuItem)){
+               if(!empty($menuItem->url_mark)) $model->url_mark = $menuItem->url_mark;
+            }
+            
             //----- end urlMark ------
             
             $model->save();
