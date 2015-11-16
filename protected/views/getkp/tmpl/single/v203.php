@@ -659,7 +659,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>      
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>      
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -743,7 +743,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         
         <tr>
             <td>
@@ -1114,91 +1114,7 @@
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-        <tr>
-            <td>
-                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Сеялка точного высева Sigma 5</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/sfoggia_logo.jpg" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Технические характеристики</span>
-                                        <br>
-                                        <table width="300" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                    <tr bgcolor="#d1d3d4">
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">SIGMA 5</span></td>                         
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Необходимая мощность трактора,л.с.</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">80-100</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Кол-во высевающих модулей для сева кукурузы и подсолнечника</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">8 на 70 см</span></td>                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Высевающие диски</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">8 дисков под кукурузу (26 отв., диам.4,5мм), 8 дисков под подсолнечник (26 отв., диам.2,5мм)</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Ширина рамы, м</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">6</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Объем бункеров под семена, л</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">50</span></td>                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Максимальнаяскорость, км/ч</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1,06</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса разбрасывателя, кг</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">10-12</span></td>                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса сеялки, кг</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1600</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;">Цена весенняя</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price17']; ?></span></td>
-                                    </tr>
-                                    
-                                    </table>
-                                    </td>
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mtz1221_13.jpg" width="300" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                </table> 
-            </td>
-        </tr>
+        
         <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
@@ -1259,7 +1175,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1345,7 +1261,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1496,7 +1412,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1571,7 +1487,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1783,7 +1699,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1833,7 +1749,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
                 
         
         <tr>
