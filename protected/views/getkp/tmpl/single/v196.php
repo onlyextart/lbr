@@ -357,7 +357,7 @@
                 </table> 
             </td>
         </tr>
-        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block; "/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -468,7 +468,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -543,101 +543,6 @@
             </td>
         </tr>
         <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-        <tr>
-            <td>
-                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Междурядный культиватор Thema 8</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/sfoggia_logo.jpg" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Технические характеристики</span>
-                                        <br>
-                                        <table width="300" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                    <tr bgcolor="#d1d3d4">
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Thema 8</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество секций</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">9</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество обрабатываемых рядов</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">8</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Междурядное расстояние, см</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">70</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество рыхляхщих лап/на ряд</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">5</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Ширина лапы, см</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">15</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Механизм копирования секций</span></td>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">параллелограмм на метеллическом или обрезиненном колесе</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Механизм защиты растений</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">защитные пластины</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Глубина обработки, см</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1-10</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Комплект внесения удобрений</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">по заказу</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Мощность трактора, л.с.</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">60-100</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;  color: blue; text-transform: uppercase;">Цена весенняя</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price9']; ?></span></td>
-                                    </tr>
-                                   
-                                    </table>
-                                    </td>
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mtz82_8.jpg" width="300" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                </table> 
-            </td>
-        </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -851,7 +756,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -999,7 +904,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr  style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1070,7 +975,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1160,7 +1065,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1233,90 +1138,6 @@
                                     </td>
                                     <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
                                     <td align="right"><img src="http://www.lbr.ru/images/kp/mtz82_15.jpg" width="300" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                </table> 
-            </td>
-        </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-         <tr>
-            <td>
-                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Опрыскиватели навесные MOSQUITO</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mosquita-logo.jpg" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Технические характеристики</span>
-                                        <br>
-                                        <table width="300" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                    <tr bgcolor="#d1d3d4">
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Модель</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОP-312</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОP-612</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОP-615</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОP-812</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">ОP-815</span></td>                         
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочая ширина захвата штанги, м</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">12</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">12</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">15</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">12</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">15</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Резервуар, л</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">300</span></td> 
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">600</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">600</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">800</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">800</span></td>                                   
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Тип насоса</span></td>
-                                    <td colspan="5" align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">Мембранно-поршневой</span></td>
-                                    </tr>
-                                    
-                                                                       
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Требуемая мощность трактора, л.с.</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">30</span></td>
-                                    <td colspan="4" align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">50</span></td>
-                                    </tr>
-                                        
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;  color: blue; text-transform: uppercase;">Цена весенняя</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price21']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price22']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price23']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price24']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price25']; ?></span></td>
-                                    </tr>
-                                                                                                       
-                                   
-                                    </table>
-                                    </td>
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mtz82_16.jpg" width="300" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
@@ -1425,113 +1246,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-        <tr>
-            <td>
-                <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Картофелесажалки Kora</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/unia-logo.jpg" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                    <tr>
-                        <td>
-                            <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
-                                <tr valign="top">
-                                    <td>
-                                        <span style="font-family: Calibri, sans-serif; font-size: 16px; font-weight: bolder; color: #d1232a; text-transform: uppercase;">Технические характеристики</span>
-                                        <br>
-                                        <table width="300" cellspacing="0" cellpadding="0" align="center" border="1" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
-                                    <tr bgcolor="#d1d3d4">
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">Тип</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">KORA 2</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">KORA 4</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; font-weight: bold;">KORA 4HP</span></td>                        
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Количество рядов, шт.</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">2</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочая ширина, м</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1,4-1,5</span></td> 
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">3,00</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">3,0</span></td>                                   
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Ширина междурядий, см</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">70/75</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">75</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">75</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Рабочие обороты ВОМ, об/мин</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">400</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">840</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">2000</span></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Глубина посадки, см</span></td>
-                                    <td colspan="3" align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">4 -12</span></td>                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Производительность,га/ч</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,3-0,5</span></td>  
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">0,6-1,1</span></td> 
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1,6</span></td>                                   
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Масса, кг</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">370</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">895</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">1430</span></td>                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px;">Требуемая мощность трактора, л.с.</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">50</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">75</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;">75</span></td>
-                                    </tr>
-                                        
-                                    
-                                    <tr>
-                                    <td><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;">Цена весенняя</span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;  color: blue; text-transform: uppercase;" ><? echo $data['price27']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px; color: blue; text-transform: uppercase;" ><? echo $data['price28']; ?></span></td>
-                                    <td align="center"><span style="font-family: Calibri, sans-serif; font-size: 12px;  color: blue; text-transform: uppercase;" ><? echo $data['price29']; ?></span></td>
-                                    </tr>
-                                                                                                  
-                                   
-                                    
-                                    </table>
-                                    </td>
-                                    <td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/kp/mtz82_18.jpg" width="300" border="0" /></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
-                </table> 
-            </td>
-        </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1615,7 +1330,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1762,7 +1477,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -1827,7 +1542,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -2023,7 +1738,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -2091,7 +1806,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr  style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
@@ -2147,7 +1862,7 @@
                 </table> 
             </td>
         </tr>
-        <tr style="page-break-after: always;"><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
+        <tr><td><img src="http://www.lbr.ru/images/kp/10.gif" style="display: block;"/></td></tr>
         <tr>
             <td>
                 <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; ">
