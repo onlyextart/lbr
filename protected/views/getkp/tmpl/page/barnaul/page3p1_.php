@@ -1,4 +1,4 @@
-<?php
+<?php 
     $info = explode('<br>', $data['user_info']);
     $managerName = $info[0];
     unset($info[0]);
@@ -101,7 +101,7 @@
     <body>
         <div id="wrapper">
             <div class="main-content">
-                <!--header-->
+                header
                 <ul class="main-content-row">
                     <li style="width: 776px; background-color: #f29313;">
                         <div class="content" style="margin-top: 29px; margin-bottom: 5px; padding-right: 0px;">
@@ -113,7 +113,7 @@
                     </li>
                     <li style="width: 70px; background-color: #f29313;"></li>
                 </ul>
-                <!--content-->
+                content
                 <ul class="main-content-row">
                     <li style="width: 776px">
                         <div class="content">
@@ -187,7 +187,7 @@
                     </li>
                     
                 </ul>
-                <!--footer-->
+                footer
                 <ul class="main-content-row">
                     <li style="width: 776px">
                         <div class="content" style="margin-bottom: 46px">
