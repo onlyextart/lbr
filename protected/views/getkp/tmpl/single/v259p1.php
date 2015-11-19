@@ -66,7 +66,7 @@
                         <div class="content" style="margin-top: 15px;">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="padding-left: 20px; width: 440px; vertical-align: middle;">
-                                    <div style="font-size: 12pt;font-style:italic;"><?php echo $data['header']; ?></div>
+                                    <div style="font-size: 12pt;font-style:italic;"><?php echo $data['client']; ?></div>
                                 </li>
                                 <li style="width: 150px;">
                                     <div  style="">
