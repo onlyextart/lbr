@@ -43,7 +43,7 @@
                 display: table-cell;
             }
             .content{
-                padding: 227px 151px 0px 53px;
+                padding: 0px 151px 0px 53px;
             }
             .content p{
                 margin:0;
@@ -51,6 +51,7 @@
             }
            #list li{
                 display: list-item;
+                list-style-type:none;
                 /*list-style-image: url(http://www.lbr.ru/images/kp/lbr-list-style2.jpg);*/
                 /*margin-left: 15px;*/
             }
@@ -61,9 +62,9 @@
             <div class="main-content">
                 <!--content-->
                 <ul class="main-content-row">
-                    <li style="width: 590px">
+                    <li>
                         <div class="content">
-                            <div style="font-weight: 900; margin-top: 0px; margin-bottom: 30px; font-size: 12pt;">
+                            <div style="font-weight: 900; margin-top: 227px; margin-bottom: 30px; font-size: 12pt;">
                                 <p style="text-align:center;">
                                     <?php echo $data['client'] ?> !
                                 </p>
@@ -71,7 +72,7 @@
                             <div style="margin-top: 15px; font-size: 12pt;" align="left">
                                 К наступающему 2016 году мы подготовили новый выпуск каталога техники.  
                             </div>
-                            <div style="margin-top: 20px; font-size: 12pt;" align="left">
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
                                 В каталоге собраны: 
                             </div>
                             <div id="list" style="font-size: 12pt; text-align: left; margin-top: 5px;">
@@ -83,56 +84,56 @@
                                     <li> - а также новые разделы «Запасные части» и «Финансовые программы». </li>
                                 </ul>
                             </div>
-                            <div style="margin-top: 20px; font-size: 12pt;" align="left">
-                                Надеемся, что каталог станет для вас подспорьем в обновлении и укомплектовании парка машин.  
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
+                                Надеемся, что каталог станет для Вас подспорьем в обновлении и укомплектовании парка машин.  
                             </div>
-                            <div style="margin-top: 20px; font-size: 12pt;" align="left">
-                                Наш коллектив рад поздравить вас с наступающим Новым годом и Рождеством! 
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
+                                Наш коллектив рад поздравить Вас с наступающим Новым годом и Рождеством! 
                                 Пусть 2016 год  будет насыщен новыми планами, идеями, хорошими новостями и финансовыми успехами! 
                                 Желаем счастья и здоровья Вам и Вашим близким!   
                             </div>
-                            <div style="margin-top: 20px; font-size: 12pt;" align="left">
-                                Мы благодарим вас за то, что вы выбираете нас, и надеемся, что в следующем году наше сотрудничество станет более плодотворным и успешным.  
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
+                                Мы благодарим вас за то, что Вы выбираете нас, и надеемся, что в следующем году наше сотрудничество станет более плодотворным и успешным.  
                             </div>
-                            <div style="margin-top: 20px; font-size: 12pt;" align="justify">
+                            <div style="margin-top: 15px; font-size: 12pt;" align="justify">
                                 Приглашаем Вас также посетить нашу площадку с сезонными и постоянными экспозициями техники по адресу:
                             </div>
-                            <div style="margin-top: 10px; font-size: 12pt">
+                            <div style="font-size: 12pt; padding-right: 50px;">
                                 <i>
-                                   <!--адрес филиала-->
+                                   <? echo $filial['address']; ?><br>
+                                   т. <? echo $filial['telephone']; ?><br>
+                                   <? echo $filial['email']; ?>
                                 </i>
                             </div>
-                            
-                        </div>
-                        
-<!--                        <div class="content" style="margin-top: 65px; margin-bottom: 81px;">
-                            <ul class="main-content-row">
-                                <li style="">
-                                    <img src="http://www.lbr.ru/images/kp/lbr-photo-ufa.jpg" height="146px" alt="Logo" style="border: 0;"/>
-                                </li>
-                                <li style="vertical-align: bottom;">
-                                    <div style="margin-left: 31px; font-size: 12pt; position: relative">
-                                        <div style="">C уважением, <br/> директор Уфимского АгроМаркета ЛБР</div>
-                                        <div style="margin-top: 65px; padding-bottom: 12px; margin-bottom: 12px">
-                                            <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
-                                            <span style="float: right; text-align: right; margin-left: 10px">
-                                                Шайхутдинов Р. И.
-                                            </span>
+                            </div>
+                            <div class="content" style="margin-top: 30px;">
+                                <ul class="main-content-row">
+                                    <li style="">
+                                        <img src=<?php echo '"http://www.lbr.ru'.$filial['director_photo'].'"'?> height="146px" alt="Logo" style="border: 0;"/>
+                                    </li>
+                                    <li style="vertical-align: bottom;">
+                                        <div style="margin-left: 31px; font-size: 12pt; position: relative">
+                                            <div style="">C уважением, <br/> директор г. <?php echo $filial['name']; ?></div>
+                                            <div style="margin-top: 85px; padding-bottom: 12px; margin-bottom: 12px">
+                                                <span style="vertical-align: bottom; line-height: 1; float: left; border-bottom: 1px black solid; width: 158px"><pre></pre></span>
+                                                <span style="float: right; text-align: right; margin-left: 10px">
+                                                    <?php echo $filial['director_surname']." ".$filial['director_name']." ".$filial['director_secondname']; ?>
+                                                </span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>-->
+                                    </li>
+                                </ul>
+                            </div>
                     </li>
                     
                 </ul>
                 <!--footer-->
                 <ul class="main-content-row">
-                    <li style="width: 794px">
-                        <div class="content">
+                    <li>
+                        <div class="content" style="margin-top: 45px;">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="width:78%; min-width: 200px">
-                                    <div style="margin-top: 30px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
+                                    <div style="margin-top: 0px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
                                 </li>
                                 <li style="">
                                     <div style="text-align: left">
