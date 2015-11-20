@@ -23,7 +23,7 @@
                 border-collapse: collapse;
             }
             #wrapper {
-                width: 784px;
+                width: 794px;
                 margin: 0 auto;
                 padding: 0;
                 border: 0;
@@ -43,7 +43,7 @@
                 display: table-cell;
             }
             .content{
-                padding: 0px 50px 0px 50px;
+                padding: 0px 151px 0px 53px;
             }
             .content p{
                 margin:0;
@@ -61,7 +61,7 @@
         
          <div id="wrapper">
             <div class="main-content">
-<!--                <ul class="main-content-row">
+                <ul class="main-content-row">
                     <li>
                         <div class="content" style="margin-top: 15px;">
                             <ul class="main-content-row" style="font-size: 9pt;">
@@ -78,32 +78,12 @@
                               </ul>
                           </div>
                         </li>
-                     </ul>-->
-                  
-                <ul class="main-content-row">
-                    <li>
-                         <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                            <div class="content" style="background:url('http://www.lbr.ru/images/kp/default/header_logo_orange.jpg'); height:153px;">
-                                <ul class="main-content-row" style="font-size: 9pt;">
-                                    <li style=" width: 784px; height:153px; text-align: right;">
-                                        <div style="font-size: 15pt;font-style:italic;color:#707070; font-weight:bold;padding:105px 10px 20px 0px;">г. <?php echo $filial['name']; ?></div>
-                                    </li>
-                                </ul>
-                            </div>
-                          </a>
-                        </li>
                      </ul>
-                
                 <!--content-->
                 <ul class="main-content-row">
                     <li>
                         <div class="content">
-                            <div style="margin-top: 40px; font-weight: 900; font-size: 12pt;">
-                                <p style="text-align:center;">
-                                    <?php echo $data['client'] ?> !
-                                </p>
-                            </div>
-                            <div style="margin-top: 25px; font-size: 12pt;" align="left">
+                            <div style="margin-top: 45px; font-size: 12pt;" align="left">
                                 К наступающему 2016 году мы подготовили новый выпуск каталога техники.  
                             </div>
                             <div style="margin-top: 15px; font-size: 12pt;" align="left">
@@ -121,12 +101,12 @@
                             <div style="margin-top: 15px; font-size: 12pt;" align="left">
                                 Надеемся, что каталог станет для Вас подспорьем в обновлении и укомплектовании парка машин.  
                             </div>
-                            <div style="margin-top: 15px; font-size: 12pt; font-style: italic;" align="left">
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
                                 Наш коллектив рад поздравить Вас с наступающим Новым годом и Рождеством! 
                                 Пусть 2016 год  будет насыщен новыми планами, идеями, хорошими новостями и финансовыми успехами! 
                                 Желаем счастья и здоровья Вам и Вашим близким!   
                             </div>
-                            <div style="font-size: 12pt;  font-style: italic;" align="left">
+                            <div style="margin-top: 15px; font-size: 12pt;" align="left">
                                 Мы благодарим вас за то, что Вы выбираете нас, и надеемся, что в следующем году наше сотрудничество станет более плодотворным и успешным.  
                             </div>
                             <div style="margin-top: 15px; font-size: 12pt;" align="justify">
@@ -164,7 +144,7 @@
                 <!--footer-->
                 <ul class="main-content-row">
                     <li>
-                        <div class="content" style="margin-top: 65px;">
+                        <div class="content" style="margin-top: 45px;">
                             <ul class="main-content-row" style="font-size: 9pt;">
                                 <li style="width:78%; min-width: 200px">
                                     <div style="margin-top: 0px; text-align: left; font-weight: 900">Ваш персональный менеджер <?php echo $managerName ?></div>
