@@ -61,24 +61,6 @@
         
          <div id="wrapper">
             <div class="main-content">
-<!--                <ul class="main-content-row">
-                    <li>
-                        <div class="content" style="margin-top: 15px;">
-                            <ul class="main-content-row" style="font-size: 9pt;">
-                                <li style="padding-left: 20px; width: 440px; vertical-align: middle;">
-                                    <div style="font-size: 12pt;font-style:italic;"><?php echo $data['client']; ?>!</div>
-                                </li>
-                                <li style="width: 150px;">
-                                    <div  style="">
-                                     <a href="http://www.lbr.ru/" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                                        <img src="http://www.lbr.ru/images/kp/default/mail-lbr-logo-orange.jpg" width="150" height="75" style="border: 0; float: right;" alt="Логотип ЛБР-Агромаркет">
-                                    </a>
-                                    </div>
-                                </li>
-                              </ul>
-                          </div>
-                        </li>
-                     </ul>-->
                   
                 <ul class="main-content-row">
                     <li>
