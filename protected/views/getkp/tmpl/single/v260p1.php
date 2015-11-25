@@ -15,7 +15,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/260-pallada/v260-1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                             </tr>
                             <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -26,161 +26,66 @@ endif;
                                         </p>
                                     </td>
                                 </tr>
-                            <?php endif; ?>
-                            <tr>
-                                <td style="padding: 20px 0px 10px 0px;">
-                                    <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr>
-                                            <td>
-                                                <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align:center; color: #f58220; ">
-                                                    ПРЕИМУЩЕСТВА СМЕСИТЕЛЯ-КОРМОРАЗДАТЧИКА LIMOUSINE:
-                                                </p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
+                            <?php endif; ?>                            
                         </table>
                     </td></tr>
                 <tr><td style="padding: 0px 20px 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             
                             <tr valign="top">
-                                <td width="300" style="padding: 5px 5px 0px 0px;">
-                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/2.jpg" width="295" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                <td width="90" style="padding: 5px 5px 0px 0px;">
+                                    <img src="http://www.lbr.ru/images/kp/260-pallada/v260-2.jpg" width="80" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
-                                <td width="460" style="padding: 5px 0px 0px 10px;">
-                                    <table width="450" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                <td width="660" style="padding: 5px 0px 0px 10px;">
+                                    <table width="650" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Высокая скорость загрузки и приготовления кормов (20-25 минут на один замес)
+                                            <td style="padding:5px 0px 15px 0px;" >
+                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: justify; color:black; ">
+                                                    ПАЛЛАДА – борона дисковая предназначена для ресурсосберегающей предпосевной обработки почвы под посев зерновых, технических и кормовых культур, 
+                                                    уничтожения сорняков и измельчения пожнивных остатков после уборки посевных культур, а также измельчения, выравнивания и уплотнения почвы после дискования.
                                                 </p>
                                             </td> 
                                         </tr>
-                                        <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Смешивание и измельчение компонентов корма во время движения
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                         <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Система TOP Cut – система контрножей, которые выходят и заходят автоматически, оператор, изменяя интервал между впуском и выпуском ножей, 
-                                                    регулирует длину резки и контролирует мягкость или жесткость смешивания.
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                        <tr>
-                                        
                                     </table>
                                 </td>
                             </tr>
-                            
+                            <tr style="background: #818284; padding: 15px;">
+                                <td colspan="2" style="padding: 15px;">
+                                        <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align: center;">
+                                            ДЛЯ ИСПОЛЬЗОВАНИЯ В ПОЧВЕННОКЛИМАТИЧЕСКИХ УСЛОВИЯХ С <br />
+                                            ВЛАЖНОСТЬЮ ПОЧВЫ ДО 27%, <br />
+А ТАКЖЕ НА ПОЛЯХ С БОЛЬШИМ КОЛИЧЕСТВОМ ПОЖНИВНЫХ ОСТАТКОВ. <br />
+                                        </p>
+                                    </td>
+                                </tr>
                         </table>
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center"  valign="top" style="border: 0; border-collapse: collapse; background: white;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td width="460" valign="middle" style="padding:5px 10px 0px 0px;">
-                                    <table width="410" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                        
-                                        <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                        Улучшенная резка за счет высокой скорости вращения режущей фрезы (800 оборотов в минуту).
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Вместимость бункера 23 м3
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Сверхточная система взвешивания Graphic
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                        
-                                        <tr>
-                                            <td style="padding:5px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Комфортабельная кабина водителя
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px 0px 0px 0px;" >
-                                                <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
-                                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/4.jpg" width="12" style="border: 0; float: left; padding: 0 15px 0 0;" alt="Картинки не отображаются">
-                                                    Возможность передвижения крабовым ходом, высокая маневренность и плавность движения.
-                                                </p>
-                                            </td> 
-                                        </tr>
-                                    </table>
+                                <td style="padding-top: 10px;">
+                                    <img src="http://www.lbr.ru/images/kp/260-pallada/v260-3.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
-                                       
-                                <td width="275" style="padding:5px 0px 0px 15px;">
-                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/3.jpg" width="260" style="border: 0; float: left;" alt="Картинки не отображаются">
-                                 </td>
-                            </tr>           
+                            </tr>                          
                         </table>
                     </td></tr>
                             <tr>
                                 <td style="padding: 20px 0px 10px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td>
-                                                <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align:center; color: #f58220; ">
-                                                    ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ
+                                            <td width="300" style="padding: 0 15px 0 0;">
+                                                <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:center; color: black; ">
+                                                    Каждый диск бороны установлен на индивидуальной стойке, что позволяет бороне работать на полях с большим количеством растительных остатков и сорняков, 
+                                                    исключая наматывание растительных остатков на ось диска и забивание междискового пространства, а также обеспечивает высокую ремонтопригодность агрегата.
+                                                </p>
+                                            </td>
+                                            <td width="300" valign="top">
+                                                <p style="margin: 0px; padding: 0 1z0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:center; color: black; ">
+                                                    Дисковые бороны Паллада могут быть укомплектованы диском с большим диаметром – 660 мм вместо 560 мм, что позволило увеличить рабочую скорость и глубину обработки почвы.
                                                 </p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
-                            </tr>
-                            <tr><td style="padding: 10px 0px 10px 0px;">
-                            <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" border="1" bordercolor="#808285" align="center" style="border-collapse: collapse; background: white; border-left: 1px solid grey; border-top: 1px solid grey; border-color:  #808285; ">
-                                <tbody>
-                                    <tr>
-                                        <td width="15%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background-color: #d1d3d4;background-clip: padding-box;">Модель</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">А</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">B</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">C</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">D</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">E</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">F</td>
-                                        <td width="10%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">G</td>
-                                        <td width="15%" style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #d1d3d4;background-clip: padding-box;">Масса, кг</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">23</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2 350</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2 000</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2 450</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3 280</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4 330</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4 800</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">10 430</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">14 200</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                    </td></tr>
-                
+                            </tr>   
                 <!-- Контент первого блока; -->
             </table>
             <!-- Внутренности блока; -->
@@ -202,21 +107,44 @@ endif;
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr>
                     <td style="padding: 0px 0px 10px 0px;">
-                        <table width="500" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td width="60" style="padding:5px 10px 0px 0px;">
-                                    <img src="http://www.lbr.ru/images/kp/255-limuzin/5.jpg" width="60" style="border: 0; float: left;" alt="Картинки не отображаются">
-                                 </td>
-                                <td width="400">
-                                    <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: normal; text-align: justify; color:black; ">
-                                        Приобрести Смеситель-кормораздатчик Limousine можно в лизинг на выгодных условиях.
-                                    </p>
-                                    <p style="margin: 0px; padding: 5px 0 0; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align:left; color: #f58220; ">
-                                        ТАБЛИЦА РАСЧЕТА ЛИЗИНГОВЫХ ПЛАТЕЖЕЙ
-                                    </p>
-                                </td>
-                            </tr>
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                         <tr style="background: #F79525; padding: 0px;">
+                             <td style="padding: 15px; text-align: right;">
+                                 <img src="http://www.lbr.ru/images/kp/260-pallada/v260-6.png" width="50" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                
+                             </td>   
+                             <td style="padding: 0px;">
+                                 <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: left;">
+                                     КОНСТРУКЦИЯ АГРЕГАТА ОБЕСПЕЧИВАЕТ ПЛАВНУЮ РЕГУЛИРОВКУ УГЛА АТАКИ КАЖДОГО
+                                     РЯДА ДИСКОВ В ПРЕДЕЛАХ ОТ 0° ДО 30°, ЧТО ПОЗВОЛЯЕТ ОПТИМАЛЬНО НАСТРОИТЬ БОРОНУ
+                                     ДЛЯ РАЗЛИЧНЫХ ТИПОВ ПОЧВЫ.
+                                 </p>
+                             </td>
+                         </tr>
                         </table>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0px 0px 10px 0px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                         <tr style="padding: 15px;">
+                             <td style="padding: 15px;">
+                                 <img src="http://www.lbr.ru/images/kp/260-pallada/v260-5.jpg" width="300" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                
+                             </td>   
+                             <td style="padding: 15px;">
+                                 <p style="margin: 0; color: black; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align: center;">
+                                     ТРУБЧАТЫЙ ШЛЕЙФ-КАТОК
+                                     ПРЕДНАЗНАЧЕН ДЛЯ СМЕШИВАНИЯ
+                                     РАСТИТЕЛЬНЫХ ОСТАТКОВ С ПОЧВОЙ,
+                                     ВЫРАВНИВАНИЯ И УПЛОТНЕНИЯ ПОЧВЫ,
+                                     А ТАКЖЕ "ВЫЧЕСЫВАНИЯ" СОРНЯКОВ.
+                                 </p>
+                             </td>
+                         </tr>
+                        </table>
+                        
                     </td>
                 </tr>
                 <tr valign="top">
