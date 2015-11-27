@@ -87,8 +87,8 @@ endif;
                         </table>
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
-                                <td>
-                                    <img src="http://www.lbr.ru/images/kp/261-seyalka/v261-3.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                <td style="padding: 10px 0 0;">
+                                    <img src="http://www.lbr.ru/images/kp/261-seyalka/v261-7.png" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                             </tr>                          
                         </table>
@@ -199,6 +199,10 @@ endif;
                                 <tr>
                                     <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Требуемая мощность, л.с.</td>
                                     <td style="margin: 0; padding: 2px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">от 80</td>
+                                </tr>
+                                <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;">Цена с НДС, руб.</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price1']; ?></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -59,29 +59,79 @@ endif;
                                     </td>
                                 </tr>
                         </table>
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td style="padding-top: 10px;">
-                                    <img src="http://www.lbr.ru/images/kp/260-pallada/v260-3.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
-                                </td>
-                            </tr>                          
-                        </table>
                     </td></tr>
                             <tr>
                                 <td style="padding: 20px 0px 10px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="300" style="padding: 0 15px 0 0;">
-                                                <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:center; color: black; ">
-                                                    Каждый диск бороны установлен на индивидуальной стойке, что позволяет бороне работать на полях с большим количеством растительных остатков и сорняков, 
-                                                    исключая наматывание растительных остатков на ось диска и забивание междискового пространства, а также обеспечивает высокую ремонтопригодность агрегата.
-                                                </p>
+                                                <img src="http://www.lbr.ru/images/kp/260-pallada/v260-7.jpg" width="300" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                
                                             </td>
                                             <td width="300" valign="top">
-                                                <p style="margin: 0px; padding: 0 1z0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:center; color: black; ">
-                                                    Дисковые бороны Паллада могут быть укомплектованы диском с большим диаметром – 660 мм вместо 560 мм, что позволило увеличить рабочую скорость и глубину обработки почвы.
+                                                <table width="400" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <tr>
+                                                        <td width="30" valign="top" style="padding: 0;">
+                                                            <img src="http://www.lbr.ru/images/kp/260-pallada/znak1.png" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
+
+                                                        </td>
+                                                        <td width="300" valign="top">
+                                                            <p style="margin: 0px; padding: 0 1z0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:justify; color: #8B5E3C; ">
+                                                                <b>КАЖДЫЙ ДИСК БОРОНЫ УСТАНОВЛЕН НА ИНДИВИДУАЛЬНОЙ СТОЙКЕ,</b>
+                                                                что позволяет бороне работать на полях с
+                                                                большим количеством растительных
+                                                                остатков и сорняков, исключая наматывание
+                                                                растительных остатков на ось диска и
+                                                                забивание междискового пространства, а
+                                                                также обеспечивает высокую
+                                                                ремонтопригодность агрегата.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="30" valign="top" style="padding: 10px 0 0 0;">
+                                                            <img src="http://www.lbr.ru/images/kp/260-pallada/znak1.png" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
+
+                                                        </td>
+                                                        <td width="300" valign="top" style="padding: 10px 15px 0 0;">
+                                                            <p style="margin: 0px; padding: 0 1z0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:justify; color: #8B5E3C; ">
+                                                                <b>Дисковые бороны Паллада могут быть укомплектованы диском с большим диаметром – 660 мм</b> вместо 560 мм, что позволило увеличить рабочую скорость и глубину обработки почвы.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr> 
+                            <tr><td style="padding: 0 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td style="padding-top: 3px;">
+                                    <img src="http://www.lbr.ru/images/kp/260-pallada/v260-line.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                </td>
+                            </tr>                           
+                        </table>
+                    </td></tr>
+                            <tr>
+                                <td style="padding: 0;">
+                                    <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td width="300" style="padding: 0 15px 0 0;">
+                                                <p style="margin: 0px; padding: 0 1z0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:justify; color: #8B5E3C; ">
+                                        <b>КОНСТРУКЦИЯ АГРЕГАТА
+                                                ОБЕСПЕЧИВАЕТ ПЛАВНУЮ РЕГУЛИРОВКУ
+                                                УГЛА АТАКИ КАЖДОГО РЯДА ДИСКОВ В
+                                                ПРЕДЕЛАХ ОТ 0° ДО 30°,</b>
+                                                что позволяет оптимально настроить
+                                                борону для различных типов почвы.
                                                 </p>
                                             </td>
+                                            <td width="300" style="padding: 0 15px 0 0;">
+                                                <img src="http://www.lbr.ru/images/kp/260-pallada/v260-6.jpg" width="300" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                
+                                            </td>                                            
                                         </tr>
                                     </table>
                                 </td>
@@ -108,33 +158,13 @@ endif;
                 <tr>
                     <td style="padding: 0px 0px 10px 0px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                         <tr style="background: #F79525; padding: 0px;">
-                             <td style="padding: 15px; text-align: right;">
-                                 <img src="http://www.lbr.ru/images/kp/260-pallada/v260-6.png" width="50" style="border: 0; float: left;" alt="Картинки не отображаются">
-                                
-                             </td>   
-                             <td style="padding: 0px;">
-                                 <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; font-weight: bold; text-align: left;">
-                                     КОНСТРУКЦИЯ АГРЕГАТА ОБЕСПЕЧИВАЕТ ПЛАВНУЮ РЕГУЛИРОВКУ УГЛА АТАКИ КАЖДОГО
-                                     РЯДА ДИСКОВ В ПРЕДЕЛАХ ОТ 0° ДО 30°, ЧТО ПОЗВОЛЯЕТ ОПТИМАЛЬНО НАСТРОИТЬ БОРОНУ
-                                     ДЛЯ РАЗЛИЧНЫХ ТИПОВ ПОЧВЫ.
-                                 </p>
-                             </td>
-                         </tr>
-                        </table>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding: 0px 0px 10px 0px;">
-                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                          <tr style="padding: 15px;">
                              <td style="padding: 15px;">
                                  <img src="http://www.lbr.ru/images/kp/260-pallada/v260-5.jpg" width="400" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 
                              </td>   
                              <td style="padding: 15px;">
-                                 <p style="margin: 0; color: black; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align: center;">
+                                 <p style="margin: 0; color: black; font-family: 'Trebuchet MS', sans-serif; font-size: 18px; font-weight: bold; text-align: left;">
                                      ТРУБЧАТЫЙ ШЛЕЙФ-КАТОК
                                      ПРЕДНАЗНАЧЕН ДЛЯ СМЕШИВАНИЯ
                                      РАСТИТЕЛЬНЫХ ОСТАТКОВ С ПОЧВОЙ,
@@ -239,6 +269,15 @@ endif;
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center;  border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; color:black;">120</td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center;  border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; color:black;">150</td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center;  border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; color:black;">200</td>                                
+                                </tr>                                
+                                <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;">Цена с НДС, руб.</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price1']; ?></td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price2']; ?></td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price3']; ?></td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price4']; ?></td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price5']; ?></td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #ececec;background-clip: padding-box;"><?php echo $data['price6']; ?></td>
                                 </tr>
                             </tbody>
                         </table>
