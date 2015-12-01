@@ -113,13 +113,9 @@ class MenuController extends Controller{
     }
     
     public function actionUpdateMenuItem( $id )
-    {   
-//        echo '<pre>';
-//        var_dump($id); 
-//        exit;
-        
+    {
         $menuModel = MenuItems::model()->findByPk($id);
-        echo 1; exit;
+        
         if(isset($_POST['MenuItems'])){
             $menuModel->attributes = $_POST['MenuItems'];
             if( $menuModel->saveNode() ){
@@ -127,6 +123,7 @@ class MenuController extends Controller{
                 Yii::app()->user->setFlash( 'saved', 'Меню успешно создано!' );
             }
         }
+        echo 2; exit;
         if( isset($_GET['ajax']) ){
             $this->renderPartial( 'menuManage', array( 'menuModel'=>$menuModel ), false, true );
         }
