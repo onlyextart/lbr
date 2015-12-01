@@ -138,7 +138,7 @@ else{
         <h3>Содержимое пункта меню</h3>
         <div class="form admin_additional_features_content">
             <?php
-                //$menuModel->getItemContent();
+                $menuModel->getItemContent();
             ?>
         </div>
     </div>
