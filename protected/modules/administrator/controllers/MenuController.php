@@ -115,7 +115,7 @@ class MenuController extends Controller{
     public function actionUpdateMenuItem( $id )
     {   
         echo '<pre>';
-        var_dump($_GET); 
+        var_dump($id); 
         exit;
         
         $menuModel = MenuItems::model()->findByPk( $id );
