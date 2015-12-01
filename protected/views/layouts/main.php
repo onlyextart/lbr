@@ -75,6 +75,15 @@
         
     </head>
     <body>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WLWGHH"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WLWGHH');</script>
+        <!-- End Google Tag Manager -->
         <header>
             <div class="logo">
                 <a href="/">
@@ -255,15 +264,15 @@
 
         <!-- Google Code for Тег ремаркетинга -->
         <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             /* <![CDATA[ */
             var google_conversion_id = 937148831;
             var google_conversion_label = "3KwoCLnvnwUQn4PvvgM";
             var google_custom_params = window.google_tag_params;
-            var google_remarketing_only = true;
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-        <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/937148831/?value=0&amp;label=3KwoCLnvnwUQn4PvvgM&amp;guid=ON&amp;script=0"/></div></noscript>
+            var google_remarketing_only = true; 
+            /* ]]>
+        </script>-->
+        <!-- <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script> -->
+        <!-- <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/937148831/?value=0&amp;label=3KwoCLnvnwUQn4PvvgM&amp;guid=ON&amp;script=0"/></div></noscript> -->
     </body>
 </html>
