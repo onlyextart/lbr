@@ -3,7 +3,7 @@
  * $menuModel модель меню
  */
 
-echo 11; exit;
+
 if($menuModel->isNewRecord){
     if( isset($_GET['rootId']) ){
         $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
@@ -14,8 +14,7 @@ if($menuModel->isNewRecord){
             $pageHeader = 'Добавить новый пункт меню';
         }
     }
-}
-else{
+} else {
     $pageHeader = 'Редактирование пункта меню "'.$menuModel->name.'"';
 }
 ?>
@@ -27,7 +26,7 @@ else{
     .admin_additional_features{float:left; width:40%;}
     .button-column img{width:16px; height:16px;}
 </style>
-<div class="form">
+<!--div class="form">
 <?php $form = $this->beginWidget('CActiveForm', array(
             'id'=>'menuItem_form',
             'enableClientValidation'=>true,
@@ -144,7 +143,7 @@ else{
             ?>
         </div>
     </div>
-</div>
+</div-->
 <?php  $this->endWidget();?>
 <script>
     $(".admin_additional_features").accordion({ header: "h3" , collapsible: true, active:false, heightStyle: "content"});
