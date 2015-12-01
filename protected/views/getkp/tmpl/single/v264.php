@@ -179,7 +179,7 @@
                                 <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">Ждем Вас в филиале ЛБР-АгроМаркет (<b><?php echo $filial['name']; ?></b>)!</span><br></td>
                             </tr>
                             <tr>
-                                <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $filial['work_time']; ?></span><br></td>
+                                <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;">Время работы: пн.-пт. <?php echo $filial['work_time']; ?></span><br></td>
                             </tr>
                             <tr>
                                 <td><span style="font-family: 'Trebuchet MS', sans-serif; font-size: 13px;"><?php echo $filial['address']; ?></span><br></td>
