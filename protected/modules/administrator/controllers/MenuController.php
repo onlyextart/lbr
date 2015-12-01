@@ -126,7 +126,7 @@ class MenuController extends Controller{
         
         if( isset($_GET['ajax']) ){
             //echo 3; exit;
-            $this->renderPartial( 'menuManage', array( 'menuModel'=>$menuModel ), false, true );
+            $this->renderPartial('menuManage', array('menuModel'=>$menuModel));//, false, true );
         }
         else{
             $this->render('menuManage', array( 'menuModel'=>$menuModel ) );
