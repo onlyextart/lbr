@@ -32,21 +32,21 @@ else{
             'clientOptions'=>array(
             'validateOnSubmit'=>true,
             'afterValidate'=>'js:function(form, data, hasError){
-                    if(!hasError){
-                        $.ajax({
-                                "type":"POST",
-                                "url":$("#menuItem_form").attr("action"),
-                                "data":form.serialize(),
-                                "success":function(data){$("#test").html(data); setTimeout(function(){
-                                    menuTreeView.updateTree('.$menuModel->isNewRecord.');
-                                    alertify.success("Сохранено");
-                                }, 500);},
-                        });
-                    }
-                    else{
-                        alertify.error("Поля формы заполнены не верно");
-                    }
-                }'
+                                if(!hasError){
+                                    $.ajax({
+                                            "type":"POST",
+                                            "url":$("#menuItem_form").attr("action"),
+                                            "data":form.serialize(),
+                                            "success":function(data){$("#test").html(data); setTimeout(function(){
+                                                menuTreeView.updateTree('.$menuModel->isNewRecord.');
+                                                alertify.success("Сохранено");
+                                            }, 500);},
+                                    });
+                                }
+                                else{
+                                    alertify.error("Поля формы заполнены не верно");
+                                }
+                            }'
             ),
         )
     );?>
@@ -93,7 +93,14 @@ else{
         </div>
         <div class="row">
         <?php
-            echo CHtml::submitButton($menuModel->isNewRecord? 'Создать':'Сохранить',
+            echo CHtml::submitButton($menuModel->isNewRecord? 'Создать':'Сохранить', 
+                /*$form->action,
+                array( 
+                    'complete'=>'setTimeout(function(){menuTreeView.updateTree('.$menuModel->isNewRecord.');
+                            alertify.success("Сохранено");
+                        }, 500)', 
+                    'liveEvents'=>false,
+                ),*/
                 array(
                     'id'=>'saveMenuItem'.rand(),
                     'class'=>'btn btn-green'
@@ -137,3 +144,6 @@ else{
     </div>
 </div>
 <?php  $this->endWidget();?>
+<script>
+    $(".admin_additional_features").accordion({ header: "h3" , collapsible: true, active:false, heightStyle: "content"});
+</script>
