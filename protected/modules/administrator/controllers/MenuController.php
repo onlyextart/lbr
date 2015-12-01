@@ -123,8 +123,9 @@ class MenuController extends Controller{
                 Yii::app()->user->setFlash( 'saved', 'Меню успешно создано!' );
             }
         }
-        echo 2; exit;
+        
         if( isset($_GET['ajax']) ){
+            echo 3; exit;
             $this->renderPartial( 'menuManage', array( 'menuModel'=>$menuModel ), false, true );
         }
         else{
