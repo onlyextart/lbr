@@ -338,7 +338,6 @@ class MenuItems extends CActiveRecord
                 'criteria'=>$criteria,
                 'pagination'=>false
             ));
-            echo $this->type; exit;
             if( $this->type == self::BANNERS_MENU_ITEM_TYPE ){
                 $gridId = rand();
                 Yii::app()->getController()->widget('zii.widgets.grid.CGridView', array(
