@@ -112,7 +112,12 @@ class MenuController extends Controller{
         }
     }
     
-    public function actionUpdateMenuItem( $id ){
+    public function actionUpdateMenuItem( $id )
+    {   
+        echo '<pre>';
+        var_dump($_GET); 
+        exit;
+        
         $menuModel = MenuItems::model()->findByPk( $id );
         
         if(isset($_POST['MenuItems'])){
