@@ -4,7 +4,7 @@
  */
 
 
-if($menuModel->isNewRecord){
+if(empty($menuModel->id)){
     if( isset($_GET['rootId']) ){
         $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
         if( $rootModel !== null){
