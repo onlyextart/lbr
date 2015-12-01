@@ -103,5 +103,37 @@ else{
         ?>
         </div>
     </div>
+    <div class="admin_additional_features">
+        <label>Дополнительные параметры</label>
+        <h3>Мета теги и SEO текст</h3>
+        <div class="form admin_additional_features_content">
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_description'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_description'); ?>
+                <?php echo $form->textField($menuModel, 'meta_description', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_title'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_title'); ?>
+                <?php echo $form->textField($menuModel, 'meta_title', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'meta_keywords'); ?>
+                <?php echo $form->labelEx($menuModel, 'meta_keywords'); ?>
+                <?php echo $form->textField($menuModel, 'meta_keywords', array('style'=>'width:95%',)); ?>
+            </div>
+            <div class="row">
+                <?php echo $form->error($menuModel, 'seo_text'); ?>
+                <?php echo $form->labelEx($menuModel, 'seo_text'); ?>
+                <?php echo $form->textarea($menuModel, 'seo_text', array('style'=>'width:95%', 'rows'=>6,)); ?>
+            </div>
+        </div>
+        <h3>Содержимое пункта меню</h3>
+        <div class="form admin_additional_features_content">
+            <?php
+                //$menuModel->getItemContent();
+            ?>
+        </div>
+    </div>
 </div>
 <?php  $this->endWidget();?>
