@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 0px 20px;">
-                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormorazdatchiki-i-kombikormovye-mini-zavody/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Tehnika_dlja_prigotovlenija_kormov" target="_blank"><img src="http://www.lbr.ru/images/kp/262-evp17/header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/kormorazdatchiki-i-kombikormovye-mini-zavody/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Tehnika_dlja_prigotovlenija_kormov" target="_blank"><img src="http://www.lbr.ru/images/kp/266-evp17/header.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -44,7 +44,7 @@
                                             <tr>
                                             <td style="padding: 10px 0px 0px 20px; width: 130px;" valign="center">
                                                     <a href="http://www.lbr.ru/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                                                        <img src="http://www.lbr.ru/images/kp/262-evp17/logo.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
+                                                        <img src="http://www.lbr.ru/images/kp/266-evp17/logo.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
                                                 <td valign="top" style="width: 640px;  padding:20px 20px 0px 10px;text-align: center;">
@@ -73,12 +73,12 @@
                             <tr>
                                 <td width="380" valign="top" style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-vertikalnye/610-vertikalnye-smesiteli-kormorazdatchiki-senior/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Vertikalnyj_kormorazdatchik_Senior" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/1.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/1.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="380" valign="top" style="padding-top: 3px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-gorizontalnye/388-gorizontalnye-smesiteli-kormorazdatchiki-senior/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Gorizontalnye_smesiteli-kormorazdatchiki_Senior_i_Perseo" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                         <img src="http://www.lbr.ru/images/kp/262-evp17/2.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                         <img src="http://www.lbr.ru/images/kp/266-evp17/2.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -92,7 +92,7 @@
                             <tr>
                                 <td style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Izmelchitel_rulonov_Uniball" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/3.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/3.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -106,12 +106,12 @@
                             <tr>
                                 <td width="380" valign="top" style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/smesiteli-kormorazdatchiki-vertikalnye/788-kormorazdatchik-trehshnekovyj-vertikalnyj-triller/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kormorazdatchik_vertikalnyj_Triller" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/4.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/4.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="380" valign="top" style="padding-top: 3px; text-align: left;">
                                      <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/787-izmelchitel-senazha-sena-uniball-kronos/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Izmelchitel_Uniball_Kronos" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                         <img src="http://www.lbr.ru/images/kp/262-evp17/5.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                         <img src="http://www.lbr.ru/images/kp/266-evp17/5.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -124,7 +124,7 @@
                             <tr>
                                 <td style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/minikombikormovye-zavody-drobilki-plyushchilki/612-kombikormovyj-mini-zavod/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kombikormovyj_mini-zavod" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/6.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/6.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -138,7 +138,7 @@
                             <tr>
                                 <td style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/akcii/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/line.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/line.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -151,7 +151,7 @@
                             <tr>
                                 <td style="padding-top: 3px;">
                                     <a href="http://www.lbr.ru/akcii/?sb=EVP_17&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
-                                        <img src="http://www.lbr.ru/images/kp/262-evp17/footer.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/266-evp17/footer.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                             </tr>
