@@ -2,6 +2,8 @@
 /*
  * $menuModel модель меню
  */
+
+echo 11; exit;
 if($menuModel->isNewRecord){
     if( isset($_GET['rootId']) ){
         $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
