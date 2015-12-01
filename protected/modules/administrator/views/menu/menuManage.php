@@ -4,22 +4,22 @@
  */
 
 
-if(empty($menuModel->id)){
-    if( isset($_GET['rootId']) ){
-        $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
-        if( $rootModel !== null){
-            $pageHeader = 'Добавить новый пункт меню в "'.$rootModel->name.'"';
-        }
-        else{
-            $pageHeader = 'Добавить новый пункт меню';
-        }
-    }
-} else {
-    $pageHeader = 'Редактирование пункта меню "'.$menuModel->name.'"';
-}
+//if(empty($menuModel->id)){
+//    if( isset($_GET['rootId']) ){
+//        $rootModel = MenuItems::model()->findByPk($_GET['rootId']);
+//        if( $rootModel !== null){
+//            $pageHeader = 'Добавить новый пункт меню в "'.$rootModel->name.'"';
+//        }
+//        else{
+//            $pageHeader = 'Добавить новый пункт меню';
+//        }
+//    }
+//} else {
+//    $pageHeader = 'Редактирование пункта меню "'.$menuModel->name.'"';
+//}
 ?>
 <h2>
-    <?php echo $pageHeader ?>
+    <?php echo 444; //$pageHeader ?>
 </h2>
 <style>
     .admin_main_features{float:left; width:60%;}
