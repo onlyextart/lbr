@@ -175,7 +175,7 @@ return array(
             ),
             'Разные страницы' => '/administrator/pages/',
             'Сайт' => array(
-                'Аналитика' => '/administrator/analitics/',
+                //'Аналитика' => '/administrator/analitics/',
                 'Поисковые запросы' => '/administrator/search/',
                 'Индексирование страниц' => '/administrator/search/indexing/',
                 'Топ запросов' => '/administrator/search/top/'
