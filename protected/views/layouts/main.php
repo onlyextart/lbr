@@ -238,6 +238,7 @@
         
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
         <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
+        <?php $this->widget('ext.multanChatWidget.DieciChatWidget'); ?>
         <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
 
         <script>
