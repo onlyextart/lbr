@@ -3,7 +3,9 @@ class FinanceController extends Controller
 {
     public function actionIndex()
     {
-        $this->render('index',array());
+        $domain=Yii::app()->getBaseUrl(true);
+        $url=$domain.'/finance/products/';
+        Yii::app()->request->redirect($url,true);
     }
 
    
