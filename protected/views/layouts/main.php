@@ -99,26 +99,26 @@
                     <?php $href = 'selskohozyaystvennaya-tehnika'; ?>
                     <li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)) ||
                             (Yii::app()->request->cookies['rootmenualias']->value == 'selskohozyaystvennaya-tehnika' && Yii::app()->params['currentMenuItem']->level == 5))
-                        echo 'class="active"'
+                            echo 'class="active"'
                         ?> >
                         <a href="/selskohozyaystvennaya-tehnika/type/">
                             <img src="/images/mainMenuIcon/toppict1.png" alt="Сельскохозяйственная техника">
                             <span>Сельхоз техника</span>
                         </a>
                     </li>
-                    <?php $href = 'stroitelnaya-tehnika'; ?>
-                    <!--<li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)) ||
-                            (Yii::app()->request->cookies['rootmenualias']->value == 'stroitelnaya-tehnika' && Yii::app()->params['currentMenuItem']->level == 5))
-                        echo 'class="active"'
+                    <?php //$href = 'stroitelnaya-tehnika'; ?>
+                    <!--<li <?php // if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)) ||
+                            //(Yii::app()->request->cookies['rootmenualias']->value == 'stroitelnaya-tehnika' && Yii::app()->params['currentMenuItem']->level == 5))
+                        //echo 'class="active"'
                         ?> >
                         <a href="/stroitelnaya-tehnika/type/">
                             <img src="/images/mainMenuIcon/toppict4.png" alt="Строительная техника">
                             <span>Строительная техника</span>
                         </a>
                     </li>
-                    <?php $href = 'komunalnaya-tehnika'; ?>
-                    <li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)) || (Yii::app()->request->cookies['rootmenualias']->value == 'komunalnaya-tehnika' && Yii::app()->params['currentMenuItem']->level == 5))
-                        echo 'class="active"'
+                    <?php //$href = 'komunalnaya-tehnika'; ?>
+                    <li <?php //if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)) || (Yii::app()->request->cookies['rootmenualias']->value == 'komunalnaya-tehnika' && Yii::app()->params['currentMenuItem']->level == 5))
+                        //echo 'class="active"'
                     ?> >
                         <a href="/komunalnaya-tehnika/type/">
                             <img src="/images/mainMenuIcon/toppict5.png" alt="Коммунальная техника">
@@ -135,16 +135,31 @@
                             Запчасти
                         </span>
                     </li>
-                    <li>
+                    <?php $href = 'service'; ?>
+                    <li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)))
+                                echo 'class="active"'
+                            ?>>
                         <a href="/service/">
                             <img src="/images/mainMenuIcon/toppict3.png" alt="Сервисное обслуживание">
                             <span>Сервис</span>
                         </a>
                     </li>
-                    <li>
+                    <?php $href = 'akcii'; ?>
+                    <li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)))
+                                echo 'class="active"'
+                            ?>>
                         <a href="/akcii/">
                             <img src="/images/mainMenuIcon/toppict_akcii.png" alt="Акции">
                             <span>Акции<br>Скидки</span>
+                        </a>
+                    </li>
+                    <?php $href = 'finance'; ?>
+                    <li <?php if (is_numeric(strpos(mb_strtolower(Yii::app()->request->requestUri), $href)))
+                                echo 'class="active"'
+                            ?> >
+                        <a href="/finance/products/">
+                            <img src="/images/mainMenuIcon/toppict_finance.png" alt="Финансирование">
+                            <span>Финансовые<br>программы</span>
                         </a>
                     </li>
                 </ul>
