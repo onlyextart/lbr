@@ -80,6 +80,12 @@ class AkciiController extends Controller
         }    
         $this->render('index',array('response'=>$response));
     }
+    
+    public function actionFinanceGroup(){
+        $sql="INSERT INTO menu_groups(name,color) VALUES ('Финансовые программы','99d9ea')";
+        $row=Yii::app()->db->createCommand($sql)->execute();
+        echo $row;
+    }
 
    
 }
