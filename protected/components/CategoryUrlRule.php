@@ -14,6 +14,8 @@ class CategoryUrlRule extends CBaseUrlRule
         MenuItems::NEWS_MENU_ITEM_TYPE=>'news',
         MenuItems::MIGHTINESS_MENU_ITEM_TYPE=>'mightiness',
         MenuItems::TEHCIKL_MENU_ITEM_TYPE=>'tehcikl',
+        MenuItems::AKCII_MENU_ITEM_TYPE=>'akcii',
+        MenuItems::FINANCE_MENU_ITEM_TYPE=>'finance',
     );
 
     public $labelsMightiness = array(
@@ -73,6 +75,10 @@ class CategoryUrlRule extends CBaseUrlRule
                 $eventPage = '/page/'.$eventPage;
 
                 $pathInfo = substr($pathInfo, 0, $pos+14);
+            }else if(strpos($pathInfo, '/akcii/') !== false) { // for news
+                $eventPage = substr($pathInfo, $pos+6);
+                $additionalParam = substr($pathInfo, $pos+6);
+                $pathInfo = substr($pathInfo, 0, $pos+6);
             }
             
             if(!empty($additionalParam)) $additionalParam = '/sort'.$additionalParam;
@@ -81,7 +87,6 @@ class CategoryUrlRule extends CBaseUrlRule
                 array(':path'=>'/'.$pathInfo)
             );
         }
-        
         //Если не найден искомый пункт меню
         if($this->desiredMenuItem === null){
             return false; // не применяем данное правило

@@ -80,6 +80,6 @@ class AkciiController extends Controller
         }    
         $this->render('index',array('response'=>$response));
     }
-
+    
    
 }
