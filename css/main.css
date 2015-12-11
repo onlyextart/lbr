@@ -522,11 +522,15 @@ header:after {
   margin: 1em 0 2em;
   min-height: 300px;
 }
+
 .wrapper #content h1 {
   color: #0f9797;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+.wrapper #content h1.middle {
+    text-align: center;
 }
 .wrapper #content .form form#login-form {
   width: 35%;
