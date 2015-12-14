@@ -17,7 +17,7 @@ endif;
                             <tr>
                                 <td style="padding-top: 3px;">
                                     <a href="" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        <img src="http://www.lbr.ru/images/kp/271-kt6/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                        <img src="http://www.lbr.ru/images/kp/272-kt10/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -36,10 +36,10 @@ endif;
                                         <tr>
                                             <td>
                                                 <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:justify; color: black;line-height:20px; ">
-                                                    Кормораздатчик тракторный КТ-6 (полуприцеп одноосный, без поворотного круга) предназначен 
-                                                    для приема, транспортировки и раздачи измельченных листостебельных кормов, злаковых 
-                                                    или бобовых трав, измельченной соломы, резаных корнеплодов, а также полнорационных
-                                                    кормовых смесей.
+                                                    Кормораздатчик тракторный КТ-10 (полуприцеп со сдвоенными колесами на балансире, без
+                                                    поворотного круга) предназначен для приема, транспортировки и раздачи измельченных
+                                                    листостебельных кормов, злаковых или бобовых трав, измельченной соломы, резаных корне-
+                                                    плодов, а также полнорационных кормовых смесей.
                                                 </p>
                                             </td>
                                         </tr>
@@ -51,7 +51,7 @@ endif;
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
-                                               <img src="http://www.lbr.ru/images/kp/271-kt6/2.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                               <img src="http://www.lbr.ru/images/kp/272-kt10/2.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                     </table>
@@ -64,12 +64,12 @@ endif;
                                             <td width="220" valign="top" style="padding:3px 0px 0px 5px; vertical-align: top;">
                                                 <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px;">
                                                     Загрузка корма –
-                                                    до 2 т
+                                                    до 4 т
                                                 </p>
                                             </td>
                                             <td width="195" valign="top" style="padding:0px 20px 0px 0px; vertical-align: top;">
                                                 <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px;">
-                                                    Объем – 5,66 м<sup>3</sup>
+                                                    Объем – 10 м<sup>3</sup>
                                                 </p>
                                             </td>
                                             <td width="185" style="padding:0px 20px 0px 0px; vertical-align: top;">
@@ -93,7 +93,7 @@ endif;
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
-                                                <img src="http://www.lbr.ru/images/kp/271-kt6/line.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                <img src="http://www.lbr.ru/images/kp/272-kt10/line.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                     </table>
@@ -104,15 +104,15 @@ endif;
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="300" style="padding-right:20px;">
-                                                 <img src="http://www.lbr.ru/images/kp/271-kt6/3.jpg" width="280" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                                 <img src="http://www.lbr.ru/images/kp/272-kt10/3.jpg" width="280" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                             <td width="460" valign="top" style="padding-top: 10px;">
                                                  <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
                                                      Раздача кормов осуществляется во время движения 
                                                      кормораздатчика непрерывным регулируемым
-                                                     потоком в кормушки с высотой борта не более 750
-                                                     мм и шириной кормового прохода животноводческих 
-                                                     комплексов не менее 2100 мм, а также
+                                                     потоком в кормушки с высотой борта не более
+                                                     750 мм и шириной кормового прохода 
+                                                     животноводческих комплексов не менее 2100 мм, а также
                                                      подача в загрузочные воронки стационарных раздатчиков 
                                                      на животноводческих фермах, на откормочных площадках, 
                                                      выгульно-кормовых дворах и
@@ -127,15 +127,13 @@ endif;
                                 <td style="padding: 20px 0px 10px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td width="60" style="padding-right:15px;">
-                                                 <img src="http://www.lbr.ru/images/kp/271-kt6/mark.jpg" width="45" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                            <td width="50" style="padding-right:10px;">
+                                                 <img src="http://www.lbr.ru/images/kp/272-kt10/mark.jpg" width="40" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
-                                            <td width="700" valign="top">
-                                                 <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 24px; text-align:left; color: #00ad5e;line-height:20px;text-transform: uppercase;font-weight:bold;">
-                                                     Малогабаритный
-                                                </p>
-                                                <p style="margin: 0px; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                                     Рекомендован для ферм с шириной кормового прохода не менее 2100 мм.
+                                            <td width="710" valign="center">
+                                                 <p style="margin: 0px; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; text-align:left; color: black;line-height:20px;font-weight: ">
+                                                    РЕКОМЕНДОВАН ДЛЯ ФЕРМ С ШИРИНОЙ КОРМОВОГО ПРОХОДА НЕ МЕНЕЕ
+                                                    2100 ММ.
                                                 </p>
                                             </td>
                                         </tr>
@@ -175,7 +173,7 @@ endif;
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                 <tr valign="top">
                     <td  style="padding: 10px 20px 0;">
-                        <img src="http://www.lbr.ru/images/kp/271-kt6/4.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                        <img src="http://www.lbr.ru/images/kp/272-kt10/4.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                     </td>
                 </tr>
                 <tr>
@@ -183,11 +181,11 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="130" style="padding:0px 10px 0px 20px;">
-                                    <img src="http://www.lbr.ru/images/kp/271-kt6/5.jpg" width="100" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/272-kt10/5.jpg" width="100" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                                 <td width="250">
                                     <p style="margin: 0px; padding: 10px 20px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align:left; color: black;line-height:20px; ">
-                                        КОРМОРАЗДАТЧИКИ КТ-6
+                                        КОРМОРАЗДАТЧИКИ КТ-10
                                         ПРОИЗВОДЯТСЯ С ОКНАМИ ДЛЯ
                                         РАЗДАЧИ КОРМОВ КАК НА ОДНУ
                                         СТОРОНУ, ТАК И НА ДВЕ
@@ -195,7 +193,7 @@ endif;
                                     </p>
                                 </td>
                                 <td width="120"  style="padding:0px 10px 0px 10px;">
-                                    <img src="http://www.lbr.ru/images/kp/271-kt6/6.jpg" width="100" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/272-kt10/6.jpg" width="100" style="border: 0; float: left;" alt="Картинки не отображаются">
                                 </td>
                                 <td width="260">
                                     <p style="margin: 0px; padding: 10px 20px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; text-align:left; color: black;line-height:20px; ">
@@ -229,7 +227,7 @@ endif;
                 <tr valign="top">
                     <td  style="padding: 20px 20px 0;">
                         <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:center; color: black;line-height:20px;text-transform:uppercase;font-weight:bold; ">
-                            ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ КОРМОРАЗДАТЧИКА КТ-6
+                            ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ КОРМОРАЗДАТЧИКА КТ-10
                         </p>
                     </td>
                 </tr>
@@ -239,15 +237,15 @@ endif;
                             <tbody>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Грузоподъемность, кг, не более</td>
-                                    <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2000</td>
+                                    <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">4000</td>
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Вместимость кузова, куб.м, не менее</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">5,66</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">10</td>
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Эксплуатационная масса раздатчика, кг, не более</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1500</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">2600</td>
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Привод рабочих органов</td>
@@ -263,7 +261,7 @@ endif;
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Габаритные размеры (д*ш*в), мм, не более</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">5800*2100*2180</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">6180*2405*2460</td>
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Ширина колеи, мм</td>
@@ -275,7 +273,7 @@ endif;
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Шины</td>
-                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">9,00-16нс-10 или 9,00-16Я 324А</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">9,00-16Я 324А</td>
                                 </tr>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box; ">Рабочая тормозная система</td>

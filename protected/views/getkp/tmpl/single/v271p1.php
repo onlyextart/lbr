@@ -1,11 +1,11 @@
 <?php
-if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_header']=='1'  || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
-?>
+ ?>
+ <div class="table w-800">
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -31,7 +31,7 @@ endif;
                                 </tr>
                             <?php endif; ?>
                             <tr>
-                                <td style="padding: 20px 0px 10px 0px;">
+                                <td style="padding: 10px 0px 5px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
@@ -47,7 +47,7 @@ endif;
                                 </td>
                             </tr>
                              <tr>
-                                <td style="padding: 20px 0px 10px 0px;">
+                                <td style="padding: 5px 0px 5px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
@@ -89,7 +89,7 @@ endif;
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding: 10px 0px 10px 0px;">
+                                <td style="padding: 10px 0px 0px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td>
@@ -124,7 +124,7 @@ endif;
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding: 20px 0px 10px 0px;">
+                                <td style="padding: 20px 0px 5px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="60" style="padding-right:15px;">
@@ -162,14 +162,15 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Первый; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -306,11 +307,18 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+    <tr valign="top">
+        <td style="padding: 0px 20px 0;">
+            <?php
+            if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+            endif;
+        ?>
+        </td>
+    </tr>
+ </table>
 <!-- Блок Второй; -->
 
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>
