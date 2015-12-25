@@ -17,11 +17,11 @@ endif;
                                 <td style="padding-bottom: 3px;">
                                     <!-- Заголовок -->
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        Пружинная борона Akzent
+                                        Пружинная борона Akzent (Aktywator)
                                     </a>
                                 </td>
                                 <td style="padding-bottom: 3px; text-align: right;" align="right">
-                                    <img src="http://www.lbr.ru/images/kp/unia-logo.jpg" height="30" style="border: 0; float: right;" alt="Логотип Unia">
+                                    &nbsp;
                                 </td>
                             </tr>
                         </table>
@@ -32,7 +32,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/67-akzent/mail-1a.jpg" width="760" height="410" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/kp/67-akzent/mail-1b.jpg" width="760" height="410" style="border: 0; float: left;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                             <?php if($data['product_info1'] && !empty($data['product_info1'])): ?>
@@ -196,7 +196,7 @@ endif;
                                         <tr valign="top">
                                             <td colspan="2" style="padding: 10px 0 0;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black; ">
-                                                    <span style="font-weight: bold; color: #f58220;">Точное  копирование  рельефа  поверхности  поля  и адаптация бороны к работе в различных фазах развития растения </span>– благодаря 6 (Akzent 9) или 8 (Akzent 12) независимым рабочим секциям с пружинными паль-цами с регулируемым углом атаки.    
+                                                    <span style="font-weight: bold; color: #f58220;">Точное  копирование  рельефа  поверхности  поля  и адаптация бороны к работе в различных фазах развития растения </span>– благодаря 6 (Akzent 9) или 8 (Akzent 12) независимым рабочим секциям с пружинными пальцами с регулируемым углом атаки.    
                                                 </p>
                                             </td>
                                         </tr>
@@ -323,35 +323,38 @@ endif;
                                                 </p>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td style="text-align: left;">
-                                                <img src="http://www.lbr.ru/images/kp/67-akzent/mail-2.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
-                                            </td>
-                                        </tr>
                                     </table>
                                 </td>
                                 <td width="380">
                                     <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="right" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding: 0 0 13px;">
+                                            <td style="padding: 0 0 5px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                    <span style="font-weight: bold; color: #f58220;">Удобство  транспортировки  по  дорогам  общего пользования:</span> 
+                                                    <span style="font-weight: bold; color: #f58220;">ОПЦИЯ!</span> 
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="padding: 0px 0 15px;">
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align: justify; color: black;">
-                                                    Секции бороны складываются в транспортное положение гидравлически из кабины трактора.
+                                                    Пневматическое высевающее устройство PS 200 M1
+                                                    <b>агрегатируется с пружинной бороной</b>, что позволяет
+                                                    осуществлять подсев всех видов семян и прочих
+                                                    гранулированных веществ одновременно с обработкой
+                                                    почвы.
                                                 </p>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td style="text-align: right;">
-                                                <img src="http://www.lbr.ru/images/kp/67-akzent/mail-3.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
-                                            </td>
-                                        </tr>
                                     </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td></tr>
+                    <tr><td style="padding: 0 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr valign="top">
+                                <td>
+                                     <img src="http://www.lbr.ru/images/kp/67-akzent/mail-2_together.jpg" width="760" style="border: 0; float: right;" alt="Картинки не отображаются">
                                 </td>
                             </tr>
                         </table>
@@ -361,23 +364,28 @@ endif;
                                 <tbody>
                                     <tr>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; width: 220px; background: #d1d3d4;">Модель</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Akzent 12 ПРОФИ (с усиленной рамой)</td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Akzent 9 (Aktywator)</td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background: #d1d3d4;">Akzent 12 (Aktywator)</td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Рабочая ширина, м </td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">9</td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">12</td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Масса, кг</td>
-                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1740</td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1050</td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">1700</td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Требуемая мощность, л.с. </td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">80-90</td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">100-110</td>
                                     </tr>
                                     <tr>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Цена с НДС, руб.<span style="color:#cc3333; font-size:12px;">*</span></td>
                                         <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price1']; ?></td>
+                                        <td style="margin: 0; padding: 1px 6px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey;"><?php echo $data['price2']; ?></td>
                                     </tr>
                                 </tbody>
                             </table>
