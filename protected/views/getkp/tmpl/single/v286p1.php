@@ -1,13 +1,12 @@
 <?php
-if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_header']=='1'  || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
-?>
-
+ ?>
+ <div class="table w-800">
 <!-- Background grey -->
 
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет"></td></tr>
     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse;">
@@ -19,12 +18,10 @@ endif;
             </table>
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет"></td></tr>
-</table>                
+ </table>                
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -60,15 +57,15 @@ endif;
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                         <tr valign="top">
                             <td style="padding: 5px 0 0;">
-                                <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                <table width="290" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0;">
-                                            <img src="http://www.lbr.ru/images/kp/286-etr/1.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                            <img src="http://www.lbr.ru/images/kp/286-etr/1.jpg" width="290" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
                                     <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                     <tr>
-                                        <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                        <td width="290px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                                 <?php echo $data['product_info1']; ?>
                                             </p>
@@ -78,7 +75,7 @@ endif;
                                 </table>
                             </td>
                             <td style="padding: 5px 0 0;">
-                                <table width="378" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                <table width="458" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr valign="top">                                                        
                                         <td style="padding: 0 0 0 10px;">                                                
                                             <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; color: black; text-align: justify; ">
@@ -181,24 +178,14 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
-            
-            
-            <tr><td colspan="2" style="padding: 0 20px;">
+           
+            <tr><td style="padding: 0 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                         <tr>
                             <td style="padding-bottom: 3px;">
                              <!-- Заголовок -->
-                             <p style="font-size: 22px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                Сеялки Червона зирка</p>
+                             <span style="font-size: 22px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                Сеялки Червона зирка</span>
                             </td>
                             <td style="padding-bottom: 3px;">
                                 <img src="http://www.lbr.ru/images/makers/chervona-zirka-rus.jpg" width="150" style="border: 0; float: right;" alt="Логотип Unia">
@@ -210,16 +197,16 @@ endif;
             <tr><td style="padding: 0 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                         <tr valign="top">
-                            <td width="470" style="padding: 0px 0 0;">
-                                 <table width="470" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                            <td width="360" style="padding: 0px 0 0;">
+                                 <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                     <tr>
                                         <td style="padding: 0;">
-                                            <img src="http://www.lbr.ru/images/kp/286-etr/2.jpg" width="470" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                            <img src="http://www.lbr.ru/images/kp/286-etr/2.jpg" width="360" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
                                     <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
                                     <tr>
-                                        <td width="470px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
+                                        <td width="360px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
                                                 <?php echo $data['product_info2']; ?>
                                             </p>
@@ -228,7 +215,7 @@ endif;
                                     <?php endif; ?>                                                                                                                           
                                 </table>
                             </td>
-                            <td width="278" style="padding: 0px 0 0; vertical-align: middle;">
+                            <td width="388" style="padding: 0px 0 0; vertical-align: middle;">
                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; color: black; text-align: center;line-height: 20px; ">
                                     Сеялки разработаны
                                     специально для рядового
@@ -256,15 +243,16 @@ endif;
 </table>
 </td>
 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 
 <!-- Блок Первый; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -608,15 +596,6 @@ endif;
                 </table>
             </td></tr> 
             
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
             
             
             <tr><td style="padding: 0 20px;">
@@ -708,13 +687,14 @@ endif;
 </td>
 </tr>
 
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Второй; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Третий: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -864,15 +844,6 @@ endif;
                 </table>
             </td></tr> 
             
-             <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => "http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/768-Kul'tivator-kpm/",
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
 
             <tr><td style="padding: 0 20px;">
                 <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
@@ -1046,15 +1017,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-                  <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+                 
                                     
             <tr><td style="padding: 0 20px;">
                 <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
@@ -1243,15 +1206,6 @@ endif;
                 </table>
             </td></tr> 
             
-                <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
                               
             <tr valign="top">
                 <td colspan="2" style="padding: 5px 20px 0px 20px;">
@@ -1263,14 +1217,15 @@ endif;
         </table>
     </td>
 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 
 <!-- Блок Третий; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Четвертый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -1416,17 +1371,9 @@ endif;
                                 </table>                               
                             </td>
                         </tr> 
-                        <!-- Ссылка-кнопка подробнее -->
                     </table>
                 </td></tr>
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-diskovye-i-diskatory/325-diskovye-borony-ares/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+                
             
                 <tr><td style="padding: 0 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
@@ -1635,15 +1582,6 @@ endif;
                     </table>
             </td></tr>
             
-               <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
             
 
             <tr valign="top">
@@ -1653,15 +1591,16 @@ endif;
                     </p> 
                 </td>
              </tr>
-            <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-        </table>
+          </table>
      </td>
     </tr>
 </table>
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Пятый; -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -1938,15 +1877,7 @@ endif;
                 </tr> 
             </table>
         </td></tr>
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vnesenie-udobrenij/pritsepnye-razbrasyvateli-mineralnykh-udobrenij/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+            
     
             <tr valign="top">
             <td  style="padding: 5px 20px 0px 20px;">
@@ -1955,15 +1886,16 @@ endif;
                         </p> 
                     </td>
                 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 </td>
 </tr>
 </table>
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Шестой: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -2067,15 +1999,7 @@ endif;
                         </tr> 
                     </table>
                 </td></tr>
-                <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+               
                 
                 <tr><td style="padding: 0 20px 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 3px solid #F58220;">
@@ -2190,15 +2114,7 @@ endif;
                         </tr> 
                     </table>
                 </td></tr>
-                <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vnesenie-udobrenij/pritsepnye-razbrasyvateli-tverdykh-organicheskikh-udobrenij/435-mashiny-dlya-vneseniya-organicheskikh-udobrenij-lmr/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+               
                 
                 <tr><td style="padding: 0;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
@@ -2300,15 +2216,7 @@ endif;
                         </tr> 
                     </table>
                 </td></tr>
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vnesenie-udobrenij/bochki-dlya-vneseniya-zhidkikh-organicheskikh-udobrenij/436-bochki-dlya-vneseniya-zhidkikh-udobrenij-meprozet/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+           
                 <tr valign="top">
                     <td  style="padding: 5px 20px 0px 20px;">
                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
@@ -2319,12 +2227,13 @@ endif;
             </table>
        </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
-
+ </table>
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Седьмой: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -2416,15 +2325,7 @@ endif;
                             </tr> 
                         </table>
                 </td></tr>
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/vnesenie-udobrenij/bochki-dlya-vneseniya-zhidkikh-organicheskikh-udobrenij/437-bochki-dlya-vneseniya-zhidkikh-udobrenij-mzht/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+            
                 <tr valign="top">
                     <td  style="padding: 5px 20px 0px 20px;">
                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
@@ -2435,11 +2336,18 @@ endif;
             </table>
        </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr valign="top">
+        <td style="padding: 0px 20px 0;">
+            <?php
+            if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+            endif;
+        ?>
+        </td>
+    </tr>
 </table>
     
 
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>
