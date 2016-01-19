@@ -16,7 +16,7 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                    <a href="http://www.lbr.ru/tehnika/zhatki-i-podborshchiki/kukuruznye-zhatki/641-zhatki-zvp/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
                                         <img src="http://www.lbr.ru/images/kp/287-zhvp6-4/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                     </a>
                                 </td>

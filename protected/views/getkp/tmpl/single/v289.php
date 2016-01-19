@@ -16,8 +16,8 @@ endif;
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/zhatki-i-podborshchiki/kukuruznye-zhatki/641-zhatki-zvp/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
-                                        <img src="http://www.lbr.ru/images/kp/288-zhvp4-9/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/773-plugi-polunavesnye-ppo/" style="font-size: 18px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: black;">
+                                        <img src="http://www.lbr.ru/images/kp/289-ppo5+1/1.jpg" width="760" style="border: 0; float: left;" alt="Картинки не отображаются">
                                     </a>
                                 </td>
                             </tr>
@@ -34,12 +34,23 @@ endif;
                                 <td style="padding: 10px 0px 10px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td style="padding-right:10px;">
-                                                <p style="margin: 0px; padding: 0px 0px 0px 10px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                                    <b>ЖВП - 4,9</b> предназначена для скашивания зерновых колосовых и крупяных культур с
-                                                    укладкой скошенной массы в одинарный встречно-поточный валок во всех зонах, где
-                                                    применяется раздельный способ уборки.
+                                            <td>
+                                                <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
+                                                    <b>Оборотный плуг ППО-(5+1+1)х40</b> – предназначен для отвальной обработки всех типов
+                                                    почв, не засоренных камнями, плитняком и другими препятствиями с удельным
+                                                    сопротивлением 0,09 МПа (0,9 кг/см²) и твердостью до 4,0 МПа (40 кг/см²).
                                                 </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 0px 0px 5px 0px;">
+                                    <table width="760" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" style="border: 0; border-collapse: collapse; background: #ffffff;">
+                                        <tr>
+                                            <td style="padding:0px 0px 0px 0px;">
+                                               <hr noshade style="height:1px; color:#6f6a67; background-color: #6f6a67;">
                                             </td>
                                         </tr>
                                     </table>
