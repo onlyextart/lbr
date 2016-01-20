@@ -119,20 +119,17 @@ endif;
                                 <td style="padding: 15px 0px 10px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td width="610" style="padding:0px 0px 0px 0px;">
+                                            <td style="padding:0px 0px 0px 0px;">
                                                 <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 24px; text-align:left; color: black;font-weight: bold; line-height:20px;color:#478779;">
                                                     ЗАЩИТА КОРПУСА - СРЕЗНАЯ ШПИЛЬКА  
                                                 </p>
                                                 <p style="margin: 0px; padding: 5px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
                                                     Для повышения степени безопасности агрегата его стандартно
-                                                    оснащают срезными шпильками. Это особенность конструкции
+                                                    оснащают <b>срезными шпильками</b>. Это особенность конструкции
                                                     препятствует серьезной поломке техники, поскольку при увеличении
                                                     нагрузки на корпус шпилька срезается, ослабляет болт – корпус уходит от
                                                     препятствия, избегает повреждения.
                                                 </p>
-                                            </td>
-                                            <td width="150" style="padding:0px 0px 0px 20px;">
-                                                <img src="http://www.lbr.ru/images/kp/280-ppo5+1/3.jpg" width="150" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                     </table>
