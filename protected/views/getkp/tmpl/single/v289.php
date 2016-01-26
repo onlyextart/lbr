@@ -42,12 +42,12 @@
                                     <td style="padding: 0px 20px 0px 20px;">
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#edf3f6" align="center" style="border: 0; border-collapse: collapse; background: #edf3f6;">
                                             <tr>
-                                            <td style="padding: 10px 0px 10px 20px; width: 130px;" valign="top">
+                                            <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
                                                     <a href="http://www.lbr.ru/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                                                        <img src="http://www.lbr.ru/images/kp/289-evp18/logo.png" width="110"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
+                                                        <img src="http://www.lbr.ru/images/kp/289-evp18/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
-                                                <td valign="top" style="width: 640px;  padding:20px 20px 0px 10px;text-align: center;">
+                                                <td valign="top" style="width: 660px;  padding:20px 20px 0px 10px;text-align: center;">
                                                     <span style="margin: 0; padding: 0; color: black; background: none !important; font-size: 14px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; outline: none">
                                                         <?php echo $data['header']; ?>
                                                     </span>
@@ -312,6 +312,83 @@
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
                                     <a href="http://www.lbr.ru/tehnika/traktory/mtz/263-traktory-belarus-892-mtz/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=Traktory_Belarus_82" target="_blank">
+                                        <img src="http://www.lbr.ru/images/kp/289-evp18/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td style="padding:30px 20px 5px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                
+                                            <td width="20" valign="top">
+                                                <img src="http://www.lbr.ru/images/makers/expom.jpg" width="30"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
+                                            </td>
+                                            <td width="355" style="padding:0px 20px 0px 10px;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pruzhinnaja_borona_Akzent" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                    <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
+                                                        ПРУЖИННАЯ БОРОНА AKZENT
+                                                    </span>
+                                                </a>
+                                            </td>
+                               
+                                            <td width="20" valign="top" style="padding:0px 0px 0px 0px;">
+                                                <img src="http://www.lbr.ru/images/makers/expom.jpg" width="30"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
+                                            </td>
+                                            <td width="355" valign="top" style="padding:0px 10px 0px 10px;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=Prikatyvajushhie_pricepnye_katki_Jacek_i_Maximus" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                    <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
+                                                        ПРИКАТЫВАЮЩИЕ ПРИЦЕПНЫЕ КАТКИ JACEK<br>
+                                                        И MAXIMUS
+                                                    </span>
+                                                </a>
+                                            </td>
+                                       
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:0px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td style="padding-top: 3px;">
+                                    <img src="http://www.lbr.ru/images/kp/289-evp18/5.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:0px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#background: #e3f3dd;" align="center" style="border: 0; border-collapse: collapse; background:#e3f3dd;">
+                            <tr>
+                                <td width="380" valign="middle" style="border-right:20px solid white; padding: 10px 20px 5px 20px">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify;">
+                                        Эффективный и простой способ побороть сорняки в
+                                        рядке между культурными растениями.
+                                    </p>
+
+                                </td>
+                                <td width="360" valign="middle" style="padding: 10px 20px 5px 20px; text-align: left; width: 390px;">
+                                     <p style="margin:0; color: black; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: left; ">
+                                         Готовое решение для прикатки после простых сеялок с
+                                         загорчатами для ускорения всходов.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pruzhinnaja_borona_Akzent" target="_blank">
+                                        <img src="http://www.lbr.ru/images/kp/289-evp18/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
+                                    </a>
+                                </td>
+                                <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/prikatyvayushchie-katki/657-prikatyvayushchie-katki-expom/?sb=EVP_18&ct=<?php echo SecurityController::encrypt($email);?>&lk=Prikatyvajushhie_pricepnye_katki_Jacek_i_Maximus" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/289-evp18/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
