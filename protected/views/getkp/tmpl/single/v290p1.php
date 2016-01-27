@@ -1,11 +1,11 @@
 <?php
-if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_header']=='1'  || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
-?>
+ ?>
+ <div class="table w-800">
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -58,10 +58,10 @@ endif;
                                 <td style="padding: 10px 0px 0px 0px;">
                                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
-                                            <td width="510" valign="top" style="padding: 0px 0px 10px 0px;">
-                                                <table width="500" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                            <td width="560" valign="top" style="padding: 0px 0px 10px 0px;">
+                                                <table width="550" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr>
-                                                        <td style="padding: 10px 0px 30px 0px;">
+                                                        <td style="padding: 10px 0px 20px 0px;">
                                                             <p style="margin: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight:normal; text-align:left; color: black;">
                                                                 Сокращение затрат на обработку почвы:<br>
                                                                 Обеспечивает в 2-2,5 раза повышение производительности
@@ -78,7 +78,7 @@ endif;
                                                         </td>
                                                     </tr>
                                                      <tr>
-                                                        <td style="padding: 0px 0px 30px 0px;">
+                                                        <td style="padding: 0px 0px 20px 0px;">
                                                             <p style="margin: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight:normal; text-align:left; color: black;">
                                                                 • полное отсутствие глыб и гребней<br>
                                                                 • эффективное выравнивание<br>
@@ -96,7 +96,7 @@ endif;
                                                         </td>
                                                     </tr>
                                                      <tr>
-                                                        <td style="padding: 0px 0px 0px 0px;">
+                                                        <td style="padding: 0px 0px 10px 0px;">
                                                             <p style="margin: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight:normal; text-align:left; color: black;">
                                                                 Создает возможность окончания полевых работ
                                                                 на 1-2 недели раньше обычной технологии, гарантирует
@@ -106,8 +106,8 @@ endif;
                                                     </tr>
                                                 </table>
                                             </td>
-                                            <td width="250">
-                                                <img src="http://www.lbr.ru/images/kp/290-kpm4-12/2.jpg" width="250" style="border: 0; float: left;" alt="Картинки не отображаются">
+                                            <td width="200">
+                                                <img src="http://www.lbr.ru/images/kp/290-kpm4-12/2.jpg" width="200" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
                                         </tr>
                                     </table>
@@ -162,14 +162,15 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 </td></tr></table>
 <!-- Блок Первый; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -336,14 +337,14 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+ </table>
 <!-- Блок Второй; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Третий: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -459,24 +460,22 @@ endif;
                     </td>
                 </tr>
                 
-                 <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => "http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/768-Kul'tivator-kpm/",
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+                
             </table>
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
+    <tr valign="top">
+        <td style="padding: 0px 20px 0;">
+            <?php
+            if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+            endif;
+        ?>
+        </td>
+    </tr>
 </table>
 <!-- Блок Третий; -->
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>

@@ -303,11 +303,11 @@ endif;
                             <tr>
                                 <td style="border-bottom:solid black 3px; padding: 0px 0px 3px 0px;" width="670" >
                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
-                                         Картофелекопатель КТН-2В
+                                         Картофелекопатель навесной 2-х рядный КТН-2ВМ
                                     </p>  
                                 </td>
                                 <td width="90" style="border-bottom:solid black 3px;padding: 0px 0px 3px 0px;">
-                                    <img src="http://www.lbr.ru/images/kp/181-kartofel/lidselmash.jpg" width="60" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/makers/agropromselmash.jpg" width="70" style="border: 0; float:right;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                         </table>
@@ -357,7 +357,7 @@ endif;
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Глубина подкапывания, см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">22</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">25</span></td>
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Транспортная скорость, км/ч</span></td>
@@ -374,7 +374,7 @@ endif;
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Габаритные размеры, мм</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3220 х 1725 х 1250</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">3550х1755х1300</span></td>
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
@@ -407,8 +407,10 @@ endif;
                                             <td style="padding-left: 20px; padding-bottom: 10px;">
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
                                                     <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Максимальное качество сепарации почвы</span><br>
-                                                    В стандартной комплектации копалка оснащена двумя
-                                                    транспортерами, что позволяет провести максимальную сепарацию клубней от земли.
+                                                    В стандартной комплектации копалка оснащена
+                                                    треугольным битером, что позволяет провести
+                                                    максимальную сепарацию клубней от земли и
+                                                    облегчает работу элеваторов.
                                                 </p>
                                             </td>
                                         </tr>
@@ -437,11 +439,11 @@ endif;
                             <tr>
                                 <td style="border-bottom:solid black 3px;" width="690" >
                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
-                                        Картофелекопатель КСТ-1,4А
+                                        Картофелекопатель полунавесной двухрядный КСТ-1,4М
                                     </p>  
                                 </td>
                                 <td width="60" style="border-bottom:solid black 3px;">
-                                    <img src="http://www.lbr.ru/images/kp/181-kartofel/lidselmash.jpg" width="60" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                    <img src="http://www.lbr.ru/images/makers/agropromselmash.jpg" width="70" style="border: 0; float:right;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                         </table>
@@ -496,7 +498,7 @@ endif;
                                         <tr>
                                             <td style="padding-left: 20px; padding-bottom: 5px;">
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Прочный двойной элеватор
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">УВЕЛИЧЕННЫЙ РЕСУРС ЭЛЕВАТОРА
                                                     </span><br>
                                                     Высокопрочный элеватор на специальных втулочно-роликовых 
                                                     цепях обеспечивает надежную уборку на 150 Га.
@@ -509,9 +511,9 @@ endif;
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
                                                     <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Универсальная техника
                                                     </span><br>
-                                                    В стандартной комплектации копалка КСТ-1,4 оснащена 
-                                                    активными лемехами, которые позволяют выкапывать 
-                                                    морковь, свеклу и другие корнеплоды, если ширина междурядий позволяет 
+                                                    В стандартной комплектации копалка КСТ-1,4 может
+                                                    использоваться для выкапывания моркови, свеклы и
+                                                    других корнеплодов, если ширина междурядий позволяет
                                                     выполнять эту операцию без
                                                     повреждения продукта.
                                                 </p>
@@ -552,11 +554,11 @@ endif;
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Габаритные размеры, мм:</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5000 х 1830 x 1200</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">5400х1900х1350</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Масса, кг</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1090</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1380</span></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:10px;">*</span></td>
