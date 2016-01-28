@@ -681,7 +681,15 @@ endif;
                                                 </p>
                                             </td>
                                         </tr>
-                                         
+<!--                                        <tr>
+                                            <td style="padding:10px 0px 5px 0px;">
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
+                                                    Опционально сажалка может оснащаться механизмом для внесения удобрений 
+                                                    и протравливателем клубней картофеля, что позволяет проводить все операции за один проход.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                         -->
                                     </table>
                                 </td>
 
