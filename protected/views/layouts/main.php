@@ -179,6 +179,9 @@
                         <a href="/company/" title="О компании">О компании</a>
                     </li>
                     <li>
+                        <a href="<?php echo Yii::app()->getBaseUrl('true').'/company/contacts/'?>" title="Контакты">Контакты</a>
+                    </li>
+                    <li>
                         <a href="http://career.lbr.ru/" title="Карьера">Карьера</a>
                     </li>
                     <li>
@@ -191,7 +194,7 @@
             </div>
             <div class="map">
                 <a href="<?php echo Yii::app()->getBaseUrl('true').'/company/contacts/'?>">
-                    <span>Контакты</span>
+                    <span>Наши филиалы</span>
                     <img src="/images/map.jpg" title="Контакты ЛБР-Агромаркет" alt="ЛБР-Агромаркет контакты"/>
                 </a>
             </div>
