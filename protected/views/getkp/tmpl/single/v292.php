@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 10px 20px;">
-                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=ksht" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=ksht" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -43,7 +43,7 @@
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#edf3f6" align="center" style="border: 0; border-collapse: collapse; background: #edf3f6;">
                                             <tr>
                                             <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
-                                                    <a href="http://www.lbr.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                                                    <a href="http://www.lbr.ru/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                                         <img src="http://www.lbr.ru/images/kp/292-evp19/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
@@ -77,7 +77,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo.jpg" width="70"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="285" valign="middle" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskie_sejalki_tochnogo_vyseva_Spartan_907" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskie_sejalki_tochnogo_vyseva_Spartan_907" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКИЕ СЕЯЛКИ ТОЧНОГО<br>
                                                         ВЫСЕВА SPARTAN 907
@@ -90,7 +90,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo.jpg" width="70"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="285" valign="middle" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskaja_sejalka_NTA_3510" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskaja_sejalka_NTA_3510" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКАЯ СЕЯЛКА NTA-3510
                                                     </span>
@@ -132,12 +132,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskie_sejalki_tochnogo_vyseva_Spartan_907" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/701-pnevmaticheskie-seyalki-spartan-907/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskie_sejalki_tochnogo_vyseva_Spartan_907" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskaja_sejalka_NTA_3510" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/268-pnevmaticheskie-seyalki-nta3510/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pnevmaticheskaja_sejalka_NTA_3510" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -156,7 +156,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo.jpg" width="70"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="285" valign="middle" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_sejalki_Great_Plains" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_sejalki_Great_Plains" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         МЕХАНИЧЕСКИЕ СЕЯЛКИ GREAT PLAINS
                                                     </span>
@@ -168,7 +168,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo.jpg" width="70"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="285" valign="middle" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/729-kombinirovij-turbo-till/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kombinirovannyj_agregat_Turbo-till" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/729-kombinirovij-turbo-till/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kombinirovannyj_agregat_Turbo-till" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КОМБИНИРОВАННЫЙ АГРЕГАТ <br>TURBO-TILL
                                                     </span>
@@ -211,12 +211,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_sejalki_Great_Plains" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/266-mekhanicheskie-seyalki-nulevogo-tsikla-cph-2000f/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_sejalki_Great_Plains" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/729-kombinirovij-turbo-till/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kombinirovannyj_agregat_Turbo-till" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/chizeli-i-glubokorykhliteli/729-kombinirovij-turbo-till/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kombinirovannyj_agregat_Turbo-till" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -231,7 +231,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=mighness" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=mighness" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -247,7 +247,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/bargam-logo-big.jpg" width="70"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="285" valign="middle" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/opryskivateli/samokhodnye-opryskivateli/423-samokhodnye-opryskivateli-bargam-serii-mac/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Samohodnyj_opryskivatel_Bargam_Mac" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/opryskivateli/samokhodnye-opryskivateli/423-samokhodnye-opryskivateli-bargam-serii-mac/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Samohodnyj_opryskivatel_Bargam_Mac" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         САМОХОДНЫЙ ОПРЫСКИВАТЕЛЬ<br>
                                                         BARGAM MAC
@@ -259,7 +259,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/JM.jpg" width="50"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="305" valign="middle" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-peregruzchiki-zerna-i-udobrenij/623-bunkery-peregruzchiki-j-m/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bunker_peregruzchik_J_M" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-peregruzchiki-zerna-i-udobrenij/623-bunkery-peregruzchiki-j-m/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bunker_peregruzchik_J_M" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         БУНКЕР-ПЕРЕГРУЗЧИК J&M
                                                     </span>
@@ -303,12 +303,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/samokhodnye-opryskivateli/423-samokhodnye-opryskivateli-bargam-serii-mac/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Samohodnyj_opryskivatel_Bargam_Mac" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/samokhodnye-opryskivateli/423-samokhodnye-opryskivateli-bargam-serii-mac/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Samohodnyj_opryskivatel_Bargam_Mac" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-peregruzchiki-zerna-i-udobrenij/623-bunkery-peregruzchiki-j-m/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bunker_peregruzchik_J_M" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-peregruzchiki-zerna-i-udobrenij/623-bunkery-peregruzchiki-j-m/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bunker_peregruzchik_J_M" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/292-evp19/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -322,7 +322,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/akcii/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/akcii/?sb=EVP_19&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/292-evp19/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
