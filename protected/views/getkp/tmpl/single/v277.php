@@ -69,7 +69,7 @@ endif;
                                             <td width="370" style="padding: 0 0 0 10px;">
                                                  <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr>
-                                                        <td width="380" style="padding:0px;" align="right">
+                                                        <td width="370" style="padding:0px;" align="right">
                                                             <img src="http://www.lbr.ru/images/kp/277-pcn4/277-2.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
                                                         </td>                                                        
                                                     </tr>

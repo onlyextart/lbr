@@ -66,11 +66,11 @@ endif;
                                                     </tbody>
                                                 </table>
                                             </td>
-                                            <td width="380" style="padding: 0 0 0 10px;">
-                                                 <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                            <td width="370" style="padding: 0 0 0 10px;">
+                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr>
                                                         <td width="380" style="padding:0px;" align="right">
-                                                            <img src="http://www.lbr.ru/images/kp/277-pcn4/277-2.jpg" width="380" style="border: 0; float: right;" alt="Картинки не отображаются">
+                                                            <img src="http://www.lbr.ru/images/kp/277-pcn4/277-2.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
                                                         </td>                                                        
                                                     </tr>
                                                     <tr>
@@ -81,8 +81,8 @@ endif;
                                                         </td>                                                       
                                                     </tr>
                                                     <tr>
-                                                        <td width="380" style="padding:0px;" align="right">
-                                                            <img src="http://www.lbr.ru/images/kp/275-pch6/275-2.jpg" width="380" style="border: 0; float: right;" alt="Картинки не отображаются">
+                                                        <td width="370" style="padding:0px;" align="right">
+                                                            <img src="http://www.lbr.ru/images/kp/275-pch6/275-2.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
                                                         </td>                                                        
                                                     </tr>
                                                 </table>
@@ -110,11 +110,11 @@ endif;
                                                     </tr>
                                                 </table>
                                             </td>
-                                            <td width="380" style="padding: 10px 0 0 10px;">
-                                                 <table width="380" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                            <td width="370" style="padding: 10px 0 0 10px;">
+                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                     <tr>
-                                                        <td colspan="2" width="380" style="padding:0px;" align="right">
-                                                            <img src="http://www.lbr.ru/images/kp/277-pcn4/277-4.jpg" width="380" style="border: 0; float: right;" alt="Картинки не отображаются">
+                                                        <td colspan="2" width="370" style="padding:0px;" align="right">
+                                                            <img src="http://www.lbr.ru/images/kp/277-pcn4/277-4.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
                                                         </td>                                                        
                                                     </tr>
                                                     <tr>

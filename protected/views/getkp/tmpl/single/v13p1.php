@@ -374,7 +374,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена с НДС</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price8']; ?></span>
@@ -550,7 +550,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена с НДС</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price10']; ?></span>
@@ -612,7 +612,7 @@
                                     </tr>
                                     <tr>
                                     <td>
-                                    <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
+                                    <span style="display: inline; padding-right: 0px;">Цена с НДС</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                     </td>
                                     <td>
                                     <span><? echo $data['price11']; ?></span>
@@ -677,7 +677,7 @@
                                         </tr>
                                         <tr>
                                         <td>
-                                        <span style="display: inline; padding-right: 0px;">Цена, руб.</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
+                                        <span style="display: inline; padding-right: 0px;">Цена с НДС</span><span style="color:#cc3333; font-size:14px; display: inline; padding-left: 0px;">*</span>
                                         </td>
                                         <td>
                                         <span><? echo $data['price12']; ?></span>
