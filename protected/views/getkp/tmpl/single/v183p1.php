@@ -369,7 +369,7 @@ endif;
                                             <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">1</span></td>
                                         </tr>
                                         <tr>
-                                            <td align="left" style="border: solid black 1px; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС, руб.</span><span style="color:red; font-size:10px;">*</span></td>
+                                            <td align="left" style="border: solid black 1px; "><span style="font-family:'Trebuchet MS', sans-serif; font-size: 13px;">Цена с НДС</span><span style="color:red; font-size:10px;">*</span></td>
                                             <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 14px;"><?php echo $data['price1']; ?></span></td>
                                             <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 14px;"><?php echo $data['price2']; ?></span></td>
                                             <td align="center" style="border: solid black 1px; color: #DD2A1B;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 14px;"><?php echo $data['price3']; ?></span></td>

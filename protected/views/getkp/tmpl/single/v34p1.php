@@ -68,7 +68,7 @@
 
                                     </tr>
                                     <tr>
-                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);display:inline;padding-right: 0px;">Цена с НДС, руб.</span><span style="color:#cc3333; font-size:12px;padding-left: 0px;display:inline;">*</span></td>
+                                        <td><span style="font-family:FuturisC,  sans-serif; font-size: 12px; font-weight: bold; color: rgb(211,35,42);display:inline;padding-right: 0px;">Цена с НДС</span><span style="color:#cc3333; font-size:12px;padding-left: 0px;display:inline;">*</span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price1']; ?></span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price2']; ?></span></td>
                                         <td><span style="font-family:FuturisC,  sans-serif; font-size: 15px; font-weight: bold; color: rgb(211,35,42);"><? echo $data['price3']; ?></span></td>
