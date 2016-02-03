@@ -46,6 +46,7 @@
         <meta name="description" content="<?php echo $meta_description; ?>">
         <title><?php echo $meta_title; ?></title>
         <meta name="google-site-verification" content="PZIP2B6qRbs7ZY_9ta4msuDLA57hDzruB3irakMCHAQ" />
+        <meta name='yandex-verification' content='7bec6b951c74701b' />
         <link rel="shortcut icon" type="image/jpg" href="<?php echo Yii::app()->request->baseUrl.'/images/favicon.jpg';?>"/>
         <?php
         // Добавление css и javascript на страницу сайта
