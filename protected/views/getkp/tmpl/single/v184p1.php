@@ -681,15 +681,15 @@ endif;
                                                 </p>
                                             </td>
                                         </tr>
-<!--                                        <tr>
-                                            <td style="padding:10px 0px 5px 0px;">
+                                        <tr>
+                                            <td style="padding:0px 0px 0px 0px;">
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
                                                     Опционально сажалка может оснащаться механизмом для внесения удобрений 
                                                     и протравливателем клубней картофеля, что позволяет проводить все операции за один проход.
                                                 </p>
                                             </td>
                                         </tr>
-                                         -->
+                                         
                                     </table>
                                 </td>
 
@@ -853,8 +853,36 @@ endif;
                         </table>
                     </td>
                 </tr>
+                
+
+                
+
+
+            </table></td></tr>
+            
+   </table>   
+</div>
+
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
+
+<!-- Четвертый блок -->
+<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+    <tr>
+        <td>
+            <table width="800" bgcolor="#ffffff" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+
+                <!-- Контент четвертого блока -->
                 <tr>
-                                            <td style="padding: 5px 0px 0px 0px;">
+                <td style="padding:10px 20px 5px 20px;">
+                    <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: justify;">
+                       Технические характеристики  "Опрыскиватели навесные Ozone"
+                    </p>
+                </td>
+                </tr>
+                <tr>
+                                            <td style="padding: 5px 20px 0px 20px;">
                                                 <!--Таблица с данными-->
                                                 <table width="760" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="1px" align="center" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
@@ -919,8 +947,10 @@ endif;
                 
 
 
-            </table></td></tr>
-            <tr valign="top">
+            </table>
+        </td>
+    </tr>
+    <tr valign="top">
             <td style="padding: 0px 20px 0;">
                 <?php
                 if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
@@ -929,8 +959,7 @@ endif;
                 ?>
             </td>
           </tr>
-   </table>   
-
+</table>
 
 </div>
 </body>
