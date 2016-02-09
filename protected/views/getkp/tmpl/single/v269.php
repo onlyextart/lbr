@@ -168,15 +168,20 @@ endif;
                                                     <tr>
                                                         <td width="250" style="padding: 0 15px;">
                                                             <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align:justify; color: black; ">
+                                                                <span style="color: #58585A">Бесступенчатый механизм передач
+                                                                    (вариатор)</span> <br />
+                                                                    Обеспечивает легкую и быструю регулировку
+                                                                    норм высева семян удобрений.<br>
+                                                                    Обеспечивает более точную и плавную
+                                                                    регулировку в увеличенном диапазоне норм
+                                                                    высева (от 0,7 до 400 кг/га).
+                                                            </p>
+                                                        </td>
+                                                        <td width="250" valign="top" style="padding: 0 15px;">
+                                                             <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align:justify; color: black; ">
                                                                 <span style="color: #58585A">2 В 1</span> <br />
                                                                 Наральниковые сошники для высева семян
                                                                 трав одновременно служат загортачами.
-                                                            </p>
-                                                        </td>
-                                                        <td width="250" style="padding: 0 15px;">
-                                                            <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align:justify; color: black; ">
-                                                                <span style="color: #58585A">РЕДУКТОР ИМЕЕТ ШЕСТЬ ПЕРЕДАТОЧНЫХ ОТНОШЕНИЙ,</span> 
-                                                                которые переключаются с помощью рычага.
                                                             </p>
                                                         </td>
                                                     </tr>
