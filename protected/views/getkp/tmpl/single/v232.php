@@ -57,7 +57,7 @@ endif;
                                             <td>
                                                 <p style="margin: 5px 0px 0px 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align:justify; color: black; ">
                                                     <b>СЗ 3,6А – 06</b> – отлично повторяет форму рельефа поля и дополнительно прикатывает почву в
-                                                    засеянных рядках.
+                                                    засеянных рядках (в комплектации с вариатором).
                                                 </p>
                                             </td>
                                         </tr>
@@ -202,7 +202,7 @@ endif;
                                                 <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: normal; text-align: justify; color:black; ">
                                                     • с двухдисковыми сошниками (стандартная комплектация)<br>
                                                     • с двухдисковыми сошниками и прикатывающими колесами
-                                                    (СЗ 3,6А – 06)<br>
+                                                    (СЗ 3,6А – 06)(в комплектации с вариатором)<br>
                                                     • для узкорядного посева с двухдисковыми, двухстрочными
                                                     сошниками со смещенными дисками и пальцевыми загортачами (СЗ 3,6А – 04).
                                                 </p> 
