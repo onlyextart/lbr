@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 10px 20px;">
-                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=ksht" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=ksht" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -43,7 +43,7 @@
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#edf3f6" align="center" style="border: 0; border-collapse: collapse; background: #edf3f6;">
                                             <tr>
                                             <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
-                                                    <a href="http://www.lbr.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                                                    <a href="http://www.lbr.ru/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                                         <img src="http://www.lbr.ru/images/kp/293-evp20/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
@@ -72,12 +72,12 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/791-Sejalka-kultivator-skp-2-1d-omichka/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_kultivator_SKP_2_1_D_Omichka" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/791-Sejalka-kultivator-skp-2-1d-omichka/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_kultivator_SKP_2_1_D_Omichka" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                         <img src="http://www.lbr.ru/images/kp/293-evp20/2.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px; text-align: left;">
-                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/792-posevnoj-kompleks-alcor-10/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Posevnoj_kompleks_Alkor_10" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/shirokozakhvatnye-seyalki/792-posevnoj-kompleks-alcor-10/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Posevnoj_kompleks_Alkor_10" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                          <img src="http://www.lbr.ru/images/kp/293-evp20/3.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -91,12 +91,12 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px;">
-                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/767-borona-zubovaja-pobeda%20/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Borona_zubovaja_Pobeda" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                    <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/767-borona-zubovaja-pobeda%20/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Borona_zubovaja_Pobeda" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                         <img src="http://www.lbr.ru/images/kp/293-evp20/4.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px; text-align: left;">
-                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/758-borona-zubovaja-mechta/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Borona_zubovaja_Mechta" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                     <a href="http://www.lbr.ru/tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/758-borona-zubovaja-mechta/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Borona_zubovaja_Mechta" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                          <img src="http://www.lbr.ru/images/kp/293-evp20/5.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -112,7 +112,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=mighness" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=mighness" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -124,12 +124,12 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px;">
-                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/792-opryskivatel-pricepnoj-op-2500/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pricepnye_opryskivateli_OP_2500_3000" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/pritsepnye-opryskivateli/792-opryskivatel-pricepnoj-op-2500/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pricepnye_opryskivateli_OP_2500_3000" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                         <img src="http://www.lbr.ru/images/kp/293-evp20/6.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="380" valign="top" style="padding: 3px 0px 0px 0px; text-align: left;">
-                                     <a href="http://www.lbr.ru/tehnika/traktory/mtz/274-traktory-belarus-2022-mtz/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Traktor_Belarus_2022" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                     <a href="http://www.lbr.ru/tehnika/traktory/mtz/274-traktory-belarus-2022-mtz/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=Traktor_Belarus_2022" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                          <img src="http://www.lbr.ru/images/kp/293-evp20/7.jpg" width="380" style="border: 0; float: left;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -143,7 +143,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/akcii/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/akcii/?sb=EVP_20&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/293-evp20/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
