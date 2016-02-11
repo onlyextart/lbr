@@ -166,7 +166,7 @@
                             <table width="638" cellspacing="0" cellpadding="0" align="center" height="1" bgcolor="#FFFFFF"  style="border-collapse: collapse; height: 1px; border-bottom: 1px black solid;">
                                 <tr>
                                     <td><span style="font-family: Calibri, sans-serif; font-size: 18px; font-weight: bolder;">Плуг оборотный Ibis M 2+1</span></td>
-                                    <td align="right"><img src="http://www.lbr.ru/images/makers/unia.jpg" width="80" border="0" width="80"/></td>
+                                    <td align="right"><img src="http://www.lbr.ru/images/makers/unia.jpg" width="80" border="0" /></td>
                                 </tr>
                             </table>
                         </td>
