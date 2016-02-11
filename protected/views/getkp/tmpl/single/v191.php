@@ -149,9 +149,6 @@ endif;
                                                             </p> 
                                                             
                                                         </td>
-                                                        <td width="158" style="padding:0px 0px 0px 5px;">
-                                                            <img src="http://www.lbr.ru/images/kp/191-elios/mail-2.jpg" width="153" style="border: 0; float: left;" alt="Изображения не отображаются">
-                                                        </td>
                                                         
                                                    </tr>
                                                 </table>
