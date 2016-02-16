@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 10px 20px;">
-                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Vozdelyvanie-propashnyh-kultur" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Vozdelyvanie-propashnyh-kultur" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -43,7 +43,7 @@
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#edf3f6" align="center" style="border: 0; border-collapse: collapse; background: #e7e7e7;">
                                             <tr>
                                             <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
-                                                    <a href="http://www.lbr.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                                                    <a href="http://www.lbr.ru/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                                         <img src="http://www.lbr.ru/images/kp/295-evp21/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
@@ -77,7 +77,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo-new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="right" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_2425f_i_YP_2425a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_2425f_i_YP_2425a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
                                                         СЕЯЛКИ ТОЧНОГО ВЫСЕВА <br>YP-2425F И
                                                         YP-2425A
@@ -90,7 +90,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo-new.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="right" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_1625a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_1625a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         МЕХАНИЧЕСКИЕ ПРОПАШНЫЕ СЕЯЛКИ
                                                         ТОЧНОГО ВЫСЕВА YP-1625A
@@ -134,12 +134,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_2425f_i_YP_2425a" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/345-seyalki-yp-2425/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_2425f_i_YP_2425a" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_1625a" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/758-mehanicheskie-sejalki-yp-1625a/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_1625a" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -158,7 +158,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/Great-Plains-logo-new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="right" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_825a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_825a" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКИЕ ПРОПАШНЫЕ СЕЯЛКИ
                                                         ТОЧНОГО ВЫСЕВА YP-825A
@@ -171,7 +171,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/gaspardo.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="right" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_MT_8_i_SP_8_dorad" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_MT_8_i_SP_8_dorad" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКИЕ СЕЯЛКИ ТОЧНОГО
                                                         ВЫСЕВА МТ-8 И SP-8 DORAD
@@ -214,12 +214,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_825a" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/714-seyalki-yp-825a/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_YP_825a" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_MT_8_i_SP_8_dorad" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/706-seyalki-sp-8-mt-8/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_MT_8_i_SP_8_dorad" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -234,7 +234,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=mightiness" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/mightiness/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=mightiness" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -250,7 +250,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/chervona-zirka-rus.jpg" width="100"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="255" valign="top" align="right" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/349-pnevmaticheskie-seyalki-tochnogo-vyseva-vesta-8-12/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_Vesta_8_i_Vesta_8_Profi" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/349-pnevmaticheskie-seyalki-tochnogo-vyseva-vesta-8-12/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_Vesta_8_i_Vesta_8_Profi" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКИЕ СЕЯЛКИ ТОЧНОГО
                                                         ВЫСЕВА ВЕСТА-8 И ВЕСТА-8 ПРОФИ
@@ -262,7 +262,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/chervona-zirka-rus.jpg" width="100"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="255" valign="top" align="right" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/649-propashnye-mezhduryadnye-kultivatory-altair/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_rasteniepitatel_Altair" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/649-propashnye-mezhduryadnye-kultivatory-altair/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_rasteniepitatel_Altair" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КУЛЬТИВАТОР-РАСТЕНИЕПИТАТЕЛЬ
                                                         НАВЕСНОЙ ВЫСОКОСТЕБЕЛЬНЫЙ
@@ -308,12 +308,12 @@
                             </tr>
                             <tr>
                                 <td width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/349-pnevmaticheskie-seyalki-tochnogo-vyseva-vesta-8-12/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_Vesta_8_i_Vesta_8_Profi" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/349-pnevmaticheskie-seyalki-tochnogo-vyseva-vesta-8-12/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalki_tochnogo_vyseva_Vesta_8_i_Vesta_8_Profi" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/649-propashnye-mezhduryadnye-kultivatory-altair/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_rasteniepitatel_Altair" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadnye-kultivatory/649-propashnye-mezhduryadnye-kultivatory-altair/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_rasteniepitatel_Altair" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/295-evp21/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -327,7 +327,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/akcii/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/akcii/?sb=EVP_21&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/295-evp21/banner2.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
