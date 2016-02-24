@@ -1,11 +1,11 @@
 <?php
-if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_header']=='1'  || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
-?>
+ ?>
+ <div class="table w-800">
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -128,12 +128,12 @@ endif;
                                              <td width="380" style="padding:0px 0px 0px 0px;">
                                                 <img src="http://www.lbr.ru/images/kp/296-kaddi/header2.jpg" width="380" style="border: 0; float: left;" alt="Картинки не отображаются">
                                             </td>
-                                            <td rowspan="2" width="380" style="padding:0px 0px 10px 20px;">
-                                               <img src="http://www.lbr.ru/images/kp/296-kaddi/3.jpg" width="360" style="border: 0; float: left;" alt="Картинки не отображаются"> 
+                                            <td rowspan="2" align="center" width="380" style="padding:0px 0px 0px 20px;">
+                                               <img src="http://www.lbr.ru/images/kp/296-kaddi/3.jpg" width="320" style="border: 0; " alt="Картинки не отображаются"> 
                                              </td>
                                        </tr>
                                         <tr>
-                                            <td width="380" style="padding:0px 0px 10px 0px;">
+                                            <td width="380" style="padding:0px 0px 0px 0px;">
                                                <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
                                                    для осуществления оборота валка в «мертвой
                                                    зоне», чтобы получить более воздушный
@@ -153,15 +153,16 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+ </table>
 </td></tr></table>
 <!-- Блок Первый; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -454,14 +455,15 @@ endif;
             <!-- Внутренности блока; -->
         </td>
     </tr>
-    
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+   </table>
 <!-- Блок Второй; -->
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Третий: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+   <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -553,11 +555,20 @@ endif;
             </table>    
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-</table>
+    <tr valign="top">
+        <td style="padding: 0px 20px 0;">
+            <?php
+            if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+            endif;
+        ?>
+        </td>
+    </tr>
+   </table>
 <!-- Блок Третий; -->
 
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>
+
+
