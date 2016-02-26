@@ -116,13 +116,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price1']; ?>
+                                    <?php echo $data['price1']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" style="padding:5px; background-color: #ef5249;font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price2']; ?>
+                                    <?php echo $data['price2']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
@@ -130,7 +130,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2" width="380" valign="top" style="border-right:20px solid white; padding: 10px 20px 5px 20px">
-                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; ">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; ">
                                         Применяется для создания гребней, междурядной и сплошной обработки почвы. Возможна комплектация прикатывающим валиком или пластинами для создания гряды под овощи.
                                     </p>
 
@@ -217,13 +217,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price3']; ?>
+                                    <?php echo $data['price3']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" style="padding:5px; background-color: #ef5249;font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price4']; ?>
+                                    <?php echo $data['price4']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
@@ -231,7 +231,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2" width="380" valign="top" style="border-right:20px solid white; padding: 10px 20px 5px 20px">
-                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; ">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; ">
                                         Надежный и крепкий приводной механизм. Протравливание
                                         клубней картофеля, внесение гранулированных удобрений
                                         одновременно с посадкой картофеля, создание гребней за
@@ -311,7 +311,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price5']; ?>
+                                    <?php echo $data['price5']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
@@ -325,7 +325,7 @@
                             </tr>
                             <tr>
                                 <td width="380" colspan="2" valign="top" style="border-right:20px solid white; padding: 10px 20px 5px 20px">
-                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; ">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; ">
                                         Расстояние между клубнями от 70 до 90 см. Простая и
                                         надежная конструкция высаживающих элементов.
                                         Внесение гранулированных удобрений одновременно с
@@ -377,7 +377,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/tehmash.jpg" width="80"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КУЛЬТИВАТОР-ОКУЧНИК НАВЕСНОЙ КОН
                                                     </span>
@@ -404,13 +404,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price6']; ?>
+                                    <?php echo $data['price6']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    от <?php echo $data['price7']; ?>
+                                    <?php echo $data['price7']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
@@ -418,7 +418,7 @@
                             </tr>
                             <tr>
                                 <td width="380" colspan="2" valign="top" style="border-right:20px solid white; padding: 10px 20px 5px 20px">
-                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: justify; ">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; ">
                                          Производительность выше в 2 раза, чем у аналогов.
                                         Высевающие сошники расположены в шахматном
                                         порядке, что позволяет производить высев в две строчки
@@ -442,7 +442,7 @@
                                     </a>
                                 </td>
                                 <td width="360" colspan="2" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
