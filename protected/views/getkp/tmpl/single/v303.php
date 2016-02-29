@@ -116,13 +116,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price1']; ?>
+                                   от <?php echo $data['price1']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" style="padding:5px; background-color: #ef5249;font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price2']; ?>
+                                    от <?php echo $data['price2']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
@@ -217,13 +217,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price3']; ?>
+                                    от <?php echo $data['price3']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" style="padding:5px; background-color: #ef5249;font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price4']; ?>
+                                    от <?php echo $data['price4']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
@@ -311,7 +311,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price5']; ?>
+                                    от <?php echo $data['price5']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
@@ -404,13 +404,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#e1e1df" align="center" style="border: 0; border-collapse: collapse; background:#e1e1df;">
                             <tr>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price6']; ?>
+                                    от <?php echo $data['price6']; ?>
                                 </td>
                                 <td width="240" bgcolor="#e1e1df" style="background-color: #e1e1df;border-right:20px solid white;">
                                     &nbsp;
                                 </td>
                                 <td width="140" bgcolor="#ef5249" border="0" style="padding:5px; background-color: #ef5249;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 17px; font-weight: normal; text-align: left; color: #ffffff;">
-                                    <?php echo $data['price7']; ?>
+                                    от <?php echo $data['price7']; ?>
                                 </td>
                                 <td width="220" bgcolor="#e1e1df" style="background-color: #e1e1df;">
                                     &nbsp;
