@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 10px 20px;">
-                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Posadka_ovoshhej" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Posadka_ovoshhej" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -43,7 +43,7 @@
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#ebf0f3" align="center" style="border: 0; border-collapse: collapse; background: #ebf0f3;">
                                             <tr>
                                             <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
-                                                    <a href="http://www.lbr.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                                                    <a href="http://www.lbr.ru/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                                         <img src="http://www.lbr.ru/images/kp/303-evp22/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
@@ -77,7 +77,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/tehmash.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/769-grebneobrzovatel-apk-3,0/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovatel_APK_3_0" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/769-grebneobrzovatel-apk-3,0/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovatel_APK_3_0" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ГРЕБНЕОБРАЗОВАТЕЛЬ АПК-3,0
                                                     </span>
@@ -89,7 +89,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/ortiflor.JPG" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/391-grebneobrazovateli-tsa-165/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grjadoobrazovatel_Ortiflor_TSA120" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/391-grebneobrazovateli-tsa-165/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grjadoobrazovatel_Ortiflor_TSA120" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ГРЯДООБРАЗОВАТЕЛЬ ORTIFLOR TSA120
                                                     </span>
@@ -143,12 +143,12 @@
                             </tr>
                             <tr>
                                 <td colspan="2" width="360" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/769-grebneobrzovatel-apk-3,0/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovatel_APK_3_0" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/769-grebneobrzovatel-apk-3,0/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovatel_APK_3_0" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td colspan="2" width="380" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/391-grebneobrazovateli-tsa-165/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grjadoobrazovatel_Ortiflor_TSA120" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/391-grebneobrazovateli-tsa-165/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grjadoobrazovatel_Ortiflor_TSA120" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -162,7 +162,7 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/392-grebneobrazovateli-forma/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovateli_Forma_4" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/392-grebneobrazovateli-forma/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Grebneobrazovateli_Forma_4" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -178,7 +178,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/lidselmash.jpg" width="50"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="305" valign="top" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/751-kartofelesazhalka-navesnaja-lidselmash-l-201/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_201" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/751-kartofelesazhalka-navesnaja-lidselmash-l-201/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_201" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КАРТОФЕЛЕСАЖАЛКА НАВЕСНАЯ Л-201
                                                     </span>
@@ -190,7 +190,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/lidselmash.jpg" width="50"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="305" valign="top" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/752-kartofelesazhalka-navesnaja-lidselmash-l-202/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_202" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/752-kartofelesazhalka-navesnaja-lidselmash-l-202/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_202" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КАРТОФЕЛЕСАЖАЛКА НАВЕСНАЯ Л-202
                                                     </span>
@@ -250,12 +250,12 @@
                             </tr>
                             <tr>
                                 <td colspan="2" width="380" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/751-kartofelesazhalka-navesnaja-lidselmash-l-201/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_201" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/751-kartofelesazhalka-navesnaja-lidselmash-l-201/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_201" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td colspan="2" width="360" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/752-kartofelesazhalka-navesnaja-lidselmash-l-202/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_202" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/752-kartofelesazhalka-navesnaja-lidselmash-l-202/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_202" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -273,7 +273,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/lidselmash.jpg" width="50"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="305" valign="top" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/753-kartofelesazhalka-navesnaja-lidselmash-l-207/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_207" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/753-kartofelesazhalka-navesnaja-lidselmash-l-207/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_207" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КАРТОФЕЛЕСАЖАЛКА НАВЕСНАЯ Л-207
                                                     </span>
@@ -284,7 +284,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/RM_yellow.jpg" width="40"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="305" valign="top" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/sistemy-poliva-i-irigatsii/irrigatory/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Dozhdevalnye_mashiny_RM" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/sistemy-poliva-i-irigatsii/irrigatory/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Dozhdevalnye_mashiny_RM" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ДОЖДЕВАЛЬНЫЕ МАШИНЫ RM
                                                     </span>
@@ -343,12 +343,12 @@
                             </tr>
                             <tr>
                                 <td width="380" colspan="2" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/753-kartofelesazhalka-navesnaja-lidselmash-l-207/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_207" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/kartofelesazhalki/753-kartofelesazhalka-navesnaja-lidselmash-l-207/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kartofelesazhalka_navesnaja_L_207" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" colspan="2" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/sistemy-poliva-i-irigatsii/irrigatory/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Dozhdevalnye_mashiny_RM" target="_blank">
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/sistemy-poliva-i-irigatsii/irrigatory/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Dozhdevalnye_mashiny_RM" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -366,7 +366,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/gaspardo.jpg" width="100"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="255" valign="top" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/seyalka-ovoshchnaya-gaspardo-olympia/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_Olimpia" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/seyalka-ovoshchnaya-gaspardo-olympia/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_Olimpia" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПНЕВМАТИЧЕСКАЯ СЕЯЛКА ТОЧНОГО ВЫСЕВА OLIMPIA
                                                     </span>
@@ -377,7 +377,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/tehmash.jpg" width="80"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="top" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #1d1d1a; padding: 0; font-size: 15px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         КУЛЬТИВАТОР-ОКУЧНИК НАВЕСНОЙ КОН
                                                     </span>
@@ -437,12 +437,12 @@
                             </tr>
                             <tr>
                                 <td width="380" colspan="2" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/seyalka-ovoshchnaya-gaspardo-olympia/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_Olimpia" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/ovoshchnye-seyalki-i-rassadoposadochnye-mashiny/seyalka-ovoshchnaya-gaspardo-olympia/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sejalka_Olimpia" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="360" colspan="2" style="padding: 5px 10px 10px 20px; text-align: right; width: 390px;">
-                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/ovoshchi-i-kartofel/grebneobrazovateli/794-kultivator-okuchnik-navesnoj-kon/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Kultivator_okuchnik_Kon" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/303-evp22/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -467,13 +467,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="253">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/757-navesnye-zagonnye-plugi-svetlogradagromash/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plug_zagonnyj_PN_3x35" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_1.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/757-navesnye-zagonnye-plugi-svetlogradagromash/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plug_zagonnyj_PN_3x35" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_1.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                                 <td width="254">
-                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Razbrasyvateli_udobrenij_MX950" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_2.jpg" width="254" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Razbrasyvateli_udobrenij_MX950" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_2.jpg" width="254" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                                 <td width="253">
-                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Opryskivateli_Ozone" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_3.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/opryskivateli/navesnye-opryskivateli/640-navesnye-opryskivateli-ozone/?sb=EVP_22&ct=<?php echo SecurityController::encrypt($email);?>&lk=Opryskivateli_Ozone" target="_blank"><img src="http://www.lbr.ru/images/kp/303-evp22/banner2_3.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
