@@ -86,48 +86,11 @@ endif;
                                                         </tr>
                                                         <tr>
                                                             <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">Масса машины, кг</td>
+                                                            <td colspan="2" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3965</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </td>
-                                                        </td>                                                        
-                                                    </tr>
-                                                    <tr>
-                                                        <td width="250" style="padding:0px;">
-                                                            <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: bold; color: #336699;line-height:18px; ">
-                                                                Все детали производятся из конструкционной стали повышенной прочности (марка 65г) и проходят 3 этапа обработки:
-                                                            </p>
-                                                        </td>                                                       
-                                                    </tr>
-                                                    <tr>
-                                                        </td>                                                        
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td width="370" style="padding: 10px 0 0 10px;">
-                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                                    <tr>
-                                                            <td colspan="2" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">3965</td>
-                                                            <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; color: black;line-height:18px; ">
-                                                                Стойка «Параплау» улучшает качество обработки и повышает производительность.
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>                                        
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td></tr>
-            
-                    
-                <!-- Контент первого блока; -->
-            </table>
-            <!-- Внутренности блока; -->
-        </td>
-    </tr>
                                             
                                         </tr>
                                         <tr>
@@ -139,32 +102,25 @@ endif;
                                                             <p style="margin: 0px; padding: 3px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight:bold; color: #336699;line-height:18px; ">
                                                                 ИЗНОСОСТОЙКИЕ ДЕТАЛИ
                                                             </p>
- </table>
-<!-- Блок Первый; -->
-</div>
-<div class="page-break"></div>
-<div class="after-page-break"></div>
-<div class="table w-800">
-<!-- Блок Второй: -->
-<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td>
-            <!-- Внутренности блока: -->
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                <tr>
-                    <td valign="top" width="380" style="padding: 10px 0 0 20px;">
-                        <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                            <tr>
-                                <td width="360" style="padding:0px;" align="left">
+                                                        </td>                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="250" style="padding:0px;">
+                                                            <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: bold; color: #336699;line-height:18px; ">
+                                                                Все детали производятся из конструкционной стали повышенной прочности (марка 65г) и проходят 3 этапа обработки:
+                                                            </p>
+                                                        </td>                                                       
+                                                    </tr>
+                                                    <tr>
                                                         <td width="370" style="padding:5px 0 0;" align="right">
                                                             <img src="http://www.lbr.ru/images/kp/275-pch6/275-6.jpg" width="370" style="border: 0; float: right;" alt="Картинки не отображаются">
-                                    <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: bold; color: #336699;line-height:18px; ">
-                                        Данная конструкция катка способствует:
-                                    </p>
-                                </td>                                                       
-                            </tr>
-                            <tr>
-                                <td width="250" style="padding:0px;">
+                                                        </td>                                                        
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td width="370" style="padding: 10px 0 0 10px;">
+                                                 <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                                    <tr>
                                                         <td colspan="2" style="padding:0px;">
                                                             <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                                                 <tr>
@@ -206,6 +162,72 @@ endif;
                                                             <img src="http://www.lbr.ru/images/kp/275-pch6/275-4.jpg" width="90" style="border: 0; float: left;" alt="Картинки не отображаются">
                                                         </td>
                                                         <td width="260" valign="top" style="padding:0px 20px 0px 0px;">
+                                                            <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; color: black;line-height:18px; ">
+                                                                Стойка «Параплау» улучшает качество обработки и повышает производительность.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>                                        
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td></tr>
+            
+                    
+                <!-- Контент первого блока; -->
+            </table>
+            <!-- Внутренности блока; -->
+        </td>
+    </tr>
+   </table>
+<!-- Блок Первый; -->
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
+<!-- Блок Второй: -->
+<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
+  <tr>
+        <td>
+            <!-- Внутренности блока: -->
+            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                <tr>
+                    <td valign="top" width="380" style="padding: 10px 0 0 20px;">
+                        <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                            <tr>
+                                <td width="360" style="padding:0px;" align="left">
+                                    <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td width="25" valign="top">
+                                                <img src="http://www.lbr.ru/images/kp/275-pch6/zn1.png" width="20" style="border: 0; float: left; margin:7px 5px 0px 0px;" alt="Картинки не отображаются">
+                                            </td>
+                                            <td width="335" valign="top" style="padding:3px 0px 0px 0px;">
+                                                <p style="margin: 0px; padding: 3px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:left; font-weight:bold; color: #336699;line-height:18px; ">
+                                                    ИГОЛЬЧАТЫЙ КАТОК – ДОПОЛНИТЕЛЬНОЕ
+                                                    РЫХЛЕНИЕ И ВЫРАВНИВАНИЕ<br>
+                                                    ПОВЕРХНОСТНОГО СЛОЯ
+                                                </p>  
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>                                                        
+                            </tr>
+                            <tr>
+                                <td width="250" style="padding:10px 0px 0px 0px;">
+                                    <p style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: bold; color: #336699;line-height:18px; ">
+                                        Данная конструкция катка способствует:
+                                    </p>
+                                </td>                                                       
+                            </tr>
+                            <tr>
+                                <td width="250" style="padding:0px;">
+                                    <li style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: normal; color: black; line-height:18px; ">
+                                        лучшему измельчению почвы и более интенсивному перемешиванию растительных остатков;
+                                    </li>
+                                    <li style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: normal; color: black; line-height:18px; ">
                                         созданию слегка спрессованной и открытой поверхности почвы.
                                     </li>
                                 </td>                                                       
@@ -221,10 +243,27 @@ endif;
                         <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td colspan="2" width="360" style="padding:0px;" align="right">
+                                   <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
+                                        <tr>
+                                            <td width="25" valign="top">
+                                                <img src="http://www.lbr.ru/images/kp/275-pch6/zn1.png" width="20" style="border: 0; float: left; margin:7px 5px 0px 0px;" alt="Картинки не отображаются">
+                                            </td>
+                                            <td width="335" valign="top" style="padding:3px 0px 0px 0px;">
+                                                <p style="margin: 0px; padding: 3px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:left; font-weight:bold; color: #336699;line-height:18px; ">
+                                                    ДОПОЛНИТЕЛЬНЫЕ ПРЕИМУЩЕСТВА
+                                                </p>  
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>                                                        
                             </tr>
                             <tr>
                                 <td width="360" style="padding:15px 0 0 0;">
+                                       <p style="margin: 0px; padding: 0 0 0 10px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:left; font-weight: bold; color: #336699; line-height:18px; ">
+                                        • ГАРАНТИЯ 12 МЕСЯЦЕВ<br>
+                                        • СТАБИЛЬНЫЕ ЦЕНЫ И ДОСТАВКА В КРАТЧАЙШИЕ СРОКИ: <span style="color: black; font-weight: normal;">100% производство РФ</span><br>
+                                        • ЗАПАСНЫЕ ЧАСТИ И РАСХОДНИКИ СОБСТВЕННОГО ПРОИЗВОДСТВА ВСЕГДА В НАЛИЧИИ НА СКЛАДЕ В РФ.
+                                       </p>
                                 </td>                                                       
                             </tr>                            
                         </table>
@@ -236,7 +275,22 @@ endif;
                             <tbody>
                                 <tr>
                                     <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey; background-color: #99CCFF; background-clip: padding-box;">НАИМЕНОВАНИЕ</td>
-  
+                                    <td width="380" style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: center; color: black; border-right: 1px solid grey; background-color: #99CCFF; border-bottom: 1px solid grey; background-clip: padding-box;">ЦЕНА<span style="color:#cc3333; font-size:12px;">*</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">ПЧП-6,0</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box;"><?php echo $data['price1']; ?></td>                                   
+                                </tr>
+                                 <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">ПЧП-6,0 М (Механизм выглубления)</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box;"><?php echo $data['price2']; ?></td>                                   
+                                </tr>
+                                 <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">ПЧП-6,0 К (Каток)</td>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box;"><?php echo $data['price3']; ?></td>                                   
+                                </tr>
+                                 <tr>
+                                    <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; color: black; border-right: 1px solid grey; border-bottom: 1px solid grey;">ПЧП-6,0 МК (Механизм выглубления, Каток)</td>
                                     <td style="margin: 0; padding: 3px 7px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-weight: bold; text-align: center; color: #DD2A1B; border-right: 1px solid grey; border-bottom: 1px solid grey; background-clip: padding-box;"><?php echo $data['price4']; ?></td>                                   
                                 </tr>
                                 
@@ -256,24 +310,8 @@ endif;
             </table>
             <!-- Внутренности блока; -->
         </td>
-                                    <table width="360" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-                                        <tr>
-                                            <td width="25" valign="top">
-                                                <img src="http://www.lbr.ru/images/kp/275-pch6/zn1.png" width="20" style="border: 0; float: left; margin:7px 5px 0px 0px;" alt="Картинки не отображаются">
-                                            </td>
-                                            <td width="335" valign="top" style="padding:3px 0px 0px 0px;">
-                                                <p style="margin: 0px; padding: 3px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:left; font-weight:bold; color: #336699;line-height:18px; ">
-                                                    ИГОЛЬЧАТЫЙ КАТОК – ДОПОЛНИТЕЛЬНОЕ
-                                                    РЫХЛЕНИЕ И ВЫРАВНИВАНИЕ<br>
-                                                    ПОВЕРХНОСТНОГО СЛОЯ
-                                                </p>  
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>                                                        
-                            </tr>
-                            <tr>
-                                <td width="250" style="padding:10px 0px 0px 0px;">
+    </tr>    
+     <tr valign="top">
         <td style="padding: 0px 20px 0;">
             <?php
             if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
@@ -282,9 +320,9 @@ endif;
         ?>
         </td>
     </tr>
- </table>
+    </table>
 <!-- Блок Второй; -->
-                                    <li style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: normal; color: black; line-height:18px; ">
-                                        лучшему измельчению почвы и более интенсивному перемешиванию растительных остатков;
-                                    </li>
-                                    <li style="margin: 0px; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; text-align:justify; font-weight: normal; color: black; line-height:18px; ">
+
+</div>
+</body>
+</html
