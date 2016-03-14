@@ -31,7 +31,7 @@ class TestController extends Controller {
     
     public function actionCheck()
     {
-        $contactModel = Contacts::model()->findByPk($contact_id);
+        $contactModel = Contacts::model()->findByPk(2);
         $model = new ContactForm;
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
