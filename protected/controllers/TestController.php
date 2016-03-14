@@ -1,8 +1,21 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+class TestController extends Controller {
 
+    public function actionPathcheck() {
+        print phpinfo();
+        exit;
+
+        $email = 'tttanyattt@mail.ru';
+        $headers = 'From: ' . $email . "\r\n" .
+                'Reply-To: ' . $email . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+        
+
+        if (mail($email, 'Test', 'Test2', $headers)) {
+            echo 'Ok';
+        } else echo 'Error';
+    }
+
+}
