@@ -164,6 +164,7 @@ endif;
 
 
                     <!-- Контент второй строки первого блока-->
+                    
                     <tr>
                         <td style="padding:10px 20px 0px 20px;">
                             <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
