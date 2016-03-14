@@ -18,16 +18,16 @@ class ContactsController extends Controller
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         
         /////////////////////////////////////////////
-        $email = 'tttanyattt@mail.ru';
-        $headers = 'From: ' . $email . "\r\n" .
-                'Reply-To: ' . $email . "\r\n" .
-                'X-Mailer: PHP/' . phpversion();
-
+//        $email = 'tttanyattt@mail.ru';
+//        $headers = 'From: ' . $email . "\r\n" .
+//                'Reply-To: ' . $email . "\r\n" .
+//                'X-Mailer: PHP/' . phpversion();
+//        mail($email, 'Test', 'Test2', $headers);
         
 
-        if (mail($email, 'Test', 'Test2', $headers)) {
-            echo 'Ok';
-        } else echo 'Error';
+//        if (mail($email, 'Test', 'Test2', $headers)) {
+//            echo 'Ok';
+//        } else echo 'Error';
         /////////////////////////////////////////////
         
         if($contact_id == null) { // page with contacts
