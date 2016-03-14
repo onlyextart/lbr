@@ -16,7 +16,7 @@ class ContactsController extends Controller
     public function actionIndex() 
     {
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
-        echo $contact_id; 
+        
         if($contact_id == null) { // page with contacts
             $districts = Regions::getDistrictsForContacst();
             $output = '<ul class="contacts_list clearfix">
