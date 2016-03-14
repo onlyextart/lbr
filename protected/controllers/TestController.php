@@ -2,9 +2,10 @@
 
 class TestController extends Controller {
 
-    public function actionPathcheck() {
-        print phpinfo();
-        exit;
+    public function actionPathcheck() 
+    {
+        //print phpinfo();
+        //exit;
 
         $email = 'tttanyattt@mail.ru';
         $headers = 'From: ' . $email . "\r\n" .
