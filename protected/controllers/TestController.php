@@ -33,6 +33,9 @@ class TestController extends Controller {
     {
         $contactModel = Contacts::model()->findByPk(2);
         $model = new ContactForm;
+        $model->name = 'Test';
+        $model->email = 'tttanayttt@mail.ru';
+        $model->body = 'test';
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
             if ($model->validate()) {
@@ -51,7 +54,8 @@ class TestController extends Controller {
                         'Reply-To: ' . $email . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
                 
-                mail($email, 'Test', 'Test2', $headers);
+                mail($email, 'Test', 'Test ============', $headers);
+                
                 Yii::app()->user->setFlash('contact', 'Thank you for contacting us. We will respond to you as soon as possible.');
                 $this->refresh();
             }
