@@ -1912,7 +1912,7 @@ a[name="list_filials"]{
 }
 .xbanners_container .xbanners .first_banner .b_caption .b_makers .b_one_maker img {
   cursor: pointer;
-  height: 26px;
+  height: 20px;
 }
 .xbanners_container .xbanners .first_banner .b_caption .b_makers:after {
   content: '';

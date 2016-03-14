@@ -620,11 +620,11 @@ endif;
                             <tr>
                                 <td style="border-bottom:solid black 3px; padding: 0px 0px 3px 0px;" width="710" >
                                     <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 20px; font-weight: bold; color: black; text-align: left;">
-                                         Копалки для картофеля PYRUS
+                                         Универсальный копатель валкообразователь УКВ-2
                                     </p>  
                                 </td>
-                                <td width="50" style="border-bottom:solid black 3px;padding: 0px 0px 3px 10px;">
-                                    <img src="http://www.lbr.ru/images/kp/krukowiak-logo2.jpg" width="40" style="border: 0; float:right;" alt="Изображения не отображаются">
+                                <td width="80" style="border-bottom:solid black 3px;padding: 0px 0px 3px 10px;">
+                                    <img src="http://www.lbr.ru/images/makers/agropromselmash.jpg" width="70" style="border: 0; float:right;" alt="Изображения не отображаются">
                                 </td>
                             </tr>
                         </table>
@@ -640,7 +640,7 @@ endif;
                                     <table width="308" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td style="padding: 0px 0px 0px 0px;">
-                                                <img src="http://www.lbr.ru/images/kp/181-kartofel/mail-8.jpg" width="308" style="border: 0; float: left;" alt="Изображения не отображаются">  
+                                                <img src="http://www.lbr.ru/images/kp/181-kartofel/mail-8-1.jpg" width="308" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                         <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
@@ -658,35 +658,32 @@ endif;
                                                 <table width="308" bgcolor="#FFFFFF" cellspacing="0" cellpadding="1px" align="left" style="border: solid black 1px; border-collapse: collapse; background-clip:padding-box;">
                                                     <tr>
                                                         <td width="75%" align="left" style="border: solid black 1px; padding-left:2px; background-clip:padding-box; background-color: #eeeeee;"  bgcolor="#eeeeee"><strong> <span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Модель</span></strong></td>
-                                                        <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Pyrus</span></strong></td>
+                                                        <td width="25%" align="center" style="border: solid black 1px; background-clip:padding-box; background-color: #eeeeee;" bgcolor="#eeeeee"><strong><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">УКВ-2</span></strong></td>
                                                      </tr>
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Масса, кг</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">830</span></td>
+                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;font-weight: bold;">Тип</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;font-weight: bold;">Полунавесной</span></td>
                                                     </tr> 
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Мощность трактора, л.с.</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">55</span></td>
+                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Производительность за час
+                                                        основного времени га/ч</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,27-1,17</span></td>
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочая скорость, км/час</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,5-5,0</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,9…6,5</span></td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Ширина захвата, м</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1,5</span></td>
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Глубина подкапывания, см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">1500</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">25</span></td>
                                                     </tr> 
                                                     <tr>
-                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Рабочие обороты ВОМ, об/мин</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">540</span></td>
-                                                    </tr> 
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Производительность, га/час</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">0,5</span></td>
-                                                    </tr> 
-                                                    <tr>
-                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Размеры: длина x ширина x высота, см</span></td>
-                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">314x210x111</span></td>
+                                                        <td align="left" style="border: solid black 1px;padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Транспортная скорость, км/ч</span></td>
+                                                        <td align="center" style="border: solid black 1px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">25</span></td>
                                                     </tr> 
                                                     <tr>
                                                         <td align="left" style="border: solid black 1px; padding-left:2px;"><span style="font-family:'Trebuchet MS', sans-serif; font-size: 12px;">Цена с НДС</span><span style="color:#cc3333; font-size:10px;">*</span></td>
@@ -708,23 +705,32 @@ endif;
                                         <tr>
                                             <td style="padding-left: 20px; padding-bottom: 10px;">
                                                 <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">бережное отношение к картофелю</span><br>
-                                                    • Силу встряхивания транспортеров можно регулировать, с помощью специальных встряхивателей.<br>
-                                                    • Каждый второй пруток имеет оболочку из полимерного материала, 
-                                                    что уменьшает степень повреждения картофеля.
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">универсальный помощник</span><br>
+                                                    • Одновременно выкапывает картофель из двух
+                                                    рядков, отделяет клубни от почвы и укладывает их в
+                                                    один валок из двух или четырех рядков.<br>
+                                                    • Работает на всех типах почв.<br>
+                                                    • Картофель приобретает товарный вид и дольше
+                                                    хранится.
                                                 </p>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="padding-left: 20px; padding-bottom: 10px;">
-                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: justify;">
-                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Почему копалка Pyrus?</span><br>
-                                                    • Выкапывает картофель и овощи<br>
-                                                    • Два транспортера для лучшей очистки от налипшей
-                                                    грязи картофеля и овощей<br>
-                                                    • Укладывает в валок.<br>
-                                                    • Полунавесная модель с приводом от ВОМ трактора.
+                                                <p style="margin: 0; padding: 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; color: black; text-align: left;">
+                                                    <span style="color:#F58220; font-weight:bold; text-transform: uppercase;">Почему УКВ-2?</span><br>
+                                                    • Уборка картофеля по графику даже при повышенной
+                                                    влажности почвы.<br>
+                                                    • Трехкратное увеличение ресурса работы элеватора.<br>
+                                                    • Продуманная конструкция.<br>
+                                                    • Высококачественные комплектующие.<br>
+                                                    • Высокая надежность и долговечность.
                                                 </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 20px; padding-bottom: 10px;">
+                                                <img src="http://www.lbr.ru/images/kp/181-kartofel/mail-8-2.jpg" width="428" style="border: 0; float: left;" alt="Изображения не отображаются">  
                                             </td>
                                         </tr>
                                      </table>
