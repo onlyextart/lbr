@@ -71,7 +71,7 @@
                     <?php 
                         $this->widget('CCaptcha', 
                             array(
-                                'captchaAction' => '/site/captcha',
+                                'captchaAction' => 'site/captcha',
                                 //'captchaAction' => 'contacts/captcha',
                                 
                                 'clickableImage' => true, 
