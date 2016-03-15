@@ -77,6 +77,9 @@ class TestController extends Controller {
                 
                 Yii::app()->user->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
                 $this->refresh();
+            } else {
+                echo '<pre>';
+                var_dump($model);
             }
         }
         
