@@ -119,13 +119,13 @@ function(form,attribute,data,hasError) {
 EOD;
 
 $form=$this->beginWidget('CActiveForm',array(
-    'id'=>'user-registration',
+    'id'=>'contact-form',
     'enableAjaxValidation'=>true,
     'focus'=>'login',
     'clientOptions'=>array(
         'validateOnSubmit'=>true,
-        'afterValidateAttribute'=>'js:'.$updateCaptcha,
-        'afterValidate'=>'js:'.$updateCaptcha,
+        //'afterValidateAttribute'=>'js:'.$updateCaptcha,
+        //'afterValidate'=>'js:'.$updateCaptcha,
     ),
 ));
 
