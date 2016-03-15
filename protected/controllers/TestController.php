@@ -18,21 +18,21 @@ class TestController extends Controller {
 //            echo 'Ok';
 //        } else echo 'Error';
 //    }
-    
+
     public function accessRules() {
         return array(
             // если используется проверка прав, не забывайте разрешить доступ к
             // действию, отвечающему за генерацию изображения
             array('allow',
-                'actions'=>array('captcha'),
-                'users'=>array('*'),
+                'actions' => array('captcha'),
+                'users' => array('*'),
             ),
             array('deny',
-                'users'=>array('*'),
+                'users' => array('*'),
             ),
         );
     }
-    
+
     public function actions() {
         return array(
             // captcha action renders the CAPTCHA image displayed on the contact page
@@ -48,17 +48,23 @@ class TestController extends Controller {
         );
     }
 
-    
-    public function actionCheck()
-    {
+    public function actionCheck() {
         $contactModel = Contacts::model()->findByPk(2);
         //$this->createAction('captcha')->getVerifyCode(true);
-        
-        $captcha=Yii::app()->getController()->createAction("captcha");
+
+
+        $session = Yii::app()->session;
+        $prefixLen = strlen(CCaptchaAction::SESSION_VAR_PREFIX);
+        foreach ($session->keys as $key) {
+            if (strncmp(CCaptchaAction::SESSION_VAR_PREFIX, $key, $prefixLen) == 0)
+                $session->remove($key);
+        }
+
+        $captcha = Yii::app()->getController()->createAction("captcha");
         $captcha->getVerifyCode(true);
         $code = $captcha->verifyCode;
-        
-        
+
+
         //$model = new ContactForm('insert');
         $model = new ContactForm;
         $model->name = ' kkk ';
@@ -72,20 +78,21 @@ class TestController extends Controller {
                 $headers = 'From: ' . $email . "\r\n" .
                         'Reply-To: ' . $email . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
-                
+
                 mail($email, 'Test', 'Test6', $headers);
-                
+
                 Yii::app()->user->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
                 $this->refresh();
-            } else {
-                echo '<pre>';
-                var_dump($model);
             }
+            //else {
+//                echo '<pre>';
+//                var_dump($model);
+//            }
         }
-        
-        $this->render('contact', array('contactModel'=>$contactModel, 'formModel'=> $model));
+
+        $this->render('contact', array('contactModel' => $contactModel, 'formModel' => $model));
     }
-    
+
 //    public function actionCheck()
 //    {
 //        $model = new ContactForm;
