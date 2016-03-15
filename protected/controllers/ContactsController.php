@@ -17,6 +17,10 @@ class ContactsController extends Controller
     {
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         $formModel = new ContactForm('insert');
+        $captcha = Yii::app()->getController('site')->createAction('captcha');
+        //$captcha->getVerifyCode(true);
+        $code = $captcha->verifyCode;
+        $formModel->verifyCode = Yii::app()->controller->createAction('captcha')->getVerifyCode(true);//$code;
         
         if($contact_id == null) { // page with contacts
             $districts = Regions::getDistrictsForContacst();
