@@ -17,7 +17,7 @@
     </object>
 </div>
 
-<?php //if(!Yii::app()->user->isGuest):?>
+<?php if(!Yii::app()->user->isGuest):?>
 <div class="contact_form contact_form_common form">
 <?php
     $form = $this->beginWidget('CActiveForm', array(
@@ -94,4 +94,4 @@
     <?php $this->endWidget(); ?>
 
 </div>
-<?php //endif; ?>
+<?php endif; ?>
