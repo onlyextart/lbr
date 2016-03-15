@@ -18,14 +18,6 @@ class ContactsController extends Controller
     {
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         $formModel = new ContactForm('insert');
-        $captcha = Yii::app()->getController('site')->createAction('captcha');
-        //$captcha->getVerifyCode(true);
-        $code = $captcha->verifyCode;
-        
-        $formModel->name = 'test';
-        $formModel->email = 'ttt@mail.ru';
-        $formModel->body = 'test';
-        //$formModel->verifyCode = $code;//Yii::app()->controller->createAction('captcha')->getVerifyCode(true);//$code;
         
         if($contact_id == null) { // page with contacts
             $districts = Regions::getDistrictsForContacst();
@@ -70,7 +62,10 @@ class ContactsController extends Controller
             
             $output .= '</ul>';
             
-            if(!Yii::app()->user->isGuest) $this->sendMail($_POST['ContactForm'], $formModel);
+            if(!Yii::app()->user->isGuest && isset($_POST['ContactForm'])) {
+                $subject = 'Контактная форма';
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject);
+            }
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
         } else { // pop-up window for choosing region
@@ -85,24 +80,21 @@ class ContactsController extends Controller
         $this->renderPartial('regionstable');
     }
     
-    public function sendMail($post, $model)
+    public function sendMail($post, $model, $subject)
     {
-        if (isset($post)) {
-            $model->attributes = $post;
-            if ($model->validate()) {
-                $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
-                $subject = 'Контактная форма филиала '.$contactModel->name;
-                $headers = "From: $name <{$model->email}>\r\n" .
-                        "Reply-To: {$model->email}\r\n" .
-                        "MIME-Version: 1.0\r\n" .
-                        "Content-type: text/plain; charset=UTF-8";
+        $model->attributes = $post;
+        if ($model->validate()) {
+            $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
+            $headers = "From: $name <{$model->email}>\r\n" .
+                    "Reply-To: {$model->email}\r\n" .
+                    "MIME-Version: 1.0\r\n" .
+                    "Content-type: text/plain; charset=UTF-8";
 
-                //mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
-                mail('krilova@lbr.ru', $subject, $model->body, $headers);
+            //mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
+            mail('krilova@lbr.ru', $subject, $model->body, $headers);
 
-                Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.');
-                $this->refresh();
-            }
+            Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.');
+            $this->refresh();
         }
     }
 }
