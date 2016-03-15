@@ -26,13 +26,21 @@ class ContactForm extends CFormModel
                 // email has to be a valid email address
                 array('email', 'email'),
                 // verifyCode needs to be entered correctly
-                array(
-                    'verifyCode', 
-                    'captcha', 
-                    'on' => 'insert',
-                    'allowEmpty'=>!CCaptcha::checkRequirements()
+//                array(
+//                    'verifyCode', 
+//                    'captcha', 
+//                    'on' => 'insert',
+//                    'allowEmpty'=>!CCaptcha::checkRequirements()
+//                ),
+//                array('verifyCode', 'safe'),
+                
+                array('verifyCode','required','on'=>'insert'),
+                array('verifyCode',  // Must be _after_ required rule
+                    'captcha',
+                    'on'=>'register',
+                    //'captchaAction'=>'user/captcha',
+                    'skipOnError'=>true,    // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
                 ),
-                array('verifyCode', 'safe'),
             );
 	}
 

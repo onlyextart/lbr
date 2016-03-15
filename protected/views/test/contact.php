@@ -97,7 +97,7 @@ if (false !== $images) {
     <?php echo $contactModel->map_code ?>
 </div>
 <div class="contact_form form">
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php /*$form=$this->beginWidget('CActiveForm', array(
 	'id'=>'contact-form',
         //'enableAjaxValidation'=>true,
         'enableAjaxValidation'=>false,
@@ -107,7 +107,29 @@ if (false !== $images) {
             'validateOnSubmit'=>true,
             //'validateOnChange' => true,
 	),
-)); ?>
+)); */
+
+$updateCaptcha=<<<EOD
+function(form,attribute,data,hasError) {
+    var i=form.find('.captcha img').first(),
+                h=/^.*\/v\//.exec(i.attr('src'));  // will cut off the number part at the end of image src URL (".../v/123456")
+    i.attr('src',h+Math.floor(100000*Math.random()));  // creates a new random number to prevent image caching
+    return true;
+}
+EOD;
+
+$form=$this->beginWidget('CActiveForm',array(
+    'id'=>'user-registration',
+    'enableAjaxValidation'=>true,
+    'focus'=>'login',
+    'clientOptions'=>array(
+        'validateOnSubmit'=>true,
+        'afterValidateAttribute'=>'js:'.$updateCaptcha,
+        'afterValidate'=>'js:'.$updateCaptcha,
+    ),
+));
+
+?>
 
 	<p class="note">Поля отмеченные <span class="required">*</span> обязательны при заполнении.</p>
 
