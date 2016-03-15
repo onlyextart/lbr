@@ -53,12 +53,12 @@ class TestController extends Controller {
         //$this->createAction('captcha')->getVerifyCode(true);
 
 
-        $session = Yii::app()->session;
-        $prefixLen = strlen(CCaptchaAction::SESSION_VAR_PREFIX);
-        foreach ($session->keys as $key) {
-            if (strncmp(CCaptchaAction::SESSION_VAR_PREFIX, $key, $prefixLen) == 0)
-                $session->remove($key);
-        }
+//        $session = Yii::app()->session;
+//        $prefixLen = strlen(CCaptchaAction::SESSION_VAR_PREFIX);
+//        foreach ($session->keys as $key) {
+//            if (strncmp(CCaptchaAction::SESSION_VAR_PREFIX, $key, $prefixLen) == 0)
+//                $session->remove($key);
+//        }
 
         $captcha = Yii::app()->getController()->createAction("captcha");
         $captcha->getVerifyCode(true);
