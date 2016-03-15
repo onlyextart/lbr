@@ -118,7 +118,7 @@ function(form,attribute,data,hasError) {
 }
 EOD;
 
-$form=$this->beginWidget('CActiveForm',array(
+$form = $this->beginWidget('CActiveForm',array(
     'id'=>'contact-form',
     //'enableAjaxValidation'=>true,
     'enableAjaxValidation'=>false,
