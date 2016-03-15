@@ -29,7 +29,7 @@ class ContactForm extends CFormModel
 	public function rules()
 	{
             return array(
-                array('phone', 'safe'),
+                array('phone, name, email, body, mailTo', 'safe'),
                 // name, email, subject and body are required
                 array('name, email, body', 'required'),
                 // email has to be a valid email address
