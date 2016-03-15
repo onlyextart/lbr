@@ -134,18 +134,20 @@ if (false !== $images) {
 		<?php echo $form->error($formModel,'body'); ?>
 	</div>
         
-        <!--div class="row captcha"-->
-        <?php //if(CCaptcha::checkRequirements() && Yii::app()->user->isGuest): ?>
-                <?php //echo $form->labelEx($formModel,'verifyCode'); ?>
-                <?php //echo $form->textField($formModel,'verifyCode', array('value'=>'')); ?>
-                <?php //echo $form->textField($formModel,'verifyCode'); ?>
-                <?php //echo $form->error($formModel,'verifyCode'); ?>
-                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha', array('captchaAction'=>'/site/captcha', 'showRefreshButton' => false));?></div-->
-                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha');?></div-->
-        <?php //endif; ?>
-        <!--/div-->
         
         <?php if(CCaptcha::checkRequirements()): ?>
+            <div class="row">
+                <?php echo $form->labelEx($formModel,'verifyCode'); ?>
+                <?php //echo $form->textField($formModel,'verifyCode', array('value'=>'')); ?>
+                <?php echo $form->textField($formModel,'verifyCode'); ?>
+                <?php echo $form->error($formModel,'verifyCode'); ?>
+                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha', array('showRefreshButton' => false));?></div-->
+                <div id='pict_captcha'><?php $this->widget('CCaptcha');?></div>
+            </div>
+        <?php endif; ?>
+        
+        
+        <?php /*if(CCaptcha::checkRequirements()): ?>
         <div class="row">
             <?php echo $form->labelEx($formModel,'verifyCode'); ?>
             <div>
@@ -156,7 +158,7 @@ if (false !== $images) {
             <div class="hint">Пожалуйста, введите символы, которые изображены на картинке
             <br/>Регистр не учитывается</div>
         </div>
-        <?php endif; ?>
+        <?php endif; */?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
