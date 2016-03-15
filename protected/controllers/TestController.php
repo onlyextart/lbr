@@ -69,7 +69,7 @@ class TestController extends Controller {
         $model->name = ' kkk ';
         $model->email = 'tttanayttt@mail.ru';
         $model->body = 'test';
-        $model->verifyCode = $code;
+        //$model->verifyCode = $code;
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
             if ($model->validate()) {
