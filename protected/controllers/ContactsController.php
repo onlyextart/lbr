@@ -25,7 +25,7 @@ class ContactsController extends Controller
         $formModel->name = 'test';
         $formModel->email = 'ttt@mail.ru';
         $formModel->body = 'test';
-        $formModel->verifyCode = $code;//Yii::app()->controller->createAction('captcha')->getVerifyCode(true);//$code;
+        //$formModel->verifyCode = $code;//Yii::app()->controller->createAction('captcha')->getVerifyCode(true);//$code;
         
         if($contact_id == null) { // page with contacts
             $districts = Regions::getDistrictsForContacst();
