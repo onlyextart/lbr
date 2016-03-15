@@ -76,7 +76,7 @@ class TestController extends Controller {
 
                 mail($email, 'Test', 'Test6', $headers);
 
-                Yii::app()->user->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                Yii::app()->user->setFlash('success', 'Ваше письмо отправлено. Мы свяжемся с Вами как можно скорее.');
                 $this->refresh();
             }
             //else {

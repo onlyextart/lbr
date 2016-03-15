@@ -37,8 +37,7 @@ class ContactForm extends CFormModel
                 array('verifyCode','required','on'=>'insert'),
                 array('verifyCode',  // Must be _after_ required rule
                     'captcha',
-                    'on'=>'register',
-                    //'captchaAction'=>'user/captcha',
+                    'on'=>'insert',
                     'skipOnError'=>true,    // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
                 ),
             );
