@@ -94,7 +94,7 @@ class ContactsController extends Controller
             //mail('krilova@lbr.ru', $subject, $model->body, $headers);
             mail($model->mailTo, $subject, $model->body, $headers);
 
-            Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.');
+            Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.'.$model->mailTo);
             $this->refresh();
         }
     }

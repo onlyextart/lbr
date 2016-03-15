@@ -15,10 +15,8 @@ class ContactForm extends CFormModel
 	public $verifyCode;
         public $mailTo;
         public static $mailToArray  = array(
-            'pl@lbr.ru' => 'Техника',
-            
             'krilova@lbr.ru' => 'Тестирование',
-            
+            'pl@lbr.ru' => 'Техника',
             'parts@lbr.ru' => 'Запчасти',
             'log@lbr.ru' => 'Логистика, таможня, сертификация',
             'marketing@lbr.ru' => 'Реклама',
