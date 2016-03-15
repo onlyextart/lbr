@@ -166,8 +166,8 @@ $form = $this->beginWidget('CActiveForm',array(
                 <?php //echo $form->textField($formModel,'verifyCode', array('value'=>'')); ?>
                 <?php echo $form->textField($formModel,'verifyCode'); ?>
                 <?php echo $form->error($formModel,'verifyCode'); ?>
-                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha', array('showRefreshButton' => false));?></div-->
-                <div id='pict_captcha'><?php $this->widget('CCaptcha');?></div>
+                <div id='pict_captcha'><?php $this->widget('CCaptcha', array('showRefreshButton' => false));?></div>
+                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha');?></div-->
             </div>
         <?php endif; ?>
         
