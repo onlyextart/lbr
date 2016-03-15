@@ -260,8 +260,7 @@ img {
   border: 0;
   outline: none;
 }
-input,
-textarea {
+input, textarea, select {
   min-height: 24px;
   padding: 5px 8px;
   outline: none;
@@ -3341,6 +3340,21 @@ table.table-tech-stage-with-img td.table-main-img{
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.wrapper .contact_form_common .row label{
+    margin-bottom: 3px;
+}
+
+.wrapper #content .contact_form form select.contact_form_field
+{
+    display: block;
+    width: 100%;
+}
+
+.wrapper .contact_form_common .row {
+    margin-bottom: 5px;
 }
 .wrapper #content .contact_form_common {
     float: left;
