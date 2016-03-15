@@ -46,7 +46,8 @@ class TestController extends Controller {
         $code = $captcha->verifyCode;
         
         
-        $model = new ContactForm('insert');
+        //$model = new ContactForm('insert');
+        $model = new ContactForm;
         $model->name = ' kkk ';
         $model->email = 'tttanayttt@mail.ru';
         $model->body = 'test';
