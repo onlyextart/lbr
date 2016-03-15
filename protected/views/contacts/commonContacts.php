@@ -18,7 +18,7 @@
 </div>
 
 <?php //if(!Yii::app()->user->isGuest):?>
-<div class="contact_form form">
+<div class="contact_form contact_form_common form">
 <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'contact-form',

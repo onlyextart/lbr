@@ -3335,3 +3335,25 @@ table.table-tech-stage-with-img td.table-main-img{
 }
 
 /* end for Banner for spring */
+
+.wrapper #content .contact_form_common h2 {
+    color: #0f9797;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper #content .contact_form_common {
+    float: left;
+}
+.wrapper #content .contact_form_common form {
+    margin-left: 350px;
+}
+
+.wrapper #content .contact_form form {
+    min-height: 380px;
+    width: 320px;
+}
+
+.contact_form_common span.required {
+    color: red;
+}
