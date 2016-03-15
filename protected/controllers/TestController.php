@@ -60,16 +60,16 @@ class TestController extends Controller {
                 $session->remove($key);
         }
 
-        //$captcha = Yii::app()->getController()->createAction("captcha");
-        //$captcha->getVerifyCode(true);
-        //$code = $captcha->verifyCode;
+        $captcha = Yii::app()->getController()->createAction("captcha");
+        $captcha->getVerifyCode(true);
+        $code = $captcha->verifyCode;
 
-        //$model = new ContactForm('insert');
-        $model = new ContactForm;
+        $model = new ContactForm('insert');
+        //$model = new ContactForm;
         $model->name = ' kkk ';
         $model->email = 'tttanayttt@mail.ru';
         $model->body = 'test';
-        //$model->verifyCode = $code;
+        $model->verifyCode = $code;
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
             if ($model->validate()) {
