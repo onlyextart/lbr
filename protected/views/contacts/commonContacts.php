@@ -40,9 +40,7 @@
 
 ?>
         <h2>Форма обратной связи</h2>
-    
-	<p class="note">Поля отмеченные <span class="required">*</span> обязательны при заполнении.</p>
-
+        
 	<?php echo $form->errorSummary($formModel); ?>
 
 	<div class="row">
