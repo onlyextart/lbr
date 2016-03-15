@@ -19,19 +19,19 @@ class TestController extends Controller {
 //        } else echo 'Error';
 //    }
 
-    public function accessRules() {
-        return array(
-            // если используется проверка прав, не забывайте разрешить доступ к
-            // действию, отвечающему за генерацию изображения
-            array('allow',
-                'actions' => array('captcha'),
-                'users' => array('*'),
-            ),
-            array('deny',
-                'users' => array('*'),
-            ),
-        );
-    }
+//    public function accessRules() {
+//        return array(
+//            // если используется проверка прав, не забывайте разрешить доступ к
+//            // действию, отвечающему за генерацию изображения
+//            array('allow',
+//                'actions' => array('captcha'),
+//                'users' => array('*'),
+//            ),
+//            array('deny',
+//                'users' => array('*'),
+//            ),
+//        );
+//    }
 
     public function actions() {
         return array(
