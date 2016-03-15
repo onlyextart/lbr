@@ -82,8 +82,8 @@ class ContactsController extends Controller
     
     public function sendMail($post, $model, $subject)
     {
-        echo '<pre>';
-        var_dump($model); exit;
+        //echo '<pre>';
+        //var_dump($post); exit;
 //        $model->attributes = $post;
 //        if ($model->validate()) {
 //            $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
