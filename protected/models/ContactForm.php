@@ -29,7 +29,7 @@ class ContactForm extends CFormModel
                 array(
                     'verifyCode', 
                     'captcha', 
-                    //'on' => 'insert',
+                    'on' => 'insert',
                     'allowEmpty'=>!CCaptcha::checkRequirements()
                 ),
             );
