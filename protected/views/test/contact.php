@@ -4,6 +4,13 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 Yii::app()->clientScript->registerScriptFile('/js/site/XbannersSlider.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
 ?>
+
+<?php if(Yii::app()->user->hasFlash('success')):?>
+    <div class="info">
+        <?php echo Yii::app()->user->getFlash('success'); ?>
+    </div>
+<?php endif; ?>
+
 <h1><?php echo $contactModel->name ?></h1>
 <div class="contact_info">
 <div itemscope itemtype="http://schema.org/LocalBusiness">
@@ -92,9 +99,11 @@ if (false !== $images) {
 <div class="contact_form form">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'contact-form',
+        //'enableAjaxValidation'=>true,
 	'enableClientValidation'=>true,
 	'clientOptions'=>array(
             'validateOnSubmit'=>true,
+            //'validateOnChange' => true,
 	),
 )); ?>
 
@@ -124,6 +133,30 @@ if (false !== $images) {
 		<?php echo $form->textArea($formModel,'body',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($formModel,'body'); ?>
 	</div>
+        
+        <!--div class="row captcha"-->
+        <?php //if(CCaptcha::checkRequirements() && Yii::app()->user->isGuest): ?>
+                <?php //echo $form->labelEx($formModel,'verifyCode'); ?>
+                <?php //echo $form->textField($formModel,'verifyCode', array('value'=>'')); ?>
+                <?php //echo $form->textField($formModel,'verifyCode'); ?>
+                <?php //echo $form->error($formModel,'verifyCode'); ?>
+                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha', array('captchaAction'=>'/site/captcha', 'showRefreshButton' => false));?></div-->
+                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha');?></div-->
+        <?php //endif; ?>
+        <!--/div-->
+        
+        <?php if(CCaptcha::checkRequirements()): ?>
+        <div class="row">
+            <?php echo $form->labelEx($formModel,'verifyCode'); ?>
+            <div>
+            <?php $this->widget('CCaptcha', array('id' => 'captcha')); ?>
+            <?php echo $form->textField($formModel,'verifyCode',array('class' => 'text_field')); ?>
+            <?php echo $form->error($formModel,'verifyCode'); ?>
+            </div>
+            <div class="hint">Пожалуйста, введите символы, которые изображены на картинке
+            <br/>Регистр не учитывается</div>
+        </div>
+        <?php endif; ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
