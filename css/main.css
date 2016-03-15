@@ -3354,6 +3354,6 @@ table.table-tech-stage-with-img td.table-main-img{
     width: 320px;
 }
 
-.contact_form_common span.required {
+.contact_form_common span.required, .errorMessage {
     color: red;
 }
