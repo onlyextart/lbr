@@ -25,17 +25,8 @@ class ContactForm extends CFormModel
                 array('name, email, body', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
-                // verifyCode needs to be entered correctly
-//                array(
-//                    'verifyCode', 
-//                    'captcha', 
-//                    'on' => 'insert',
-//                    'allowEmpty'=>!CCaptcha::checkRequirements()
-//                ),
-//                array('verifyCode', 'safe'),
-                
                 array('verifyCode','required','on'=>'insert'),
-                array('verifyCode',  // Must be after required rule
+                array('verifyCode',  // must be after required rule
                     'captcha',
                     'on'=>'insert',
                     'skipOnError'=>true, // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
@@ -51,11 +42,11 @@ class ContactForm extends CFormModel
 	public function attributeLabels()
 	{
             return array(
-                'verifyCode'=>'Проверочный код',
-                'email'=>'E-Mail',
-                'name'=>'Имя',
-                'body'=>'Текст сообщения',
-                'phone'=>'Телефон',
+                'verifyCode' => 'Проверочный код',
+                'email' => 'E-Mail',
+                'name' => 'Имя',
+                'body' => 'Текст сообщения',
+                'phone' => 'Телефон',
             );
 	}
 }

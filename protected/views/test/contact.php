@@ -109,14 +109,14 @@ if (false !== $images) {
 	),
 )); */
 
-$updateCaptcha=<<<EOD
-function(form,attribute,data,hasError) {
-    var i=form.find('.captcha img').first(),
-                h=/^.*\/v\//.exec(i.attr('src'));  // will cut off the number part at the end of image src URL (".../v/123456")
-    i.attr('src',h+Math.floor(100000*Math.random()));  // creates a new random number to prevent image caching
-    return true;
-}
-EOD;
+//$updateCaptcha=<<<EOD
+//function(form,attribute,data,hasError) {
+//    var i=form.find('.captcha img').first(),
+//                h=/^.*\/v\//.exec(i.attr('src'));  // will cut off the number part at the end of image src URL (".../v/123456")
+//    i.attr('src',h+Math.floor(100000*Math.random()));  // creates a new random number to prevent image caching
+//    return true;
+//}
+//EOD;
 
 $form = $this->beginWidget('CActiveForm',array(
     'id'=>'contact-form',
@@ -137,56 +137,39 @@ $form = $this->beginWidget('CActiveForm',array(
 	<?php echo $form->errorSummary($formModel); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'name'); ?>
-		<?php echo $form->textField($formModel,'name', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'name'); ?>
+            <?php echo $form->labelEx($formModel,'name'); ?>
+            <?php echo $form->textField($formModel,'name', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel,'name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'email'); ?>
-		<?php echo $form->textField($formModel,'email', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'email'); ?>
+            <?php echo $form->labelEx($formModel,'email'); ?>
+            <?php echo $form->textField($formModel,'email', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel,'email'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'phone'); ?>
-		<?php echo $form->textField($formModel,'phone', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'phone'); ?>
+            <?php echo $form->labelEx($formModel,'phone'); ?>
+            <?php echo $form->textField($formModel,'phone', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel,'phone'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'body'); ?>
-		<?php echo $form->textArea($formModel,'body',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($formModel,'body'); ?>
+            <?php echo $form->labelEx($formModel,'body'); ?>
+            <?php echo $form->textArea($formModel,'body',array('rows'=>6, 'cols'=>50)); ?>
+            <?php echo $form->error($formModel,'body'); ?>
 	</div>
-        
         
         <?php if(CCaptcha::checkRequirements()): ?>
             <div class="row">
                 <?php echo $form->labelEx($formModel,'verifyCode'); ?>
-                <?php //echo $form->textField($formModel,'verifyCode', array('value'=>'')); ?>
                 <?php echo $form->textField($formModel,'verifyCode'); ?>
                 <?php echo $form->error($formModel,'verifyCode'); ?>
-                <div id='pict_captcha'><?php $this->widget('CCaptcha', array('showRefreshButton' => false));?></div>
-                <!--div id='pict_captcha'><?php //$this->widget('CCaptcha');?></div-->
+                <div id='pict_captcha'><?php $this->widget('CCaptcha', array('clickableImage' => true, 'showRefreshButton' => false));?></div>
             </div>
         <?php endif; ?>
-        
-        
-        <?php /*if(CCaptcha::checkRequirements()): ?>
-        <div class="row">
-            <?php echo $form->labelEx($formModel,'verifyCode'); ?>
-            <div>
-            <?php $this->widget('CCaptcha', array('id' => 'captcha')); ?>
-            <?php echo $form->textField($formModel,'verifyCode',array('class' => 'text_field')); ?>
-            <?php echo $form->error($formModel,'verifyCode'); ?>
-            </div>
-            <div class="hint">Пожалуйста, введите символы, которые изображены на картинке
-            <br/>Регистр не учитывается</div>
-        </div>
-        <?php endif; */?>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
+            <?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
 	</div>
 
     <?php $this->endWidget(); ?>
