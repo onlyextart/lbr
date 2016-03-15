@@ -99,8 +99,8 @@ if (false !== $images) {
 <div class="contact_form form">
 <?php /*$form=$this->beginWidget('CActiveForm', array(
 	'id'=>'contact-form',
-        //'enableAjaxValidation'=>true,
-        'enableAjaxValidation'=>false,
+        'enableAjaxValidation'=>true,
+        //'enableAjaxValidation'=>false,
 
 	'enableClientValidation'=>true,
 	'clientOptions'=>array(
