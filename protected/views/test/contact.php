@@ -120,7 +120,8 @@ EOD;
 
 $form=$this->beginWidget('CActiveForm',array(
     'id'=>'contact-form',
-    'enableAjaxValidation'=>true,
+    //'enableAjaxValidation'=>true,
+    'enableAjaxValidation'=>false,
     'focus'=>'login',
     'clientOptions'=>array(
         'validateOnSubmit'=>true,
