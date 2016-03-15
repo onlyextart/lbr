@@ -48,18 +48,27 @@ class TestController extends Controller {
         $contactModel = Contacts::model()->findByPk(2);
 
         $model = new ContactForm('insert');
-        $model->name = ' kkk ';
-        $model->email = 'tttanayttt@mail.ru';
-        $model->body = 'test';
+        //$model->name = ' kkk ';
+        //$model->email = 'tttanayttt@mail.ru';
+        //$model->body = 'test';
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
             if ($model->validate()) {
-                $email = 'krilova@lbr.ru';
-                $headers = 'From: ' . $email . "\r\n" .
-                        'Reply-To: ' . $email . "\r\n" .
-                        'X-Mailer: PHP/' . phpversion();
+//                $email = 'krilova@lbr.ru';
+//                $headers = 'From: ' . $email . "\r\n" .
+//                        'Reply-To: ' . $email . "\r\n" .
+//                        'X-Mailer: PHP/' . phpversion();
+//
+//                mail($email, 'Test', 'Test6', $headers);
+                
+                $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
+                $subject = 'Контактная форма филиала '.$contactModel->name;
+                $headers = "From: $name <{$model->email}>\r\n" .
+                        "Reply-To: {$model->email}\r\n" .
+                        "MIME-Version: 1.0\r\n" .
+                        "Content-type: text/plain; charset=UTF-8";
 
-                mail($email, 'Test', 'Test6', $headers);
+                mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
 
                 Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.');
                 $this->refresh();

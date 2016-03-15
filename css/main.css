@@ -1183,6 +1183,10 @@ a[name="list_filials"]{
     position: absolute;
 }
 
+#pict_captcha img:hover {
+    cursor: pointer;
+}
+
 /*-----akcii----*/
 .wrapper #content .left-sidebar {
   margin-top:10px;
