@@ -60,10 +60,9 @@ class TestController extends Controller {
                 $session->remove($key);
         }
 
-        $captcha = Yii::app()->getController()->createAction("captcha");
-        $captcha->getVerifyCode(true);
-        $code = $captcha->verifyCode;
-
+        //$captcha = Yii::app()->getController()->createAction("captcha");
+        //$captcha->getVerifyCode(true);
+        //$code = $captcha->verifyCode;
 
         //$model = new ContactForm('insert');
         $model = new ContactForm;
