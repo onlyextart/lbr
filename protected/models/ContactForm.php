@@ -13,6 +13,17 @@ class ContactForm extends CFormModel
 	public $body;
 	public $phone;
 	public $verifyCode;
+        public $mailTo;
+        public static $mailToArray  = array(
+            'pl@lbr.ru' => 'Техника',
+            
+            'krilova@lbr.ru' => 'Тестирование',
+            
+            'parts@lbr.ru' => 'Запчасти',
+            'log@lbr.ru' => 'Логистика, таможня, сертификация',
+            'marketing@lbr.ru' => 'Реклама',
+            'uchet_upr@lbr.ru' => 'Бухгалтерия'
+        );
 
 	/**
 	 * Declares the validation rules.
@@ -25,7 +36,7 @@ class ContactForm extends CFormModel
                 array('name, email, body', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
-                array('verifyCode','required','on'=>'insert'),
+                array('verifyCode', 'required', 'on'=>'insert'),
                 array('verifyCode',  // must be after required rule
                     'captcha',
                     'captchaAction'=>'site/captcha',
@@ -49,6 +60,7 @@ class ContactForm extends CFormModel
                 'name' => 'Имя',
                 'body' => 'Текст сообщения',
                 'phone' => 'Телефон',
+                'mailTo' => 'Служба ЛБР'
             );
 	}
 }

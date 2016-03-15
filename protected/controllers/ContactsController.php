@@ -91,7 +91,8 @@ class ContactsController extends Controller
                     "Content-type: text/plain; charset=UTF-8";
 
             //mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
-            mail('krilova@lbr.ru', $subject, $model->body, $headers);
+            //mail('krilova@lbr.ru', $subject, $model->body, $headers);
+            mail($model->mailTo, $subject, $model->body, $headers);
 
             Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.');
             $this->refresh();
