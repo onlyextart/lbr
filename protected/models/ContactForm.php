@@ -31,7 +31,7 @@ class ContactForm extends CFormModel
                     'captchaAction'=>'site/captcha',
                     'on'=>'insert',
                     'skipOnError'=>true, // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
-                    'allowEmpty'=>!CCaptcha::checkRequirements(),
+                    //'allowEmpty'=>!CCaptcha::checkRequirements(),
                 ),
             );
 	}
