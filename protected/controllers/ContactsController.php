@@ -82,8 +82,6 @@ class ContactsController extends Controller
     
     public function sendMail($post, $model, $subject)
     {
-        //echo '<pre>';
-        //var_dump($post); exit;
         $model->attributes = $post;
         if ($model->validate()) {
             $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
@@ -93,10 +91,9 @@ class ContactsController extends Controller
                     "Content-type: text/plain; charset=UTF-8";
 
             //mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
-            //mail('krilova@lbr.ru', $subject, $model->body, $headers);
             mail($model->mailTo, $subject, $model->body, $headers);
 
-            Yii::app()->user->setFlash('success', 'Письмо отправлено. Мы свяжемся с Вами как можно скорее.'.$model->mailTo);
+            Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
             $this->refresh();
         }
     }
