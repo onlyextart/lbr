@@ -73,7 +73,7 @@ class ContactsController extends Controller
             if(!Yii::app()->user->isGuest && isset($_POST['ContactForm'])) {
                 $subject = 'Контактная форма филиала '.$contactModel->name.' c сайта ЛБР';
                 //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@mail.ru');
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
