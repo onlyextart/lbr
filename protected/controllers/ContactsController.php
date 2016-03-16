@@ -64,7 +64,7 @@ class ContactsController extends Controller
             
             if(isset($_POST['ContactForm'])) {
                 $subject = 'Контактная форма сайта ЛБР';
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $formModel->mailTo);
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $_POST['ContactForm']['mailTo']);
             }
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
