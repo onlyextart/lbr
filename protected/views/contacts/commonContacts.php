@@ -27,7 +27,6 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     </object>
 </div>
 
-<?php if(!Yii::app()->user->isGuest):?>
 <div class="contact_form contact_form_common form">
 <?php
     $form = $this->beginWidget('CActiveForm', array(
@@ -109,4 +108,3 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     <?php $this->endWidget(); ?>
 
 </div>
-<?php endif; ?>

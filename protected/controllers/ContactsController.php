@@ -62,7 +62,7 @@ class ContactsController extends Controller
             
             $output .= '</ul>';
             
-            if(!Yii::app()->user->isGuest && isset($_POST['ContactForm'])) {
+            if(isset($_POST['ContactForm'])) {
                 $subject = 'Контактная форма сайта ЛБР';
                 $this->sendMail($_POST['ContactForm'], $formModel, $subject);
             }
