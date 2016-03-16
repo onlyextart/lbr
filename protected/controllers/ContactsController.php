@@ -70,7 +70,10 @@ class ContactsController extends Controller
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
         } else { // pop-up window for choosing region
             $contactModel = Contacts::model()->findByPk($contact_id);
-            
+//            if(!Yii::app()->user->isGuest && isset($_POST['ContactForm'])) {
+//                $subject = 'Контактная форма филиала '.$contactModel->name.' сайта ЛБР';
+//                $this->sendMail($_POST['ContactForm'], $formModel, $subject);
+//            }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
     }

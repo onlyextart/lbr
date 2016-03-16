@@ -1,3 +1,7 @@
+<?php
+Yii::app()->clientScript->registerCssFile('/css/form.css');
+?>
+
 <?php if(Yii::app()->user->hasFlash('success')):?>
     <div class="info">
         <?php echo Yii::app()->user->getFlash('success'); ?>

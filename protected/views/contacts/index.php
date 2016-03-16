@@ -4,6 +4,12 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 Yii::app()->clientScript->registerScriptFile('/js/site/XbannersSlider.js');
 Yii::app()->clientScript->registerScriptFile('/js/site/contact.js');
 ?>
+<?php if(Yii::app()->user->hasFlash('success')):?>
+    <div class="info">
+        <?php echo Yii::app()->user->getFlash('success'); ?>
+    </div>
+<?php endif; ?>
+
 <h1><?php echo $contactModel->name ?></h1>
 <div class="contact_info">
 <div itemscope itemtype="http://schema.org/LocalBusiness">
@@ -124,6 +130,31 @@ if (false !== $images) {
 		<?php echo $form->textArea($formModel,'body',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($formModel,'body'); ?>
 	</div>
+        
+        <?php /*if(CCaptcha::checkRequirements()): ?>
+            <div class="row">
+                <?php echo $form->labelEx($formModel,'verifyCode'); ?>
+                <?php echo $form->textField($formModel,'verifyCode'); ?>
+                <?php echo $form->error($formModel,'verifyCode'); ?>
+                <div id='pict_captcha'>
+                    <?php 
+                        $this->widget('CCaptcha', 
+                            array(
+                                'captchaAction' => 'site/captcha',
+                                //'captchaAction' => 'contacts/captcha',
+                                
+                                'clickableImage' => true, 
+                                'showRefreshButton' => false,
+                                'imageOptions'=>array('style'=>'border:none;',
+                                    'alt'=>'Изображение с кодом валидации',
+                                    'title'=>'Обновить код'
+                                )
+                            )
+                        );
+                    ?>
+                </div>
+            </div>
+        <?php endif; */?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
