@@ -81,7 +81,8 @@ endif;
                                             </td>
                                             <td width="725" style="padding:0px 0px 5px 0px;">
                                                <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                                    укладывание валка хорошего качества и оптимальной мощности;  
+                                                   В случаи остановки протравливателя семена «запираются» в бункере и не высыпаются
+                                                   непротравленными в камеру. 
                                                 </p>
                                             </td>
                                        </tr>
@@ -91,7 +92,8 @@ endif;
                                             </td>
                                             <td width="725" style="padding:0px 0px 5px 0px;">
                                                <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                                    высокую продуктивность работы на скашивание и на подбор; 
+                                                   Большая надежность и долговечность всех узлов машины, благодаря отсутствию
+                                                   вибрационных нагрузок. 
                                                 </p>
                                             </td>
                                        </tr>
@@ -101,7 +103,9 @@ endif;
                                             </td>
                                             <td width="725" style="padding:0px 0px 0px 0px;">
                                                <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                                    облегчение условий труда механизатора.
+                                                   Стабильность работы протравливателя в автоматическом режиме обеспечивается
+                                                   высоконадежными датчиками емкостного типа, не имеющими в своей конструкции
+                                                   подвижных частей.
                                                 </p>
                                             </td>
                                        </tr>
@@ -198,10 +202,12 @@ endif;
                                 </td>
                                 <td valign="top" width="460" style="padding:0px 0px 0px 20px;">
                                     <p style="margin: 0px; padding: 0px 0px 0px 0px; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; text-align:left; color: black;line-height:20px; ">
-                                        Транспортеры загрузки и выгрузки оборудованы
-                                        итальянской цельнотянутой шнековой спиралью,
-                                        предотвращающей защемление, повреждение и
-                                        дробление семян в процессе работы.
+                                        ПС-20 и ПС-5М оборудованы выгрузным
+                                        шнеком, который способен выгружать на
+                                        высоту до 3,8 м. Это позволяет загружать
+                                        протравленные семена напрямую в прицеп
+                                        без использования дополнительной
+                                        техники.
                                     </p>
                                 </td>
                             </tr>
