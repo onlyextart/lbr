@@ -63,7 +63,7 @@ class ContactsController extends Controller
             $output .= '</ul>';
             
             if(isset($_POST['ContactForm'])) {
-                $subject = 'from LBR.RU';//'Контактная форма сайта ЛБР';
+                $subject = 'from LBR.RU';
                 $this->sendMail($_POST['ContactForm'], $formModel, $subject, $_POST['ContactForm']['mailTo']);
             }
             
@@ -71,7 +71,7 @@ class ContactsController extends Controller
         } else { // pop-up window for choosing region
             $contactModel = Contacts::model()->findByPk($contact_id);
             if(isset($_POST['ContactForm'])) {
-                $subject = 'from LBR.RU';//'Контактная форма филиала '.$contactModel->name.' c сайта ЛБР';
+                $subject = 'from LBR.RU';
                 $this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
