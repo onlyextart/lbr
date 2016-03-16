@@ -86,8 +86,6 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
                         $this->widget('CCaptcha', 
                             array(
                                 'captchaAction' => 'site/captcha',
-                                //'captchaAction' => 'contacts/captcha',
-                                
                                 'clickableImage' => true, 
                                 'showRefreshButton' => false,
                                 'imageOptions'=>array('style'=>'border:none;',

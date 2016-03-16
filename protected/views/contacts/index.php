@@ -104,7 +104,7 @@ if (false !== $images) {
 	),
 )); ?>
 
-	<p class="note">Поля отмеченные <span class="required">*</span> обязательны при заполнении.</p>
+	<p class="note">Поля отмеченные <span class="required">*</span> обязательны для заполнения.</p>
 
 	<?php echo $form->errorSummary($formModel); ?>
 
@@ -131,7 +131,7 @@ if (false !== $images) {
 		<?php echo $form->error($formModel,'body'); ?>
 	</div>
         
-        <?php /*if(CCaptcha::checkRequirements()): ?>
+        <?php if(CCaptcha::checkRequirements()): ?>
             <div class="row">
                 <?php echo $form->labelEx($formModel,'verifyCode'); ?>
                 <?php echo $form->textField($formModel,'verifyCode'); ?>
@@ -141,8 +141,6 @@ if (false !== $images) {
                         $this->widget('CCaptcha', 
                             array(
                                 'captchaAction' => 'site/captcha',
-                                //'captchaAction' => 'contacts/captcha',
-                                
                                 'clickableImage' => true, 
                                 'showRefreshButton' => false,
                                 'imageOptions'=>array('style'=>'border:none;',
@@ -154,7 +152,7 @@ if (false !== $images) {
                     ?>
                 </div>
             </div>
-        <?php endif; */?>
+        <?php endif; ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Отправить', array('class'=>'btn')); ?>
