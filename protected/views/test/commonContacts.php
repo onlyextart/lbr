@@ -1,14 +1,5 @@
 <?php
 Yii::app()->clientScript->registerCssFile('/css/form.css');
-//$js = <<< EOJ
-//function afterValidate() {
-////    $('html, body').animate({
-////        scrollTop: $('.contact_form_common').offset().top
-////    }, 2000);
-//    console.log('test');
-//}
-//EOJ;
-//Yii::app()->clientScript->registerScript('afterValidate', $js);
 ?>
 
 <?php if(Yii::app()->user->hasFlash('success')):?>
@@ -21,10 +12,6 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
         <?php echo Yii::app()->user->getFlash('error'); ?>
     </div>
 <?php endif; ?>
-
-<!--div class="form">
-    <?php //echo $form->errorSummary($formModel); ?>
-</div-->
 
 <h1 class="middle">Контакты ЛБР-АгроМаркет</h1>
 <?php echo $output; ?>
@@ -54,10 +41,6 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
         'enableClientValidation' => true,
         'clientOptions' => array(
             'validateOnSubmit' => true,
-            //'validateOnChange'=>false,
-            //'afterValidateAttribute'=>'js:'.$updateCaptcha,
-            //'afterValidate'=>'js:'.$updateCaptcha,
-            //'afterValidate'=>'js:afterValidate', // if error
         ),
     ));
 

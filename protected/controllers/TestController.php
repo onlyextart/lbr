@@ -47,7 +47,7 @@ class TestController extends Controller {
     
     public function actionCheck() 
     {
-        $contact_id = null;
+        $contact_id = 2;
         $formModel = new ContactFormTest('insert');
         
         if($contact_id == null) { // page with contacts
@@ -132,6 +132,6 @@ class TestController extends Controller {
 
             Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
             $this->refresh();
-        } else Yii::app()->user->setFlash('error', 'Форма заполнена некорректно.');
+        } else Yii::app()->user->setFlash('error', 'Форма заполнена некорректно.'); // !!!
     }
 }
