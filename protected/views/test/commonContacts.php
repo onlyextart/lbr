@@ -49,10 +49,10 @@ Yii::app()->clientScript->registerScript('afterValidate', $js);
         'enableClientValidation' => true,
         'clientOptions' => array(
             'validateOnSubmit' => true,
-            'validateOnChange'=>false,
+            //'validateOnChange'=>false,
             //'afterValidateAttribute'=>'js:'.$updateCaptcha,
             //'afterValidate'=>'js:'.$updateCaptcha,
-            'afterValidate'=>'js:afterValidate', // if error
+            //'afterValidate'=>'js:afterValidate', // if error
         ),
     ));
 
