@@ -94,18 +94,18 @@ class TestController extends Controller {
             
             $output .= '</ul>';
             
-            if(isset($_POST['ContactForm'])) {
+            if(isset($_POST['ContactFormTest'])) {
                 $subject = 'from LBR.RU';
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $_POST['ContactForm']['mailTo']);
+                $this->sendMail($_POST['ContactFormTest'], $formModel, $subject, $_POST['ContactFormTest']['mailTo']);
             }
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
         } else { // pop-up window for choosing region
             $contactModel = Contacts::model()->findByPk($contact_id);
-            if(isset($_POST['ContactForm'])) {
+            if(isset($_POST['ContactFormTest'])) {
                 $subject = 'from LBR.RU';
-                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
+                //$this->sendMail($_POST['ContactFormTest'], $formModel, $subject, Yii::app()->params['adminEmail']);
+                $this->sendMail($_POST['ContactFormTest'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
