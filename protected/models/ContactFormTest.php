@@ -27,7 +27,7 @@ class ContactFormTest extends CFormModel
             return array(
                 array('phone, name, email, body, mailTo', 'safe'),
                 // name, email, subject and body are required
-                array('name, email, body, mailTo', 'required'),
+                array('name, email, body', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
                 array('verifyCode', 'required', 'on'=>'insert'),
@@ -38,17 +38,17 @@ class ContactFormTest extends CFormModel
                     'skipOnError'=>true, // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
                     //'allowEmpty'=>!CCaptcha::checkRequirements(),
                 ),
-                //array('mailTo', 'mailValidation'),
+                array('mailTo', 'mailValidation'),
             );
 	}
         
-//        public function mailValidation($attribute, $params)
-//        {
-//            //if ($this->checkbox4) {
-//                $ev = CValidator::createValidator('required', $this, $attribute, $params);
-//                $ev->validate($this);
-//            //}
-//        }
+        public function mailValidation($attribute, $params)
+        {
+            //if ($this->checkbox4) {
+                $ev = CValidator::createValidator('required', $this, $attribute, $params);
+                $ev->validate($this);
+            //}
+        }
 
 	/**
 	 * Declares customized attribute labels.

@@ -47,7 +47,7 @@ class TestController extends Controller {
     
     public function actionCheck() 
     {
-        $contact_id = 2;
+        $contact_id = null;
         $formModel = new ContactFormTest('insert');
         
         if($contact_id == null) { // page with contacts
