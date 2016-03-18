@@ -47,7 +47,7 @@ class TestController extends Controller {
     
     public function actionCheck() 
     {
-        $contact_id = null;
+        $contact_id = 2;
         $formModel = new ContactFormTest('insert');
         
         if($contact_id == null) { // page with contacts
@@ -120,6 +120,7 @@ class TestController extends Controller {
     {
         $model->attributes = $post;
         if ($model->validate()) {
+            $subject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
             $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
             $headers = "From: $name <{$model->email}>\r\n" .
                     "Reply-To: {$model->email}\r\n" .
