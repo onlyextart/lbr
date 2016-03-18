@@ -2,7 +2,7 @@
 Yii::app()->clientScript->registerCssFile('/css/form.css');
 $js = <<< EOJ
 function afterValidate() {
-        console.log(error);
+        console.log('error');
 }
 EOJ;
 Yii::app()->clientScript->registerScript('afterValidate', $js);
