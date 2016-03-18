@@ -1,19 +1,24 @@
 <?php
 Yii::app()->clientScript->registerCssFile('/css/form.css');
-$js = <<< EOJ
-function afterValidate() {
-//    $('html, body').animate({
-//        scrollTop: $('.contact_form_common').offset().top
-//    }, 2000);
-    console.log('test');
-}
-EOJ;
-Yii::app()->clientScript->registerScript('afterValidate', $js);
+//$js = <<< EOJ
+//function afterValidate() {
+////    $('html, body').animate({
+////        scrollTop: $('.contact_form_common').offset().top
+////    }, 2000);
+//    console.log('test');
+//}
+//EOJ;
+//Yii::app()->clientScript->registerScript('afterValidate', $js);
 ?>
 
 <?php if(Yii::app()->user->hasFlash('success')):?>
     <div class="info">
         <?php echo Yii::app()->user->getFlash('success'); ?>
+    </div>
+<?php endif; ?>
+<?php if(Yii::app()->user->hasFlash('error')):?>
+    <div class="info error">
+        <?php echo Yii::app()->user->getFlash('error'); ?>
     </div>
 <?php endif; ?>
 
