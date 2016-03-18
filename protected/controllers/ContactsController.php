@@ -14,7 +14,7 @@ class ContactsController extends Controller
         );
     }
     
-    public function actionIndex() 
+    public function actionIndex()
     {
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         $formModel = new ContactForm('insert');
@@ -74,7 +74,8 @@ class ContactsController extends Controller
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
+                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
