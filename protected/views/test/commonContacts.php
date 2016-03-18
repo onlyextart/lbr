@@ -8,9 +8,9 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     </div>
 <?php endif; ?>
 
-<div class="form">
-    <?php echo $form->errorSummary($formModel); ?>
-</div>
+<!--div class="form">
+    <?php //echo $form->errorSummary($formModel); ?>
+</div-->
 
 <h1 class="middle">Контакты ЛБР-АгроМаркет</h1>
 <?php echo $output; ?>
