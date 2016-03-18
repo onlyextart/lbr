@@ -14,6 +14,7 @@ class ContactFormTest extends CFormModel
 	public $phone;
 	public $verifyCode;
         public $mailTo;
+        public $flagCommonContacts = false;
         public static $mailToArray  = array(
             'krilova@lbr.ru' => 'Тестирование',
         );
@@ -37,8 +38,17 @@ class ContactFormTest extends CFormModel
                     'skipOnError'=>true, // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
                     //'allowEmpty'=>!CCaptcha::checkRequirements(),
                 ),
+                array('mailTo', 'mailToValidation'),
             );
 	}
+        
+        public function mailToValidation($attribute, $params)
+        {
+            if ($this->flagCommonContacts) {
+               if (empty($this->mailTo))
+                  $this->addError("mailTo", 'Необходимо выбрать службу ЛБР.');
+            }
+        }
 
 	/**
 	 * Declares customized attribute labels.

@@ -51,6 +51,7 @@ class TestController extends Controller {
         $formModel = new ContactFormTest('insert');
         
         if($contact_id == null) { // page with contacts
+            $formModel->flagCommonContacts = true;
             $districts = Regions::getDistrictsForContacst();
             $output = '<ul class="contacts_list clearfix">
                 <a name="list_filials"></a>'
