@@ -44,10 +44,10 @@ class ContactFormTest extends CFormModel
         
         public function mailValidation($attribute, $params)
         {
-            //if ($this->checkbox4) {
+            if ($this->flagCommonContacts) {
                 $ev = CValidator::createValidator('required', $this, $attribute, $params);
                 $ev->validate($this);
-            //}
+            }
         }
 
 	/**
