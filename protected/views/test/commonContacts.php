@@ -1,5 +1,11 @@
 <?php
 Yii::app()->clientScript->registerCssFile('/css/form.css');
+$js = <<< EOJ
+function afterValidate() {
+        console.log(error);
+}
+EOJ;
+Yii::app()->clientScript->registerScript('afterValidate', $js);
 ?>
 
 <?php if(Yii::app()->user->hasFlash('success')):?>
@@ -35,13 +41,15 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'contact-form',
-        //'enableAjaxValidation'=>true,
-        'enableAjaxValidation' => false,
+        'enableAjaxValidation'=>true,
+        //'enableAjaxValidation' => false,
         'enableClientValidation' => true,
         'clientOptions' => array(
             'validateOnSubmit' => true,
+            'validateOnChange'=>false,
             //'afterValidateAttribute'=>'js:'.$updateCaptcha,
             //'afterValidate'=>'js:'.$updateCaptcha,
+            'afterValidate'=>'js:afterValidate', // if error
         ),
     ));
 

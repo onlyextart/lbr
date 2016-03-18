@@ -101,6 +101,7 @@ class TestController extends Controller {
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
         } else { // pop-up window for choosing region
+            $formModel->flagCommonContacts = false;
             $contactModel = Contacts::model()->findByPk($contact_id);
             if(isset($_POST['ContactFormTest'])) {
                 $subject = 'from LBR.RU';
