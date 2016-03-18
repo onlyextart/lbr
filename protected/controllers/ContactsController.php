@@ -20,6 +20,7 @@ class ContactsController extends Controller
         $formModel = new ContactForm('insert');
         
         if($contact_id == null) { // page with contacts
+            $formModel->flagCommonContacts = true;
             $districts = Regions::getDistrictsForContacst();
             $output = '<ul class="contacts_list clearfix">
                 <a name="list_filials"></a>'
@@ -70,6 +71,7 @@ class ContactsController extends Controller
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
         } else { // pop-up window for choosing region
             $contactModel = Contacts::model()->findByPk($contact_id);
+            $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
                 $this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
@@ -97,6 +99,6 @@ class ContactsController extends Controller
 
             Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
             $this->refresh();
-        }
+        } else Yii::app()->user->setFlash('error', 'Форма заполнена некорректно.');
     }
 }

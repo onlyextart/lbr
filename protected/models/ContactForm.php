@@ -14,7 +14,9 @@ class ContactForm extends CFormModel
 	public $phone;
 	public $verifyCode;
         public $mailTo;
+        public $flagCommonContacts = false;
         public static $mailToArray  = array(
+            'krilova@lbr.ru' => 'Тестирование',
             'pl@lbr.ru' => 'Техника',
             'parts@lbr.ru' => 'Запчасти',
             'log@lbr.ru' => 'Логистика, таможня, сертификация',
@@ -41,8 +43,17 @@ class ContactForm extends CFormModel
                     'skipOnError'=>true, // Important: Only validate captcha if 'required' had no error (a.k.a. "if not empty")
                     //'allowEmpty'=>!CCaptcha::checkRequirements(),
                 ),
+                array('mailTo', 'mailValidation'),
             );
 	}
+        
+        public function mailValidation($attribute, $params)
+        {
+            if ($this->flagCommonContacts) {
+                $ev = CValidator::createValidator('required', $this, $attribute, $params);
+                $ev->validate($this);
+            }
+        }
 
 	/**
 	 * Declares customized attribute labels.

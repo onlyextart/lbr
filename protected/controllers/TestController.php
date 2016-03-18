@@ -132,6 +132,6 @@ class TestController extends Controller {
 
             Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
             $this->refresh();
-        } else Yii::app()->user->setFlash('error', 'Форма заполнена некорректно.'); // !!!
+        } else Yii::app()->user->setFlash('error', 'Форма заполнена некорректно.');
     }
 }

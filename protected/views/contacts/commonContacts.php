@@ -7,6 +7,11 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
         <?php echo Yii::app()->user->getFlash('success'); ?>
     </div>
 <?php endif; ?>
+<?php if(Yii::app()->user->hasFlash('error')):?>
+    <div class="info error">
+        <?php echo Yii::app()->user->getFlash('error'); ?>
+    </div>
+<?php endif; ?>
 
 <h1 class="middle">Контакты ЛБР-АгроМаркет</h1>
 <?php echo $output; ?>
@@ -66,7 +71,7 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
         
 	<div class="row">
 		<?php echo $form->labelEx($formModel,'mailTo'); ?>
-		<?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('class'=>'contact_form_field'));//, array('empty'=>'', 'class'=>'contact_form_field')); ?>
+		<?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('empty'=>'', 'class'=>'contact_form_field'));//, array('empty'=>'', 'class'=>'contact_form_field')); ?>
 		<?php echo $form->error($formModel,'mailTo'); ?>
 	</div>
 
