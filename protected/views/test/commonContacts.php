@@ -2,7 +2,9 @@
 Yii::app()->clientScript->registerCssFile('/css/form.css');
 $js = <<< EOJ
 function afterValidate() {
-        console.log('error');
+    $('html, body').animate({
+        scrollTop: $(".contact_form_common").offset().top
+    }, 2000);
 }
 EOJ;
 Yii::app()->clientScript->registerScript('afterValidate', $js);
