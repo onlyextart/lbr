@@ -1,5 +1,6 @@
 <?php
-Yii::app()->clientScript->registerCssFile('/css/form.css');
+   Yii::app()->clientScript->registerCssFile('/css/form.css');
+   Yii::app()->clientScript->registerScript('refresh-captcha', '$(document).ready(function(){$(".btn-refresh-captcha").click(); console.log("common contacts");});'); 
 ?>
 
 <?php if(Yii::app()->user->hasFlash('success')):?>
@@ -113,5 +114,4 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 
 </div>
 <?php 
-    Yii::app()->clientScript->registerScript( 'refresh-captcha', '$(document).ready(function(){$(".btn-refresh-captcha").click();});' ); 
-?>
+    //Yii::app()->clientScript->registerScript( 'refresh-captcha', '$(document).ready(function(){$(".btn-refresh-captcha").click();});' ); 
