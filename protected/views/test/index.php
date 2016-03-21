@@ -146,7 +146,7 @@ if (false !== $images) {
                                 'imageOptions'=>array('style'=>'border:none;',
                                     'alt'=>'Изображение с кодом валидации',
                                     'title'=>'Обновить код'
-                                )
+                                ),
                             )
                         );
                     ?>

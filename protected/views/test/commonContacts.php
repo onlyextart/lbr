@@ -94,7 +94,10 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
                                 'imageOptions'=>array('style'=>'border:none;',
                                     'alt'=>'Изображение с кодом валидации',
                                     'title'=>'Обновить код'
-                                )
+                                ),
+                                'buttonOptions' => array(
+		                    'class' => 'btn-refresh-captcha'
+                                ),
                             )
                         );
                     ?>
@@ -109,3 +112,6 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     <?php $this->endWidget(); ?>
 
 </div>
+<?php 
+    Yii::app()->clientScript->registerScript( 'refresh-captcha', '$(document).ready(function(){$(".btn-refresh-captcha").click();});' ); 
+?>
