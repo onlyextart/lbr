@@ -9,7 +9,9 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 <?php endif; ?>
 <?php if(Yii::app()->user->hasFlash('error')):?>
     <div class="info error">
-        <?php echo Yii::app()->user->getFlash('error'); ?>
+        <a href="<?php echo Yii::app()->getBaseUrl(true).'/company/contacts/#contact_form'?>">
+            <?php echo Yii::app()->user->getFlash('error'); ?>
+        </a>
     </div>
 <?php endif; ?>
 
@@ -32,10 +34,13 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     </object>
 </div>
 
+
 <div class="contact_form contact_form_common form">
+    <a name="contact_form"></a>
 <?php
     $form = $this->beginWidget('CActiveForm', array(
         'id' => 'contact-form',
+        //'name' => 'contact_form',
         //'enableAjaxValidation'=>true,
         'enableAjaxValidation' => false,
         'enableClientValidation' => true,
@@ -44,11 +49,14 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
             //'afterValidateAttribute'=>'js:'.$updateCaptcha,
             //'afterValidate'=>'js:'.$updateCaptcha,
         ),
+//        'htmlOptions'=>array(
+//            'name' => 'contact_form',
+//        ),
     ));
 
 ?>
         <h2>Форма обратной связи</h2>
-        
+
 	<?php echo $form->errorSummary($formModel); ?>
 
 	<div class="row">
