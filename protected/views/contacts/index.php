@@ -162,4 +162,4 @@ if (false !== $images) {
 
 </div>
 <?php 
-    Yii::app()->clientScript->registerScript('refresh-captcha', '$(document).ready(function(){$("#yw0").click(); console.log("region contacts");});'); 
+    Yii::app()->clientScript->registerScript('refresh-captcha', '$(document).ready(function(){$("#yw0").click();});'); 

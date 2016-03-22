@@ -111,3 +111,5 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
     <?php $this->endWidget(); ?>
 
 </div>
+<?php
+   Yii::app()->clientScript->registerScript('refresh-captcha', '$(document).ready(function(){$("#yw0").click(); console.log("common contacts");});'); 
