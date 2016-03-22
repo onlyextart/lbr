@@ -74,8 +74,7 @@ class ContactsController extends Controller
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
-                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
