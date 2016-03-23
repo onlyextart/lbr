@@ -114,8 +114,8 @@ class ContactsController extends Controller
                 "Content-type: text/plain; charset=UTF-8"
             ;
             
-            $message = "Email: ".$model->email."\r\n"."Сообщение: \r\n".$model->body;
-            $message = wordwrap($message, 70, "\r\n");
+            $message = 'Email: '.$model->email.'\r\n'.$model->body;
+            $message = wordwrap($message, 70, '\r\n');
 
             mail($mailTo, $subject, $message, $headers);
 
