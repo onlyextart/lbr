@@ -75,7 +75,7 @@ class ContactsController extends Controller
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
                 //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
-                $this->sendMailTest($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
@@ -86,24 +86,24 @@ class ContactsController extends Controller
         $this->renderPartial('regionstable');
     }
     
-    public function sendMail($post, $model, $subject, $mailTo)
-    {
-        $model->attributes = $post;
-        if ($model->validate()) {
-            $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
-            $headers = "From: $name <{$model->email}>\r\n" .
-                    "Reply-To: {$model->email}\r\n" .
-                    "MIME-Version: 1.0\r\n" .
-                    "Content-type: text/plain; charset=UTF-8";
-
-            mail($mailTo, $subject, $model->body, $headers);
-
-            Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
-            $this->refresh();
-        } else Yii::app()->user->setFlash('error', 'Форма заполнена не полностью.');
-    }
+//    public function sendMail($post, $model, $subject, $mailTo)
+//    {
+//        $model->attributes = $post;
+//        if ($model->validate()) {
+//            $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
+//            $headers = "From: $name <{$model->email}>\r\n" .
+//                    "Reply-To: {$model->email}\r\n" .
+//                    "MIME-Version: 1.0\r\n" .
+//                    "Content-type: text/plain; charset=UTF-8";
+//
+//            mail($mailTo, $subject, $model->body, $headers);
+//
+//            Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
+//            $this->refresh();
+//        } else Yii::app()->user->setFlash('error', 'Форма заполнена не полностью.');
+//    }
     
-    public function sendMailTest($post, $model, $subject, $mailTo)
+    public function sendMail($post, $model, $subject, $mailTo)
     {
         $model->attributes = $post;
         if ($model->validate()) {
@@ -114,7 +114,10 @@ class ContactsController extends Controller
                 "Content-type: text/plain; charset=UTF-8"
             ;
             
-            $message = 'Email: '.$model->email."\r\n\r\n".$model->body;
+            $message = "Имя: ".$model->name."\r\n".
+                "Email: ".$model->email."\r\n\r\n".
+                $model->body
+            ;
             $message = wordwrap($message, 70, "\r\n");
 
             mail($mailTo, $subject, $message, $headers);
