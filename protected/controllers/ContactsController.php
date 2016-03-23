@@ -19,7 +19,7 @@ class ContactsController extends Controller
         $contact_id = Yii::app()->params['currentMenuItem']->menuItemsContents[0]->page_id;
         $formModel = new ContactForm('insert');
         
-        if($contact_id == null) { // page with contacts
+        if($contact_id == null) { // page with all contacts
             $formModel->flagCommonContacts = true;
             $districts = Regions::getDistrictsForContacst();
             $output = '<ul class="contacts_list clearfix">
@@ -69,12 +69,13 @@ class ContactsController extends Controller
             }
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
-        } else { // pop-up window for choosing region
+        } else { // pop-up window for current region
             $contactModel = Contacts::model()->findByPk($contact_id);
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
+                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, Yii::app()->params['adminEmail']);
+                $this->sendMailTest($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
@@ -96,6 +97,27 @@ class ContactsController extends Controller
                     "Content-type: text/plain; charset=UTF-8";
 
             mail($mailTo, $subject, $model->body, $headers);
+
+            Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
+            $this->refresh();
+        } else Yii::app()->user->setFlash('error', 'Форма заполнена не полностью.');
+    }
+    
+    public function sendMailTest($post, $model, $subject, $mailTo)
+    {
+        $model->attributes = $post;
+        if ($model->validate()) {
+            $name = '=?UTF-8?B?' . base64_encode($model->name) . '?=';
+            $headers = "From: $name <{$model->email}>\r\n" .
+                "Reply-To: {$model->email}\r\n" .
+                "MIME-Version: 1.0\r\n" .
+                "Content-type: text/plain; charset=UTF-8"
+            ;
+            
+            $message = "Email: ".$model->email."\r\n"."Сообщение: \r\n".$model->body;
+            $message = wordwrap($message, 70, "\r\n");
+
+            mail($mailTo, $subject, $message, $headers);
 
             Yii::app()->user->setFlash('success', 'Ваше письмо отправлено.');
             $this->refresh();
