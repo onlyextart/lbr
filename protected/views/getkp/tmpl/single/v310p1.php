@@ -1,14 +1,13 @@
 <?php
-if ($data['show_header'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
+if($data['show_header']=='1'  || !isset($data['show_footer'])):
+    Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
-?>
-
+ ?>
+ <div class="table w-800">
 <!-- Background grey -->
 
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет"></td></tr>
-    <tr>
+     <tr>
         <td>
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse;">
                 <tr>
@@ -19,11 +18,9 @@ endif;
             </table>
         </td>
     </tr>
-    <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет"></td></tr>
-</table>                
+ </table>                
 <!-- Блок Первый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -159,17 +156,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/kosilki/712-kosilki-bellon-dl/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
-            
-            
+           
             <tr><td colspan="2" style="padding: 10px 20px 0px 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-top:1px solid black;">
                         <tr>
@@ -204,7 +191,13 @@ endif;
                                         </td>
                                     </tr>
                                     <?php endif; ?>    
-                                    
+                                    <tr>
+                                        <td style="padding:5px 0px 0px 0px;">
+                                            <table width="370" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" valign="top" align="top" style="border: 0; border-collapse: collapse; background: white;">
+                                                
+                                            </table>
+                                        </td>
+                                    </tr>
                                 </table>
                             </td>
                             <td style="padding: 5px 0 0;">
@@ -250,22 +243,22 @@ endif;
             <tr><td style="padding: 5px 20px 10px 20px; ">
                 <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                     <tr>
-                        <td width="30" valign="top">
-                            <img src="http://www.lbr.ru/images/kp/310-korm-premium/marker.jpg" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
-                        </td>
-                        <td width="340" style="padding:0px 0px 0px 10px;">
-                            <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; color: #649451; text-align: justify; font-weight:bold;">
-                                ГАРАНТИЯ ЗАГОТОВКИ МАКСИМАЛЬНО ЧИСТЫХ КОРМОВ 
-                                <span style="font-size: 15px; color: black;font-weight:normal">– режущий аппарат
-                                закругленной и уплощенной формы, где
-                                ножи вращаются на минимальном
-                                расстоянии от верхнего края и от
-                                противоножа, что препятствует накоплению
-                                примесей в кормах и попаданию земли в
-                                скошенную траву.</span>
-                            </p>
-                        </td>
-                    </tr>
+                    <td width="30" valign="top">
+                        <img src="http://www.lbr.ru/images/kp/310-korm-premium/marker.jpg" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
+                    </td>
+                    <td width="340" style="padding:0px 0px 0px 10px;">
+                        <p style="margin: 0; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 16px; color: #649451; text-align: justify; font-weight:bold;">
+                            ГАРАНТИЯ ЗАГОТОВКИ МАКСИМАЛЬНО ЧИСТЫХ КОРМОВ 
+                    <span style="font-size: 15px; color: black;font-weight:normal">– режущий аппарат
+                        закругленной и уплощенной формы, где
+                        ножи вращаются на минимальном
+                        расстоянии от верхнего края и от
+                        противоножа, что препятствует накоплению
+                        примесей в кормах и попаданию земли в
+                        скошенную траву.</span>
+                </p>
+                </td>
+                </tr>
                     <tr valign="top">
                         <td width="30">
                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/marker.jpg" width="30" style="border: 0; float: left;" alt="Картинки не отображаются">
@@ -285,15 +278,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/kosilki/728-kosilki-bellon-d6000-7000-gm/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+            
             <tr valign="top">
             <td style="padding: 5px 20px 0px 20px;">
                         <p style="margin:0; color:#cc3333; font-weight: bold; font-family: 'Trebuchet MS', sans-serif; font-size: 10px; text-align: left;">
@@ -305,14 +290,15 @@ endif;
 </table>
 </td>
 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 
 <!-- Блок Первый; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Второй: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -357,11 +343,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/3.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
+                                    <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info3']; ?>
+                                                <?php echo $data['product_info1']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -455,15 +441,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/372-grabli-kolesno-paltsevye-millennium/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+           
             
             
             <tr><td colspan="2" style="padding: 10px 20px 0px 20px;">
@@ -491,11 +469,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/4.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
+                                    <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info4']; ?>
+                                                <?php echo $data['product_info2']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -629,14 +607,15 @@ endif;
         </td>
     </tr>
 
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 <!-- Блок Второй; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Третий: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-    <tr>
+     <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -667,11 +646,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/5.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
+                                    <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info5']; ?>
+                                                <?php echo $data['product_info3']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -757,15 +736,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/valkoobrazovateli/694-valkoobrazovatel-profiliner-800/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+            
             
             <tr><td style="padding: 20px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -805,11 +776,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/6.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
+                                    <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info6']; ?>
+                                                <?php echo $data['product_info4']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -907,14 +878,15 @@ endif;
         </table>
     </td>
 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 
 <!-- Блок Третий; -->
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Четвертый: -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -945,11 +917,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/8.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
+                                    <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info7']; ?>
+                                                <?php echo $data['product_info5']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -1047,15 +1019,7 @@ endif;
                     </tr> 
                 </table>
             </td></tr> 
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/press-podborshchiki/358-press-podborshchiki-columbia/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
+            
             
             <tr><td style="padding: 20px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
@@ -1095,11 +1059,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/9.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info8'] && !empty($data['product_info8'])): ?>
+                                    <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info8']; ?>
+                                                <?php echo $data['product_info6']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -1192,15 +1156,6 @@ endif;
                 </table>
             </td></tr> 
             
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/obmotchiki-rulonov/379-obmotchiki-rulonov-savanna-evolution/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>
             
                 <tr valign="top">
                     <td style="padding: 5px 20px 0px 20px;">
@@ -1209,15 +1164,16 @@ endif;
                         </p> 
                     </td>
                 </tr>
-            <tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
-        </table>
+          </table>
      </td>
     </tr>
 </table>
-
+</div>
+<div class="page-break"></div>
+<div class="after-page-break"></div>
+<div class="table w-800">
 <!-- Блок Пятый; -->
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr><td style="padding-top: 15px;"><img src="http://www.lbr.ru/images/kp/default/mail-top-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
     <tr>
         <td>
             <!-- Внутренности блока: -->
@@ -1260,11 +1216,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/10.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info9'] && !empty($data['product_info9'])): ?>
+                                    <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info9']; ?>
+                                                <?php echo $data['product_info7']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -1338,15 +1294,6 @@ endif;
                 </table>
             </td></tr> 
             
-            <!-- Ссылка-кнопка подробнее -->
-                <?php
-                Yii::app()->getController()->renderPartial('tmpl/template/mail_more_button', array(
-                    'link' => 'http://www.lbr.ru/tehnika/kormozagotovka/pritsepy-dlya-perevozki-tyukov-i-rulonov/382-samozagruzochnye-telezhki-tac-20/',
-                    'colspan' => false,
-                    'style' => 'text-align: right; padding-top: 0px; padding-right: 13px;'
-                        )
-                );
-                ?>  
            
             <tr valign="top">
             <td  style="padding: 5px 20px 0px 20px;">
@@ -1355,16 +1302,20 @@ endif;
                         </p> 
                     </td>
                 </tr>
-<tr><td><img src="http://www.lbr.ru/images/kp/default/mail-bot-line.jpg" width="800" height="10" style="border: 0; float: left;" alt="Картинки не отображаются"></td></tr>
 </table>
 </td>
 </tr>
+<tr valign="top">
+        <td style="padding: 0px 20px 0;">
+            <?php
+            if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
+                Yii::app()->getController()->renderPartial('tmpl/template/print_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
+            endif;
+        ?>
+        </td>
+    </tr>
 </table>
 
-
-
-
-<?php
-if ($data['show_footer'] == '1' || !isset($data['show_footer'])):
-    Yii::app()->getController()->renderPartial('tmpl/template/mail_footer', array('data' => $data, 'filial' => $filial, 'template' => $template));
-endif;
+</div>
+</body>
+</html>
