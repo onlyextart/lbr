@@ -22,19 +22,19 @@
     $prevMonth = date('d-m-Y', strtotime($currentMonth.' -1 months'));
 ?>
 <div class="analitics">
-    <!--div class="info">
+    <div class="info">
         <ul class="info-list">
             <li>При необходимости измените период выборки</li>
             <li>
                 <span>Период</span>
-                <span><?php //echo CHtml::textField('from', $prevMonth); ?> - <?php //echo CHtml::textField('to', $currentMonth); ?></span>
+                <span><?php echo CHtml::textField('from', $prevMonth); ?> - <?php echo CHtml::textField('to', $currentMonth); ?></span>
             </li>
             <li>
-                <?php //echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
+                <?php echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
             </li>
         </ul>
-    </div-->
-    <?php echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
+    </div>
+    <?php //echo CHtml::button('Скачать Excel', array('class'=>'btn btn-green')); ?>
     <div class="params">
         <ul class="info-list">
             <li>Используемые параметры</li>
@@ -78,10 +78,10 @@
     });
 
     $( ".analitics .btn" ).click(function() {
-//        var from = $('#from').val();
-//        var to = $('#to').val();
-//        window.location.replace('/administrator/analitics/getExcel/from/'+from+'/to/'+to);
-        window.location.replace('/administrator/analitics/getExcel/');
+        var from = $('#from').val();
+        var to = $('#to').val();
+        window.location.replace('/administrator/analitics/getExcel/from/'+from+'/to/'+to);
+        //window.location.replace('/administrator/analitics/getExcel/');
     });
 </script>
 

@@ -10,7 +10,7 @@ class AnaliticsController extends Controller
     
     public function actionGetExcel($from = '', $to = '')
     {
-        Yii::import('ext.phpexcel.XPHPExcel');    
+        Yii::import('ext.phpexcel.XPHPExcel');
         $objPHPExcel= XPHPExcel::createPHPExcel();
         $objPHPExcel->getProperties()->setCreator("LBR")
             ->setLastModifiedBy("LBR")
@@ -28,7 +28,7 @@ class AnaliticsController extends Controller
         
         // Redirect output to a clientâ€™s web browser (Excel5)
         header('Content-Type: application/vnd.ms-excel');
-        header('Content-Disposition: attachment;filename="Аналитика посещений сайта ЛБР'.'.xls"');
+        header('Content-Disposition: attachment;filename="Аналитика посещений сайта ЛБР за период '.date('Y-m-d', strtotime($from)).'-'.date('Y-m-d', strtotime($to.' +1 days')).'.xls"');
         header('Cache-Control: max-age=0');
         // If you're serving to IE 9, then the following may be needed
         header('Cache-Control: max-age=1');
@@ -50,9 +50,9 @@ class AnaliticsController extends Controller
         $info = Yii::app()->db->createCommand()
             ->select('*')
             ->from('analitics')
-            //->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'"')
-            ->where('push_1C=:flag', array(':flag'=>true))
-            ->order('customer_id')
+            ->where('date_created between "'.date('Y-m-d', strtotime($from)).'" and "'.date('Y-m-d', strtotime($to.' +1 days')).'" and customer_id != "test1@mail.ru_test2@mail.ru" and subscription_id != "TEST"')
+            //->where('push_1C=:flag', array(':flag'=>true))
+            ->order('date_created')
             ->queryAll()
         ;
         
@@ -60,30 +60,32 @@ class AnaliticsController extends Controller
             $index = 3;
             $timeSummary = 0;
             
-            $sheet->setCellValue('A1', 'Email посетителя')
-                ->setCellValue('B1', 'Посещенные страницы')
-                ->setCellValue('C1', 'Длит. просмотра страниц')
-                ->setCellValue('D1', 'ID подписки')
-                ->setCellValue('E1', 'Переходы из рассылки')
+            $sheet->setCellValue('A1', 'Дата')
+                ->setCellValue('B1', 'Email посетителя')
+                ->setCellValue('C1', 'Посещенные страницы')
+                ->setCellValue('D1', 'Длит. просмотра страниц')
+                ->setCellValue('E1', 'ID подписки')
+                ->setCellValue('F1', 'Переходы из рассылки')
             ;
-            $sheet->getStyle('A1:E1')->getFont()->setBold(true);
-            for($col = 'A'; $col != 'F'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
+            $sheet->getStyle('A1:F1')->getFont()->setBold(true);
+            for($col = 'A'; $col != 'G'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
             
             foreach($info as $item) {
                 $timeSummary += $item['time'];
                 $time = $this->getTime($item['time']);
                 $objPHPExcel->setActiveSheetIndex(0)
-                    ->setCellValue('A'.$index, $item['customer_id'])
-                    ->setCellValue('B'.$index, $item['url'])
-                    ->setCellValue('C'.$index, $time)
-                    ->setCellValue('D'.$index, $item['subscription_id'])
-                    ->setCellValue('E'.$index, $item['link_id'])
+                    ->setCellValue('A'.$index, $item['date_created'])
+                    ->setCellValue('B'.$index, $item['customer_id'])
+                    ->setCellValue('C'.$index, $item['url'])
+                    ->setCellValue('D'.$index, $time)
+                    ->setCellValue('E'.$index, $item['subscription_id'])
+                    ->setCellValue('F'.$index, $item['link_id'])
                 ;
                 $index++;
                 
-                $element = Analitics::model()->findByPk($item['id']);
-                $element->push_1C = false;
-                $element->save();
+                //$element = Analitics::model()->findByPk($item['id']);
+                //$element->push_1C = false;
+                //$element->save();
             }
             
             $timeSummary = $this->getTime($timeSummary);
@@ -95,7 +97,7 @@ class AnaliticsController extends Controller
             $sheet->getStyle('B2')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
             $sheet->getStyle('B2')->getFont()->setBold(true);
         } else {
-            $sheet->setCellValue('A1', 'Невыгруженных данных нет');
+            $sheet->setCellValue('A1', 'Нет данных');
         }
     }
     
