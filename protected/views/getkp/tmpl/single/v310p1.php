@@ -343,11 +343,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/3.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info1'] && !empty($data['product_info1'])): ?>
+                                    <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info1']; ?>
+                                                <?php echo $data['product_info3']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -469,11 +469,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/4.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info2'] && !empty($data['product_info2'])): ?>
+                                    <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info2']; ?>
+                                                <?php echo $data['product_info4']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -646,11 +646,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/5.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info3'] && !empty($data['product_info3'])): ?>
+                                    <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info3']; ?>
+                                                <?php echo $data['product_info5']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -776,11 +776,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/6.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info4'] && !empty($data['product_info4'])): ?>
+                                    <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info4']; ?>
+                                                <?php echo $data['product_info6']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -917,11 +917,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/8.jpg" width="370" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info5'] && !empty($data['product_info5'])): ?>
+                                    <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
                                     <tr>
                                         <td width="370px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info5']; ?>
+                                                <?php echo $data['product_info7']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -1059,11 +1059,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/9.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info6'] && !empty($data['product_info6'])): ?>
+                                    <?php if ($data['product_info8'] && !empty($data['product_info8'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info6']; ?>
+                                                <?php echo $data['product_info8']; ?>
                                             </p>
                                         </td>
                                     </tr>
@@ -1216,11 +1216,11 @@ endif;
                                             <img src="http://www.lbr.ru/images/kp/310-korm-premium/10.jpg" width="320" style="border: 0; float: left;" alt="Картинки не отображаются">
                                         </td>
                                     </tr>
-                                    <?php if ($data['product_info7'] && !empty($data['product_info7'])): ?>
+                                    <?php if ($data['product_info9'] && !empty($data['product_info9'])): ?>
                                     <tr>
                                         <td width="320px" style="background: rgb(204, 51, 51); padding: 5px 15px;">
                                             <p style="margin: 0; color: white; font-family: 'Trebuchet MS', sans-serif; font-size: 15px; font-weight: bold;">
-                                                <?php echo $data['product_info7']; ?>
+                                                <?php echo $data['product_info9']; ?>
                                             </p>
                                         </td>
                                     </tr>
