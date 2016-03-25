@@ -32,6 +32,11 @@ class TestController extends Controller {
 //            ),
 //        );
 //    }
+    
+    public function actionDelUser() 
+    {
+        Users::model()->deleteAll('login="cheshenkov" or login="gutnikov" or login="vasiliyan" or login="sushcheuskaya"');
+    }
 
     public function actions()
     {
