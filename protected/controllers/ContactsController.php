@@ -72,12 +72,13 @@ class ContactsController extends Controller
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel, 'regions' => $allRegions));
         } else { // pop-up window for current region
             $contactModel = Contacts::model()->findByPk($contact_id);
-            $region = Regions::model()->find('contact_id = :id', array(':id'=>$contact_id))->name;
+            $formModel->region = Regions::model()->find('contact_id = :id', array(':id'=>$contact_id))->name;
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
                 //$this->sendMail($_POST['ContactForm'], $formModel, $subject, $contactModel->email, $region);
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru', $region);
+                
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
@@ -106,7 +107,7 @@ class ContactsController extends Controller
         return $allRegions;
     }
     
-    public function sendMail($post, $model, $subject, $mailTo, $region)
+    public function sendMail($post, $model, $subject, $mailTo, $regionName = null)
     {
         $model->attributes = $post;
         if ($model->validate()) {
@@ -118,9 +119,13 @@ class ContactsController extends Controller
             ;
             
             $message = "Имя: ".$model->name."\r\n".
-                "Организация: ".$model->company."\r\n".
-                "Регион: ".$region."\r\n".
-                "Телефон: ".$model->phone."\r\n".
+                "Организация: ".$model->company."\r\n"
+            ;
+            
+            if($empty($regionName)) $message .= "Регион: ".$regionName."\r\n";
+            else $message .= "Регион: ".$model->region."\r\n";
+            
+            $message .= "Телефон: ".$model->phone."\r\n".
                 "Email: ".$model->email."\r\n\r\n".
                 $model->body
             ;
