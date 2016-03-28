@@ -10,6 +10,7 @@ class ContactForm extends CFormModel
 	public $name;
 	public $email;
 	public $subject;
+        public $company;
 	public $body;
 	public $phone;
 	public $verifyCode;
@@ -41,7 +42,7 @@ class ContactForm extends CFormModel
             return array(
                 array('phone, name, email, body, mailTo', 'safe'),
                 // name, email, subject and body are required
-                array('name, email, body, phone', 'required'),
+                array('name, email, body, phone, company', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
                 array('verifyCode', 'required', 'on'=>'insert'),
@@ -73,12 +74,13 @@ class ContactForm extends CFormModel
 	public function attributeLabels()
 	{
             return array(
-                'verifyCode' => 'Код проверки',
-                'email' => 'E-mail',
                 'name' => 'Имя',
-                'body' => 'Текст сообщения',
+                'company' => 'Организация',
+                'email' => 'E-mail',
                 'phone' => 'Телефон',
-                'mailTo' => 'Служба ЛБР'
+                'mailTo' => 'Служба ЛБР',
+                'verifyCode' => 'Код проверки',
+                'body' => 'Текст сообщения',
             );
 	}
 }

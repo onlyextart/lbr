@@ -64,11 +64,11 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 		<?php echo $form->textField($formModel,'name', array('class'=>'contact_form_field')); ?>
 		<?php echo $form->error($formModel,'name'); ?>
 	</div>
-
+        
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'email'); ?>
-		<?php echo $form->textField($formModel,'email', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'email'); ?>
+		<?php echo $form->labelEx($formModel,'company'); ?>
+		<?php echo $form->textField($formModel,'company', array('class'=>'contact_form_field')); ?>
+		<?php echo $form->error($formModel,'company'); ?>
 	</div>
         
 	<div class="row">
@@ -76,6 +76,12 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 		<?php echo $form->textField($formModel,'phone', array('class'=>'contact_form_field')); ?>
                 <div class="note">пример: +7(4722)402104</div>
 		<?php echo $form->error($formModel,'phone'); ?>
+	</div>
+        
+        <div class="row">
+		<?php echo $form->labelEx($formModel,'email'); ?>
+		<?php echo $form->textField($formModel,'email', array('class'=>'contact_form_field')); ?>
+		<?php echo $form->error($formModel,'email'); ?>
 	</div>
         
 	<div class="row">
