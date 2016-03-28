@@ -16,12 +16,21 @@ class ContactForm extends CFormModel
         public $mailTo;
         public $flagCommonContacts = false;
         public static $mailToArray  = array(
-            'krilova@lbr.ru' => 'Тестирование',
-            'pl@lbr.ru' => 'Техника',
-            'parts@lbr.ru' => 'Запчасти',
-            'log@lbr.ru' => 'Логистика, таможня, сертификация',
-            'marketing@lbr.ru' => 'Реклама',
-            'uchet_upr@lbr.ru' => 'Бухгалтерия'
+            'mail1@lbr.ru' => 'Тестирование',
+            'mail2@lbr.ru' => 'Техника',
+            'mail3@lbr.ru' => 'Запчасти',
+            'mail4@lbr.ru' => 'Логистика, таможня, сертификация',
+            'mail5@lbr.ru' => 'Реклама',
+            'mail6@lbr.ru' => 'Бухгалтерия'
+        );
+        
+        public static $realMails = array(
+            'mail1@lbr.ru' => 'krilova@lbr.ru',
+            'mail2@lbr.ru' => 'pl@lbr.ru',
+            'mail3@lbr.ru' => 'parts@lbr.ru',
+            'mail4@lbr.ru' => 'log@lbr.ru',
+            'mail5@lbr.ru' => 'marketing@lbr.ru',
+            'mail6@lbr.ru' => 'uchet_upr@lbr.ru'
         );
 
 	/**

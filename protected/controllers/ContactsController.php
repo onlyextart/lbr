@@ -65,7 +65,8 @@ class ContactsController extends Controller
             
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $_POST['ContactForm']['mailTo']);
+            $mailTo = ContactForm::$realMails[$_POST['ContactForm']['mailTo']];
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $mailTo);
             }
             
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel));
@@ -116,6 +117,7 @@ class ContactsController extends Controller
             ;
             
             $message = "Имя: ".$model->name."\r\n".
+                "Телефон: ".$model->phone."\r\n".
                 "Email: ".$model->email."\r\n\r\n".
                 $model->body
             ;
