@@ -121,7 +121,8 @@ class ContactsController extends Controller
                 "Email: ".$model->email."\r\n\r\n".
                 $model->body
             ;
-            $message = wordwrap($message, 70, "\r\n");
+            
+            //$message = wordwrap($message, 140, "\r\n");
 
             mail($mailTo, $subject, $message, $headers);
 
