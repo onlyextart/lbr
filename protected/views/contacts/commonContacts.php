@@ -60,47 +60,53 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 	<?php echo $form->errorSummary($formModel); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'name'); ?>
-		<?php echo $form->textField($formModel,'name', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'name'); ?>
+            <?php echo $form->labelEx($formModel, 'name'); ?>
+            <?php echo $form->textField($formModel, 'name', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel, 'name'); ?>
 	</div>
         
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'company'); ?>
-		<?php echo $form->textField($formModel,'company', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'company'); ?>
+            <?php echo $form->labelEx($formModel, 'company'); ?>
+            <?php echo $form->textField($formModel, 'company', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel, 'company'); ?>
 	</div>
         
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'phone'); ?>
-		<?php echo $form->textField($formModel,'phone', array('class'=>'contact_form_field')); ?>
-                <div class="note">пример: +7(4722)402104</div>
-		<?php echo $form->error($formModel,'phone'); ?>
+            <?php echo $form->labelEx($formModel, 'phone'); ?>
+            <?php echo $form->textField($formModel, 'phone', array('class'=>'contact_form_field')); ?>
+            <div class="note">пример: +7(4722)402104</div>
+            <?php echo $form->error($formModel, 'phone'); ?>
 	</div>
         
         <div class="row">
-		<?php echo $form->labelEx($formModel,'email'); ?>
-		<?php echo $form->textField($formModel,'email', array('class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'email'); ?>
+            <?php echo $form->labelEx($formModel, 'email'); ?>
+            <?php echo $form->textField($formModel, 'email', array('class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel, 'email'); ?>
+	</div>
+        
+        <div class="row">
+            <?php echo $form->labelEx($formModel, 'region'); ?>
+            <?php echo $form->dropDownList($formModel, 'region', $regions, array('empty'=>'', 'class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel, 'region'); ?>
 	</div>
         
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'mailTo'); ?>
-		<?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('empty'=>'', 'class'=>'contact_form_field')); ?>
-		<?php echo $form->error($formModel,'mailTo'); ?>
+            <?php echo $form->labelEx($formModel, 'mailTo'); ?>
+            <?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('empty'=>'', 'class'=>'contact_form_field')); ?>
+            <?php echo $form->error($formModel, 'mailTo'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($formModel,'body'); ?>
-		<?php echo $form->textArea($formModel,'body',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($formModel,'body'); ?>
+            <?php echo $form->labelEx($formModel, 'body'); ?>
+            <?php echo $form->textArea($formModel, 'body', array('rows'=>6, 'cols'=>50)); ?>
+            <?php echo $form->error($formModel, 'body'); ?>
 	</div>
         
         <?php if(CCaptcha::checkRequirements()): ?>
             <div class="row">
-                <?php echo $form->labelEx($formModel,'verifyCode'); ?>
-                <?php echo $form->textField($formModel,'verifyCode'); ?>
-                <?php echo $form->error($formModel,'verifyCode'); ?>
+                <?php echo $form->labelEx($formModel, 'verifyCode'); ?>
+                <?php echo $form->textField($formModel, 'verifyCode'); ?>
+                <?php echo $form->error($formModel, 'verifyCode'); ?>
                 <div id='pict_captcha'>
                     <?php 
                         $this->widget('CCaptcha', 

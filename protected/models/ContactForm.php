@@ -15,9 +15,10 @@ class ContactForm extends CFormModel
 	public $phone;
 	public $verifyCode;
         public $mailTo;
+        public $region;
         public $flagCommonContacts = false;
         public static $mailToArray = array(
-            //'mail1@lbr.ru' => 'Тестирование',
+            'mail1@lbr.ru' => 'Тестирование',
             'mail2@lbr.ru' => 'Техника',
             'mail3@lbr.ru' => 'Запчасти',
             'mail4@lbr.ru' => 'Логистика, таможня, сертификация',
@@ -26,7 +27,7 @@ class ContactForm extends CFormModel
         );
         
         public static $realMails = array(
-            'mail1@lbr.ru' => 'krilova@lbr.ru',
+            'mail1@lbr.ru' => 'krilova@lbr.ru', // test mail
             'mail2@lbr.ru' => 'pl@lbr.ru',
             'mail3@lbr.ru' => 'parts@lbr.ru',
             'mail4@lbr.ru' => 'log@lbr.ru',
@@ -42,7 +43,7 @@ class ContactForm extends CFormModel
             return array(
                 array('phone, name, email, body, mailTo', 'safe'),
                 // name, email, subject and body are required
-                array('name, email, body, phone, company', 'required'),
+                array('name, email, body, phone, company, region', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
                 array('verifyCode', 'required', 'on'=>'insert'),
@@ -78,6 +79,7 @@ class ContactForm extends CFormModel
                 'company' => 'Организация',
                 'email' => 'E-mail',
                 'phone' => 'Телефон',
+                'region' => 'Регион',
                 'mailTo' => 'Служба ЛБР',
                 'verifyCode' => 'Код проверки',
                 'body' => 'Текст сообщения',
