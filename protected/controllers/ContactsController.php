@@ -122,7 +122,7 @@ class ContactsController extends Controller
                 "Организация: ".$model->company."\r\n"
             ;
             
-            if($empty($regionName)) $message .= "Регион: ".$regionName."\r\n";
+            if(empty($regionName)) $message .= "Регион: ".$regionName."\r\n";
             else $message .= "Регион: ".$model->region."\r\n";
             
             $message .= "Телефон: ".$model->phone."\r\n".
