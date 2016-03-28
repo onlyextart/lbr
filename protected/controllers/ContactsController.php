@@ -123,7 +123,7 @@ class ContactsController extends Controller
                 $model->body
             ;
             
-            $message = wordwrap($message, 100, "\r\n");
+            //$message = wordwrap($message, 100, "\r\n");
 
             mail($mailTo, $subject, $message, $headers);
 
