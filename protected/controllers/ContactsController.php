@@ -76,9 +76,8 @@ class ContactsController extends Controller
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
-                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, $contactModel->email, $region);
-                
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $contactModel->email);
+                //$this->sendMail($_POST['ContactForm'], $formModel, $subject, 'krilova@lbr.ru');
             }
             $this->render('index', array('contactModel'=>$contactModel, 'formModel'=>$formModel));
         }
@@ -123,7 +122,6 @@ class ContactsController extends Controller
             ;
             
             if(!empty($regionName)) $message .= "Регион: ".$regionName."\r\n";
-            else $message .= "Филиал: ".$model->region."\r\n";
             
             $message .= "Телефон: ".$model->phone."\r\n".
                 "Email: ".$model->email."\r\n\r\n".
