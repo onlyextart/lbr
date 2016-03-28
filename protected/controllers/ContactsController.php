@@ -117,6 +117,7 @@ class ContactsController extends Controller
             ;
             
             $message = "Имя: ".$model->name."\r\n".
+                "Организация: ".$model->company."\r\n".
                 "Телефон: ".$model->phone."\r\n".
                 "Email: ".$model->email."\r\n\r\n".
                 $model->body
