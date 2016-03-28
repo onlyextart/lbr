@@ -16,7 +16,7 @@ class ContactForm extends CFormModel
         public $mailTo;
         public $flagCommonContacts = false;
         public static $mailToArray  = array(
-            //'krilova@lbr.ru' => 'Тестирование',
+            'krilova@lbr.ru' => 'Тестирование',
             'pl@lbr.ru' => 'Техника',
             'parts@lbr.ru' => 'Запчасти',
             'log@lbr.ru' => 'Логистика, таможня, сертификация',
@@ -32,7 +32,7 @@ class ContactForm extends CFormModel
             return array(
                 array('phone, name, email, body, mailTo', 'safe'),
                 // name, email, subject and body are required
-                array('name, email, body', 'required'),
+                array('name, email, body, phone', 'required'),
                 // email has to be a valid email address
                 array('email', 'email'),
                 array('verifyCode', 'required', 'on'=>'insert'),
@@ -44,6 +44,7 @@ class ContactForm extends CFormModel
                     //'allowEmpty'=>!CCaptcha::checkRequirements(),
                 ),
                 array('mailTo', 'mailValidation'),
+                array('phone','match','pattern' => '/^\+\d{1,3}\(\d{2,4}\)\d{5,7}$/','message' => 'Некорректный формат телефона'),
             );
 	}
         

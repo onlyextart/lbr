@@ -74,6 +74,7 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 	<div class="row">
 		<?php echo $form->labelEx($formModel,'phone'); ?>
 		<?php echo $form->textField($formModel,'phone', array('class'=>'contact_form_field')); ?>
+                <div class="note">пример: +7(4722)402104</div>
 		<?php echo $form->error($formModel,'phone'); ?>
 	</div>
         
