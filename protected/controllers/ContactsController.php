@@ -66,7 +66,7 @@ class ContactsController extends Controller
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
                 $mailTo = ContactForm::$realMails[$_POST['ContactForm']['mailTo']];
-                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $mailTo, $allRegions[$_POST['ContactForm']['region']]);
+                $this->sendMail($_POST['ContactForm'], $formModel, $subject, $mailTo, 'test'); //$allRegions[$_POST['ContactForm']['region']]);
             }
 
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel, 'regions' => $allRegions));
