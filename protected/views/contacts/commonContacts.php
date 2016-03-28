@@ -98,7 +98,7 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
 
 	<div class="row">
             <?php echo $form->labelEx($formModel, 'body'); ?>
-            <?php echo $form->textArea($formModel, 'body', array('rows'=>6, 'cols'=>50)); ?>
+            <?php echo $form->textArea($formModel, 'body', array('rows'=>6, 'cols'=>50, 'style' => 'resize:none')); ?>
             <?php echo $form->error($formModel, 'body'); ?>
 	</div>
         
