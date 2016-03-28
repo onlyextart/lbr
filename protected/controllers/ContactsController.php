@@ -72,7 +72,7 @@ class ContactsController extends Controller
             $this->render('commonContacts', array('output'=>$output, 'formModel'=>$formModel, 'regions' => $allRegions));
         } else { // pop-up window for current region
             $contactModel = Contacts::model()->findByPk($contact_id);
-            $formModel->region = Regions::model()->find('contact_id = :id', array(':id'=>$contact_id))->name;
+            $formModel->region = $contactModel->name;
             $formModel->flagCommonContacts = false;
             if(isset($_POST['ContactForm'])) {
                 $subject = 'from LBR.RU';
@@ -123,7 +123,7 @@ class ContactsController extends Controller
             ;
             
             if(empty($regionName)) $message .= "Регион: ".$regionName."\r\n";
-            else $message .= "Регион: ".$model->region."\r\n";
+            else $message .= "Филиал: ".$model->region."\r\n";
             
             $message .= "Телефон: ".$model->phone."\r\n".
                 "Email: ".$model->email."\r\n\r\n".
