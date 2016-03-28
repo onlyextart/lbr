@@ -86,7 +86,7 @@ Yii::app()->clientScript->registerCssFile('/css/form.css');
         
 	<div class="row">
 		<?php echo $form->labelEx($formModel,'mailTo'); ?>
-		<?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('empty'=>'', 'class'=>'contact_form_field'));//, array('empty'=>'', 'class'=>'contact_form_field')); ?>
+		<?php echo $form->dropDownList($formModel, 'mailTo', ContactForm::$mailToArray, array('empty'=>'', 'class'=>'contact_form_field')); ?>
 		<?php echo $form->error($formModel,'mailTo'); ?>
 	</div>
 
