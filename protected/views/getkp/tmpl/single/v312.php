@@ -27,7 +27,7 @@ $email = str_replace(" ", "", $email);
                         <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding: 10px 20px 0px 20px;">
-                                    <a href="http://lbr-market.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" target="_blank"><img src="http://www.lbr.ru/images/kp/312-evpZ3/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://lbr-market.ru/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" target="_blank"><img src="http://www.lbr.ru/images/kp/312-evpZ3/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
@@ -65,34 +65,34 @@ $email = str_replace(" ", "", $email);
                                     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/47496-segment-nozha-826720c3/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Segment_nozha_826720s3" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/47496-segment-nozha-826720c3/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Segment_nozha_826720s3" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/2.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="266" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/5844-palec-protivorezhuschiy-80379720r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Palec_protivorezhushhij_80379720" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/5844-palec-protivorezhuschiy-80379720r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Palec_protivorezhushhij_80379720" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/3.jpg" width="266" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/65275-golovka-nozha-84433779a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Golovka_nozha_84433779" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/65275-golovka-nozha-84433779a/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Golovka_nozha_84433779" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/4.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/19636-komplekt-bichey-pravyh-9838437a/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Komplekt_bichej_pravyh_9838437" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/19636-komplekt-bichey-pravyh-9838437a/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Komplekt_bichej_pravyh_9838437" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/5.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="266" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/5867-konveyer-v-sbore-84207192r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Transporter_naklonnoj_kamery_84207192" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/5867-konveyer-v-sbore-84207192r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Transporter_naklonnoj_kamery_84207192" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/6.jpg" width="266" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/9170-palec-shneka-84000121r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Palec_shneka_zhatki_84000121" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/9170-palec-shneka-84000121r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Palec_shneka_zhatki_84000121" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/7.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
@@ -108,7 +108,7 @@ $email = str_replace(" ", "", $email);
                 
                 <tr>
                     <td style="padding:10px 0px; border:0;">
-                        <a href="http://lbr-market.ru/site/login/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=banner_reg" target="_blank">
+                        <a href="http://lbr-market.ru/site/login/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=banner_reg" target="_blank">
                             <img src="http://www.lbr.ru/images/kp/312-evpZ3/banner1.jpg" width="800" style="border: 0; float: left;" alt="Изображения не отображаются">
                         </a>
                     </td>
@@ -124,17 +124,17 @@ $email = str_replace(" ", "", $email);
                                     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/9703-nozh-rezhuschego-apparata-zhatki-v-sbore-371621a3r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Nozh_zhatki_25_FT_v_sbore_371621A3" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/9703-nozh-rezhuschego-apparata-zhatki-v-sbore-371621a3r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Nozh_zhatki_25_FT_v_sbore_371621A3" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/8.jpg" width="267" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="266" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/5873-elevator-v-sbore-84018672r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Jelevator_kolosovoj_v_sbore_84018672" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/5873-elevator-v-sbore-84018672r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Jelevator_kolosovoj_v_sbore_84018672" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/9.jpg" width="266" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/11043-remen-privoda-ochistnogo-ventilyatora-301146a1c/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Remen_privoda_ochistnogo_ventiljatora_301146A1" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/11043-remen-privoda-ochistnogo-ventilyatora-301146a1c/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Remen_privoda_ochistnogo_ventiljatora_301146A1" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/10.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
@@ -147,17 +147,17 @@ $email = str_replace(" ", "", $email);
                                      <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/11053-remen-9818873c/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Remen_9818873" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/11053-remen-9818873c/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Remen_9818873" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/11.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="266" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/5869-bich-rotora-84164540r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bich_rotora_84164540" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/5869-bich-rotora-84164540r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Bich_rotora_84164540" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/12.jpg" width="266" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/6651-planka-transportera-levaya-84207204r/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Planka_transportera_levaja_84207204" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/6651-planka-transportera-levaya-84207204r/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Planka_transportera_levaja_84207204" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/13.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
@@ -188,17 +188,17 @@ $email = str_replace(" ", "", $email);
                                     <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                         <tr>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/70257-plenka-dlya-senazha-belaya-3sl-0-5m-x1800m-silobal/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plenka_dlja_senazha_belaja" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/70257-plenka-dlya-senazha-belaya-3sl-0-5m-x1800m-silobal/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plenka_dlja_senazha_belaja" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/14.jpg" width="267" style="border: 0; float: right;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="266" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/70685-setka-dlya-press-podborschikov-1-23mh3000m-netzwerk/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Setka_dlja_obmotchikov" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/70685-setka-dlya-press-podborschikov-1-23mh3000m-netzwerk/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Setka_dlja_obmotchikov" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/15.jpg" width="266" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
                                             <td width="267" style="padding:10px 0px 0px 0px;">
-                                                <a href="http://lbr-market.ru/sparepart/22898-shpagat-polipropilenovyy-kv-fleks-marka-500-teks-2000/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Shpagat_polipropilenovyj_kv_Fleks" target="_blank">
+                                                <a href="http://lbr-market.ru/sparepart/22898-shpagat-polipropilenovyy-kv-fleks-marka-500-teks-2000/?sb=EVP_market3&ct=<?php echo SecurityController::encrypt($email);?>&lk=Shpagat_polipropilenovyj_kv_Fleks" target="_blank">
                                                     <img src="http://www.lbr.ru/images/kp/312-evpZ3/16.jpg" width="267" style="border: 0; float: left;" alt="Изображения не отображаются">
                                                 </a>
                                             </td>
