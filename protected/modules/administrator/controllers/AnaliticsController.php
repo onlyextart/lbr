@@ -63,12 +63,14 @@ class AnaliticsController extends Controller
             $sheet->setCellValue('A1', 'Дата')
                 ->setCellValue('B1', 'Email посетителя')
                 ->setCellValue('C1', 'Посещенные страницы')
-                ->setCellValue('D1', 'Длит. просмотра страниц')
-                ->setCellValue('E1', 'ID подписки')
-                ->setCellValue('F1', 'Переходы из рассылки')
+                ->setCellValue('D1', 'Id 1C')
+                ->setCellValue('E1', 'Товарное направление')
+                ->setCellValue('F1', 'Длит. просмотра страниц')
+                ->setCellValue('G1', 'ID подписки')
+                ->setCellValue('H1', 'Переходы из рассылки')
             ;
-            $sheet->getStyle('A1:F1')->getFont()->setBold(true);
-            for($col = 'A'; $col != 'G'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
+            $sheet->getStyle('A1:H1')->getFont()->setBold(true);
+            for($col = 'A'; $col != 'I'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
             
             foreach($info as $item) {
                 $timeSummary += $item['time'];
@@ -77,9 +79,11 @@ class AnaliticsController extends Controller
                     ->setCellValue('A'.$index, $item['date_created'])
                     ->setCellValue('B'.$index, $item['customer_id'])
                     ->setCellValue('C'.$index, $item['url'])
-                    ->setCellValue('D'.$index, $time)
-                    ->setCellValue('E'.$index, $item['subscription_id'])
-                    ->setCellValue('F'.$index, $item['link_id'])
+                    ->setCellValue('D'.$index, $item['url_mark'])
+                    ->setCellValue('E'.$index, MenuItems::model()->find('url_mark = :id', array(':id' => $item['url_mark']))->name)
+                    ->setCellValue('F'.$index, $time)
+                    ->setCellValue('G'.$index, $item['subscription_id'])
+                    ->setCellValue('H'.$index, $item['link_id'])
                 ;
                 $index++;
                 
