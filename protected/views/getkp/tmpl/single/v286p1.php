@@ -3,29 +3,21 @@ if($data['show_header']=='1'  || !isset($data['show_footer'])):
     Yii::app()->getController()->renderPartial('tmpl/template/print_header', array('data' => $data, 'filial' => $filial, 'template' => $template));
 endif;
  ?>
- <div class="table w-800">
-<!-- Background grey -->
 
-<table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
-    <tr>
-        <td>
-            <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse;">
-                <tr>
-                    <td style="padding: 10px 20px;">
-                        <img src="http://www.lbr.ru/images/kp/286-etr/header.jpg" width="760" style="border: 0; float: left;">
-                    </td>
-                </tr>                                
-            </table>
-        </td>
-    </tr>
- </table>                
+<!-- Background grey -->
 <!-- Блок Первый: -->
+<div class="table w-800">
 <table width="800" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" align="center" style="border: 0; border-collapse: collapse;">
    <tr>
         <td>
             <!-- Внутренности блока: -->
             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
-               <tr><td style="padding: 0 20px 10px 20px;">
+               <tr>
+                    <td style="padding: 10px 20px;">
+                        <img src="http://www.lbr.ru/images/kp/286-etr/header.jpg" width="760" style="border: 0; float: left;">
+                    </td>
+                </tr>  
+                <tr><td style="padding: 0 20px 10px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 3px solid #F58220;">
                             <tr>
                                 <td style="padding-bottom: 3px; text-align: justify;">
@@ -39,7 +31,7 @@ endif;
                 </tr>
 
 
-                <tr><td colspan="2" style="padding: 0 20px;">
+                <tr><td style="padding: 0 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white; border-bottom: 2px solid black;">
                         <tr>
                             <td style="padding-bottom: 3px;">
@@ -53,7 +45,7 @@ endif;
                         </tr>
                     </table>
                 </td></tr> 
-                <tr><td colspan="2" style="padding: 0 20px;">
+                <tr><td style="padding: 0 20px;">
                     <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                         <tr valign="top">
                             <td style="padding: 5px 0 0;">
