@@ -46,6 +46,8 @@ class AnaliticsController extends Controller
     
     public function buildExcel($objPHPExcel, $sheet, $from, $to) 
     {
+        set_time_limit(0);
+        
         $sheet->setTitle('Посещенные страницы');
         $info = Yii::app()->db->createCommand()
             ->select('*')
@@ -80,7 +82,7 @@ class AnaliticsController extends Controller
                     ->setCellValue('B'.$index, $item['customer_id'])
                     ->setCellValue('C'.$index, $item['url'])
                     ->setCellValue('D'.$index, $item['url_mark'])
-                    ->setCellValue('E'.$index, '')//MenuItems::model()->find('url_mark = :id', array(':id' => $item['url_mark']))->name)
+                    ->setCellValue('E'.$index, MenuItems::model()->find('url_mark = :id', array(':id' => $item['url_mark']))->name)
                     ->setCellValue('F'.$index, $time)
                     ->setCellValue('G'.$index, $item['subscription_id'])
                     ->setCellValue('H'.$index, $item['link_id'])
