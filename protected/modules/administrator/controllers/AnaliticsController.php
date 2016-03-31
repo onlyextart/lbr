@@ -74,8 +74,14 @@ class AnaliticsController extends Controller
             $sheet->getStyle('A1:H1')->getFont()->setBold(true);
             for($col = 'A'; $col != 'I'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
             
+            $managementNameArray = array();
             foreach($info as $item) {
-                $managementName = MenuItems::model()->find('url_mark = :id and level = 4', array(':id' => $item['url_mark']))->name;
+                
+                if(!array_key_exists($item['url_mark'], $managementNameArray)) {
+                    $managementName = MenuItems::model()->find('url_mark = :id and level = 4', array(':id' => $item['url_mark']))->name;
+                    $managementNameArray[$item['url_mark']] = $managementName;
+                } else $managementName = $managementNameArray[$item['url_mark']];
+                
                 $timeSummary += $item['time'];
                 $time = $this->getTime($item['time']);
                 $objPHPExcel->setActiveSheetIndex(0)
