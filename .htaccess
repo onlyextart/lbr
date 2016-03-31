@@ -158,6 +158,7 @@ RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/propashnye-mezhduryadn
 RewriteRule ^(.*)(tehnika/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/346-pnevmaticheskie-seyalki-tochnogo-vyseva-sigma-5/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/vozdelyvanie-propashnykh-kultur/seyalki-tochnogo-vyseva/ [R=301,L]
 RewriteRule ^(.*)(tehnika/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/308-borony-tyazhelye-zubovye-brandt-contour-commander/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/shirokozakhvatnye-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/ [R=301,L]
 RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/kartofelesazhalki/395-kartofelesazhateli-kora/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/kartofelesazhalki/ [R=301,L]
+RewriteRule ^(.*)(tehnika/ovoshchi-i-kartofel/tekhnika-dlya-uborki-luka/746-ustrojstvo-dlja-obrezanija-botvy-luka-m-650/)(.*) http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/ovoshchi-i-kartofel/tekhnika-dlya-uborki-luka/ [R=301,L]
 
 
 RewriteRule ^tehnika/([^/]*)/([^/]*)/$ http://www.lbr.ru/selskohozyaystvennaya-tehnika/type/$1/$2/ [R=301,L]
