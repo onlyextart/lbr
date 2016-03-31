@@ -75,6 +75,7 @@ class AnaliticsController extends Controller
             for($col = 'A'; $col != 'I'; $col++) $sheet->getColumnDimension($col)->setWidth(30); //setAutoSize(true);
             
             foreach($info as $item) {
+                $managementName = MenuItems::model()->find('url_mark = :id and level = 4', array(':id' => $item['url_mark']))->name;
                 $timeSummary += $item['time'];
                 $time = $this->getTime($item['time']);
                 $objPHPExcel->setActiveSheetIndex(0)
@@ -82,7 +83,7 @@ class AnaliticsController extends Controller
                     ->setCellValue('B'.$index, $item['customer_id'])
                     ->setCellValue('C'.$index, $item['url'])
                     ->setCellValue('D'.$index, $item['url_mark'])
-                    ->setCellValue('E'.$index, '')//MenuItems::model()->find('url_mark = :id', array(':id' => $item['url_mark']))->name)
+                    ->setCellValue('E'.$index, $managementName)
                     ->setCellValue('F'.$index, $time)
                     ->setCellValue('G'.$index, $item['subscription_id'])
                     ->setCellValue('H'.$index, $item['link_id'])
