@@ -132,18 +132,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td width="180" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price1']; ?></span>
+                                <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price1']; ?>*</span>
                                 </td>
-                                <td width="180" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="180" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price2']; ?></span>
+                                <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price2']; ?>*</span>
                                 </td>
-                                <td width="200" style="padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
@@ -218,18 +218,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td width="180" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price3']; ?></span>
+                                <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price3']; ?>*</span>
                                 </td>
-                                <td width="180" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="180" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price4']; ?></span>
+                                <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price4']; ?>*</span>
                                 </td>
-                                <td width="200" style="padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
@@ -304,18 +304,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td width="180" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price5']; ?></span>
+                                <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price5']; ?>*</span>
                                 </td>
-                                <td width="180" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="180" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от <span style="font-weight:bold;font-size:20px;"><?php echo $data['price6']; ?></span>
+                                <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price6']; ?>*</span>
                                 </td>
-                                <td width="200" style="padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pruzhinnaja_borona_Akzent" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
@@ -391,18 +391,18 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td width="180" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от <span style="font-weight:bold;font-size:21px;"><?php echo $data['price7']; ?></span>
+                                <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;"><?php echo $data['price7']; ?>*</span>
                                 </td>
-                                <td width="180" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
-                                <td width="180" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от <span style="font-weight:bold;font-size:21px;"><?php echo $data['price8']; ?></span>
+                                <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;"><?php echo $data['price8']; ?>*</span>
                                 </td>
-                                <td width="200" style="padding: 5px 10px 10px 20px; text-align: right;">
+                                <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
@@ -413,7 +413,22 @@
                 </tr> 
                 
                 <tr>
-                    <td style="padding: 40px 20px 0px 20px;">
+                    <td style="padding:0px 20px 0px 20px;">
+                        <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background:#FFFFFF;">
+                            <tr>
+                                <td valign="top" style=" padding: 10px 0px 5px 5px">
+                                    <p style="margin:0; color: black;  font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; text-align: left; ">
+                                        * цена не включает доставку в регион
+                                    </p>
+
+                                </td>
+                           </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="padding: 30px 20px 0px 20px;">
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td style="padding-top: 3px;">
