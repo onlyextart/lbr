@@ -250,7 +250,6 @@
                     <li class="parent"><a href="/company/contacts/" title="Контакты">Контакты</a></li>
                     <li><a href="/sitemap/" title="Карта сайта">Карта сайта</a></li>
                     <li><a href="http://exchange.lbr.ru" title="Биржа перевозок ЛБР-Агромаркет">Биржа перевозок</a></li>
-                    
                 </ul>
             </div>
         </footer>
