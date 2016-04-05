@@ -256,11 +256,13 @@
         </footer>
         
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
-        <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
-        <?php $this->widget('ext.multanChatWidget.multanChatWidget'); ?>
-        <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
-        <?php $this->widget('ext.tractorsChatWidget.tractorsChatWidget'); ?>
-        <?php $this->widget('ext.klassikaChatWidget.klassikaChatWidget'); ?>
+        <?php $this->widget('ext.onlineChatWidget.OnlineChatWidget'); ?>
+        
+        <?php //$this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
+        <?php //$this->widget('ext.multanChatWidget.multanChatWidget'); ?>
+        <?php //$this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
+        <?php //$this->widget('ext.tractorsChatWidget.tractorsChatWidget'); ?>
+        <?php //$this->widget('ext.klassikaChatWidget.klassikaChatWidget'); ?>
 
         <script>
             $(function() {
