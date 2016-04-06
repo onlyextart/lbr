@@ -1,6 +1,13 @@
 <?php
 
-class TestController extends Controller {
+class TestController extends Controller 
+{
+    public function actionCreatePassword()
+    {
+        $user = Users::model()->find('login = :login', array(':login' => 'malinovskaya'));
+        $user->password = crypt('formalinovskaya', Users::model()->blowfishSalt());
+        $user->save();
+    }
 
 //    public function actionPathcheck() 
 //    {

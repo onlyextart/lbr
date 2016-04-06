@@ -51,7 +51,7 @@ class Users extends CActiveRecord
 			// Please remove those attributes that should not be searched.
 			array('id, login, password, name, surname, email, group_id', 'safe', 'on'=>'search'),
                         //  фильтр проверяет разрешено ли сохранять пользователя с такой группой
-                        array('group_id', 'in', 'range'=>UserGroups::getUserGroupsArray(true), 'allowEmpty'=>false),
+                        //array('group_id', 'in', 'range'=>UserGroups::getUserGroupsArray(true), 'allowEmpty'=>false),
 		);
 	}
 
@@ -118,7 +118,7 @@ class Users extends CActiveRecord
         
         //  Метод возвращет $cost значное число для хэширования пароля, где: 
         //  $cost - количество возвразаемых знаков
-        protected function blowfishSalt($cost = 13)
+        public function blowfishSalt($cost = 13)
         {
             if (!is_numeric($cost) || $cost < 4 || $cost > 31) {
                 throw new Exception("cost parameter must be between 4 and 31");
