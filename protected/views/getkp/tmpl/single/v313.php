@@ -42,12 +42,12 @@
                                     <td style="padding: 0px 20px 0px 20px;">
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#ebf0f3" align="center" style="border: 0; border-collapse: collapse; background: #ebf0f3;">
                                             <tr>
-                                            <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
+                                            <td style="padding: 10px 0px 10px 20px; width: 90px;" valign="top">
                                                     <a href="http://www.lbr.ru/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
-                                                        <img src="http://www.lbr.ru/images/kp/313-evp24/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
+                                                        <img src="http://www.lbr.ru/images/kp/313-evp24/logo.png" width="70"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
-                                                <td valign="top" style="width: 660px;  padding:20px 20px 0px 10px;text-align: center;">
+                                                <td valign="top" style="width: 680px;  padding:40px 20px 0px 10px;text-align: center;">
                                                     <span style="margin: 0; padding: 0; color: black; background: none !important; font-size: 14px; font-weight: normal; font-family: 'Myriad Pro', Arial Narrow, Arial, Helvetica,sans-serif; outline: none">
                                                         <?php echo $data['header']; ?>
                                                     </span>
@@ -133,7 +133,7 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">533 000 RUR*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">533 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL3" target="_blank">
@@ -141,7 +141,7 @@
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">619 000 RUR*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">619 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank">
@@ -219,7 +219,7 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">382 000 RUR*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">382 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank">
@@ -227,7 +227,7 @@
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">301 000 RUR*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">301 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank">
@@ -302,7 +302,7 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">736 000 RUR*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">736 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank">
@@ -310,7 +310,7 @@
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">876 000 RUR*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">876 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL4" target="_blank">
@@ -389,7 +389,7 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">548 000 RUR*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">548 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank">
@@ -397,7 +397,7 @@
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">108 000 RUR*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">108 000 </span><span style="font-size:17px;">RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
                                     <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank">
