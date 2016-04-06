@@ -29,7 +29,7 @@
                             <table width="800" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                                 <tr>
                                     <td style="padding: 10px 20px 10px 20px;">
-                                        <a href="http://www.lbr.ru/akcii/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                        <a href="http://www.lbr.ru/akcii/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=akcii" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/1.jpg" width="760" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                     </td>
                                 </tr>
                             </table>
@@ -43,7 +43,7 @@
                                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#ebf0f3" align="center" style="border: 0; border-collapse: collapse; background: #ebf0f3;">
                                             <tr>
                                             <td style="padding: 10px 0px 10px 20px; width: 110px;" valign="top">
-                                                    <a href="http://www.lbr.ru/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
+                                                    <a href="http://www.lbr.ru/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=glavnaya" title="Сайт ЛБР-агромаркет" style=" text-decoration: none; border: 0;">
                                                         <img src="http://www.lbr.ru/images/kp/313-evp24/logo.png" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                                     </a>
                                                 </td>
@@ -77,9 +77,9 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL3" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
-                                                        ПРЕДПОСЕВНОЙ КУЛЬТИВАТОР ATLAS
+                                                        ПРЕДПОСЕВНОЙ КУЛЬТИВАТОР ATLAS XXL 3,0
                                                     </span>
                                                 </a>
                                             </td>
@@ -89,7 +89,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПРЕДПОСЕВНОЙ КУЛЬТИВАТОР VIKING
                                                     </span>
@@ -133,18 +133,18 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price1']; ?>*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">533 000 RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL3" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price2']; ?>*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">619 000 RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/337-kultivatory-viking/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Viking" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -162,7 +162,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПРЕДПОСЕВНОЙ КУЛЬТИВАТОР KOMBI
                                                     </span>
@@ -174,7 +174,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         СТЕРНЕВОЙ КУЛЬТИВАТОР KOS
                                                     </span>
@@ -219,18 +219,18 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price3']; ?>*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">382 000 RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/335-kultivatory-kombi/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Kombi" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price4']; ?>*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">301 000 RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-sternevye/338-kultivatory-kos/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Sternevoj_kultivator_Kos" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -248,7 +248,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
                                                         МЕХАНИЧЕСКИЕ ЗЕРНОВЫЕ СЕЯЛКИ POLONEZ
                                                     </span>
@@ -260,9 +260,9 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pruzhinnaja_borona_Akzent" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL4" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
-                                                        ПРУЖИННАЯ БОРОНА AKZENT
+                                                        ПРЕДПОСЕВНОЙ КУЛЬТИВАТОР ATLAS XXL 4,0
                                                     </span>
                                                 </a>
                                             </td>
@@ -296,27 +296,24 @@
                                 </td>
                                 <td colspan="2" width="370" valign="top" style="padding: 10px 20px 5px 20px; text-align: left;">
                                      <p style="margin:0; color: black; padding: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: normal; text-align: left; ">
-                                         Уничтожает сорняки в состоянии белой нити. Зубья
-                                         бороны уничтожают капиляры, образовавшиеся в
-                                         поверхностных слежавшихся слоях почвы, что не дает
-                                         испарятся влаге.
+                                         Стабильное удержание заданной глубины обработки по всей длине и ширине захвата. Создает равномерный рыхлый слой способствующий качественной заделке семян.
                                     </p>
                                 </td>
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price5']; ?>*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">736 000 RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/zernovye-seyalki/332-zernovye-seyalki-polonez/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Mehanicheskie_zernovye_sejalki_Polonez" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;"><?php echo $data['price6']; ?>*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:20px;">876 000 RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/borony-pruzhinnye/334-pruzhinnye-borony-akzent/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pruzhinnaja_borona_Akzent" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/kultivatory-predposevnye/336-kultivatory-atlas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Predposevnoj_kultivator_Atlas_XXL4" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -334,7 +331,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left; vertical-align: top;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 20px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: right;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПЛУГИ ОБОРОТНЫЕ НАВЕСНЫЕ IBIS
                                                     </span>
@@ -346,7 +343,7 @@
                                                 <img src="http://www.lbr.ru/images/makers/unia_new.jpg" width="90"  style="border: 0; float: left;" alt="Логотип ЛБР-Агромаркет">
                                             </td>
                                             <td width="265" valign="middle" align="left" style="padding:0px 10px 0px 10px;">
-                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
+                                                <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank" style="font-size: 20px; font-weight: 800; font-family: 'Arial Black', Arial; text-decoration: none; color: #808080;">
                                                     <span style="margin:0; color: #256400; padding: 0; font-size: 14px; font-weight: normal;text-align: left;font-family: 'Trebuchet MS', sans-serif; ">
                                                         ПЛУГИ ЗАГОННЫЕ НАВЕСНЫЕ ОРЛИК
                                                     </span>
@@ -392,18 +389,18 @@
                             </tr>
                             <tr>
                                 <td width="210" bgcolor="#fff200" border="0" style="padding:5px 5px 5px 10px; background-color: #fff200;border: 0; font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;"><?php echo $data['price7']; ?>*</span>
+                                   от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">548 000 RUR*</span>
                                 </td>
                                 <td width="150" style="border-right:20px solid white; padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/323-plugi-oborotnye-navesnye-ibis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_oborotnye_navesnye_Ibis" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
                                 <td width="210" bgcolor="#fff200" style="padding:5px 5px 5px 10px;background-color: #fff200;font-family: 'Trebuchet MS', sans-serif; font-size: 11px; font-weight: normal; text-align: left; color: black;">
-                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;"><?php echo $data['price8']; ?>*</span>
+                                    от&nbsp;&nbsp;<span style="font-weight:bold;font-size:21px;">108 000 RUR*</span>
                                 </td>
                                 <td width="170" style="padding: 5px 10px 10px 20px; text-align: right;">
-                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank">
+                                    <a href="http://www.lbr.ru/tehnika/klassicheskie-tekhnologii-pochvoobrabotki-i-seva/plugi/600-plugi-oborotnye-navesnye-vis/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Plugi_zagonnye_navesnye_Orlik" target="_blank">
                                         <img src="http://www.lbr.ru/images/kp/313-evp24/more.png" width="110" style="border: 0; text-align: right;" alt="Изображения не отображаются">
                                     </a>
                                 </td>
@@ -443,13 +440,13 @@
                         <table width="760" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" style="border: 0; border-collapse: collapse; background: white;">
                             <tr>
                                 <td width="253">
-                                    <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Razbrasyvateli_udobrenij_MX950" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_1.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/vnesenie-udobrenij/navesnye-razbrasyvateli-mineralnykh-udobrenij/431-razbrasyvateli-mineralnykh-udobrenij-navesnye-mx/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Razbrasyvateli_udobrenij_MX950" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_1.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                                 <td width="254">
-                                    <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-samosvalnye/621-pritsepy-samosvalnye-barkas/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pricepy_samosvalnye_Barkas" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_2.jpg" width="254" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/selkhoz-pritsepy-i-peregruzchiki/pritsepy-samosvalnye/621-pritsepy-samosvalnye-barkas/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Pricepy_samosvalnye_Barkas" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_2.jpg" width="254" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                                 <td width="253">
-                                    <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/?sb=TEST&ct=<?php echo SecurityController::encrypt($email);?>&lk=Izmelchiteli_rulonov_Uniball" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_3.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
+                                    <a href="http://www.lbr.ru/tehnika/kormorazdatchiki-i-kombikormovye-mini-zavody/izmelchiteli-rulonov-i-vyduvateli-solomy/389-izmelchiteli-rulonov-serii-uniball/?sb=EVP_24&ct=<?php echo SecurityController::encrypt($email);?>&lk=Izmelchiteli_rulonov_Uniball" target="_blank"><img src="http://www.lbr.ru/images/kp/313-evp24/banner1_3.jpg" width="253" style="border: 0; float: left;" alt="Изображения не отображаются"></a>
                                 </td>
                             </tr>
                         </table>
