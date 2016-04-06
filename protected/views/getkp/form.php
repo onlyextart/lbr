@@ -16,11 +16,11 @@ and open the template in the editor.
             <div><span>Finance_block:</span><input name="finance_block" value="0" type="text"></div>
             <div><span>Finance text:</span><input name="finance_block_text" type="text"></div>
             <div><span>Price count:</span><input name="price_count" value="5" type="text"></div>
-            <div><span>Price 1:</span><input name="price1" value="1234" type="text"></div>
-            <div><span>Price 2:</span><input name="price2" value="5678" type="text"></div>
-            <div><span>Price 3:</span><input name="price3" value="91011" type="text"></div>
-            <div><span>Price 4:</span><input name="price4" value="4321" type="text"></div>
-            <div><span>Price 5:</span><input name="price5" value="98765" type="text"></div>
+            <div><span>Price 1:</span><input name="price1" value="1 234 567 RUR" type="text"></div>
+            <div><span>Price 2:</span><input name="price2" value="8 910 111 RUR" type="text"></div>
+            <div><span>Price 3:</span><input name="price3" value="2 131 141 RUR" type="text"></div>
+            <div><span>Price 4:</span><input name="price4" value="5 161 718 RUR" type="text"></div>
+            <div><span>Price 5:</span><input name="price5" value="1 920 212 RUR" type="text"></div>
             <div><span>Product Info 1</span><input name="product_info1" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
             <div><span>Product Info 2</span><input name="product_info2" value="" type="text"></div>
             <div><span>Product Info 3</span><input name="product_info3" value="ТЕСТ, ТЕСТ, ТЕСТ" type="text"></div>
