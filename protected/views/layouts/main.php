@@ -250,17 +250,18 @@
                     <li class="parent"><a href="/company/contacts/" title="Контакты">Контакты</a></li>
                     <li><a href="/sitemap/" title="Карта сайта">Карта сайта</a></li>
                     <li><a href="http://exchange.lbr.ru" title="Биржа перевозок ЛБР-Агромаркет">Биржа перевозок</a></li>
-                    
                 </ul>
             </div>
         </footer>
         
         <?php $this->widget('ext.adminPanelWidget.AdminPanelWidget'); ?>
-        <?php $this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
-        <?php $this->widget('ext.multanChatWidget.multanChatWidget'); ?>
-        <?php $this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
-        <?php $this->widget('ext.tractorsChatWidget.tractorsChatWidget'); ?>
-        <?php $this->widget('ext.klassikaChatWidget.klassikaChatWidget'); ?>
+        <?php $this->widget('ext.onlineChatWidget.OnlineChatWidget'); ?>
+        
+        <?php //$this->widget('ext.dieciChatWidget.DieciChatWidget'); ?>
+        <?php //$this->widget('ext.multanChatWidget.multanChatWidget'); ?>
+        <?php //$this->widget('ext.kornijchenkoChatWidget.kornijchenkoChatWidget'); ?>
+        <?php //$this->widget('ext.tractorsChatWidget.tractorsChatWidget'); ?>
+        <?php //$this->widget('ext.klassikaChatWidget.klassikaChatWidget'); ?>
 
         <script>
             $(function() {
